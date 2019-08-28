@@ -1,0 +1,27 @@
+{
+  "name": "csswg-drafts-index",
+  "version": "1.0.0",
+  "description": "CSSWG drafts index",
+  "main": "...",
+  "discovery": "./ui/config.js",
+  "scripts": {
+    "sync": "bash sync.sh",
+    "index": "node index.js",
+    "sync-index": "npm run sync && npm run index",
+    "discovery": "discovery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lahmatiy/csswg-drafts-index.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lahmatiy/csswg-drafts-index/issues"
+  },
+  "homepage": "https://github.com/lahmatiy/csswg-drafts-index#readme",
+  "dependencies": {
+    "@discoveryjs/discovery": "^1.0.0-beta.16"
+  }
+}

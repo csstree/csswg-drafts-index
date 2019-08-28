@@ -9,17 +9,49 @@ const ignoreDirs = new Set([
 const uniqueCls = new Set();
 const defs = [];
 
+function processTextBlock(lines, block) {
+    const keyValueRx = /^\s*(\S.+?):\s*(.+)/;
+    let prevProp = '';
+
+    for (let i = 0; i < lines.length; i++) {
+        const keyValueMatch = lines[i].match(keyValueRx);
+
+        if (keyValueMatch) {
+            let key = keyValueMatch[1].toLowerCase().replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
+            const value = keyValueMatch[2];
+
+            if (key in block) {
+                block[key] += '\n' + value;
+            } else {
+                block[key] = value;
+            }
+
+            prevProp = key;
+        } else {
+            if (prevProp) {
+                block[prevProp] += '\n' + lines[i].trim();
+            } else {
+                console.log('[WTF]!:', lines[i])
+            }
+        }
+    }
+
+    return block;
+}
+function processTableBlock(lines, block) {
+    return block;
+}
+
 function processBs(fn) {
     // comment to process all files
     if (fn !== path.resolve('./csswg-drafts/css-backgrounds-4/Overview.bs')) {
-        return;
+        // return;
     }
 
     const content = fs.readFileSync(fn, 'utf8');
     const lines = content.split(/\r\n?|\n/);
     const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
     const blockEndRx = /^\s*<\/(\S+?)>/;
-    const keyValueRx = /^\s*(\S.+?):\s*(.+)/;
 
     for (let i = 0; i < lines.length; i++) {
         const blockStart = lines[i].match(blockStartRx);
@@ -37,12 +69,14 @@ function processBs(fn) {
             }
 
             // console.log('>>>>>', type);
-            const lineNum = i;
             const blockEnd = offset + '</' + el + '>';
+            const blockLines = [];
             let block = Object.create(null);
-            let prevProp = '';
 
-            block.loc = path.relative(CSSWG_PATH, fn) + ':' + lineNum;
+            block.el = el;
+            block.type = type;
+            block.file = path.relative(CSSWG_PATH, fn);
+            block.line = i;
 
             for (i++; i < lines.length; i++) {
                 if (!lines[i]) {
@@ -55,27 +89,12 @@ function processBs(fn) {
                     break;
                 }
 
-                const keyValueMatch = lines[i].match(keyValueRx);
-
-                if (keyValueMatch) {
-                    let key = keyValueMatch[1].toLowerCase().replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
-                    const value = keyValueMatch[2];
-
-                    if (key in block) {
-                        block[key] += '\n' + value;
-                    } else {
-                        block[key] = value;
-                    }
-
-                    prevProp = key;
-                } else {
-                    if (prevProp) {
-                        block[prevProp] += '\n' + lines[i].trim();
-                    } else {
-                        console.log('[WTF]!:', lines[i])
-                    }
-                }
+                blockLines.push(lines[i]);
             }
+
+            block = el === 'table'
+                ? processTableBlock(blockLines, block)
+                : processTextBlock(blockLines, block);
 
             if (block.value) {
                 block.value = block.value
@@ -86,7 +105,6 @@ function processBs(fn) {
             (block.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
                 defs.push({ ...block, name });
             });
-
 
             // console.log(block);
             // console.log('');
@@ -118,15 +136,19 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
     }
 });
 
-function printList(ar) {
-    Array.from(ar).sort().forEach(item => console.log('- ' + item));
+if (process.mainModule === module) {
+    console.log(defs);
 }
+
+module.exports = defs;
+
+// function printList(ar) {
+//     Array.from(ar).sort().forEach(item => console.log('- ' + item));
+// }
 
 // console.log(`Props (${uniqueCls.size}):\n- `);
 // printList(uniqueCls);
 // console.log()
-console.log(defs);
-
 
 // const newProps = [...uniqueCls].filter(name => !knownProperties.has(name));
 // console.log(`New props (${newProps.length}):`);

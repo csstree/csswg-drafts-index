@@ -6,7 +6,14 @@ Run `sync.sh` to clone/fetch repos
 bash sync.sh
 ```
 
-Run main script:
+Launch discovery:
+
 ```
-node index
+npx discovery
+```
+
+or
+
+```
+npm run discovery
 ```
