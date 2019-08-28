@@ -1,0 +1,18 @@
+.view-syntax a {
+    white-space: nowrap;
+    color: #333;
+    text-decoration-color: #b8b8b8;
+}
+.view-syntax a:hover {
+    color: black;
+    text-decoration-color: currentColor;
+}
+.view-syntax .error {
+    color: #d00 !important;
+}
+.view-syntax .match {
+    background: #fff4ad;
+    box-shadow: 0 1px 0 2px #fff4ad;
+    white-space: nowrap;
+    border-radius: 3px;
+}

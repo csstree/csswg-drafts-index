@@ -1,0 +1,7 @@
+.discovery-sidebar .header > .view-link {
+    color: #dd0077;
+    text-decoration-color: #f2aecb;
+}
+.discovery-sidebar .header > .view-link:hover {
+    text-decoration-color: currentColor;
+}

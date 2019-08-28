@@ -7,6 +7,7 @@ const ignoreDirs = new Set([
     'css-module-bikeshed'
 ]);
 const uniqueCls = new Set();
+const specs = [];
 const defs = [];
 
 function processTextBlock(lines, block) {
@@ -38,13 +39,25 @@ function processTextBlock(lines, block) {
 
     return block;
 }
+
 function processTableBlock(lines, block) {
     return block;
 }
 
+const blocks = {
+    metadata: 'spec',
+    propdef: 'prop',
+    'propdef-shorthand': 'prop',
+    'propdef-partial': 'prop-partial',
+    'descdef-mq': 'media-query',
+    'descdef': 'descriptor'
+};
+
 function processBs(fn) {
+    const relfn = path.relative(CSSWG_PATH, fn);
+
     // comment to process all files
-    if (fn !== path.resolve('./csswg-drafts/css-backgrounds-4/Overview.bs')) {
+    if (relfn !== 'css-backgrounds-4/Overview.bs') {
         // return;
     }
 
@@ -52,6 +65,11 @@ function processBs(fn) {
     const lines = content.split(/\r\n?|\n/);
     const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
     const blockEndRx = /^\s*<\/(\S+?)>/;
+    const spec = {
+        id: path.dirname(relfn),
+        title: path.dirname(relfn),
+        file: relfn
+    };
 
     for (let i = 0; i < lines.length; i++) {
         const blockStart = lines[i].match(blockStartRx);
@@ -60,23 +78,34 @@ function processBs(fn) {
             const [, offset, el, cls1, cls2, cls3] = blockStart;
             let type = (cls1 || cls2 || cls3).replace(/\s+/g, '-');
 
+            // FIXME: 2 entries in css-overflow-3
             if (type === 'shorthand-propdef') {
+                // console.log(fn, i);
                 type = 'propdef-shorthand';
             }
 
-            if (!type.match(/propdef\b/)) {
+            if (!blocks.hasOwnProperty(type)) {
                 continue;
             }
+
+            type = blocks[type];
 
             // console.log('>>>>>', type);
             const blockEnd = offset + '</' + el + '>';
             const blockLines = [];
-            let block = Object.create(null);
+            let entry = Object.create(null);
 
-            block.el = el;
-            block.type = type;
-            block.file = path.relative(CSSWG_PATH, fn);
-            block.line = i;
+            entry.defType = type;
+            
+            if (type === 'spec') {
+                entry.id = path.dirname(relfn);
+            } else {
+                entry.el = el;
+                entry.source = {
+                    spec: path.dirname(relfn),
+                    line: i
+                };
+            }
 
             for (i++; i < lines.length; i++) {
                 if (!lines[i]) {
@@ -85,26 +114,49 @@ function processBs(fn) {
 
                 const [blockEndMatch] = lines[i].match(blockEndRx) || [''];
 
+                // FIXME: wrong indent
+                // - css-gcpm-3/Overview.bs:437
+                // - css-gcpm-3/Overview.bs:448
                 if (blockEndMatch === blockEnd) {
                     break;
                 }
 
                 blockLines.push(lines[i]);
+            };
+
+            entry = el === 'table'
+                ? processTableBlock(blockLines, entry)
+                : processTextBlock(blockLines, entry);
+
+            if (type === 'spec') {
+                specs.push(entry);
+
+                if (!entry.title) {
+                    entry.title = entry.id;
+                    console.log(entry);
+                }            
+            } else {
+                if (entry.value) {
+                    entry.value = entry.value
+                        .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>')
+                        // FIXME: 1 entry
+                        .replace(/&nbsp;?/g, ' ')
+                        // FIXME: 8 entry
+                        .replace(/&lt;?/g, '<')
+                        .replace(/&gt;?/g, '>')
+                        // FIXME: 1 entry
+                        .replace(/&amp;?/g, '&');
+                }
+
+                if (entry.computedValue) {
+                    entry.computedValue = entry.computedValue
+                        .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>');
+                }
+
+                (entry.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
+                    defs.push({ ...entry, name });
+                });
             }
-
-            block = el === 'table'
-                ? processTableBlock(blockLines, block)
-                : processTextBlock(blockLines, block);
-
-            if (block.value) {
-                block.value = block.value
-                    .replace(/<</g, '<')
-                    .replace(/>>/g, '>');
-            }
-
-            (block.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
-                defs.push({ ...block, name });
-            });
 
             // console.log(block);
             // console.log('');
@@ -130,17 +182,20 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
         ) {
             // TODO: process html files too
         } else {
-            // skip
             // console.log('SKIP:', fpath);
         }
     }
 });
 
-if (process.mainModule === module) {
-    console.log(defs);
-}
 
-module.exports = defs;
+module.exports = {
+    specs,
+    defs
+};
+
+if (process.mainModule === module) {
+    console.log(module.exports);
+}
 
 // function printList(ar) {
 //     Array.from(ar).sort().forEach(item => console.log('- ' + item));

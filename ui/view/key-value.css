@@ -1,0 +1,30 @@
+.view-key-value {
+    display: table;
+    border-collapse: collapse;
+    border: solid #fafafa;
+    border-width: 4px 8px;
+    margin: 1px 0;
+}
+
+.view-key-value-item {
+    display: table-row;
+}
+
+.view-key-value-item-key,
+.view-key-value-item-value {
+    display: table-cell;
+    background: #fafafa;
+    background-clip: padding-box;
+    border-width: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.view-key-value-item-key {
+    padding: 2px 12px 2px 8px;
+    font-size: 12px;
+    color: #888;
+}
+.view-key-value-item-value > .view-struct {
+    padding: 5px 4px;
+    margin: 0;
+}

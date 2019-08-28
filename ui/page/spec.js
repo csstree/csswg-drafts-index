@@ -1,6 +1,6 @@
 discovery.page.define('spec', {
     view: 'context',
-    data: '{ name: #.id, defs: .[file=#.id] }',
+    data: '{ name: #.id, defs: defs.[source.spec.id=#.id] }',
     content: [
         'h1:name',
         {
@@ -9,9 +9,10 @@ discovery.page.define('spec', {
             cols: {
                 el: false,
                 type: false,
-                file: false,
-                line: false,
-                id: false
+                source: false,
+                id: false,
+                name: 'auto-link',
+                value: 'syntax:{syntax:$.value}'
             }
         }
     ]

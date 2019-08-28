@@ -1,8 +1,31 @@
 discovery.setPrepare(function(data) {
-    data.forEach(item => item.id = item.file + '/' + item.type + '/' + item.name);
+    const specIndex = data.specs.reduce(
+        (map, item) => map
+            .set(item, item)
+            .set(item.id, item),
+        new Map()
+    );
+    discovery.addEntityResolver(value => {
+        if (value) {
+            value = specIndex.get(value) || specIndex.get(value.id);
+        }
+
+        if (value) {
+            return {
+                type: 'spec',
+                id: value.id,
+                name: value.title,
+                entity: value
+            };
+        }
+    });
+
+    data.defs.forEach(item => {
+        item.source.spec = specIndex.get(item.source.spec);
+        item.id = item.source.spec.id + '/' + item.defType + '/' + item.name;
+    });
     
-    console.log(data);
-    const syntaxIndex = data.reduce(
+    const syntaxIndex = data.defs.reduce(
         (map, item) => map
             .set(item, item)
             .set(item.id, item),
@@ -17,29 +40,6 @@ discovery.setPrepare(function(data) {
             return {
                 type: 'def',
                 id: value.id,
-                name: value.name,
-                entity: value
-            };
-        }
-    });
-
-    const specIndex = [...new Set(data.map(e => e.file))].reduce(
-        (map, item) => map
-            .set(item, {
-                name: item,
-                file: item
-            }),
-        new Map()
-    );
-    discovery.addEntityResolver(value => {
-        if (value) {
-            value = specIndex.get(value) || specIndex.get(value.id);
-        }
-
-        if (value) {
-            return {
-                type: 'spec',
-                id: value.name,
                 name: value.name,
                 entity: value
             };

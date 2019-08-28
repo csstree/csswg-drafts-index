@@ -6,9 +6,8 @@
   "discovery": "./ui/config.js",
   "scripts": {
     "sync": "bash sync.sh",
-    "index": "node index.js",
-    "sync-index": "npm run sync && npm run index",
-    "discovery": "discovery"
+    "discovery": "discovery",
+    "postinstall": "npm run sync"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/lahmatiy/csswg-drafts-index#readme",
   "dependencies": {
-    "@discoveryjs/discovery": "^1.0.0-beta.16"
+    "@discoveryjs/discovery": "^1.0.0-beta.16",
+    "css-tree": "^1.0.0-alpha.34"
   }
 }

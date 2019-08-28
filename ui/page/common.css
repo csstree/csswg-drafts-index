@@ -1,0 +1,16 @@
+.page > .view-badge,
+.page > .view-pill-badge {
+    display: inline-block;
+    padding: 3px 8px 3px;
+}
+
+.page > .view-badge + .view-h1,
+.page > .view-pill-badge + .view-h1 {
+    margin-top: 0;
+}
+
+.page > .view-badge .prefix,
+.page > .view-pill-badge .prefix {
+    padding: 5px 8px 6px;
+    margin: -3px 6px -3px -8px;
+}
