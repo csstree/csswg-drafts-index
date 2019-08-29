@@ -6,14 +6,14 @@ discovery.view.define('sidebar', {
             emptyText: 'No matches',
             data: `
                 specs
-                .sort(<title>)
+                .sort(<props.title>)
                 .($spec: $;{
                     ...,
                     defs: @.defs
-                        .[source.spec = $spec and (no #.filter or name ~= #.filter)]
-                        .sort(<name>)
+                        .[source.spec = $spec and (no #.filter or props.name ~= #.filter)]
+                        .sort(<props.name>)
                 })
-                .[defs.size() or (#.filter and title ~= #.filter)]
+                .[defs.size() or (#.filter and props.title ~= #.filter)]
             `,
             item: {
                 view: 'toc-section',
@@ -32,7 +32,7 @@ discovery.view.define('sidebar', {
                     emptyText: false && 'No definitions',
                     data: 'defs',
                     item: [
-                        'badge:{ text: defType, color: "#cee4ab" }',
+                        'badge:{ text: type, color: "#cee4ab" }',
                         {
                             view: 'auto-link',
                             content: 'text-match:{ text, match: #.filter }'

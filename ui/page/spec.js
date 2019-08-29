@@ -1,18 +1,19 @@
 discovery.page.define('spec', {
     view: 'context',
-    data: '{ name: #.id, defs: defs.[source.spec.id=#.id] }',
+    data: 'specs.pick(<id = #.id>)',
     content: [
-        'h1:name',
+        'h1:props.title',
+        'key-value:props',
         {
             view: 'table',
-            data: 'defs',
+            data: '$spec:$; #.data.defs.[source.spec = $spec].props',
             cols: {
                 el: false,
                 type: false,
                 source: false,
                 id: false,
                 name: 'auto-link',
-                value: 'syntax:{syntax:$.value}'
+                value: 'syntax:value'
             }
         }
     ]

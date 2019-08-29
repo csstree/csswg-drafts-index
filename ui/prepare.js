@@ -14,7 +14,7 @@ discovery.setPrepare(function(data) {
             return {
                 type: 'spec',
                 id: value.id,
-                name: value.title,
+                name: value.props.title,
                 entity: value
             };
         }
@@ -25,22 +25,23 @@ discovery.setPrepare(function(data) {
         item.id = item.source.spec.id + '/' + item.defType + '/' + item.name;
     });
     
-    const syntaxIndex = data.defs.reduce(
+    const defIndex = data.defs.reduce(
         (map, item) => map
             .set(item, item)
-            .set(item.id, item),
+            .set(item.id, item)
+            .set(item.props, item),
         new Map()
     );
     discovery.addEntityResolver(value => {
         if (value) {
-            value = syntaxIndex.get(value) || syntaxIndex.get(value.id);
+            value = defIndex.get(value) || defIndex.get(value.id);
         }
 
         if (value) {
             return {
                 type: 'def',
                 id: value.id,
-                name: value.name,
+                name: value.props.name,
                 entity: value
             };
         }

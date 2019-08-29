@@ -10,7 +10,8 @@ const uniqueCls = new Set();
 const specs = [];
 const defs = [];
 
-function processTextBlock(lines, block) {
+function processTextBlock(lines) {
+    const props = {};
     const keyValueRx = /^\s*(\S.+?):\s*(.+)/;
     let prevProp = '';
 
@@ -21,27 +22,27 @@ function processTextBlock(lines, block) {
             let key = keyValueMatch[1].toLowerCase().replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
             const value = keyValueMatch[2];
 
-            if (key in block) {
-                block[key] += '\n' + value;
+            if (key in props) {
+                props[key] += '\n' + value;
             } else {
-                block[key] = value;
+                props[key] = value;
             }
 
             prevProp = key;
         } else {
             if (prevProp) {
-                block[prevProp] += '\n' + lines[i].trim();
+                props[prevProp] += '\n' + lines[i].trim();
             } else {
                 console.log('[WTF]!:', lines[i])
             }
         }
     }
 
-    return block;
+    return props;
 }
 
-function processTableBlock(lines, block) {
-    return block;
+function processTableBlock(lines) {
+    return {};
 }
 
 const blocks = {
@@ -95,7 +96,7 @@ function processBs(fn) {
             const blockLines = [];
             let entry = Object.create(null);
 
-            entry.defType = type;
+            entry.type = type;
             
             if (type === 'spec') {
                 entry.id = path.dirname(relfn);
@@ -124,20 +125,20 @@ function processBs(fn) {
                 blockLines.push(lines[i]);
             };
 
-            entry = el === 'table'
-                ? processTableBlock(blockLines, entry)
-                : processTextBlock(blockLines, entry);
+            entry.props = el === 'table'
+                ? processTableBlock(blockLines)
+                : processTextBlock(blockLines);
 
             if (type === 'spec') {
                 specs.push(entry);
 
-                if (!entry.title) {
-                    entry.title = entry.id;
-                    console.log(entry);
+                if (!entry.props.title) {
+                    entry.props.title = entry.id;
+                    // console.log(entry);
                 }            
             } else {
-                if (entry.value) {
-                    entry.value = entry.value
+                if (entry.props.value) {
+                    entry.props.value = entry.props.value
                         .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>')
                         // FIXME: 1 entry
                         .replace(/&nbsp;?/g, ' ')
@@ -148,13 +149,16 @@ function processBs(fn) {
                         .replace(/&amp;?/g, '&');
                 }
 
-                if (entry.computedValue) {
-                    entry.computedValue = entry.computedValue
+                if (entry.props.computedValue) {
+                    entry.props.computedValue = entry.props.computedValue
                         .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>');
                 }
 
-                (entry.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
-                    defs.push({ ...entry, name });
+                (entry.props.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
+                    defs.push({
+                        ...entry,
+                        props: { ...entry.props, name }
+                    });
                 });
             }
 
