@@ -6,7 +6,8 @@
   "discovery": "./ui/config.js",
   "scripts": {
     "sync": "bash sync.sh",
-    "discovery": "discovery",
+    "start": "discovery",
+    "build": "discovery-build -o docs --pretty-data",
     "postinstall": "npm run sync"
   },
   "repository": {
