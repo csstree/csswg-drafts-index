@@ -22,7 +22,7 @@ discovery.setPrepare(function(data) {
 
     data.defs.forEach(item => {
         item.source.spec = specIndex.get(item.source.spec);
-        item.id = item.source.spec.id + '/' + item.defType + '/' + item.name;
+        item.id = item.source.spec.id + '/' + item.type + '/' + item.props.name;
     });
     
     const defIndex = data.defs.reduce(
