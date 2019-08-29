@@ -1,19 +1,12 @@
 ## How to start
 
-Run `sync.sh` to clone/fetch repos
-
-```
-bash sync.sh
-```
-
-Launch discovery:
-
-```
-npx discovery
+```bash
+npm install
+npx discovery # or `npm run discovery`
 ```
 
-or
+To clone/fetch repos manualy run:
 
-```
-npm run discovery
+```bash
+bash sync.sh # or `npm run sync`
 ```
