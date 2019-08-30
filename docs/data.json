@@ -1,7 +1,7 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-08-30T16:04:56.129Z",
-    "elapsedTime": 100,
+    "createdAt": "2019-08-30T16:50:07.151Z",
+    "elapsedTime": 139,
     "data": {
         "specs": [
             {
@@ -4689,7 +4689,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 56
+                    "line": 55
                 },
                 "props": {
                     "name": "font-family",
@@ -4707,7 +4707,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 406
+                    "line": 405
                 },
                 "props": {
                     "name": "font-weight",
@@ -4725,7 +4725,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 552
+                    "line": 551
                 },
                 "props": {
                     "name": "font-stretch",
@@ -4743,7 +4743,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 624
+                    "line": 623
                 },
                 "props": {
                     "name": "font-style",
@@ -4753,7 +4753,7 @@
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "the keyword specified, plus angle in degrees if specified",
-                    "animationType": "by computed value type;\n'normal' animates as 'oblique 0deg'"
+                    "animationType": "by computed value type"
                 }
             },
             {
@@ -4761,7 +4761,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 741
+                    "line": 738
                 },
                 "props": {
                     "name": "font-size",
@@ -4779,7 +4779,43 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 920
+                    "line": 905
+                },
+                "props": {
+                    "name": "font-min-size",
+                    "value": "<absolute-size> | <relative-size> | <length-percentage>",
+                    "initial": "0",
+                    "appliesTo": "all elements",
+                    "inherited": "yes",
+                    "percentages": "refer to parent element's font size",
+                    "computedValue": "an absolute length",
+                    "animationType": "by computed value type"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "pre",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 916
+                },
+                "props": {
+                    "name": "font-max-size",
+                    "value": "<absolute-size> | <relative-size> | <length-percentage> | infinity",
+                    "initial": "infinity",
+                    "appliesTo": "all elements",
+                    "inherited": "yes",
+                    "percentages": "refer to parent element's font size",
+                    "computedValue": "an absolute length",
+                    "animationType": "by computed value type"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "pre",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 946
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -4797,7 +4833,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1092
+                    "line": 1118
                 },
                 "props": {
                     "name": "font",
@@ -4815,7 +4851,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1319
+                    "line": 1345
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -4834,7 +4870,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1348
+                    "line": 1374
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -4853,7 +4889,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1377
+                    "line": 1403
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -4871,7 +4907,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1405
+                    "line": 1431
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -4889,7 +4925,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1692
+                    "line": 1718
                 },
                 "props": {
                     "name": "font-family",
@@ -4903,7 +4939,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1717
+                    "line": 1743
                 },
                 "props": {
                     "name": "src",
@@ -4917,7 +4953,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2090
+                    "line": 2116
                 },
                 "props": {
                     "name": "font-style",
@@ -4931,7 +4967,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2097
+                    "line": 2123
                 },
                 "props": {
                     "name": "font-weight",
@@ -4945,7 +4981,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2104
+                    "line": 2130
                 },
                 "props": {
                     "name": "font-stretch",
@@ -4959,7 +4995,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2212
+                    "line": 2238
                 },
                 "props": {
                     "name": "unicode-range",
@@ -4973,7 +5009,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2425
+                    "line": 2451
                 },
                 "props": {
                     "name": "font-variant",
@@ -4987,7 +5023,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2442
+                    "line": 2468
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -5001,7 +5037,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2449
+                    "line": 2475
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -5015,7 +5051,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2480
+                    "line": 2506
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -5029,7 +5065,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2617
+                    "line": 2643
                 },
                 "props": {
                     "name": "font-display",
@@ -5043,7 +5079,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2778
+                    "line": 2804
                 },
                 "props": {
                     "name": "font-display",
@@ -5057,7 +5093,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2788
+                    "line": 2814
                 },
                 "props": {
                     "name": "font-language-override",
@@ -5071,7 +5107,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3481
+                    "line": 3507
                 },
                 "props": {
                     "name": "font-kerning",
@@ -5089,7 +5125,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3551
+                    "line": 3577
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -5107,7 +5143,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3658
+                    "line": 3684
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -5125,7 +5161,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3864
+                    "line": 3890
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -5143,7 +5179,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4023
+                    "line": 4049
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -5161,7 +5197,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4158
+                    "line": 4184
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -5179,7 +5215,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4616
+                    "line": 4642
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -5197,7 +5233,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4724
+                    "line": 4750
                 },
                 "props": {
                     "name": "font-variant",
@@ -5215,7 +5251,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4760
+                    "line": 4786
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -5233,7 +5269,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4934
+                    "line": 4960
                 },
                 "props": {
                     "name": "font-language-override",
@@ -5251,7 +5287,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5245
+                    "line": 5271
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -5269,7 +5305,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5328
+                    "line": 5354
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -5287,7 +5323,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5452
+                    "line": 5478
                 },
                 "props": {
                     "name": "font-palette",
@@ -5305,7 +5341,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5611
+                    "line": 5637
                 },
                 "props": {
                     "name": "font-family",
@@ -5319,7 +5355,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5630
+                    "line": 5656
                 },
                 "props": {
                     "name": "base-palette",
@@ -5333,7 +5369,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5692
+                    "line": 5718
                 },
                 "props": {
                     "name": "override-color",
@@ -5347,7 +5383,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5739
+                    "line": 5765
                 },
                 "props": {
                     "name": "font-variant-emoji",

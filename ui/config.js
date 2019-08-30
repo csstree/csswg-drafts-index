@@ -13,6 +13,7 @@ module.exports = {
             './page/common.css',
             './page/default.js',
             './page/definition.js',
+            './page/definitions.js',
             './page/spec.js',
             './view/key-value.css',
             './view/key-value.js',
