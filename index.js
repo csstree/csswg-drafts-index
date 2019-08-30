@@ -133,6 +133,7 @@ function processBs(fn) {
             entry.type = type;
             
             if (type === 'spec') {
+                entry.file = relfn;
                 entry.id = path.dirname(relfn);
             } else {
                 entry.el = el;

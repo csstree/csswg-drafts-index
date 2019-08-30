@@ -16,6 +16,8 @@ module.exports = {
             './page/spec.js',
             './view/key-value.css',
             './view/key-value.js',
+            './view/pre.css',
+            './view/pre.js',
             './view/sidebar.css',
             './view/sidebar.js',
             './view/syntax.css',

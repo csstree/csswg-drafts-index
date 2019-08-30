@@ -1,3 +1,7 @@
+.discovery-sidebar .view-toc-section > .header {
+    text-transform: none;
+}
+
 .discovery-sidebar .header > .view-link {
     color: #dd0077;
     text-decoration-color: #f2aecb;

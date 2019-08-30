@@ -1,11 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-08-29T18:11:58.992Z",
-    "elapsedTime": 200,
+    "createdAt": "2019-08-30T16:04:56.129Z",
+    "elapsedTime": 100,
     "data": {
         "specs": [
             {
                 "type": "spec",
+                "file": "css-2015/Overview.bs",
                 "id": "css-2015",
                 "props": {
                     "title": "CSS Snapshot 2015",
@@ -23,6 +24,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-2017/Overview.bs",
                 "id": "css-2017",
                 "props": {
                     "title": "CSS Snapshot 2017",
@@ -39,6 +41,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-2018/Overview.bs",
                 "id": "css-2018",
                 "props": {
                     "title": "CSS Snapshot 2018",
@@ -57,6 +60,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-align-3/Overview.bs",
                 "id": "css-align-3",
                 "props": {
                     "title": "CSS Box Alignment Module Level 3",
@@ -76,6 +80,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-animations-1/Overview.bs",
                 "id": "css-animations-1",
                 "props": {
                     "title": "CSS Animations Level 1",
@@ -97,6 +102,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-animations-2/Overview.bs",
                 "id": "css-animations-2",
                 "props": {
                     "title": "CSS Animations Level 2",
@@ -114,6 +120,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-backgrounds-3/Overview.bs",
                 "id": "css-backgrounds-3",
                 "props": {
                     "title": "CSS Backgrounds and Borders Module Level 3",
@@ -131,11 +138,12 @@
                     "abstract": "This draft contains the features of CSS relating to borders and backgrounds. The main extensions compared to <a href=\"https://www.w3.org/TR/CSS2/\">level&nbsp;2</a> are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows.",
                     "testSuite": "http://test.csswg.org/suites/css3-background/nightly-unstable/",
                     "atRisk": "animatability of 'box-shadow'",
-                    "use<i>Autolinks": "yes"
+                    "useAutolinks": "yes"
                 }
             },
             {
                 "type": "spec",
+                "file": "css-backgrounds-4/Overview.bs",
                 "id": "css-backgrounds-4",
                 "props": {
                     "title": "CSS Backgrounds and Borders Module Level 4",
@@ -153,6 +161,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-box-3/Overview.bs",
                 "id": "css-box-3",
                 "props": {
                     "title": "CSS Box Model Module Level 3",
@@ -171,6 +180,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-break-3/Overview.bs",
                 "id": "css-break-3",
                 "props": {
                     "title": "CSS Fragmentation Module Level 3",
@@ -190,6 +200,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-break-4/Overview.bs",
                 "id": "css-break-4",
                 "props": {
                     "title": "CSS Fragmentation Module Level 4",
@@ -208,6 +219,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-cascade-3/Overview.bs",
                 "id": "css-cascade-3",
                 "props": {
                     "title": "CSS Cascading and Inheritance Level 3",
@@ -228,6 +240,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-cascade-4/Overview.bs",
                 "id": "css-cascade-4",
                 "props": {
                     "title": "CSS Cascading and Inheritance Level 4",
@@ -248,6 +261,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-color-4/Overview.bs",
                 "id": "css-color-4",
                 "props": {
                     "title": "CSS Color Module Level 4",
@@ -269,6 +283,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-color-5/Overview.bs",
                 "id": "css-color-5",
                 "props": {
                     "title": "CSS Color Module Level 5",
@@ -286,6 +301,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-color-adjust-1/Overview.bs",
                 "id": "css-color-adjust-1",
                 "props": {
                     "title": "CSS Color Adjustment Module Level 1",
@@ -303,6 +319,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-conditional-3/Overview.bs",
                 "id": "css-conditional-3",
                 "props": {
                     "title": "CSS Conditional Rules Module Level 3",
@@ -323,6 +340,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-conditional-4/Overview.bs",
                 "id": "css-conditional-4",
                 "props": {
                     "title": "CSS Conditional Rules Module Level 4",
@@ -341,6 +359,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-contain-1/Overview.bs",
                 "id": "css-contain-1",
                 "props": {
                     "title": "CSS Containment Module Level 1",
@@ -361,6 +380,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-content-3/Overview.bs",
                 "id": "css-content-3",
                 "props": {
                     "title": "CSS Generated Content Module Level 3",
@@ -383,6 +403,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-counter-styles-3/Overview.bs",
                 "id": "css-counter-styles-3",
                 "props": {
                     "title": "CSS Counter Styles Level 3",
@@ -403,6 +424,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-device-adapt-1/Overview.bs",
                 "id": "css-device-adapt-1",
                 "props": {
                     "title": "CSS Device Adaptation Module Level 1",
@@ -423,6 +445,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-display-3/Overview.bs",
                 "id": "css-display-3",
                 "props": {
                     "title": "CSS Display Module Level 3",
@@ -442,6 +465,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-easing-1/Overview.bs",
                 "id": "css-easing-1",
                 "props": {
                     "title": "CSS Easing Functions Level 1",
@@ -463,6 +487,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-egg-1/Overview.bs",
                 "id": "css-egg-1",
                 "props": {
                     "title": "CSS Expressive Generalizations and Gadgetry Level 1",
@@ -480,6 +505,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-env-1/Overview.bs",
                 "id": "css-env-1",
                 "props": {
                     "title": "CSS Environment Variables Module Level 1",
@@ -495,6 +521,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-exclusions-1/Overview.bs",
                 "id": "css-exclusions-1",
                 "props": {
                     "title": "CSS Exclusions Module Level 1",
@@ -515,6 +542,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-extensions-1/Overview.bs",
                 "id": "css-extensions-1",
                 "props": {
                     "title": "CSS Extensions",
@@ -531,6 +559,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-flexbox-1/Overview.bs",
                 "id": "css-flexbox-1",
                 "props": {
                     "title": "CSS Flexible Box Layout Module Level 1",
@@ -553,6 +582,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-font-loading-3/Overview.bs",
                 "id": "css-font-loading-3",
                 "props": {
                     "title": "CSS Font Loading Module Level 3",
@@ -573,6 +603,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-fonts-4/Overview.bs",
                 "id": "css-fonts-4",
                 "props": {
                     "title": "CSS Fonts Module Level 4",
@@ -592,6 +623,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-forms-1/Overview.bs",
                 "id": "css-forms-1",
                 "props": {
                     "title": "CSS Form Styling Module Level 1",
@@ -607,6 +639,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-gcpm-3/Overview.bs",
                 "id": "css-gcpm-3",
                 "props": {
                     "title": "CSS Generated Content for Paged Media Module",
@@ -627,6 +660,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-gcpm-4/Overview.bs",
                 "id": "css-gcpm-4",
                 "props": {
                     "title": "CSS Generated Content for Paged Media Module Level 4",
@@ -643,6 +677,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-grid-1/Overview.bs",
                 "id": "css-grid-1",
                 "props": {
                     "title": "CSS Grid Layout Module Level 1",
@@ -666,6 +701,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-grid-2/Overview.bs",
                 "id": "css-grid-2",
                 "props": {
                     "title": "CSS Grid Layout Module Level 2",
@@ -683,6 +719,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-images-3/Overview.bs",
                 "id": "css-images-3",
                 "props": {
                     "title": "CSS Images Module Level 3",
@@ -706,6 +743,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-images-4/Overview.bs",
                 "id": "css-images-4",
                 "props": {
                     "title": "CSS Images Module Level 4",
@@ -727,6 +765,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-inline-3/Overview.bs",
                 "id": "css-inline-3",
                 "props": {
                     "title": "CSS Inline Layout Module Level 3",
@@ -748,6 +787,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-line-grid-1/Overview.bs",
                 "id": "css-line-grid-1",
                 "props": {
                     "title": "CSS Line Grid Module Level 1",
@@ -765,6 +805,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-lists-3/Overview.bs",
                 "id": "css-lists-3",
                 "props": {
                     "title": "CSS Lists Module Level 3",
@@ -784,6 +825,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-logical-1/Overview.bs",
                 "id": "css-logical-1",
                 "props": {
                     "title": "CSS Logical Properties and Values Level 1",
@@ -804,6 +846,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-mobile/Overview.bs",
                 "id": "css-mobile",
                 "props": {
                     "title": "CSS Mobile Profile 2.0",
@@ -816,12 +859,12 @@
                     "previousVersion": "https://www.w3.org/TR/2014/NOTE-css-mobile-20141014/",
                     "editor": "Bert Bos, W3C, bert@w3.org, w3cid 3343",
                     "!previousEditors": "Svante Schubert, Sun Microsystems Inc.\nRobin Berjon, Expway",
-                    "defaultBiblioStatus": "snapshot\nAbstract:\n<p>This specification defines in general a subset of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> 2.1 [[!CSS21]] that is\nto be considered a baseline for interoperability between\nimplementations of <acronym title=\"Cascading Style\nSheets\">CSS</acronym> on constrained devices (e.g. mobile phones).\nIts intent is <em>not</em> to produce a profile of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> incompatible with the\ncomplete specification, but rather to ensure that implementations\nthat due to platform limitations cannot support the entire\nspecification implement a common subset that is interoperable not\nonly amongst constrained implementations but also with complete\nones. Additionally, this specification aligns itself as much as\npossible with the <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.1 [[WCSS11]] specification. At the same\ntime, <acronym title=\"Open Mobile Alliance\">OMA</acronym> is doing\nalignment work in <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.2 [[WCSS12]]. It is aimed at aligning the\nmandatory compliance items between <acronym title=\"Cascading Style\nSheets\">CSS</acronym> Mobile Profile 2.0 and <acronym title=\"Open\nMobile Alliance\">OMA</acronym> Wireless <acronym title=\"Cascading\nStyle Sheets\">CSS</acronym> 1.2 [[WCSS12]].</p>\n<p class=mtb><strong>This profile is obsolete. Please see the latest",
-                    "<aHref=\"https": "//www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>\nStatus text:\n<p><em>At this time, the CSS Working Group does not envisage further\nwork on this specification and does not plan to propose it as a W3C\nRecommendation.</em></p>"
+                    "defaultBiblioStatus": "snapshot\nAbstract:\n<p>This specification defines in general a subset of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> 2.1 [[!CSS21]] that is\nto be considered a baseline for interoperability between\nimplementations of <acronym title=\"Cascading Style\nSheets\">CSS</acronym> on constrained devices (e.g. mobile phones).\nIts intent is <em>not</em> to produce a profile of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> incompatible with the\ncomplete specification, but rather to ensure that implementations\nthat due to platform limitations cannot support the entire\nspecification implement a common subset that is interoperable not\nonly amongst constrained implementations but also with complete\nones. Additionally, this specification aligns itself as much as\npossible with the <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.1 [[WCSS11]] specification. At the same\ntime, <acronym title=\"Open Mobile Alliance\">OMA</acronym> is doing\nalignment work in <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.2 [[WCSS12]]. It is aimed at aligning the\nmandatory compliance items between <acronym title=\"Cascading Style\nSheets\">CSS</acronym> Mobile Profile 2.0 and <acronym title=\"Open\nMobile Alliance\">OMA</acronym> Wireless <acronym title=\"Cascading\nStyle Sheets\">CSS</acronym> 1.2 [[WCSS12]].</p>\n<p class=mtb><strong>This profile is obsolete. Please see the latest\n<a href=\"https://www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>\nStatus text:\n<p><em>At this time, the CSS Working Group does not envisage further\nwork on this specification and does not plan to propose it as a W3C\nRecommendation.</em></p>"
                 }
             },
             {
                 "type": "spec",
+                "file": "css-multicol-1/Overview.bs",
                 "id": "css-multicol-1",
                 "props": {
                     "title": "CSS Multi-column Layout Module Level 1",
@@ -842,6 +885,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-multicol-2/Overview.bs",
                 "id": "css-multicol-2",
                 "props": {
                     "title": "CSS Multi-column Layout Module Level 2",
@@ -853,12 +897,13 @@
                     "ed": "https://drafts.csswg.org/css-multicol-2/",
                     "editor": "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241",
                     "abstract": "This specification describes multi-column layouts in CSS, a style sheet language for the web. Using functionality described in the specification, content can be flowed into multiple columns with a gap and a rule between them.\nAbstract:\nThis is a delta specification over CSS Multi-column Level 1.\nOnce the level 1 specification is final,\nits content will be integrated into this specification,\nwhich will then replace it.\nUntil then, CSS Multi-column Level 2 only contains additions and extensions to level 1",
-                    "ignoredTerms": "column-width, column-count, columns, column-gap, column-rule-color, column-rule-style, column-rule-width, column-rule, column-fill, multi-column container\n<!-- remove line above once this is no longer a delta spec -->",
+                    "ignoredTerms": "column-width, column-count, columns, column-gap, column-rule-color, column-rule-style, column-rule-width, column-rule, column-fill, multi-column container",
                     "ignoredVars": "column-gap, column-width"
                 }
             },
             {
                 "type": "spec",
+                "file": "css-namespaces-3/Overview.bs",
                 "id": "css-namespaces-3",
                 "props": {
                     "title": "CSS Namespaces Module Level 3",
@@ -880,6 +925,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-nav-1/Overview.bs",
                 "id": "css-nav-1",
                 "props": {
                     "title": "CSS Spatial Navigation Level 1",
@@ -897,6 +943,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-nesting-1/Overview.bs",
                 "id": "css-nesting-1",
                 "props": {
                     "title": "CSS Nesting Module",
@@ -913,6 +960,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-overflow-3/Overview.bs",
                 "id": "css-overflow-3",
                 "props": {
                     "title": "CSS Overflow Module Level 3",
@@ -930,13 +978,12 @@
                     "ignoredVars": "B, P",
                     "ignoredTerms": "padding edge, viewport, line box, flex order, -webkit-box-orient",
                     "atRisk": "the 'max-lines' property",
-                    "statusText": "<strong>This update trims away most of the experimental new ideas",
-                    "forHandlingOverflowThatWereDescribedInThe<aHref=\"https": "//www.w3.org/TR/2013/WD-css-overflow-3-20130418/\">previous Working Draft</a>.",
-                    "theseIdeasAreNotAbandoned;TheyAreMerely<aHref=\"https": "//drafts.csswg.org/css-overflow/\">deferred until Level 4</a>.</strong>\nLevel 3 is focused solely on completing a spec for the existing, shipped 'overflow' features;\nwork will resume on fragmented overflow and other fun things once this is completed."
+                    "statusText": "<strong>This update trims away most of the experimental new ideas\nfor handling overflow that were described in the <a href=\"https://www.w3.org/TR/2013/WD-css-overflow-3-20130418/\">previous Working Draft</a>.\nThese ideas are not abandoned; they are merely <a href=\"https://drafts.csswg.org/css-overflow/\">deferred until Level 4</a>.</strong>\nLevel 3 is focused solely on completing a spec for the existing, shipped 'overflow' features;\nwork will resume on fragmented overflow and other fun things once this is completed."
                 }
             },
             {
                 "type": "spec",
+                "file": "css-overflow-4/Overview.bs",
                 "id": "css-overflow-4",
                 "props": {
                     "title": "CSS Overflow Module Level 4",
@@ -955,6 +1002,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-overscroll-1/Overview.bs",
                 "id": "css-overscroll-1",
                 "props": {
                     "title": "CSS Overscroll Behavior Module Level 1",
@@ -971,6 +1019,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-page-3/Overview.bs",
                 "id": "css-page-3",
                 "props": {
                     "title": "CSS Paged Media Module Level 3",
@@ -991,6 +1040,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-page-floats-3/Overview.bs",
                 "id": "css-page-floats-3",
                 "props": {
                     "title": "CSS Page Floats",
@@ -1011,6 +1061,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-position-3/Overview.bs",
                 "id": "css-position-3",
                 "props": {
                     "title": "CSS Positioned Layout Module Level 3",
@@ -1032,6 +1083,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-print/Overview.bs",
                 "id": "css-print",
                 "props": {
                     "title": "CSS Print Profile",
@@ -1043,16 +1095,12 @@
                     "ed": "https://dev.w3.org/csswg/css-print/",
                     "previousVersion": "https://www.w3.org/TR/2013/NOTE-css-print-20130314/",
                     "editor": "Elika J. Etemad, w3cid 35400\nMelinda Grant, Hewlett-Packard Company, w3cid 33062",
-                    "defaultBiblioStatus": "current\nAbstract:\n<p>This specification defines a subset of <cite>Cascading Style\nSheets Level 2, revision 1</cite> [[!CSS21]] and <cite>CSS Paged\nMedia Level 3</cite> [[!CSS3PAGE]] for printing to low-cost devices.\nIt is designed for printing in situations where it is not feasible\nor desirable to install a printer-specific driver, and for\nsituations were some variability in the output is acceptable.</p>\n<p>This profile is designed to work in conjunction with\n<cite>XHTML-Print</cite> [[XHTML-PRINT]] and defines a minimum level\nof conformance as well as an extension set that provides stronger\nlayout control for the printing of mixed text and images, tables and\nimage collections.</p>\n<p><strong>This profile is obsolete. Please see the latest <a",
-                    "href=\"https": "//www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>\nStatus text:\n<p>Relative to the <a\n//www.w3.org/TR/2004/CR-css-print-20040225/\" >previous\nCandidate Recommendation</a>, this version adds two new features\n('object-fit' and 'object-position'), synchronizes this profile with changes to\n//www.w3.org/TR/css3-page/\" >CSS Paged Media\nLevel 3</a> and makes miscellaneous clarifications and editorial\nimprovements.</p>\n<p>Relative to the <a\n//www.w3.org/TR/2006/WD-css-print-20061013/\" >previous\nWorking Draft</a>, this version updates the names and behavior of\n'object-fit' and 'object-position' to match the Candidate",
-                    "<aHref=\"https": "//www.w3.org/TR/xhtml-print/\" >XHTML-Print</a>,\nremoves redundancies with <a",
-                    "recommendationOf<aHref=\"https": "//www.w3.org/TR/css3-images/\" >CSS\nImages and Replaced Content Level 3</a> (and <a\nhref=\"#section-images\" >adds a mapping allowance</a>), and updates",
-                    "referencesTo<aHref=\"https": "//www.w3.org/TR/css3-page/\" >CSS Paged",
-                    "mediaLevel3</a>And<aHref=\"https": "//www.w3.org/TR/CSS21/\">CSS 2.1</a>.</p>\n<p><em>At this time, the CSS Working Group does not envisage\nfurther work on this specification and does not plan to propose it\nas a W3C Recommendation.</em></p>"
+                    "defaultBiblioStatus": "current\nAbstract:\n<p>This specification defines a subset of <cite>Cascading Style\nSheets Level 2, revision 1</cite> [[!CSS21]] and <cite>CSS Paged\nMedia Level 3</cite> [[!CSS3PAGE]] for printing to low-cost devices.\nIt is designed for printing in situations where it is not feasible\nor desirable to install a printer-specific driver, and for\nsituations were some variability in the output is acceptable.</p>\n<p>This profile is designed to work in conjunction with\n<cite>XHTML-Print</cite> [[XHTML-PRINT]] and defines a minimum level\nof conformance as well as an extension set that provides stronger\nlayout control for the printing of mixed text and images, tables and\nimage collections.</p>\n<p><strong>This profile is obsolete. Please see the latest <a\nhref=\"https://www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>\nStatus text:\n<p>Relative to the <a\nhref=\"https://www.w3.org/TR/2004/CR-css-print-20040225/\" >previous\nCandidate Recommendation</a>, this version adds two new features\n('object-fit' and 'object-position'), synchronizes this profile with changes to\n<a href=\"https://www.w3.org/TR/xhtml-print/\" >XHTML-Print</a>,\nremoves redundancies with <a\nhref=\"https://www.w3.org/TR/css3-page/\" >CSS Paged Media\nLevel 3</a> and makes miscellaneous clarifications and editorial\nimprovements.</p>\n<p>Relative to the <a\nhref=\"https://www.w3.org/TR/2006/WD-css-print-20061013/\" >previous\nWorking Draft</a>, this version updates the names and behavior of\n'object-fit' and 'object-position' to match the Candidate\nRecommendation of <a href=\"https://www.w3.org/TR/css3-images/\" >CSS\nImages and Replaced Content Level 3</a> (and <a\nhref=\"#section-images\" >adds a mapping allowance</a>), and updates\nreferences to <a href=\"https://www.w3.org/TR/css3-page/\" >CSS Paged\nMedia Level 3</a> and <a href=\"https://www.w3.org/TR/CSS21/\">CSS 2.1</a>.</p>\n<p><em>At this time, the CSS Working Group does not envisage\nfurther work on this specification and does not plan to propose it\nas a W3C Recommendation.</em></p>"
                 }
             },
             {
                 "type": "spec",
+                "file": "css-pseudo-4/Overview.bs",
                 "id": "css-pseudo-4",
                 "props": {
                     "title": "CSS Pseudo-Elements Module Level 4",
@@ -1074,6 +1122,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-regions-1/Overview.bs",
                 "id": "css-regions-1",
                 "props": {
                     "title": "CSS Regions Module Level 1",
@@ -1095,6 +1144,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-rhythm-1/Overview.bs",
                 "id": "css-rhythm-1",
                 "props": {
                     "title": "CSS Rhythmic Sizing",
@@ -1111,6 +1161,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-round-display-1/Overview.bs",
                 "id": "css-round-display-1",
                 "props": {
                     "title": "CSS Round Display Level 1",
@@ -1129,6 +1180,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-ruby-1/Overview.bs",
                 "id": "css-ruby-1",
                 "props": {
                     "title": "CSS Ruby Layout Module Level 1",
@@ -1148,6 +1200,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-scoping-1/Overview.bs",
                 "id": "css-scoping-1",
                 "props": {
                     "title": "CSS Scoping Module Level 1",
@@ -1167,6 +1220,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-scroll-anchoring-1/Overview.bs",
                 "id": "css-scroll-anchoring-1",
                 "props": {
                     "title": "CSS Scroll Anchoring Module Level 1",
@@ -1182,6 +1236,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-scroll-snap-1/Overview.bs",
                 "id": "css-scroll-snap-1",
                 "props": {
                     "title": "CSS Scroll Snap Module Level 1",
@@ -1202,6 +1257,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-scrollbars-1/Overview.bs",
                 "id": "css-scrollbars-1",
                 "props": {
                     "title": "CSS Scrollbars Module Level 1",
@@ -1219,6 +1275,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-shadow-parts-1/Overview.bs",
                 "id": "css-shadow-parts-1",
                 "props": {
                     "title": "CSS Shadow Parts",
@@ -1235,6 +1292,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-shapes-1/Overview.bs",
                 "id": "css-shapes-1",
                 "props": {
                     "title": "CSS Shapes Module Level 1",
@@ -1253,6 +1311,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-shapes-2/Overview.bs",
                 "id": "css-shapes-2",
                 "props": {
                     "title": "CSS Shapes Module Level 2",
@@ -1270,6 +1329,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-size-adjust-1/Overview.bs",
                 "id": "css-size-adjust-1",
                 "props": {
                     "title": "CSS Mobile Text Size Adjustment Module Level 1",
@@ -1287,6 +1347,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-sizing-3/Overview.bs",
                 "id": "css-sizing-3",
                 "props": {
                     "title": "CSS Box Sizing Module Level 3",
@@ -1305,6 +1366,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-sizing-4/Overview.bs",
                 "id": "css-sizing-4",
                 "props": {
                     "title": "CSS Box Sizing Module Level 4",
@@ -1324,6 +1386,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-syntax-3/Overview.bs",
                 "id": "css-syntax-3",
                 "props": {
                     "title": "CSS Syntax Module Level 3",
@@ -1343,6 +1406,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-tables-3/Overview.bs",
                 "id": "css-tables-3",
                 "props": {
                     "title": "CSS Table Module Level 3",
@@ -1364,6 +1428,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-text-3/Overview.bs",
                 "id": "css-text-3",
                 "props": {
                     "title": "CSS Text Module Level 3",
@@ -1387,6 +1452,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-text-4/Overview.bs",
                 "id": "css-text-4",
                 "props": {
                     "title": "CSS Text Module Level 4",
@@ -1405,6 +1471,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-text-decor-3/Overview.bs",
                 "id": "css-text-decor-3",
                 "props": {
                     "title": "CSS Text Decoration Module Level 3",
@@ -1422,11 +1489,12 @@
                     "abstract": "This module contains the features of CSS relating to text decoration, such as underlines, text shadows, and emphasis marks.",
                     "atRisk": "The ability to place both emphasis marks and ruby on the same base text.",
                     "linkDefaults": "css-color-3 (property) color",
-                    "use<i>Autolinks": "yes"
+                    "useAutolinks": "yes"
                 }
             },
             {
                 "type": "spec",
+                "file": "css-text-decor-4/Overview.bs",
                 "id": "css-text-decor-4",
                 "props": {
                     "title": "CSS Text Decoration Module Level 4",
@@ -1445,6 +1513,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-transforms-1/Overview.bs",
                 "id": "css-transforms-1",
                 "props": {
                     "title": "CSS Transforms Module Level 1",
@@ -1464,6 +1533,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-transforms-2/Overview.bs",
                 "id": "css-transforms-2",
                 "props": {
                     "title": "CSS Transforms Module Level 2",
@@ -1480,6 +1550,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-transitions-1/Overview.bs",
                 "id": "css-transitions-1",
                 "props": {
                     "title": "CSS Transitions",
@@ -1502,6 +1573,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-transitions-2/Overview.bs",
                 "id": "css-transitions-2",
                 "props": {
                     "title": "CSS Transitions Level 2",
@@ -1519,6 +1591,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-ui-3/Overview.bs",
                 "id": "css-ui-3",
                 "props": {
                     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
@@ -1541,6 +1614,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-ui-4/Overview.bs",
                 "id": "css-ui-4",
                 "props": {
                     "title": "CSS Basic User Interface Module Level 4",
@@ -1562,6 +1636,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-values-3/Overview.bs",
                 "id": "css-values-3",
                 "props": {
                     "title": "CSS Values and Units Module Level 3",
@@ -1584,6 +1659,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-values-4/Overview.bs",
                 "id": "css-values-4",
                 "props": {
                     "title": "CSS Values and Units Module Level 4",
@@ -1605,6 +1681,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-variables-1/Overview.bs",
                 "id": "css-variables-1",
                 "props": {
                     "title": "CSS Custom Properties for Cascading Variables Module Level 1",
@@ -1623,6 +1700,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-will-change-1/Overview.bs",
                 "id": "css-will-change-1",
                 "props": {
                     "title": "CSS Will Change Module Level 1",
@@ -1641,6 +1719,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-writing-modes-3/Overview.bs",
                 "id": "css-writing-modes-3",
                 "props": {
                     "title": "CSS Writing Modes Level 3",
@@ -1663,6 +1742,7 @@
             },
             {
                 "type": "spec",
+                "file": "css-writing-modes-4/Overview.bs",
                 "id": "css-writing-modes-4",
                 "props": {
                     "title": "CSS Writing Modes Level 4",
@@ -1686,6 +1766,7 @@
             },
             {
                 "type": "spec",
+                "file": "cssom-1/Overview.bs",
                 "id": "cssom-1",
                 "props": {
                     "title": "CSS Object Model (CSSOM)",
@@ -1710,6 +1791,7 @@
             },
             {
                 "type": "spec",
+                "file": "cssom-view-1/Overview.bs",
                 "id": "cssom-view-1",
                 "props": {
                     "title": "CSSOM View Module",
@@ -1733,6 +1815,7 @@
             },
             {
                 "type": "spec",
+                "file": "mediaqueries-4/Overview.bs",
                 "id": "mediaqueries-4",
                 "props": {
                     "title": "Media Queries Level 4",
@@ -1757,6 +1840,7 @@
             },
             {
                 "type": "spec",
+                "file": "mediaqueries-5/Overview.bs",
                 "id": "mediaqueries-5",
                 "props": {
                     "title": "Media Queries Level 5",
@@ -1775,6 +1859,7 @@
             },
             {
                 "type": "spec",
+                "file": "resize-observer-1/Overview.bs",
                 "id": "resize-observer-1",
                 "props": {
                     "title": "Resize Observer",
@@ -1792,6 +1877,7 @@
             },
             {
                 "type": "spec",
+                "file": "selectors-4/Overview.bs",
                 "id": "selectors-4",
                 "props": {
                     "title": "Selectors Level 4",
@@ -1813,6 +1899,7 @@
             },
             {
                 "type": "spec",
+                "file": "selectors-nonelement-1/Overview.bs",
                 "id": "selectors-nonelement-1",
                 "props": {
                     "title": "Non-element Selectors Module Level 1",
@@ -1831,6 +1918,7 @@
             },
             {
                 "type": "spec",
+                "file": "web-animations-1/Overview.bs",
                 "id": "web-animations-1",
                 "props": {
                     "title": "Web Animations",
@@ -1856,6 +1944,7 @@
             },
             {
                 "type": "spec",
+                "file": "web-animations-2/Overview.bs",
                 "id": "web-animations-2",
                 "props": {
                     "status": "UD",
@@ -2291,7 +2380,14 @@
                     "line": 192
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-color",
+                    "value": "<color>",
+                    "initial": "transparent",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed color",
+                    "animationType": "by computed value"
                 }
             },
             {
@@ -2302,7 +2398,14 @@
                     "line": 233
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-image",
+                    "value": "<bg-image>#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed <image>",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2313,7 +2416,14 @@
                     "line": 319
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-repeat",
+                    "value": "<repeat-style>#",
+                    "initial": "repeat",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a pair of keywords, one per dimension",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2324,7 +2434,14 @@
                     "line": 474
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-attachment",
+                    "value": "<attachment>#",
+                    "initial": "scroll",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item the keyword as specified",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2335,7 +2452,14 @@
                     "line": 581
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-position",
+                    "value": "<bg-position>",
+                    "initial": "0% 0%",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "refer to size of <span class=index>background positioning\narea</span> <em>minus</em> size of background image; see text",
+                    "computedValue": "list, each item\na pair of offsets (horizontal and vertical) from the top left origin\neach given as a computed <length-percentage> value",
+                    "animationType": "repeatable list"
                 }
             },
             {
@@ -2346,7 +2470,14 @@
                     "line": 769
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-clip",
+                    "value": "<box>#",
+                    "initial": "border-box",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a keyword as specified",
+                    "animationType": "repeatable list"
                 }
             },
             {
@@ -2357,7 +2488,14 @@
                     "line": 837
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-origin",
+                    "value": "<box>#",
+                    "initial": "padding-box",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a keyword as specified",
+                    "animationType": "repeatable list"
                 }
             },
             {
@@ -2368,7 +2506,14 @@
                     "line": 902
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background-size",
+                    "value": "<bg-size>#",
+                    "initial": "auto",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "see text",
+                    "computedValue": "list, each item a pair of sizes (one per axis)\neach represented as either a keyword or a computed <length-percentage> value",
+                    "animationType": "repeatable list"
                 }
             },
             {
@@ -2379,7 +2524,14 @@
                     "line": 1108
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "background",
+                    "value": "<bg-layer># , <final-bg-layer>",
+                    "initial": "see individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "see individual properties",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
                 }
             },
             {
@@ -2390,7 +2542,68 @@
                     "line": 1353
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-top-color",
+                    "value": "<color>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed color",
+                    "animationType": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1353
+                },
+                "props": {
+                    "name": "border-right-color",
+                    "value": "<color>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed color",
+                    "animationType": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1353
+                },
+                "props": {
+                    "name": "border-bottom-color",
+                    "value": "<color>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed color",
+                    "animationType": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1353
+                },
+                "props": {
+                    "name": "border-left-color",
+                    "value": "<color>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "computed color",
+                    "animationType": "by computed value"
                 }
             },
             {
@@ -2401,7 +2614,14 @@
                     "line": 1383
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-color",
+                    "value": "<color>{1,4}",
+                    "initial": "(see individual properties)",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
                 }
             },
             {
@@ -2412,7 +2632,68 @@
                     "line": 1423
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-top-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1423
+                },
+                "props": {
+                    "name": "border-right-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1423
+                },
+                "props": {
+                    "name": "border-bottom-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1423
+                },
+                "props": {
+                    "name": "border-left-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2423,7 +2704,14 @@
                     "line": 1453
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-style",
+                    "value": "<line-style>{1,4}",
+                    "initial": "(see individual properties)",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
                 }
             },
             {
@@ -2434,7 +2722,68 @@
                     "line": 1575
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-top-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length; zero if the border style is ''border-style/none'' or ''hidden''",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1575
+                },
+                "props": {
+                    "name": "border-right-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length; zero if the border style is ''border-style/none'' or ''hidden''",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1575
+                },
+                "props": {
+                    "name": "border-bottom-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length; zero if the border style is ''border-style/none'' or ''hidden''",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1575
+                },
+                "props": {
+                    "name": "border-left-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length; zero if the border style is ''border-style/none'' or ''hidden''",
+                    "animatable": "by computed value"
                 }
             },
             {
@@ -2445,7 +2794,14 @@
                     "line": 1603
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-width",
+                    "value": "<line-width>{1,4}",
+                    "initial": "(see individual properties)",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "see individual properties",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
                 }
             },
             {
@@ -2456,7 +2812,68 @@
                     "line": 1654
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-top",
+                    "value": "<line-width> ||\n<line-style> ||\n<color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1654
+                },
+                "props": {
+                    "name": "border-right",
+                    "value": "<line-width> ||\n<line-style> ||\n<color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1654
+                },
+                "props": {
+                    "name": "border-bottom",
+                    "value": "<line-width> ||\n<line-style> ||\n<color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1654
+                },
+                "props": {
+                    "name": "border-left",
+                    "value": "<line-width> ||\n<line-style> ||\n<color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
                 }
             },
             {
@@ -2467,7 +2884,14 @@
                     "line": 1690
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border",
+                    "value": "<line-width> ||\n<line-style> ||\n<color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
                 }
             },
             {
@@ -2478,7 +2902,68 @@
                     "line": 1783
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-top-left-radius",
+                    "value": "<length-percentage>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1783
+                },
+                "props": {
+                    "name": "border-top-right-radius",
+                    "value": "<length-percentage>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1783
+                },
+                "props": {
+                    "name": "border-bottom-right-radius",
+                    "value": "<length-percentage>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animatable": "by computed value"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "table",
+                "source": {
+                    "spec": "css-backgrounds-3",
+                    "line": 1783
+                },
+                "props": {
+                    "name": "border-bottom-left-radius",
+                    "value": "<length-percentage>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animatable": "by computed value"
                 }
             },
             {
@@ -2489,7 +2974,14 @@
                     "line": 1815
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-radius",
+                    "value": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
+                    "initial": "see individual properties",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
                 }
             },
             {
@@ -2500,7 +2992,14 @@
                     "line": 2190
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image-source",
+                    "value": "none | <image>",
+                    "initial": "none",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "the keyword ''border-image-source/none'' or the computed <image>",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2511,7 +3010,14 @@
                     "line": 2227
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image-slice",
+                    "value": "[<number> | <percentage>]{1,4} && fill?",
+                    "initial": "100%",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "inherited": "no",
+                    "percentages": "refer to size of the border image",
+                    "computedValue": "four values, each either a number or percentage; plus a ''fill'' keyword if specified",
+                    "animationType": "by computed value"
                 }
             },
             {
@@ -2522,7 +3028,14 @@
                     "line": 2308
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image-width",
+                    "value": "[ <length-percentage> | <number> | auto ]{1,4}",
+                    "initial": "1",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "inherited": "no",
+                    "percentages": "Relative to width/height of the <a>border image area</a>",
+                    "computedValue": "four values, each either a number, the keyword ''border-image-width/auto'', or a computed <length-percentage> value",
+                    "animationType": "by computed value"
                 }
             },
             {
@@ -2533,7 +3046,14 @@
                     "line": 2381
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image-outset",
+                    "value": "[ <length> | <number> ]{1,4}",
+                    "initial": "0",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "four values, each a number or absolute length",
+                    "animationType": "by computed value"
                 }
             },
             {
@@ -2544,7 +3064,14 @@
                     "line": 2436
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image-repeat",
+                    "value": "[ stretch | repeat | round | space ]{1,2}",
+                    "initial": "stretch",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "two keywords, one per axis",
+                    "animationType": "discrete"
                 }
             },
             {
@@ -2555,7 +3082,14 @@
                     "line": 2570
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "border-image",
+                    "value": "<'border-image-source'>\n|| <'border-image-slice'>\n[ / <'border-image-width'> |\n/ <'border-image-width'>? / <'border-image-outset'> ]?\n|| <'border-image-repeat'>",
+                    "initial": "See individual properties",
+                    "appliesTo": "See individual properties",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "See individual properties",
+                    "animatable": "See individual properties"
                 }
             },
             {
@@ -2566,7 +3100,14 @@
                     "line": 2627
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "box-shadow",
+                    "value": "none | <shadow>#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "either the keyword ''box-shadow/none'' or\na list, each item consisting of four absolute lengths\nplus a computed color and optionally also a ''box-shadow/inset'' keyword",
+                    "animationType": "by computed value,\ntreating ''box-shadow/none'' as a zero-item list\nand appending blank shadows (''transparent 0 0 0 0'')\nwith a corresponding ''box-shadow/inset'' keyword as needed\nto match the longer list\nif the the shorter list is otherwise compatible with the longer one"
                 }
             },
             {
@@ -4148,7 +4689,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 55
+                    "line": 56
                 },
                 "props": {
                     "name": "font-family",
@@ -4166,7 +4707,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 405
+                    "line": 406
                 },
                 "props": {
                     "name": "font-weight",
@@ -4184,7 +4725,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 551
+                    "line": 552
                 },
                 "props": {
                     "name": "font-stretch",
@@ -4202,7 +4743,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 623
+                    "line": 624
                 },
                 "props": {
                     "name": "font-style",
@@ -4212,7 +4753,7 @@
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "the keyword specified, plus angle in degrees if specified",
-                    "animationType": "by computed value type"
+                    "animationType": "by computed value type;\n'normal' animates as 'oblique 0deg'"
                 }
             },
             {
@@ -4220,7 +4761,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 738
+                    "line": 741
                 },
                 "props": {
                     "name": "font-size",
@@ -4238,43 +4779,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 905
-                },
-                "props": {
-                    "name": "font-min-size",
-                    "value": "<absolute-size> | <relative-size> | <length-percentage>",
-                    "initial": "0",
-                    "appliesTo": "all elements",
-                    "inherited": "yes",
-                    "percentages": "refer to parent element's font size",
-                    "computedValue": "an absolute length",
-                    "animationType": "by computed value type"
-                }
-            },
-            {
-                "type": "prop",
-                "el": "pre",
-                "source": {
-                    "spec": "css-fonts-4",
-                    "line": 916
-                },
-                "props": {
-                    "name": "font-max-size",
-                    "value": "<absolute-size> | <relative-size> | <length-percentage> | infinity",
-                    "initial": "infinity",
-                    "appliesTo": "all elements",
-                    "inherited": "yes",
-                    "percentages": "refer to parent element's font size",
-                    "computedValue": "an absolute length",
-                    "animationType": "by computed value type"
-                }
-            },
-            {
-                "type": "prop",
-                "el": "pre",
-                "source": {
-                    "spec": "css-fonts-4",
-                    "line": 946
+                    "line": 920
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -4292,7 +4797,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1118
+                    "line": 1092
                 },
                 "props": {
                     "name": "font",
@@ -4310,7 +4815,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1345
+                    "line": 1319
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -4329,7 +4834,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1374
+                    "line": 1348
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -4348,7 +4853,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1403
+                    "line": 1377
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -4366,7 +4871,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1431
+                    "line": 1405
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -4384,7 +4889,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1718
+                    "line": 1692
                 },
                 "props": {
                     "name": "font-family",
@@ -4398,7 +4903,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1743
+                    "line": 1717
                 },
                 "props": {
                     "name": "src",
@@ -4412,7 +4917,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2116
+                    "line": 2090
                 },
                 "props": {
                     "name": "font-style",
@@ -4426,7 +4931,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2123
+                    "line": 2097
                 },
                 "props": {
                     "name": "font-weight",
@@ -4440,7 +4945,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2130
+                    "line": 2104
                 },
                 "props": {
                     "name": "font-stretch",
@@ -4454,7 +4959,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2238
+                    "line": 2212
                 },
                 "props": {
                     "name": "unicode-range",
@@ -4468,7 +4973,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2451
+                    "line": 2425
                 },
                 "props": {
                     "name": "font-variant",
@@ -4482,7 +4987,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2468
+                    "line": 2442
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -4496,7 +5001,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2475
+                    "line": 2449
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -4510,7 +5015,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2506
+                    "line": 2480
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -4524,7 +5029,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2643
+                    "line": 2617
                 },
                 "props": {
                     "name": "font-display",
@@ -4538,7 +5043,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2804
+                    "line": 2778
                 },
                 "props": {
                     "name": "font-display",
@@ -4552,7 +5057,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2814
+                    "line": 2788
                 },
                 "props": {
                     "name": "font-language-override",
@@ -4566,7 +5071,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3507
+                    "line": 3481
                 },
                 "props": {
                     "name": "font-kerning",
@@ -4584,7 +5089,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3577
+                    "line": 3551
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -4602,7 +5107,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3684
+                    "line": 3658
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -4620,7 +5125,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3890
+                    "line": 3864
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -4638,7 +5143,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4049
+                    "line": 4023
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -4656,7 +5161,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4184
+                    "line": 4158
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -4674,7 +5179,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4642
+                    "line": 4616
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -4692,7 +5197,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4750
+                    "line": 4724
                 },
                 "props": {
                     "name": "font-variant",
@@ -4710,7 +5215,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4786
+                    "line": 4760
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -4728,7 +5233,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4960
+                    "line": 4934
                 },
                 "props": {
                     "name": "font-language-override",
@@ -4746,7 +5251,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5271
+                    "line": 5245
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -4764,7 +5269,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5354
+                    "line": 5328
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -4782,7 +5287,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5478
+                    "line": 5452
                 },
                 "props": {
                     "name": "font-palette",
@@ -4800,7 +5305,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5637
+                    "line": 5611
                 },
                 "props": {
                     "name": "font-family",
@@ -4814,7 +5319,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5656
+                    "line": 5630
                 },
                 "props": {
                     "name": "base-palette",
@@ -4828,7 +5333,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5718
+                    "line": 5692
                 },
                 "props": {
                     "name": "override-color",
@@ -4842,7 +5347,7 @@
                 "el": "pre",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5765
+                    "line": 5739
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -4921,17 +5426,25 @@
                     "line": 437
                 },
                 "props": {
-                    "name": "float\nfootnote-display",
-                    "newValues": "footnote\n</pre>\n<dl dfn-type=\"value\" dfn-for=\"float\">\n<dt><dfn>footnote</dfn></dt>\n<dd>each footnote element is placed in the footnote area of the page</dd>\n</dl>\nThe 'footnote-display' property determines whether a footnote is displayed as a block element or inline element.\n<pre class=\"propdef\">",
+                    "name": "float",
+                    "newValues": "footnote"
+                }
+            },
+            {
+                "type": "prop",
+                "el": "pre",
+                "source": {
+                    "spec": "css-gcpm-3",
+                    "line": 448
+                },
+                "props": {
+                    "name": "footnote-display",
                     "value": "block | inline | compact",
                     "initial": "block",
                     "appliesTo": "elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "specified value\n</pre>\n<dl dfn-type=\"value\" dfn-for=\"propdef-footnote-display\">\n<dt><dfn id=\"footnote-display-block\">block</dfn></dt>\n<dd>The footnote element is placed in the footnote area as a block element</dd>\n<dt><dfn id=\"footnote-display-inline\">inline</dfn></dt>\n<dd>The footnote element is placed in the footnote area as an inline element</dd>\n<dt><dfn id=\"footnote-display-compact\">compact</dfn></dt>\n<dd>The user agent determines whether a given footnote element is placed as a block element or an inline element. If two or more footnotes could fit on the same line in the footnote area, they should be placed inline.</dd>\n</dl>\n<h3 id=\"footnote-area\">\nThe footnote area\n</h3>",
-                    "a<aHref='https": "//drafts.csswg.org/css-page/#page-area'>page area</a> that can be used to display footnotes is described in the <a href='https://drafts.csswg.org/css-page/#page-context'>page context</a> using an <code>@footnote</code> rule. This rule defines a box that, if used, will contain all the footnote elements that appear on that page. <!--",
-                    "weAddTheFollowingToThe<aHref=\"https": "//drafts.csswg.org/css-page/#specializatons-of-ATKEYWORD\">page rule grammar</a> in [[CSS3PAGE]]:\n<pre class=\"lexical\">",
-                    "footnote_sym ": ":= \"@footnote\""
+                    "computedValue": "specified value"
                 }
             },
             {
@@ -5473,7 +5986,7 @@
                     "name": "baseline-shift",
                     "value": "<length-percentage> | sub | super",
                     "initial": "0",
-                    "appliesTo": "inline-level boxes, flex items, grid items\n<!-- table cells left out b/c CSS2.1 vertical-align values must have no effect... -->",
+                    "appliesTo": "inline-level boxes, flex items, grid items",
                     "inherited": "no",
                     "percentages": "refer to the used value of 'line-height'",
                     "computedValue": "the specified keyword and/or a computed <length-percentage> value"
@@ -7912,7 +8425,13 @@
                     "line": 1264
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "ruby-overhang",
+                    "value": "auto | start | end | none",
+                    "initial": "none",
+                    "appliesTo": "the parent of elements with display: ruby-text",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "specified value (except for initial and inherit)"
                 }
             },
             {
@@ -7923,7 +8442,13 @@
                     "line": 1348
                 },
                 "props": {
-                    "name": "unknown"
+                    "name": "ruby-span",
+                    "value": "attr(x) |  none",
+                    "initial": "none",
+                    "appliesTo": "elements with display: ruby-text",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "<number>"
                 }
             },
             {

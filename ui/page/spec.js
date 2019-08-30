@@ -3,7 +3,11 @@ discovery.page.define('spec', {
     data: 'specs.pick(<id = #.id>)',
     content: [
         'h1:props.title',
-        'key-value:props',
+        {
+            view: 'key-value',
+            data: 'props',
+            value: 'pre:value'
+        },
         {
             view: 'table',
             data: '$spec:$; #.data.defs.[source.spec = $spec].props',

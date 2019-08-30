@@ -8,7 +8,33 @@ discovery.page.define('definition', {
             color: "#fae2ec"
         }`,
         'h1:props.name',
-        'key-value:props'
+        {
+            view: 'key-value',
+            data: 'props',
+            value: {
+                view: 'switch',
+                content: [
+                    { when: 'key = "value"', content: 'syntax:value' },
+                    { content: 'pre:value' }
+                ]
+            }
+        },
+        'h5:"Defined in: " + source.spec.file + " on line " + source.line',
+        {
+            view: 'context',
+            data: '#.data.defs.[props.name = @.props.name and $ != @].source.spec',
+            content: {
+                view: 'context',
+                when: 'size()',
+                content: [
+                    'h5:"Also defined in:"',
+                    {
+                        view: 'ul',
+                        item: 'auto-link'
+                    }
+                ]
+            }
+        }
     ]
 }, {
     resolveLink: 'def'
