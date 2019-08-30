@@ -16,10 +16,19 @@ function processTextBlock(lines) {
     let prevProp = '';
 
     for (let i = 0; i < lines.length; i++) {
+        // csswg-drafts/css-fonts-4/Overview.bs
+        if (/^\s*<!--/.test(lines[i])) {
+            continue;
+        }
+
         const keyValueMatch = lines[i].match(keyValueRx);
 
-        if (keyValueMatch) {
-            let key = keyValueMatch[1].toLowerCase().replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
+        if (keyValueMatch && !/https?$/.test(keyValueMatch[1])) {
+            let key = keyValueMatch[1]
+                .toLowerCase()
+                .replace(/&nbsp;/gi, ' ')  // Applies&nbsp;to
+                .replace(/<.+?>/g, '')     // <a href="#values">Value</dfn>
+                .replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
             const value = keyValueMatch[2];
 
             if (key in props) {
@@ -42,7 +51,26 @@ function processTextBlock(lines) {
 }
 
 function processTableBlock(lines) {
-    return {};
+    return processTextBlock(
+        lines
+            .join('\n')
+            .replace(/([ \t]+)<tr>\n\s*<th>(.+?)\n\s*<td>\s*/g, '$1$2 ')
+            .split('\n')
+    );
+}
+
+function cleanupPropValue(dict, prop) {
+    if (prop in dict) {
+        dict[prop] = dict[prop]
+            .replace(/<<(.+?)>>/g, '<$1>')
+            // FIXME: 1 entry
+            .replace(/&nbsp;?/g, ' ')
+            // FIXME: 8 entry
+            .replace(/&lt;?/g, '<')
+            .replace(/&gt;?/g, '>')
+            // FIXME: 1 entry
+            .replace(/&amp;?/g, '&');
+    }
 }
 
 const blocks = {
@@ -62,7 +90,13 @@ function processBs(fn) {
         // return;
     }
 
-    const content = fs.readFileSync(fn, 'utf8');
+    let content = fs.readFileSync(fn, 'utf8');
+
+    // FIXME
+    if (relfn === 'css-gcpm-3/Overview.bs') {
+        content = content.replace(/[ \t]+<\/pre>/gi, '</pre>');
+    }
+
     const lines = content.split(/\r\n?|\n/);
     const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
     const blockEndRx = /^\s*<\/(\S+?)>/;
@@ -137,17 +171,8 @@ function processBs(fn) {
                     // console.log(entry);
                 }            
             } else {
-                if (entry.props.value) {
-                    entry.props.value = entry.props.value
-                        .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>')
-                        // FIXME: 1 entry
-                        .replace(/&nbsp;?/g, ' ')
-                        // FIXME: 8 entry
-                        .replace(/&lt;?/g, '<')
-                        .replace(/&gt;?/g, '>')
-                        // FIXME: 1 entry
-                        .replace(/&amp;?/g, '&');
-                }
+                cleanupPropValue(entry.props, 'value');
+                cleanupPropValue(entry.props, 'computedValue');
 
                 if (entry.props.computedValue) {
                     entry.props.computedValue = entry.props.computedValue
