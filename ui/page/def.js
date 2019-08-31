@@ -1,4 +1,4 @@
-discovery.page.define('definition', {
+discovery.page.define('def', {
     view: 'context',
     data: 'defs.pick(<id = #.id>)',
     content: [
@@ -14,7 +14,7 @@ discovery.page.define('definition', {
             value: {
                 view: 'switch',
                 content: [
-                    { when: 'key = "value"', content: 'syntax:value' },
+                    { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
                     { content: 'pre:value' }
                 ]
             }

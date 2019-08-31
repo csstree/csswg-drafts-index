@@ -1,4 +1,4 @@
-discovery.page.define('definitions', {
+discovery.page.define('defs', {
     view: 'context',
     data: 'defs.[props.name = #.id]',
     content: [
@@ -19,7 +19,7 @@ discovery.page.define('definitions', {
                     value: {
                         view: 'switch',
                         content: [
-                            { when: 'key = "value"', content: 'syntax:value' },
+                            { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
                             { content: 'pre:value' }
                         ]
                     }
@@ -27,6 +27,4 @@ discovery.page.define('definitions', {
             ]
         }
     ]
-}, {
-    resolveLink: 'def'
 });

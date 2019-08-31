@@ -36,7 +36,13 @@ discovery.view.define('syntax', function(el, config, data) {
 
     if (syntax) {
         if (typeof syntax === 'string') {
-            syntax = csstree.grammar.parse(syntax);
+            try {
+                syntax = csstree.grammar.parse(syntax);
+            } catch(e) {
+                el.textContent = e.message;
+                el.classList.add('parse-error');
+                return;
+            }
         }
 
         syntaxHtml = markupSyntax(syntax, {

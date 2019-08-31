@@ -24,12 +24,16 @@ function processTextBlock(lines) {
         const keyValueMatch = lines[i].match(keyValueRx);
 
         if (keyValueMatch && !/https?$/.test(keyValueMatch[1])) {
-            let key = keyValueMatch[1]
+            const key = keyValueMatch[1]
                 .toLowerCase()
                 .replace(/&nbsp;/gi, ' ')  // Applies&nbsp;to
                 .replace(/<.+?>/g, '')     // <a href="#values">Value</dfn>
                 .replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
-            const value = keyValueMatch[2];
+            let value = keyValueMatch[2];
+
+            if (value === ': discrete') {
+                value = 'discrete';
+            }
 
             if (key in props) {
                 props[key] += '\n' + value;
@@ -63,6 +67,9 @@ function cleanupPropValue(dict, prop) {
     if (prop in dict) {
         dict[prop] = dict[prop]
             .replace(/<<(.+?)>>/g, '<$1>')
+            // FIXME?
+            .replace(/<\/?(nobr|var|code|br)>(?!>)/g, '')
+            .replace(/<span .+?>|<\/span>/g, '')
             // FIXME: 1 entry
             .replace(/&nbsp;?/g, ' ')
             // FIXME: 8 entry
@@ -136,7 +143,6 @@ function processBs(fn) {
                 entry.file = relfn;
                 entry.id = path.dirname(relfn);
             } else {
-                entry.el = el;
                 entry.source = {
                     spec: path.dirname(relfn),
                     line: i
@@ -173,6 +179,7 @@ function processBs(fn) {
                 }            
             } else {
                 cleanupPropValue(entry.props, 'value');
+                cleanupPropValue(entry.props, 'newValues');
                 cleanupPropValue(entry.props, 'computedValue');
 
                 if (entry.props.computedValue) {

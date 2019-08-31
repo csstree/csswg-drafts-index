@@ -75,7 +75,7 @@ discovery.view.define('sidebar', {
                                     view: 'link',
                                     data: `{
                                         text: name,
-                                        href: name.pageLink("definitions"),
+                                        href: name.pageLink("defs"),
                                         match: #.filter
                                     }`,
                                     content: 'text-match'
