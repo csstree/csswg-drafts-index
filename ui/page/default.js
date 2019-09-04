@@ -7,7 +7,8 @@ discovery.page.define('default', [
         data: [
             { title: 'Specs', query: 'specs.sort(<props.title>)' },
             { title: 'Definitions', query: 'defs' },
-            { title: 'Problem syntaxes', query: 'defs.[definitionSyntax.value.error]' }
+            { title: 'Productions', query: 'prods' },
+            { title: 'Problem syntaxes', query: 'defs.[definitionSyntax.value.error or definitionSyntax.newValues.error] +\nprods.[definitionSyntax.error]' }
         ],
         content: {
             view: 'inline-list',
@@ -19,24 +20,24 @@ discovery.page.define('default', [
             })`
         }
     },
+    'html:"<br><br>"',
     {
-        view: 'section',
-        header: 'text:"Reports"',
-        content: {
-            view: 'ul',
-            item: 'link:{ text: title, href: pageLink("report", { ..., noedit: true }) }'
-        },
+        view: 'ul',
+        item: 'link:{ text: title, href: pageLink("report", { ..., noedit: true }) }',
         data: [
             {
                 title: 'Specs and statuses',
                 query: 'specs.sort(<props.title>)',
-                view: '{\n    view: \'ol\',\n    limit: false,\n    item: [\'auto-link\', \'badge:props.status\']\n}'
+                view: '{\n    view: \'ol\',\n    limit: false,\n    item: [\'auto-link\', \'badge:{ text: props.status, color: props.status.color() }\']\n}'
             },
             {
                 title: 'Problem syntaxes',
-                noedit: true,
-                query: 'defs.group(<definitionSyntax.value.error>).[key]',
+                query: '(defs + prods)\n.group(<definitionSyntax.error or definitionSyntax.value.error>).[key]\n',
                 view: '{\n    view: \'list\',\n    item: {\n        view: \'expand\',\n        expanded: true,\n        title: \'pre:key\',\n        content: {\n            view: \'list\',\n            data: \'value\',\n            item: \'def\'\n        }\n    }\n}'
+            },
+            {
+                title: 'Missed productions',
+                query: '(defs.definitionSyntax.value.syntax + prods.definitionSyntax.syntax)\n..(syntaxChildren()).[type="Type"].name\n- prods.name\n- genericProds'
             }
         ]
     }

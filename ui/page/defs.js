@@ -1,6 +1,6 @@
 discovery.page.define('defs', {
     view: 'context',
-    data: 'defs.[props.name = #.id]',
+    data: '(defs + prods).[name = #.id]',
     content: [
         'h1:props.name',
         {
@@ -15,6 +15,7 @@ discovery.page.define('defs', {
                 },
                 {
                     view: 'key-value',
+                    when: 'props',
                     data: 'props',
                     value: {
                         view: 'switch',
@@ -23,6 +24,11 @@ discovery.page.define('defs', {
                             { content: 'pre:value' }
                         ]
                     }
+                },
+                {
+                    view: 'syntax',
+                    when: 'type="prod"',
+                    data: 'value'
                 }
             ]
         }

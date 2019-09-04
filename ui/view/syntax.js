@@ -7,14 +7,15 @@ function escapeHtml(str) {
         .replace(/>/g, '&gt;');
 }
 
-function markupSyntax(syntax, match) {
+function markupSyntax(syntax, dict, match) {
     return csstree.grammar.generate(syntax, function(str, node) {
         if (node.type === 'Type' || node.type === 'Property') {
-            const entityDescriptor = discovery.resolveEntity(node);
-            const error = !entityDescriptor || !entityDescriptor.entity.match;
+            const entityDescriptor = node.type === 'Type'
+                ? dict.prods.find(e => e.name === node.name)
+                : dict.defs.find(e => e.props.name === node.name);
+            const error = !entityDescriptor;
 
-            str = `<a href="#${node.type}:${node.name}"${error ? ' class="error"': ''}>${escapeHtml(str)}</a>`;
-
+            str = `<a${entityDescriptor ? ` href="#prod:${entityDescriptor.id}"` : ''}${error ? ' class="error"': ''}>${escapeHtml(str)}</a>`;
         }
 
         if (match && match.type === node.type && match.name === node.name) {
@@ -25,7 +26,7 @@ function markupSyntax(syntax, match) {
     });
 }
 
-discovery.view.define('syntax', function(el, config, data) {
+discovery.view.define('syntax', function(el, config, data, context) {
     const { type, match, matchType, matchName } = data || {};
     let { syntax } = data || {};
     let syntaxHtml = '';
@@ -45,7 +46,7 @@ discovery.view.define('syntax', function(el, config, data) {
             }
         }
 
-        syntaxHtml = markupSyntax(syntax, {
+        syntaxHtml = markupSyntax(syntax, context.data, {
             type: matchType,
             name: matchName
         });

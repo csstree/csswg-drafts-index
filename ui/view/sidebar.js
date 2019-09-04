@@ -58,14 +58,15 @@ discovery.view.define('sidebar', {
                         when: '#.splitBy="byentry"',
                         content: {
                             view: 'list',
+                            limit: 100,
                             data: `
-                                defs
-                                    .[no #.filter or props.name ~= #.filter]
-                                    .group(<props.name>)
+                                (defs + prods)
+                                    .[no #.filter or name ~= #.filter]
+                                    .group(<name>)
                                     .({
                                         id: key,
                                         type: value.type,
-                                        name: value.props.name.pick(),
+                                        name: value.name.pick(),
                                         count: value.size()
                                     })
                                     .sort(<name>)

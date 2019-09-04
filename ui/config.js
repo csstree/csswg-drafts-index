@@ -14,6 +14,7 @@ module.exports = {
             './page/default.js',
             './page/def.js',
             './page/defs.js',
+            './page/prod.js',
             './page/spec.js',
             './view/key-value.css',
             './view/key-value.js',

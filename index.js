@@ -6,9 +6,12 @@ const ignoreDirs = new Set([
     'indexes',
     'css-module-bikeshed'
 ]);
-const uniqueCls = new Set();
+const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
+const blockEndRx = /^\s*<\/(\S+?)>/;
+const prodValueEndEx = /<(dfn|dl|dd)|<\/(pre|div|dt)|\)<\/span|\n\n/g;
 const specs = [];
 const defs = [];
+const prods = [];
 const propWriters = {
     default: function(dict, key, value) {
         if (key in dict === false) {
@@ -102,30 +105,72 @@ function processTableBlock(lines, type) {
     );
 }
 
+function cleanupValue(value) {
+    return value
+        // FIXME?
+        .replace(/<\/?(nobr|var|code|br)>(?!>)/g, '')
+        .replace(/<span.*?>(?!>)|<\/span>/g, '')
+        // FIXME: 1 entry
+        .replace(/&nbsp;?/g, ' ')
+        // FIXME: 8 entry
+        .replace(/&lt;?/g, '<')
+        .replace(/&gt;?/g, '>')
+        // FIXME: 1 entry
+        .replace(/&amp;?/g, '&')
+        // ok
+        .replace(/''(?:[^/]+\/)?(\S+?)''/g, '$1')
+        .replace(/<<(.+?)>>/g, '<$1>');
+}
+
 function cleanupPropValue(dict, prop) {
     if (prop in dict) {
-        dict[prop] = dict[prop]
-            .replace(/<<(.+?)>>/g, '<$1>')
-            // FIXME?
-            .replace(/<\/?(nobr|var|code|br)>(?!>)/g, '')
-            .replace(/<span .+?>|<\/span>/g, '')
-            // FIXME: 1 entry
-            .replace(/&nbsp;?/g, ' ')
-            // FIXME: 8 entry
-            .replace(/&lt;?/g, '<')
-            .replace(/&gt;?/g, '>')
-            // FIXME: 1 entry
-            .replace(/&amp;?/g, '&');
+        dict[prop] = cleanupValue(dict[prop]);
     }
 }
 
+function normalizeOffset(text){
+    if (text.indexOf('\n') === -1) {
+        return text;
+    }
+
+    text = text
+        .replace(/\t/g, '    ')
+        // cut first empty lines
+        .replace(/^(?:\s*[\n])+?( *)/, '$1')
+        .trimRight();
+
+    // fix empty strings
+    text = text.replace(/\n +\n/g, '\n\n');
+
+    // normalize text offset
+    var minOffset = 1000;
+    var lines = text.split(/\n+/);
+
+    for (var i = 1; i < lines.length; i++) {
+        var m = lines[i].match(/^\s*/);
+        if (m[0].length < minOffset) {
+            minOffset = m[0].length;
+        }
+        if (minOffset == 0) {
+            break;
+        }
+    }
+
+    if (minOffset > 0) {
+        text = text.replace(new RegExp('(^|\\n) {' + minOffset + '}', 'g'), '$1');
+    }
+
+    return text;
+}
+
 const blocks = {
-    metadata: 'spec',
-    propdef: 'prop',
+    'metadata': 'spec',
+    'propdef': 'prop',
     'propdef-shorthand': 'prop',
     'propdef-partial': 'prop-partial',
     'descdef-mq': 'media-query',
-    'descdef': 'descriptor'
+    'descdef': 'descriptor',
+    'idl': 'idl'
 };
 
 function processBs(fn) {
@@ -137,16 +182,69 @@ function processBs(fn) {
     }
 
     let content = fs.readFileSync(fn, 'utf8');
+    let offset = 0;
+    const linesOffset = [];
+    const lines = content.split(/(\r\n?|\n)/).filter((part, idx) => {
+        if (idx % 2 === 0) {
+            linesOffset.push(offset);
+        }
 
-    const lines = content.split(/\r\n?|\n/);
-    const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
-    const blockEndRx = /^\s*<\/(\S+?)>/;
+        offset += part.length;
+        return idx % 2 === 0;
+    });
 
     for (let i = 0; i < lines.length; i++) {
-        const blockStart = lines[i].match(blockStartRx);
+        // NOTE: much better is to search productions in <pre class="prod"> blocks,
+        // however many specs do not wrap productions in such blocks; Suppose that's
+        // should be fixed. Until that use dirty and hacky approach.
+        const prodMatch = lines[i].match(/<dfn( .*?)?>(.+?)<\/dfn>\s*=/);
+
+        if (prodMatch) {
+            const normName = prodMatch[2]
+                .replace(/<\/?var>/g, '')
+                .replace(/&lt;/g, '<')
+                .replace(/&gt;/g, '>');
+
+            // const [a, b] = [content.substr(linesOffset[i] + prodMatch.index, prodMatch[0].length), prodMatch[0]];
+            // a !== b && console.log(xcount, relfn, '[a:' + a + ']', '[b:' + b + ']');
+
+            if (/^@|[>)]$/.test(normName) || normName === 'content-list') {
+                let attrEntries = prodMatch[1] && prodMatch[1]
+                    .match(/\s+[^=]+(?:=(?:"[^"]+"|'[^']+'|\S+))?/g);
+                const valueStart = linesOffset[i] + prodMatch.index + prodMatch[0].length;
+                let valueEnd;
+
+                prodValueEndEx.lastIndex = valueStart;
+                valueEnd = prodValueEndEx.exec(content).index;
+                if (content.charAt(valueEnd) === ')') {
+                    valueEnd++;
+                }
+
+                prods.push({
+                    type: 'prod',
+                    name: normName.replace(/[<>]/g, ''),
+                    dfnName: normName,
+                    source: {
+                        spec: path.dirname(relfn),
+                        line: i + 1
+                    },
+                    attrs: attrEntries && attrEntries.reduce((res, attr) => {
+                        const m = attr.trim().match(/([^=]+)(?:=(['"])(.+?)\2|=(\S+))?/);
+                        res[m[1]] = m[3] || m[4] || true;
+                        return res;
+                    }, {}),
+                    value: normalizeOffset(
+                        cleanupValue(content.substring(valueStart, valueEnd).trim())
+                            .replace(/<a (.|\s)+?>|<\/a>/g, '')
+                    )
+                });
+            }
+        }
         
+        const blockStart = lines[i].match(blockStartRx);
+
         if (blockStart) {
-            const [, offset, el, cls1, cls2, cls3] = blockStart;
+            const [, blockStartOffset, el, cls1, cls2, cls3] = blockStart;
             let type = (cls1 || cls2 || cls3).replace(/\s+/g, '-');
 
             if (!blocks.hasOwnProperty(type)) {
@@ -155,7 +253,7 @@ function processBs(fn) {
 
             type = blocks[type];
 
-            const blockEnd = offset + '</' + el + '>';
+            const blockEnd = blockStartOffset + '</' + el + '>';
             const blockLines = [];
             let entry = Object.create(null);
 
@@ -167,7 +265,7 @@ function processBs(fn) {
             } else {
                 entry.source = {
                     spec: path.dirname(relfn),
-                    line: i + 2 // lines from 1 + skip current line
+                    line: i + 1 // lines from 1
                 };
             }
 
@@ -185,6 +283,10 @@ function processBs(fn) {
                 blockLines.push(lines[i]);
             };
 
+            if (type === 'idl') {
+                continue;
+            }
+
             entry.props = el === 'table'
                 ? processTableBlock(blockLines, type)
                 : processTextBlock(blockLines, type);
@@ -199,15 +301,13 @@ function processBs(fn) {
                 cleanupPropValue(entry.props, 'value');
                 cleanupPropValue(entry.props, 'newValues');
                 cleanupPropValue(entry.props, 'computedValue');
-
-                if (entry.props.computedValue) {
-                    entry.props.computedValue = entry.props.computedValue
-                        .replace(/<<(('?)[a-z\d\-]+(?:\(\))?\2)>>/g, '<$1>');
-                }
+                cleanupPropValue(entry.props, 'animationType');
+                cleanupPropValue(entry.props, 'animatable');
 
                 (entry.props.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
                     defs.push({
                         ...entry,
+                        name,
                         props: { ...entry.props, name }
                     });
                 });
@@ -242,27 +342,10 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
 
 module.exports = {
     specs,
-    defs
+    defs,
+    prods
 };
 
 if (process.mainModule === module) {
     console.log(module.exports);
 }
-
-// function printList(ar) {
-//     Array.from(ar).sort().forEach(item => console.log('- ' + item));
-// }
-
-// console.log(`Props (${uniqueCls.size}):\n- `);
-// printList(uniqueCls);
-// console.log()
-
-// const newProps = [...uniqueCls].filter(name => !knownProperties.has(name));
-// console.log(`New props (${newProps.length}):`);
-// printList(newProps);
-// console.log();
-
-// const noSpecProps = [...knownProperties].filter(name => !uniqueCls.has(name));
-// console.log(`No spec props (${noSpecProps.length}):`);
-// printList(noSpecProps);
-// console.log();

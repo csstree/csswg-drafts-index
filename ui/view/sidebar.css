@@ -1,3 +1,7 @@
+.discovery-sidebar .view-tabs {
+    height: 100%;
+}
+
 .discovery-sidebar .view-toc-section > .header {
     text-transform: none;
 }
