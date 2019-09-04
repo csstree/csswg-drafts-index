@@ -1,3 +1,22 @@
+function parseSyntax(dict, key) {
+    if (dict.props[key]) {
+        if (!dict.definitionSyntax) {
+            dict.definitionSyntax = {};
+        }
+
+        const res = dict.definitionSyntax[key] = {
+            syntax: null,
+            error: null
+        };
+
+        try {
+            res.syntax = csstree.grammar.parse(dict.props[key]);
+        } catch(e) {
+            res.error = e.message;
+        }
+    }
+}
+
 discovery.setPrepare(function(data) {
     const specIndex = data.specs.reduce(
         (map, item) => map
@@ -23,6 +42,8 @@ discovery.setPrepare(function(data) {
     data.defs.forEach(item => {
         item.source.spec = specIndex.get(item.source.spec);
         item.id = item.source.spec.id + '/' + item.type + '/' + item.props.name;
+        parseSyntax(item, 'value');
+        parseSyntax(item, 'newValues');
     });
     
     const defIndex = data.defs.reduce(
