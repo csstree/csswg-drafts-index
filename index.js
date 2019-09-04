@@ -12,6 +12,7 @@ const prodValueEndEx = /<(dfn|dl|dd)|<\/(pre|div|dt)|\)<\/span|\n\n/g;
 const specs = [];
 const defs = [];
 const prods = [];
+const idls = [];
 const propWriters = {
     default: function(dict, key, value) {
         if (key in dict === false) {
@@ -245,9 +246,18 @@ function processBs(fn) {
 
         if (blockStart) {
             const [, blockStartOffset, el, cls1, cls2, cls3] = blockStart;
+            const blockStartEnd = blockStart.index + blockStart[0].length;
             let type = (cls1 || cls2 || cls3).replace(/\s+/g, '-');
+            let singleLineBlock = false;
+            const blockStartContent = lines[i]
+                .slice(blockStart.index + blockStart[0].length)
+                .trim()
+                .replace(new RegExp('</' + el + '>$'), m => {
+                    singleLineBlock = true;
+                    return '';
+                });
 
-            if (!blocks.hasOwnProperty(type)) {
+            if (!blocks.hasOwnProperty(type) || el === 'code') {
                 continue;
             }
 
@@ -269,21 +279,38 @@ function processBs(fn) {
                 };
             }
 
-            for (i++; i < lines.length; i++) {
-                if (!lines[i]) {
-                    continue;
+            if (blockStartContent) {
+                blockLines.push(blockStartContent);
+            }
+
+            if (!singleLineBlock) {
+                for (i++; i < lines.length; i++) {
+                    if (!lines[i]) {
+                        continue;
+                    }
+
+                    const [blockEndMatch] = lines[i].match(blockEndRx) || [''];
+
+                    if (blockEndMatch === blockEnd) {
+                        break;
+                    }
+
+                    // FIXME: css-font-4
+                    if (el === 'pre' && lines[i].indexOf('};</pre>') !== -1) {
+                        blockLines.push('};');
+                        break;
+                    }
+
+                    blockLines.push(lines[i]);
                 }
-
-                const [blockEndMatch] = lines[i].match(blockEndRx) || [''];
-
-                if (blockEndMatch === blockEnd) {
-                    break;
-                }
-
-                blockLines.push(lines[i]);
             };
 
             if (type === 'idl') {
+                entry.content = normalizeOffset(blockLines.join('\n').trim())
+                    // FIXME
+                    .replace(/<dfn.+?>|<\/dfn>/g, '')
+                    .replace(/<!--(.|\s)+?-->/g, '');
+                idls.push(entry);
                 continue;
             }
 
@@ -345,7 +372,8 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
 module.exports = {
     specs,
     defs,
-    prods
+    prods,
+    idls
 };
 
 if (process.mainModule === module) {

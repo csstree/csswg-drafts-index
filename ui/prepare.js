@@ -122,6 +122,11 @@ discovery.setPrepare(function(data) {
         }
     });
 
+    data.idls.forEach(item => {
+        item.source.spec = specIndex.get(item.source.spec);
+    });
+
+    // from css-tree/lib/lexer/generic.js
     data.genericProds = [
         "ident-token", "function-token", "at-keyword-token", "hash-token", "string-token",
         "bad-string-token", "url-token", "bad-url-token", "delim-token", "number-token",

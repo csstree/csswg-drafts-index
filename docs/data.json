@@ -1,7 +1,7 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-09-04T23:21:33.580Z",
-    "elapsedTime": 326,
+    "createdAt": "2019-09-04T23:58:14.419Z",
+    "elapsedTime": 212,
     "data": {
         "specs": [
             {
@@ -15482,6 +15482,944 @@
                     "line": 48
                 },
                 "value": "<ident> | '*'"
+            }
+        ],
+        "idls": [
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-1",
+                    "line": 879
+                },
+                "content": "[Exposed=Window,\n Constructor(CSSOMString type, optional AnimationEventInit animationEventInitDict = {})]\ninterface AnimationEvent : Event {\n  readonly attribute CSSOMString animationName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary AnimationEventInit : EventInit {\n  CSSOMString animationName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-1",
+                    "line": 1046
+                },
+                "content": "partial interface CSSRule {\n      const unsigned short KEYFRAMES_RULE = 7;\n      const unsigned short KEYFRAME_RULE = 8;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-1",
+                    "line": 1061
+                },
+                "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\nattribute CSSOMString keyText;\n[SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-1",
+                    "line": 1114
+                },
+                "content": "[Exposed=Window]\ninterface CSSKeyframesRule : CSSRule {\n           attribute CSSOMString name;\n  readonly attribute CSSRuleList cssRules;\n  void             appendRule(CSSOMString rule);\n  void             deleteRule(CSSOMString select);\n  CSSKeyframeRule? findRule(CSSOMString select);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-1",
+                    "line": 1283
+                },
+                "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler onanimationstart;\n  attribute EventHandler onanimationiteration;\n  attribute EventHandler onanimationend;\n  attribute EventHandler onanimationcancel;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-2",
+                    "line": 540
+                },
+                "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-2",
+                    "line": 560
+                },
+                "content": "[Constructor (Animatable? target,\n              CSSOMString animationName,\n              optional (unrestricted double or KeyframeEffectOptions) options,\n              optional CSSOMString defaultEasing = \"ease\"),\n Constructor (Animatable? target,\n              CSSOMString animationName,\n              (unrestricted double or KeyframeEffectOptions) options,\n              CSSOMString defaultEasing,\n              AnimationTimeline? timeline)]\npartial interface CSSAnimation { };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-animations-2",
+                    "line": 582
+                },
+                "content": "[Exposed=Window,\n Constructor (CSSOMString keyframesName, CSSOMString defaultEasing)]\ninterface CSSKeyframeEffectReadOnly : KeyframeEffectReadOnly {\n  readonly attribute CSSOMString keyframesName;\n  readonly attribute CSSOMString defaultEasing;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-conditional-3",
+                    "line": 482
+                },
+                "content": "partial interface CSSRule {\n    const unsigned short SUPPORTS_RULE = 12;\n    \n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-conditional-3",
+                    "line": 541
+                },
+                "content": "[Exposed=Window]\ninterface CSSMediaRule : CSSConditionRule {\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-conditional-3",
+                    "line": 567
+                },
+                "content": "[Exposed=Window]\ninterface CSSSupportsRule : CSSConditionRule {\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-conditional-3",
+                    "line": 598
+                },
+                "content": "[Exposed=Window]\ninterface CSSDocumentRule : CSSConditionRule {\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-conditional-3",
+                    "line": 611
+                },
+                "content": "partial namespace CSS {\n  boolean supports(CSSOMString property, CSSOMString value);\n  boolean supports(CSSOMString conditionText);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-counter-styles-3",
+                    "line": 2503
+                },
+                "content": "partial interface CSSRule {\n    const unsigned short COUNTER_STYLE_RULE = 11;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-counter-styles-3",
+                    "line": 2515
+                },
+                "content": "[Exposed=Window]\ninterface CSSCounterStyleRule : CSSRule {\n  attribute CSSOMString name;\n  attribute CSSOMString system;\n  attribute CSSOMString symbols;\n  attribute CSSOMString additiveSymbols;\n  attribute CSSOMString negative;\n  attribute CSSOMString prefix;\n  attribute CSSOMString suffix;\n  attribute CSSOMString range;\n  attribute CSSOMString pad;\n  attribute CSSOMString speakAs;\n  attribute CSSOMString fallback;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-device-adapt-1",
+                    "line": 905
+                },
+                "content": "partial interface CSSRule {\n    const unsigned short VIEWPORT_RULE = 15;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-device-adapt-1",
+                    "line": 917
+                },
+                "content": "[Exposed=Window]\ninterface CSSViewportRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-font-loading-3",
+                    "line": 79
+                },
+                "content": "typedef (ArrayBuffer or ArrayBufferView) BinaryData;\ndictionary FontFaceDescriptors {\n    CSSOMString style = \"normal\";\n    CSSOMString weight = \"normal\";\n    CSSOMString stretch = \"normal\";\n    CSSOMString unicodeRange = \"U+0-10FFFF\";\n    CSSOMString variant = \"normal\";\n    CSSOMString featureSettings = \"normal\";\n    CSSOMString variationSettings = \"normal\";\n    CSSOMString display = \"auto\";\n};\nenum FontFaceLoadStatus { \"unloaded\", \"loading\", \"loaded\", \"error\" };\n[Constructor(CSSOMString family, (CSSOMString or BinaryData) source,\n             optional FontFaceDescriptors descriptors),\n Exposed=(Window,Worker)]\ninterface FontFace {\n    attribute CSSOMString family;\n    attribute CSSOMString style;\n    attribute CSSOMString weight;\n    attribute CSSOMString stretch;\n    attribute CSSOMString unicodeRange;\n    attribute CSSOMString variant;\n    attribute CSSOMString featureSettings;\n    attribute CSSOMString variationSettings;\n    attribute CSSOMString display;\n    readonly attribute FontFaceLoadStatus status;\n    Promise&lt;FontFace> load();\n    readonly attribute Promise&lt;FontFace> loaded;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-font-loading-3",
+                    "line": 433
+                },
+                "content": "dictionary FontFaceSetLoadEventInit : EventInit {\n    sequence&lt;FontFace> fontfaces = [];\n};\n[Constructor(CSSOMString type, optional FontFaceSetLoadEventInit eventInitDict),\n Exposed=(Window,Worker)]\ninterface FontFaceSetLoadEvent : Event {\n    [SameObject] readonly attribute FrozenArray&lt;FontFace> fontfaces;\n};\nenum FontFaceSetLoadStatus { \"loading\", \"loaded\" };\ncallback ForEachCallback = void (FontFace font, long index, FontFaceSet self);\n[Exposed=(Window,Worker),\n Constructor(sequence&lt;FontFace> initialFaces)]\ninterface FontFaceSet : EventTarget {\n    // FontFaceSet is Set-like!\n    setlike&lt;FontFace>;\n    FontFaceSet add(FontFace font);\n    boolean delete(FontFace font);\n    void clear();\n    // events for when loading state changes\n    attribute EventHandler onloading;\n    attribute EventHandler onloadingdone;\n    attribute EventHandler onloadingerror;\n    // check and start loads if appropriate\n    // and fulfill promise when all loads complete\n    Promise&lt;sequence&lt;FontFace>> load(CSSOMString font, optional CSSOMString text = \" \");\n    // return whether all fonts in the fontlist are loaded\n    // (does not initiate load if not available)\n    boolean check(CSSOMString font, optional CSSOMString text = \" \");\n    // async notification that font loading and layout operations are done\n    readonly attribute Promise&lt;FontFaceSet> ready;\n    // loading state, \"loading\" while one or more fonts loading, \"loaded\" otherwise\n    readonly attribute FontFaceSetLoadStatus status;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-font-loading-3",
+                    "line": 995
+                },
+                "content": "interface mixin FontFaceSource {\n    readonly attribute FontFaceSet fonts;\n};\nDocument includes FontFaceSource;\nWorkerGlobalScope includes FontFaceSource;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 5897
+                },
+                "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 5913
+                },
+                "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 5919
+                },
+                "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  void set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-fonts-4",
+                    "line": 5975
+                },
+                "content": "partial interface CSSRule {\n  const unsigned short FONT_PALETTE_VALUES_RULE = 15;\n};\n[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  maplike&lt;unsigned long, CSSOMString>;\n  attribute CSSOMString fontFamily;\n  attribute CSSOMString basePalette;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-images-4",
+                    "line": 914
+                },
+                "content": "partial namespace CSS {\n    [SameObject] readonly attribute any elementSources;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-nav-1",
+                    "line": 418
+                },
+                "content": "enum SpatialNavigationDirection {\n    \"up\",\n    \"down\",\n    \"left\",\n    \"right\",\n};\npartial interface Window {\n    void navigate(SpatialNavigationDirection dir);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-nav-1",
+                    "line": 448
+                },
+                "content": "enum FocusableAreaSearchMode {\n    \"visible\",\n    \"all\"\n};\ndictionary FocusableAreasOption {\n    FocusableAreaSearchMode mode;\n};\ndictionary SpatialNavigationSearchOptions {\n    required SpatialNavigationDirection dir;\n    sequence&lt;Node>? candidates;\n    Node? container;\n};\npartial interface Element {\n    Node getSpatialNavigationContainer();\n    sequence&lt;Node> focusableAreas(optional FocusableAreasOption option);\n    Node? spatialNavigationSearch(SpatialNavigationSearchOptions options);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-nav-1",
+                    "line": 640
+                },
+                "content": "[Exposed=Window,\n  Constructor (DOMString type, optional NavigationEventInit eventInitDict)]\ninterface NavigationEvent : UIEvent {\n    readonly attribute SpatialNavigationDirection dir;\n    readonly attribute EventTarget? relatedTarget;\n};\ndictionary NavigationEventInit : UIEventInit {\n    SpatialNavigationDirection dir;\n    EventTarget? relatedTarget = null;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-pseudo-4",
+                    "line": 861
+                },
+                "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-pseudo-4",
+                    "line": 897
+                },
+                "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-regions-1",
+                    "line": 1001
+                },
+                "content": "partial interface Document {\n    readonly attribute NamedFlowMap namedFlows;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-regions-1",
+                    "line": 1032
+                },
+                "content": "[Exposed=Window,\n MapClass=(CSSOMString, NamedFlow)] interface NamedFlowMap {\n    NamedFlow? get(CSSOMString flowName);\n    boolean has(CSSOMString flowName);\n    NamedFlowMap set(CSSOMString flowName, NamedFlow flowValue);\n    boolean delete(CSSOMString flowName);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-regions-1",
+                    "line": 1079
+                },
+                "content": "[Exposed=Window]\ninterface NamedFlow : EventTarget {\n    readonly attribute CSSOMString name;\n    readonly attribute boolean overset;\n    sequence&lt;Region&gt; getRegions();\n    readonly attribute short firstEmptyRegionIndex;\n    sequence&lt;Node&gt; getContent();\n    sequence&lt;Region&gt; getRegionsByContent(Node node);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-regions-1",
+                    "line": 1178
+                },
+                "content": "interface mixin Region {\n    readonly attribute CSSOMString regionOverset;\n    sequence&lt;Range&gt;? getRegionFlowRanges();\n};\nElement includes Region;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-shadow-parts-1",
+                    "line": 309
+                },
+                "content": "partial interface Element {\n  [SameObject, PutForwards=value] readonly attribute DOMTokenList part;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-transitions-1",
+                    "line": 1087
+                },
+                "content": "[Exposed=Window,\n Constructor(CSSOMString type, optional TransitionEventInit transitionEventInitDict = {})]\ninterface TransitionEvent : Event {\n  readonly attribute CSSOMString propertyName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary TransitionEventInit : EventInit {\n  CSSOMString propertyName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-transitions-1",
+                    "line": 1242
+                },
+                "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler ontransitionrun;\n  attribute EventHandler ontransitionstart;\n  attribute EventHandler ontransitionend;\n  attribute EventHandler ontransitioncancel;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-transitions-2",
+                    "line": 342
+                },
+                "content": "[Exposed=Window]\ninterface CSSTransition : Animation {\n  readonly attribute CSSOMString transitionProperty;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-transitions-2",
+                    "line": 356
+                },
+                "content": "[Constructor (Animatable? target,\n              CSSOMString transitionProperty,\n              any transitionValue,\n              optional (unrestricted double or KeyframeEffectOptions) options),\n Constructor (Animatable? target,\n              CSSOMString transitionProperty,\n              any transitionValue,\n              (unrestricted double or KeyframeEffectOptions) options,\n              AnimationTimeline? timeline)]\npartial interface CSSTransition { };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 507
+                },
+                "content": "[Exposed=Window]\ninterface MediaList {\n  stringifier attribute [TreatNullAs=EmptyString] CSSOMString mediaText;\n  readonly attribute unsigned long length;\n  getter CSSOMString? item(unsigned long index);\n  void appendMedium(CSSOMString medium);\n  void deleteMedium(CSSOMString medium);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 869
+                },
+                "content": "[Exposed=Window]\ninterface StyleSheet {\n  readonly attribute CSSOMString type;\n  readonly attribute USVString? href;\n  readonly attribute (Element or ProcessingInstruction)? ownerNode;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  readonly attribute DOMString? title;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  attribute boolean disabled;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 907
+                },
+                "content": "[Exposed=Window]\ninterface CSSStyleSheet : StyleSheet {\n  readonly attribute CSSRule? ownerRule;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  void deleteRule(unsigned long index);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 956
+                },
+                "content": "partial interface CSSStyleSheet {\n  [SameObject] readonly attribute CSSRuleList rules;\n  long addRule(optional DOMString selector = \"undefined\", optional DOMString style = \"undefined\", optional unsigned long index);\n  void removeRule(optional unsigned long index = 0);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1167
+                },
+                "content": "[Exposed=Window]\ninterface StyleSheetList {\n  getter CSSStyleSheet? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1187
+                },
+                "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1245
+                },
+                "content": "interface mixin LinkStyle {\n  readonly attribute CSSStyleSheet? sheet;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1291
+                },
+                "content": "ProcessingInstruction includes LinkStyle;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1682
+                },
+                "content": "[Exposed=Window]\ninterface CSSRuleList {\n  getter CSSRule? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1706
+                },
+                "content": "[Exposed=Window]\ninterface CSSRule {\n  attribute CSSOMString cssText;\n  readonly attribute CSSRule? parentRule;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  // the following attribute and constants are historial\n  readonly attribute unsigned short type;\n  const unsigned short STYLE_RULE = 1;\n  const unsigned short CHARSET_RULE = 2;\n  const unsigned short IMPORT_RULE = 3;\n  const unsigned short MEDIA_RULE = 4;\n  const unsigned short FONT_FACE_RULE = 5;\n  const unsigned short PAGE_RULE = 6;\n  const unsigned short MARGIN_RULE = 9;\n  const unsigned short NAMESPACE_RULE = 10;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1791
+                },
+                "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1830
+                },
+                "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet styleSheet;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1857
+                },
+                "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  void deleteRule(unsigned long index);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1891
+                },
+                "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1927
+                },
+                "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 1956
+                },
+                "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2148
+                },
+                "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] void setProperty(CSSOMString property, [TreatNullAs=EmptyString] CSSOMString value, optional [TreatNullAs=EmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [TreatNullAs=EmptyString] CSSOMString cssFloat;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2790
+                },
+                "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2802
+                },
+                "content": "HTMLElement includes ElementCSSInlineStyle;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2808
+                },
+                "content": "SVGElement includes ElementCSSInlineStyle;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2816
+                },
+                "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-1",
+                    "line": 2881
+                },
+                "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 418
+                },
+                "content": "enum ScrollBehavior { \"auto\", \"smooth\" };\ndictionary ScrollOptions {\n    ScrollBehavior behavior = \"auto\";\n};\ndictionary ScrollToOptions : ScrollOptions {\n    unrestricted double left;\n    unrestricted double top;\n};\npartial interface Window {\n    [NewObject] MediaQueryList matchMedia(CSSOMString query);\n    [SameObject, Replaceable] readonly attribute Screen screen;\n    // browsing context\n    void moveTo(long x, long y);\n    void moveBy(long x, long y);\n    void resizeTo(long x, long y);\n    void resizeBy(long x, long y);\n    // viewport\n    [Replaceable] readonly attribute long innerWidth;\n    [Replaceable] readonly attribute long innerHeight;\n    // viewport scrolling\n    [Replaceable] readonly attribute double scrollX;\n    [Replaceable] readonly attribute double pageXOffset;\n    [Replaceable] readonly attribute double scrollY;\n    [Replaceable] readonly attribute double pageYOffset;\n    void scroll(optional ScrollToOptions options = {});\n    void scroll(unrestricted double x, unrestricted double y);\n    void scrollTo(optional ScrollToOptions options = {});\n    void scrollTo(unrestricted double x, unrestricted double y);\n    void scrollBy(optional ScrollToOptions options = {});\n    void scrollBy(unrestricted double x, unrestricted double y);\n    // client\n    [Replaceable] readonly attribute long screenX;\n    [Replaceable] readonly attribute long screenLeft;\n    [Replaceable] readonly attribute long screenY;\n    [Replaceable] readonly attribute long screenTop;\n    [Replaceable] readonly attribute long outerWidth;\n    [Replaceable] readonly attribute long outerHeight;\n    [Replaceable] readonly attribute double devicePixelRatio;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 769
+                },
+                "content": "[Exposed=Window]\ninterface MediaQueryList : EventTarget {\n  readonly attribute CSSOMString media;\n  readonly attribute boolean matches;\n  void addListener(EventListener? listener);\n  void removeListener(EventListener? listener);\n           attribute EventHandler onchange;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 825
+                },
+                "content": "[Exposed=Window,\n Constructor(CSSOMString type, optional MediaQueryListEventInit eventInitDict = {})]\ninterface MediaQueryListEvent : Event {\n  readonly attribute CSSOMString media;\n  readonly attribute boolean matches;\n};\ndictionary MediaQueryListEventInit : EventInit {\n  CSSOMString media = \"\";\n  boolean matches = false;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 867
+                },
+                "content": "[Exposed=Window]\ninterface Screen {\n  readonly attribute long availWidth;\n  readonly attribute long availHeight;\n  readonly attribute long width;\n  readonly attribute long height;\n  readonly attribute unsigned long colorDepth;\n  readonly attribute unsigned long pixelDepth;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 926
+                },
+                "content": "partial interface Document {\n  Element? elementFromPoint(double x, double y);\n  sequence&lt;Element> elementsFromPoint(double x, double y);\n  CaretPosition? caretPositionFromPoint(double x, double y);\n  readonly attribute Element? scrollingElement;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1034
+                },
+                "content": "[Exposed=Window]\ninterface CaretPosition {\n  readonly attribute Node offsetNode;\n  readonly attribute unsigned long offset;\n  [NewObject] DOMRect? getClientRect();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1065
+                },
+                "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  void scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  void scroll(optional ScrollToOptions options = {});\n  void scroll(unrestricted double x, unrestricted double y);\n  void scrollTo(optional ScrollToOptions options = {});\n  void scrollTo(unrestricted double x, unrestricted double y);\n  void scrollBy(optional ScrollToOptions options = {});\n  void scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1382
+                },
+                "content": "partial interface HTMLElement {\n  readonly attribute Element? offsetParent;\n  readonly attribute long offsetTop;\n  readonly attribute long offsetLeft;\n  readonly attribute long offsetWidth;\n  readonly attribute long offsetHeight;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1440
+                },
+                "content": "partial interface HTMLImageElement {\n  readonly attribute long x;\n  readonly attribute long y;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1458
+                },
+                "content": "partial interface Range {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1501
+                },
+                "content": "partial interface MouseEvent {\n  readonly attribute double screenX;\n  readonly attribute double screenY;\n  readonly attribute double pageX;\n  readonly attribute double pageY;\n  readonly attribute double clientX;\n  readonly attribute double clientY;\n  readonly attribute double x;\n  readonly attribute double y;\n  readonly attribute double offsetX;\n  readonly attribute double offsetY;\n};\npartial dictionary MouseEventInit {\n  double screenX = 0.0;\n  double screenY = 0.0;\n  double clientX = 0.0;\n  double clientY = 0.0;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "cssom-view-1",
+                    "line": 1570
+                },
+                "content": "enum CSSBoxType { \"margin\", \"border\", \"padding\", \"content\" };\ndictionary BoxQuadOptions {\n  CSSBoxType box = \"border\";\n  GeometryNode relativeTo; // XXX default document (i.e. viewport)\n};\ndictionary ConvertCoordinateOptions {\n  CSSBoxType fromBox = \"border\";\n  CSSBoxType toBox = \"border\";\n};\ninterface mixin GeometryUtils {\n  sequence&lt;DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};\nText includes GeometryUtils; // like Range\nElement includes GeometryUtils;\nCSSPseudoElement includes GeometryUtils;\nDocument includes GeometryUtils;\ntypedef (Text or Element or CSSPseudoElement or Document) GeometryNode;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "mediaqueries-5",
+                    "line": 414
+                },
+                "content": "[Exposed=Window]\ninterface CSSCustomMediaRule : CSSRule {\n    attribute CSSOMString name;\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 136
+                },
+                "content": "enum ResizeObserverBoxOptions {\n    \"border-box\", \"content-box\"\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 147
+                },
+                "content": "dictionary ResizeObserverOptions {\n    ResizeObserverBoxOptions box = \"content-box\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 167
+                },
+                "content": "[Exposed=(Window),\n Constructor(ResizeObserverCallback callback)]\ninterface ResizeObserver {\n    void observe(Element target, optional ResizeObserverOptions options);\n    void unobserve(Element target);\n    void disconnect();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 218
+                },
+                "content": "callback ResizeObserverCallback = void (sequence&lt;ResizeObserverEntry> entries, ResizeObserver observer);"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 227
+                },
+                "content": "[Exposed=Window, Constructor(Element target)]\ninterface ResizeObserverEntry {\n    readonly attribute Element target;\n    readonly attribute DOMRectReadOnly contentRect;\n    readonly attribute ResizeObserverSize borderBoxSize;\n    readonly attribute ResizeObserverSize contentBoxSize;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 281
+                },
+                "content": "interface ResizeObserverSize {\n    readonly attribute unrestricted double inlineSize;\n    readonly attribute unrestricted double blockSize;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "resize-observer-1",
+                    "line": 295
+                },
+                "content": "[Constructor(Element target)\n]\ninterface ResizeObservation {\n    readonly attribute Element target;\n    readonly attribute ResizeObserverBoxOptions observedBox;\n    readonly attribute ResizeObserverSize lastReportedSize;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 3923
+                },
+                "content": "[Exposed=Window]\ninterface AnimationTimeline {\n    readonly attribute double? currentTime;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 3945
+                },
+                "content": "dictionary DocumentTimelineOptions {\n  DOMHighResTimeStamp originTime = 0;\n};\n[Exposed=Window,\n Constructor(optional DocumentTimelineOptions options = {})]\ninterface DocumentTimeline : AnimationTimeline {\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 3992
+                },
+                "content": "[Exposed=Window,\n Constructor(optional AnimationEffect? effect = null,\n             optional AnimationTimeline? timeline)]\ninterface Animation : EventTarget {\n             attribute DOMString                id;\n             attribute AnimationEffect?         effect;\n             attribute AnimationTimeline?       timeline;\n             attribute double?                  startTime;\n             attribute double?                  currentTime;\n             attribute double                   playbackRate;\n    readonly attribute AnimationPlayState       playState;\n    readonly attribute AnimationReplaceState    replaceState;\n    readonly attribute boolean                  pending;\n    readonly attribute Promise&lt;Animation&gt;       ready;\n    readonly attribute Promise&lt;Animation&gt;       finished;\n             attribute EventHandler             onfinish;\n             attribute EventHandler             oncancel;\n             attribute EventHandler             onremove;\n    void cancel();\n    void finish();\n    void play();\n    void pause();\n    void updatePlaybackRate(double playbackRate);\n    void reverse();\n    void persist();\n    void commitStyles();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4277
+                },
+                "content": "enum AnimationPlayState { \"idle\", \"running\", \"paused\", \"finished\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4292
+                },
+                "content": "enum AnimationReplaceState { \"active\", \"removed\", \"persisted\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4308
+                },
+                "content": "[Exposed=Window]\ninterface AnimationEffect {\n    EffectTiming         getTiming();\n    ComputedEffectTiming getComputedTiming();\n    void                 updateTiming(optional OptionalEffectTiming timing = {});\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4407
+                },
+                "content": "dictionary EffectTiming {\n    double                             delay = 0;\n    double                             endDelay = 0;\n    FillMode                           fill = \"auto\";\n    double                             iterationStart = 0.0;\n    unrestricted double                iterations = 1.0;\n    (unrestricted double or DOMString) duration = \"auto\";\n    PlaybackDirection                  direction = \"normal\";\n    DOMString                          easing = \"linear\";\n};\ndictionary OptionalEffectTiming {\n    double                             delay;\n    double                             endDelay;\n    FillMode                           fill;\n    double                             iterationStart;\n    unrestricted double                iterations;\n    (unrestricted double or DOMString) duration;\n    PlaybackDirection                  direction;\n    DOMString                          easing;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4545
+                },
+                "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4568
+                },
+                "content": "enum PlaybackDirection { \"normal\", \"reverse\", \"alternate\", \"alternate-reverse\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4634
+                },
+                "content": "dictionary ComputedEffectTiming : EffectTiming {\n    unrestricted double  endTime;\n    unrestricted double  activeDuration;\n    double?              localTime;\n    double?              progress;\n    unrestricted double? currentIteration;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4684
+                },
+                "content": "[Exposed=Window,\n Constructor((Element or CSSPseudoElement)? target,\n             object? keyframes,\n             optional (unrestricted double or KeyframeEffectOptions) options = {}),\n Constructor(KeyframeEffect source)]\ninterface KeyframeEffect : AnimationEffect {\n    attribute (Element or CSSPseudoElement)? target;\n    attribute IterationCompositeOperation    iterationComposite;\n    attribute CompositeOperation             composite;\n    sequence&lt;object&gt; getKeyframes();\n    void             setKeyframes(object? keyframes);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 4902
+                },
+                "content": "dictionary BaseComputedKeyframe {\n     double?                  offset = null;\n     double                   computedOffset;\n     DOMString                easing = \"linear\";\n     CompositeOperationOrAuto composite = \"auto\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5278
+                },
+                "content": "dictionary BasePropertyIndexedKeyframe {\n    (double? or sequence&lt;double?&gt;)                         offset = [];\n    (DOMString or sequence&lt;DOMString&gt;)                     easing = [];\n    (CompositeOperationOrAuto or sequence&lt;CompositeOperationOrAuto&gt;) composite = [];\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5289
+                },
+                "content": "dictionary BaseKeyframe {\n    double?                  offset = null;\n    DOMString                easing = \"linear\";\n    CompositeOperationOrAuto composite = \"auto\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5604
+                },
+                "content": "dictionary KeyframeEffectOptions : EffectTiming {\n    IterationCompositeOperation iterationComposite = \"replace\";\n    CompositeOperation          composite = \"replace\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5633
+                },
+                "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5656
+                },
+                "content": "enum CompositeOperation { \"replace\", \"add\", \"accumulate\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5687
+                },
+                "content": "enum CompositeOperationOrAuto { \"replace\", \"add\", \"accumulate\", \"auto\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5700
+                },
+                "content": "interface mixin Animatable {\n    Animation           animate(object? keyframes,\n                                optional (unrestricted double or KeyframeAnimationOptions) options = {});\n    sequence&lt;Animation&gt; getAnimations(optional GetAnimationsOptions options = {});\n};\ndictionary KeyframeAnimationOptions : KeyframeEffectOptions {\n    DOMString id = \"\";\n};\ndictionary GetAnimationsOptions {\n    boolean subtree = false;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5842
+                },
+                "content": "partial interface Document {\n    readonly attribute DocumentTimeline timeline;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5861
+                },
+                "content": "partial interface mixin DocumentOrShadowRoot {\n    sequence&lt;Animation&gt; getAnimations();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5893
+                },
+                "content": "Element includes Animatable;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5908
+                },
+                "content": "CSSPseudoElement includes Animatable;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-1",
+                    "line": 5917
+                },
+                "content": "[Exposed=Window,\n Constructor(DOMString type, optional AnimationPlaybackEventInit eventInitDict = {})]\ninterface AnimationPlaybackEvent : Event {\n    readonly attribute double? currentTime;\n    readonly attribute double? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    double? currentTime = null;\n    double? timelineTime = null;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1398
+                },
+                "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n    Animation play (optional AnimationEffectReadOnly? effect = null);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1452
+                },
+                "content": "[Exposed=Window]\npartial interface AnimationEffectReadOnly {\n    // Timing hierarchy\n    readonly attribute GroupEffectReadOnly?     parent;\n    readonly attribute AnimationEffectReadOnly? previousSibling;\n    readonly attribute AnimationEffectReadOnly? nextSibling;\n};\n[NoInterfaceObject]\ninterface AnimationEffectMutable {\n    void before (AnimationEffectReadOnly... effects);\n    void after (AnimationEffectReadOnly... effects);\n    void replace (AnimationEffectReadOnly... effects);\n    void remove ();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1561
+                },
+                "content": "[Exposed=Window]\npartial interface AnimationEffectTimingReadOnly {\n    readonly attribute double                             playbackRate;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1612
+                },
+                "content": "[Exposed=Window]\npartial interface AnimationEffectTiming : AnimationEffectTimingReadOnly {\n    inherit attribute double                             playbackRate;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1629
+                },
+                "content": "partial dictionary AnimationEffectTimingProperties {\n    double playbackRate = 1.0;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1646
+                },
+                "content": "partial dictionary ComputedTimingProperties : AnimationEffectTimingProperties {\n    double startTime;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1689
+                },
+                "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1710
+                },
+                "content": "[Exposed=Window,\n Constructor (sequence<AnimationEffectReadOnly>? children,\n              optional (unrestricted double or AnimationEffectTimingProperties) timing)]\ninterface GroupEffectReadOnly : AnimationEffectReadOnly {\n    readonly attribute AnimationNodeList      children;\n    readonly attribute AnimationEffectReadOnly? firstChild;\n    readonly attribute AnimationEffectReadOnly? lastChild;\n    GroupEffect clone ();\n};\n[NoInterfaceObject]\ninterface GroupEffectMutable {\n  void prepend (AnimationEffectReadOnly... effects);\n  void append (AnimationEffectReadOnly... effects);\n};\n[Exposed=Window,\n Constructor (sequence<AnimationEffectReadOnly>? children,\n              optional (unrestricted double or AnimationEffectTimingProperties) timing)]\ninterface GroupEffect : GroupEffectReadOnly {\n};\nGroupEffect implements AnimationEffectMutable;\nGroupEffect implements GroupEffectMutable;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 1970
+                },
+                "content": "[Exposed=Window]\ninterface AnimationNodeList {\n    readonly attribute unsigned long length;\n    getter AnimationEffectReadOnly? item (unsigned long index);\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 2004
+                },
+                "content": "[Exposed=Window,\n Constructor (sequence<AnimationEffectReadOnly>? children,\n              optional (unrestricted double or AnimationEffectTimingProperties) timing)]\ninterface SequenceEffectReadOnly : GroupEffectReadOnly {\n    SequenceEffect clone ();\n};\n[Exposed=Window,\n Constructor (sequence<AnimationEffectReadOnly>? children,\n              optional (unrestricted double or AnimationEffectTimingProperties) timing)]\ninterface SequenceEffect : SequenceEffectReadOnly {\n};\nSequenceEffect implements AnimationEffectMutable;\nSequenceEffect implements GroupEffectMutable;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 2048
+                },
+                "content": "KeyframeEffect implements AnimationEffectMutable;"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 2086
+                },
+                "content": "callback EffectCallback = void (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             }
         ]
     }
