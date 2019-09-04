@@ -134,6 +134,7 @@ discovery.setPrepare(function(data) {
     ];
 
     discovery.addQueryHelpers({
+        isArray: value => Array.isArray(value),
         color: value => colorMap.has(value) ? colorMap.get(value) : generateColor(value),
         syntaxChildren(current) {
             const children = [];

@@ -1,7 +1,7 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-09-04T23:02:13.811Z",
-    "elapsedTime": 271,
+    "createdAt": "2019-09-04T23:21:33.580Z",
+    "elapsedTime": 326,
     "data": {
         "specs": [
             {
@@ -4204,7 +4204,7 @@
                     "name": "border-image-source",
                     "value": "none | <image>",
                     "initial": "none",
-                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the keyword none or the computed <image>",
@@ -4222,7 +4222,7 @@
                     "name": "border-image-slice",
                     "value": "[<number> | <percentage>]{1,4} && fill?",
                     "initial": "100%",
-                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
                     "percentages": "refer to size of the border image",
                     "computedValue": "four values, each either a number or percentage; plus a fill keyword if specified",
@@ -4240,7 +4240,7 @@
                     "name": "border-image-width",
                     "value": "[ <length-percentage> | <number> | auto ]{1,4}",
                     "initial": "1",
-                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
                     "percentages": "Relative to width/height of the <a>border image area</a>",
                     "computedValue": "four values, each either a number, the keyword auto, or a computed <length-percentage> value",
@@ -4258,7 +4258,7 @@
                     "name": "border-image-outset",
                     "value": "[ <length> | <number> ]{1,4}",
                     "initial": "0",
-                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "four values, each a number or absolute length",
@@ -4276,7 +4276,7 @@
                     "name": "border-image-repeat",
                     "value": "[ stretch | repeat | round | space ]{1,2}",
                     "initial": "stretch",
-                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\n''border-collapse/collapse''",
+                    "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "two keywords, one per axis",
@@ -4504,7 +4504,7 @@
                     "name": "border-radius",
                     "value": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
                     "initial": "0",
-                    "appliesTo": "all elements, except table element when 'border-collapse' is ''collapse''",
+                    "appliesTo": "all elements, except table element when 'border-collapse' is collapse",
                     "inherited": "no"
                 },
                 "name": "border-radius"
@@ -4519,7 +4519,7 @@
                     "name": "corner-shape",
                     "value": "[ round | angle ]{1,4}",
                     "initial": "round",
-                    "appliesTo": "all elements, except table element when 'border-collapse' is ''collapse''",
+                    "appliesTo": "all elements, except table element when 'border-collapse' is collapse",
                     "inherited": "no"
                 },
                 "name": "corner-shape"
@@ -4546,7 +4546,7 @@
                     "name": "border-limit",
                     "value": "all | [ sides | corners ] <length-percentage>?\n| [ top | right | bottom | left ] <length-percentage>",
                     "initial": "round",
-                    "appliesTo": "all elements, except table element when 'border-collapse' is ''collapse''",
+                    "appliesTo": "all elements, except table element when 'border-collapse' is collapse",
                     "inherited": "no",
                     "percentages": "relative to border-box"
                 },
@@ -5084,7 +5084,7 @@
                 "props": {
                     "name": "color",
                     "value": "<color>",
-                    "initial": "''black''",
+                    "initial": "black",
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "N/A",
@@ -8660,7 +8660,7 @@
                 "props": {
                     "name": "overflow-x",
                     "value": "visible | hidden | clip | scroll | auto",
-                    "initial": "''visible''",
+                    "initial": "visible",
                     "appliesTo": "block containers [[!CSS21]], flex containers [[!CSS3-FLEXBOX]], and grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -8678,7 +8678,7 @@
                 "props": {
                     "name": "overflow-y",
                     "value": "visible | hidden | clip | scroll | auto",
-                    "initial": "''visible''",
+                    "initial": "visible",
                     "appliesTo": "block containers [[!CSS21]], flex containers [[!CSS3-FLEXBOX]], and grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -8800,7 +8800,7 @@
                 "props": {
                     "name": "max-lines",
                     "value": "none | <integer>",
-                    "initial": "''none''",
+                    "initial": "none",
                     "appliesTo": "<a>block containers</a> which are also [=fragmentation containers=] that capture [=region breaks=]",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -8818,7 +8818,7 @@
                 "props": {
                     "name": "continue",
                     "value": "auto | discard",
-                    "initial": "''continue/auto''",
+                    "initial": "auto",
                     "appliesTo": "[=block containers=] and [=multicol containers=]",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -9361,7 +9361,7 @@
                     "name": "flow-into",
                     "value": "none | <ident> [element|content]?",
                     "initial": "none",
-                    "appliesTo": "All elements, but not <a href=\"https://www.w3.org/TR/selectors/#pseudo-elements\">pseudo-elements</a> such as <code>::first-line</code>, <code>::first-letter</code>, <code>::before</code> or <code>::after</code>.",
+                    "appliesTo": "All elements, but not <a href=\"https://www.w3.org/TR/selectors/#pseudo-elements\">pseudo-elements</a> such as ::first-line, ::first-letter, ::before or ::after.",
                     "inherited": "no",
                     "computedValue": "as specified",
                     "animationType": "not animatable"
@@ -10465,7 +10465,7 @@
                     "value": "<​length​>{1,2}",
                     "initial": "0px 0px",
                     "inherited": "yes",
-                    "appliesTo": "<a>table grid boxes</a> when 'border-collapse' is ''border-collapse/separate''",
+                    "appliesTo": "<a>table grid boxes</a> when 'border-collapse' is separate",
                     "computedValue": "two absolute lengths",
                     "animationType": "by computed value"
                 },
@@ -11330,7 +11330,7 @@
                 "props": {
                     "name": "text-decoration-skip-ink",
                     "value": "auto | none",
-                    "initial": "''auto''",
+                    "initial": "auto",
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "N/A",
@@ -11562,7 +11562,7 @@
                 "props": {
                     "name": "transition-duration",
                     "value": "<time>#",
-                    "initial": "''0s''",
+                    "initial": "0s",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -11580,7 +11580,7 @@
                 "props": {
                     "name": "transition-timing-function",
                     "value": "<easing-function>#",
-                    "initial": "''transition-timing-function/ease''",
+                    "initial": "ease",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -11598,7 +11598,7 @@
                 "props": {
                     "name": "transition-delay",
                     "value": "<time>#",
-                    "initial": "''0s''",
+                    "initial": "0s",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -12077,7 +12077,7 @@
                     "value": "auto | text | none | contain | all",
                     "initial": "auto",
                     "inherited": "no",
-                    "appliesTo": "all elements, and optionally to the ''::before'' and ''::after'' pseudo elements",
+                    "appliesTo": "all elements, and optionally to the ::before and ::after pseudo elements",
                     "computedValue": "See below",
                     "animationType": "not animatable"
                 },

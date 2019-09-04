@@ -300,6 +300,8 @@ function processBs(fn) {
             } else {
                 cleanupPropValue(entry.props, 'value');
                 cleanupPropValue(entry.props, 'newValues');
+                cleanupPropValue(entry.props, 'initial');
+                cleanupPropValue(entry.props, 'appliesTo');
                 cleanupPropValue(entry.props, 'computedValue');
                 cleanupPropValue(entry.props, 'animationType');
                 cleanupPropValue(entry.props, 'animatable');

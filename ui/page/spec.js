@@ -6,7 +6,14 @@ discovery.page.define('spec', {
         {
             view: 'key-value',
             data: 'props',
-            value: 'pre:value'
+            value: {
+                view: 'switch',
+                content: [
+                    { when: 'key="status"', content: 'badge:{ text: value, color: value.color() }'},
+                    { when: 'value.isArray()', content: { view: 'ul', data: 'value', item: 'pre' } },
+                    { content: 'pre:value' }
+                ]
+            }
         },
         {
             view: 'table',
