@@ -1,0 +1,26 @@
+.view-def {
+    padding: 4px 12px;
+    margin: 1px 0;
+    border: 1px solid #f0f0f0;
+    line-height: 2;
+}
+.view-def .header {
+    font-size: 16px;
+}
+.view-def .header .view-link + .view-badge {
+    font-size: 12px;
+    margin-left: 1ex;
+    background: #d8e1f3;
+    color: #4869a9;
+}
+.view-def .source {
+    font-size: 12px;
+    color: #aaa;
+}
+.view-def .source a {
+    color: #888;
+    text-decoration-color: #ddd;
+}
+.view-def .source a:hover {
+    text-decoration-color: currentColor;
+}
