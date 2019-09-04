@@ -9,10 +9,51 @@ const ignoreDirs = new Set([
 const uniqueCls = new Set();
 const specs = [];
 const defs = [];
+const propWriters = {
+    default: function(dict, key, value) {
+        if (key in dict === false) {
+            dict[key] = value;
+        } else {
+            dict[key] = dict[key] ? dict[key] + '\n' + value : value;
+        }
+    },
+    array: function(dict, key, value) {
+        if (key in dict === false) {
+            dict[key] = [value];
+        } else {
+            dict[key].push(value);
+        }
+    },
+    commaSeparatedArray: function(dict, key, value) {
+        value.trim().split(/\s*,\s*/).forEach(value =>
+            propWriters.array(dict, key, value)
+        );
+    }
+};
+const entryKeyType = {
+    spec: {
+        editor: propWriters.array,
+        formerEditor: propWriters.array,
+        '!contributors': propWriters.array,
+        previousVersion: propWriters.array,
+        ignoredTerms: propWriters.commaSeparatedArray,
+        ignoredVars: propWriters.commaSeparatedArray,
+        issueTracking: propWriters.array,
+        canIUseUrl: propWriters.array,
+        ignoreCanIUseUrlFailure: propWriters.array,
+        '!changeLog': propWriters.array
+    }
+};
 
-function processTextBlock(lines) {
+function writePropValue(dict, key, type, value) {
+    const propWriter = (entryKeyType[type] && entryKeyType[type][key]) || propWriters.default;
+
+    propWriter(dict, key, value);
+}
+
+function processTextBlock(lines, type) {
     const props = {};
-    const keyValueRx = /^\s*(\S.+?):\s*(.+)/;
+    const keyValueRx = /^\s*(\S.+?):\s*(.*)/;
     let prevProp = '';
 
     for (let i = 0; i < lines.length; i++) {
@@ -31,20 +72,17 @@ function processTextBlock(lines) {
                 .replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
             let value = keyValueMatch[2];
 
+            // FIXME: https://github.com/w3c/csswg-drafts/pull/4262
             if (value === ': discrete') {
                 value = 'discrete';
             }
 
-            if (key in props) {
-                props[key] += '\n' + value;
-            } else {
-                props[key] = value;
-            }
+            writePropValue(props, key, type, value);
 
             prevProp = key;
         } else {
             if (prevProp) {
-                props[prevProp] += '\n' + lines[i].trim();
+                writePropValue(props, prevProp, type, lines[i].trim());
             } else {
                 console.log('[WTF]!:', lines[i])
             }
@@ -54,12 +92,13 @@ function processTextBlock(lines) {
     return props;
 }
 
-function processTableBlock(lines) {
+function processTableBlock(lines, type) {
     return processTextBlock(
         lines
             .join('\n')
             .replace(/([ \t]+)<tr>\n\s*<th>(.+?)\n\s*<td>\s*/g, '$1$2 ')
-            .split('\n')
+            .split('\n'),
+        type
     );
 }
 
@@ -99,19 +138,9 @@ function processBs(fn) {
 
     let content = fs.readFileSync(fn, 'utf8');
 
-    // FIXME
-    if (relfn === 'css-gcpm-3/Overview.bs') {
-        content = content.replace(/[ \t]+<\/pre>/gi, '</pre>');
-    }
-
     const lines = content.split(/\r\n?|\n/);
     const blockStartRx = /^(\s*)<(\S+)\s+class=(?:'([^']+)'|"([^"]+)"|(\S+))>/i;
     const blockEndRx = /^\s*<\/(\S+?)>/;
-    const spec = {
-        id: path.dirname(relfn),
-        title: path.dirname(relfn),
-        file: relfn
-    };
 
     for (let i = 0; i < lines.length; i++) {
         const blockStart = lines[i].match(blockStartRx);
@@ -120,19 +149,12 @@ function processBs(fn) {
             const [, offset, el, cls1, cls2, cls3] = blockStart;
             let type = (cls1 || cls2 || cls3).replace(/\s+/g, '-');
 
-            // FIXME: 2 entries in css-overflow-3
-            if (type === 'shorthand-propdef') {
-                // console.log(fn, i);
-                type = 'propdef-shorthand';
-            }
-
             if (!blocks.hasOwnProperty(type)) {
                 continue;
             }
 
             type = blocks[type];
 
-            // console.log('>>>>>', type);
             const blockEnd = offset + '</' + el + '>';
             const blockLines = [];
             let entry = Object.create(null);
@@ -145,7 +167,7 @@ function processBs(fn) {
             } else {
                 entry.source = {
                     spec: path.dirname(relfn),
-                    line: i
+                    line: i + 2 // lines from 1 + skip current line
                 };
             }
 
@@ -156,9 +178,6 @@ function processBs(fn) {
 
                 const [blockEndMatch] = lines[i].match(blockEndRx) || [''];
 
-                // FIXME: wrong indent
-                // - css-gcpm-3/Overview.bs:437
-                // - css-gcpm-3/Overview.bs:448
                 if (blockEndMatch === blockEnd) {
                     break;
                 }
@@ -167,15 +186,14 @@ function processBs(fn) {
             };
 
             entry.props = el === 'table'
-                ? processTableBlock(blockLines)
-                : processTextBlock(blockLines);
+                ? processTableBlock(blockLines, type)
+                : processTextBlock(blockLines, type);
 
             if (type === 'spec') {
                 specs.push(entry);
 
                 if (!entry.props.title) {
                     entry.props.title = entry.id;
-                    // console.log(entry);
                 }            
             } else {
                 cleanupPropValue(entry.props, 'value');
@@ -194,9 +212,6 @@ function processBs(fn) {
                     });
                 });
             }
-
-            // console.log(block);
-            // console.log('');
         }
     }
 }
