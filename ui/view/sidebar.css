@@ -9,3 +9,25 @@
 .discovery-sidebar .header > .view-link:hover {
     text-decoration-color: currentColor;
 }
+
+.discovery-sidebar .view-badge {
+    font-size: 11px;
+    color: #4869a9;
+}
+
+.view-link + .view-pill-badge,
+.view-link + .view-badge,
+.view-link + .view-inline-list {
+    margin-left: 4px;
+    margin-right: 0;
+}
+.view-badge + .view-inline-list,
+.view-pill-badge + .view-inline-list,
+.view-list-item .view-badge:last-child,
+.view-badge + .view-badge,
+.view-badge + .view-pill-badge,
+.view-pill-badge + .view-badge,
+.view-pill-badge + .view-pill-badge {
+    margin-left: 2px;
+    margin-right: 0;
+}

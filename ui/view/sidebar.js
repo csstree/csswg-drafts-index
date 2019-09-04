@@ -3,7 +3,7 @@ discovery.view.define('sidebar', {
     name: 'splitBy',
     tabs: [
         { value: 'byspec', text: 'By spec' },
-        { value: 'byentry', text: 'By entry' }
+        { value: 'byentry', text: 'Index' }
     ],
     content: {
         view: 'content-filter',
@@ -44,11 +44,11 @@ discovery.view.define('sidebar', {
                                     emptyText: false && 'No definitions',
                                     data: 'defs',
                                     item: [
-                                        'badge:{ text: type, color: "#cee4ab" }',
                                         {
                                             view: 'auto-link',
                                             content: 'text-match:{ text, match: #.filter }'
-                                        }
+                                        },
+                                        'badge:{ text: type, color: "#d8e1f3" }'
                                     ]
                                 }
                             }
@@ -88,7 +88,7 @@ discovery.view.define('sidebar', {
                                 {
                                     view: 'inline-list',
                                     data: 'type',
-                                    item: 'badge:{ text: $, color: "#cee4ab" }'
+                                    item: 'badge:{ text: $, color: "#d8e1f3" }'
                                 }
                             ]
                         }
