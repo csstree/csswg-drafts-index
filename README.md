@@ -8,7 +8,7 @@ npm start
 To clone/fetch repos manualy run:
 
 ```bash
-bash sync.sh # or `npm run sync`
+npm run sync
 ```
 
 To build:
