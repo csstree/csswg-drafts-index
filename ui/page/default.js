@@ -3,6 +3,14 @@
 discovery.page.define('default', [
     'h1:#.name',
     {
+        view: 'h5',
+        content: [
+            'text:"Source: "',
+            'link:{ href: source.home, text: "w3c/csswg-drafts" }',
+            'text:" commit " + source.commitShort + " on  " + source.commitDate'
+        ]
+    },
+    {
         view: 'context',
         data: [
             { title: 'Specs', query: 'specs.sort(<props.title>)' },
@@ -43,7 +51,7 @@ discovery.page.define('default', [
             {
                 title: 'IDL sections by spec',
                 query: 'idls.group(<source.spec>).sort(<key.props.title>)',
-                view: '{\n    view: \'list\',\n    item: [\n        \'h1:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value.content\',\n            item: \'pre\'\n        }\n    ]\n}'
+                view: '{\n    view: \'list\',\n    item: [\n        \'h1:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value\',\n            item: [\n                \'h5:source.spec.file + ":" + source.line\',\n                \'source:{content}\'\n            ]\n        }\n    ]\n}'
             }
         ]
     }

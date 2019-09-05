@@ -1,8 +1,15 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-09-04T23:58:14.419Z",
-    "elapsedTime": 212,
+    "createdAt": "2019-09-05T15:34:36.959Z",
+    "elapsedTime": 257,
     "data": {
+        "source": {
+            "home": "https://github.com/w3c/csswg-drafts/",
+            "commit": "1d9bf0c67b91803216dba7ab2c5572b6c9af40c6",
+            "commitShort": "1d9bf0c67b",
+            "commitDate": "2019-09-05T13:41:08.000Z",
+            "branch": "master"
+        },
         "specs": [
             {
                 "type": "spec",
@@ -8611,7 +8618,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1268
+                    "line": 1289
                 },
                 "props": {
                     "name": "spatial-navigation-contain",
@@ -8625,7 +8632,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1386
+                    "line": 1407
                 },
                 "props": {
                     "name": "spatial-navigation-action",
@@ -8640,7 +8647,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1500
+                    "line": 1521
                 },
                 "props": {
                     "name": "spatial-navigation-function",

@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const getRepoInfo = require('git-repo-info');
 const CSSWG_PATH = path.resolve('./csswg-drafts');
 const knownProperties = new Set(require('./real-web-css/scripts/usage/Declaration.json').valid);
 const ignoreDirs = new Set([
@@ -368,8 +369,20 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
     }
 });
 
-
+const {
+    sha: commit,
+    abbreviatedSha: commitShort,
+    branch,
+    committerDate: commitDate
+} = getRepoInfo(CSSWG_PATH);
 module.exports = {
+    source: {
+        home: 'https://github.com/w3c/csswg-drafts/',
+        commit,
+        commitShort,
+        commitDate,
+        branch
+    },
     specs,
     defs,
     prods,
