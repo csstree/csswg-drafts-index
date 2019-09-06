@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lahmatiy/csswg-drafts-index.git"
+    "url": "git+https://github.com/csstree/csswg-drafts-index.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": "Roman Dvornov <rdvornov@gmail.com>",
+  "license": "?",
   "bugs": {
-    "url": "https://github.com/lahmatiy/csswg-drafts-index/issues"
+    "url": "https://github.com/csstree/csswg-drafts-index/issues"
   },
-  "homepage": "https://github.com/lahmatiy/csswg-drafts-index#readme",
+  "homepage": "https://github.com/csstree/csswg-drafts-index#readme",
   "dependencies": {},
   "devDependencies": {
     "@discoveryjs/discovery": "^1.0.0-beta.16",
