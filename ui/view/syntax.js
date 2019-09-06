@@ -13,9 +13,14 @@ function markupSyntax(syntax, dict, match) {
             const entityDescriptor = node.type === 'Type'
                 ? dict.prods.find(e => e.name === node.name)
                 : dict.defs.find(e => e.props.name === node.name);
-            const error = !entityDescriptor;
+            const error = !entityDescriptor && dict.genericProds.indexOf(node.name) === -1;
+            const href = entityDescriptor
+                ? node.type === 'Type'
+                    ? `#prod:${entityDescriptor.id}`
+                    : `#defs:${entityDescriptor.name}`
+                : false;
 
-            str = `<a${entityDescriptor ? ` href="#prod:${entityDescriptor.id}"` : ''}${error ? ' class="error"': ''}>${escapeHtml(str)}</a>`;
+            str = `<a${href ? ` href="${href}"` : ''}${error ? ' class="error"': ''}>${escapeHtml(str)}</a>`;
         }
 
         if (match && match.type === node.type && match.name === node.name) {

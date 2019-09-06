@@ -23,7 +23,7 @@
   "homepage": "https://github.com/csstree/csswg-drafts-index#readme",
   "dependencies": {},
   "devDependencies": {
-    "@discoveryjs/discovery": "^1.0.0-beta.16",
+    "@discoveryjs/discovery": "1.0.0-beta.17",
     "css-tree": "^1.0.0-alpha.34",
     "git-repo-info": "^2.1.0"
   }

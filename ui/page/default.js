@@ -46,7 +46,7 @@ discovery.page.define('default', [
             },
             {
                 title: 'Missed productions',
-                query: '(defs.definitionSyntax.value.syntax + prods.definitionSyntax.syntax)\n..(syntaxChildren()).[type="Type"].name\n- prods.name\n- genericProds'
+                query: '$knownProds: prods.name + genericProds;\n\n(defs.definitionSyntax.value.syntax + prods.definitionSyntax.syntax)\n..(syntaxChildren()).[type="Type" and name not in $knownProds].name'
             },
             {
                 title: 'IDL sections by spec',

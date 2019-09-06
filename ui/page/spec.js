@@ -1,8 +1,13 @@
 discovery.page.define('spec', {
     view: 'context',
-    data: 'specs.pick(<id = #.id>)',
+    data: `specs.pick(<id = #.id>).($spec:$;{
+        ...,
+        defs: @.defs.[source.spec = $spec],
+        idls: @.idls.[source.spec = $spec]
+    })`,
     content: [
         'h1:props.title',
+        'h5:file',
         {
             view: 'key-value',
             data: 'props',
@@ -10,14 +15,16 @@ discovery.page.define('spec', {
                 view: 'switch',
                 content: [
                     { when: 'key="status"', content: 'badge:{ text: value, color: value.color() }'},
-                    { when: 'value.isArray()', content: { view: 'ul', data: 'value', item: 'pre' } },
+                    { when: 'key in ["ed", "tr"]', content: { view:'pre', content: 'link:{ href: value, external: true }' } },
+                    { when: 'value.isArray() and value', content: { view: 'ul', data: 'value', item: 'pre' } },
                     { content: 'pre:value' }
                 ]
             }
         },
         {
             view: 'table',
-            data: '$spec:$; #.data.defs.[source.spec = $spec].props',
+            when: 'defs',
+            data: 'defs.props',
             cols: {
                 el: false,
                 type: false,
@@ -26,6 +33,15 @@ discovery.page.define('spec', {
                 name: 'auto-link',
                 value: 'syntax:value'
             }
+        },
+        {
+            view: 'list',
+            when: 'idls',
+            data: 'idls',
+            item: [
+                'h5:source.spec.file + ":" + source.line',
+                'source:{content}'
+            ]
         }
     ]
 }, {

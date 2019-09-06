@@ -3,7 +3,13 @@
 }
 
 .discovery-sidebar .view-toc-section > .header {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     text-transform: none;
+}
+.discovery-sidebar .view-toc-section.empty > .content {
+    display: none;
 }
 
 .discovery-sidebar .header > .view-link {

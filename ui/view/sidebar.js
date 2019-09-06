@@ -25,10 +25,11 @@ discovery.view.define('sidebar', {
                                         .[source.spec = $spec and (no #.filter or props.name ~= #.filter)]
                                         .sort(<props.name>)
                                 })
-                                .[defs.size() or (#.filter and props.title ~= #.filter)]
+                                .[no #.filter or defs.size() or (#.filter and props.title ~= #.filter)]
                             `,
                             item: {
                                 view: 'toc-section',
+                                className: data => !data.defs.length ? 'empty' : '',
                                 header: [
                                     {
                                         view: 'auto-link',
@@ -36,12 +37,13 @@ discovery.view.define('sidebar', {
                                     },
                                     {
                                         view: 'pill-badge',
+                                        when: 'defs',
                                         data: '{ text: defs.size() }'
                                     }
                                 ],
                                 content: {
                                     view: 'list',
-                                    emptyText: false && 'No definitions',
+                                    emptyText: false,
                                     data: 'defs',
                                     item: [
                                         {

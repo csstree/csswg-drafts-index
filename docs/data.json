@@ -1,13 +1,13 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-09-05T15:34:36.959Z",
-    "elapsedTime": 257,
+    "createdAt": "2019-09-06T16:14:59.473Z",
+    "elapsedTime": 358,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "1d9bf0c67b91803216dba7ab2c5572b6c9af40c6",
-            "commitShort": "1d9bf0c67b",
-            "commitDate": "2019-09-05T13:41:08.000Z",
+            "commit": "9bc5034565017c65ab0e54d6b0ee60dcf9b8097b",
+            "commitShort": "9bc5034565",
+            "commitDate": "2019-09-06T08:32:37.000Z",
             "branch": "master"
         },
         "specs": [
@@ -156,7 +156,13 @@
                     ],
                     "!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a>",
                     "abstract": "This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior.",
-                    "linkDefaults": "css-values-3 (type) <time>, cssom-1 (interface) cssstyledeclaration, dom-core-ls (interface) event, webidl (type) SyntaxError, css-position-3 (property) left",
+                    "linkDefaults": [
+                        "css-values-3 (type) <time>",
+                        "cssom-1 (interface) cssstyledeclaration",
+                        "dom-core-ls (interface) event",
+                        "webidl (type) SyntaxError",
+                        "css-position-3 (property) left"
+                    ],
                     "ignoredTerms": [
                         "domstring",
                         "animationeventinit",
@@ -239,9 +245,7 @@
                         "Lea Verou, Invited Expert, http://lea.verou.me/about/, w3cid 52258"
                     ],
                     "abstract": "This module contains the features of CSS relating to the borders and backgrounds of boxes on the page. It includes and extends the functionality of <a href=\"https://www.w3.org/TR/css3-background/\">CSS Backgrounds and Borders Level&nbsp;3</a>. [[CSS3BG]] The main extensions compared to level&nbsp;3 are shaping ('corner-shape') and clipping borders ('border-clip'), logical background positions ('background-position'), and the ''extend'' ability of 'background-repeat'.",
-                    "ignoredTerms": [
-                        ""
-                    ],
+                    "ignoredTerms": [],
                     "warning": "Not Ready"
                 }
             },
@@ -596,7 +600,10 @@
                         "target-text()"
                     ],
                     "abstract": "This CSS3 Module describes how to insert content in a document.",
-                    "linkDefaults": "css2 (type) <uri>, css-display-3 (value) inline",
+                    "linkDefaults": [
+                        "css2 (type) <uri>",
+                        "css-display-3 (value) inline"
+                    ],
                     "statusText": "This is a very rough draft, and is not ready for implementation.",
                     "defaultHighlight": "css"
                 }
@@ -625,7 +632,11 @@
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "This module introduces the ''@counter-style'' rule, which allows authors to define their own custom counter styles for use with CSS list-marker and generated-content counters [[CSS-LISTS-3]]. It also predefines a set of common counter styles, including the ones present in CSS2 and CSS2.1.",
-                    "linkDefaults": "css-text-3 (dfn) grapheme cluster, css-pseudo-4 (selector) ::marker, dom-ls (dfn) ASCII case-insensitive",
+                    "linkDefaults": [
+                        "css-text-3 (dfn) grapheme cluster",
+                        "css-pseudo-4 (selector) ::marker",
+                        "dom-ls (dfn) ASCII case-insensitive"
+                    ],
                     "deadline": "2015-05-03",
                     "atRisk": "the <<image>> value in <<symbol>>"
                 }
@@ -822,7 +833,9 @@
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "This specification defines methods for authors to extend and enhance various CSS features.",
-                    "linkDefaults": "css-values-3 (dfn) identifier"
+                    "linkDefaults": [
+                        "css-values-3 (dfn) identifier"
+                    ]
                 }
             },
             {
@@ -904,7 +917,10 @@
                         "John Daggett, Mozilla, jdaggett@mozilla.com"
                     ],
                     "abstract": "This CSS module describes events and interfaces used for dynamically loading font resources.",
-                    "linkDefaults": "css-fonts-3 (descriptor) src, dom (interface) Event",
+                    "linkDefaults": [
+                        "css-fonts-3 (descriptor) src",
+                        "dom (interface) Event"
+                    ],
                     "ignoredTerms": [
                         "EventHandler",
                         "InvalidModificationError",
@@ -979,7 +995,12 @@
                     "formerEditor": [
                         "Håkon Wium Lie, Opera Software"
                     ],
-                    "linkDefaults": "css-content-3 (property) counter-increment, css-content-3 (property) counter-reset, css2 (property) string, css2 (property) max-height",
+                    "linkDefaults": [
+                        "css-content-3 (property) counter-increment",
+                        "css-content-3 (property) counter-reset",
+                        "css2 (property) string",
+                        "css2 (property) max-height"
+                    ],
                     "abstract": "Books and other paged media often use special techniques to display information. Content may be moved to or generated for special areas of the page, such as running heads or footnotes. Generated content within pages, such as tab leaders or cross-references, helps readers navigate within and between pages.",
                     "previousVersion": [
                         "https://www.w3.org/TR/2014/WD-css-gcpm-3-20140513/",
@@ -1009,9 +1030,7 @@
                         "Daniel Glazman, Disruptive Innovations, daniel.glazman@disruptive-innovations.com, w3cid 13329"
                     ],
                     "abstract": "Level 4 of GCPM proposes a region-based approach to footnotes and running heads.",
-                    "ignoredTerms": [
-                        ""
-                    ],
+                    "ignoredTerms": [],
                     "warning": "Not Ready"
                 }
             },
@@ -1078,7 +1097,13 @@
                         "track-sizes",
                         "extra-space"
                     ],
-                    "linkDefaults": "css2 (property) margin/min-height/max-height/min-width/max-width, css-align-3 (value) stretch/baseline, css-position-3 (property) left, css-position-3 (property) position, css-writing-modes-3 (dfn) start/end",
+                    "linkDefaults": [
+                        "css2 (property) margin/min-height/max-height/min-width/max-width",
+                        "css-align-3 (value) stretch/baseline",
+                        "css-position-3 (property) left",
+                        "css-position-3 (property) position",
+                        "css-writing-modes-3 (dfn) start/end"
+                    ],
                     "atRisk": "application of grid placement to absolutely-positioned boxes"
                 }
             },
@@ -1147,7 +1172,9 @@
                         "start image",
                         "end image"
                     ],
-                    "linkDefaults": "css2 (property) display",
+                    "linkDefaults": [
+                        "css2 (property) display"
+                    ],
                     "includeCanIUsePanels": "yes"
                 }
             },
@@ -1234,7 +1261,10 @@
                         "before",
                         "alignment subtree"
                     ],
-                    "linkDefaults": "css-fonts-3 (property) font-family, css-color-3 (property) color",
+                    "linkDefaults": [
+                        "css-fonts-3 (property) font-family",
+                        "css-color-3 (property) color"
+                    ],
                     "atRisk": "the 'initial-letters-wrap' property"
                 }
             },
@@ -1326,7 +1356,9 @@
                     "ignoredVars": [
                         "*"
                     ],
-                    "linkDefaults": "css2 (property) width/height/min-width/min-height/max-width/max-height"
+                    "linkDefaults": [
+                        "css2 (property) width/height/min-width/min-height/max-width/max-height"
+                    ]
                 }
             },
             {
@@ -1387,7 +1419,11 @@
                         "Disposition of Comments https://drafts.csswg.org/css-multicol-1/issues"
                     ],
                     "abstract": "This specification describes multi-column layouts in CSS, a style sheet language for the web. Using functionality described in the specification, content can be flowed into multiple columns with a gap and a rule between them.",
-                    "linkDefaults": "css-color (property) color, css2 (property) max-height, css-backgrounds-3 (value) hidden"
+                    "linkDefaults": [
+                        "css-color (property) color",
+                        "css2 (property) max-height",
+                        "css-backgrounds-3 (value) hidden"
+                    ]
                 }
             },
             {
@@ -1453,7 +1489,10 @@
                         "https://www.w3.org/TR/2008/CR-css3-namespace-20080523/"
                     ],
                     "abstract": "This CSS Namespaces module defines the syntax for using namespaces in CSS. It defines the ''@namespace'' rule for declaring the default namespace and binding namespaces to namespace prefixes, and it also defines a syntax that other specifications can adopt for using those prefixes in namespace-qualified names.",
-                    "linkDefaults": "selectors-4 (dfn) type selectors, css-syntax-3 (dfn) at-rule",
+                    "linkDefaults": [
+                        "selectors-4 (dfn) type selectors",
+                        "css-syntax-3 (dfn) at-rule"
+                    ],
                     "boilerplate": "omit footer"
                 }
             },
@@ -1494,7 +1533,9 @@
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "This module introduces the ability to nest one style rule inside another, with the selector of the child rule relative to the selector of the parent rule.  This increases the modularity and maintainability of CSS stylesheets.",
-                    "linkDefaults": "css-color-4 (property) color"
+                    "linkDefaults": [
+                        "css-color-4 (property) color"
+                    ]
                 }
             },
             {
@@ -1699,7 +1740,9 @@
                         "attachment",
                         "scrolling box"
                     ],
-                    "linkDefaults": "css-transforms-1 (property) transform",
+                    "linkDefaults": [
+                        "css-transforms-1 (property) transform"
+                    ],
                     "warning": "not ready"
                 }
             },
@@ -1788,7 +1831,10 @@
                     ],
                     "!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;product=CSS&amp;component=Regions&amp;resolution=---&amp;cmdtype=doit\">In Bugzilla</a>",
                     "abstract": "The CSS Regions module allows content from one or more elements to flow through one or more boxes called CSS Regions, fragmented as defined in [[!CSS3-BREAK]]. This module also defines CSSOM to expose both the inputs and outputs of this fragmentation.",
-                    "linkDefaults": "css2 (property) max-height, dom-core-ls (interface) range",
+                    "linkDefaults": [
+                        "css2 (property) max-height",
+                        "dom-core-ls (interface) range"
+                    ],
                     "ignoredTerms": [
                         "document",
                         "element",
@@ -1839,7 +1885,11 @@
                         "Jihye Hong, LG Electronics, jh.hong@lge.com, w3cid 79168",
                         "Soonbo Han (until June 2015), LG Electronics, soonbo.han@lge.com, w3cid 45470"
                     ],
-                    "linkDefaults": "css-shapes-2 (type) <basic-shape>\ncss-transforms-1 (property) transform\ncss-transforms-1 (property) transform-origin",
+                    "linkDefaults": [
+                        "css-shapes-2 (type) <basic-shape>",
+                        "css-transforms-1 (property) transform",
+                        "css-transforms-1 (property) transform-origin"
+                    ],
                     "abstract": "This document describes CSS extensions to support a round display. The extensions help web authors to build a web page suitable for a round display."
                 }
             },
@@ -1983,7 +2033,9 @@
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885"
                     ],
                     "abstract": "CSS Scrollbars standardizes the ability to color scrollbars introduced in 2000 by Windows IE 5.5. \nThis is useful when building web applications which use color schemes very different from\nthe appearance of default platform scrollbars.",
-                    "linkDefaults": "css-color-3 (property) color"
+                    "linkDefaults": [
+                        "css-color-3 (property) color"
+                    ]
                 }
             },
             {
@@ -2028,7 +2080,9 @@
                         "Alan Stearns, Adobe Systems&#44; Inc., stearns@adobe.com, w3cid 46659"
                     ],
                     "abstract": "CSS Shapes describe geometric shapes for use in CSS. For Level 1, CSS Shapes can be applied to floats. A circle shape on a float will cause inline content to <a>wrap</a> around the circle shape instead of the float's bounding box.",
-                    "linkDefaults": "css2 (property) margin"
+                    "linkDefaults": [
+                        "css2 (property) margin"
+                    ]
                 }
             },
             {
@@ -2049,7 +2103,10 @@
                         "Alan Stearns, Adobe Systems&#44; Inc., stearns@adobe.com, w3cid 46659"
                     ],
                     "abstract": "This draft contains the features of CSS relating to wrapping content around and inside shapes. It (implicitly for now) includes and extends the functionality of CSS Shapes Level 1 [[CSS-SHAPES]]. The main points of extension compared to level 1 include additional ways of defining shapes, defining an exclusion area using a shape, and restricting an element's content area using a shape.",
-                    "linkDefaults": "css2 (property) margin, css-display-3 (value) table"
+                    "linkDefaults": [
+                        "css2 (property) margin",
+                        "css-display-3 (value) table"
+                    ]
                 }
             },
             {
@@ -2300,7 +2357,9 @@
                     ],
                     "abstract": "This module contains the features of CSS relating to text decoration, such as underlines, text shadows, and emphasis marks.",
                     "atRisk": "The ability to place both emphasis marks and ruby on the same base text.",
-                    "linkDefaults": "css-color-3 (property) color",
+                    "linkDefaults": [
+                        "css-color-3 (property) color"
+                    ],
                     "useAutolinks": "yes"
                 }
             },
@@ -2325,7 +2384,10 @@
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369"
                     ],
                     "abstract": "This module contains the features of CSS relating to text decoration, such as underlines, text shadows, and emphasis marks.",
-                    "linkDefaults": "css-color-3 (property) color, css-break-3 (dfn) fragment"
+                    "linkDefaults": [
+                        "css-color-3 (property) color",
+                        "css-break-3 (dfn) fragment"
+                    ]
                 }
             },
             {
@@ -2432,7 +2494,9 @@
                         "y1",
                         "y2"
                     ],
-                    "linkDefaults": "css-transforms (property) transform"
+                    "linkDefaults": [
+                        "css-transforms (property) transform"
+                    ]
                 }
             },
             {
@@ -2483,7 +2547,24 @@
                         "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241"
                     ],
                     "abstract": "This specification describes user interface related\nproperties and values that are proposed for CSS level&nbsp;3\nto style HTML and XML (including XHTML).\nIt includes and extends user interface related features from the\nproperties and values of CSS level&nbsp;2 revision 1.\nIt uses various\nproperties and values to style basic user interface elements in a document.",
-                    "linkDefaults": "css-color-3 (property) color\ncss2 (property) min-width\ncss2 (property) min-height\ncss2 (property) max-width\ncss2 (property) max-height\ncss2 (property) width\ncss2 (property) height\ncss2 (property) margin-left\ncss2 (property) margin-top\ncss2 (property) padding-bottom\ncss2 (property) padding-left\ncss2 (property) padding-right\ncss2 (property) padding-top\ncss2 (property) visibility\ncss-writing-modes-3 (dfn) start\ncss-writing-modes-3 (dfn) end",
+                    "linkDefaults": [
+                        "css-color-3 (property) color",
+                        "css2 (property) min-width",
+                        "css2 (property) min-height",
+                        "css2 (property) max-width",
+                        "css2 (property) max-height",
+                        "css2 (property) width",
+                        "css2 (property) height",
+                        "css2 (property) margin-left",
+                        "css2 (property) margin-top",
+                        "css2 (property) padding-bottom",
+                        "css2 (property) padding-left",
+                        "css2 (property) padding-right",
+                        "css2 (property) padding-top",
+                        "css2 (property) visibility",
+                        "css-writing-modes-3 (dfn) start",
+                        "css-writing-modes-3 (dfn) end"
+                    ],
                     "ignoredTerms": [
                         "outline-top",
                         "outline-left",
@@ -2692,7 +2773,9 @@
                     "editor": [
                         "Tab Atkins Jr., Google Inc., http://xanthir.com/contact/, w3cid 42199"
                     ],
-                    "linkDefaults": "css-transforms-1 (property) transform"
+                    "linkDefaults": [
+                        "css-transforms-1 (property) transform"
+                    ]
                 }
             },
             {
@@ -2739,7 +2822,12 @@
                         "… message topic …",
                         "glyph-orientation-horizontal"
                     ],
-                    "linkDefaults": "css2 (property) display/min-height/max-height/min-width/max-width/clip/left/right/bottom/top, css-text-3 (property) letter-spacing, css-text-decor-3 (property) text-decoration, svg2 (property) glyph-orientation-vertical/glyph-orientation-horizontal"
+                    "linkDefaults": [
+                        "css2 (property) display/min-height/max-height/min-width/max-width/clip/left/right/bottom/top",
+                        "css-text-3 (property) letter-spacing",
+                        "css-text-decor-3 (property) text-decoration",
+                        "svg2 (property) glyph-orientation-vertical/glyph-orientation-horizontal"
+                    ]
                 }
             },
             {
@@ -2784,7 +2872,12 @@
                         "… message topic …",
                         "glyph-orientation-horizontal"
                     ],
-                    "linkDefaults": "css2 (property) display/min-height/max-height/min-width/max-width/clip/left/right/bottom/top, css-text-3 (property) letter-spacing, css-text-decor-3 (property) text-decoration, svg2 (property) glyph-orientation-vertical/glyph-orientation-horizontal"
+                    "linkDefaults": [
+                        "css2 (property) display/min-height/max-height/min-width/max-width/clip/left/right/bottom/top",
+                        "css-text-3 (property) letter-spacing",
+                        "css-text-decor-3 (property) text-decoration",
+                        "svg2 (property) glyph-orientation-vertical/glyph-orientation-horizontal"
+                    ]
                 }
             },
             {
@@ -2931,7 +3024,10 @@
                         "mediaText",
                         "CSSOMString"
                     ],
-                    "linkDefaults": "css-break-3 (property) break-inside\ncss-cascade-3 (at-rule) @import",
+                    "linkDefaults": [
+                        "css-break-3 (property) break-inside",
+                        "css-cascade-3 (at-rule) @import"
+                    ],
                     "atRisk": "the '@media/hover', '@media/any-hover', '@media/pointer', and '@media/any-pointer' media features",
                     "canIUseUrl": [
                         "https://drafts.csswg.org/mediaqueries-4/",
@@ -2964,9 +3060,7 @@
                     "workStatus": "Exploring",
                     "ed": "https://drafts.csswg.org/mediaqueries-5/",
                     "tr": "",
-                    "previousVersion": [
-                        ""
-                    ],
+                    "previousVersion": [],
                     "editor": [
                         "Dean Jackson, Apple, w3cid 42080",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241",
@@ -2981,7 +3075,10 @@
                         "mediaText",
                         "DOMString"
                     ],
-                    "linkDefaults": "css-break-3 (property) break-inside\ncss-cascade-3 (at-rule) @import"
+                    "linkDefaults": [
+                        "css-break-3 (property) break-inside",
+                        "css-cascade-3 (at-rule) @import"
+                    ]
                 }
             },
             {
@@ -3093,7 +3190,10 @@
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "Non-element Selectors extends [[!SELECTORS4]] and allow selecting other kinds of document nodes than elements. This is useful when selectors are used as a general document query language.\nNon-element Selectors are not intended to be used in CSS, but only as a separate query language in other host environments.",
-                    "linkDefaults": "css-namespaces (dfn) namespace prefix, selectors (dfn) originating element/pseudo-element"
+                    "linkDefaults": [
+                        "css-namespaces (dfn) namespace prefix",
+                        "selectors (dfn) originating element/pseudo-element"
+                    ]
                 }
             },
             {
@@ -3142,7 +3242,9 @@
                         "unrestricted double",
                         "(unrestricted double or DOMString)"
                     ],
-                    "linkDefaults": "css-transforms (property) transform"
+                    "linkDefaults": [
+                        "css-transforms (property) transform"
+                    ]
                 }
             },
             {
@@ -3355,7 +3457,7 @@
                     "name": "row-gap",
                     "value": "normal | <length-percentage>",
                     "initial": "normal",
-                    "appliesTo": "<a>multi-column containers</a>, <a>flex containers</a>, <a>grid containers</a>",
+                    "appliesTo": "multi-column containers, flex containers, grid containers",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "specified keyword, else a computed <length-percentage> value",
@@ -3373,7 +3475,7 @@
                     "name": "column-gap",
                     "value": "normal | <length-percentage>",
                     "initial": "normal",
-                    "appliesTo": "<a>multi-column containers</a>, <a>flex containers</a>, <a>grid containers</a>",
+                    "appliesTo": "multi-column containers, flex containers, grid containers",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "specified keyword, else a computed <length-percentage> value",
@@ -3391,7 +3493,7 @@
                     "name": "gap",
                     "value": "<'row-gap'> <'column-gap'>?",
                     "initial": "see individual properties",
-                    "appliesTo": "<a>multi-column containers</a>, <a>flex containers</a>, <a>grid containers</a>",
+                    "appliesTo": "multi-column containers, flex containers, grid containers",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "see individual properties",
@@ -3412,7 +3514,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "list, each item either a case-sensitive <a>css identifier</a> or the keyword none",
+                    "computedValue": "list, each item either a case-sensitive css identifier or the keyword none",
                     "animationType": "not animatable",
                     "canonicalOrder": "per grammar"
                 },
@@ -3673,7 +3775,7 @@
                     "initial": "0% 0%",
                     "appliesTo": "all elements",
                     "inherited": "no",
-                    "percentages": "refer to size of <span class=index>background positioning\narea</span> <em>minus</em> size of background image; see text",
+                    "percentages": "refer to size of background positioning\narea minus size of background image; see text",
                     "computedValue": "list, each item\na pair of offsets (horizontal and vertical) from the top left origin\neach given as a computed <length-percentage> value",
                     "animationType": "repeatable list"
                 },
@@ -3760,7 +3862,7 @@
                 "props": {
                     "name": "border-top-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -3778,7 +3880,7 @@
                 "props": {
                     "name": "border-right-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -3796,7 +3898,7 @@
                 "props": {
                     "name": "border-bottom-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -3814,7 +3916,7 @@
                 "props": {
                     "name": "border-left-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor</a>",
+                    "initial": "<a href=\"https://www.w3.org/TR/css3-color/#currentcolor\">currentColor",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
@@ -4123,7 +4225,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
-                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "percentages": "Refer to corresponding dimension of the\nborder box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animatable": "by computed value"
                 },
@@ -4141,7 +4243,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
-                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "percentages": "Refer to corresponding dimension of the\nborder box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animatable": "by computed value"
                 },
@@ -4159,7 +4261,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
-                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "percentages": "Refer to corresponding dimension of the\nborder box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animatable": "by computed value"
                 },
@@ -4177,7 +4279,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
-                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "percentages": "Refer to corresponding dimension of the\nborder box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animatable": "by computed value"
                 },
@@ -4195,7 +4297,7 @@
                     "initial": "see individual properties",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
-                    "percentages": "Refer to corresponding dimension of the\n<a>border box</a>.",
+                    "percentages": "Refer to corresponding dimension of the\nborder box.",
                     "computedValue": "see individual properties",
                     "animatable": "see individual properties"
                 },
@@ -4249,7 +4351,7 @@
                     "initial": "1",
                     "appliesTo": "All elements, except internal table elements when 'border-collapse' is\ncollapse",
                     "inherited": "no",
-                    "percentages": "Relative to width/height of the <a>border image area</a>",
+                    "percentages": "Relative to width/height of the border image area",
                     "computedValue": "four values, each either a number, the keyword auto, or a computed <length-percentage> value",
                     "animationType": "by computed value"
                 },
@@ -4350,7 +4452,7 @@
                     "value": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
                     "initial": "0%",
                     "inherited": "no",
-                    "percentages": "refer to width of background positioning area <em>minus</em> width of background image",
+                    "percentages": "refer to width of background positioning area minus width of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword"
                 },
                 "name": "background-position-x"
@@ -4366,7 +4468,7 @@
                     "value": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
                     "initial": "0%",
                     "inherited": "no",
-                    "percentages": "refer to height of background positioning area <em>minus</em> height of background image",
+                    "percentages": "refer to height of background positioning area minus height of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword"
                 },
                 "name": "background-position-y"
@@ -4382,7 +4484,7 @@
                     "value": "[ center | [ start | end ]? <length-percentage>? ]#",
                     "initial": "not applicable (initial value comes from physical property)",
                     "inherited": "no",
-                    "percentages": "refer to inline-size of background positioning area <em>minus</em> inline-size of background image",
+                    "percentages": "refer to inline-size of background positioning area minus inline-size of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword"
                 },
                 "name": "background-position-inline"
@@ -4398,7 +4500,7 @@
                     "value": "[ center | [ start | end ]? <length-percentage>? ]#",
                     "initial": "not applicable (initial value comes from physical property)",
                     "inherited": "no",
-                    "percentages": "refer to size of background positioning area <em>minus</em> size of background image",
+                    "percentages": "refer to size of background positioning area minus size of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword"
                 },
                 "name": "background-position-block"
@@ -4649,9 +4751,9 @@
                     "name": "margin-top",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except <a>internal table elements</a>",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4667,9 +4769,9 @@
                     "name": "margin-right",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except <a>internal table elements</a>",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4685,9 +4787,9 @@
                     "name": "margin-bottom",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except <a>internal table elements</a>",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4703,9 +4805,9 @@
                     "name": "margin-left",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except <a>internal table elements</a>",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4721,9 +4823,9 @@
                     "name": "margin",
                     "value": "<'margin-top'>{1,4}",
                     "initial": "0",
-                    "appliesTo": "all elements except <a>internal table elements</a>",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "see individual properties",
                     "animationType": "by computed value type"
                 },
@@ -4757,9 +4859,9 @@
                     "name": "padding-top",
                     "value": "<length-percentage>",
                     "initial": "0",
-                    "appliesTo": "all elements except: <a>internal table elements</a> other than table cells",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4775,9 +4877,9 @@
                     "name": "padding-right",
                     "value": "<length-percentage>",
                     "initial": "0",
-                    "appliesTo": "all elements except: <a>internal table elements</a> other than table cells",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4793,9 +4895,9 @@
                     "name": "padding-bottom",
                     "value": "<length-percentage>",
                     "initial": "0",
-                    "appliesTo": "all elements except: <a>internal table elements</a> other than table cells",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4811,9 +4913,9 @@
                     "name": "padding-left",
                     "value": "<length-percentage>",
                     "initial": "0",
-                    "appliesTo": "all elements except: <a>internal table elements</a> other than table cells",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -4829,9 +4931,9 @@
                     "name": "padding",
                     "value": "<'padding-top'>{1,4}",
                     "initial": "0",
-                    "appliesTo": "all elements except: <a>internal table elements</a> other than table cells",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
-                    "percentages": "refer to <a>logical width</a> of containing block",
+                    "percentages": "refer to logical width of containing block",
                     "computedValue": "see individual properties",
                     "animationType": "by computed value type"
                 },
@@ -4898,7 +5000,7 @@
                     "name": "orphans",
                     "value": "<integer>",
                     "initial": "2",
-                    "appliesTo": "<a>block containers</a> that establish an <a>inline formatting context</a>",
+                    "appliesTo": "block containers that establish an inline formatting context",
                     "inherited": "yes",
                     "computedValue": "specified integer",
                     "animationType": "by computed value type"
@@ -4915,7 +5017,7 @@
                     "name": "widows",
                     "value": "<integer>",
                     "initial": "2",
-                    "appliesTo": "<a>block containers</a> that establish an <a>inline formatting context</a>",
+                    "appliesTo": "block containers that establish an inline formatting context",
                     "inherited": "yes",
                     "computedValue": "specified integer",
                     "animationType": "by computed value type"
@@ -5000,7 +5102,7 @@
                     "name": "orphans",
                     "value": "<integer>",
                     "initial": "2",
-                    "appliesTo": "<a>block containers</a> that establish an <a>inline formatting context</a>",
+                    "appliesTo": "block containers that establish an inline formatting context",
                     "inherited": "yes",
                     "computedValue": "specified integer",
                     "animationType": "by computed value type"
@@ -5017,7 +5119,7 @@
                     "name": "widows",
                     "value": "<integer>",
                     "initial": "2",
-                    "appliesTo": "<a>block containers</a> that establish an <a>inline formatting context</a>",
+                    "appliesTo": "block containers that establish an inline formatting context",
                     "inherited": "yes",
                     "computedValue": "specified integer",
                     "animationType": "by computed value type"
@@ -5095,7 +5197,7 @@
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "N/A",
-                    "computedValue": "computed color, see <a>resolving color values</a>",
+                    "computedValue": "computed color, see resolving color values",
                     "animationType": "by computed value type"
                 },
                 "name": "color"
@@ -5192,7 +5294,7 @@
                     "value": "none | strict | content | [ size || layout || style || paint ]",
                     "initial": "none",
                     "inherited": "no",
-                    "appliesTo": "See <a href=\"#contain-applies\">below</a>",
+                    "appliesTo": "See <a href=\"#contain-applies\">below",
                     "computedValue": "specified keyword(s)",
                     "animationType": "not animatable"
                 },
@@ -5712,7 +5814,7 @@
                     "name": "flex-direction",
                     "value": "row | row-reverse | column | column-reverse",
                     "initial": "row",
-                    "appliesTo": "<a>flex containers</a>",
+                    "appliesTo": "flex containers",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -5729,7 +5831,7 @@
                     "name": "flex-wrap",
                     "value": "nowrap | wrap | wrap-reverse",
                     "initial": "nowrap",
-                    "appliesTo": "<a>flex containers</a>",
+                    "appliesTo": "flex containers",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -5758,7 +5860,7 @@
                     "name": "order",
                     "value": "<integer>",
                     "initial": "0",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
                     "computedValue": "specified integer",
                     "animationType": "by computed value type"
@@ -5775,7 +5877,7 @@
                     "name": "flex",
                     "value": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
                     "initial": "0 1 auto",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
                     "animationType": "by computed value type"
                 },
@@ -5791,7 +5893,7 @@
                     "name": "flex-grow",
                     "value": "<number>",
                     "initial": "0",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
                     "computedValue": "specified number",
                     "animationType": "by computed value type"
@@ -5808,7 +5910,7 @@
                     "name": "flex-shrink",
                     "value": "<number>",
                     "initial": "1",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
                     "computedValue": "specified value",
                     "animationType": "number"
@@ -5825,9 +5927,9 @@
                     "name": "flex-basis",
                     "value": "content | <'width'>",
                     "initial": "auto",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
-                    "percentages": "relative to the <a>flex container's</a> inner <a>main size</a>",
+                    "percentages": "relative to the flex container's inner main size",
                     "computedValue": "specified keyword or a computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -5843,7 +5945,7 @@
                     "name": "justify-content",
                     "value": "flex-start | flex-end | center | space-between | space-around",
                     "initial": "flex-start",
-                    "appliesTo": "<a>flex containers</a>",
+                    "appliesTo": "flex containers",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -5860,7 +5962,7 @@
                     "name": "align-items",
                     "value": "flex-start | flex-end | center | baseline | stretch",
                     "initial": "stretch",
-                    "appliesTo": "<a>flex containers</a>",
+                    "appliesTo": "flex containers",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -5877,7 +5979,7 @@
                     "name": "align-self",
                     "value": "auto | flex-start | flex-end | center | baseline | stretch",
                     "initial": "auto",
-                    "appliesTo": "<a>flex items</a>",
+                    "appliesTo": "flex items",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -5894,7 +5996,7 @@
                     "name": "align-content",
                     "value": "flex-start | flex-end | center | space-between | space-around | stretch",
                     "initial": "stretch",
-                    "appliesTo": "<a>multi-line</a> <a>flex containers</a>",
+                    "appliesTo": "multi-line flex containers",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -6719,7 +6821,7 @@
                     "name": "grid-template-columns",
                     "value": "none | <track-list> | <auto-track-list>",
                     "initial": "none",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "the keyword none or a [=computed track list=]",
@@ -6737,7 +6839,7 @@
                     "name": "grid-template-rows",
                     "value": "none | <track-list> | <auto-track-list>",
                     "initial": "none",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "the keyword none or a [=computed track list=]",
@@ -6755,7 +6857,7 @@
                     "name": "grid-template-areas",
                     "value": "none | <string>+",
                     "initial": "none",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "the keyword none or a list of string values",
@@ -6773,7 +6875,7 @@
                     "name": "grid-template",
                     "value": "none |\n[ <'grid-template-rows'> / <'grid-template-columns'> ] |\n[ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?",
                     "initial": "none",
-                    "appliesTo": "<a>grid containers</a>"
+                    "appliesTo": "grid containers"
                 },
                 "name": "grid-template"
             },
@@ -6787,10 +6889,10 @@
                     "name": "grid-auto-columns",
                     "value": "<track-size>+",
                     "initial": "auto",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
-                    "percentages": "see <a href=\"#track-sizing\">Track Sizing</a>",
-                    "computedValue": "see <a href=\"#track-sizing\">Track Sizing</a>",
+                    "percentages": "see <a href=\"#track-sizing\">Track Sizing",
+                    "computedValue": "see <a href=\"#track-sizing\">Track Sizing",
                     "animationType": "by computed value type"
                 },
                 "name": "grid-auto-columns"
@@ -6805,10 +6907,10 @@
                     "name": "grid-auto-rows",
                     "value": "<track-size>+",
                     "initial": "auto",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
-                    "percentages": "see <a href=\"#track-sizing\">Track Sizing</a>",
-                    "computedValue": "see <a href=\"#track-sizing\">Track Sizing</a>",
+                    "percentages": "see <a href=\"#track-sizing\">Track Sizing",
+                    "computedValue": "see <a href=\"#track-sizing\">Track Sizing",
                     "animationType": "by computed value type"
                 },
                 "name": "grid-auto-rows"
@@ -6823,7 +6925,7 @@
                     "name": "grid-auto-flow",
                     "value": "[ row | column ] || dense",
                     "initial": "row",
-                    "appliesTo": "<a>grid containers</a>",
+                    "appliesTo": "grid containers",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword(s)",
@@ -6841,7 +6943,7 @@
                     "name": "grid",
                     "value": "<'grid-template'> |\n<'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? |\n[ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
                     "initial": "none",
-                    "appliesTo": "<a>grid containers</a>"
+                    "appliesTo": "grid containers"
                 },
                 "name": "grid"
             },
@@ -6855,7 +6957,7 @@
                     "name": "grid-row-start",
                     "value": "<grid-line>",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword, identifier, and/or integer",
@@ -6873,7 +6975,7 @@
                     "name": "grid-column-start",
                     "value": "<grid-line>",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword, identifier, and/or integer",
@@ -6891,7 +6993,7 @@
                     "name": "grid-row-end",
                     "value": "<grid-line>",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword, identifier, and/or integer",
@@ -6909,7 +7011,7 @@
                     "name": "grid-column-end",
                     "value": "<grid-line>",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword, identifier, and/or integer",
@@ -6927,7 +7029,7 @@
                     "name": "grid-row",
                     "value": "<grid-line> [ / <grid-line> ]?",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "N/A",
                     "animationType": "discrete"
@@ -6944,7 +7046,7 @@
                     "name": "grid-column",
                     "value": "<grid-line> [ / <grid-line> ]?",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "N/A",
                     "animationType": "discrete"
@@ -6961,7 +7063,7 @@
                     "name": "grid-area",
                     "value": "<grid-line> [ / <grid-line> ]{0,3}",
                     "initial": "auto",
-                    "appliesTo": "<a>grid items</a> and absolutely-positioned boxes whose containing block is a <a>grid container</a>",
+                    "appliesTo": "grid items and absolutely-positioned boxes whose containing block is a grid container",
                     "inherited": "no",
                     "percentages": "N/A",
                     "animationType": "discrete"
@@ -7221,7 +7323,7 @@
                     "initial": "normal",
                     "appliesTo": "inline boxes",
                     "inherited": "yes",
-                    "percentages": "computed relative to ''1em''",
+                    "percentages": "computed relative to 1em",
                     "computedValue": "the specified keyword, a number, or a computed <length> value"
                 },
                 "name": "line-height"
@@ -7304,7 +7406,7 @@
                     "name": "inline-sizing",
                     "value": "normal | stretch",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -7322,7 +7424,7 @@
                     "name": "initial-letters",
                     "value": "normal | <number> <integer> | <number> && [ drop | raise ]?",
                     "initial": "normal",
-                    "appliesTo": "certain inline-level boxes and <css>::first-letter</css> and inside <css>::marker</css> boxes (<a href=\"#first-most-inline-level\">see prose</a>)",
+                    "appliesTo": "certain inline-level boxes and <css>::first-letter</css> and inside <css>::marker</css> boxes (<a href=\"#first-most-inline-level\">see prose)",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the keyword normal or a number paired with an integer",
@@ -7340,9 +7442,9 @@
                     "name": "initial-letters-wrap",
                     "value": "none | first | all | grid | <length-percentage>",
                     "initial": "none",
-                    "appliesTo": "certain inline-level boxes and <css>::first-letter</css> and inside <css>::marker</css> boxes (<a href=\"#first-most-inline-level\">see prose</a>)",
+                    "appliesTo": "certain inline-level boxes and <css>::first-letter</css> and inside <css>::marker</css> boxes (<a href=\"#first-most-inline-level\">see prose)",
                     "inherited": "yes",
-                    "percentages": "relative to <a>logical width</a> of (last fragment of) initial letter",
+                    "percentages": "relative to logical width of (last fragment of) initial letter",
                     "computedValue": "specified keyword or computed <length-percentage> value",
                     "animationType": "by computed value type"
                 },
@@ -7376,7 +7478,7 @@
                     "name": "line-snap",
                     "value": "none | baseline | contain",
                     "initial": "none",
-                    "appliesTo": "<a>block container</a> elements",
+                    "appliesTo": "block container elements",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -7412,7 +7514,7 @@
                     "name": "list-style-image",
                     "value": "<image> | none",
                     "initial": "none",
-                    "appliesTo": "<a>list items</a>",
+                    "appliesTo": "list items",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "the keyword noneor the computed <image>",
@@ -7430,7 +7532,7 @@
                     "name": "list-style-type",
                     "value": "<counter-style> | <string> | none",
                     "initial": "disc",
-                    "appliesTo": "<a>list items</a>",
+                    "appliesTo": "list items",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified value",
@@ -7448,7 +7550,7 @@
                     "name": "list-style-position",
                     "value": "inside | outside",
                     "initial": "outside",
-                    "appliesTo": "<a>list items</a>",
+                    "appliesTo": "list items",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "keyword, but see prose",
@@ -7465,7 +7567,7 @@
                 "props": {
                     "name": "list-style",
                     "value": "<'list-style-position'> || <'list-style-image'> || <'list-style-type'>",
-                    "appliesTo": "<a>list items</a>"
+                    "appliesTo": "list items"
                 },
                 "name": "list-style"
             },
@@ -7479,7 +7581,7 @@
                     "name": "marker-side",
                     "value": "match-self | match-parent",
                     "initial": "match-self",
-                    "appliesTo": "<a>list items</a>",
+                    "appliesTo": "list items",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -8456,7 +8558,7 @@
                     "name": "column-width",
                     "value": "auto | <length>",
                     "initial": "auto",
-                    "appliesTo": "<a>block containers</a> except <a>table wrapper boxes</a>",
+                    "appliesTo": "block containers except table wrapper boxes",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the keyword auto or an absolute length",
@@ -8474,7 +8576,7 @@
                     "name": "column-count",
                     "value": "auto | <integer>",
                     "initial": "auto",
-                    "appliesTo": "<a>block containers</a> except <a>table wrapper boxes</a>",
+                    "appliesTo": "block containers except table wrapper boxes",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "specified value",
@@ -8618,7 +8720,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1289
+                    "line": 1296
                 },
                 "props": {
                     "name": "spatial-navigation-contain",
@@ -8632,13 +8734,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1407
+                    "line": 1414
                 },
                 "props": {
                     "name": "spatial-navigation-action",
                     "value": "auto | focus | scroll",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no"
                 },
                 "name": "spatial-navigation-action"
@@ -8647,13 +8749,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1521
+                    "line": 1528
                 },
                 "props": {
                     "name": "spatial-navigation-function",
                     "value": "normal | grid",
                     "initial": "normal",
-                    "appliesTo": "<a>spatial navigation container</a>",
+                    "appliesTo": "spatial navigation container",
                     "inherited": "yes"
                 },
                 "name": "spatial-navigation-function"
@@ -8808,7 +8910,7 @@
                     "name": "max-lines",
                     "value": "none | <integer>",
                     "initial": "none",
-                    "appliesTo": "<a>block containers</a> which are also [=fragmentation containers=] that capture [=region breaks=]",
+                    "appliesTo": "block containers which are also [=fragmentation containers=] that capture [=region breaks=]",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the keyword none or an integer",
@@ -8898,7 +9000,7 @@
                     "initial": "none",
                     "appliesTo": "fragment boxes",
                     "inherited": "no",
-                    "animatable": "as <a href=\"https://www.w3.org/TR/css3-transitions/#animatable-types\">integer</a>",
+                    "animatable": "as <a href=\"https://www.w3.org/TR/css3-transitions/#animatable-types\">integer",
                     "percentages": "N/A",
                     "computedValue": "the keyword none or an integer",
                     "animationType": "by computed value type"
@@ -8915,7 +9017,7 @@
                     "name": "overscroll-behavior",
                     "value": "[ contain | none | auto ]{1,2}",
                     "initial": "auto auto",
-                    "appliesTo": "<a>scroll container</a> elements",
+                    "appliesTo": "scroll container elements",
                     "inherited": "no",
                     "media": "visual",
                     "computedValue": "see individual properties",
@@ -8934,7 +9036,7 @@
                     "name": "overscroll-behavior-x",
                     "value": "contain | none | auto",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll container</a> elements",
+                    "appliesTo": "scroll container elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "media": "visual",
@@ -8954,7 +9056,7 @@
                     "name": "overscroll-behavior-y",
                     "value": "contain | none | auto",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll container</a> elements",
+                    "appliesTo": "scroll container elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "media": "visual",
@@ -8974,7 +9076,7 @@
                     "name": "overscroll-behavior-inline",
                     "value": "contain | none | auto",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll container</a> elements",
+                    "appliesTo": "scroll container elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "media": "visual",
@@ -8994,7 +9096,7 @@
                     "name": "overscroll-behavior-block",
                     "value": "contain | none | auto",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll container</a> elements",
+                    "appliesTo": "scroll container elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "media": "visual",
@@ -9059,7 +9161,7 @@
                     "name": "page",
                     "value": "auto | <custom-ident>",
                     "initial": "auto",
-                    "appliesTo": "boxes that create <a href=\"https://www.w3.org/TR/css3-break/#btw-blocks\">class A</a> break points",
+                    "appliesTo": "boxes that create <a href=\"https://www.w3.org/TR/css3-break/#btw-blocks\">class A break points",
                     "inherited": "no (but see prose)",
                     "percentages": "n/a",
                     "computedValue": "specified value",
@@ -9189,7 +9291,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "top"
@@ -9207,7 +9309,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "right"
@@ -9225,7 +9327,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "bottom"
@@ -9243,7 +9345,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "left"
@@ -9261,7 +9363,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "inset-before"
@@ -9279,7 +9381,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "inset-after"
@@ -9297,7 +9399,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "inset-start"
@@ -9315,7 +9417,7 @@
                     "appliesTo": "positioned elements",
                     "inherited": "no",
                     "animationType": "length or percentage\nby computed value type",
-                    "percentages": "refer to height of <a>containing block</a>",
+                    "percentages": "refer to height of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value"
                 },
                 "name": "inset-end"
@@ -9368,7 +9470,7 @@
                     "name": "flow-into",
                     "value": "none | <ident> [element|content]?",
                     "initial": "none",
-                    "appliesTo": "All elements, but not <a href=\"https://www.w3.org/TR/selectors/#pseudo-elements\">pseudo-elements</a> such as ::first-line, ::first-letter, ::before or ::after.",
+                    "appliesTo": "All elements, but not <a href=\"https://www.w3.org/TR/selectors/#pseudo-elements\">pseudo-elements such as ::first-line, ::first-letter, ::before or ::after.",
                     "inherited": "no",
                     "computedValue": "as specified",
                     "animationType": "not animatable"
@@ -9385,7 +9487,7 @@
                     "name": "flow-from",
                     "value": "<ident> | none",
                     "initial": "none",
-                    "appliesTo": "Non-replaced <a href=\"https://www.w3.org/TR/CSS21/visuren.html#block-boxes\">block containers</a>. <br/> This might be expanded in future versions of the specification to allow other types of containers to receive flow content.",
+                    "appliesTo": "Non-replaced <a href=\"https://www.w3.org/TR/CSS21/visuren.html#block-boxes\">block containers. <br/> This might be expanded in future versions of the specification to allow other types of containers to receive flow content.",
                     "inherited": "no",
                     "computedValue": "as specified",
                     "animationType": "not animatable"
@@ -9402,7 +9504,7 @@
                     "name": "region-fragment",
                     "value": "auto | break",
                     "initial": "auto",
-                    "appliesTo": "<a>CSS Regions</a>",
+                    "appliesTo": "CSS Regions",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -9712,7 +9814,7 @@
                     "name": "scroll-padding",
                     "value": "[ auto | <length-percentage> ]{1,4}",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the corresponding dimension of the scroll container’s scrollport",
                     "computedValue": "per side, either the keyword auto or a computed <length-percentage> value",
@@ -9784,7 +9886,7 @@
                     "name": "scroll-padding-top",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9802,7 +9904,7 @@
                     "name": "scroll-padding-right",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9820,7 +9922,7 @@
                     "name": "scroll-padding-bottom",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9838,7 +9940,7 @@
                     "name": "scroll-padding-left",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9856,7 +9958,7 @@
                     "name": "scroll-padding-inline-start",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9874,7 +9976,7 @@
                     "name": "scroll-padding-block-start",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9892,7 +9994,7 @@
                     "name": "scroll-padding-inline-end",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -9910,7 +10012,7 @@
                     "name": "scroll-padding-block-end",
                     "value": "auto | <length-percentage>",
                     "initial": "auto",
-                    "appliesTo": "<a>scroll containers</a>",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -10178,8 +10280,8 @@
                     "initial": "none",
                     "appliesTo": "floats",
                     "inherited": "no",
-                    "computedValue": "as <a href=\"#basic-shape-computed-values\">defined</a> for <basic-shape> (with <shape-box> following, if supplied); else the computed <image>; else the keyword as specified",
-                    "animationType": "as <a href=\"#basic-shape-interpolation\">defined</a> for <basic-shape>, otherwise discrete"
+                    "computedValue": "as <a href=\"#basic-shape-computed-values\">defined for <basic-shape> (with <shape-box> following, if supplied); else the computed <image>; else the keyword as specified",
+                    "animationType": "as <a href=\"#basic-shape-interpolation\">defined for <basic-shape>, otherwise discrete"
                 },
                 "name": "shape-outside"
             },
@@ -10212,7 +10314,7 @@
                     "initial": "0",
                     "appliesTo": "floats",
                     "inherited": "no",
-                    "percentages": "refer to the <a>inline size</a> of the containing block",
+                    "percentages": "refer to the inline size of the containing block",
                     "computedValue": "computed <length-percentage> value",
                     "animationType": "by computed value"
                 },
@@ -10281,9 +10383,9 @@
                     "name": "width",
                     "value": "auto | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
                     "initial": "auto",
-                    "appliesTo": "all elements except <a>non-replaced</a> <a>inlines</a>",
+                    "appliesTo": "all elements except non-replaced inlines",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value type, recursing into fit-content()"
                 },
@@ -10299,9 +10401,9 @@
                     "name": "height",
                     "value": "auto | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
                     "initial": "auto",
-                    "appliesTo": "all elements except <a>non-replaced</a> <a>inlines</a>",
+                    "appliesTo": "all elements except non-replaced inlines",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value type, recursing into fit-content()"
                 },
@@ -10319,7 +10421,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animatable": "by computed value, recursing into fit-content()"
                 },
@@ -10337,7 +10439,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animatable": "by computed value, recursing into fit-content()"
                 },
@@ -10355,7 +10457,7 @@
                     "initial": "none",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animatable": "by computed value, recursing into fit-content()"
                 },
@@ -10373,7 +10475,7 @@
                     "initial": "none",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
-                    "percentages": "relative to width/height of <a>containing block</a>",
+                    "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animatable": "by computed value, recursing into fit-content()"
                 },
@@ -10422,7 +10524,7 @@
                     "value": "auto | <ratio>",
                     "initial": "auto",
                     "inherited": "no",
-                    "appliesTo": "all elements except <a>inline boxes</a> and internal ruby or table boxes",
+                    "appliesTo": "all elements except inline boxes and internal ruby or table boxes",
                     "computedValue": "specified keyword or a pair of numbers"
                 },
                 "name": "aspect-ratio"
@@ -10437,7 +10539,7 @@
                     "name": "table-layout",
                     "value": "auto | fixed",
                     "initial": "auto",
-                    "appliesTo": "<a>table grid boxes</a>",
+                    "appliesTo": "table grid boxes",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -10454,7 +10556,7 @@
                     "name": "border-collapse",
                     "value": "separate | collapse",
                     "initial": "separate",
-                    "appliesTo": "<a>table grid boxes</a>",
+                    "appliesTo": "table grid boxes",
                     "inherited": "yes",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -10472,7 +10574,7 @@
                     "value": "<​length​>{1,2}",
                     "initial": "0px 0px",
                     "inherited": "yes",
-                    "appliesTo": "<a>table grid boxes</a> when 'border-collapse' is separate",
+                    "appliesTo": "table grid boxes when 'border-collapse' is separate",
                     "computedValue": "two absolute lengths",
                     "animationType": "by computed value"
                 },
@@ -10488,7 +10590,7 @@
                     "name": "caption-side",
                     "value": "top | bottom",
                     "initial": "top",
-                    "appliesTo": "<a>table-caption</a> boxes",
+                    "appliesTo": "table-caption boxes",
                     "inherited": "yes",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -10505,7 +10607,7 @@
                     "name": "empty-cells",
                     "value": "show | hide",
                     "initial": "show",
-                    "appliesTo": "<a>table-cell</a> boxes",
+                    "appliesTo": "table-cell boxes",
                     "inherited": "yes",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -10522,7 +10624,7 @@
                     "name": "text-transform",
                     "value": "none | [capitalize | uppercase | lowercase ] || full-width || full-size-kana",
                     "initial": "none",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10540,7 +10642,7 @@
                     "name": "white-space",
                     "value": "normal | pre | nowrap | pre-wrap | break-spaces | pre-line",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10576,7 +10678,7 @@
                     "name": "word-break",
                     "value": "normal | keep-all | break-all | break-word",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10594,7 +10696,7 @@
                     "name": "line-break",
                     "value": "auto | loose | normal | strict | anywhere",
                     "initial": "auto",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10612,7 +10714,7 @@
                     "name": "hyphens",
                     "value": "none | manual | auto",
                     "initial": "manual",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10630,7 +10732,7 @@
                     "name": "overflow-wrap",
                     "value": "normal | break-word | anywhere",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10648,7 +10750,7 @@
                     "name": "word-wrap",
                     "value": "normal | break-word | anywhere",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10719,7 +10821,7 @@
                     "name": "text-justify",
                     "value": "auto | none | inter-word | inter-character",
                     "initial": "auto",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -10737,7 +10839,7 @@
                     "name": "word-spacing",
                     "value": "normal | <length>",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "an absolute length",
@@ -10756,7 +10858,7 @@
                     "name": "letter-spacing",
                     "value": "normal | <length>",
                     "initial": "normal",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "computedValue": "an absolute length",
                     "animationType": "by computed value type",
@@ -10776,7 +10878,7 @@
                     "initial": "0",
                     "appliesTo": "block containers",
                     "inherited": "yes",
-                    "percentages": "refers to block container’s own <a>inline-axis</a> <a>inner size</a>",
+                    "percentages": "refers to block container’s own inline-axis inner size",
                     "computedValue": "computed <length-percentage> value, plus any specified keywords",
                     "animationType": "by computed value type",
                     "canonicalOrder": "<abbr title=\"follows order of property value definition\">per grammar</abbr>"
@@ -10793,7 +10895,7 @@
                     "name": "hanging-punctuation",
                     "value": "none | [ first || [ force-end | allow-end ] || last ]",
                     "initial": "none",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "canonicalOrder": "<abbr title=\"follows order of property value definition\">per grammar</abbr>",
                     "computedValue": "specified keyword(s)",
@@ -10883,7 +10985,7 @@
                     "name": "text-wrap",
                     "value": "wrap | nowrap | balance | stable | pretty",
                     "initial": "wrap",
-                    "appliesTo": "<a>inline boxes</a> and <a>block containers</a>",
+                    "appliesTo": "inline boxes and block containers",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -10901,7 +11003,7 @@
                     "name": "wrap-before",
                     "value": "auto | avoid | avoid-line | avoid-flex | line | flex",
                     "initial": "auto",
-                    "appliesTo": "<a>inline-level</a> boxes and <a>flex items</a>",
+                    "appliesTo": "inline-level boxes and flex items",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -10919,7 +11021,7 @@
                     "name": "wrap-after",
                     "value": "auto | avoid | avoid-line | avoid-flex | line | flex",
                     "initial": "auto",
-                    "appliesTo": "<a>inline-level</a> boxes and <a>flex items</a>",
+                    "appliesTo": "inline-level boxes and flex items",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -10937,7 +11039,7 @@
                     "name": "wrap-inside",
                     "value": "auto | avoid",
                     "initial": "auto",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -11062,7 +11164,7 @@
                     "name": "text-group-align",
                     "value": "none | start | end | left | right | center",
                     "initial": "none",
-                    "appliesTo": "<a>block containers</a>",
+                    "appliesTo": "block containers",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -11080,7 +11182,7 @@
                     "name": "line-padding",
                     "value": "<length>",
                     "initial": "0",
-                    "appliesTo": "<a>inline boxes</a>",
+                    "appliesTo": "inline boxes",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "absolute length",
@@ -11378,7 +11480,7 @@
                     "inherited": "no",
                     "percentages": "refer to the size of [=reference box=]",
                     "computedValue": "as specified, but with lengths made absolute",
-                    "animationType": "transform list, see <a href=\"#interpolation-of-transforms\">interpolation rules</a>"
+                    "animationType": "transform list, see <a href=\"#interpolation-of-transforms\">interpolation rules"
                 },
                 "name": "transform"
             },
@@ -11428,9 +11530,9 @@
                     "name": "translate",
                     "value": "none | <length-percentage> [ <length-percentage> <length>? ]?",
                     "initial": "none",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
-                    "percentages": "relative to the width of the <a>reference box</a> (for the first value) or the height (for the second value)",
+                    "percentages": "relative to the width of the reference box (for the first value) or the height (for the second value)",
                     "computedValue": "the keyword none or a pair of computed <length-percentage> values and optionally an absolute length",
                     "animationType": "by computed value, adding a third none"
                 },
@@ -11446,7 +11548,7 @@
                     "name": "rotate",
                     "value": "none | <angle> | [ x | y | z | <number>{3} ] && <angle>",
                     "initial": "none",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
                     "computedValue": "the keyword none, or an <angle> with an optional axis consisting of a list of three <number>s",
                     "animationType": "as SLERP, but see below for none"
@@ -11463,7 +11565,7 @@
                     "name": "scale",
                     "value": "none | <number>{1,3}",
                     "initial": "none",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
                     "computedValue": "the keyword none, or a list of 2 or 3 <number>s",
                     "animationType": "by computed value, but see below for none"
@@ -11480,7 +11582,7 @@
                     "name": "transform-style",
                     "value": "auto | flat | preserve-3d",
                     "initial": "auto",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -11498,7 +11600,7 @@
                     "name": "perspective",
                     "value": "none | <length>",
                     "initial": "none",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the keyword none or an absolute length",
@@ -11516,9 +11618,9 @@
                     "name": "perspective-origin",
                     "value": "<position>",
                     "initial": "50% 50%",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
-                    "percentages": "refer to the size of the <a>reference box</a>",
+                    "percentages": "refer to the size of the reference box",
                     "computedValue": "see 'background-position'",
                     "animationType": "by computed value"
                 },
@@ -11534,7 +11636,7 @@
                     "name": "backface-visibility",
                     "value": "visible | hidden",
                     "initial": "visible",
-                    "appliesTo": "<a>transformable elements</a>",
+                    "appliesTo": "transformable elements",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -11872,7 +11974,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "The computed value for invert is invert.\nFor <color> values, see <a>resolving color values</a> in [[!CSS-COLOR-4]].",
+                    "computedValue": "The computed value for invert is invert.\nFor <color> values, see resolving color values in [[!CSS-COLOR-4]].",
                     "animationType": "by computed value"
                 },
                 "name": "outline-color"
@@ -11944,7 +12046,7 @@
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "N/A",
-                    "computedValue": "The computed value for auto is auto.\nFor <color> values, see <a>resolving color values</a> in [[!CSS-COLOR-4]].",
+                    "computedValue": "The computed value for auto is auto.\nFor <color> values, see resolving color values in [[!CSS-COLOR-4]].",
                     "animationType": "by computed value"
                 },
                 "name": "caret-color"
@@ -12378,7 +12480,7 @@
                     "name": "scroll-behavior",
                     "value": "auto | smooth",
                     "initial": "auto",
-                    "appliesTo": "<a>scrolling boxes</a>",
+                    "appliesTo": "scrolling boxes",
                     "inherited": "no",
                     "computedValue": "specified value",
                     "animatable": "no",
@@ -15696,7 +15798,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 418
+                    "line": 422
                 },
                 "content": "enum SpatialNavigationDirection {\n    \"up\",\n    \"down\",\n    \"left\",\n    \"right\",\n};\npartial interface Window {\n    void navigate(SpatialNavigationDirection dir);\n};"
             },
@@ -15704,7 +15806,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 448
+                    "line": 452
                 },
                 "content": "enum FocusableAreaSearchMode {\n    \"visible\",\n    \"all\"\n};\ndictionary FocusableAreasOption {\n    FocusableAreaSearchMode mode;\n};\ndictionary SpatialNavigationSearchOptions {\n    required SpatialNavigationDirection dir;\n    sequence&lt;Node>? candidates;\n    Node? container;\n};\npartial interface Element {\n    Node getSpatialNavigationContainer();\n    sequence&lt;Node> focusableAreas(optional FocusableAreasOption option);\n    Node? spatialNavigationSearch(SpatialNavigationSearchOptions options);\n};"
             },
@@ -15712,7 +15814,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 640
+                    "line": 644
                 },
                 "content": "[Exposed=Window,\n  Constructor (DOMString type, optional NavigationEventInit eventInitDict)]\ninterface NavigationEvent : UIEvent {\n    readonly attribute SpatialNavigationDirection dir;\n    readonly attribute EventTarget? relatedTarget;\n};\ndictionary NavigationEventInit : UIEventInit {\n    SpatialNavigationDirection dir;\n    EventTarget? relatedTarget = null;\n};"
             },

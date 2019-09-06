@@ -24,7 +24,7 @@ const propWriters = {
     },
     array: function(dict, key, value) {
         if (key in dict === false) {
-            dict[key] = [value];
+            dict[key] = value ? [value] : [];
         } else {
             dict[key].push(value);
         }
@@ -43,6 +43,7 @@ const entryKeyType = {
         previousVersion: propWriters.array,
         ignoredTerms: propWriters.commaSeparatedArray,
         ignoredVars: propWriters.commaSeparatedArray,
+        linkDefaults: propWriters.commaSeparatedArray,
         issueTracking: propWriters.array,
         canIUseUrl: propWriters.array,
         ignoreCanIUseUrlFailure: propWriters.array,
@@ -110,7 +111,7 @@ function processTableBlock(lines, type) {
 function cleanupValue(value) {
     return value
         // FIXME?
-        .replace(/<\/?(nobr|var|code|br)>(?!>)/g, '')
+        .replace(/<\/?(nobr|var|code|br|em)>(?!>)/g, '')
         .replace(/<span.*?>(?!>)|<\/span>/g, '')
         // FIXME: 1 entry
         .replace(/&nbsp;?/g, ' ')
@@ -120,6 +121,7 @@ function cleanupValue(value) {
         // FIXME: 1 entry
         .replace(/&amp;?/g, '&')
         // ok
+        .replace(/<\/?a>/g, '')
         .replace(/''(?:[^/]+\/)?(\S+?)''/g, '$1')
         .replace(/<<(.+?)>>/g, '<$1>');
 }
@@ -333,6 +335,7 @@ function processBs(fn) {
                 cleanupPropValue(entry.props, 'computedValue');
                 cleanupPropValue(entry.props, 'animationType');
                 cleanupPropValue(entry.props, 'animatable');
+                cleanupPropValue(entry.props, 'percentages');
 
                 (entry.props.name || 'unknown').replace(/<[^>]+>/g, '').split(/\s*,\s*/).map(name => {
                     defs.push({
