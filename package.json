@@ -2,7 +2,10 @@
   "name": "csswg-drafts-index",
   "version": "1.0.0",
   "description": "CSSWG drafts index",
-  "main": "...",
+  "author": "Roman Dvornov <rdvornov@gmail.com>",
+  "license": "?",
+  "repository": "csstree/csswg-drafts-index",
+  "keywords": [],
   "discovery": "./ui/config.js",
   "scripts": {
     "sync": "bash sync.sh",
@@ -10,20 +13,10 @@
     "build": "discovery-build -o docs --pretty-data",
     "postinstall": "npm run sync"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/csstree/csswg-drafts-index.git"
-  },
-  "keywords": [],
-  "author": "Roman Dvornov <rdvornov@gmail.com>",
-  "license": "?",
-  "bugs": {
-    "url": "https://github.com/csstree/csswg-drafts-index/issues"
-  },
-  "homepage": "https://github.com/csstree/csswg-drafts-index#readme",
   "dependencies": {},
   "devDependencies": {
-    "@discoveryjs/discovery": "1.0.0-beta.17",
+    "@discoveryjs/discovery": "1.0.0-beta.19",
+    "@discoveryjs/cli": "^1.0.0",
     "css-tree": "^1.0.0-alpha.34",
     "git-repo-info": "^2.1.0"
   }
