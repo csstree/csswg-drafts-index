@@ -1,13 +1,13 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2019-09-09T01:25:12.260Z",
-    "elapsedTime": 213,
+    "createdAt": "2019-09-09T14:59:29.002Z",
+    "elapsedTime": 316,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6edef439c8dcaf87c0fd356f2b8c005f274f840b",
-            "commitShort": "6edef439c8",
-            "commitDate": "2019-09-08T23:32:07.000Z",
+            "commit": "d3ef46d870cb22bfdc43c1b3401d51b7db0a5c2d",
+            "commitShort": "d3ef46d870",
+            "commitDate": "2019-09-09T04:01:40.000Z",
             "branch": "master"
         },
         "specs": [
@@ -3683,7 +3683,7 @@
                     "value": "<single-animation-composition>#",
                     "initial": "replace",
                     "appliesTo": "all elements",
-                    "inherited": "none",
+                    "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "list, each item a keyword as specified",
                     "animationType": "not animatable",
@@ -7719,7 +7719,7 @@
                     "value": "<'width'>",
                     "initial": "auto",
                     "appliesTo": "Same as 'height' and 'width'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'height', 'width'",
                     "animationType": "by computed value type"
@@ -7737,7 +7737,7 @@
                     "value": "<'width'>",
                     "initial": "auto",
                     "appliesTo": "Same as 'height' and 'width'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'height', 'width'",
                     "animationType": "by computed value type"
@@ -7755,7 +7755,7 @@
                     "value": "<'min-width'>",
                     "initial": "0",
                     "appliesTo": "same as 'height' and 'width'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'min-height', 'min-width'",
                     "animationType": "by computed value type"
@@ -7773,7 +7773,7 @@
                     "value": "<'min-width'>",
                     "initial": "0",
                     "appliesTo": "same as 'height' and 'width'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'min-height', 'min-width'",
                     "animationType": "by computed value type"
@@ -8825,7 +8825,7 @@
                     "value": "<'overflow'>",
                     "initial": "visible",
                     "appliesTo": "Same as 'overflow-x' and 'overflow-y'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "Same as 'overflow-x' and 'overflow-y'",
                     "animationType": "discrete"
@@ -8843,7 +8843,7 @@
                     "value": "<'overflow'>",
                     "initial": "visible",
                     "appliesTo": "Same as 'overflow-x' and 'overflow-y'",
-                    "inherited": "No",
+                    "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "Same as 'overflow-x' and 'overflow-y'",
                     "animationType": "discrete"
@@ -12330,7 +12330,7 @@
                     "value": "auto | 0deg | 90deg | 0 | 90",
                     "initial": "n/a",
                     "appliesTo": "n/a",
-                    "inherited": "na/",
+                    "inherited": "n/a",
                     "percentages": "n/a",
                     "computedValue": "n/a",
                     "animatable": "n/a",
@@ -12443,7 +12443,7 @@
                     "value": "auto | 0deg | 90deg | 0 | 90",
                     "initial": "n/a",
                     "appliesTo": "n/a",
-                    "inherited": "na/",
+                    "inherited": "n/a",
                     "percentages": "n/a",
                     "computedValue": "n/a",
                     "animatable": "n/a",
