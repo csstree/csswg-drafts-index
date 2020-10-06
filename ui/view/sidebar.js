@@ -18,12 +18,12 @@ discovery.view.define('sidebar', {
                             emptyText: 'No matches',
                             data: `
                                 specs
-                                .sort(<props.title>)
+                                .sort(props.title asc)
                                 .($spec: $;{
                                     ...,
                                     defs: @.defs
-                                        .[source.spec = $spec and (no #.filter or props.name ~= #.filter)]
-                                        .sort(<props.name>)
+                                        .[source.spec = $spec and (no #.filter or name ~= #.filter)]
+                                        .sort(name asc, type desc)
                                 })
                                 .[no #.filter or defs.size() or (#.filter and props.title ~= #.filter)]
                             `,
@@ -64,14 +64,14 @@ discovery.view.define('sidebar', {
                             data: `
                                 (defs + prods)
                                     .[no #.filter or name ~= #.filter]
-                                    .group(<name>)
+                                    .group(=>name)
                                     .({
                                         id: key,
                                         type: value.type,
-                                        name: value.name.pick(),
+                                        name: value.name[],
                                         count: value.size()
                                     })
-                                    .sort(<name>)
+                                    .sort(name asc)
                             `,
                             item: [
                                 {

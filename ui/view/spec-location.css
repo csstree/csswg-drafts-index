@@ -1,0 +1,11 @@
+.view-spec-location {
+    display: inline-block;
+    color: #aaa;
+}
+.view-spec-location a {
+    color: #888;
+    text-decoration-color: #ddd;
+}
+.view-spec-location a:hover {
+    text-decoration-color: currentColor;
+}

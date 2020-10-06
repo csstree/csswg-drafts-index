@@ -63,12 +63,8 @@ function processTextBlock(lines, type) {
     let prevProp = '';
 
     for (let i = 0; i < lines.length; i++) {
-        // csswg-drafts/css-fonts-4/Overview.bs
-        if (/^\s*<!--/.test(lines[i])) {
-            continue;
-        }
-
-        const keyValueMatch = lines[i].match(keyValueRx);
+        const line = lines[i].trimRight();
+        const keyValueMatch = line.match(keyValueRx);
 
         if (keyValueMatch && !/https?$/.test(keyValueMatch[1])) {
             const key = keyValueMatch[1]
@@ -78,19 +74,14 @@ function processTextBlock(lines, type) {
                 .replace(/\s+(\S)/g, (m, ch) => ch.toUpperCase());
             let value = keyValueMatch[2];
 
-            // FIXME: https://github.com/w3c/csswg-drafts/pull/4262
-            if (value === ': discrete') {
-                value = 'discrete';
-            }
-
             writePropValue(props, key, type, value);
 
             prevProp = key;
         } else {
             if (prevProp) {
-                writePropValue(props, prevProp, type, lines[i].trim());
+                writePropValue(props, prevProp, type, line.trim());
             } else {
-                console.log('[WTF]!:', lines[i])
+                console.log('[WTF]!: (line ' + i + ')', line)
             }
         }
     }
@@ -102,8 +93,12 @@ function processTableBlock(lines, type) {
     return processTextBlock(
         lines
             .join('\n')
-            .replace(/([ \t]+)<tr>\n\s*<th>(.+?)\n\s*<td>\s*/g, '$1$2 ')
-            .split('\n'),
+            .replace(/([ \t]+)<tr>\n\s*<t[hd]>(.+?)\n\s*<td>\s*/g, '$1$2 ')
+            .replace(/<\/t[rdh]>/g, '')
+            .replace(/\s*<tbody> *\n*|\s*<\/tbody>\s*/g, '')
+            .replace(/^\s*<(\S+)>(.+?:)<\/\1>/m, '$2')
+            .replace(/(\n *)+/g, '$1')
+            .split(/\n+/),
         type
     );
 }
@@ -111,7 +106,9 @@ function processTableBlock(lines, type) {
 function cleanupValue(value) {
     return value
         // FIXME?
-        .replace(/<\/?(nobr|var|code|br|em)>(?!>)/g, '')
+        .replace(/<!--(.|\s)+?-->/g, '')
+        .replace(/<\/?(nobr|var|code|br|em|i)>(?!>)/g, '')
+        .replace(/<var .+?>/g, '')
         .replace(/<span.*?>(?!>)|<\/span>/g, '')
         // FIXME: 1 entry
         .replace(/&nbsp;?/g, ' ')
@@ -121,6 +118,7 @@ function cleanupValue(value) {
         // FIXME: 1 entry
         .replace(/&amp;?/g, '&')
         // ok
+        .replace(/&infin;?|Infinity/g, '∞')
         .replace(/<\/?a>/g, '')
         .replace(/''(?:[^/]+\/)?(\S+?)''/g, '$1')
         .replace(/<<(.+?)>>/g, '<$1>');
@@ -179,11 +177,21 @@ const blocks = {
 
 function processBs(fn) {
     const relfn = path.relative(CSSWG_PATH, fn);
+    const specEntry = {
+        file: relfn,
+        id: path.dirname(relfn),
+        props: {
+            title: path.dirname(relfn)
+        }
+    };
 
-    // comment to process all files
-    if (relfn !== 'css-backgrounds-4/Overview.bs') {
+    // if (relfn !== 'css-backgrounds-4/Overview.bs') {
+    if (relfn !== 'css-fonts-3/Fonts.src.html') {
+        // uncomment to process a single file
         // return;
     }
+
+    specs.push(specEntry);
 
     let content = fs.readFileSync(fn, 'utf8');
     let offset = 0;
@@ -198,6 +206,13 @@ function processBs(fn) {
     });
 
     for (let i = 0; i < lines.length; i++) {
+        const [, title] = lines[i].match(/<title>(.+)<\/title>/) || [];
+
+        if (title) {
+            specEntry.props.title = title;
+            continue;
+        }
+
         // NOTE: much better is to search productions in <pre class="prod"> blocks,
         // however many specs do not wrap productions in such blocks; Suppose that's
         // should be fixed. Until that use dirty and hacky approach.
@@ -269,13 +284,11 @@ function processBs(fn) {
             const blockEnd = blockStartOffset + '</' + el + '>';
             const blockLines = [];
             let entry = Object.create(null);
-
-            entry.type = type;
             
             if (type === 'spec') {
-                entry.file = relfn;
-                entry.id = path.dirname(relfn);
+                entry = specEntry;
             } else {
+                entry.type = type;
                 entry.source = {
                     spec: path.dirname(relfn),
                     line: i + 1 // lines from 1
@@ -322,8 +335,6 @@ function processBs(fn) {
                 : processTextBlock(blockLines, type);
 
             if (type === 'spec') {
-                specs.push(entry);
-
                 if (!entry.props.title) {
                     entry.props.title = entry.id;
                 }            
@@ -365,8 +376,11 @@ fs.readdirSync(CSSWG_PATH).forEach(function(p) {
             fs.existsSync(fn = path.join(fpath, 'Overview.src.html')) ||
             fs.existsSync(fn = path.join(fpath, 'Fonts.src.html'))
         ) {
+            processBs(fn);
+            // console.log('HTML:', fn);
             // TODO: process html files too
         } else {
+            console.log('Skip:', fpath);
             // console.log('SKIP:', fpath);
         }
     }

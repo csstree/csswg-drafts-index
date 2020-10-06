@@ -14,7 +14,7 @@ discovery.view.define('key-value-item', function(el, config, data, context) {
 });
 
 discovery.view.define('key-value', function(el, config, data, context) {
-    const { itemConfig, key, value } = config;
+    const { itemConfig, key, value, limit } = config;
     let entries = null;
     
     if (Array.isArray(data)) {
@@ -32,5 +32,5 @@ discovery.view.define('key-value', function(el, config, data, context) {
         view: 'key-value-item',
         key,
         value
-    }, itemConfig), entries, context);
+    }, itemConfig), entries, context, 0, discovery.view.listLimit(limit, 25));
 });

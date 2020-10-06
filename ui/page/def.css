@@ -1,0 +1,18 @@
+.page-def .definition {
+    border: 1px solid #d1e2ec;
+    border-radius: 4px;
+    padding: 2px;
+}
+.page-def .definition > .view-header {
+    background: #e3f3fb;
+    margin: -2px;
+    margin-bottom: 2px;
+    padding: 4px 18px;
+    font-size: 14px;
+}
+.page-def .definition > .view-key-value {
+    width: calc(100% - 8px);
+}
+.page-def .definition .view-key-value-item-value {
+    width: 100%;
+}

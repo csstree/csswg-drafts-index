@@ -37,7 +37,7 @@ discovery.page.define('default', [
             {
                 title: 'Specs and statuses',
                 query: 'specs.sort(<props.title>)',
-                view: '{\n    view: \'ol\',\n    limit: false,\n    item: [\'auto-link\', \'badge:{ text: props.status, color: props.status.color() }\']\n}'
+                view: '{\n    view: \'ol\',\n    limit: false,\n    item: [\n        \'auto-link\',\n        \'badge:{ text: props.status or "?", color: props.status.color() }\'\n    ]\n}'
             },
             {
                 title: 'Problem syntaxes',
@@ -46,12 +46,13 @@ discovery.page.define('default', [
             },
             {
                 title: 'Missed productions',
-                query: '$knownProds: prods.name + genericProds;\n\n(defs.definitionSyntax.value.syntax + prods.definitionSyntax.syntax)\n..(syntaxChildren()).[type="Type" and name not in $knownProds].name'
+                query: '$knownProds: prods.name + genericProds;\n\n(defs.definitionSyntax.value.syntax + prods.definitionSyntax.syntax)\n..(syntaxChildren()).[type="Type" and name not in $knownProds].name',
+                view: '{\n    view: \'ol\',\n    limit: false,\n    item: \'text:"<"+$+">"\'\n}'
             },
             {
                 title: 'IDL sections by spec',
                 query: 'idls.group(<source.spec>).sort(<key.props.title>)',
-                view: '{\n    view: \'list\',\n    item: [\n        \'h1:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value\',\n            item: [\n                \'h5:source.spec.file + ":" + source.line\',\n                \'source:{content}\'\n            ]\n        }\n    ]\n}'
+                view: '{\n    view: \'list\',\n    item: [\n        \'h1:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value\',\n            item: {\n                view: \'definition\',\n                content: \'source:{content}\'\n            }\n        }\n    ]\n}'
             }
         ]
     }

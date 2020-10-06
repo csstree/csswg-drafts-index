@@ -5,32 +5,28 @@ discovery.page.define('defs', {
         'h1:props.name',
         {
             view: 'list',
-            item: [
-                {
-                    view: 'h4',
-                    content: [
-                        'auto-link:source.spec',
-                        'badge:{ text: type, color: "#cee4ab" }'
-                    ]
-                },
-                {
-                    view: 'key-value',
-                    when: 'props',
-                    data: 'props',
-                    value: {
-                        view: 'switch',
-                        content: [
-                            { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
-                            { content: 'pre:value' }
-                        ]
+            item: {
+                view: 'definition',
+                content: [
+                    {
+                        view: 'key-value',
+                        when: 'props',
+                        data: 'props',
+                        value: {
+                            view: 'switch',
+                            content: [
+                                { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
+                                { content: 'pre:value' }
+                            ]
+                        }
+                    },
+                    {
+                        view: 'syntax',
+                        when: 'type="prod"',
+                        data: 'value'
                     }
-                },
-                {
-                    view: 'syntax',
-                    when: 'type="prod"',
-                    data: 'value'
-                }
-            ]
+                ]
+            }
         }
     ]
 });

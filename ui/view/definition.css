@@ -1,0 +1,22 @@
+.view-definition {
+    border: 1px solid #d1e2ec;
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: .5em;
+}
+.view-definition > .view-header {
+    background: #e3f3fb;
+    margin: -2px;
+    margin-bottom: 2px;
+    padding: 4px 18px;
+    font-size: 14px;
+}
+.view-definition > .view-key-value {
+    width: calc(100% - 8px);
+}
+.view-definition .view-key-value-item-value {
+    width: 100%;
+}
+.view-definition > .view-source {
+    border-radius: 0;
+}

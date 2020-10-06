@@ -1,3 +1,18 @@
+const definitionConfig = {
+    view: 'definition',
+    content: {
+        view: 'key-value',
+        data: 'props',
+        value: {
+            view: 'switch',
+            content: [
+                { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
+                { content: 'pre:value' }
+            ]
+        }
+    }
+};
+
 discovery.page.define('def', {
     view: 'context',
     data: 'defs.pick(<id = #.id>)',
@@ -8,34 +23,18 @@ discovery.page.define('def', {
             color: "#fae2ec"
         }`,
         'h1:props.name',
-        {
-            view: 'key-value',
-            data: 'props',
-            value: {
-                view: 'switch',
-                content: [
-                    { when: 'key in ["value", "newValues"]', content: 'syntax:value' },
-                    { content: 'pre:value' }
-                ]
-            }
-        },
-        'h5:"Defined in: " + source.spec.file + " on line " + source.line',
+        definitionConfig,
         {
             view: 'context',
-            data: '#.data.defs.[props.name = @.props.name and $ != @].source.spec',
-            content: {
-                view: 'context',
-                when: 'size()',
-                content: [
-                    'h5:"Also defined in:"',
-                    {
-                        view: 'ul',
-                        item: 'auto-link'
-                    }
-                ]
-            }
+            data: '#.data.defs.[props.name = @.props.name and $ != @]',
+            whenData: true,
+            content: [
+                'h2:"Also defined in:"',
+                {
+                    view: 'list',
+                    item: definitionConfig
+                }
+            ]
         }
     ]
-}, {
-    resolveLink: 'def'
 });

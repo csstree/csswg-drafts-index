@@ -9,7 +9,7 @@ function parseProdSyntax(entry) {
     };
 
     try {
-        entry.definitionSyntax.syntax = csstree.grammar.parse(entry.value);
+        entry.definitionSyntax.syntax = csstree.definitionSyntax.parse(entry.value);
     } catch(e) {
         entry.definitionSyntax.error = e.message;
     }
@@ -27,14 +27,14 @@ function parseDefSyntax(entry, key) {
         };
 
         try {
-            res.syntax = csstree.grammar.parse(entry.props[key]);
+            res.syntax = csstree.definitionSyntax.parse(entry.props[key]);
         } catch(e) {
             res.error = e.message;
         }
     }
 }
 
-discovery.setPrepare(function(data) {
+discovery.setPrepare(function(data, { defineObjectMarker, addQueryHelpers }) {
     const colorMap = new Map([
         ['FPWD', '#ffbdbd'],
         ['WD',   '#ffcb88'],
@@ -45,81 +45,43 @@ discovery.setPrepare(function(data) {
         ['REC',  '#a2d278']
     ]);
 
-    const specIndex = data.specs.reduce(
-        (map, item) => map
-            .set(item, item)
-            .set(item.id, item),
-        new Map()
-    );
-    discovery.addEntityResolver(value => {
-        if (value) {
-            value = specIndex.get(value) || specIndex.get(value.id);
-        }
-
-        if (value) {
-            return {
-                type: 'spec',
-                id: value.id,
-                name: value.props.title,
-                entity: value
-            };
-        }
+    const specIndex = new Map();
+    const specMarker = defineObjectMarker('spec', {
+        lookupRefs: ['id'],
+        ref: 'id',
+        title: value => value.props.title,
+        page: 'spec'
     });
+    for (const spec of data.specs) {
+        specIndex.set(spec.id, spec);
+        specMarker(spec);
+    }
 
+    const defMarker = defineObjectMarker('def', {
+        refs: ['props'],
+        lookupRefs: ['id', 'props'],
+        ref: 'id',
+        title: value => value.props.name,
+        page: 'def'
+    });
     data.defs.forEach(item => {
         item.source.spec = specIndex.get(item.source.spec);
         item.id = item.source.spec.id + '/' + item.type + '/' + item.props.name;
         parseDefSyntax(item, 'value');
         parseDefSyntax(item, 'newValues');
-    });
-    
-    const defIndex = data.defs.reduce(
-        (map, item) => map
-            .set(item, item)
-            .set(item.id, item)
-            .set(item.props, item),
-        new Map()
-    );
-    discovery.addEntityResolver(value => {
-        if (value) {
-            value = defIndex.get(value) || defIndex.get(value.id);
-        }
-
-        if (value) {
-            return {
-                type: 'def',
-                id: value.id,
-                name: value.props.name,
-                entity: value
-            };
-        }
+        defMarker(item);
     });
 
+    const prodMarker = defineObjectMarker('prod', {
+        ref: 'id',
+        title: value => '<' + value.name + '>',
+        page: 'prod'
+    });
     data.prods.forEach(item => {
         item.source.spec = specIndex.get(item.source.spec);
         item.id = item.source.spec.id + '/prod/' + item.name;
         parseProdSyntax(item, 'value');
-    });
-
-    const prodIndex = data.prods.reduce(
-        (map, item) => map
-            .set(item, item)
-            .set(item.id, item),
-        new Map()
-    );
-    discovery.addEntityResolver(value => {
-        if (value) {
-            value = prodIndex.get(value) || prodIndex.get(value.id);
-        }
-
-        if (value) {
-            return {
-                type: 'prod',
-                id: value.id,
-                name: '<' + value.name + '>',
-                entity: value
-            };
-        }
+        prodMarker(item);
     });
 
     data.idls.forEach(item => {
@@ -138,7 +100,7 @@ discovery.setPrepare(function(data) {
         "percentage", "zero", "number", "integer"
     ];
 
-    discovery.addQueryHelpers({
+    addQueryHelpers({
         isArray: value => Array.isArray(value),
         color: value => colorMap.has(value) ? colorMap.get(value) : generateColor(value),
         syntaxChildren(current) {

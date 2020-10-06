@@ -1,0 +1,13 @@
+.view-link.github-link {
+    background: url(github-link.svg) no-repeat center;
+    background-size: contain;
+    padding-left: 1.2em;
+    opacity: .75;
+    margin: 0 .75ex;
+}
+.view-link.github-link:hover {
+    opacity: .9;
+}
+.view-link.github-link:first-child {
+    margin-left: 0;
+}

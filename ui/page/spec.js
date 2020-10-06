@@ -7,20 +7,24 @@ discovery.page.define('spec', {
     })`,
     content: [
         'h1:props.title',
-        'h5:file',
         {
-            view: 'key-value',
-            data: 'props',
-            value: {
-                view: 'switch',
-                content: [
-                    { when: 'key="status"', content: 'badge:{ text: value, color: value.color() }'},
-                    { when: 'key in ["ed", "tr"]', content: { view:'pre', content: 'link:{ href: value, external: true }' } },
-                    { when: 'value.isArray() and value', content: { view: 'ul', data: 'value', item: 'pre' } },
-                    { content: 'pre:value' }
-                ]
+            view: 'definition',
+            content: {
+                view: 'key-value',
+                data: 'props',
+                limit: 10,
+                value: {
+                    view: 'switch',
+                    content: [
+                        { when: 'key="status"', content: 'badge:{ text: value, color: value.color() }'},
+                        { when: 'key in ["ed", "tr"]', content: { view:'pre', content: 'link:{ href: value, external: true }' } },
+                        { when: 'value.isArray() and value', content: { view: 'ul', data: 'value', item: 'pre' } },
+                        { content: 'pre:value' }
+                    ]
+                }
             }
         },
+        'h2:"Properties"',
         {
             view: 'table',
             when: 'defs',
@@ -35,15 +39,19 @@ discovery.page.define('spec', {
             }
         },
         {
-            view: 'list',
-            when: 'idls',
+            view: 'context',
             data: 'idls',
-            item: [
-                'h5:source.spec.file + ":" + source.line',
-                'source:{content}'
+            whenData: true,
+            content: [
+                'h2:"Interfaces"',
+                {
+                    view: 'list',
+                    item: {
+                        view: 'definition',
+                        content: 'source:{content}'
+                    }
+                }
             ]
         }
     ]
-}, {
-    resolveLink: 'spec'
 });

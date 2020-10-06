@@ -26,6 +26,4 @@ discovery.page.define('prod', {
             }
         }
     ]
-}, {
-    resolveLink: 'prod'
 });

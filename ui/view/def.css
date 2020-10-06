@@ -13,14 +13,6 @@
     background: #d8e1f3;
     color: #4869a9;
 }
-.view-def .source {
+.view-def .view-spec-location {
     font-size: 12px;
-    color: #aaa;
-}
-.view-def .source a {
-    color: #888;
-    text-decoration-color: #ddd;
-}
-.view-def .source a:hover {
-    text-decoration-color: currentColor;
 }

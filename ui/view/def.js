@@ -3,8 +3,5 @@ discovery.view.define('def', [
         'auto-link',
         'badge:{ text: type }'
     ] },
-    { view: 'block', className: 'source', content: [
-        'auto-link:source.spec',
-        'text:" on line " + source.line'
-    ] }
+    'spec-location:source'
 ]);
