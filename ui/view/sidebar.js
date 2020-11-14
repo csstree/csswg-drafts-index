@@ -44,6 +44,7 @@ discovery.view.define('sidebar', {
                                 content: {
                                     view: 'list',
                                     emptyText: false,
+                                    limit: '= size() | $ % 15 > 3 ? 15 : $',
                                     data: 'defs',
                                     item: [
                                         {

@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const getRepoInfo = require('git-repo-info');
 const CSSWG_PATH = path.resolve('./csswg-drafts');
-const knownProperties = new Set(require('./real-web-css/scripts/usage/Declaration.json').valid);
+// const knownProperties = new Set(require('./real-web-css/scripts/usage/Declaration.json').valid);
 const ignoreDirs = new Set([
     'indexes',
     'css-module-bikeshed'
@@ -81,7 +81,7 @@ function processTextBlock(lines, type) {
             if (prevProp) {
                 writePropValue(props, prevProp, type, line.trim());
             } else {
-                console.log('[WTF]!: (line ' + i + ')', line)
+                console.warn('[WTF]!: (line ' + i + ')', line)
             }
         }
     }

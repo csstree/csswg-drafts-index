@@ -14,9 +14,9 @@ discovery.page.define('default', [
         view: 'context',
         data: [
             { title: 'Specs', query: 'specs.sort(<props.title>)' },
-            { title: 'IDL sections', query: 'idls' },
             { title: 'Definitions', query: 'defs' },
             { title: 'Productions', query: 'prods' },
+            { title: 'IDL sections', query: 'idls' },
             { title: 'Problem syntaxes', query: 'defs.[definitionSyntax.value.error or definitionSyntax.newValues.error] +\nprods.[definitionSyntax.error]' }
         ],
         content: {
