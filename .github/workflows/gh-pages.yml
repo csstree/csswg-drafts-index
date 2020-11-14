@@ -19,7 +19,7 @@ jobs:
       - name: Checkout csswg-drafts
         uses: actions/checkout@v2
         with:
-          repository: 
+          repository: w3c/csswg-drafts
           path: csswg-drafts
       - name: Setup Node.js
         uses: actions/setup-node@v1
