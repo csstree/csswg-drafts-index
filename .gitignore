@@ -1,3 +1,4 @@
-node_modules
-csswg-drafts
-real-web-css
+.gh-pages/
+node_modules/
+csswg-drafts/
+real-web-css/

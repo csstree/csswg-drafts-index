@@ -10,7 +10,7 @@
   "scripts": {
     "sync": "bash sync.sh",
     "start": "discovery",
-    "build": "discovery-build -o docs --pretty-data",
+    "build": "discovery-build -o .gh-pages --pretty-data",
     "postinstall": "npm run sync"
   },
   "dependencies": {},
