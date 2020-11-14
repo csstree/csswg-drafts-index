@@ -1,0 +1,9 @@
+.page-default .source {
+    color: #888;
+    opacity: .8;
+    font-size: 12px;
+}
+.page-default .view-indicator .value {
+    font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+    font-weight: 100;
+}

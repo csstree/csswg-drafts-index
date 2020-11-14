@@ -1,11 +1,12 @@
 .view-definition {
-    border: 1px solid #d1e2ec;
+    border: 1px solid rgba(101, 158, 191, 0.3);
     border-radius: 4px;
+    overflow: hidden;
     padding: 2px;
     margin-bottom: .5em;
 }
 .view-definition > .view-header {
-    background: #e3f3fb;
+    background: rgba(115, 195, 235, 0.2);
     margin: -2px;
     margin-bottom: 2px;
     padding: 4px 18px;

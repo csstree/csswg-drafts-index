@@ -15,7 +15,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@discoveryjs/discovery": "1.0.0-beta.50",
+    "@discoveryjs/discovery": "1.0.0-beta.51",
     "@discoveryjs/cli": "^1.15.0",
     "css-tree": "^1.0.1",
     "git-repo-info": "^2.1.0"

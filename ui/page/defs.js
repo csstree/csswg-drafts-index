@@ -2,7 +2,7 @@ discovery.page.define('defs', {
     view: 'context',
     data: '(defs + prods).[name = #.id]',
     content: [
-        'h1:props.name',
+        'h1:name',
         {
             view: 'list',
             item: {

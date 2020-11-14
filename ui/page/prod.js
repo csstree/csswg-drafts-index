@@ -1,13 +1,16 @@
 discovery.page.define('prod', {
     view: 'context',
-    data: 'prods.pick(<id = #.id>)',
+    data: 'prods[=>id = #.id]',
     content: [
-        `badge:{
-            text: source.spec.props.title,
-            href: source.spec.id.pageLink("spec"),
-            color: "#fae2ec"
-        }`,
-        'h1:"<" + name + ">"',
+        {
+            view: 'page-header',
+            prelude: `badge:{
+                text: source.spec.props.title,
+                href: source.spec.id.pageLink("spec"),
+                color: "rgba(237, 177, 9, 0.35)"
+            }`,
+            content: 'h1:`<${name}>`'
+        },
         'syntax:value',
         'h5:"Defined in: " + source.spec.file + " on line " + source.line',
         {

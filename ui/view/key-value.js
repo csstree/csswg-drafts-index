@@ -11,7 +11,7 @@ discovery.view.define('key-value-item', function(el, config, data, context) {
 
     valueEl.className = 'view-key-value-item-value';
     this.render(valueEl, value, data, context);
-});
+}, { tag: null });
 
 discovery.view.define('key-value', function(el, config, data, context) {
     const { itemConfig, key, value, limit } = config;

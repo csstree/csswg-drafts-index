@@ -1,3 +1,5 @@
+const TZ = new Date().getTimezoneOffset() * 60 * 1000;
+
 function generateColor(value) {
     return 'hsl(' + String(value).split('').reduce((r, c) => (r + r ^ c.charCodeAt(0)), 0) + ', 50%, 85%)';
 }
@@ -103,6 +105,7 @@ discovery.setPrepare(function(data, { defineObjectMarker, addQueryHelpers }) {
     addQueryHelpers({
         isArray: value => Array.isArray(value),
         color: value => colorMap.has(value) ? colorMap.get(value) : generateColor(value),
+        datetime: value => new Date(value - TZ).toISOString().replace(/T/, ' ').replace(/\..+$/, ''),
         syntaxChildren(current) {
             const children = [];
 

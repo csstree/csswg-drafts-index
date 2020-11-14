@@ -1,13 +1,22 @@
 /* global discovery */
 
 discovery.page.define('default', [
-    'h1:#.name',
     {
-        view: 'h5',
+        view: 'page-header',
         content: [
-            'text:"Source: "',
-            'link:{ href: source.home, text: "w3c/csswg-drafts" }',
-            'text:" commit " + source.commitShort + " on  " + source.commitDate'
+            'h1:#.name',
+            {
+                view: 'block',
+                className: 'source',
+                content: [
+                    'text:"Source: "',
+                    'link:{ href: source.home, text: "w3c/csswg-drafts" }',
+                    'text:" commit "',
+                    { view: 'link', data: '{ text: source.commitShort, href: `${source.home}commit/${source.commit}` }' },
+                    { view: 'text', when: 'source.commitDate', data: '" on " + source.commitDate' },
+                    'text:`, updated at ${#.createdAt.datetime()}`'
+                ]
+            }
         ]
     },
     {
@@ -52,7 +61,7 @@ discovery.page.define('default', [
             {
                 title: 'IDL sections by spec',
                 query: 'idls.group(<source.spec>).sort(<key.props.title>)',
-                view: '{\n    view: \'list\',\n    item: [\n        \'h1:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value\',\n            item: {\n                view: \'definition\',\n                content: \'source:{content}\'\n            }\n        }\n    ]\n}'
+                view: '{\n    view: \'list\',\n    item: [\n        \'h2:key.props.title\',\n        {\n            view: \'list\',\n            data: \'value\',\n            item: {\n                view: \'definition\',\n                content: \'source:{content}\'\n            }\n        }\n    ]\n}'
             }
         ]
     }

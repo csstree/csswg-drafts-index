@@ -1,14 +1,8 @@
-.view-syntax a {
+.view-syntax .view-link {
     white-space: nowrap;
-    color: #333;
-    text-decoration-color: #b8b8b8;
-}
-.view-syntax a:hover {
-    color: black;
-    text-decoration-color: currentColor;
 }
 .view-syntax .error {
-    color: #d00 !important;
+    color: #d00c !important;
 }
 .view-syntax .match {
     background: #fff4ad;
@@ -23,6 +17,6 @@
     font-size: 90%;
     line-height: 1.5;
     white-space: pre-wrap;
-    color: #D00;
+    color: #d00c;
     background: #fdd;
 }

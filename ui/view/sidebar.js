@@ -1,9 +1,10 @@
 discovery.view.define('sidebar', {
     view: 'tabs',
     name: 'splitBy',
+    beforeTabs: 'text:"Definitions"',
     tabs: [
         { value: 'byspec', text: 'By spec' },
-        { value: 'byentry', text: 'Index' }
+        { value: 'byentry', text: 'Alphabetically' }
     ],
     content: {
         view: 'content-filter',
@@ -51,7 +52,7 @@ discovery.view.define('sidebar', {
                                             view: 'auto-link',
                                             content: 'text-match:{ text, match: #.filter }'
                                         },
-                                        'badge:{ text: type, color: "#d8e1f3" }'
+                                        'badge:type'
                                     ]
                                 }
                             }
@@ -64,7 +65,7 @@ discovery.view.define('sidebar', {
                             limit: 100,
                             data: `
                                 (defs + prods)
-                                    .[no #.filter or name ~= #.filter]
+                                    .[name ~= #.filter]
                                     .group(=>name)
                                     .({
                                         id: key,
@@ -85,14 +86,15 @@ discovery.view.define('sidebar', {
                                     content: 'text-match'
                                 },
                                 {
-                                    view: 'pill-badge',
+                                    view: 'block',
+                                    className: 'variants',
                                     when: 'count > 1',
-                                    data: '{ text: count }'
+                                    content: 'text:`x ${count}`'
                                 },
                                 {
                                     view: 'inline-list',
                                     data: 'type',
-                                    item: 'badge:{ text: $, color: "#d8e1f3" }'
+                                    item: 'badge'
                                 }
                             ]
                         }

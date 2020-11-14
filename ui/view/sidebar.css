@@ -3,9 +3,7 @@
 }
 
 .discovery-sidebar .view-toc-section > .header {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    display: flex;
     text-transform: none;
 }
 .discovery-sidebar .view-toc-section.empty > .content {
@@ -14,7 +12,14 @@
 
 .discovery-sidebar .header > .view-link {
     color: #dd0077;
-    text-decoration-color: #f2aecb;
+    text-decoration-color: #dd007763;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.discovery-root-darkmode .discovery-sidebar .header > .view-link {
+    color: #b74884;
+    text-decoration-color: #b7488480;
 }
 .discovery-sidebar .header > .view-link:hover {
     text-decoration-color: currentColor;
@@ -22,7 +27,21 @@
 
 .discovery-sidebar .view-badge {
     font-size: 11px;
-    color: #4869a9;
+    color: #635d33;
+    background-color: rgba(182, 167, 60, 0.4);
+    opacity: .5;
+    margin-left: 3px;
+}
+.discovery-root-darkmode .discovery-sidebar .view-badge {
+    color: #dcd7ad;
+    background-image: none;
+}
+
+.discovery-sidebar .variants {
+    display: inline-block;
+    margin: 0 4px;
+    color: #888;
+    font-size: 12px;
 }
 
 .view-link + .view-pill-badge,

@@ -11,6 +11,7 @@ module.exports = {
         },
         assets: [
             './page/common.css',
+            './page/default.css',
             './page/default.js',
             './page/def.js',
             './page/def.css',

@@ -1,7 +1,7 @@
 .view-def {
     padding: 4px 12px;
     margin: 1px 0;
-    border: 1px solid #f0f0f0;
+    border: 1px solid rgba(217, 217, 217, 0.4);
     line-height: 2;
 }
 .view-def .header {
@@ -10,8 +10,6 @@
 .view-def .header .view-link + .view-badge {
     font-size: 12px;
     margin-left: 1ex;
-    background: #d8e1f3;
-    color: #4869a9;
 }
 .view-def .view-spec-location {
     font-size: 12px;

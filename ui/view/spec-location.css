@@ -4,7 +4,7 @@
 }
 .view-spec-location a {
     color: #888;
-    text-decoration-color: #ddd;
+    text-decoration-color: rgba(170, 170, 170, 0.4);
 }
 .view-spec-location a:hover {
     text-decoration-color: currentColor;

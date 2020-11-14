@@ -20,7 +20,11 @@ function markupSyntax(syntax, dict, match) {
                     : `#defs:${entityDescriptor.name}`
                 : false;
 
-            str = `<a${href ? ` href="${href}"` : ''}${error ? ' class="error"': ''}>${escapeHtml(str)}</a>`;
+            str = href
+                ? `<a href="${href}" class="view-link${error ? ' error': ''}">${escapeHtml(str)}</a>`
+                : error
+                    ? `<span class="error">${escapeHtml(str)}</span>`
+                    : escapeHtml(str);
         }
 
         if (match && match.type === node.type && match.name === node.name) {
