@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-11-19T00:46:22.102Z",
-    "elapsedTime": 347,
+    "createdAt": "2020-11-20T00:46:37.256Z",
+    "elapsedTime": 499,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fa59f77977b145f270b5f0877b799f824200e062",
-            "commitShort": "fa59f77977",
+            "commit": "acb5fc92b5814b6fdba8e6f63a05263eb0403f95",
+            "commitShort": "acb5fc92b5",
             "commitDate": null,
             "branch": "master"
         },
@@ -2516,7 +2516,7 @@
                     "title": "CSS Text Module Level 3",
                     "shortname": "css-text",
                     "level": "3",
-                    "status": "CG-DRAFT",
+                    "status": "ED",
                     "workStatus": "Refining",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-text-3/",
