@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-11-29T00:54:20.078Z",
-    "elapsedTime": 375,
+    "createdAt": "2020-11-30T00:53:07.792Z",
+    "elapsedTime": 390,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "29a284396367a7a60dcb11bfff5dedc7c1abad92",
-            "commitShort": "29a2843963",
+            "commit": "2bd8165d88ec2010241d858d39e5904e92588b46",
+            "commitShort": "2bd8165d88",
             "commitDate": null,
             "branch": "master"
         },
@@ -5791,7 +5791,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3419
+                    "line": 3424
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5805,7 +5805,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3951
+                    "line": 3956
                 },
                 "props": {
                     "name": "opacity",
@@ -5873,7 +5873,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 543
+                    "line": 547
                 },
                 "props": {
                     "name": "foo",
@@ -5892,7 +5892,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 619
+                    "line": 623
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -5904,7 +5904,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 626
+                    "line": 630
                 },
                 "props": {
                     "name": "foo",
@@ -5916,7 +5916,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 633
+                    "line": 637
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -17830,7 +17830,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3797
+                    "line": 3802
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -17840,7 +17840,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3798
+                    "line": 3803
                 },
                 "value": "<number> | <percentage>"
             },
@@ -20956,7 +20956,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 600
+                    "line": 604
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
