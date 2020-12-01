@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-11-30T00:53:07.792Z",
-    "elapsedTime": 390,
+    "createdAt": "2020-12-01T00:54:06.337Z",
+    "elapsedTime": 377,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2bd8165d88ec2010241d858d39e5904e92588b46",
-            "commitShort": "2bd8165d88",
+            "commit": "23c81b1573cb9dc640675e2850641aaf63bec303",
+            "commitShort": "23c81b1573",
             "commitDate": null,
             "branch": "master"
         },
@@ -19475,7 +19475,7 @@
                 "dfnName": "@nest",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 363
+                    "line": 373
                 },
                 "value": "@nest <selector> { <declaration-list> }"
             },
@@ -21143,6 +21143,14 @@
                     "line": 593
                 },
                 "content": "[Exposed=Window]\ninterface NavigationEvent : UIEvent {\n    constructor(DOMString type,\n                optional NavigationEventInit eventInitDict = {});\n    readonly attribute SpatialNavigationDirection dir;\n    readonly attribute EventTarget? relatedTarget;\n};\ndictionary NavigationEventInit : UIEventInit {\n    SpatialNavigationDirection dir;\n    EventTarget? relatedTarget = null;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-nesting-1",
+                    "line": 31
+                },
+                "content": "interface CSSNestingRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
             {
                 "type": "idl",
