@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-02T00:53:03.695Z",
-    "elapsedTime": 365,
+    "createdAt": "2020-12-03T00:52:14.765Z",
+    "elapsedTime": 444,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "9d51829ac94ae20accdf5b86ca22c3ac86b80d8a",
-            "commitShort": "9d51829ac9",
+            "commit": "6191a113b757a2ce325cb4ff3ed8a18c4f48717b",
+            "commitShort": "6191a113b7",
             "commitDate": null,
             "branch": "master"
         },
@@ -21052,7 +21052,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 1007
+                    "line": 998
                 },
                 "content": "interface mixin FontFaceSource {\n    readonly attribute FontFaceSet fonts;\n};\nDocument includes FontFaceSource;\nWorkerGlobalScope includes FontFaceSource;"
             },
