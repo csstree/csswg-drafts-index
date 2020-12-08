@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-07T00:56:52.377Z",
-    "elapsedTime": 375,
+    "createdAt": "2020-12-08T00:56:48.109Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "065729751132e9c007ec6b10c8a36de946ffce74",
-            "commitShort": "0657297511",
+            "commit": "33ffe91e44db022b5a325622b5469826c3a42aeb",
+            "commitShort": "33ffe91e44",
             "commitDate": null,
             "branch": "master"
         },
@@ -5567,7 +5567,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-break-3",
-                    "line": 986
+                    "line": 1008
                 },
                 "props": {
                     "name": "box-decoration-break",
