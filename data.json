@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-08T00:56:48.109Z",
-    "elapsedTime": 399,
+    "createdAt": "2020-12-09T00:56:39.849Z",
+    "elapsedTime": 388,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "33ffe91e44db022b5a325622b5469826c3a42aeb",
-            "commitShort": "33ffe91e44",
+            "commit": "ea71303d074b3da4d439754edb721176ab952c75",
+            "commitShort": "ea71303d07",
             "commitDate": null,
             "branch": "master"
         },
@@ -607,10 +607,12 @@
                     "shortname": "css-conditional",
                     "level": "3",
                     "status": "ED",
+                    "implementationReport": "https://test.csswg.org/harness/results/css-conditional-3_dev/grouped/",
                     "workStatus": "Testing",
                     "ed": "https://drafts.csswg.org/css-conditional-3/",
-                    "tr": "https://www.w3.org/TR/css3-conditional/",
+                    "tr": "https://www.w3.org/TR/css-conditional-3/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2020/CR-css-conditional-3-20201208/",
                         "https://www.w3.org/TR/2013/CR-css3-conditional-20130404/"
                     ],
                     "testSuite": "http://test.csswg.org/suites/css-conditional-3_dev/nightly-unstable/",
@@ -1327,7 +1329,8 @@
                     "ed": "https://drafts.csswg.org/css-highlight-api-1/",
                     "tr": "https://www.w3.org/TR/css-highlight-api-1/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-highlight-api-1-20201022/"
+                        "https://www.w3.org/TR/2020/WD-css-highlight-api-1-20201022/",
+                        "https://www.w3.org/TR/2020/WD-css-highlight-api-1-20201208/"
                     ],
                     "editor": [
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241",
@@ -18050,7 +18053,7 @@
                 "dfnName": "<supports-condition>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 270
+                    "line": 272
                 },
                 "value": "not <supports-in-parens>\n| <supports-in-parens> [ and <supports-in-parens> ]*\n| <supports-in-parens> [ or <supports-in-parens> ]*"
             },
@@ -18060,7 +18063,7 @@
                 "dfnName": "<supports-in-parens>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 273
+                    "line": 275
                 },
                 "value": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
             },
@@ -18070,7 +18073,7 @@
                 "dfnName": "<supports-feature>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 274
+                    "line": 276
                 },
                 "value": "<supports-decl>"
             },
@@ -18080,7 +18083,7 @@
                 "dfnName": "<supports-decl>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 275
+                    "line": 277
                 },
                 "value": "( <declaration> )"
             },
@@ -20964,7 +20967,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 508
+                    "line": 510
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short SUPPORTS_RULE = 12;\n    \n};"
             },
@@ -20972,7 +20975,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 568
+                    "line": 570
                 },
                 "content": "[Exposed=Window]\ninterface CSSMediaRule : CSSConditionRule {\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
@@ -20980,7 +20983,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 594
+                    "line": 596
                 },
                 "content": "[Exposed=Window]\ninterface CSSSupportsRule : CSSConditionRule {\n};"
             },
@@ -20988,7 +20991,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 625
+                    "line": 627
                 },
                 "content": "[Exposed=Window]\ninterface CSSDocumentRule : CSSConditionRule {\n};"
             },
@@ -20996,7 +20999,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 638
+                    "line": 640
                 },
                 "content": "partial namespace CSS {\n  boolean supports(CSSOMString property, CSSOMString value);\n  boolean supports(CSSOMString conditionText);\n};"
             },
@@ -21100,7 +21103,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-highlight-api-1",
-                    "line": 166
+                    "line": 167
                 },
                 "content": "[Exposed=Window]\ninterface Highlight {\n    constructor(CSSOMString name, AbstractRange... initialRanges);\n    setlike<AbstractRange>;\n    attribute double priority;\n    readonly attribute CSSOMString name;\n};"
             },
@@ -21108,7 +21111,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-highlight-api-1",
-                    "line": 220
+                    "line": 221
                 },
                 "content": "partial namespace CSS {\n    readonly attribute HighlightsRegister highlights;\n};\n[Exposed=Window]\ninterface HighlightsRegister {\n    setlike<Highlight>;\n    HighlightsRegister add(Highlight value);\n};"
             },
