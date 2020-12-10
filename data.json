@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-09T00:56:39.849Z",
-    "elapsedTime": 388,
+    "createdAt": "2020-12-10T00:56:57.785Z",
+    "elapsedTime": 414,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ea71303d074b3da4d439754edb721176ab952c75",
-            "commitShort": "ea71303d07",
+            "commit": "1f1722363d933fa34da976f43002e82c8470a155",
+            "commitShort": "1f1722363d",
             "commitDate": null,
             "branch": "master"
         },
@@ -5782,7 +5782,7 @@
                     "name": "color",
                     "value": "<color>",
                     "initial": "CanvasText",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "computed color, see <a href=\"#resolving-color-values\">resolving color values",
@@ -5832,7 +5832,7 @@
                     "name": "color-scheme",
                     "value": "normal | [ light | dark | <custom-ident> ]+",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "computedValue": "the keyword normal, or an ordered list of specified color scheme keywords"
                 },
@@ -5848,7 +5848,7 @@
                     "name": "forced-color-adjust",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "animatable": "not animatable"
                 },
@@ -7085,7 +7085,7 @@
                     "name": "font-family",
                     "value": "[ <family-name> | <generic-family> ]#",
                     "initial": "depends on user agent",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "list, each item a string and/or <generic-family> keywords",
@@ -7103,7 +7103,7 @@
                     "name": "font-weight",
                     "value": "<font-weight-absolute> | bolder | lighter",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "a number, see below",
@@ -7121,7 +7121,7 @@
                     "name": "font-stretch",
                     "value": "normal | <percentage> | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "Not resolved",
                     "computedValue": "a percentage, see below",
@@ -7139,7 +7139,7 @@
                     "name": "font-style",
                     "value": "normal | italic | oblique <angle>?",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "the keyword specified, plus angle in degrees if specified",
@@ -7157,7 +7157,7 @@
                     "name": "font-size",
                     "value": "<absolute-size> | <relative-size> | <length-percentage>",
                     "initial": "medium",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "refer to parent element's font size",
                     "computedValue": "an absolute length",
@@ -7175,7 +7175,7 @@
                     "name": "font-size-adjust",
                     "value": "none | <number>",
                     "initial": "none",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "a number or the keyword none",
@@ -7193,7 +7193,7 @@
                     "name": "font",
                     "value": "[ [ <'font-style'> ||\n<font-variant-css2> ||\n<'font-weight'> ||\n<font-stretch-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] |\ncaption | icon | menu | message-box | small-caption | status-bar",
                     "initial": "see individual properties",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "see individual properties",
                     "computedValue": "see individual properties",
@@ -7211,7 +7211,7 @@
                     "name": "font-synthesis-weight",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -7230,7 +7230,7 @@
                     "name": "font-synthesis-style",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -7249,7 +7249,7 @@
                     "name": "font-synthesis-small-caps",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
@@ -7267,7 +7267,7 @@
                     "name": "font-synthesis",
                     "value": "none | [ weight || style ]",
                     "initial": "weight style small-caps",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword(s)",
@@ -7495,7 +7495,7 @@
                     "name": "font-kerning",
                     "value": "auto | normal | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7513,7 +7513,7 @@
                     "name": "font-variant-ligatures",
                     "value": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7531,7 +7531,7 @@
                     "name": "font-variant-position",
                     "value": "normal | sub | super",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7549,7 +7549,7 @@
                     "name": "font-variant-caps",
                     "value": "normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7567,7 +7567,7 @@
                     "name": "font-variant-numeric",
                     "value": "normal | [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ]",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7585,7 +7585,7 @@
                     "name": "font-variant-alternates",
                     "value": "normal | [ stylistic(<feature-value-name>) ||\nhistorical-forms ||\nstyleset(<feature-value-name>#) ||\ncharacter-variant(<feature-value-name>#) ||\nswash(<feature-value-name>) ||\nornaments(<feature-value-name>) ||\nannotation(<feature-value-name>) ]",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7603,7 +7603,7 @@
                     "name": "font-variant-east-asian",
                     "value": "normal | [ <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7621,7 +7621,7 @@
                     "name": "font-variant",
                     "value": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ]  || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby || [ sub | super ] ]",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7639,7 +7639,7 @@
                     "name": "font-feature-settings",
                     "value": "normal | <feature-tag-value>#",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "as specified",
@@ -7657,7 +7657,7 @@
                     "name": "font-language-override",
                     "value": "normal | <string>",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified string or the keyword none",
@@ -7675,7 +7675,7 @@
                     "name": "font-optical-sizing",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -7693,7 +7693,7 @@
                     "name": "font-variation-settings",
                     "value": "normal | [ <string> <number>]#",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "the keyword normal or a list, each item a string paired with a number",
@@ -7711,7 +7711,7 @@
                     "name": "font-palette",
                     "value": "none | normal | light | dark | <palette-identifier>",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/a",
                     "computedValue": "specified keyword or identifier",
@@ -7771,7 +7771,7 @@
                     "name": "font-variant-emoji",
                     "value": "auto | text | emoji | unicode",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/a",
                     "computedValue": "specified keyword",
@@ -12706,7 +12706,7 @@
                     "name": "text-transform",
                     "value": "none | [capitalize | uppercase | lowercase ] || full-width || full-size-kana",
                     "initial": "none",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12724,7 +12724,7 @@
                     "name": "white-space",
                     "value": "normal | pre | nowrap | pre-wrap | break-spaces | pre-line",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12742,7 +12742,7 @@
                     "name": "tab-size",
                     "value": "<number> | <length>",
                     "initial": "8",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "the specified number or absolute length",
                     "animationType": "by computed value type",
@@ -12760,7 +12760,7 @@
                     "name": "word-break",
                     "value": "normal | keep-all | break-all | break-word",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12778,7 +12778,7 @@
                     "name": "line-break",
                     "value": "auto | loose | normal | strict | anywhere",
                     "initial": "auto",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12796,7 +12796,7 @@
                     "name": "hyphens",
                     "value": "none | manual | auto",
                     "initial": "manual",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12814,7 +12814,7 @@
                     "name": "overflow-wrap",
                     "value": "normal | break-word | anywhere",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12832,7 +12832,7 @@
                     "name": "word-wrap",
                     "value": "normal | break-word | anywhere",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12903,7 +12903,7 @@
                     "name": "text-justify",
                     "value": "auto | none | inter-word | inter-character",
                     "initial": "auto",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
                     "computedValue": "specified keyword",
@@ -12921,7 +12921,7 @@
                     "name": "word-spacing",
                     "value": "normal | <length>",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "an absolute length",
@@ -12940,7 +12940,7 @@
                     "name": "letter-spacing",
                     "value": "normal | <length>",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "inline boxes and text",
                     "inherited": "yes",
                     "computedValue": "an absolute length",
                     "animationType": "by computed value type",
@@ -12977,7 +12977,7 @@
                     "name": "hanging-punctuation",
                     "value": "none | [ first || [ force-end | allow-end ] || last ]",
                     "initial": "none",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "<abbr title=\"follows order of property value definition\">per grammar</abbr>",
                     "computedValue": "specified keyword(s)",
@@ -12995,7 +12995,7 @@
                     "name": "word-boundary-detection",
                     "value": "normal | manual | auto(<lang>)",
                     "initial": "normal",
-                    "appliesTo": "[=inline boxes=]",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "as specified (However, see special provision for unsupported <lang>)",
@@ -13013,7 +13013,7 @@
                     "name": "word-boundary-expansion",
                     "value": "none | space | ideographic-space",
                     "initial": "none",
-                    "appliesTo": "[=inline boxes=]",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "as specified",
@@ -13031,7 +13031,7 @@
                     "name": "text-space-collapse",
                     "value": "collapse | discard | preserve | preserve-breaks | preserve-spaces",
                     "initial": "collapse",
-                    "appliesTo": "all elements",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -13049,7 +13049,7 @@
                     "name": "text-space-trim",
                     "value": "none | trim-inner || discard-before || discard-after",
                     "initial": "none",
-                    "appliesTo": "all elements",
+                    "appliesTo": "[=inline boxes=]",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword(s)",
@@ -13067,7 +13067,7 @@
                     "name": "text-wrap",
                     "value": "wrap | nowrap | balance | stable | pretty",
                     "initial": "wrap",
-                    "appliesTo": "inline boxes and block containers",
+                    "appliesTo": "text and block containers",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -13139,7 +13139,7 @@
                     "name": "white-space",
                     "value": "normal | pre | nowrap | pre-wrap | pre-line",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "See individual properties",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "animationType": "discrete"
@@ -13156,7 +13156,7 @@
                     "name": "hyphenate-character",
                     "value": "auto | <string>",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -13174,7 +13174,7 @@
                     "name": "hyphenate-limit-zone",
                     "value": "<length-percentage>",
                     "initial": "0",
-                    "appliesTo": "block containers",
+                    "appliesTo": "[=block containers=]",
                     "inherited": "yes",
                     "percentages": "refers to length of the line box",
                     "computedValue": "computed <length-percentage> value",
@@ -13192,7 +13192,7 @@
                     "name": "hyphenate-limit-chars",
                     "value": "[ auto | <integer> ]{1,3}",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "three values, each either the auto keyword or an integer",
@@ -13228,7 +13228,7 @@
                     "name": "hyphenate-limit-last",
                     "value": "none | always | column | page | spread",
                     "initial": "none",
-                    "appliesTo": "block containers",
+                    "appliesTo": "[=block containers=]",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -13376,6 +13376,7 @@
                     "name": "text-emphasis-style",
                     "value": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
                     "initial": "none",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "the keyword none, a pair of keywords representing the shape and fill, or a string",
                     "animationType": "discrete"
@@ -13386,12 +13387,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-3",
-                    "line": 686
+                    "line": 687
                 },
                 "props": {
                     "name": "text-emphasis-color",
                     "value": "<color>",
                     "initial": "currentcolor",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "computed color",
                     "animationType": "by computed value type"
@@ -13402,7 +13404,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-3",
-                    "line": 705
+                    "line": 707
                 },
                 "props": {
                     "name": "text-emphasis",
@@ -13414,12 +13416,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-3",
-                    "line": 723
+                    "line": 725
                 },
                 "props": {
                     "name": "text-emphasis-position",
                     "value": "[ over | under ] && [ right | left ]?",
                     "initial": "over right",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "specified keyword(s)",
                     "animationType": "discrete"
@@ -13430,12 +13433,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-3",
-                    "line": 838
+                    "line": 841
                 },
                 "props": {
                     "name": "text-shadow",
                     "value": "none | [ <color>? && <length>{2,3} ]#",
                     "initial": "none",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "either the keyword none or\na list, each item consisting of three absolute lengths\nplus a computed color",
                     "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0'')\nas needed to match the longer list\nif the the shorter list is otherwise compatible with the longer one"
@@ -13452,6 +13456,7 @@
                     "name": "text-decoration-line",
                     "value": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
                     "initial": "none",
+                    "appliesTo": "all elements",
                     "inherited": "no (but see prose, above)",
                     "computedValue": "specified keyword(s)",
                     "animationType": "discrete"
@@ -13462,12 +13467,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 262
+                    "line": 263
                 },
                 "props": {
                     "name": "text-decoration-style",
                     "value": "solid | double | dotted | dashed | wavy",
                     "initial": "solid",
+                    "appliesTo": "all elements",
                     "inherited": "no",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -13478,12 +13484,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 285
+                    "line": 287
                 },
                 "props": {
                     "name": "text-decoration-color",
                     "value": "<color>",
                     "initial": "currentcolor",
+                    "appliesTo": "all elements",
                     "inherited": "no",
                     "computedValue": "computed color",
                     "animationType": "by computed value type"
@@ -13494,7 +13501,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 304
+                    "line": 307
                 },
                 "props": {
                     "name": "text-decoration-thickness",
@@ -13512,7 +13519,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 461
+                    "line": 464
                 },
                 "props": {
                     "name": "text-decoration",
@@ -13524,12 +13531,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 500
+                    "line": 503
                 },
                 "props": {
                     "name": "text-underline-position",
                     "value": "auto | [ from-font | under ] || [ left | right ]",
                     "initial": "auto",
+                    "appliesTo": "all elements",
                     "inherited": "yes",
                     "computedValue": "specified keyword(s)",
                     "animationType": "discrete"
@@ -13540,7 +13548,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 639
+                    "line": 643
                 },
                 "props": {
                     "name": "text-underline-offset",
@@ -13558,7 +13566,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 836
+                    "line": 840
                 },
                 "props": {
                     "name": "text-decoration-skip",
@@ -13576,7 +13584,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 878
+                    "line": 882
                 },
                 "props": {
                     "name": "text-decoration-skip-self",
@@ -13594,7 +13602,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 919
+                    "line": 923
                 },
                 "props": {
                     "name": "text-decoration-skip-box",
@@ -13612,7 +13620,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 957
+                    "line": 961
                 },
                 "props": {
                     "name": "text-decoration-skip-inset",
@@ -13630,7 +13638,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1008
+                    "line": 1012
                 },
                 "props": {
                     "name": "text-decoration-skip-spaces",
@@ -13648,7 +13656,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1061
+                    "line": 1065
                 },
                 "props": {
                     "name": "text-decoration-skip-ink",
@@ -13666,12 +13674,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1240
+                    "line": 1244
                 },
                 "props": {
                     "name": "text-emphasis-style",
                     "value": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
                     "initial": "none",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "the keyword none, a pair of keywords representing the shape and fill, or a string",
                     "animationType": "discrete"
@@ -13682,12 +13691,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1356
+                    "line": 1361
                 },
                 "props": {
                     "name": "text-emphasis-color",
                     "value": "<color>",
                     "initial": "currentcolor",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "computed color",
                     "animationType": "by computed value type"
@@ -13698,7 +13708,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1375
+                    "line": 1381
                 },
                 "props": {
                     "name": "text-emphasis",
@@ -13710,12 +13720,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1393
+                    "line": 1399
                 },
                 "props": {
                     "name": "text-emphasis-position",
                     "value": "[ over | under ] && [ right | left ]?",
                     "initial": "over right",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "specified keyword(s)",
                     "animationType": "discrete"
@@ -13726,13 +13737,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1511
+                    "line": 1518
                 },
                 "props": {
                     "name": "text-emphasis-skip",
                     "value": "spaces || punctuation || symbols || narrow",
                     "initial": "spaces punctuation",
-                    "appliesTo": "all elements",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword(s)",
@@ -13744,12 +13755,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1911
+                    "line": 1918
                 },
                 "props": {
                     "name": "text-shadow",
                     "value": "none | [ <color>? && <length>{2,4} ]#",
                     "initial": "none",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color",
                     "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0 0'')\nas needed to match the longer list\nif the the shorter list is otherwise compatible with the longer one"
@@ -14639,7 +14651,7 @@
                     "name": "text-combine-upright",
                     "value": "none | all",
                     "initial": "none",
-                    "appliesTo": "non-replaced inline elements",
+                    "appliesTo": "[=inline elements=] and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -14752,7 +14764,7 @@
                     "name": "text-combine-upright",
                     "value": "none | all | [ digits <integer>? ]",
                     "initial": "none",
-                    "appliesTo": "non-replaced inline elements",
+                    "appliesTo": "[=inline boxes=] and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword, plus integer if digits",
@@ -18053,7 +18065,7 @@
                 "dfnName": "<supports-condition>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 272
+                    "line": 273
                 },
                 "value": "not <supports-in-parens>\n| <supports-in-parens> [ and <supports-in-parens> ]*\n| <supports-in-parens> [ or <supports-in-parens> ]*"
             },
@@ -18063,7 +18075,7 @@
                 "dfnName": "<supports-in-parens>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 275
+                    "line": 276
                 },
                 "value": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
             },
@@ -18073,7 +18085,7 @@
                 "dfnName": "<supports-feature>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 276
+                    "line": 277
                 },
                 "value": "<supports-decl>"
             },
@@ -18083,7 +18095,7 @@
                 "dfnName": "<supports-decl>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 277
+                    "line": 278
                 },
                 "value": "( <declaration> )"
             },
@@ -20967,7 +20979,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 510
+                    "line": 511
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short SUPPORTS_RULE = 12;\n    \n};"
             },
@@ -20975,7 +20987,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 570
+                    "line": 571
                 },
                 "content": "[Exposed=Window]\ninterface CSSMediaRule : CSSConditionRule {\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
@@ -20983,7 +20995,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 596
+                    "line": 597
                 },
                 "content": "[Exposed=Window]\ninterface CSSSupportsRule : CSSConditionRule {\n};"
             },
@@ -20991,7 +21003,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 627
+                    "line": 628
                 },
                 "content": "[Exposed=Window]\ninterface CSSDocumentRule : CSSConditionRule {\n};"
             },
@@ -20999,7 +21011,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 640
+                    "line": 641
                 },
                 "content": "partial namespace CSS {\n  boolean supports(CSSOMString property, CSSOMString value);\n  boolean supports(CSSOMString conditionText);\n};"
             },
