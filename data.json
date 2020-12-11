@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-10T00:56:57.785Z",
-    "elapsedTime": 414,
+    "createdAt": "2020-12-11T00:57:42.935Z",
+    "elapsedTime": 333,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "1f1722363d933fa34da976f43002e82c8470a155",
-            "commitShort": "1f1722363d",
+            "commit": "e22b022d15e827bff4fb8053a2598018d757c25f",
+            "commitShort": "e22b022d15",
             "commitDate": null,
             "branch": "master"
         },
@@ -5794,7 +5794,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3424
+                    "line": 3460
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5808,7 +5808,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3956
+                    "line": 3992
                 },
                 "props": {
                     "name": "opacity",
@@ -17775,7 +17775,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 973
+                    "line": 1007
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -17785,7 +17785,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 975
+                    "line": 1009
                 },
                 "value": "<number> | <percentage>"
             },
@@ -17795,7 +17795,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1697
+                    "line": 1731
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17805,7 +17805,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2243
+                    "line": 2277
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17815,7 +17815,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2670
+                    "line": 2704
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -17825,7 +17825,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2711
+                    "line": 2745
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -17835,7 +17835,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2895
+                    "line": 2929
                 },
                 "value": "color( [ [<ident> | <dashed-ident>]? [ <number-percentage>+ | <string> ] [ / <alpha-value> ]? ]# , <color>? )"
             },
@@ -17845,7 +17845,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3802
+                    "line": 3838
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -17855,7 +17855,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3803
+                    "line": 3839
                 },
                 "value": "<number> | <percentage>"
             },
