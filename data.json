@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-11T00:57:42.935Z",
-    "elapsedTime": 333,
+    "createdAt": "2020-12-12T00:59:02.630Z",
+    "elapsedTime": 331,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e22b022d15e827bff4fb8053a2598018d757c25f",
-            "commitShort": "e22b022d15",
+            "commit": "dc447e6ab6edb286de656774cad2eada6291e628",
+            "commitShort": "dc447e6ab6",
             "commitDate": null,
             "branch": "master"
         },
@@ -11310,7 +11310,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 601
+                    "line": 603
                 },
                 "props": {
                     "name": "scroll-margin",
@@ -11328,7 +11328,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 652
+                    "line": 654
                 },
                 "props": {
                     "name": "scroll-snap-align",
@@ -11346,7 +11346,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 879
+                    "line": 881
                 },
                 "props": {
                     "name": "scroll-snap-stop",
@@ -11364,7 +11364,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1085
+                    "line": 1087
                 },
                 "props": {
                     "name": "scroll-padding-top",
@@ -11382,7 +11382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1085
+                    "line": 1087
                 },
                 "props": {
                     "name": "scroll-padding-right",
@@ -11400,7 +11400,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1085
+                    "line": 1087
                 },
                 "props": {
                     "name": "scroll-padding-bottom",
@@ -11418,7 +11418,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1085
+                    "line": 1087
                 },
                 "props": {
                     "name": "scroll-padding-left",
@@ -11436,7 +11436,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1104
+                    "line": 1106
                 },
                 "props": {
                     "name": "scroll-padding-inline-start",
@@ -11454,7 +11454,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1104
+                    "line": 1106
                 },
                 "props": {
                     "name": "scroll-padding-block-start",
@@ -11472,7 +11472,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1104
+                    "line": 1106
                 },
                 "props": {
                     "name": "scroll-padding-inline-end",
@@ -11490,7 +11490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1104
+                    "line": 1106
                 },
                 "props": {
                     "name": "scroll-padding-block-end",
@@ -11508,7 +11508,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1120
+                    "line": 1122
                 },
                 "props": {
                     "name": "scroll-padding-block",
@@ -11525,7 +11525,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1120
+                    "line": 1122
                 },
                 "props": {
                     "name": "scroll-padding-inline",
@@ -11542,7 +11542,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1141
+                    "line": 1143
                 },
                 "props": {
                     "name": "scroll-margin-top",
@@ -11560,7 +11560,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1141
+                    "line": 1143
                 },
                 "props": {
                     "name": "scroll-margin-right",
@@ -11578,7 +11578,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1141
+                    "line": 1143
                 },
                 "props": {
                     "name": "scroll-margin-bottom",
@@ -11596,7 +11596,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1141
+                    "line": 1143
                 },
                 "props": {
                     "name": "scroll-margin-left",
@@ -11614,7 +11614,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1159
+                    "line": 1161
                 },
                 "props": {
                     "name": "scroll-margin-block-start",
@@ -11632,7 +11632,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1159
+                    "line": 1161
                 },
                 "props": {
                     "name": "scroll-margin-inline-start",
@@ -11650,7 +11650,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1159
+                    "line": 1161
                 },
                 "props": {
                     "name": "scroll-margin-block-end",
@@ -11668,7 +11668,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1159
+                    "line": 1161
                 },
                 "props": {
                     "name": "scroll-margin-inline-end",
@@ -11686,7 +11686,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1174
+                    "line": 1176
                 },
                 "props": {
                     "name": "scroll-margin-block",
@@ -11703,7 +11703,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1174
+                    "line": 1176
                 },
                 "props": {
                     "name": "scroll-margin-inline",
@@ -12164,8 +12164,8 @@
                     "line": 487
                 },
                 "props": {
-                    "name": "contain-intrinsic-size",
-                    "value": "none | <length>{1,2}",
+                    "name": "contain-intrinsic-width",
+                    "value": "none | <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12173,13 +12173,79 @@
                     "percentages": "n/a",
                     "animationType": "by computed value type"
                 },
+                "name": "contain-intrinsic-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-sizing-4",
+                    "line": 487
+                },
+                "props": {
+                    "name": "contain-intrinsic-height",
+                    "value": "none | <length>",
+                    "initial": "none",
+                    "inherited": "no",
+                    "appliesTo": "elements with [=size containment=]",
+                    "computedValue": "as specified, with <length> values computed",
+                    "percentages": "n/a",
+                    "animationType": "by computed value type"
+                },
+                "name": "contain-intrinsic-height"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-sizing-4",
+                    "line": 487
+                },
+                "props": {
+                    "name": "contain-intrinsic-block-size",
+                    "value": "none | <length>",
+                    "initial": "none",
+                    "inherited": "no",
+                    "appliesTo": "elements with [=size containment=]",
+                    "computedValue": "as specified, with <length> values computed",
+                    "percentages": "n/a",
+                    "animationType": "by computed value type"
+                },
+                "name": "contain-intrinsic-block-size"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-sizing-4",
+                    "line": 487
+                },
+                "props": {
+                    "name": "contain-intrinsic-inline-size",
+                    "value": "none | <length>",
+                    "initial": "none",
+                    "inherited": "no",
+                    "appliesTo": "elements with [=size containment=]",
+                    "computedValue": "as specified, with <length> values computed",
+                    "percentages": "n/a",
+                    "animationType": "by computed value type"
+                },
+                "name": "contain-intrinsic-inline-size"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-sizing-4",
+                    "line": 544
+                },
+                "props": {
+                    "name": "contain-intrinsic-size",
+                    "value": "[ none | <length> ]{1,2}"
+                },
                 "name": "contain-intrinsic-size"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 634
+                    "line": 652
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
