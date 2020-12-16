@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-14T00:59:49.034Z",
-    "elapsedTime": 374,
+    "createdAt": "2020-12-16T00:59:56.674Z",
+    "elapsedTime": 358,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "dc447e6ab6edb286de656774cad2eada6291e628",
-            "commitShort": "dc447e6ab6",
+            "commit": "cc4be48cd1fe65880f4e171d09719b5e1ca7d502",
+            "commitShort": "cc4be48cd1",
             "commitDate": null,
             "branch": "master"
         },
@@ -676,7 +676,7 @@
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241"
                     ],
                     "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
-                    "statusText": "A <a href=\"https://drafts.csswg.org/css-contain-1/issues-2019-cr.html\">Disposition of Comments</a> and an <a href=\"https://drafts.csswg.org/css-contain-1/implementation-report-2019-09\">Implementation Report</a> are available.",
+                    "statusText": "A <a href=\"https://drafts.csswg.org/css-contain-1/issues-2019-cr.html\">Disposition of Comments</a> and an <a href=\"https://drafts.csswg.org/css-contain-1/implementation-report-2019-09\">Implementation Report</a> are available.\n<div class=correction><a href=\"https://www.w3.org/Consortium/Process/#candidate-correction\">Candidate corrections</a> are marked in the document.</div>",
                     "wptPathPrefix": "css/css-contain/",
                     "includeMdnPanels": "no"
                 }
@@ -1173,7 +1173,7 @@
                 "id": "css-grid-1",
                 "props": {
                     "title": "CSS Grid Layout Module Level 1",
-                    "status": "CRD",
+                    "status": "ED",
                     "workStatus": "Testing",
                     "shortname": "css-grid",
                     "level": "1",
@@ -1424,7 +1424,6 @@
                         "concrete object size",
                         "linear-gradient()",
                         "radial-gradient()",
-                        "intrinsic dimensions",
                         "default object size",
                         "CSS"
                     ],
@@ -2531,13 +2530,10 @@
                         "https://www.w3.org/TR/2018/WD-css-text-3-20181206/",
                         "https://www.w3.org/TR/2018/WD-css-text-3-20180920/",
                         "https://www.w3.org/TR/2017/WD-css-text-3-20170822/",
-                        "https://www.w3.org/TR/2013/WD-css-text-3-20131010/",
-                        "https://www.w3.org/TR/2012/WD-css3-text-20121113/"
-                    ],
-                    "issueTracking": [
-                        "Tracker http://www.w3.org/Style/CSS/Tracker/products/10"
+                        "https://www.w3.org/TR/2013/WD-css-text-3-20131010/"
                     ],
                     "testSuite": "http://test.csswg.org/suites/css3-text/nightly-unstable/",
+                    "!testCoverageAnalysis": "<a href=\"https://drafts.csswg.org/css-text-3/test-coverage\">https://drafts.csswg.org/css-text-3/test-coverage</a>",
                     "editor": [
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Invited Expert, kojiishi@gluesoft.co.jp, w3cid 45369",
@@ -2548,7 +2544,7 @@
                     "ignoredVars": [
                         "letter-spacing"
                     ],
-                    "statusText": "This publication partially addresses the issues in the <a href=\"https://drafts.csswg.org/css-text-3/issues-lc-2013\">disposition of comments</a> since the <a href=\"https://www.w3.org/TR/2013/WD-css-text-3-20131010/\">October 2013 Last Call Working Draft</a>, and, while a marked improvement over the previous draft, is not considered to be entirely up-to-date at the time of publication. A completed dispostion of comments and corresponding draft will be published once the issues are fully addressed and reviewed by the CSSWG and Internationalization WG.",
+                    "statusText": "This publication fully addresses the issues raised since the <a href=\"https://www.w3.org/TR/2013/WD-css-text-3-20131010/\">October 2013 Last Call Working Draft</a>, which are documented in the <a href=\"https://drafts.csswg.org/css-text-3/issues-lc-2013\">disposition of comments</a>.",
                     "wptPathPrefix": "/css/css-text/"
                 }
             },
@@ -3704,7 +3700,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1474
+                    "line": 1475
                 },
                 "props": {
                     "name": "align-self",
@@ -3722,7 +3718,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1658
+                    "line": 1659
                 },
                 "props": {
                     "name": "place-self",
@@ -3740,7 +3736,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1820
+                    "line": 1821
                 },
                 "props": {
                     "name": "justify-items",
@@ -3758,7 +3754,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1857
+                    "line": 1858
                 },
                 "props": {
                     "name": "align-items",
@@ -3776,7 +3772,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1877
+                    "line": 1878
                 },
                 "props": {
                     "name": "place-items",
@@ -3794,7 +3790,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1925
+                    "line": 1926
                 },
                 "props": {
                     "name": "row-gap",
@@ -3812,7 +3808,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1925
+                    "line": 1926
                 },
                 "props": {
                     "name": "column-gap",
@@ -3830,7 +3826,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2014
+                    "line": 2015
                 },
                 "props": {
                     "name": "gap",
@@ -5876,7 +5872,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 547
+                    "line": 567
                 },
                 "props": {
                     "name": "foo",
@@ -5895,7 +5891,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 623
+                    "line": 643
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -5907,7 +5903,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 630
+                    "line": 650
                 },
                 "props": {
                     "name": "foo",
@@ -5919,7 +5915,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 637
+                    "line": 657
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -5933,7 +5929,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-1",
-                    "line": 79
+                    "line": 82
                 },
                 "props": {
                     "name": "contain",
@@ -5967,7 +5963,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1044
+                    "line": 1051
                 },
                 "props": {
                     "name": "content-visibility",
@@ -6001,7 +5997,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 394
+                    "line": 387
                 },
                 "props": {
                     "name": "quotes",
@@ -6019,7 +6015,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 964
+                    "line": 957
                 },
                 "props": {
                     "name": "string-set",
@@ -6037,7 +6033,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1215
+                    "line": 1208
                 },
                 "props": {
                     "name": "bookmark-level",
@@ -6055,7 +6051,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1249
+                    "line": 1242
                 },
                 "props": {
                     "name": "bookmark-label",
@@ -6073,7 +6069,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1294
+                    "line": 1287
                 },
                 "props": {
                     "name": "bookmark-state",
@@ -7265,7 +7261,7 @@
                 },
                 "props": {
                     "name": "font-synthesis",
-                    "value": "none | [ weight || style ]",
+                    "value": "none | [ weight || style || small-caps]",
                     "initial": "weight style small-caps",
                     "appliesTo": "all elements and text",
                     "inherited": "yes",
@@ -7279,7 +7275,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1800
+                    "line": 1826
                 },
                 "props": {
                     "name": "font-family",
@@ -7293,7 +7289,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1825
+                    "line": 1851
                 },
                 "props": {
                     "name": "src",
@@ -7307,7 +7303,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2217
+                    "line": 2243
                 },
                 "props": {
                     "name": "font-style",
@@ -7321,7 +7317,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2224
+                    "line": 2250
                 },
                 "props": {
                     "name": "font-weight",
@@ -7335,7 +7331,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2231
+                    "line": 2257
                 },
                 "props": {
                     "name": "font-stretch",
@@ -7349,7 +7345,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2339
+                    "line": 2365
                 },
                 "props": {
                     "name": "unicode-range",
@@ -7363,7 +7359,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2557
+                    "line": 2583
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -7377,7 +7373,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2564
+                    "line": 2590
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7391,7 +7387,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2591
+                    "line": 2617
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -7405,7 +7401,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2728
+                    "line": 2754
                 },
                 "props": {
                     "name": "font-display",
@@ -7419,7 +7415,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2892
+                    "line": 2918
                 },
                 "props": {
                     "name": "font-display",
@@ -7433,7 +7429,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2902
+                    "line": 2928
                 },
                 "props": {
                     "name": "font-language-override",
@@ -7447,7 +7443,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2915
+                    "line": 2941
                 },
                 "props": {
                     "name": "ascent-override",
@@ -7461,7 +7457,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2922
+                    "line": 2948
                 },
                 "props": {
                     "name": "descent-override",
@@ -7475,7 +7471,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2929
+                    "line": 2955
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -7489,7 +7485,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3698
+                    "line": 3724
                 },
                 "props": {
                     "name": "font-kerning",
@@ -7507,7 +7503,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3771
+                    "line": 3797
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -7525,7 +7521,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3878
+                    "line": 3904
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -7543,7 +7539,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4084
+                    "line": 4110
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -7561,7 +7557,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4243
+                    "line": 4269
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -7579,7 +7575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4378
+                    "line": 4404
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -7597,7 +7593,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4836
+                    "line": 4862
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -7615,7 +7611,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4944
+                    "line": 4970
                 },
                 "props": {
                     "name": "font-variant",
@@ -7633,7 +7629,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4980
+                    "line": 5006
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -7651,7 +7647,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5154
+                    "line": 5180
                 },
                 "props": {
                     "name": "font-language-override",
@@ -7669,7 +7665,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5470
+                    "line": 5496
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -7687,7 +7683,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5553
+                    "line": 5579
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7705,7 +7701,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5682
+                    "line": 5708
                 },
                 "props": {
                     "name": "font-palette",
@@ -7723,7 +7719,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5881
+                    "line": 5907
                 },
                 "props": {
                     "name": "font-family",
@@ -7737,7 +7733,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5900
+                    "line": 5926
                 },
                 "props": {
                     "name": "base-palette",
@@ -7751,7 +7747,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5962
+                    "line": 5988
                 },
                 "props": {
                     "name": "override-color",
@@ -7765,7 +7761,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6016
+                    "line": 6042
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -7903,7 +7899,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 853
+                    "line": 854
                 },
                 "props": {
                     "name": "display",
@@ -7915,7 +7911,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1439
+                    "line": 1442
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -7933,7 +7929,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1439
+                    "line": 1442
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -7951,7 +7947,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2047
+                    "line": 2050
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -7969,7 +7965,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2204
+                    "line": 2207
                 },
                 "props": {
                     "name": "grid-template",
@@ -7983,7 +7979,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2346
+                    "line": 2349
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -8001,7 +7997,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2346
+                    "line": 2349
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -8019,7 +8015,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2419
+                    "line": 2422
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -8037,7 +8033,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2575
+                    "line": 2578
                 },
                 "props": {
                     "name": "grid",
@@ -8051,7 +8047,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2926
+                    "line": 2929
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -8069,7 +8065,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2926
+                    "line": 2929
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -8087,7 +8083,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2926
+                    "line": 2929
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -8105,7 +8101,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2926
+                    "line": 2929
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -8123,7 +8119,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3113
+                    "line": 3116
                 },
                 "props": {
                     "name": "grid-row",
@@ -8140,7 +8136,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3113
+                    "line": 3116
                 },
                 "props": {
                     "name": "grid-column",
@@ -8157,7 +8153,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3134
+                    "line": 3137
                 },
                 "props": {
                     "name": "grid-area",
@@ -8535,7 +8531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1400
+                    "line": 1419
                 },
                 "props": {
                     "name": "object-fit",
@@ -8553,7 +8549,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1497
+                    "line": 1516
                 },
                 "props": {
                     "name": "object-position",
@@ -8572,7 +8568,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1541
+                    "line": 1560
                 },
                 "props": {
                     "name": "image-orientation",
@@ -8589,7 +8585,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1670
+                    "line": 1689
                 },
                 "props": {
                     "name": "image-rendering",
@@ -8606,7 +8602,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1802
+                    "line": 1804
                 },
                 "props": {
                     "name": "object-fit",
@@ -8624,7 +8620,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1920
+                    "line": 1922
                 },
                 "props": {
                     "name": "image-resolution",
@@ -8905,7 +8901,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 366
+                    "line": 372
                 },
                 "props": {
                     "name": "list-style-type",
@@ -8923,7 +8919,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 451
+                    "line": 457
                 },
                 "props": {
                     "name": "list-style-position",
@@ -8941,7 +8937,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 549
+                    "line": 555
                 },
                 "props": {
                     "name": "list-style",
@@ -8954,7 +8950,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 638
+                    "line": 644
                 },
                 "props": {
                     "name": "marker-side",
@@ -8972,7 +8968,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 764
+                    "line": 770
                 },
                 "props": {
                     "name": "counter-reset",
@@ -8990,7 +8986,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 818
+                    "line": 824
                 },
                 "props": {
                     "name": "counter-increment",
@@ -9008,7 +9004,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 831
+                    "line": 837
                 },
                 "props": {
                     "name": "counter-set",
@@ -11861,7 +11857,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 344
+                    "line": 346
                 },
                 "props": {
                     "name": "width",
@@ -11879,7 +11875,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 344
+                    "line": 346
                 },
                 "props": {
                     "name": "height",
@@ -11897,7 +11893,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 363
+                    "line": 365
                 },
                 "props": {
                     "name": "min-width",
@@ -11915,7 +11911,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 363
+                    "line": 365
                 },
                 "props": {
                     "name": "min-height",
@@ -11933,7 +11929,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 385
+                    "line": 387
                 },
                 "props": {
                     "name": "max-width",
@@ -11951,7 +11947,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 385
+                    "line": 387
                 },
                 "props": {
                     "name": "max-height",
@@ -11969,7 +11965,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 569
+                    "line": 571
                 },
                 "props": {
                     "name": "box-sizing",
@@ -11987,7 +11983,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 753
+                    "line": 755
                 },
                 "props": {
                     "name": "column-width",
@@ -12766,7 +12762,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 442
+                    "line": 441
                 },
                 "props": {
                     "name": "text-transform",
@@ -12784,7 +12780,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 824
+                    "line": 823
                 },
                 "props": {
                     "name": "white-space",
@@ -12802,7 +12798,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2301
+                    "line": 2299
                 },
                 "props": {
                     "name": "tab-size",
@@ -12820,7 +12816,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2862
+                    "line": 2859
                 },
                 "props": {
                     "name": "word-break",
@@ -12838,7 +12834,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3225
+                    "line": 3222
                 },
                 "props": {
                     "name": "line-break",
@@ -12856,7 +12852,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3637
+                    "line": 3628
                 },
                 "props": {
                     "name": "hyphens",
@@ -12874,7 +12870,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3808
+                    "line": 3790
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -12892,7 +12888,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3808
+                    "line": 3790
                 },
                 "props": {
                     "name": "word-wrap",
@@ -12910,7 +12906,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3988
+                    "line": 3970
                 },
                 "props": {
                     "name": "text-align",
@@ -12927,7 +12923,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4222
+                    "line": 4204
                 },
                 "props": {
                     "name": "text-align-all",
@@ -12945,7 +12941,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4250
+                    "line": 4232
                 },
                 "props": {
                     "name": "text-align-last",
@@ -12963,7 +12959,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4301
+                    "line": 4283
                 },
                 "props": {
                     "name": "text-justify",
@@ -12981,7 +12977,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4629
+                    "line": 4611
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13000,7 +12996,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4782
+                    "line": 4768
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13018,7 +13014,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5287
+                    "line": 5273
                 },
                 "props": {
                     "name": "text-indent",
@@ -13037,7 +13033,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5600
+                    "line": 5586
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -18191,7 +18187,7 @@
                 "dfnName": "<<quote>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 444
+                    "line": 437
                 },
                 "value": "open-quote | close-quote | no-open-quote | no-close-quote"
             },
@@ -18201,7 +18197,7 @@
                 "dfnName": "leader()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 628
+                    "line": 621
                 },
                 "value": "leader( <leader-type> )"
             },
@@ -18211,7 +18207,7 @@
                 "dfnName": "<<leader-type>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 629
+                    "line": 622
                 },
                 "value": "dotted | solid | space | <string>"
             },
@@ -18221,7 +18217,7 @@
                 "dfnName": "<<target>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 786
+                    "line": 779
                 },
                 "value": "<target-counter()> | <target-counters()> | <target-text()>"
             },
@@ -18231,7 +18227,7 @@
                 "dfnName": "target-counter()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 797
+                    "line": 790
                 },
                 "value": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )"
             },
@@ -18241,7 +18237,7 @@
                 "dfnName": "target-counters()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 879
+                    "line": 872
                 },
                 "value": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )"
             },
@@ -18251,7 +18247,7 @@
                 "dfnName": "target-text()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 899
+                    "line": 892
                 },
                 "attrs": {
                     "id": "target-text-function"
@@ -18264,7 +18260,7 @@
                 "dfnName": "string()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1020
+                    "line": 1013
                 },
                 "value": "string( <custom-ident> , [ first | start | last | first-except ]? )"
             },
@@ -18274,7 +18270,7 @@
                 "dfnName": "content()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1119
+                    "line": 1112
                 },
                 "value": "content( [ text | before | after | first-letter | marker ]? )"
             },
@@ -18671,7 +18667,7 @@
                 "dfnName": "<font-format>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1876
+                    "line": 1902
                 },
                 "attrs": {
                     "id": "font-format-values"
@@ -18684,7 +18680,7 @@
                 "dfnName": "<font-technology>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1878
+                    "line": 1904
                 },
                 "attrs": {
                     "id": "font-technology-values"
@@ -18697,7 +18693,7 @@
                 "dfnName": "<color-font-technology>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1880
+                    "line": 1906
                 },
                 "attrs": {
                     "id": "color-font-technology-values"
@@ -18710,7 +18706,7 @@
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3787
+                    "line": 3813
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -18723,7 +18719,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3789
+                    "line": 3815
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -18736,7 +18732,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3791
+                    "line": 3817
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -18749,7 +18745,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3793
+                    "line": 3819
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -18762,7 +18758,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4266
+                    "line": 4292
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -18775,7 +18771,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4268
+                    "line": 4294
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -18788,7 +18784,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4270
+                    "line": 4296
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -18801,7 +18797,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4396
+                    "line": 4422
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -18814,7 +18810,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4851
+                    "line": 4877
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -18827,7 +18823,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4853
+                    "line": 4879
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -18840,7 +18836,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5047
+                    "line": 5073
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -18931,7 +18927,7 @@
                 "dfnName": "<track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1484
+                    "line": 1487
                 },
                 "value": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
             },
@@ -18941,7 +18937,7 @@
                 "dfnName": "<auto-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1485
+                    "line": 1488
                 },
                 "value": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
             },
@@ -18951,7 +18947,7 @@
                 "dfnName": "<explicit-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1487
+                    "line": 1490
                 },
                 "value": "[ <line-names>? <track-size> ]+ <line-names>?"
             },
@@ -18961,7 +18957,7 @@
                 "dfnName": "<track-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1489
+                    "line": 1492
                 },
                 "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
             },
@@ -18971,7 +18967,7 @@
                 "dfnName": "<fixed-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1490
+                    "line": 1493
                 },
                 "value": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
             },
@@ -18981,7 +18977,7 @@
                 "dfnName": "<track-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1491
+                    "line": 1494
                 },
                 "value": "<length-percentage> | <flex> | min-content | max-content | auto"
             },
@@ -18991,7 +18987,7 @@
                 "dfnName": "<inflexible-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1492
+                    "line": 1495
                 },
                 "value": "<length-percentage> | min-content | max-content | auto"
             },
@@ -19001,7 +18997,7 @@
                 "dfnName": "<fixed-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1493
+                    "line": 1496
                 },
                 "value": "<length-percentage>"
             },
@@ -19011,7 +19007,7 @@
                 "dfnName": "<line-names>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1494
+                    "line": 1497
                 },
                 "value": "'[' <custom-ident>* ']'"
             },
@@ -19021,7 +19017,7 @@
                 "dfnName": "<<track-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1744
+                    "line": 1747
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
             },
@@ -19031,7 +19027,7 @@
                 "dfnName": "<<auto-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1745
+                    "line": 1748
                 },
                 "value": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19041,7 +19037,7 @@
                 "dfnName": "<<fixed-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1746
+                    "line": 1749
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19051,7 +19047,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2938
+                    "line": 2941
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
@@ -19227,7 +19223,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 268
+                    "line": 269
                 },
                 "value": "<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()>"
             },
@@ -19237,7 +19233,7 @@
                 "dfnName": "linear-gradient()",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 332
+                    "line": 333
                 },
                 "value": "linear-gradient(\n    [ <angle> | to <side-or-corner> ]? ,\n    <color-stop-list>\n)"
             },
@@ -19247,7 +19243,7 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 336
+                    "line": 337
                 },
                 "value": "[left | right] || [top | bottom]"
             },
@@ -19257,7 +19253,7 @@
                 "dfnName": "radial-gradient()",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 506
+                    "line": 507
                 },
                 "value": "radial-gradient(\n  [ <ending-shape> || <size> ]? [ at <position> ]? ,\n  <color-stop-list>\n)"
             },
@@ -19267,7 +19263,7 @@
                 "dfnName": "<extent-keyword>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 635
+                    "line": 636
                 },
                 "attrs": {
                     "noexport": true
@@ -19280,7 +19276,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 879
+                    "line": 887
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -19290,7 +19286,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 881
+                    "line": 889
                 },
                 "value": "<color> && <length-percentage>?"
             },
@@ -19300,7 +19296,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 882
+                    "line": 890
                 },
                 "value": "<length-percentage>"
             },
@@ -19320,7 +19316,7 @@
                 "dfnName": "image-set()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 177
+                    "line": 178
                 },
                 "attrs": {
                     "caniuse": "css-image-set"
@@ -19333,7 +19329,7 @@
                 "dfnName": "<image-set-option>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 178
+                    "line": 179
                 },
                 "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]"
             },
@@ -19343,7 +19339,7 @@
                 "dfnName": "image()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 328
+                    "line": 329
                 },
                 "value": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
             },
@@ -19353,7 +19349,7 @@
                 "dfnName": "<image-tags>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 329
+                    "line": 330
                 },
                 "value": "[ ltr | rtl ]"
             },
@@ -19363,7 +19359,7 @@
                 "dfnName": "<image-src>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 330
+                    "line": 331
                 },
                 "value": "[ <url> | <string> ]"
             },
@@ -19373,7 +19369,7 @@
                 "dfnName": "cross-fade()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 525
+                    "line": 526
                 },
                 "attrs": {
                     "caniuse": "css-cross-fade"
@@ -19386,7 +19382,7 @@
                 "dfnName": "<cf-image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 526
+                    "line": 527
                 },
                 "value": "<percentage>? && [ <image> | <color> ]"
             },
@@ -19396,7 +19392,7 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 732
+                    "line": 733
                 },
                 "value": "element( <id-selector> )"
             },
@@ -19406,7 +19402,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1128
+                    "line": 1130
                 },
                 "value": "[\n<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()> |\n<conic-gradient()>  | <repeating-conic-gradient()> ]"
             },
@@ -19416,7 +19412,7 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1250
+                    "line": 1252
                 },
                 "value": "conic-gradient(\n    [ from <angle> ]? [ at <position> ]?,\n    <angular-color-stop-list>\n)"
             },
@@ -19426,7 +19422,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1487
+                    "line": 1489
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -19436,7 +19432,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1489
+                    "line": 1491
                 },
                 "value": "<color> && <color-stop-length>?"
             },
@@ -19446,7 +19442,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1490
+                    "line": 1492
                 },
                 "value": "<length-percentage>"
             },
@@ -19456,7 +19452,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1491
+                    "line": 1493
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -19466,7 +19462,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1493
+                    "line": 1495
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -19476,7 +19472,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1495
+                    "line": 1497
                 },
                 "value": "<color> && <color-stop-angle>?"
             },
@@ -19486,7 +19482,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1496
+                    "line": 1498
                 },
                 "value": "<angle-percentage>"
             },
@@ -19496,7 +19492,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1497
+                    "line": 1499
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -19506,7 +19502,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1499
+                    "line": 1501
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
@@ -19516,7 +19512,7 @@
                 "dfnName": "<<counter>>",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1297
+                    "line": 1303
                 },
                 "value": "<counter()> | <counters()>"
             },
@@ -19526,7 +19522,7 @@
                 "dfnName": "counter()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1298
+                    "line": 1304
                 },
                 "value": "counter( <counter-name>, <counter-style>? )"
             },
@@ -19536,7 +19532,7 @@
                 "dfnName": "counters()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1299
+                    "line": 1305
                 },
                 "value": "counters( <counter-name>, <string>, <counter-style>? )"
             },
@@ -21037,7 +21033,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 604
+                    "line": 624
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
@@ -21149,7 +21145,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6173
+                    "line": 6199
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21157,7 +21153,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6189
+                    "line": 6215
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -21165,7 +21161,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6195
+                    "line": 6221
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -21173,7 +21169,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6252
+                    "line": 6278
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_PALETTE_VALUES_RULE = 15;\n};\n[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  maplike&lt;unsigned long, CSSOMString>;\n  attribute CSSOMString fontFamily;\n  attribute CSSOMString basePalette;\n};"
             },
@@ -21197,7 +21193,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1010
+                    "line": 1012
                 },
                 "content": "partial namespace CSS {\n    [SameObject] readonly attribute any elementSources;\n};"
             },
