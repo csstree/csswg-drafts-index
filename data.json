@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-16T00:59:56.674Z",
-    "elapsedTime": 358,
+    "createdAt": "2020-12-17T01:00:42.041Z",
+    "elapsedTime": 313,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "cc4be48cd1fe65880f4e171d09719b5e1ca7d502",
-            "commitShort": "cc4be48cd1",
+            "commit": "a59f082dadd201902f0f594a959363b8fc08936c",
+            "commitShort": "a59f082dad",
             "commitDate": null,
             "branch": "master"
         },
@@ -658,11 +658,13 @@
                     "level": "1",
                     "shortname": "css-contain",
                     "status": "ED",
+                    "implementationReport": "https://drafts.csswg.org/css-contain-1/implementation-report-2019-09",
                     "workStatus": "completed",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-contain-1/",
                     "tr": "https://www.w3.org/TR/css-contain-1/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2019/REC-css-contain-1-20191121/",
                         "https://www.w3.org/TR/2019/PR-css-contain-1-20191015/",
                         "https://www.w3.org/TR/2019/CR-css-contain-1-20190430/",
                         "https://www.w3.org/TR/2018/CR-css-contain-1-20181108/",
@@ -676,7 +678,7 @@
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241"
                     ],
                     "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
-                    "statusText": "A <a href=\"https://drafts.csswg.org/css-contain-1/issues-2019-cr.html\">Disposition of Comments</a> and an <a href=\"https://drafts.csswg.org/css-contain-1/implementation-report-2019-09\">Implementation Report</a> are available.\n<div class=correction><a href=\"https://www.w3.org/Consortium/Process/#candidate-correction\">Candidate corrections</a> are marked in the document.</div>",
+                    "statusText": "<div class=correction><a href=\"https://www.w3.org/Consortium/Process/#candidate-correction\">Candidate corrections</a> are marked in the document.</div>",
                     "wptPathPrefix": "css/css-contain/",
                     "includeMdnPanels": "no"
                 }
@@ -693,6 +695,8 @@
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-contain-2/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2020/WD-css-contain-2-20201216/",
+                        "https://www.w3.org/TR/2020/WD-css-contain-2-20200603/",
                         "https://www.w3.org/TR/2019/WD-css-contain-2-20191111/",
                         "https://www.w3.org/TR/2019/WD-css-contain-2-20191015/"
                     ],
@@ -1351,7 +1355,7 @@
                     "level": "3",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-images-3/",
-                    "tr": "https://www.w3.org/TR/css3-images/",
+                    "tr": "https://www.w3.org/TR/css-images-3/",
                     "workStatus": "Testing",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
@@ -1360,12 +1364,10 @@
                     ],
                     "abstract": "This module contains the features of CSS level 3 relating to the <<image>> type and some replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]].\nThe main extensions compared to CSS2.1 are the generalization of the <<url>> type to the <<image>> type,\nseveral additions to the <<image>> type, a generic sizing algorithm for images and other replaced content in CSS,\ndefinitions for interpolating several <<image>> types,\nand several properties controlling the interaction of replaced elements and CSS's layout models.",
                     "atRisk": "'image-orientation'",
-                    "issueTracking": [
-                        "Tracker http://www.w3.org/Style/CSS/Tracker/products/27"
-                    ],
+                    "implementationReport": "https://wpt.fyi/results/css/css-images?label=experimental&label=master&aligned",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2012/CR-css3-images-20120417/",
-                        "https://www.w3.org/TR/2012/WD-css3-images-20120112/"
+                        "https://www.w3.org/TR/2019/CR-css-images-3-20191010/",
+                        "https://www.w3.org/TR/2012/CR-css3-images-20120417/"
                     ],
                     "ignoredTerms": [
                         "<offset>",
@@ -2219,7 +2221,7 @@
                         "scroll position",
                         "scrollport"
                     ],
-                    "atRisk": "'scroll-snap-stop'",
+                    "atRisk": "'scroll-snap-stop'\nwhether 'scroll-snap-type' can cause boxes that are not [=scroll containers=] to [=capture snap positions=] (see <a href=\"https://github.com/w3c/csswg-drafts/issues/4496\">discussion</a>)",
                     "statusText": "A test suite and an implementation report will be produced during the\nCR period."
                 }
             },
@@ -5103,7 +5105,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 288
+                    "line": 296
                 },
                 "props": {
                     "name": "margin-top",
@@ -5121,7 +5123,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 288
+                    "line": 296
                 },
                 "props": {
                     "name": "margin-right",
@@ -5139,7 +5141,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 288
+                    "line": 296
                 },
                 "props": {
                     "name": "margin-bottom",
@@ -5157,7 +5159,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 288
+                    "line": 296
                 },
                 "props": {
                     "name": "margin-left",
@@ -5175,7 +5177,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 308
+                    "line": 316
                 },
                 "props": {
                     "name": "margin",
@@ -5193,7 +5195,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 382
+                    "line": 388
                 },
                 "props": {
                     "name": "padding-top",
@@ -5211,7 +5213,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 382
+                    "line": 388
                 },
                 "props": {
                     "name": "padding-right",
@@ -5229,7 +5231,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 382
+                    "line": 388
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -5247,7 +5249,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 382
+                    "line": 388
                 },
                 "props": {
                     "name": "padding-left",
@@ -5265,7 +5267,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 401
+                    "line": 407
                 },
                 "props": {
                     "name": "padding",
@@ -5838,7 +5840,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 406
+                    "line": 407
                 },
                 "props": {
                     "name": "forced-color-adjust",
@@ -5854,7 +5856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 479
+                    "line": 480
                 },
                 "props": {
                     "name": "color-adjust",
@@ -5929,7 +5931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-1",
-                    "line": 82
+                    "line": 102
                 },
                 "props": {
                     "name": "contain",
@@ -5937,7 +5939,7 @@
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "See <a href=\"#contain-applies\">below",
-                    "computedValue": "specified keyword(s), except strict and content (see prose)",
+                    "computedValue": "<del cite=#c1>specified keyword(s)</del><ins cite=#c1>the keyword none or one or more of size, layout, paint</ins>",
                     "animationType": "not animatable"
                 },
                 "name": "contain"
@@ -5946,7 +5948,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 99
+                    "line": 101
                 },
                 "props": {
                     "name": "contain",
@@ -5954,7 +5956,7 @@
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "See <a href=\"#contain-applies\">below",
-                    "computedValue": "specified keyword(s), except strict and content (see prose)",
+                    "computedValue": "the keyword none or one or more of size, layout, paint",
                     "animationType": "not animatable"
                 },
                 "name": "contain"
@@ -5963,7 +5965,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1051
+                    "line": 1059
                 },
                 "props": {
                     "name": "content-visibility",
@@ -6420,7 +6422,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 749
+                    "line": 748
                 },
                 "props": {
                     "name": "display-or-not",
@@ -10083,7 +10085,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1269
+                    "line": 1273
                 },
                 "props": {
                     "name": "column-fill",
@@ -11270,7 +11272,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 275
+                    "line": 276
                 },
                 "props": {
                     "name": "scroll-snap-type",
@@ -11288,7 +11290,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 481
+                    "line": 482
                 },
                 "props": {
                     "name": "scroll-padding",
@@ -11306,7 +11308,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 603
+                    "line": 604
                 },
                 "props": {
                     "name": "scroll-margin",
@@ -11324,7 +11326,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 654
+                    "line": 655
                 },
                 "props": {
                     "name": "scroll-snap-align",
@@ -11342,7 +11344,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 881
+                    "line": 882
                 },
                 "props": {
                     "name": "scroll-snap-stop",
@@ -11360,7 +11362,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1087
+                    "line": 1088
                 },
                 "props": {
                     "name": "scroll-padding-top",
@@ -11378,7 +11380,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1087
+                    "line": 1088
                 },
                 "props": {
                     "name": "scroll-padding-right",
@@ -11396,7 +11398,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1087
+                    "line": 1088
                 },
                 "props": {
                     "name": "scroll-padding-bottom",
@@ -11414,7 +11416,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1087
+                    "line": 1088
                 },
                 "props": {
                     "name": "scroll-padding-left",
@@ -11432,7 +11434,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1106
+                    "line": 1107
                 },
                 "props": {
                     "name": "scroll-padding-inline-start",
@@ -11450,7 +11452,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1106
+                    "line": 1107
                 },
                 "props": {
                     "name": "scroll-padding-block-start",
@@ -11468,7 +11470,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1106
+                    "line": 1107
                 },
                 "props": {
                     "name": "scroll-padding-inline-end",
@@ -11486,7 +11488,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1106
+                    "line": 1107
                 },
                 "props": {
                     "name": "scroll-padding-block-end",
@@ -11504,7 +11506,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1122
+                    "line": 1123
                 },
                 "props": {
                     "name": "scroll-padding-block",
@@ -11521,7 +11523,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1122
+                    "line": 1123
                 },
                 "props": {
                     "name": "scroll-padding-inline",
@@ -11538,7 +11540,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1143
+                    "line": 1144
                 },
                 "props": {
                     "name": "scroll-margin-top",
@@ -11556,7 +11558,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1143
+                    "line": 1144
                 },
                 "props": {
                     "name": "scroll-margin-right",
@@ -11574,7 +11576,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1143
+                    "line": 1144
                 },
                 "props": {
                     "name": "scroll-margin-bottom",
@@ -11592,7 +11594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1143
+                    "line": 1144
                 },
                 "props": {
                     "name": "scroll-margin-left",
@@ -11610,7 +11612,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1161
+                    "line": 1162
                 },
                 "props": {
                     "name": "scroll-margin-block-start",
@@ -11628,7 +11630,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1161
+                    "line": 1162
                 },
                 "props": {
                     "name": "scroll-margin-inline-start",
@@ -11646,7 +11648,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1161
+                    "line": 1162
                 },
                 "props": {
                     "name": "scroll-margin-block-end",
@@ -11664,7 +11666,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1161
+                    "line": 1162
                 },
                 "props": {
                     "name": "scroll-margin-inline-end",
@@ -11682,7 +11684,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1176
+                    "line": 1177
                 },
                 "props": {
                     "name": "scroll-margin-block",
@@ -11699,7 +11701,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1176
+                    "line": 1177
                 },
                 "props": {
                     "name": "scroll-margin-inline",
@@ -17747,7 +17749,7 @@
                 "dfnName": "<<visual-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 257
+                    "line": 267
                 },
                 "value": "content-box | padding-box | border-box"
             },
@@ -17757,7 +17759,7 @@
                 "dfnName": "<<layout-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 258
+                    "line": 268
                 },
                 "value": "content-box | padding-box | border-box | margin-box"
             },
@@ -17767,7 +17769,7 @@
                 "dfnName": "<<paint-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 259
+                    "line": 269
                 },
                 "value": "content-box | padding-box | border-box | fill-box | stroke-box"
             },
@@ -17777,7 +17779,7 @@
                 "dfnName": "<<coord-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 260
+                    "line": 270
                 },
                 "value": "content-box | padding-box | border-box | fill-box | stroke-box | view-box"
             },
