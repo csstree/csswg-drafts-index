@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-17T01:00:42.041Z",
-    "elapsedTime": 313,
+    "createdAt": "2020-12-18T01:01:14.824Z",
+    "elapsedTime": 409,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a59f082dadd201902f0f594a959363b8fc08936c",
-            "commitShort": "a59f082dad",
+            "commit": "bfb43b4abb2ae7e2cb65727047f974f2d74d295b",
+            "commitShort": "bfb43b4abb",
             "commitDate": null,
             "branch": "master"
         },
@@ -99,11 +99,16 @@
                     "title": "CSS Snapshot 2020",
                     "shortname": "css-2020",
                     "level": "none",
-                    "status": "ED",
+                    "status": "WG-NOTE",
                     "group": "CSSWG",
+                    "date": "2020-12-21",
+                    "prepareForTr": "yes",
                     "workStatus": "revising",
                     "url": "https://drafts.csswg.org/css-2020/",
-                    "tr": "https://www.w3.org/TR/CSS/",
+                    "tr": "https://www.w3.org/TR/css-2020/",
+                    "previousVersion": [
+                        "https://www.w3.org/TR/2019/NOTE-css-2018-20190122/"
+                    ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
