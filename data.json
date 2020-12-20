@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-19T01:01:06.605Z",
-    "elapsedTime": 362,
+    "createdAt": "2020-12-20T01:05:43.730Z",
+    "elapsedTime": 380,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d1957a40786f2cdcd938d78bdf03a1587e49e66b",
-            "commitShort": "d1957a4078",
+            "commit": "888898ccde45142c54ce5f323f3a40d6d4affcde",
+            "commitShort": "888898ccde",
             "commitDate": null,
             "branch": "master"
         },
@@ -513,7 +513,7 @@
                     "level": "4",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact, w3cid 42199",
-                        "Chris Lilley, W3C, chris@w3.org, w3cid 1438"
+                        "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "formerEditor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393"
@@ -2532,6 +2532,8 @@
                     "ed": "https://drafts.csswg.org/css-text-3/",
                     "tr": "https://www.w3.org/TR/css-text-3/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2020/CR-css-text-3-20201222/",
+                        "https://www.w3.org/TR/2020/WD-css-text-3-20201119/",
                         "https://www.w3.org/TR/2020/WD-css-text-3-20200429/",
                         "https://www.w3.org/TR/2019/WD-css-text-3-20191113/",
                         "https://www.w3.org/TR/2018/WD-css-text-3-20181212/",
@@ -2542,6 +2544,7 @@
                     ],
                     "testSuite": "http://test.csswg.org/suites/css3-text/nightly-unstable/",
                     "!testCoverageAnalysis": "<a href=\"https://drafts.csswg.org/css-text-3/test-coverage\">https://drafts.csswg.org/css-text-3/test-coverage</a>",
+                    "implementationReport": "https://test.csswg.org/harness/results/css-text-3_dev/grouped/",
                     "editor": [
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Invited Expert, kojiishi@gluesoft.co.jp, w3cid 45369",
@@ -12770,7 +12773,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 441
+                    "line": 444
                 },
                 "props": {
                     "name": "text-transform",
@@ -12788,7 +12791,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 823
+                    "line": 826
                 },
                 "props": {
                     "name": "white-space",
@@ -12806,7 +12809,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2299
+                    "line": 2302
                 },
                 "props": {
                     "name": "tab-size",
@@ -12824,7 +12827,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2859
+                    "line": 2862
                 },
                 "props": {
                     "name": "word-break",
@@ -12842,7 +12845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3222
+                    "line": 3225
                 },
                 "props": {
                     "name": "line-break",
@@ -12860,7 +12863,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3628
+                    "line": 3631
                 },
                 "props": {
                     "name": "hyphens",
@@ -12878,7 +12881,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3790
+                    "line": 3793
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -12896,7 +12899,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3790
+                    "line": 3793
                 },
                 "props": {
                     "name": "word-wrap",
@@ -12914,7 +12917,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3970
+                    "line": 3973
                 },
                 "props": {
                     "name": "text-align",
@@ -12931,7 +12934,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4204
+                    "line": 4207
                 },
                 "props": {
                     "name": "text-align-all",
@@ -12949,7 +12952,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4232
+                    "line": 4235
                 },
                 "props": {
                     "name": "text-align-last",
@@ -12967,7 +12970,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4283
+                    "line": 4286
                 },
                 "props": {
                     "name": "text-justify",
@@ -12985,7 +12988,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4611
+                    "line": 4614
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13004,7 +13007,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4768
+                    "line": 4771
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13022,7 +13025,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5273
+                    "line": 5276
                 },
                 "props": {
                     "name": "text-indent",
@@ -13041,7 +13044,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5586
+                    "line": 5589
                 },
                 "props": {
                     "name": "hanging-punctuation",
