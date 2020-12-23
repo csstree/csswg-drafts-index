@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-22T01:05:35.828Z",
-    "elapsedTime": 395,
+    "createdAt": "2020-12-23T01:06:44.440Z",
+    "elapsedTime": 323,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a73ae9ff45ec53c85fe3aeadecf8ab29a5b69b39",
-            "commitShort": "a73ae9ff45",
+            "commit": "0b111c18ac9e29bb75ca54c4b6e102ba8143e1a3",
+            "commitShort": "0b111c18ac",
             "commitDate": null,
             "branch": "master"
         },
@@ -2127,7 +2127,7 @@
                 "file": "css-ruby-1/Overview.bs",
                 "id": "css-ruby-1",
                 "props": {
-                    "title": "CSS Ruby Layout Module Level 1",
+                    "title": "CSS Ruby Annotation Layout Module Level 1",
                     "shortname": "css-ruby",
                     "level": "1",
                     "status": "ED",
@@ -2188,7 +2188,7 @@
                     "group": "csswg",
                     "status": "ED",
                     "workStatus": "Revising",
-                    "ed": "https://drafts.csswg.org/css-scroll-anchoring",
+                    "ed": "https://drafts.csswg.org/css-scroll-anchoring/",
                     "tr": "https://www.w3.org/TR/css-scroll-anchoring-1/",
                     "previousVersion": [
                         "https://www.w3.org/TR/2020/WD-css-scroll-anchoring-1-20200211/"
@@ -21255,7 +21255,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 953
+                    "line": 969
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21263,7 +21263,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 989
+                    "line": 1005
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
