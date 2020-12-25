@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-24T01:10:26.296Z",
-    "elapsedTime": 384,
+    "createdAt": "2020-12-25T01:08:24.965Z",
+    "elapsedTime": 325,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0b111c18ac9e29bb75ca54c4b6e102ba8143e1a3",
-            "commitShort": "0b111c18ac",
+            "commit": "81e1d0a52cf6cc21b1fb9d63b618739ce7ba31b2",
+            "commitShort": "81e1d0a52c",
             "commitDate": null,
             "branch": "master"
         },
@@ -2562,7 +2562,7 @@
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This CSS module defines properties for text manipulation and specifies their processing model. It covers line breaking, justification and alignment, white space handling, and text transformation.",
-                    "atRisk": "the ''full-width'' value of 'text-transform'\nthe ''full-size-kana'' value of 'text-transform'\nthe &lt;length> values of the 'tab-size' property\nthe 'text-justify' property\nthe percentage values of 'word-spacing'\nthe 'hanging-punctuation' property\nWriting-system specific adjustments to line-breaking\nTrimming trailing Ogham space marks",
+                    "atRisk": "the ''full-width'' value of 'text-transform'\nthe ''full-size-kana'' value of 'text-transform'\nthe &lt;length> values of the 'tab-size' property\nthe 'text-justify' property\nthe 'hanging-punctuation' property\nWriting-system specific adjustments to line-breaking\nTrimming trailing Ogham space marks",
                     "ignoredVars": [
                         "letter-spacing"
                     ],
@@ -12784,7 +12784,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 444
+                    "line": 443
                 },
                 "props": {
                     "name": "text-transform",
@@ -12802,7 +12802,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 826
+                    "line": 825
                 },
                 "props": {
                     "name": "white-space",
@@ -12820,7 +12820,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2302
+                    "line": 2301
                 },
                 "props": {
                     "name": "tab-size",
@@ -12838,7 +12838,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2862
+                    "line": 2861
                 },
                 "props": {
                     "name": "word-break",
@@ -12856,7 +12856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3225
+                    "line": 3224
                 },
                 "props": {
                     "name": "line-break",
@@ -12874,7 +12874,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3631
+                    "line": 3630
                 },
                 "props": {
                     "name": "hyphens",
@@ -12892,7 +12892,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3793
+                    "line": 3792
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -12910,7 +12910,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3793
+                    "line": 3792
                 },
                 "props": {
                     "name": "word-wrap",
@@ -12928,7 +12928,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3973
+                    "line": 3972
                 },
                 "props": {
                     "name": "text-align",
@@ -12945,7 +12945,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4207
+                    "line": 4206
                 },
                 "props": {
                     "name": "text-align-all",
@@ -12963,7 +12963,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4235
+                    "line": 4234
                 },
                 "props": {
                     "name": "text-align-last",
@@ -12981,7 +12981,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4286
+                    "line": 4285
                 },
                 "props": {
                     "name": "text-justify",
@@ -12999,7 +12999,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4614
+                    "line": 4613
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13018,7 +13018,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4771
+                    "line": 4770
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13036,7 +13036,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5276
+                    "line": 5275
                 },
                 "props": {
                     "name": "text-indent",
@@ -13055,7 +13055,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5589
+                    "line": 5588
                 },
                 "props": {
                     "name": "hanging-punctuation",
