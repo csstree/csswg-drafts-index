@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-30T01:12:24.491Z",
-    "elapsedTime": 399,
+    "createdAt": "2020-12-31T01:14:46.730Z",
+    "elapsedTime": 425,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "81e1d0a52cf6cc21b1fb9d63b618739ce7ba31b2",
-            "commitShort": "81e1d0a52c",
+            "commit": "7fc4547b808c4dc4537938f79494ae80dd7a8fa7",
+            "commitShort": "7fc4547b80",
             "commitDate": null,
             "branch": "master"
         },
@@ -2018,6 +2018,7 @@
                     "ed": "https://drafts.csswg.org/css-pseudo-4/",
                     "tr": "https://www.w3.org/TR/css-pseudo-4/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2019/WD-css-pseudo-4-20190225/",
                         "https://www.w3.org/TR/2016/WD-css-pseudo-4-20160607/",
                         "https://www.w3.org/TR/2015/WD-css-pseudo-4-20150115/"
                     ],
@@ -8905,7 +8906,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 317
+                    "line": 322
                 },
                 "props": {
                     "name": "list-style-image",
@@ -8923,7 +8924,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 372
+                    "line": 377
                 },
                 "props": {
                     "name": "list-style-type",
@@ -8941,7 +8942,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 457
+                    "line": 462
                 },
                 "props": {
                     "name": "list-style-position",
@@ -8959,7 +8960,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 555
+                    "line": 560
                 },
                 "props": {
                     "name": "list-style",
@@ -8972,7 +8973,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 644
+                    "line": 649
                 },
                 "props": {
                     "name": "marker-side",
@@ -8990,7 +8991,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 770
+                    "line": 775
                 },
                 "props": {
                     "name": "counter-reset",
@@ -9008,7 +9009,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 824
+                    "line": 829
                 },
                 "props": {
                     "name": "counter-increment",
@@ -9026,7 +9027,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 837
+                    "line": 842
                 },
                 "props": {
                     "name": "counter-set",
@@ -19534,7 +19535,7 @@
                 "dfnName": "<<counter>>",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1303
+                    "line": 1308
                 },
                 "value": "<counter()> | <counters()>"
             },
@@ -19544,7 +19545,7 @@
                 "dfnName": "counter()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1304
+                    "line": 1309
                 },
                 "value": "counter( <counter-name>, <counter-style>? )"
             },
@@ -19554,7 +19555,7 @@
                 "dfnName": "counters()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1305
+                    "line": 1310
                 },
                 "value": "counters( <counter-name>, <string>, <counter-style>? )"
             },
@@ -21255,7 +21256,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 969
+                    "line": 971
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21263,7 +21264,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1005
+                    "line": 1007
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
