@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2020-12-31T01:14:46.730Z",
-    "elapsedTime": 425,
+    "createdAt": "2021-01-01T01:16:55.329Z",
+    "elapsedTime": 284,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7fc4547b808c4dc4537938f79494ae80dd7a8fa7",
-            "commitShort": "7fc4547b80",
+            "commit": "7180f92c899abc67df34631a92f0f8c729d47516",
+            "commitShort": "7180f92c89",
             "commitDate": null,
             "branch": "master"
         },
@@ -2013,11 +2013,12 @@
                     "shortname": "css-pseudo",
                     "level": "4",
                     "status": "ED",
-                    "workStatus": "Exploring",
+                    "workStatus": "Refining",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-pseudo-4/",
                     "tr": "https://www.w3.org/TR/css-pseudo-4/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2020/WD-css-pseudo-4-20201231/",
                         "https://www.w3.org/TR/2019/WD-css-pseudo-4-20190225/",
                         "https://www.w3.org/TR/2016/WD-css-pseudo-4-20160607/",
                         "https://www.w3.org/TR/2015/WD-css-pseudo-4-20150115/"
@@ -21256,7 +21257,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 971
+                    "line": 983
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21264,7 +21265,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1007
+                    "line": 1019
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
