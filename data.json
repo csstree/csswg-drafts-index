@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-01-06T01:17:22.947Z",
-    "elapsedTime": 394,
+    "createdAt": "2021-01-07T01:21:52.251Z",
+    "elapsedTime": 332,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "1625dd7adbc1442885a32febbb6b8e23984b9747",
-            "commitShort": "1625dd7adb",
+            "commit": "135173277e369d47b1ea2f3f3e028990a9bf01da",
+            "commitShort": "135173277e",
             "commitDate": null,
             "branch": "master"
         },
@@ -5796,7 +5796,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 222
+                    "line": 278
                 },
                 "props": {
                     "name": "color",
@@ -5814,7 +5814,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3612
+                    "line": 3668
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5828,7 +5828,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4144
+                    "line": 4200
                 },
                 "props": {
                     "name": "opacity",
@@ -11828,7 +11828,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 332
+                    "line": 408
                 },
                 "props": {
                     "name": "shape-inside",
@@ -11845,7 +11845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 457
+                    "line": 533
                 },
                 "props": {
                     "name": "shape-padding",
@@ -17851,7 +17851,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 333
+                    "line": 389
                 },
                 "value": "<number> | <angle>"
             },
@@ -17861,7 +17861,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1022
+                    "line": 1078
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -17871,7 +17871,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1024
+                    "line": 1080
                 },
                 "value": "<number> | <percentage>"
             },
@@ -17881,7 +17881,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1788
+                    "line": 1844
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17891,7 +17891,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2356
+                    "line": 2412
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17901,7 +17901,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2783
+                    "line": 2839
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -17911,7 +17911,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2834
+                    "line": 2890
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -17921,7 +17921,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3028
+                    "line": 3084
                 },
                 "value": "color( [ [<ident> | <dashed-ident>]? [ <number-percentage>+ | <string> ] [ / <alpha-value> ]? ]# , <color>? )"
             },
@@ -17931,7 +17931,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3990
+                    "line": 4046
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -17941,7 +17941,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3991
+                    "line": 4047
                 },
                 "value": "<number> | <percentage>"
             },
@@ -19846,9 +19846,139 @@
                 "dfnName": "path()",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 144
+                    "line": 147
                 },
                 "value": "path( [<fill-rule>,]? <string> )"
+            },
+            {
+                "type": "prod",
+                "name": "shape()",
+                "dfnName": "shape()",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 173
+                },
+                "value": "shape( [<fill-rule>]? from <coordinate-pair>, <draw-command>#)"
+            },
+            {
+                "type": "prod",
+                "name": "coordinate-pair",
+                "dfnName": "<<coordinate-pair>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 189
+                },
+                "value": "<length-percentage>{2}"
+            },
+            {
+                "type": "prod",
+                "name": "draw-command",
+                "dfnName": "<<draw-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 192
+                },
+                "value": "<move-command> | <line-command> | <hv-line-command> |\n<curve-command> | <smooth-command> | <arc-command> | close"
+            },
+            {
+                "type": "prod",
+                "name": "by-to",
+                "dfnName": "<<by-to>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 196
+                },
+                "value": "by | to"
+            },
+            {
+                "type": "prod",
+                "name": "move-command",
+                "dfnName": "<<move-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 206
+                },
+                "value": "move <by-to> <coordinate-pair>"
+            },
+            {
+                "type": "prod",
+                "name": "line-command",
+                "dfnName": "<<line-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 209
+                },
+                "value": "line <by-to> <coordinate-pair>"
+            },
+            {
+                "type": "prod",
+                "name": "hv-line-command",
+                "dfnName": "<<hv-line-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 213
+                },
+                "value": "[hline | vline] <by-to> <length-percentage>"
+            },
+            {
+                "type": "prod",
+                "name": "curve-command",
+                "dfnName": "<<curve-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 216
+                },
+                "value": "curve <by-to> <coordinate-pair> via <coordinate-pair>{1,2}"
+            },
+            {
+                "type": "prod",
+                "name": "smooth-command",
+                "dfnName": "<<smooth-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 220
+                },
+                "value": "smooth <by-to> <coordinate-pair> [via <coordinate-pair>]?"
+            },
+            {
+                "type": "prod",
+                "name": "arc-command",
+                "dfnName": "<<arc-command>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 224
+                },
+                "value": "arc [<by-to> <coordinate-pair> <arc-radius> || <arc-sweep> || <arc-large> || <angle>]"
+            },
+            {
+                "type": "prod",
+                "name": "arc-radius",
+                "dfnName": "<<arc-radius>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 227
+                },
+                "value": "of <length-percentage>{1, 2}"
+            },
+            {
+                "type": "prod",
+                "name": "arc-sweep",
+                "dfnName": "<<arc-sweep>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 231
+                },
+                "value": "[cw | ccw]?"
+            },
+            {
+                "type": "prod",
+                "name": "arc-large",
+                "dfnName": "<<arc-large>>",
+                "source": {
+                    "spec": "css-shapes-2",
+                    "line": 236
+                },
+                "value": "[large | small]?"
             },
             {
                 "type": "prod",
