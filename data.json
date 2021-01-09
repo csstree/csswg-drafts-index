@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-01-08T01:21:12.762Z",
+    "createdAt": "2021-01-09T01:21:39.426Z",
     "elapsedTime": 325,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8d99ae9887900a8ba9c6d85ad1e677b5f091cbbf",
-            "commitShort": "8d99ae9887",
+            "commit": "496c35c32d953adabf7a722f9d6de8d9542e410b",
+            "commitShort": "496c35c32d",
             "commitDate": null,
             "branch": "master"
         },
@@ -11534,7 +11534,7 @@
                     "name": "scroll-padding-block",
                     "value": "[ auto | <length-percentage> ]{1,2}",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "animationType": "by computed value"
@@ -11551,7 +11551,7 @@
                     "name": "scroll-padding-inline",
                     "value": "[ auto | <length-percentage> ]{1,2}",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "scroll containers",
                     "inherited": "no",
                     "percentages": "relative to the scroll container’s scrollport",
                     "animationType": "by computed value"
@@ -11828,7 +11828,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 408
+                    "line": 495
                 },
                 "props": {
                     "name": "shape-inside",
@@ -11836,7 +11836,7 @@
                     "initial": "auto",
                     "appliesTo": "block-level elements",
                     "inherited": "no",
-                    "computedValue": "computed lengths for <basic-shape>, the absolute URI for <uri>, otherwise as specified</td>",
+                    "computedValue": "computed lengths for <basic-shape>, the absolute URL for <url>, otherwise as specified",
                     "animationType": "as defined for <basic-shape>, otherwise discrete"
                 },
                 "name": "shape-inside"
@@ -11845,7 +11845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 533
+                    "line": 620
                 },
                 "props": {
                     "name": "shape-padding",
@@ -19842,23 +19842,13 @@
             },
             {
                 "type": "prod",
-                "name": "path()",
-                "dfnName": "path()",
-                "source": {
-                    "spec": "css-shapes-2",
-                    "line": 147
-                },
-                "value": "path( [<fill-rule>,]? <string> )"
-            },
-            {
-                "type": "prod",
                 "name": "shape()",
                 "dfnName": "shape()",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 173
+                    "line": 143
                 },
-                "value": "shape( [<fill-rule>]? from <coordinate-pair>, <draw-command>#)"
+                "value": "shape( <fill-rule>? from <coordinate-pair>, <shape-command>#)"
             },
             {
                 "type": "prod",
@@ -19866,19 +19856,9 @@
                 "dfnName": "<<coordinate-pair>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 189
+                    "line": 178
                 },
                 "value": "<length-percentage>{2}"
-            },
-            {
-                "type": "prod",
-                "name": "draw-command",
-                "dfnName": "<<draw-command>>",
-                "source": {
-                    "spec": "css-shapes-2",
-                    "line": 192
-                },
-                "value": "<move-command> | <line-command> | <hv-line-command> |\n<curve-command> | <smooth-command> | <arc-command> | close"
             },
             {
                 "type": "prod",
@@ -19886,9 +19866,9 @@
                 "dfnName": "<<by-to>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 196
+                    "line": 185
                 },
-                "value": "by | to"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -19896,9 +19876,9 @@
                 "dfnName": "<<move-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 206
+                    "line": 197
                 },
-                "value": "move <by-to> <coordinate-pair>"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -19908,7 +19888,7 @@
                     "spec": "css-shapes-2",
                     "line": 209
                 },
-                "value": "line <by-to> <coordinate-pair>"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -19916,9 +19896,9 @@
                 "dfnName": "<<hv-line-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 213
+                    "line": 217
                 },
-                "value": "[hline | vline] <by-to> <length-percentage>"
+                "value": "["
             },
             {
                 "type": "prod",
@@ -19926,9 +19906,9 @@
                 "dfnName": "<<curve-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 216
+                    "line": 228
                 },
-                "value": "curve <by-to> <coordinate-pair> via <coordinate-pair>{1,2}"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -19936,9 +19916,9 @@
                 "dfnName": "<<smooth-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 220
+                    "line": 239
                 },
-                "value": "smooth <by-to> <coordinate-pair> [via <coordinate-pair>]?"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -19946,39 +19926,9 @@
                 "dfnName": "<<arc-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 224
+                    "line": 259
                 },
-                "value": "arc [<by-to> <coordinate-pair> <arc-radius> || <arc-sweep> || <arc-large> || <angle>]"
-            },
-            {
-                "type": "prod",
-                "name": "arc-radius",
-                "dfnName": "<<arc-radius>>",
-                "source": {
-                    "spec": "css-shapes-2",
-                    "line": 227
-                },
-                "value": "of <length-percentage>{1, 2}"
-            },
-            {
-                "type": "prod",
-                "name": "arc-sweep",
-                "dfnName": "<<arc-sweep>>",
-                "source": {
-                    "spec": "css-shapes-2",
-                    "line": 231
-                },
-                "value": "[cw | ccw]?"
-            },
-            {
-                "type": "prod",
-                "name": "arc-large",
-                "dfnName": "<<arc-large>>",
-                "source": {
-                    "spec": "css-shapes-2",
-                    "line": 236
-                },
-                "value": "[large | small]?"
+                "value": ""
             },
             {
                 "type": "prod",
