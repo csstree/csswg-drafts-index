@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-01-13T01:32:39.652Z",
-    "elapsedTime": 466,
+    "createdAt": "2021-01-14T01:41:56.993Z",
+    "elapsedTime": 389,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "01cbd761cd6ecbfc03b51526e3f9a688a64cea03",
-            "commitShort": "01cbd761cd",
+            "commit": "b22effb8e20b57edf0916e7a3197c9f969166b87",
+            "commitShort": "b22effb8e2",
             "commitDate": null,
             "branch": "master"
         },
@@ -5738,7 +5738,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-cascade-4",
-                    "line": 382
+                    "line": 399
                 },
                 "props": {
                     "name": "all",
@@ -5750,7 +5750,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 375
+                    "line": 392
                 },
                 "props": {
                     "name": "all",
@@ -19946,7 +19946,7 @@
                 "dfnName": "<an+b>",
                 "source": {
                     "spec": "css-syntax-3",
-                    "line": 2812
+                    "line": 2817
                 },
                 "attrs": {
                     "id": "anb-production"
@@ -21337,7 +21337,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 983
+                    "line": 981
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21345,7 +21345,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1019
+                    "line": 1017
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
