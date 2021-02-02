@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-01-14T01:41:56.993Z",
-    "elapsedTime": 389,
+    "createdAt": "2021-02-02T00:58:15.203Z",
+    "elapsedTime": 391,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b22effb8e20b57edf0916e7a3197c9f969166b87",
-            "commitShort": "b22effb8e2",
+            "commit": "9c1c802bd4a8f3610b57157d5ee911879beb5c40",
+            "commitShort": "9c1c802bd4",
             "commitDate": null,
             "branch": "master"
         },
@@ -517,6 +517,7 @@
                     "shortname": "css-color",
                     "group": "csswg",
                     "level": "4",
+                    "implementationReport": "https://test.csswg.org/harness/results/css-color-4_dev/grouped/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact, w3cid 42199",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
@@ -544,7 +545,9 @@
                     "title": "CSS Color Module Level 5",
                     "shortname": "css-color",
                     "level": "5",
-                    "status": "ED",
+                    "status": "WD",
+                    "prepareForTr": "yes",
+                    "date": "2021-02-02",
                     "group": "csswg",
                     "tr": "https://www.w3.org/TR/css-color-5/",
                     "ed": "https://drafts.csswg.org/css-color-5/",
@@ -1642,7 +1645,7 @@
                     "editor": [
                         "Håkon Wium Lie, Opera Software, howcome@opera.com, w3cid 9796",
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net, w3cid 43241",
-                        "Rachel Andrew, Fronteers, https://rachelandrew.co.uk, w3cid 81117"
+                        "Rachel Andrew, Invited Expert, https://rachelandrew.co.uk, w3cid 81117"
                     ],
                     "issueTracking": [
                         "Disposition of Comments https://drafts.csswg.org/css-multicol-1/issues"
@@ -1652,7 +1655,8 @@
                         "css-color (property) color",
                         "css2 (property) max-height",
                         "css-backgrounds-3 (value) hidden"
-                    ]
+                    ],
+                    "includeCanIUsePanels": "yes"
                 }
             },
             {
@@ -5590,7 +5594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-break-3",
-                    "line": 1008
+                    "line": 1009
                 },
                 "props": {
                     "name": "box-decoration-break",
@@ -5750,7 +5754,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 392
+                    "line": 396
                 },
                 "props": {
                     "name": "all",
@@ -5796,7 +5800,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 278
+                    "line": 286
                 },
                 "props": {
                     "name": "color",
@@ -5814,7 +5818,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3668
+                    "line": 3756
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5828,7 +5832,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4200
+                    "line": 4283
                 },
                 "props": {
                     "name": "opacity",
@@ -8805,7 +8809,7 @@
                     "name": "inline-sizing",
                     "value": "normal | stretch",
                     "initial": "normal",
-                    "appliesTo": "inline boxes",
+                    "appliesTo": "inline boxes, but not [=ruby container boxes=] nor [=internal ruby boxes=]",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -9957,7 +9961,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 413
+                    "line": 414
                 },
                 "props": {
                     "name": "column-width",
@@ -9975,7 +9979,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 506
+                    "line": 507
                 },
                 "props": {
                     "name": "column-count",
@@ -9993,7 +9997,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 567
+                    "line": 568
                 },
                 "props": {
                     "name": "columns",
@@ -10005,25 +10009,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 764
-                },
-                "props": {
-                    "name": "column-gap",
-                    "value": "<length-percentage [0,∞]> | normal",
-                    "initial": "normal",
-                    "appliesTo": "multicol containers",
-                    "inherited": "no",
-                    "percentages": "refer to the content width of the multi-column container",
-                    "computedValue": "the keyword normal or a computed <length-percentage> value",
-                    "animationType": "by computed value type"
-                },
-                "name": "column-gap"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-multicol-1",
-                    "line": 831
+                    "line": 793
                 },
                 "props": {
                     "name": "column-rule-color",
@@ -10041,7 +10027,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 861
+                    "line": 823
                 },
                 "props": {
                     "name": "column-rule-style",
@@ -10059,7 +10045,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 886
+                    "line": 848
                 },
                 "props": {
                     "name": "column-rule-width",
@@ -10077,7 +10063,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 911
+                    "line": 873
                 },
                 "props": {
                     "name": "column-rule",
@@ -10089,7 +10075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 997
+                    "line": 959
                 },
                 "props": {
                     "name": "column-span",
@@ -10107,7 +10093,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1273
+                    "line": 1235
                 },
                 "props": {
                     "name": "column-fill",
@@ -10245,11 +10231,11 @@
                 },
                 "props": {
                     "name": "overflow-clip-margin",
-                    "value": "<length [0,∞]>",
+                    "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
                     "appliesTo": "all elements",
-                    "computedValue": "the computed <length>"
+                    "computedValue": "the computed <length> and a <visual-box> keyword"
                 },
                 "name": "overflow-clip-margin"
             },
@@ -10257,7 +10243,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 578
+                    "line": 585
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -10275,7 +10261,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 578
+                    "line": 585
                 },
                 "props": {
                     "name": "overflow-block",
@@ -10293,7 +10279,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 599
+                    "line": 606
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10311,7 +10297,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 880
+                    "line": 887
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -10329,7 +10315,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 993
+                    "line": 1000
                 },
                 "props": {
                     "name": "line-clamp",
@@ -10343,7 +10329,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1115
+                    "line": 1122
                 },
                 "props": {
                     "name": "max-lines",
@@ -10361,7 +10347,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1213
+                    "line": 1220
                 },
                 "props": {
                     "name": "continue",
@@ -11176,7 +11162,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 935
+                    "line": 969
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11193,7 +11179,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1012
+                    "line": 1046
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11210,7 +11196,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1085
+                    "line": 1119
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11227,7 +11213,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1224
+                    "line": 1258
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11244,7 +11230,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1322
+                    "line": 1356
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11261,7 +11247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1413
+                    "line": 1447
                 },
                 "props": {
                     "name": "ruby-span",
@@ -12173,7 +12159,8 @@
                     "initial": "auto",
                     "inherited": "no",
                     "appliesTo": "all elements except inline boxes and internal ruby or table boxes",
-                    "computedValue": "specified keyword or a pair of numbers"
+                    "computedValue": "specified keyword or a pair of numbers",
+                    "animationType": "by computed value"
                 },
                 "name": "aspect-ratio"
             },
@@ -12181,7 +12168,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 487
+                    "line": 488
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
@@ -12199,7 +12186,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 487
+                    "line": 488
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
@@ -12217,7 +12204,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 487
+                    "line": 488
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
@@ -12235,7 +12222,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 487
+                    "line": 488
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
@@ -12253,7 +12240,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 544
+                    "line": 545
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
@@ -12265,7 +12252,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 652
+                    "line": 653
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -14588,6 +14575,25 @@
                     "line": 1785
                 },
                 "props": {
+                    "name": "accent-color",
+                    "value": "auto | <color>",
+                    "initial": "auto",
+                    "appliesTo": "all elements",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "the keyword auto or a computed color",
+                    "canonicalOrder": "per grammar",
+                    "animationType": "by computed value type"
+                },
+                "name": "accent-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-ui-4",
+                    "line": 1912
+                },
+                "props": {
                     "name": "appearance",
                     "value": "none | auto | textfield | menulist-button | <compat-auto>",
                     "initial": "none",
@@ -16591,7 +16597,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1716
+                    "line": 1720
                 },
                 "props": {
                     "name": "scroll-behavior",
@@ -17851,7 +17857,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 389
+                    "line": 397
                 },
                 "value": "<number> | <angle>"
             },
@@ -17861,7 +17867,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1078
+                    "line": 1095
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -17871,7 +17877,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1080
+                    "line": 1097
                 },
                 "value": "<number> | <percentage>"
             },
@@ -17881,7 +17887,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1844
+                    "line": 1861
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17891,7 +17897,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2412
+                    "line": 2429
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -17901,7 +17907,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2839
+                    "line": 2867
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -17911,7 +17917,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2890
+                    "line": 2918
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -17921,9 +17927,9 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3084
+                    "line": 3112
                 },
-                "value": "color( [ [<ident> | <dashed-ident>]? [ <number-percentage>+ | <string> ] [ / <alpha-value> ]? ]# , <color>? )"
+                "value": "color( [ [<ident> | <dashed-ident>] [ <number-percentage>+ | <string> ] [ / <alpha-value> ]? ]# , <color>? )"
             },
             {
                 "type": "prod",
@@ -17931,7 +17937,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4046
+                    "line": 4129
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -17941,7 +17947,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4047
+                    "line": 4130
                 },
                 "value": "<number> | <percentage>"
             },
@@ -17951,7 +17957,7 @@
                 "dfnName": "<colorspace>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 95
+                    "line": 97
                 },
                 "value": "srgb | hsl | hwb | xyz | lab | lch"
             },
@@ -17961,7 +17967,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 116
+                    "line": 118
                 },
                 "value": "color-mix(<colorspace>?, <mix-component>#{2})"
             },
@@ -17971,7 +17977,7 @@
                 "dfnName": "<mix-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 120
+                    "line": 122
                 },
                 "value": "<color> [ <percentage> | <color-adjuster>+ ]?"
             },
@@ -17981,7 +17987,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 125
+                    "line": 127
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
             },
@@ -17991,7 +17997,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 129
+                    "line": 131
                 },
                 "value": "red || green || blue"
             },
@@ -18001,7 +18007,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 130
+                    "line": 132
                 },
                 "value": "<hue-adjuster> || saturation || lightness"
             },
@@ -18011,7 +18017,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 131
+                    "line": 133
                 },
                 "value": "<hue-adjuster> ||  whiteness || blackness"
             },
@@ -18021,7 +18027,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 132
+                    "line": 134
                 },
                 "value": "x || y || z"
             },
@@ -18031,7 +18037,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 133
+                    "line": 135
                 },
                 "value": "lightness || a || b"
             },
@@ -18041,7 +18047,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 134
+                    "line": 136
                 },
                 "value": "lightness || chroma || <hue-adjuster>"
             },
@@ -18051,7 +18057,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 135
+                    "line": 137
                 },
                 "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
             },
@@ -18061,7 +18067,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 479
+                    "line": 481
                 },
                 "value": "color-contrast( <color> vs <color>#  )"
             },
@@ -18071,7 +18077,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 568
+                    "line": 570
                 },
                 "value": "color-adjust( <color> [ color-adjuster <colorspace>? ]? )"
             },
@@ -18081,7 +18087,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 603
+                    "line": 605
                 },
                 "value": "rgb([from <color>]? <percentage>{3} [ / <alpha-value> ]? ) |\nrgb([from <color>]? <number>{3} [ / <alpha-value> ]? )"
             },
@@ -18091,7 +18097,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 605
+                    "line": 607
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18101,7 +18107,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 630
+                    "line": 632
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18111,7 +18117,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 631
+                    "line": 633
                 },
                 "value": "<number> | <angle>"
             },
@@ -18121,7 +18127,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 655
+                    "line": 657
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18131,7 +18137,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 670
+                    "line": 672
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18141,7 +18147,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 707
+                    "line": 709
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18417,7 +18423,7 @@
                 "dfnName": "<easing-function>",
                 "source": {
                     "spec": "css-easing-1",
-                    "line": 109
+                    "line": 122
                 },
                 "attrs": {
                     "type": true
@@ -18430,7 +18436,7 @@
                 "dfnName": "<cubic-bezier-easing-function>",
                 "source": {
                     "spec": "css-easing-1",
-                    "line": 154
+                    "line": 167
                 },
                 "attrs": {
                     "type": true
@@ -18443,7 +18449,7 @@
                 "dfnName": "<step-easing-function>",
                 "source": {
                     "spec": "css-easing-1",
-                    "line": 237
+                    "line": 250
                 },
                 "attrs": {
                     "type": true
@@ -18456,7 +18462,7 @@
                 "dfnName": "<step-position>",
                 "source": {
                     "spec": "css-easing-1",
-                    "line": 242
+                    "line": 255
                 },
                 "attrs": {
                     "type": true
@@ -20821,7 +20827,7 @@
                 "dfnName": "<selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3381
+                    "line": 3382
                 },
                 "value": "<complex-selector-list>"
             },
@@ -20831,7 +20837,7 @@
                 "dfnName": "<complex-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3383
+                    "line": 3384
                 },
                 "value": "<complex-selector>#"
             },
@@ -20841,7 +20847,7 @@
                 "dfnName": "<compound-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3385
+                    "line": 3386
                 },
                 "value": "<compound-selector>#"
             },
@@ -20851,7 +20857,7 @@
                 "dfnName": "<simple-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3387
+                    "line": 3388
                 },
                 "value": "<simple-selector>#"
             },
@@ -20861,7 +20867,7 @@
                 "dfnName": "<relative-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3389
+                    "line": 3390
                 },
                 "value": "<relative-selector>#"
             },
@@ -20871,7 +20877,7 @@
                 "dfnName": "<complex-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3392
+                    "line": 3393
                 },
                 "value": "<compound-selector> [ <combinator>? <compound-selector> ]*"
             },
@@ -20881,7 +20887,7 @@
                 "dfnName": "<relative-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3394
+                    "line": 3395
                 },
                 "value": "<combinator>? <complex-selector>"
             },
@@ -20891,7 +20897,7 @@
                 "dfnName": "<compound-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3396
+                    "line": 3397
                 },
                 "value": "[ <type-selector>? <subclass-selector>*\n[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
             },
@@ -20901,7 +20907,7 @@
                 "dfnName": "<simple-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3399
+                    "line": 3400
                 },
                 "value": "<type-selector> | <subclass-selector>"
             },
@@ -20911,7 +20917,7 @@
                 "dfnName": "<combinator>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3402
+                    "line": 3403
                 },
                 "value": "'>' | '+' | '~' | [ '|' '|' ]"
             },
@@ -20921,7 +20927,7 @@
                 "dfnName": "<type-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3404
+                    "line": 3405
                 },
                 "value": "<wq-name> | <ns-prefix>? '*'"
             },
@@ -20931,7 +20937,7 @@
                 "dfnName": "<ns-prefix>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3406
+                    "line": 3407
                 },
                 "attrs": {
                     "noexport": true
@@ -20944,7 +20950,7 @@
                 "dfnName": "<wq-name>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3408
+                    "line": 3409
                 },
                 "attrs": {
                     "noexport": true
@@ -20957,7 +20963,7 @@
                 "dfnName": "<subclass-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3410
+                    "line": 3411
                 },
                 "attrs": {
                     "noexport": true
@@ -20970,7 +20976,7 @@
                 "dfnName": "<id-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3413
+                    "line": 3414
                 },
                 "value": "<hash-token>"
             },
@@ -20980,7 +20986,7 @@
                 "dfnName": "<class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3415
+                    "line": 3416
                 },
                 "value": "'.' <ident-token>"
             },
@@ -20990,7 +20996,7 @@
                 "dfnName": "<attribute-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3417
+                    "line": 3418
                 },
                 "value": "'[' <wq-name> ']' |\n'[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
             },
@@ -21000,7 +21006,7 @@
                 "dfnName": "<attr-matcher>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3420
+                    "line": 3421
                 },
                 "attrs": {
                     "noexport": true
@@ -21013,7 +21019,7 @@
                 "dfnName": "<attr-modifier>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3422
+                    "line": 3423
                 },
                 "attrs": {
                     "noexport": true
@@ -21026,7 +21032,7 @@
                 "dfnName": "<pseudo-class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3424
+                    "line": 3425
                 },
                 "value": "':' <ident-token> |\n':' <function-token> <any-value> ')'"
             },
@@ -21036,7 +21042,7 @@
                 "dfnName": "<pseudo-element-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3427
+                    "line": 3428
                 },
                 "value": "':' <pseudo-class-selector>"
             },
@@ -21337,7 +21343,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 981
+                    "line": 1033
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21345,7 +21351,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1017
+                    "line": 1069
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
@@ -21553,7 +21559,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2820
+                    "line": 2791
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21561,7 +21567,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2832
+                    "line": 2803
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -21569,7 +21575,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2838
+                    "line": 2809
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -21577,7 +21583,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2844
+                    "line": 2815
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -21585,7 +21591,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2851
+                    "line": 2822
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -21593,7 +21599,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2921
+                    "line": 2892
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
@@ -21641,7 +21647,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1035
+                    "line": 1039
                 },
                 "content": "[Exposed=Window]\ninterface CaretPosition {\n  readonly attribute Node offsetNode;\n  readonly attribute unsigned long offset;\n  [NewObject] DOMRect? getClientRect();\n};"
             },
@@ -21649,7 +21655,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1066
+                    "line": 1070
                 },
                 "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n};"
             },
@@ -21657,7 +21663,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1383
+                    "line": 1387
                 },
                 "content": "partial interface HTMLElement {\n  readonly attribute Element? offsetParent;\n  readonly attribute long offsetTop;\n  readonly attribute long offsetLeft;\n  readonly attribute long offsetWidth;\n  readonly attribute long offsetHeight;\n};"
             },
@@ -21665,7 +21671,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1441
+                    "line": 1445
                 },
                 "content": "partial interface HTMLImageElement {\n  readonly attribute long x;\n  readonly attribute long y;\n};"
             },
@@ -21673,7 +21679,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1459
+                    "line": 1463
                 },
                 "content": "partial interface Range {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n};"
             },
@@ -21681,7 +21687,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1502
+                    "line": 1506
                 },
                 "content": "partial interface MouseEvent {\n  readonly attribute double screenX;\n  readonly attribute double screenY;\n  readonly attribute double pageX;\n  readonly attribute double pageY;\n  readonly attribute double clientX;\n  readonly attribute double clientY;\n  readonly attribute double x;\n  readonly attribute double y;\n  readonly attribute double offsetX;\n  readonly attribute double offsetY;\n};\npartial dictionary MouseEventInit {\n  double screenX = 0.0;\n  double screenY = 0.0;\n  double clientX = 0.0;\n  double clientY = 0.0;\n};"
             },
@@ -21689,7 +21695,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1571
+                    "line": 1575
                 },
                 "content": "enum CSSBoxType { \"margin\", \"border\", \"padding\", \"content\" };\ndictionary BoxQuadOptions {\n  CSSBoxType box = \"border\";\n  GeometryNode relativeTo; // XXX default document (i.e. viewport)\n};\ndictionary ConvertCoordinateOptions {\n  CSSBoxType fromBox = \"border\";\n  CSSBoxType toBox = \"border\";\n};\ninterface mixin GeometryUtils {\n  sequence&lt;DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};\nText includes GeometryUtils; // like Range\nElement includes GeometryUtils;\nCSSPseudoElement includes GeometryUtils;\nDocument includes GeometryUtils;\ntypedef (Text or Element or CSSPseudoElement or Document) GeometryNode;"
             },
