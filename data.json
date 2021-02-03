@@ -1,14 +1,14 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-02T00:58:15.203Z",
-    "elapsedTime": 391,
+    "createdAt": "2021-02-03T00:53:17.931Z",
+    "elapsedTime": 420,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "9c1c802bd4a8f3610b57157d5ee911879beb5c40",
-            "commitShort": "9c1c802bd4",
+            "commit": "abce2ae249ac5932b1c7684cab4b0034b59f43d2",
+            "commitShort": "abce2ae249",
             "commitDate": null,
-            "branch": "master"
+            "branch": "main"
         },
         "specs": [
             {
@@ -11162,7 +11162,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 969
+                    "line": 976
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11179,7 +11179,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1046
+                    "line": 1053
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11196,7 +11196,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1119
+                    "line": 1133
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11213,7 +11213,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1258
+                    "line": 1275
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11230,7 +11230,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1356
+                    "line": 1373
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11247,7 +11247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1447
+                    "line": 1464
                 },
                 "props": {
                     "name": "ruby-span",
@@ -16909,7 +16909,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1070
+                    "line": 1078
                 },
                 "props": {
                     "name": "width",
@@ -16923,7 +16923,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1114
+                    "line": 1122
                 },
                 "props": {
                     "name": "height",
@@ -16937,7 +16937,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1132
+                    "line": 1140
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -16951,7 +16951,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1146
+                    "line": 1154
                 },
                 "props": {
                     "name": "orientation",
@@ -16965,7 +16965,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1172
+                    "line": 1180
                 },
                 "props": {
                     "name": "overflow-block",
@@ -16979,7 +16979,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1222
+                    "line": 1230
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -16993,7 +16993,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1263
+                    "line": 1271
                 },
                 "props": {
                     "name": "resolution",
@@ -17007,7 +17007,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1328
+                    "line": 1336
                 },
                 "props": {
                     "name": "scan",
@@ -17021,7 +17021,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1371
+                    "line": 1379
                 },
                 "props": {
                     "name": "grid",
@@ -17035,7 +17035,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1407
+                    "line": 1415
                 },
                 "props": {
                     "name": "update",
@@ -17049,7 +17049,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1455
+                    "line": 1463
                 },
                 "props": {
                     "name": "environment-blending",
@@ -17063,7 +17063,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1520
+                    "line": 1528
                 },
                 "props": {
                     "name": "color",
@@ -17077,7 +17077,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1568
+                    "line": 1576
                 },
                 "props": {
                     "name": "color-index",
@@ -17091,7 +17091,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1602
+                    "line": 1610
                 },
                 "props": {
                     "name": "monochrome",
@@ -17105,7 +17105,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1640
+                    "line": 1648
                 },
                 "props": {
                     "name": "color-gamut",
@@ -17119,7 +17119,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1737
+                    "line": 1745
                 },
                 "props": {
                     "name": "dynamic-range",
@@ -17133,7 +17133,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1796
+                    "line": 1804
                 },
                 "props": {
                     "name": "inverted-colors",
@@ -17147,7 +17147,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1937
+                    "line": 1945
                 },
                 "props": {
                     "name": "pointer",
@@ -17161,7 +17161,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2004
+                    "line": 2012
                 },
                 "props": {
                     "name": "hover",
@@ -17175,7 +17175,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2070
+                    "line": 2078
                 },
                 "props": {
                     "name": "any-pointer",
@@ -17189,7 +17189,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2077
+                    "line": 2085
                 },
                 "props": {
                     "name": "any-hover",
@@ -17203,7 +17203,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2198
+                    "line": 2206
                 },
                 "props": {
                     "name": "video-color-gamut",
@@ -17217,7 +17217,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2216
+                    "line": 2224
                 },
                 "props": {
                     "name": "video-dynamic-range",
@@ -17231,7 +17231,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2241
+                    "line": 2249
                 },
                 "props": {
                     "name": "video-width",
@@ -17245,7 +17245,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2270
+                    "line": 2278
                 },
                 "props": {
                     "name": "video-height",
@@ -17259,7 +17259,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2297
+                    "line": 2305
                 },
                 "props": {
                     "name": "video-resolution",
@@ -17273,7 +17273,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2326
+                    "line": 2334
                 },
                 "props": {
                     "name": "scripting",
@@ -17287,7 +17287,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2570
+                    "line": 2578
                 },
                 "props": {
                     "name": "prefers-reduced-motion",
@@ -17301,7 +17301,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2600
+                    "line": 2608
                 },
                 "props": {
                     "name": "prefers-reduced-transparency",
@@ -17315,7 +17315,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2631
+                    "line": 2639
                 },
                 "props": {
                     "name": "prefers-contrast",
@@ -17329,7 +17329,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2751
+                    "line": 2759
                 },
                 "props": {
                     "name": "forced-colors",
@@ -17343,7 +17343,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2765
+                    "line": 2773
                 },
                 "props": {
                     "name": "prefers-color-scheme",
@@ -17357,7 +17357,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2834
+                    "line": 2842
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -17371,7 +17371,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3016
+                    "line": 3024
                 },
                 "props": {
                     "name": "device-width",
@@ -17385,7 +17385,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3045
+                    "line": 3053
                 },
                 "props": {
                     "name": "device-height",
@@ -17399,7 +17399,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3070
+                    "line": 3078
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -17413,7 +17413,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 931
+                    "line": 961
                 },
                 "props": {
                     "name": "source",
@@ -17427,7 +17427,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 961
+                    "line": 991
                 },
                 "props": {
                     "name": "orientation",
@@ -17441,35 +17441,21 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 971
+                    "line": 1000
                 },
                 "props": {
-                    "name": "start",
+                    "name": "scroll-offsets",
                     "for": "@scroll-timeline",
-                    "value": "<scroll-timeline-offset>",
-                    "initial": "auto"
+                    "value": "[ none | <scroll-timeline-offset> ]#",
+                    "initial": "none"
                 },
-                "name": "start"
+                "name": "scroll-offsets"
             },
             {
                 "type": "descriptor",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1008
-                },
-                "props": {
-                    "name": "end",
-                    "for": "@scroll-timeline",
-                    "value": "<scroll-timeline-offset>",
-                    "initial": "auto"
-                },
-                "name": "end"
-            },
-            {
-                "type": "descriptor",
-                "source": {
-                    "spec": "scroll-animations-1",
-                    "line": 1018
+                    "line": 1037
                 },
                 "props": {
                     "name": "time-range",
@@ -20337,7 +20323,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 2463
+                    "line": 2474
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -20347,7 +20333,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3762
+                    "line": 3773
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -20357,7 +20343,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3763
+                    "line": 3774
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -20367,7 +20353,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3764
+                    "line": 3775
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -20377,7 +20363,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3766
+                    "line": 3777
                 },
                 "value": "e | pi | infinity | -infinity | NaN"
             },
@@ -20597,7 +20583,7 @@
                 "dfnName": "<media-query>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 842
+                    "line": 850
                 },
                 "value": "<media-condition>\n| [ not | only ]? <media-type> [ and <media-condition-without-or> ]?"
             },
@@ -20607,7 +20593,7 @@
                 "dfnName": "<media-type>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 844
+                    "line": 852
                 },
                 "value": "<ident>"
             },
@@ -20617,7 +20603,7 @@
                 "dfnName": "<media-condition>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 846
+                    "line": 854
                 },
                 "value": "<media-not> | <media-in-parens> [ <media-and>* | <media-or>* ]"
             },
@@ -20627,7 +20613,7 @@
                 "dfnName": "<media-condition-without-or>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 847
+                    "line": 855
                 },
                 "value": "<media-not> | <media-in-parens> <media-and>*"
             },
@@ -20637,7 +20623,7 @@
                 "dfnName": "<media-not>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 848
+                    "line": 856
                 },
                 "value": "not <media-in-parens>"
             },
@@ -20647,7 +20633,7 @@
                 "dfnName": "<media-and>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 849
+                    "line": 857
                 },
                 "value": "and <media-in-parens>"
             },
@@ -20657,7 +20643,7 @@
                 "dfnName": "<media-or>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 850
+                    "line": 858
                 },
                 "value": "or <media-in-parens>"
             },
@@ -20667,7 +20653,7 @@
                 "dfnName": "<media-in-parens>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 851
+                    "line": 859
                 },
                 "value": "( <media-condition> ) | <media-feature> | <general-enclosed>"
             },
@@ -20677,7 +20663,7 @@
                 "dfnName": "<media-feature>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 853
+                    "line": 861
                 },
                 "value": "( [ <mf-plain> | <mf-boolean> | <mf-range> ] )"
             },
@@ -20687,7 +20673,7 @@
                 "dfnName": "<mf-plain>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 854
+                    "line": 862
                 },
                 "value": "<mf-name> : <mf-value>"
             },
@@ -20697,7 +20683,7 @@
                 "dfnName": "<mf-boolean>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 855
+                    "line": 863
                 },
                 "value": "<mf-name>"
             },
@@ -20707,7 +20693,7 @@
                 "dfnName": "<mf-range>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 856
+                    "line": 864
                 },
                 "value": "<mf-name> <mf-comparison> <mf-value>\n| <mf-value> <mf-comparison> <mf-name>\n| <mf-value> <mf-lt> <mf-name> <mf-lt> <mf-value>\n| <mf-value> <mf-gt> <mf-name> <mf-gt> <mf-value>"
             },
@@ -20717,7 +20703,7 @@
                 "dfnName": "<mf-name>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 860
+                    "line": 868
                 },
                 "value": "<ident>"
             },
@@ -20727,7 +20713,7 @@
                 "dfnName": "<mf-value>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 861
+                    "line": 869
                 },
                 "value": "<number> | <dimension> | <ident> | <ratio>"
             },
@@ -20737,7 +20723,7 @@
                 "dfnName": "<mf-lt>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 862
+                    "line": 870
                 },
                 "value": "'<' '='?"
             },
@@ -20747,7 +20733,7 @@
                 "dfnName": "<mf-gt>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 863
+                    "line": 871
                 },
                 "value": "'>' '='?"
             },
@@ -20757,7 +20743,7 @@
                 "dfnName": "<mf-eq>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 864
+                    "line": 872
                 },
                 "value": "'='"
             },
@@ -20767,7 +20753,7 @@
                 "dfnName": "<mf-comparison>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 865
+                    "line": 873
                 },
                 "value": "<mf-lt> | <mf-gt> | <mf-eq>"
             },
@@ -20777,7 +20763,7 @@
                 "dfnName": "<general-enclosed>",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 867
+                    "line": 875
                 },
                 "value": "[ <function-token> <any-value> ) ] | ( <ident> <any-value> )"
             },
@@ -20787,7 +20773,7 @@
                 "dfnName": "@custom-media",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2427
+                    "line": 2435
                 },
                 "value": "@custom-media <extension-name> [ <media-query-list> | true | false ] ;"
             },
@@ -20797,7 +20783,7 @@
                 "dfnName": "<scroll-timeline-offset>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 984
+                    "line": 1013
                 },
                 "value": "auto | <length-percentage> | <element-offset>"
             },
@@ -20807,7 +20793,7 @@
                 "dfnName": "<element-offset>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 985
+                    "line": 1014
                 },
                 "value": "selector( <id-selector> ) [<element-offset-edge> || <number>]?"
             },
@@ -20817,7 +20803,7 @@
                 "dfnName": "<element-offset-edge>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 986
+                    "line": 1015
                 },
                 "value": "start | end"
             },
@@ -21703,7 +21689,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2519
+                    "line": 2527
                 },
                 "content": "[Exposed=Window]\ninterface CSSCustomMediaRule : CSSRule {\n    attribute CSSOMString name;\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
@@ -21759,7 +21745,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 322
+                    "line": 318
                 },
                 "content": "enum ScrollDirection {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};"
             },
@@ -21767,15 +21753,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 357
+                    "line": 353
                 },
-                "content": "enum ScrollTimelineAutoKeyword { \"auto\" };\ntypedef (CSSNumericValue or CSSKeywordish) ContainerBasedOffset;\ntypedef (ContainerBasedOffset or ElementBasedOffset) ScrollTimelineOffset;\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollDirection orientation = \"block\";\n  ScrollTimelineOffset start = \"auto\";\n  ScrollTimelineOffset end = \"auto\";\n  (double or ScrollTimelineAutoKeyword) timeRange = \"auto\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollDirection orientation;\n  readonly attribute ScrollTimelineOffset start;\n  readonly attribute ScrollTimelineOffset end;\n  readonly attribute (double or ScrollTimelineAutoKeyword) timeRange;\n};"
+                "content": "enum ScrollTimelineAutoKeyword { \"auto\" };\ntypedef (CSSNumericValue or CSSKeywordish) ContainerBasedOffset;\ntypedef (ContainerBasedOffset or ElementBasedOffset) ScrollTimelineOffset;\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollDirection orientation = \"block\";\n  sequence&lt;ScrollTimelineOffset&gt; scrollOffsets = [];\n  (double or ScrollTimelineAutoKeyword) timeRange = \"auto\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollDirection orientation;\n  readonly attribute FrozenArray&lt;ScrollTimelineOffset&gt; scrollOffsets;\n  readonly attribute (double or ScrollTimelineAutoKeyword) timeRange;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 573
+                    "line": 558
                 },
                 "content": "enum Edge { \"start\", \"end\" };\ndictionary ElementBasedOffset {\n  Element target;\n  Edge edge = \"start\";\n  double threshold = 0.0;\n};"
             },
