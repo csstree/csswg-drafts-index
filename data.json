@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-03T00:53:17.931Z",
-    "elapsedTime": 420,
+    "createdAt": "2021-02-04T00:49:38.440Z",
+    "elapsedTime": 429,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "abce2ae249ac5932b1c7684cab4b0034b59f43d2",
-            "commitShort": "abce2ae249",
+            "commit": "16aad72a7c438e6a98a399cca0161a82d6f3a2c0",
+            "commitShort": "16aad72a7c",
             "commitDate": null,
             "branch": "main"
         },
@@ -11162,7 +11162,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 976
+                    "line": 978
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11179,7 +11179,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1053
+                    "line": 1055
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11196,7 +11196,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1133
+                    "line": 1135
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11213,7 +11213,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1275
+                    "line": 1277
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11230,7 +11230,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1373
+                    "line": 1375
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11247,7 +11247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1464
+                    "line": 1466
                 },
                 "props": {
                     "name": "ruby-span",
@@ -12172,7 +12172,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
-                    "value": "none | <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12190,7 +12190,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
-                    "value": "none | <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12208,7 +12208,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
-                    "value": "none | <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12226,7 +12226,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
-                    "value": "none | <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12240,11 +12240,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 545
+                    "line": 551
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
-                    "value": "[ none | <length> ]{1,2}"
+                    "value": "[ none | <length> | auto <length> ]{1,2}"
                 },
                 "name": "contain-intrinsic-size"
             },
@@ -12252,7 +12252,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 653
+                    "line": 706
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -21329,7 +21329,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1033
+                    "line": 1035
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n};"
             },
@@ -21337,7 +21337,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1069
+                    "line": 1071
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
