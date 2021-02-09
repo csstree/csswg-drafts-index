@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-08T00:50:33.430Z",
-    "elapsedTime": 372,
+    "createdAt": "2021-02-09T00:50:14.889Z",
+    "elapsedTime": 397,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4cb190b0cb96c1e5320bce04ec77baea5c79bdb4",
-            "commitShort": "4cb190b0cb",
+            "commit": "1f29d7aed516e840d26e5274660b6c31d01433c6",
+            "commitShort": "1f29d7aed5",
             "commitDate": null,
             "branch": "main"
         },
@@ -4811,7 +4811,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color and optionally also a inset keyword",
-                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the the shorter list is otherwise compatible with the longer one"
+                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the shorter list is otherwise compatible with the longer one"
                 },
                 "name": "box-shadow"
             },
@@ -13515,7 +13515,7 @@
                     "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "either the keyword none or\na list, each item consisting of three absolute lengths\nplus a computed color",
-                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0'')\nas needed to match the longer list\nif the the shorter list is otherwise compatible with the longer one"
+                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0'')\nas needed to match the longer list\nif the shorter list is otherwise compatible with the longer one"
                 },
                 "name": "text-shadow"
             },
@@ -13837,7 +13837,7 @@
                     "appliesTo": "text",
                     "inherited": "yes",
                     "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color",
-                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0 0'')\nas needed to match the longer list\nif the the shorter list is otherwise compatible with the longer one"
+                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (''transparent 0 0 0 0'')\nas needed to match the longer list\nif the shorter list is otherwise compatible with the longer one"
                 },
                 "name": "text-shadow"
             },
@@ -15445,7 +15445,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 6469
+                    "line": 6468
                 },
                 "props": {
                     "name": "position",
@@ -15463,7 +15463,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 6560
+                    "line": 6559
                 },
                 "props": {
                     "name": "top",
@@ -15481,7 +15481,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 6582
+                    "line": 6581
                 },
                 "props": {
                     "name": "right",
@@ -15499,7 +15499,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 6604
+                    "line": 6603
                 },
                 "props": {
                     "name": "bottom",
@@ -15517,7 +15517,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 6625
+                    "line": 6624
                 },
                 "props": {
                     "name": "left",
@@ -15535,7 +15535,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 7147
+                    "line": 7146
                 },
                 "props": {
                     "name": "float",
@@ -15553,7 +15553,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 7265
+                    "line": 7264
                 },
                 "props": {
                     "name": "clear",
@@ -15571,7 +15571,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 7897
+                    "line": 7896
                 },
                 "props": {
                     "name": "z-index",
@@ -15589,7 +15589,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 8111
+                    "line": 8110
                 },
                 "props": {
                     "name": "direction",
@@ -15607,7 +15607,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 8155
+                    "line": 8154
                 },
                 "props": {
                     "name": "unicode-bidi",
@@ -15625,7 +15625,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 8488
+                    "line": 8487
                 },
                 "props": {
                     "name": "width",
@@ -15643,7 +15643,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 8879
+                    "line": 8878
                 },
                 "props": {
                     "name": "min-width",
@@ -15661,7 +15661,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 8891
+                    "line": 8890
                 },
                 "props": {
                     "name": "max-width",
@@ -15679,7 +15679,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9065
+                    "line": 9064
                 },
                 "props": {
                     "name": "height",
@@ -15697,7 +15697,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9432
+                    "line": 9431
                 },
                 "props": {
                     "name": "min-height",
@@ -15715,7 +15715,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9444
+                    "line": 9443
                 },
                 "props": {
                     "name": "max-height",
@@ -15733,7 +15733,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9613
+                    "line": 9612
                 },
                 "props": {
                     "name": "line-height",
@@ -15751,7 +15751,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9695
+                    "line": 9694
                 },
                 "props": {
                     "name": "vertical-align",
@@ -15769,7 +15769,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 9833
+                    "line": 9832
                 },
                 "props": {
                     "name": "overflow",
@@ -15787,7 +15787,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10022
+                    "line": 10021
                 },
                 "props": {
                     "name": "clip",
@@ -15805,7 +15805,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10114
+                    "line": 10113
                 },
                 "props": {
                     "name": "visibility",
@@ -15823,7 +15823,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10346
+                    "line": 10345
                 },
                 "props": {
                     "name": "content",
@@ -15841,7 +15841,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10477
+                    "line": 10476
                 },
                 "props": {
                     "name": "quotes",
@@ -15859,7 +15859,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10653
+                    "line": 10652
                 },
                 "props": {
                     "name": "counter-reset",
@@ -15877,7 +15877,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10665
+                    "line": 10664
                 },
                 "props": {
                     "name": "counter-increment",
@@ -15895,7 +15895,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 10960
+                    "line": 10959
                 },
                 "props": {
                     "name": "list-style-type",
@@ -15913,7 +15913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11067
+                    "line": 11066
                 },
                 "props": {
                     "name": "list-style-image",
@@ -15931,7 +15931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11116
+                    "line": 11115
                 },
                 "props": {
                     "name": "list-style-position",
@@ -15949,7 +15949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11204
+                    "line": 11203
                 },
                 "props": {
                     "name": "list-style",
@@ -15967,7 +15967,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11557
+                    "line": 11556
                 },
                 "props": {
                     "name": "page-break-before",
@@ -15985,7 +15985,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11570
+                    "line": 11569
                 },
                 "props": {
                     "name": "page-break-after",
@@ -16003,7 +16003,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11583
+                    "line": 11582
                 },
                 "props": {
                     "name": "page-break-inside",
@@ -16021,7 +16021,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11639
+                    "line": 11638
                 },
                 "props": {
                     "name": "orphans",
@@ -16039,7 +16039,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11652
+                    "line": 11651
                 },
                 "props": {
                     "name": "widows",
@@ -16057,7 +16057,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11837
+                    "line": 11836
                 },
                 "props": {
                     "name": "color",
@@ -16075,7 +16075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11920
+                    "line": 11919
                 },
                 "props": {
                     "name": "background-color",
@@ -16093,7 +16093,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 11944
+                    "line": 11943
                 },
                 "props": {
                     "name": "background-image",
@@ -16111,7 +16111,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12001
+                    "line": 12000
                 },
                 "props": {
                     "name": "background-repeat",
@@ -16129,7 +16129,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12053
+                    "line": 12052
                 },
                 "props": {
                     "name": "background-attachment",
@@ -16147,7 +16147,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12111
+                    "line": 12110
                 },
                 "props": {
                     "name": "background-position",
@@ -16165,7 +16165,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12216
+                    "line": 12215
                 },
                 "props": {
                     "name": "background",
@@ -16183,7 +16183,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12352
+                    "line": 12351
                 },
                 "props": {
                     "name": "font-family",
@@ -16201,7 +16201,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12607
+                    "line": 12606
                 },
                 "props": {
                     "name": "font-style",
@@ -16219,7 +16219,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12648
+                    "line": 12647
                 },
                 "props": {
                     "name": "font-variant",
@@ -16237,7 +16237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12692
+                    "line": 12691
                 },
                 "props": {
                     "name": "font-weight",
@@ -16255,7 +16255,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12868
+                    "line": 12867
                 },
                 "props": {
                     "name": "font-size",
@@ -16273,7 +16273,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 12985
+                    "line": 12984
                 },
                 "props": {
                     "name": "font",
@@ -16291,7 +16291,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13120
+                    "line": 13119
                 },
                 "props": {
                     "name": "text-indent",
@@ -16309,7 +16309,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13182
+                    "line": 13181
                 },
                 "props": {
                     "name": "text-align",
@@ -16327,7 +16327,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13251
+                    "line": 13250
                 },
                 "props": {
                     "name": "text-decoration",
@@ -16345,7 +16345,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13400
+                    "line": 13399
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -16363,7 +16363,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13453
+                    "line": 13452
                 },
                 "props": {
                     "name": "word-spacing",
@@ -16381,7 +16381,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13501
+                    "line": 13500
                 },
                 "props": {
                     "name": "text-transform",
@@ -16399,7 +16399,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 13546
+                    "line": 13545
                 },
                 "props": {
                     "name": "white-space",
@@ -16417,7 +16417,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 14221
+                    "line": 14220
                 },
                 "props": {
                     "name": "caption-side",
@@ -16435,7 +16435,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 14490
+                    "line": 14489
                 },
                 "props": {
                     "name": "table-layout",
@@ -16453,7 +16453,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 14844
+                    "line": 14843
                 },
                 "props": {
                     "name": "border-collapse",
@@ -16471,7 +16471,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 14863
+                    "line": 14862
                 },
                 "props": {
                     "name": "border-spacing",
@@ -16489,7 +16489,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 14939
+                    "line": 14938
                 },
                 "props": {
                     "name": "empty-cells",
@@ -16507,7 +16507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 15226
+                    "line": 15225
                 },
                 "props": {
                     "name": "cursor",
@@ -16525,7 +16525,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 15423
+                    "line": 15422
                 },
                 "props": {
                     "name": "outline",
@@ -16543,7 +16543,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 15435
+                    "line": 15434
                 },
                 "props": {
                     "name": "outline-width",
@@ -16561,7 +16561,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 15447
+                    "line": 15446
                 },
                 "props": {
                     "name": "outline-style",
@@ -16579,7 +16579,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css2",
-                    "line": 15459
+                    "line": 15458
                 },
                 "props": {
                     "name": "outline-color",
