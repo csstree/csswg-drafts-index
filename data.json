@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-09T00:50:14.889Z",
-    "elapsedTime": 397,
+    "createdAt": "2021-02-10T00:49:25.917Z",
+    "elapsedTime": 331,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "1f29d7aed516e840d26e5274660b6c31d01433c6",
-            "commitShort": "1f29d7aed5",
+            "commit": "e47293dbf08db6e08037413da4c7291fddb3a715",
+            "commitShort": "e47293dbf0",
             "commitDate": null,
             "branch": "main"
         },
@@ -666,6 +666,27 @@
                 }
             },
             {
+                "file": "css-conditional-values/Overview.bs",
+                "id": "css-conditional-values",
+                "props": {
+                    "title": "CSS Conditional Values Module Level 1",
+                    "shortname": "css-conditional-values",
+                    "level": "1",
+                    "status": "UD",
+                    "ed": "https://drafts.csswg.org/css-color-5/",
+                    "group": "csswg",
+                    "workStatus": "exploring",
+                    "editor": [
+                        "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258"
+                    ],
+                    "abstract": "This module explores additions to CSS to enable conditional values.",
+                    "repository": "w3c/csswg-drafts",
+                    "defaultHighlight": "css",
+                    "inlineGithubIssues": "title",
+                    "warning": "Not Ready"
+                }
+            },
+            {
                 "file": "css-contain-1/Overview.bs",
                 "id": "css-contain-1",
                 "props": {
@@ -1116,6 +1137,30 @@
                         "font-palette",
                         "<named-palette-color>"
                     ]
+                }
+            },
+            {
+                "file": "css-fonts-5/Overview.bs",
+                "id": "css-fonts-5",
+                "props": {
+                    "title": "CSS Fonts Module Level 5",
+                    "shortname": "css-fonts",
+                    "level": "5",
+                    "status": "ED",
+                    "workStatus": "exploring",
+                    "group": "CSSWG",
+                    "ed": "https://drafts.csswg.org/css-fonts-5/",
+                    "tr": "https://www.w3.org/TR/css-fonts-5/",
+                    "!deltaSpec": "yes",
+                    "editor": [
+                        "Myles C. Maxfield, Apple Inc., mmaxfield@apple.com, w3cid 77180",
+                        "Chris Lilley, W3C, http://svgees.us, w3cid 1438"
+                    ],
+                    "abstract": "This specification defines modifications to the existing <a href=\"https://drafts.csswg.org/css-fonts-4/\">CSS Fonts 4</a> specification along with additional features.",
+                    "repository": "w3c/csswg-drafts",
+                    "inlineGithubIssues": "title",
+                    "defaultHighlight": "css",
+                    "warning": "Not Ready"
                 }
             },
             {
@@ -1607,7 +1652,7 @@
                     ],
                     "!previousEditors": "Svante Schubert, Sun Microsystems Inc.\nRobin Berjon, Expway",
                     "defaultBiblioStatus": "snapshot",
-                    "abstract": "<p>This specification defines in general a subset of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> 2.1 [[!CSS21]] that is\nto be considered a baseline for interoperability between\nimplementations of <acronym title=\"Cascading Style\nSheets\">CSS</acronym> on constrained devices (e.g. mobile phones).\nIts intent is <em>not</em> to produce a profile of <acronym\ntitle=\"Cascading Style Sheets\">CSS</acronym> incompatible with the\ncomplete specification, but rather to ensure that implementations\nthat due to platform limitations cannot support the entire\nspecification implement a common subset that is interoperable not\nonly amongst constrained implementations but also with complete\nones. Additionally, this specification aligns itself as much as\npossible with the <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.1 [[WCSS11]] specification. At the same\ntime, <acronym title=\"Open Mobile Alliance\">OMA</acronym> is doing\nalignment work in <acronym title=\"Open Mobile\nAlliance\">OMA</acronym> Wireless <acronym title=\"Cascading Style\nSheets\">CSS</acronym> 1.2 [[WCSS12]]. It is aimed at aligning the\nmandatory compliance items between <acronym title=\"Cascading Style\nSheets\">CSS</acronym> Mobile Profile 2.0 and <acronym title=\"Open\nMobile Alliance\">OMA</acronym> Wireless <acronym title=\"Cascading\nStyle Sheets\">CSS</acronym> 1.2 [[WCSS12]].</p>\n<p class=mtb><strong>This profile is obsolete. Please see the latest\n<a href=\"https://www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>",
+                    "abstract": "<p>This specification defines in general a subset of <abbr\ntitle=\"Cascading Style Sheets\">CSS</abbr> 2.1 [[!CSS21]] that is\nto be considered a baseline for interoperability between\nimplementations of <abbr title=\"Cascading Style\nSheets\">CSS</abbr> on constrained devices (e.g. mobile phones).\nIts intent is <em>not</em> to produce a profile of <abbr\ntitle=\"Cascading Style Sheets\">CSS</abbr> incompatible with the\ncomplete specification, but rather to ensure that implementations\nthat due to platform limitations cannot support the entire\nspecification implement a common subset that is interoperable not\nonly amongst constrained implementations but also with complete\nones. Additionally, this specification aligns itself as much as\npossible with the <abbr title=\"Open Mobile\nAlliance\">OMA</abbr> Wireless <abbr title=\"Cascading Style\nSheets\">CSS</abbr> 1.1 [[WCSS11]] specification. At the same\ntime, <abbr title=\"Open Mobile Alliance\">OMA</abbr> is doing\nalignment work in <abbr title=\"Open Mobile\nAlliance\">OMA</abbr> Wireless <abbr title=\"Cascading Style\nSheets\">CSS</abbr> 1.2 [[WCSS12]]. It is aimed at aligning the\nmandatory compliance items between <abbr title=\"Cascading Style\nSheets\">CSS</abbr> Mobile Profile 2.0 and <abbr title=\"Open\nMobile Alliance\">OMA</abbr> Wireless <abbr title=\"Cascading\nStyle Sheets\">CSS</abbr> 1.2 [[WCSS12]].</p>\n<p class=mtb><strong>This profile is obsolete. Please see the latest\n<a href=\"https://www.w3.org/TR/CSS/\" >CSS Snapshot</a> for the\nspecifications that make up CSS.</strong></p>",
                     "statusText": "<p><em>At this time, the CSS Working Group does not envisage further\nwork on this specification and does not plan to propose it as a W3C\nRecommendation.</em></p>"
                 }
             },
@@ -6513,7 +6558,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 535
+                    "line": 530
                 },
                 "props": {
                     "name": "display",
@@ -6525,7 +6570,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1078
+                    "line": 1073
                 },
                 "props": {
                     "name": "flex-direction",
@@ -6542,7 +6587,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1168
+                    "line": 1163
                 },
                 "props": {
                     "name": "flex-wrap",
@@ -6559,7 +6604,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1239
+                    "line": 1234
                 },
                 "props": {
                     "name": "flex-flow",
@@ -6571,7 +6616,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1324
+                    "line": 1319
                 },
                 "props": {
                     "name": "order",
@@ -6588,7 +6633,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1628
+                    "line": 1623
                 },
                 "props": {
                     "name": "flex",
@@ -6604,7 +6649,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1853
+                    "line": 1848
                 },
                 "props": {
                     "name": "flex-grow",
@@ -6621,7 +6666,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1875
+                    "line": 1870
                 },
                 "props": {
                     "name": "flex-shrink",
@@ -6638,7 +6683,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1897
+                    "line": 1892
                 },
                 "props": {
                     "name": "flex-basis",
@@ -6656,7 +6701,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2070
+                    "line": 2065
                 },
                 "props": {
                     "name": "justify-content",
@@ -6673,7 +6718,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2161
+                    "line": 2156
                 },
                 "props": {
                     "name": "align-items",
@@ -6690,7 +6735,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2171
+                    "line": 2166
                 },
                 "props": {
                     "name": "align-self",
@@ -6707,7 +6752,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2301
+                    "line": 2296
                 },
                 "props": {
                     "name": "align-content",
@@ -7802,6 +7847,105 @@
                     "animationType": "discrete"
                 },
                 "name": "font-variant-emoji"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 120
+                },
+                "props": {
+                    "name": "font-size\nascent-override",
+                    "value": "auto | [<number>]#\nnormal | <percentage>",
+                    "initial": "normal\nnormal",
+                    "for": "@font-face\n</pre>\n<dl dfn-type=\"value\" dfn-for=\"@font-face/font-size\">\n<dt><dfn>auto</dfn></dt>\n<dd>\nThe font matches any font size\n</dd>\n<dt><dfn><<number>></dfn></dt>\n<dd>\nIf a single <<number>> is given\nthe font matches that specific font size, only.\nIf two <<number>>s are given,\nthey specify a range of font sizes which will match.\n</dd>\n</dl>\n<!-- should this stay in Fonts 4 or be here in Fonts 5? -->\n<h3 id=\"font-metrics-override-desc\">\n@font-face",
+                    "defaultFontMetricsOverriding": "the 'ascent-override', 'descent-override' and 'line-gap-override' descriptors</h3>\n<pre class='descdef'>"
+                },
+                "name": "font-size\nascent-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 157
+                },
+                "props": {
+                    "name": "descent-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "descent-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 164
+                },
+                "props": {
+                    "name": "line-gap-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "line-gap-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 240
+                },
+                "props": {
+                    "name": "superscript-position-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "superscript-position-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 247
+                },
+                "props": {
+                    "name": "subscript-position-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "subscript-position-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 254
+                },
+                "props": {
+                    "name": "superscript-size-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "superscript-size-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 261
+                },
+                "props": {
+                    "name": "subscript-size-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "subscript-size-override"
             },
             {
                 "type": "prop",
@@ -11196,7 +11340,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1278
+                    "line": 1284
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11213,7 +11357,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1436
+                    "line": 1442
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11230,7 +11374,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1534
+                    "line": 1540
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11247,7 +11391,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1625
+                    "line": 1631
                 },
                 "props": {
                     "name": "ruby-span",
@@ -18196,6 +18340,81 @@
                     "line": 38
                 },
                 "value": "selector( <complex-selector> )"
+            },
+            {
+                "type": "prod",
+                "name": "boolean-constant",
+                "dfnName": "<boolean-constant>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 52
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
+                "name": "condition",
+                "dfnName": "<condition>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 59
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": "not <condition-in-parens>\n| <condition-in-parens> [ and <condition-in-parens> ]*\n| <condition-in-parens> [ or <condition-in-parens> ]*"
+            },
+            {
+                "type": "prod",
+                "name": "condition-in-parens",
+                "dfnName": "<condition-in-parens>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 62
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": "( <condition> ) | <atomic-condition>"
+            },
+            {
+                "type": "prod",
+                "name": "atomic-condition",
+                "dfnName": "<atomic-condition>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 63
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": "<comparison-operand> <comparison-operator> <comparison-operand> | <boolean-constant>"
+            },
+            {
+                "type": "prod",
+                "name": "comparison-operand",
+                "dfnName": "<comparison-operand>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 64
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": "<dimension> | <number> | <percentage> | <ident>"
+            },
+            {
+                "type": "prod",
+                "name": "comparison-operator",
+                "dfnName": "<comparison-operator>",
+                "source": {
+                    "spec": "css-conditional-values",
+                    "line": 65
+                },
+                "value": "[ '=' | '>=' | '>' | '<' | '<=' ]"
             },
             {
                 "type": "prod",
