@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-10T00:49:25.917Z",
-    "elapsedTime": 331,
+    "createdAt": "2021-02-11T00:50:11.940Z",
+    "elapsedTime": 438,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e47293dbf08db6e08037413da4c7291fddb3a715",
-            "commitShort": "e47293dbf0",
+            "commit": "286fc68e7e8b6c9f32bb69c8110e713ff98a4675",
+            "commitShort": "286fc68e7e",
             "commitDate": null,
             "branch": "main"
         },
@@ -545,9 +545,7 @@
                     "title": "CSS Color Module Level 5",
                     "shortname": "css-color",
                     "level": "5",
-                    "status": "WD",
-                    "prepareForTr": "yes",
-                    "date": "2021-02-02",
+                    "status": "ED",
                     "group": "csswg",
                     "tr": "https://www.w3.org/TR/css-color-5/",
                     "ed": "https://drafts.csswg.org/css-color-5/",
@@ -8071,7 +8069,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 855
+                    "line": 856
                 },
                 "props": {
                     "name": "display",
@@ -8083,7 +8081,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1443
+                    "line": 1444
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -8101,7 +8099,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1443
+                    "line": 1444
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -8119,7 +8117,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2051
+                    "line": 2052
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -8137,7 +8135,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2208
+                    "line": 2209
                 },
                 "props": {
                     "name": "grid-template",
@@ -8151,7 +8149,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2350
+                    "line": 2351
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -8169,7 +8167,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2350
+                    "line": 2351
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -8187,7 +8185,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2423
+                    "line": 2424
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -8205,7 +8203,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2579
+                    "line": 2580
                 },
                 "props": {
                     "name": "grid",
@@ -8219,7 +8217,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2930
+                    "line": 2931
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -8237,7 +8235,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2930
+                    "line": 2931
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -8255,7 +8253,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2930
+                    "line": 2931
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -8273,7 +8271,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2930
+                    "line": 2931
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -8291,7 +8289,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3117
+                    "line": 3118
                 },
                 "props": {
                     "name": "grid-row",
@@ -8308,7 +8306,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3117
+                    "line": 3118
                 },
                 "props": {
                     "name": "grid-column",
@@ -8325,7 +8323,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3138
+                    "line": 3139
                 },
                 "props": {
                     "name": "grid-area",
@@ -11374,7 +11372,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1540
+                    "line": 1541
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11391,7 +11389,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1631
+                    "line": 1632
                 },
                 "props": {
                     "name": "ruby-span",
@@ -18087,7 +18085,7 @@
                 "dfnName": "<colorspace>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 97
+                    "line": 95
                 },
                 "value": "srgb | hsl | hwb | xyz | lab | lch"
             },
@@ -18097,7 +18095,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 118
+                    "line": 116
                 },
                 "value": "color-mix(<colorspace>?, <mix-component>#{2})"
             },
@@ -18107,7 +18105,7 @@
                 "dfnName": "<mix-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 122
+                    "line": 120
                 },
                 "value": "<color> [ <percentage> | <color-adjuster>+ ]?"
             },
@@ -18117,7 +18115,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 127
+                    "line": 125
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
             },
@@ -18127,7 +18125,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 131
+                    "line": 129
                 },
                 "value": "red || green || blue"
             },
@@ -18137,7 +18135,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 132
+                    "line": 130
                 },
                 "value": "<hue-adjuster> || saturation || lightness"
             },
@@ -18147,7 +18145,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 133
+                    "line": 131
                 },
                 "value": "<hue-adjuster> ||  whiteness || blackness"
             },
@@ -18157,7 +18155,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 134
+                    "line": 132
                 },
                 "value": "x || y || z"
             },
@@ -18167,7 +18165,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 135
+                    "line": 133
                 },
                 "value": "lightness || a || b"
             },
@@ -18177,7 +18175,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 136
+                    "line": 134
                 },
                 "value": "lightness || chroma || <hue-adjuster>"
             },
@@ -18187,7 +18185,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 137
+                    "line": 135
                 },
                 "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
             },
@@ -18197,7 +18195,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 481
+                    "line": 479
                 },
                 "value": "color-contrast( <color> vs <color>#  )"
             },
@@ -18207,7 +18205,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 570
+                    "line": 568
                 },
                 "value": "color-adjust( <color> [ color-adjuster <colorspace>? ]? )"
             },
@@ -18217,7 +18215,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 605
+                    "line": 603
                 },
                 "value": "rgb([from <color>]? <percentage>{3} [ / <alpha-value> ]? ) |\nrgb([from <color>]? <number>{3} [ / <alpha-value> ]? )"
             },
@@ -18227,7 +18225,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 607
+                    "line": 605
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18237,7 +18235,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 632
+                    "line": 630
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18247,7 +18245,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 633
+                    "line": 631
                 },
                 "value": "<number> | <angle>"
             },
@@ -18257,7 +18255,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 657
+                    "line": 655
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18267,7 +18265,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 672
+                    "line": 670
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18277,7 +18275,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 709
+                    "line": 707
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -19162,7 +19160,7 @@
                 "dfnName": "<track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1488
+                    "line": 1489
                 },
                 "value": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
             },
@@ -19172,7 +19170,7 @@
                 "dfnName": "<auto-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1489
+                    "line": 1490
                 },
                 "value": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
             },
@@ -19182,7 +19180,7 @@
                 "dfnName": "<explicit-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1491
+                    "line": 1492
                 },
                 "value": "[ <line-names>? <track-size> ]+ <line-names>?"
             },
@@ -19192,7 +19190,7 @@
                 "dfnName": "<track-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1493
+                    "line": 1494
                 },
                 "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
             },
@@ -19202,7 +19200,7 @@
                 "dfnName": "<fixed-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1494
+                    "line": 1495
                 },
                 "value": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
             },
@@ -19212,7 +19210,7 @@
                 "dfnName": "<track-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1495
+                    "line": 1496
                 },
                 "value": "<length-percentage> | <flex> | min-content | max-content | auto"
             },
@@ -19222,7 +19220,7 @@
                 "dfnName": "<inflexible-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1496
+                    "line": 1497
                 },
                 "value": "<length-percentage> | min-content | max-content | auto"
             },
@@ -19232,7 +19230,7 @@
                 "dfnName": "<fixed-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1497
+                    "line": 1498
                 },
                 "value": "<length-percentage>"
             },
@@ -19242,7 +19240,7 @@
                 "dfnName": "<line-names>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1498
+                    "line": 1499
                 },
                 "value": "'[' <custom-ident>* ']'"
             },
@@ -19252,7 +19250,7 @@
                 "dfnName": "<<track-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1748
+                    "line": 1749
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
             },
@@ -19262,7 +19260,7 @@
                 "dfnName": "<<auto-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1749
+                    "line": 1750
                 },
                 "value": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19272,7 +19270,7 @@
                 "dfnName": "<<fixed-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1750
+                    "line": 1751
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19282,7 +19280,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2942
+                    "line": 2943
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
