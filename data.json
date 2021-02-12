@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-11T00:50:11.940Z",
-    "elapsedTime": 438,
+    "createdAt": "2021-02-12T00:50:37.121Z",
+    "elapsedTime": 321,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "286fc68e7e8b6c9f32bb69c8110e713ff98a4675",
-            "commitShort": "286fc68e7e",
+            "commit": "f7ae306b6450a4a9c06904b26eeb59fb9a1d3276",
+            "commitShort": "f7ae306b64",
             "commitDate": null,
             "branch": "main"
         },
@@ -664,8 +664,8 @@
                 }
             },
             {
-                "file": "css-conditional-values/Overview.bs",
-                "id": "css-conditional-values",
+                "file": "css-conditional-values-1/Overview.bs",
+                "id": "css-conditional-values-1",
                 "props": {
                     "title": "CSS Conditional Values Module Level 1",
                     "shortname": "css-conditional-values",
@@ -18344,7 +18344,7 @@
                 "name": "boolean-constant",
                 "dfnName": "<boolean-constant>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 52
                 },
                 "attrs": {
@@ -18357,11 +18357,8 @@
                 "name": "condition",
                 "dfnName": "<condition>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 59
-                },
-                "attrs": {
-                    "export": true
                 },
                 "value": "not <condition-in-parens>\n| <condition-in-parens> [ and <condition-in-parens> ]*\n| <condition-in-parens> [ or <condition-in-parens> ]*"
             },
@@ -18370,11 +18367,8 @@
                 "name": "condition-in-parens",
                 "dfnName": "<condition-in-parens>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 62
-                },
-                "attrs": {
-                    "export": true
                 },
                 "value": "( <condition> ) | <atomic-condition>"
             },
@@ -18383,11 +18377,8 @@
                 "name": "atomic-condition",
                 "dfnName": "<atomic-condition>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 63
-                },
-                "attrs": {
-                    "export": true
                 },
                 "value": "<comparison-operand> <comparison-operator> <comparison-operand> | <boolean-constant>"
             },
@@ -18396,11 +18387,8 @@
                 "name": "comparison-operand",
                 "dfnName": "<comparison-operand>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 64
-                },
-                "attrs": {
-                    "export": true
                 },
                 "value": "<dimension> | <number> | <percentage> | <ident>"
             },
@@ -18409,10 +18397,30 @@
                 "name": "comparison-operator",
                 "dfnName": "<comparison-operator>",
                 "source": {
-                    "spec": "css-conditional-values",
+                    "spec": "css-conditional-values-1",
                     "line": 65
                 },
                 "value": "[ '=' | '>=' | '>' | '<' | '<=' ]"
+            },
+            {
+                "type": "prod",
+                "name": "consequent",
+                "dfnName": "<consequent>",
+                "source": {
+                    "spec": "css-conditional-values-1",
+                    "line": 165
+                },
+                "value": "<declaration-value>"
+            },
+            {
+                "type": "prod",
+                "name": "antecedent",
+                "dfnName": "<antecedent>",
+                "source": {
+                    "spec": "css-conditional-values-1",
+                    "line": 166
+                },
+                "value": "<declaration-value>"
             },
             {
                 "type": "prod",
@@ -21030,7 +21038,7 @@
                 "dfnName": "<selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3382
+                    "line": 3365
                 },
                 "value": "<complex-selector-list>"
             },
@@ -21040,7 +21048,7 @@
                 "dfnName": "<complex-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3384
+                    "line": 3367
                 },
                 "value": "<complex-selector>#"
             },
@@ -21050,7 +21058,7 @@
                 "dfnName": "<compound-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3386
+                    "line": 3369
                 },
                 "value": "<compound-selector>#"
             },
@@ -21060,7 +21068,7 @@
                 "dfnName": "<simple-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3388
+                    "line": 3371
                 },
                 "value": "<simple-selector>#"
             },
@@ -21070,7 +21078,7 @@
                 "dfnName": "<relative-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3390
+                    "line": 3373
                 },
                 "value": "<relative-selector>#"
             },
@@ -21080,7 +21088,7 @@
                 "dfnName": "<complex-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3393
+                    "line": 3376
                 },
                 "value": "<compound-selector> [ <combinator>? <compound-selector> ]*"
             },
@@ -21090,7 +21098,7 @@
                 "dfnName": "<relative-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3395
+                    "line": 3378
                 },
                 "value": "<combinator>? <complex-selector>"
             },
@@ -21100,7 +21108,7 @@
                 "dfnName": "<compound-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3397
+                    "line": 3380
                 },
                 "value": "[ <type-selector>? <subclass-selector>*\n[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
             },
@@ -21110,7 +21118,7 @@
                 "dfnName": "<simple-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3400
+                    "line": 3383
                 },
                 "value": "<type-selector> | <subclass-selector>"
             },
@@ -21120,7 +21128,7 @@
                 "dfnName": "<combinator>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3403
+                    "line": 3386
                 },
                 "value": "'>' | '+' | '~' | [ '|' '|' ]"
             },
@@ -21130,7 +21138,7 @@
                 "dfnName": "<type-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3405
+                    "line": 3388
                 },
                 "value": "<wq-name> | <ns-prefix>? '*'"
             },
@@ -21140,7 +21148,7 @@
                 "dfnName": "<ns-prefix>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3407
+                    "line": 3390
                 },
                 "attrs": {
                     "noexport": true
@@ -21153,7 +21161,7 @@
                 "dfnName": "<wq-name>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3409
+                    "line": 3392
                 },
                 "attrs": {
                     "noexport": true
@@ -21166,7 +21174,7 @@
                 "dfnName": "<subclass-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3411
+                    "line": 3394
                 },
                 "attrs": {
                     "noexport": true
@@ -21179,7 +21187,7 @@
                 "dfnName": "<id-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3414
+                    "line": 3397
                 },
                 "value": "<hash-token>"
             },
@@ -21189,7 +21197,7 @@
                 "dfnName": "<class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3416
+                    "line": 3399
                 },
                 "value": "'.' <ident-token>"
             },
@@ -21199,7 +21207,7 @@
                 "dfnName": "<attribute-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3418
+                    "line": 3401
                 },
                 "value": "'[' <wq-name> ']' |\n'[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
             },
@@ -21209,7 +21217,7 @@
                 "dfnName": "<attr-matcher>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3421
+                    "line": 3404
                 },
                 "attrs": {
                     "noexport": true
@@ -21222,7 +21230,7 @@
                 "dfnName": "<attr-modifier>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3423
+                    "line": 3406
                 },
                 "attrs": {
                     "noexport": true
@@ -21235,7 +21243,7 @@
                 "dfnName": "<pseudo-class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3425
+                    "line": 3408
                 },
                 "value": "':' <ident-token> |\n':' <function-token> <any-value> ')'"
             },
@@ -21245,7 +21253,7 @@
                 "dfnName": "<pseudo-element-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3428
+                    "line": 3411
                 },
                 "value": "':' <pseudo-class-selector>"
             },
