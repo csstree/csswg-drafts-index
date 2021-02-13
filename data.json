@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-12T00:50:37.121Z",
-    "elapsedTime": 321,
+    "createdAt": "2021-02-13T00:50:15.263Z",
+    "elapsedTime": 333,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f7ae306b6450a4a9c06904b26eeb59fb9a1d3276",
-            "commitShort": "f7ae306b64",
+            "commit": "e67e9d9fed3efad98486abbcb9defea6a974a363",
+            "commitShort": "e67e9d9fed",
             "commitDate": null,
             "branch": "main"
         },
@@ -1675,6 +1675,7 @@
                     "ed": "https://drafts.csswg.org/css-multicol/",
                     "tr": "https://www.w3.org/TR/css-multicol-1/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2019/WD-css-multicol-1-20191015/",
                         "https://www.w3.org/TR/2018/WD-css-multicol-1-20180528/",
                         "https://www.w3.org/TR/2017/WD-css-multicol-1-20171005/",
                         "https://www.w3.org/TR/2011/CR-css3-multicol-20110412/",
@@ -3789,7 +3790,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1659
+                    "line": 1662
                 },
                 "props": {
                     "name": "place-self",
@@ -3807,7 +3808,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1821
+                    "line": 1824
                 },
                 "props": {
                     "name": "justify-items",
@@ -3825,7 +3826,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1858
+                    "line": 1861
                 },
                 "props": {
                     "name": "align-items",
@@ -3843,7 +3844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1878
+                    "line": 1881
                 },
                 "props": {
                     "name": "place-items",
@@ -3861,7 +3862,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1926
+                    "line": 1929
                 },
                 "props": {
                     "name": "row-gap",
@@ -3879,7 +3880,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1926
+                    "line": 1929
                 },
                 "props": {
                     "name": "column-gap",
@@ -3897,7 +3898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2015
+                    "line": 2018
                 },
                 "props": {
                     "name": "gap",
@@ -10103,7 +10104,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 414
+                    "line": 411
                 },
                 "props": {
                     "name": "column-width",
@@ -10121,7 +10122,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 507
+                    "line": 504
                 },
                 "props": {
                     "name": "column-count",
@@ -10139,7 +10140,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 568
+                    "line": 565
                 },
                 "props": {
                     "name": "columns",
@@ -10151,7 +10152,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 793
+                    "line": 790
                 },
                 "props": {
                     "name": "column-rule-color",
@@ -10169,7 +10170,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 823
+                    "line": 820
                 },
                 "props": {
                     "name": "column-rule-style",
@@ -10187,7 +10188,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 848
+                    "line": 845
                 },
                 "props": {
                     "name": "column-rule-width",
@@ -10205,7 +10206,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 873
+                    "line": 870
                 },
                 "props": {
                     "name": "column-rule",
@@ -10217,7 +10218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 959
+                    "line": 956
                 },
                 "props": {
                     "name": "column-span",
@@ -10235,7 +10236,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1235
+                    "line": 1232
                 },
                 "props": {
                     "name": "column-fill",
@@ -18345,7 +18346,7 @@
                 "dfnName": "<boolean-constant>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 52
+                    "line": 68
                 },
                 "attrs": {
                     "export": true
@@ -18358,7 +18359,7 @@
                 "dfnName": "<condition>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 59
+                    "line": 75
                 },
                 "value": "not <condition-in-parens>\n| <condition-in-parens> [ and <condition-in-parens> ]*\n| <condition-in-parens> [ or <condition-in-parens> ]*"
             },
@@ -18368,7 +18369,7 @@
                 "dfnName": "<condition-in-parens>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 62
+                    "line": 78
                 },
                 "value": "( <condition> ) | <atomic-condition>"
             },
@@ -18378,7 +18379,7 @@
                 "dfnName": "<atomic-condition>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 63
+                    "line": 79
                 },
                 "value": "<comparison-operand> <comparison-operator> <comparison-operand> | <boolean-constant>"
             },
@@ -18388,7 +18389,7 @@
                 "dfnName": "<comparison-operand>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 64
+                    "line": 80
                 },
                 "value": "<dimension> | <number> | <percentage> | <ident>"
             },
@@ -18398,7 +18399,7 @@
                 "dfnName": "<comparison-operator>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 65
+                    "line": 81
                 },
                 "value": "[ '=' | '>=' | '>' | '<' | '<=' ]"
             },
@@ -18408,7 +18409,7 @@
                 "dfnName": "<consequent>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 165
+                    "line": 184
                 },
                 "value": "<declaration-value>"
             },
@@ -18418,7 +18419,7 @@
                 "dfnName": "<antecedent>",
                 "source": {
                     "spec": "css-conditional-values-1",
-                    "line": 166
+                    "line": 185
                 },
                 "value": "<declaration-value>"
             },
