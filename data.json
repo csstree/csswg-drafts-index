@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-15T00:51:18.606Z",
-    "elapsedTime": 330,
+    "createdAt": "2021-02-16T00:51:08.573Z",
+    "elapsedTime": 408,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e67e9d9fed3efad98486abbcb9defea6a974a363",
-            "commitShort": "e67e9d9fed",
+            "commit": "334dc18edfa43515f50064a3591ce461973b66bf",
+            "commitShort": "334dc18edf",
             "commitDate": null,
             "branch": "main"
         },
@@ -2185,6 +2185,7 @@
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-ruby-1/",
                     "tr": "https://www.w3.org/TR/css-ruby-1/",
+                    "testSuite": "https://www.w3.org/International/tests/repo/results/css-ruby",
                     "previousVersion": [
                         "https://www.w3.org/TR/2014/WD-css-ruby-1-20140805/",
                         "https://www.w3.org/TR/2013/WD-css3-ruby-20130919/"
@@ -11305,7 +11306,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1111
+                    "line": 1112
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11322,7 +11323,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1195
+                    "line": 1196
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11339,7 +11340,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1284
+                    "line": 1285
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11356,7 +11357,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1442
+                    "line": 1458
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11373,7 +11374,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1541
+                    "line": 1557
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11390,7 +11391,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1632
+                    "line": 1648
                 },
                 "props": {
                     "name": "ruby-span",
