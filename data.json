@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-16T00:51:08.573Z",
-    "elapsedTime": 408,
+    "createdAt": "2021-02-17T00:50:49.783Z",
+    "elapsedTime": 384,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "334dc18edfa43515f50064a3591ce461973b66bf",
-            "commitShort": "334dc18edf",
+            "commit": "4e5002119d7c65cce5bf1b5311b5f7568f05831d",
+            "commitShort": "4e5002119d",
             "commitDate": null,
             "branch": "main"
         },
@@ -7859,7 +7859,7 @@
                     "value": "auto | [<number>]#\nnormal | <percentage>",
                     "initial": "normal\nnormal",
                     "for": "@font-face\n</pre>\n<dl dfn-type=\"value\" dfn-for=\"@font-face/font-size\">\n<dt><dfn>auto</dfn></dt>\n<dd>\nThe font matches any font size\n</dd>\n<dt><dfn><<number>></dfn></dt>\n<dd>\nIf a single <<number>> is given\nthe font matches that specific font size, only.\nIf two <<number>>s are given,\nthey specify a range of font sizes which will match.\n</dd>\n</dl>\n<!-- should this stay in Fonts 4 or be here in Fonts 5? -->\n<h3 id=\"font-metrics-override-desc\">\n@font-face",
-                    "defaultFontMetricsOverriding": "the 'ascent-override', 'descent-override' and 'line-gap-override' descriptors</h3>\n<pre class='descdef'>"
+                    "defaultFontMetricsOverriding": "the 'ascent-override', 'descent-override', 'line-gap-override', and 'advance-override' descriptors</h3>\n<pre class='descdef'>"
                 },
                 "name": "font-size\nascent-override"
             },
@@ -7895,7 +7895,21 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 240
+                    "line": 171
+                },
+                "props": {
+                    "name": "advance-override",
+                    "value": "normal | <percentage>",
+                    "for": "@font-face",
+                    "initial": "normal"
+                },
+                "name": "advance-override"
+            },
+            {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 297
                 },
                 "props": {
                     "name": "superscript-position-override",
@@ -7909,7 +7923,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 247
+                    "line": 304
                 },
                 "props": {
                     "name": "subscript-position-override",
@@ -7923,7 +7937,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 254
+                    "line": 311
                 },
                 "props": {
                     "name": "superscript-size-override",
@@ -7937,7 +7951,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 261
+                    "line": 318
                 },
                 "props": {
                     "name": "subscript-size-override",
@@ -11306,7 +11320,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1112
+                    "line": 1244
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11323,7 +11337,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1196
+                    "line": 1328
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11340,7 +11354,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1285
+                    "line": 1417
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11357,7 +11371,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1458
+                    "line": 1622
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11374,7 +11388,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1557
+                    "line": 1726
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11391,7 +11405,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1648
+                    "line": 1817
                 },
                 "props": {
                     "name": "ruby-span",
@@ -12935,7 +12949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 825
+                    "line": 833
                 },
                 "props": {
                     "name": "white-space",
@@ -12953,7 +12967,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2301
+                    "line": 2309
                 },
                 "props": {
                     "name": "tab-size",
@@ -12971,7 +12985,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2861
+                    "line": 2869
                 },
                 "props": {
                     "name": "word-break",
@@ -12989,7 +13003,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3224
+                    "line": 3232
                 },
                 "props": {
                     "name": "line-break",
@@ -13007,7 +13021,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3630
+                    "line": 3638
                 },
                 "props": {
                     "name": "hyphens",
@@ -13025,7 +13039,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3792
+                    "line": 3800
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -13043,7 +13057,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3792
+                    "line": 3800
                 },
                 "props": {
                     "name": "word-wrap",
@@ -13061,7 +13075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3972
+                    "line": 3980
                 },
                 "props": {
                     "name": "text-align",
@@ -13078,7 +13092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4206
+                    "line": 4214
                 },
                 "props": {
                     "name": "text-align-all",
@@ -13096,7 +13110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4234
+                    "line": 4242
                 },
                 "props": {
                     "name": "text-align-last",
@@ -13114,7 +13128,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4285
+                    "line": 4293
                 },
                 "props": {
                     "name": "text-justify",
@@ -13132,7 +13146,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4613
+                    "line": 4621
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13151,7 +13165,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4770
+                    "line": 4778
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13169,7 +13183,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5275
+                    "line": 5283
                 },
                 "props": {
                     "name": "text-indent",
@@ -13188,7 +13202,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5588
+                    "line": 5596
                 },
                 "props": {
                     "name": "hanging-punctuation",
