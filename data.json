@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-17T00:50:49.783Z",
-    "elapsedTime": 384,
+    "createdAt": "2021-02-18T00:58:36.894Z",
+    "elapsedTime": 393,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4e5002119d7c65cce5bf1b5311b5f7568f05831d",
-            "commitShort": "4e5002119d",
+            "commit": "bb803b0caac9deb551747d619735d584e6a8eea7",
+            "commitShort": "bb803b0caa",
             "commitDate": null,
             "branch": "main"
         },
@@ -5863,7 +5863,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3779
+                    "line": 3781
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5877,7 +5877,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4306
+                    "line": 4308
                 },
                 "props": {
                     "name": "opacity",
@@ -8356,7 +8356,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 897
+                    "line": 898
                 },
                 "props": {
                     "name": "display",
@@ -8368,7 +8368,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1489
+                    "line": 1490
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -8386,7 +8386,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1489
+                    "line": 1490
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -8404,7 +8404,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2197
+                    "line": 2198
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -8422,7 +8422,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2354
+                    "line": 2355
                 },
                 "props": {
                     "name": "grid-template",
@@ -8436,7 +8436,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2496
+                    "line": 2497
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -8454,7 +8454,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2496
+                    "line": 2497
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -8472,7 +8472,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2569
+                    "line": 2570
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -8490,7 +8490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2725
+                    "line": 2726
                 },
                 "props": {
                     "name": "grid",
@@ -8504,7 +8504,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3082
+                    "line": 3083
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -8522,7 +8522,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3082
+                    "line": 3083
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -8540,7 +8540,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3082
+                    "line": 3083
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -8558,7 +8558,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3082
+                    "line": 3083
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -8576,7 +8576,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3269
+                    "line": 3270
                 },
                 "props": {
                     "name": "grid-row",
@@ -8593,7 +8593,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3269
+                    "line": 3270
                 },
                 "props": {
                     "name": "grid-column",
@@ -8610,7 +8610,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3290
+                    "line": 3291
                 },
                 "props": {
                     "name": "grid-area",
@@ -11320,7 +11320,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1244
+                    "line": 1286
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11337,7 +11337,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1328
+                    "line": 1370
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11354,7 +11354,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1417
+                    "line": 1495
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11371,7 +11371,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1622
+                    "line": 1700
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11388,7 +11388,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1726
+                    "line": 1804
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11405,7 +11405,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1817
+                    "line": 1895
                 },
                 "props": {
                     "name": "ruby-span",
@@ -18031,7 +18031,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1866
+                    "line": 1868
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18041,7 +18041,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2440
+                    "line": 2442
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18051,7 +18051,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2878
+                    "line": 2880
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18061,7 +18061,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2930
+                    "line": 2932
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18071,7 +18071,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3125
+                    "line": 3127
                 },
                 "value": "color( [ [<ident> | <dashed-ident>] [ <number-percentage>+ | <string> ] [ / <alpha-value> ]? ]# , <color>? )"
             },
@@ -18081,7 +18081,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4152
+                    "line": 4154
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18091,7 +18091,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4153
+                    "line": 4155
                 },
                 "value": "<number> | <percentage>"
             },
@@ -19317,7 +19317,7 @@
                 "dfnName": "<track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1565
+                    "line": 1566
                 },
                 "value": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
             },
@@ -19327,7 +19327,7 @@
                 "dfnName": "<auto-track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1566
+                    "line": 1567
                 },
                 "value": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
             },
@@ -19337,7 +19337,7 @@
                 "dfnName": "<explicit-track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1568
+                    "line": 1569
                 },
                 "value": "[ <line-names>? <track-size> ]+ <line-names>?"
             },
@@ -19347,7 +19347,7 @@
                 "dfnName": "<line-name-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1570
+                    "line": 1571
                 },
                 "value": "[ <line-names> | <name-repeat> ]+"
             },
@@ -19357,7 +19357,7 @@
                 "dfnName": "<track-size>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1571
+                    "line": 1572
                 },
                 "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
             },
@@ -19367,7 +19367,7 @@
                 "dfnName": "<fixed-size>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1572
+                    "line": 1573
                 },
                 "value": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
             },
@@ -19377,7 +19377,7 @@
                 "dfnName": "<track-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1573
+                    "line": 1574
                 },
                 "value": "<length-percentage> | <flex> | min-content | max-content | auto"
             },
@@ -19387,7 +19387,7 @@
                 "dfnName": "<inflexible-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1574
+                    "line": 1575
                 },
                 "value": "<length-percentage> | min-content | max-content | auto"
             },
@@ -19397,7 +19397,7 @@
                 "dfnName": "<fixed-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1575
+                    "line": 1576
                 },
                 "value": "<length-percentage>"
             },
@@ -19407,7 +19407,7 @@
                 "dfnName": "<line-names>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1576
+                    "line": 1577
                 },
                 "value": "'[' <custom-ident>* ']'"
             },
@@ -19417,7 +19417,7 @@
                 "dfnName": "<<track-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1826
+                    "line": 1827
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
             },
@@ -19427,7 +19427,7 @@
                 "dfnName": "<<auto-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1827
+                    "line": 1828
                 },
                 "value": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19437,7 +19437,7 @@
                 "dfnName": "<<fixed-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1828
+                    "line": 1829
                 },
                 "value": "repeat( [ <integer [1, ∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -19447,7 +19447,7 @@
                 "dfnName": "<<name-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1829
+                    "line": 1830
                 },
                 "value": "repeat( [ <integer [1, ∞]> | auto-fill ], <line-names>+)"
             },
@@ -19457,7 +19457,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3094
+                    "line": 3095
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
