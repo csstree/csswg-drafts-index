@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-19T00:51:13.092Z",
-    "elapsedTime": 335,
+    "createdAt": "2021-02-20T00:50:54.203Z",
+    "elapsedTime": 339,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "700c8ba4def9415a144bc81dce0e5f7f1ae0871a",
-            "commitShort": "700c8ba4de",
+            "commit": "e937d962aaf0452805e50f00901beccc6f12a234",
+            "commitShort": "e937d962aa",
             "commitDate": null,
             "branch": "main"
         },
@@ -5799,7 +5799,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 396
+                    "line": 408
                 },
                 "props": {
                     "name": "all",
@@ -11354,7 +11354,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1495
+                    "line": 1497
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11371,7 +11371,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1700
+                    "line": 1702
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11388,7 +11388,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1804
+                    "line": 1806
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11405,7 +11405,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1895
+                    "line": 1897
                 },
                 "props": {
                     "name": "ruby-span",
