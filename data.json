@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-22T00:52:38.752Z",
-    "elapsedTime": 413,
+    "createdAt": "2021-02-23T00:51:51.521Z",
+    "elapsedTime": 385,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e937d962aaf0452805e50f00901beccc6f12a234",
-            "commitShort": "e937d962aa",
+            "commit": "7b2b399331f2dbd4fb5d875c662975fb8f690afd",
+            "commitShort": "7b2b399331",
             "commitDate": null,
             "branch": "main"
         },
@@ -1855,7 +1855,7 @@
                         "-webkit-box-orient"
                     ],
                     "atRisk": "the 'max-lines' property",
-                    "statusText": "The desciption of 'overflow' and its longhands is considered\nsignificantly more complete and correct than previous working drafs\nor than [[CSS2]],\nbut a few questions and issues remain open."
+                    "statusText": "The description of 'overflow' and its longhands is considered\nsignificantly more complete and correct than previous working drafts\nor than [[CSS2]],\nbut a few questions and issues remain open."
                 }
             },
             {
@@ -7899,7 +7899,7 @@
                 },
                 "props": {
                     "name": "advance-override",
-                    "value": "normal | <percentage>",
+                    "value": "normal | [ <percentage> <percentage>? ]",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -7909,7 +7909,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 297
+                    "line": 326
                 },
                 "props": {
                     "name": "superscript-position-override",
@@ -7923,7 +7923,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 304
+                    "line": 333
                 },
                 "props": {
                     "name": "subscript-position-override",
@@ -7937,7 +7937,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 311
+                    "line": 340
                 },
                 "props": {
                     "name": "superscript-size-override",
@@ -7951,7 +7951,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 318
+                    "line": 347
                 },
                 "props": {
                     "name": "subscript-size-override",
@@ -12015,7 +12015,7 @@
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "see below",
-                    "computedValue": "specfied keyword or percentage",
+                    "computedValue": "specified keyword or percentage",
                     "animationType": "by computed value",
                     "canonicalOrder": "N/A"
                 },
@@ -21554,7 +21554,7 @@
                     "spec": "css-highlight-api-1",
                     "line": 221
                 },
-                "content": "partial namespace CSS {\n    readonly attribute HighlightsRegister highlights;\n};\n[Exposed=Window]\ninterface HighlightsRegister {\n    setlike<Highlight>;\n    HighlightsRegister add(Highlight value);\n};"
+                "content": "partial namespace CSS {\n    readonly attribute HighlightRegistry highlights;\n};\n[Exposed=Window]\ninterface HighlightRegistry {\n    setlike<Highlight>;\n    HighlightRegistry add(Highlight value);\n};"
             },
             {
                 "type": "idl",
