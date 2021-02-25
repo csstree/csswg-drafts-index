@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-24T00:52:29.980Z",
-    "elapsedTime": 417,
+    "createdAt": "2021-02-25T00:52:19.109Z",
+    "elapsedTime": 406,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fd1b37cef9c87ba8dab55308184f7610b03c0712",
-            "commitShort": "fd1b37cef9",
+            "commit": "129f7318507b51608f95acfe1620503d01de3c99",
+            "commitShort": "129f731850",
             "commitDate": null,
             "branch": "main"
         },
@@ -1436,17 +1436,11 @@
                         "background positioning area",
                         "border image area",
                         "<meetorslice>",
-                        "<ending-shape>",
-                        "Map",
-                        "center",
-                        "content"
+                        "<ending-shape>"
                     ],
                     "ignoredVars": [
                         "start image",
                         "end image"
-                    ],
-                    "linkDefaults": [
-                        "css2 (property) display"
                     ],
                     "includeCanIUsePanels": "yes"
                 }
@@ -11324,8 +11318,8 @@
                 },
                 "props": {
                     "name": "ruby-position",
-                    "value": "over | under | inter-character",
-                    "initial": "over",
+                    "value": "[ alternate || [ over | under ] ] | inter-character",
+                    "initial": "alternate",
                     "appliesTo": "ruby annotation containers",
                     "inherited": "yes",
                     "computedValue": "specified keyword",
@@ -11337,7 +11331,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1370
+                    "line": 1387
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11354,7 +11348,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1497
+                    "line": 1514
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11371,7 +11365,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1702
+                    "line": 1719
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11388,7 +11382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1806
+                    "line": 1823
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11405,7 +11399,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1897
+                    "line": 1914
                 },
                 "props": {
                     "name": "ruby-span",
