@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-02-26T00:52:32.309Z",
-    "elapsedTime": 445,
+    "createdAt": "2021-02-27T00:52:41.191Z",
+    "elapsedTime": 495,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6f7f0b41e48d64847891891d9e9940da9fad6cc7",
-            "commitShort": "6f7f0b41e4",
+            "commit": "2b501f0f3940ed9e2fbe13fa82a5608c82b7d9cc",
+            "commitShort": "2b501f0f39",
             "commitDate": null,
             "branch": "main"
         },
@@ -739,6 +739,36 @@
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241",
                         "Vladimir Levin, Google, vmpstr@google.com, w3cid 75295"
+                    ],
+                    "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
+                    "testSuite": "https://test.csswg.org/harness/results/css-contain-1_dev/",
+                    "wptPathPrefix": "css/css-contain/",
+                    "atRisk": "[=style containment=] and the ''contain: style'' value"
+                }
+            },
+            {
+                "file": "css-contain-3/Overview.bs",
+                "id": "css-contain-3",
+                "props": {
+                    "title": "CSS Containment Module Level 2",
+                    "level": "2",
+                    "shortname": "css-contain",
+                    "status": "ED",
+                    "workStatus": "stable",
+                    "group": "csswg",
+                    "ed": "https://drafts.csswg.org/css-contain-2/",
+                    "previousVersion": [
+                        "https://www.w3.org/TR/2020/WD-css-contain-2-20201216/",
+                        "https://www.w3.org/TR/2020/WD-css-contain-2-20200603/",
+                        "https://www.w3.org/TR/2019/WD-css-contain-2-20191111/",
+                        "https://www.w3.org/TR/2019/WD-css-contain-2-20191015/"
+                    ],
+                    "tr": "https://www.w3.org/TR/css-contain-2/",
+                    "editor": [
+                        "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
+                        "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241",
+                        "Vladimir Levin, Google, vmpstr@google.com, w3cid 75295",
+                        "Miriam E. Suzanne, Invited Expert, http://miriamsuzanne.com/contact, w3cid 117151"
                     ],
                     "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
                     "testSuite": "https://test.csswg.org/harness/results/css-contain-1_dev/",
@@ -8769,7 +8799,7 @@
                 },
                 "props": {
                     "name": "image-rendering",
-                    "value": "auto | smooth | high-quality | crisp-edges | pixelated",
+                    "value": "auto | smooth | high-quality | pixelated | crisp-edges",
                     "initial": "auto",
                     "appliesTo": "all elements",
                     "inherited": "yes",
@@ -17471,7 +17501,7 @@
                 },
                 "props": {
                     "name": "prefers-contrast",
-                    "value": "no-preference | less | more | forced",
+                    "value": "no-preference | less | more",
                     "for": "@media",
                     "type": "discrete"
                 },
@@ -17481,7 +17511,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2759
+                    "line": 2724
                 },
                 "props": {
                     "name": "forced-colors",
@@ -17495,7 +17525,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2773
+                    "line": 2789
                 },
                 "props": {
                     "name": "prefers-color-scheme",
@@ -17509,7 +17539,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2842
+                    "line": 2858
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -17523,7 +17553,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3024
+                    "line": 3040
                 },
                 "props": {
                     "name": "device-width",
@@ -17537,7 +17567,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3053
+                    "line": 3069
                 },
                 "props": {
                     "name": "device-height",
@@ -17551,7 +17581,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3078
+                    "line": 3094
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -18105,7 +18135,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 116
+                    "line": 126
                 },
                 "value": "color-mix(<colorspace>?, <mix-component>#{2})"
             },
@@ -18115,7 +18145,7 @@
                 "dfnName": "<mix-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 120
+                    "line": 130
                 },
                 "value": "<color> [ <percentage> | <color-adjuster>+ ]?"
             },
@@ -18125,7 +18155,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 125
+                    "line": 135
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
             },
@@ -18135,7 +18165,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 129
+                    "line": 139
                 },
                 "value": "red || green || blue"
             },
@@ -18145,7 +18175,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 130
+                    "line": 140
                 },
                 "value": "<hue-adjuster> || saturation || lightness"
             },
@@ -18155,7 +18185,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 131
+                    "line": 141
                 },
                 "value": "<hue-adjuster> ||  whiteness || blackness"
             },
@@ -18165,7 +18195,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 132
+                    "line": 142
                 },
                 "value": "x || y || z"
             },
@@ -18175,7 +18205,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 133
+                    "line": 143
                 },
                 "value": "lightness || a || b"
             },
@@ -18185,7 +18215,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 134
+                    "line": 144
                 },
                 "value": "lightness || chroma || <hue-adjuster>"
             },
@@ -18195,7 +18225,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 135
+                    "line": 145
                 },
                 "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
             },
@@ -18205,7 +18235,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 479
+                    "line": 499
                 },
                 "value": "color-contrast( <color> vs <color>#  )"
             },
@@ -18215,7 +18245,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 568
+                    "line": 598
                 },
                 "value": "color-adjust( <color> [ color-adjuster <colorspace>? ]? )"
             },
@@ -18225,19 +18255,9 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 603
+                    "line": 738
                 },
-                "value": "rgb([from <color>]? <percentage>{3} [ / <alpha-value> ]? ) |\nrgb([from <color>]? <number>{3} [ / <alpha-value> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "alpha-value",
-                "dfnName": "<alpha-value>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 605
-                },
-                "value": "<number> | <percentage>"
+                "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
             {
                 "type": "prod",
@@ -18245,19 +18265,9 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 630
+                    "line": 767
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "hue",
-                "dfnName": "<hue>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 631
-                },
-                "value": "<number> | <angle>"
             },
             {
                 "type": "prod",
@@ -18265,7 +18275,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 655
+                    "line": 796
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18275,7 +18285,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 670
+                    "line": 816
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18285,7 +18295,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 707
+                    "line": 855
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -20638,7 +20648,7 @@
                 "dfnName": "var()",
                 "source": {
                     "spec": "css-variables-1",
-                    "line": 426
+                    "line": 425
                 },
                 "value": "var( <custom-property-name> , <declaration-value>? )"
             },
