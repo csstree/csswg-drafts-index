@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-03-01T20:44:24.256Z",
-    "elapsedTime": 349,
+    "createdAt": "2021-03-01T22:11:54.059Z",
+    "elapsedTime": 378,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "eaea01a7ff4f667055b67b880415a0490c85b0fa",
-            "commitShort": "eaea01a7ff",
+            "commit": "81d9d324b5bea4157683010a7ebd78a98cb45601",
+            "commitShort": "81d9d324b5",
             "commitDate": null,
             "branch": "main"
         },
@@ -18236,7 +18236,7 @@
                     "spec": "css-color-5",
                     "line": 507
                 },
-                "value": "color-contrast( <color> vs <color>#  )"
+                "value": "color-contrast( <color> vs <color>#{2,}  )"
             },
             {
                 "type": "prod",
