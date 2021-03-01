@@ -3,6 +3,8 @@ name: Deploy to GH-pages
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
   schedule:
     # run every day
     - cron:  '0 0 * * *'
