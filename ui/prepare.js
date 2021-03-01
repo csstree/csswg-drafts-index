@@ -1,3 +1,4 @@
+const csstree = require('css-tree');
 const TZ = new Date().getTimezoneOffset() * 60 * 1000;
 
 function generateColor(value) {
@@ -105,7 +106,7 @@ discovery.setPrepare(function(data, { defineObjectMarker, addQueryHelpers }) {
     addQueryHelpers({
         isArray: value => Array.isArray(value),
         color: value => colorMap.has(value) ? colorMap.get(value) : generateColor(value),
-        datetime: value => new Date(value - TZ).toISOString().replace(/T/, ' ').replace(/\..+$/, ''),
+        datetime: value => new Date((typeof value === 'number' ? value : Date.parse(value)) - TZ).toISOString().replace(/T/, ' ').replace(/\..+$/, ''),
         syntaxChildren(current) {
             const children = [];
 

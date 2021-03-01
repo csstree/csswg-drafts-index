@@ -1,14 +1,9 @@
-const path = require('path');
-
 module.exports = {
     name: 'CSSWG drafts index',
+    basedir: __dirname,
     data: () => require('../index.js'),
-    prepare: path.join(__dirname, 'prepare.js'),
+    prepare: './prepare.js',
     view: {
-        basedir: __dirname,
-        libs: {
-            csstree: '../node_modules/css-tree/dist/csstree.js'
-        },
         assets: [
             './page/common.css',
             './page/default.css',

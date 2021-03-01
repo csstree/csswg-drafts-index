@@ -1,4 +1,5 @@
-/* global discovery, csstree */
+/* global discovery */
+const csstree = require('css-tree');
 
 function escapeHtml(str) {
     return str
