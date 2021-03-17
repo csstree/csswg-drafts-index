@@ -360,52 +360,54 @@ function processBs(fn) {
     }
 }
 
-fs.readdirSync(CSSWG_PATH).forEach(function(p) {
-    const fpath = path.join(CSSWG_PATH, p);
+module.exports = function generateData() {
+    fs.readdirSync(CSSWG_PATH).forEach(function(p) {
+        const fpath = path.join(CSSWG_PATH, p);
 
-    if (fs.statSync(fpath).isDirectory()) {
-        let fn;
+        if (fs.statSync(fpath).isDirectory()) {
+            let fn;
 
-        if (ignoreDirs.has(p)) {
-            return;
+            if (ignoreDirs.has(p)) {
+                return;
+            }
+
+            if (fs.existsSync(fn = path.join(fpath, 'Overview.bs'))) {
+                processBs(fn);
+            } else if (
+                fs.existsSync(fn = path.join(fpath, 'Overview.src.html')) ||
+                fs.existsSync(fn = path.join(fpath, 'Fonts.src.html'))
+            ) {
+                processBs(fn);
+                // console.log('HTML:', fn);
+                // TODO: process html files too
+            } else {
+                console.log('Skip:', fpath);
+                // console.log('SKIP:', fpath);
+            }
         }
+    });
 
-        if (fs.existsSync(fn = path.join(fpath, 'Overview.bs'))) {
-            processBs(fn);
-        } else if (
-            fs.existsSync(fn = path.join(fpath, 'Overview.src.html')) ||
-            fs.existsSync(fn = path.join(fpath, 'Fonts.src.html'))
-        ) {
-            processBs(fn);
-            // console.log('HTML:', fn);
-            // TODO: process html files too
-        } else {
-            console.log('Skip:', fpath);
-            // console.log('SKIP:', fpath);
-        }
-    }
-});
-
-const {
-    sha: commit,
-    abbreviatedSha: commitShort,
-    branch,
-    committerDate: commitDate
-} = getRepoInfo(CSSWG_PATH);
-module.exports = {
-    source: {
-        home: 'https://github.com/w3c/csswg-drafts/',
-        commit,
-        commitShort,
-        commitDate,
-        branch
-    },
-    specs,
-    defs,
-    prods,
-    idls
-};
+    const {
+        sha: commit,
+        abbreviatedSha: commitShort,
+        branch,
+        committerDate: commitDate
+    } = getRepoInfo(CSSWG_PATH);
+    return {
+        source: {
+            home: 'https://github.com/w3c/csswg-drafts/',
+            commit,
+            commitShort,
+            commitDate,
+            branch
+        },
+        specs,
+        defs,
+        prods,
+        idls
+    };
+}
 
 if (process.mainModule === module) {
-    console.log(module.exports);
+    console.log(generateData());
 }

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'CSSWG drafts index',
     basedir: __dirname,
-    data: () => require('../index.js'),
+    data: '../index.js',
     prepare: './prepare.js',
     view: {
         assets: [

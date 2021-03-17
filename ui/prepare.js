@@ -37,7 +37,7 @@ function parseDefSyntax(entry, key) {
     }
 }
 
-discovery.setPrepare(function(data, { defineObjectMarker, addQueryHelpers }) {
+export default function(data, { defineObjectMarker, addQueryHelpers }) {
     const colorMap = new Map([
         ['FPWD', '#ffbdbd'],
         ['WD',   '#ffcb88'],
@@ -123,4 +123,4 @@ discovery.setPrepare(function(data, { defineObjectMarker, addQueryHelpers }) {
         }
     });
 
-});
+};
