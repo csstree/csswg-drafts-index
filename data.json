@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-03-23T00:56:27.937Z",
-    "elapsedTime": 420,
+    "createdAt": "2021-03-24T00:57:13.101Z",
+    "elapsedTime": 388,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0b0d66cd7addc3b0fbdf68e712a86210045358ca",
-            "commitShort": "0b0d66cd7a",
+            "commit": "d1883c43b466159b058168db7e505adc45a8c721",
+            "commitShort": "d1883c43b4",
             "commitDate": null,
             "branch": "main"
         },
@@ -21473,7 +21473,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 79
+                    "line": 80
                 },
                 "content": "typedef (ArrayBuffer or ArrayBufferView) BinaryData;\ndictionary FontFaceDescriptors {\n    CSSOMString style = \"normal\";\n    CSSOMString weight = \"normal\";\n    CSSOMString stretch = \"normal\";\n    CSSOMString unicodeRange = \"U+0-10FFFF\";\n    CSSOMString variant = \"normal\";\n    CSSOMString featureSettings = \"normal\";\n    CSSOMString variationSettings = \"normal\";\n    CSSOMString display = \"auto\";\n    CSSOMString ascentOverride = \"normal\";\n    CSSOMString descentOverride = \"normal\";\n    CSSOMString lineGapOverride = \"normal\";\n};\nenum FontFaceLoadStatus { \"unloaded\", \"loading\", \"loaded\", \"error\" };\n[Exposed=(Window,Worker)]\ninterface FontFace {\n    constructor(CSSOMString family, (CSSOMString or BinaryData) source,\n                optional FontFaceDescriptors descriptors = {});\n    attribute CSSOMString family;\n    attribute CSSOMString style;\n    attribute CSSOMString weight;\n    attribute CSSOMString stretch;\n    attribute CSSOMString unicodeRange;\n    attribute CSSOMString variant;\n    attribute CSSOMString featureSettings;\n    attribute CSSOMString variationSettings;\n    attribute CSSOMString display;\n    attribute CSSOMString ascentOverride;\n    attribute CSSOMString descentOverride;\n    attribute CSSOMString lineGapOverride;\n    readonly attribute FontFaceLoadStatus status;\n    Promise<FontFace> load();\n    readonly attribute Promise<FontFace> loaded;\n};"
             },
@@ -21481,15 +21481,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 442
+                    "line": 443
                 },
-                "content": "dictionary FontFaceSetLoadEventInit : EventInit {\n    sequence<FontFace> fontfaces = [];\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceSetLoadEvent : Event {\n    constructor(CSSOMString type, optional FontFaceSetLoadEventInit eventInitDict = {});\n    [SameObject] readonly attribute FrozenArray<FontFace> fontfaces;\n};\nenum FontFaceSetLoadStatus { \"loading\", \"loaded\" };\ncallback ForEachCallback = undefined (FontFace font, long index, FontFaceSet self);\n[Exposed=(Window,Worker)]\ninterface FontFaceSet : EventTarget {\n    constructor(sequence<FontFace> initialFaces);\n    // FontFaceSet is Set-like!\n    setlike<FontFace>;\n    FontFaceSet add(FontFace font);\n    boolean delete(FontFace font);\n    undefined clear();\n    // events for when loading state changes\n    attribute EventHandler onloading;\n    attribute EventHandler onloadingdone;\n    attribute EventHandler onloadingerror;\n    // check and start loads if appropriate\n    // and fulfill promise when all loads complete\n    Promise<sequence<FontFace>> load(CSSOMString font, optional CSSOMString text = \" \");\n    // return whether all fonts in the fontlist are loaded\n    // (does not initiate load if not available)\n    boolean check(CSSOMString font, optional CSSOMString text = \" \");\n    // async notification that font loading and layout operations are done\n    readonly attribute Promise<FontFaceSet> ready;\n    // loading state, \"loading\" while one or more fonts loading, \"loaded\" otherwise\n    readonly attribute FontFaceSetLoadStatus status;\n};"
+                "content": "dictionary FontFaceSetLoadEventInit : EventInit {\n    sequence<FontFace> fontfaces = [];\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceSetLoadEvent : Event {\n    constructor(CSSOMString type, optional FontFaceSetLoadEventInit eventInitDict = {});\n    [SameObject] readonly attribute FrozenArray<FontFace> fontfaces;\n};\nenum FontFaceSetLoadStatus { \"loading\", \"loaded\" };\n[Exposed=(Window,Worker)]\ninterface FontFaceSet : EventTarget {\n    constructor(sequence<FontFace> initialFaces);\n    // FontFaceSet is Set-like!\n    setlike<FontFace>;\n    FontFaceSet add(FontFace font);\n    boolean delete(FontFace font);\n    undefined clear();\n    // events for when loading state changes\n    attribute EventHandler onloading;\n    attribute EventHandler onloadingdone;\n    attribute EventHandler onloadingerror;\n    // check and start loads if appropriate\n    // and fulfill promise when all loads complete\n    Promise<sequence<FontFace>> load(CSSOMString font, optional CSSOMString text = \" \");\n    // return whether all fonts in the fontlist are loaded\n    // (does not initiate load if not available)\n    boolean check(CSSOMString font, optional CSSOMString text = \" \");\n    // async notification that font loading and layout operations are done\n    readonly attribute Promise<FontFaceSet> ready;\n    // loading state, \"loading\" while one or more fonts loading, \"loaded\" otherwise\n    readonly attribute FontFaceSetLoadStatus status;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 998
+                    "line": 997
                 },
                 "content": "interface mixin FontFaceSource {\n    readonly attribute FontFaceSet fonts;\n};\nDocument includes FontFaceSource;\nWorkerGlobalScope includes FontFaceSource;"
             },
