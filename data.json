@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-03-24T00:57:13.101Z",
-    "elapsedTime": 388,
+    "createdAt": "2021-03-25T01:28:15.249Z",
+    "elapsedTime": 395,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d1883c43b466159b058168db7e505adc45a8c721",
-            "commitShort": "d1883c43b4",
+            "commit": "8a4e121ecd5b81b8b6f0580b78874afb93560af0",
+            "commitShort": "8a4e121ecd",
             "commitDate": null,
             "branch": "main"
         },
@@ -14471,7 +14471,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 235
+                    "line": 236
                 },
                 "props": {
                     "name": "outline",
@@ -14486,7 +14486,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 246
+                    "line": 247
                 },
                 "props": {
                     "name": "outline-width",
@@ -14504,7 +14504,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 260
+                    "line": 261
                 },
                 "props": {
                     "name": "outline-style",
@@ -14522,7 +14522,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 274
+                    "line": 275
                 },
                 "props": {
                     "name": "outline-color",
@@ -14540,7 +14540,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 402
+                    "line": 403
                 },
                 "props": {
                     "name": "outline-offset",
@@ -14558,7 +14558,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 458
+                    "line": 459
                 },
                 "props": {
                     "name": "resize",
@@ -14576,7 +14576,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 588
+                    "line": 589
                 },
                 "props": {
                     "name": "cursor",
@@ -14594,7 +14594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 955
+                    "line": 956
                 },
                 "props": {
                     "name": "caret-color",
@@ -14612,7 +14612,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1008
+                    "line": 1009
                 },
                 "props": {
                     "name": "caret-animation",
@@ -14630,7 +14630,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1140
+                    "line": 1141
                 },
                 "props": {
                     "name": "caret-shape",
@@ -14648,7 +14648,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1304
+                    "line": 1305
                 },
                 "props": {
                     "name": "caret",
@@ -14664,7 +14664,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1370
+                    "line": 1371
                 },
                 "props": {
                     "name": "nav-up",
@@ -14682,7 +14682,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1370
+                    "line": 1371
                 },
                 "props": {
                     "name": "nav-right",
@@ -14700,7 +14700,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1370
+                    "line": 1371
                 },
                 "props": {
                     "name": "nav-down",
@@ -14718,7 +14718,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1370
+                    "line": 1371
                 },
                 "props": {
                     "name": "nav-left",
@@ -14736,7 +14736,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1538
+                    "line": 1539
                 },
                 "props": {
                     "name": "user-select",
@@ -14753,7 +14753,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1786
+                    "line": 1787
                 },
                 "props": {
                     "name": "accent-color",
@@ -14772,7 +14772,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1913
+                    "line": 1914
                 },
                 "props": {
                     "name": "appearance",
@@ -18176,7 +18176,7 @@
                     "spec": "css-color-5",
                     "line": 578
                 },
-                "value": "red || green || blue"
+                "value": "red | green | blue"
             },
             {
                 "type": "prod",
@@ -18186,7 +18186,7 @@
                     "spec": "css-color-5",
                     "line": 579
                 },
-                "value": "<hue-adjuster> || saturation || lightness"
+                "value": "<hue-adjuster> | saturation | lightness"
             },
             {
                 "type": "prod",
@@ -18196,7 +18196,7 @@
                     "spec": "css-color-5",
                     "line": 580
                 },
-                "value": "<hue-adjuster> ||  whiteness || blackness"
+                "value": "<hue-adjuster> |  whiteness | blackness"
             },
             {
                 "type": "prod",
@@ -18206,7 +18206,7 @@
                     "spec": "css-color-5",
                     "line": 581
                 },
-                "value": "x || y || z"
+                "value": "x | y | z"
             },
             {
                 "type": "prod",
@@ -18216,7 +18216,7 @@
                     "spec": "css-color-5",
                     "line": 582
                 },
-                "value": "lightness || a || b"
+                "value": "lightness | a | b"
             },
             {
                 "type": "prod",
@@ -18226,7 +18226,7 @@
                     "spec": "css-color-5",
                     "line": 583
                 },
-                "value": "lightness || chroma || <hue-adjuster>"
+                "value": "lightness | chroma | <hue-adjuster>"
             },
             {
                 "type": "prod",
@@ -21539,7 +21539,7 @@
                     "spec": "css-highlight-api-1",
                     "line": 167
                 },
-                "content": "[Exposed=Window]\ninterface Highlight {\n    constructor(CSSOMString name, AbstractRange... initialRanges);\n    setlike<AbstractRange>;\n    attribute double priority;\n    readonly attribute CSSOMString name;\n};"
+                "content": "[Exposed=Window]\ninterface Highlight {\n    constructor(CSSOMString name, AbstractRange... initialRanges);\n    setlike<AbstractRange>;\n    attribute long priority;\n    readonly attribute CSSOMString name;\n};"
             },
             {
                 "type": "idl",
