@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-03-25T01:28:15.249Z",
-    "elapsedTime": 395,
+    "createdAt": "2021-03-26T02:27:32.852Z",
+    "elapsedTime": 375,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8a4e121ecd5b81b8b6f0580b78874afb93560af0",
-            "commitShort": "8a4e121ecd",
+            "commit": "2cbe6b3964d07df1190fefb201b720b86675a513",
+            "commitShort": "2cbe6b3964",
             "commitDate": null,
             "branch": "main"
         },
@@ -2791,7 +2791,8 @@
                         "https://www.w3.org/TR/2020/WD-css-transforms-2-20200303/"
                     ],
                     "editor": [
-                        "Tab Atkins Jr., Google Inc http://google.com, http://xanthir.com/contact/, w3cid 42199",
+                        "Tab Atkins Jr., Google https://google.com, http://xanthir.com/contact/, w3cid 42199",
+                        "L. David Baron, Google https://google.com, https://dbaron.org/, w3cid 15393",
                         "Simon Fraser, Apple Inc http://www.apple.com/, simon.fraser@apple.com, w3cid 44066",
                         "Dean Jackson, Apple Inc http://www.apple.com/, dino@apple.com, w3cid 42080",
                         "Theresa O'Connor, Apple Inc http://www.apple.com/, eoconnor@apple.com, w3cid 40614"
@@ -12349,7 +12350,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 500
+                    "line": 507
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
@@ -12367,7 +12368,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 500
+                    "line": 507
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
@@ -12385,7 +12386,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 500
+                    "line": 507
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
@@ -12403,7 +12404,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 500
+                    "line": 507
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
@@ -12421,7 +12422,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 563
+                    "line": 570
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
@@ -12433,7 +12434,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 707
+                    "line": 714
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -14080,7 +14081,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 589
+                    "line": 590
                 },
                 "props": {
                     "name": "translate",
@@ -14098,7 +14099,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 614
+                    "line": 620
                 },
                 "props": {
                     "name": "rotate",
@@ -14115,7 +14116,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 646
+                    "line": 652
                 },
                 "props": {
                     "name": "scale",
@@ -14132,7 +14133,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 763
+                    "line": 769
                 },
                 "props": {
                     "name": "transform-style",
@@ -14151,7 +14152,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 795
+                    "line": 801
                 },
                 "props": {
                     "name": "perspective",
@@ -14169,7 +14170,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 838
+                    "line": 844
                 },
                 "props": {
                     "name": "perspective-origin",
@@ -14187,7 +14188,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 882
+                    "line": 888
                 },
                 "props": {
                     "name": "backface-visibility",
@@ -20345,7 +20346,7 @@
                 "dfnName": "scale()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 925
+                    "line": 931
                 },
                 "value": "scale( [ <number> | <percentage> ]#{1,2} )"
             },
@@ -20355,7 +20356,7 @@
                 "dfnName": "scaleX()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 927
+                    "line": 933
                 },
                 "value": "scaleX( [ <number> | <percentage> ] )"
             },
@@ -20365,7 +20366,7 @@
                 "dfnName": "scaleY()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 929
+                    "line": 935
                 },
                 "value": "scaleY( [ <number> | <percentage> ] )"
             },
@@ -20375,7 +20376,7 @@
                 "dfnName": "matrix3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 938
+                    "line": 944
                 },
                 "value": "matrix3d( <number>#{16} )"
             },
@@ -20385,7 +20386,7 @@
                 "dfnName": "translate3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 940
+                    "line": 946
                 },
                 "value": "translate3d( <length-percentage> , <length-percentage> , <length> )"
             },
@@ -20395,7 +20396,7 @@
                 "dfnName": "translateZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 942
+                    "line": 948
                 },
                 "value": "translateZ( <length> )"
             },
@@ -20405,7 +20406,7 @@
                 "dfnName": "scale3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 944
+                    "line": 950
                 },
                 "value": "scale3d( [ <number> | <percentage> ]#{3} )"
             },
@@ -20415,7 +20416,7 @@
                 "dfnName": "scaleZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 946
+                    "line": 952
                 },
                 "value": "scaleZ( [ <number> | <percentage> ] )"
             },
@@ -20425,7 +20426,7 @@
                 "dfnName": "rotate3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 948
+                    "line": 954
                 },
                 "value": "rotate3d( <number> , <number> , <number> , [ <angle> | <zero> ] )"
             },
@@ -20435,7 +20436,7 @@
                 "dfnName": "rotateX()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 953
+                    "line": 959
                 },
                 "value": "rotateX( [ <angle> | <zero> ] )"
             },
@@ -20445,7 +20446,7 @@
                 "dfnName": "rotateY()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 955
+                    "line": 961
                 },
                 "value": "rotateY( [ <angle> | <zero> ] )"
             },
@@ -20455,7 +20456,7 @@
                 "dfnName": "rotateZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 957
+                    "line": 963
                 },
                 "value": "rotateZ( [ <angle> | <zero> ] )"
             },
@@ -20465,7 +20466,7 @@
                 "dfnName": "perspective()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 959
+                    "line": 965
                 },
                 "value": "perspective( <length [0,∞]> )"
             },
