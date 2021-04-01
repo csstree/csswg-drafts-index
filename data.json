@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-03-31T01:03:43.243Z",
-    "elapsedTime": 421,
+    "createdAt": "2021-04-01T01:10:35.923Z",
+    "elapsedTime": 407,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2847fa9973d7132ce2312994fa719d7d2bc6feea",
-            "commitShort": "2847fa9973",
+            "commit": "a50a12b1b56709f28616c62ede1551f3104fac49",
+            "commitShort": "a50a12b1b5",
             "commitDate": null,
             "branch": "main"
         },
@@ -10275,7 +10275,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1232
+                    "line": 1239
                 },
                 "props": {
                     "name": "column-fill",
@@ -12354,7 +12354,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
-                    "value": "none | <length> | auto <length>",
+                    "value": "none | <length> | auto && <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12372,7 +12372,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
-                    "value": "none | <length> | auto <length>",
+                    "value": "none | <length> | auto && <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12390,7 +12390,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
-                    "value": "none | <length> | auto <length>",
+                    "value": "none | <length> | auto && <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12408,7 +12408,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
-                    "value": "none | <length> | auto <length>",
+                    "value": "none | <length> | auto && <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12426,7 +12426,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
-                    "value": "[ none | <length> | auto <length> ]{1,2}"
+                    "value": "[ none | <length> | auto && <length> ]{1,2}"
                 },
                 "name": "contain-intrinsic-size"
             },
@@ -14090,8 +14090,8 @@
                     "appliesTo": "transformable elements",
                     "inherited": "no",
                     "percentages": "relative to the width of the reference box (for the first value) or the height (for the second value)",
-                    "computedValue": "the keyword none or a pair of computed <length-percentage> values and optionally an absolute length",
-                    "animationType": "by computed value, adding a third none"
+                    "computedValue": "the keyword none or a pair of computed <length-percentage> values and an absolute length",
+                    "animationType": "by computed value, but see below for none"
                 },
                 "name": "translate"
             },
@@ -14099,7 +14099,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 620
+                    "line": 619
                 },
                 "props": {
                     "name": "rotate",
@@ -14107,7 +14107,7 @@
                     "initial": "none",
                     "appliesTo": "transformable elements",
                     "inherited": "no",
-                    "computedValue": "the keyword none, or an <angle> with an optional axis consisting of a list of three <number>s",
+                    "computedValue": "the keyword none, or an <angle> with an axis consisting of a list of three <number>s",
                     "animationType": "as SLERP, but see below for none"
                 },
                 "name": "rotate"
@@ -14116,7 +14116,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 652
+                    "line": 654
                 },
                 "props": {
                     "name": "scale",
@@ -14124,7 +14124,7 @@
                     "initial": "none",
                     "appliesTo": "transformable elements",
                     "inherited": "no",
-                    "computedValue": "the keyword none, or a list of 2 or 3 <number>s",
+                    "computedValue": "the keyword none, or a list of 3 <number>s",
                     "animationType": "by computed value, but see below for none"
                 },
                 "name": "scale"
@@ -14133,7 +14133,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 769
+                    "line": 773
                 },
                 "props": {
                     "name": "transform-style",
@@ -14152,7 +14152,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 801
+                    "line": 805
                 },
                 "props": {
                     "name": "perspective",
@@ -14170,7 +14170,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 844
+                    "line": 848
                 },
                 "props": {
                     "name": "perspective-origin",
@@ -14188,7 +14188,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 888
+                    "line": 892
                 },
                 "props": {
                     "name": "backface-visibility",
@@ -20346,7 +20346,7 @@
                 "dfnName": "scale()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 931
+                    "line": 935
                 },
                 "value": "scale( [ <number> | <percentage> ]#{1,2} )"
             },
@@ -20356,7 +20356,7 @@
                 "dfnName": "scaleX()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 933
+                    "line": 937
                 },
                 "value": "scaleX( [ <number> | <percentage> ] )"
             },
@@ -20366,7 +20366,7 @@
                 "dfnName": "scaleY()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 935
+                    "line": 939
                 },
                 "value": "scaleY( [ <number> | <percentage> ] )"
             },
@@ -20376,7 +20376,7 @@
                 "dfnName": "matrix3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 944
+                    "line": 948
                 },
                 "value": "matrix3d( <number>#{16} )"
             },
@@ -20386,7 +20386,7 @@
                 "dfnName": "translate3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 946
+                    "line": 950
                 },
                 "value": "translate3d( <length-percentage> , <length-percentage> , <length> )"
             },
@@ -20396,7 +20396,7 @@
                 "dfnName": "translateZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 948
+                    "line": 952
                 },
                 "value": "translateZ( <length> )"
             },
@@ -20406,7 +20406,7 @@
                 "dfnName": "scale3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 950
+                    "line": 954
                 },
                 "value": "scale3d( [ <number> | <percentage> ]#{3} )"
             },
@@ -20416,7 +20416,7 @@
                 "dfnName": "scaleZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 952
+                    "line": 956
                 },
                 "value": "scaleZ( [ <number> | <percentage> ] )"
             },
@@ -20426,7 +20426,7 @@
                 "dfnName": "rotate3d()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 954
+                    "line": 958
                 },
                 "value": "rotate3d( <number> , <number> , <number> , [ <angle> | <zero> ] )"
             },
@@ -20436,7 +20436,7 @@
                 "dfnName": "rotateX()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 959
+                    "line": 963
                 },
                 "value": "rotateX( [ <angle> | <zero> ] )"
             },
@@ -20446,7 +20446,7 @@
                 "dfnName": "rotateY()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 961
+                    "line": 965
                 },
                 "value": "rotateY( [ <angle> | <zero> ] )"
             },
@@ -20456,7 +20456,7 @@
                 "dfnName": "rotateZ()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 963
+                    "line": 967
                 },
                 "value": "rotateZ( [ <angle> | <zero> ] )"
             },
@@ -20466,7 +20466,7 @@
                 "dfnName": "perspective()",
                 "source": {
                     "spec": "css-transforms-2",
-                    "line": 965
+                    "line": 969
                 },
                 "value": "perspective( <length [0,∞]> )"
             },
