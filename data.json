@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-07T01:09:14.486Z",
-    "elapsedTime": 330,
+    "createdAt": "2021-04-08T01:12:29.784Z",
+    "elapsedTime": 426,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "057424ce6dae0996a98a1bab14ec3e8c34b22ec8",
-            "commitShort": "057424ce6d",
+            "commit": "5aa0b8b2772faa4405f815c0d336d82d9a972734",
+            "commitShort": "5aa0b8b277",
             "commitDate": null,
             "branch": "main"
         },
@@ -577,12 +577,12 @@
                     "shortname": "css-color-adjust",
                     "level": "1",
                     "status": "ED",
-                    "workStatus": "refining",
+                    "workStatus": "exploring",
                     "group": "CSSWG",
                     "tr": "https://www.w3.org/TR/css-color-adjust-1/",
                     "ed": "https://drafts.csswg.org/css-color-adjust-1/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-color-adjust-1-20201109/"
+                        "https://www.w3.org/TR/2020/WD-css-color-adjust-1-20200402/"
                     ],
                     "editor": [
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
@@ -5919,15 +5919,16 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 114
+                    "line": 118
                 },
                 "props": {
                     "name": "color-scheme",
                     "value": "normal | [ light | dark | <custom-ident> ]+",
                     "initial": "normal",
-                    "appliesTo": "all elements and text",
+                    "appliesTo": "all elements",
                     "inherited": "yes",
-                    "computedValue": "the keyword normal, or an ordered list of specified color scheme keywords"
+                    "computedValue": "the keyword normal, or an ordered list of specified color scheme keywords",
+                    "animationType": "discrete"
                 },
                 "name": "color-scheme"
             },
@@ -5935,15 +5936,15 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 412
+                    "line": 410
                 },
                 "props": {
                     "name": "forced-color-adjust",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements and text",
+                    "appliesTo": "all elements",
                     "inherited": "yes",
-                    "animatable": "not animatable"
+                    "animationType": "not animatable"
                 },
                 "name": "forced-color-adjust"
             },
@@ -5951,7 +5952,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 485
+                    "line": 483
                 },
                 "props": {
                     "name": "color-adjust",
@@ -18160,7 +18161,7 @@
                     "spec": "css-color-5",
                     "line": 481
                 },
-                "value": "color-contrast( <color> vs <color>#{2,}  ( to [<number> | AA | AA-large])? )"
+                "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large]]? )"
             },
             {
                 "type": "prod",
