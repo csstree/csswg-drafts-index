@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-09T01:06:22.957Z",
-    "elapsedTime": 322,
+    "createdAt": "2021-04-10T01:09:03.186Z",
+    "elapsedTime": 317,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "55e497b217f03bff5f534744719d6a7b019c18c3",
-            "commitShort": "55e497b217",
+            "commit": "df08616b358e1a07f76ea0c3c48047645c68dd35",
+            "commitShort": "df08616b35",
             "commitDate": null,
             "branch": "main"
         },
@@ -991,7 +991,7 @@
                         "Tab Atkins-Bittner, Google, w3cid 42199",
                         "Dean Jackson, Apple, w3cid 42080"
                     ],
-                    "abstract": "This specification defines the concept of [=environment variables=] and the ''env()'' function, which work similarly to custom properties and the ''var()'' function, but are defined globally for a document. These can be defined either by the User Agent, providing values that can be used on the page based on information the UA has special access to, or provided by the author for \"global\" variables that are guaranteed to be the same no matter where in the document they're used."
+                    "abstract": "This specification defines the concept of [=environment variables=] and the ''env()'' function, which work similarly to custom properties and the ''var()'' function, but are defined globally for a document. These can be defined either by the user agent, providing values that can be used on the page based on information the UA has special access to, or provided by the author for \"global\" variables that are guaranteed to be the same no matter where in the document they're used."
                 }
             },
             {
@@ -7778,7 +7778,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5593
+                    "line": 5596
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7796,7 +7796,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5722
+                    "line": 5725
                 },
                 "props": {
                     "name": "font-palette",
@@ -7814,7 +7814,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5921
+                    "line": 5924
                 },
                 "props": {
                     "name": "font-family",
@@ -7828,7 +7828,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5940
+                    "line": 5943
                 },
                 "props": {
                     "name": "base-palette",
@@ -7842,7 +7842,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6002
+                    "line": 6005
                 },
                 "props": {
                     "name": "override-color",
@@ -7856,7 +7856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6056
+                    "line": 6059
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -12966,7 +12966,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 467
+                    "line": 482
                 },
                 "props": {
                     "name": "text-transform",
@@ -12984,7 +12984,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 888
+                    "line": 903
                 },
                 "props": {
                     "name": "white-space",
@@ -13002,7 +13002,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2572
+                    "line": 2587
                 },
                 "props": {
                     "name": "tab-size",
@@ -13020,7 +13020,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3175
+                    "line": 3190
                 },
                 "props": {
                     "name": "word-break",
@@ -13038,7 +13038,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3592
+                    "line": 3607
                 },
                 "props": {
                     "name": "line-break",
@@ -13056,7 +13056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4072
+                    "line": 4087
                 },
                 "props": {
                     "name": "hyphens",
@@ -13074,7 +13074,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4261
+                    "line": 4276
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -13092,7 +13092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4261
+                    "line": 4276
                 },
                 "props": {
                     "name": "word-wrap",
@@ -13110,7 +13110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4456
+                    "line": 4471
                 },
                 "props": {
                     "name": "text-align",
@@ -13127,7 +13127,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4726
+                    "line": 4741
                 },
                 "props": {
                     "name": "text-align-all",
@@ -13145,7 +13145,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4755
+                    "line": 4770
                 },
                 "props": {
                     "name": "text-align-last",
@@ -13163,7 +13163,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4807
+                    "line": 4822
                 },
                 "props": {
                     "name": "text-justify",
@@ -13181,7 +13181,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5226
+                    "line": 5241
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13200,7 +13200,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5396
+                    "line": 5411
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13218,7 +13218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5962
+                    "line": 5977
                 },
                 "props": {
                     "name": "text-indent",
@@ -13237,7 +13237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6297
+                    "line": 6312
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -21517,7 +21517,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6213
+                    "line": 6216
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21525,7 +21525,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6229
+                    "line": 6232
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -21533,7 +21533,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6235
+                    "line": 6238
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -21541,7 +21541,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6292
+                    "line": 6295
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_PALETTE_VALUES_RULE = 15;\n};\n[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  maplike&lt;unsigned long, CSSOMString>;\n  attribute CSSOMString fontFamily;\n  attribute CSSOMString basePalette;\n};"
             },
