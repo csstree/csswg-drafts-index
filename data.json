@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-14T01:07:55.965Z",
-    "elapsedTime": 345,
+    "createdAt": "2021-04-15T01:10:03.009Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e871081df5966367f256c74878e6ce47e9ca2330",
-            "commitShort": "e871081df5",
+            "commit": "ba732ef8723e88d61dbaf9b2aaef75ae1b96b0d6",
+            "commitShort": "ba732ef872",
             "commitDate": null,
             "branch": "main"
         },
@@ -540,7 +540,8 @@
                     "complainAbout": "missing-example-ids true\nbroken-links false\naccidental-2119 true",
                     "inlineGithubIssues": "title",
                     "defaultHighlight": "css",
-                    "wptPathPrefix": "css/css-color/"
+                    "wptPathPrefix": "css/css-color/",
+                    "wptDisplay": "closed"
                 }
             },
             {
@@ -5866,7 +5867,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 286
+                    "line": 287
                 },
                 "props": {
                     "name": "color",
@@ -5884,7 +5885,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3735
+                    "line": 3728
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5898,7 +5899,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4265
+                    "line": 4258
                 },
                 "props": {
                     "name": "opacity",
@@ -18036,7 +18037,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 397
+                    "line": 398
                 },
                 "value": "<number> | <angle>"
             },
@@ -18046,7 +18047,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1095
+                    "line": 1104
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -18056,7 +18057,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1097
+                    "line": 1106
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18066,7 +18067,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1868
+                    "line": 1877
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18076,7 +18077,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2442
+                    "line": 2451
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18086,7 +18087,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2880
+                    "line": 2889
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18096,7 +18097,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2932
+                    "line": 2941
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18106,7 +18107,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3126
+                    "line": 3135
                 },
                 "value": "color( [<ident> | <dashed-ident>] [ <number-percentage>+ ] [ / <alpha-value> ]? )"
             },
@@ -18116,7 +18117,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4111
+                    "line": 4104
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18126,7 +18127,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4112
+                    "line": 4105
                 },
                 "value": "<number> | <percentage>"
             },
