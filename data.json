@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-15T01:10:03.009Z",
-    "elapsedTime": 399,
+    "createdAt": "2021-04-16T01:10:12.830Z",
+    "elapsedTime": 373,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ba732ef8723e88d61dbaf9b2aaef75ae1b96b0d6",
-            "commitShort": "ba732ef872",
+            "commit": "296318c31509aaa26a409837fef1bf43778afb65",
+            "commitShort": "296318c315",
             "commitDate": null,
             "branch": "main"
         },
@@ -21550,17 +21550,17 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-highlight-api-1",
-                    "line": 167
+                    "line": 163
                 },
-                "content": "[Exposed=Window]\ninterface Highlight {\n    constructor(CSSOMString name, AbstractRange... initialRanges);\n    setlike<AbstractRange>;\n    attribute long priority;\n    readonly attribute CSSOMString name;\n};"
+                "content": "[Exposed=Window]\ninterface Highlight {\n    constructor(AbstractRange... initialRanges);\n    setlike<AbstractRange>;\n    attribute long priority;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-highlight-api-1",
-                    "line": 221
+                    "line": 210
                 },
-                "content": "partial namespace CSS {\n    readonly attribute HighlightRegistry highlights;\n};\n[Exposed=Window]\ninterface HighlightRegistry {\n    setlike<Highlight>;\n};"
+                "content": "partial namespace CSS {\n    readonly attribute HighlightRegistry highlights;\n};\n[Exposed=Window]\ninterface HighlightRegistry {\n    maplike<DOMString, Highlight>;\n};"
             },
             {
                 "type": "idl",
