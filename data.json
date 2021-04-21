@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-20T01:10:07.409Z",
-    "elapsedTime": 388,
+    "createdAt": "2021-04-21T01:09:46.684Z",
+    "elapsedTime": 405,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f6b610a743ee340bf6505702b27526ed4e65b29c",
-            "commitShort": "f6b610a743",
+            "commit": "01f36855c848c33a7656a26b395f769c0c2bbc53",
+            "commitShort": "01f36855c8",
             "commitDate": null,
             "branch": "main"
         },
@@ -9190,16 +9190,16 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 775
+                    "line": 783
                 },
                 "props": {
                     "name": "counter-reset",
-                    "value": "[ <counter-name> <integer>? ]+ | none",
+                    "value": "[ <counter-name> <integer>? | <reversed-counter-name> <integer>? ]+ | none",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "n/a",
-                    "computedValue": "the keyword none or a list, each item an identifier paired with an integer",
+                    "computedValue": "the keyword none or a list, each item an identifier or a reversed() function paired with an integer",
                     "animationType": "by computed value type"
                 },
                 "name": "counter-reset"
@@ -9208,7 +9208,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 829
+                    "line": 843
                 },
                 "props": {
                     "name": "counter-increment",
@@ -9226,7 +9226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 842
+                    "line": 856
                 },
                 "props": {
                     "name": "counter-set",
@@ -18133,8 +18133,8 @@
             },
             {
                 "type": "prod",
-                "name": "color space",
-                "dfnName": "<color space>",
+                "name": "color-space",
+                "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
                     "line": 95
@@ -18149,7 +18149,7 @@
                     "spec": "css-color-5",
                     "line": 124
                 },
-                "value": "color-mix( in <color space> , [ <color> && <percentage>? ]#{2})"
+                "value": "color-mix( in <color-space> , [ <color> && <percentage>? ]#{2})"
             },
             {
                 "type": "prod",
@@ -18169,7 +18169,7 @@
                     "spec": "css-color-5",
                     "line": 632
                 },
-                "value": "color-adjust( <color> [ <color-adjuster> && [ in <color space> ]? ]? )"
+                "value": "color-adjust( <color> [ <color-adjuster> && [ in <color-space> ]? ]? )"
             },
             {
                 "type": "prod",
@@ -19771,11 +19771,21 @@
             },
             {
                 "type": "prod",
+                "name": "reversed-counter-name",
+                "dfnName": "<<reversed-counter-name>>",
+                "source": {
+                    "spec": "css-lists-3",
+                    "line": 763
+                },
+                "value": "reversed( <counter-name> )"
+            },
+            {
+                "type": "prod",
                 "name": "counter",
                 "dfnName": "<<counter>>",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1308
+                    "line": 1333
                 },
                 "value": "<counter()> | <counters()>"
             },
@@ -19785,7 +19795,7 @@
                 "dfnName": "counter()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1309
+                    "line": 1334
                 },
                 "value": "counter( <counter-name>, <counter-style>? )"
             },
@@ -19795,7 +19805,7 @@
                 "dfnName": "counters()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1310
+                    "line": 1335
                 },
                 "value": "counters( <counter-name>, <string>, <counter-style>? )"
             },
@@ -21648,7 +21658,7 @@
                     "spec": "css-regions-1",
                     "line": 1088
                 },
-                "content": "[Exposed=Window]\ninterface NamedFlow : EventTarget {\n    readonly attribute CSSOMString name;\n    readonly attribute boolean overset;\n    sequence&lt;Region&gt; getRegions();\n    readonly attribute short firstEmptyRegionIndex;\n    sequence&lt;Node&gt; getContent();\n    sequence&lt;Region&gt; getRegionsByContent(Node node);\n};"
+                "content": "[Exposed=Window]\ninterface NamedFlow : EventTarget {\n    readonly attribute CSSOMString name;\n    readonly attribute boolean overset;\n    sequence&lt;Element&gt; getRegions();\n    readonly attribute short firstEmptyRegionIndex;\n    sequence&lt;Node&gt; getContent();\n    sequence&lt;Element&gt; getRegionsByContent(Node node);\n};"
             },
             {
                 "type": "idl",
