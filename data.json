@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-22T01:10:45.228Z",
-    "elapsedTime": 328,
+    "createdAt": "2021-04-23T01:11:30.047Z",
+    "elapsedTime": 451,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2298ae41c22f0b1fd6942a171e6ae65d6a5a2f05",
-            "commitShort": "2298ae41c2",
+            "commit": "95d3a2d5fbf071aa6e7353eeec93e7dd42690757",
+            "commitShort": "95d3a2d5fb",
             "commitDate": null,
             "branch": "main"
         },
@@ -21099,7 +21099,7 @@
                 "dfnName": "<selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3370
+                    "line": 3415
                 },
                 "value": "<complex-selector-list>"
             },
@@ -21109,7 +21109,7 @@
                 "dfnName": "<complex-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3372
+                    "line": 3417
                 },
                 "value": "<complex-selector>#"
             },
@@ -21119,7 +21119,7 @@
                 "dfnName": "<compound-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3374
+                    "line": 3419
                 },
                 "value": "<compound-selector>#"
             },
@@ -21129,7 +21129,7 @@
                 "dfnName": "<simple-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3376
+                    "line": 3421
                 },
                 "value": "<simple-selector>#"
             },
@@ -21139,7 +21139,7 @@
                 "dfnName": "<relative-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3378
+                    "line": 3423
                 },
                 "value": "<relative-selector>#"
             },
@@ -21149,7 +21149,7 @@
                 "dfnName": "<complex-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3381
+                    "line": 3426
                 },
                 "value": "<compound-selector> [ <combinator>? <compound-selector> ]*"
             },
@@ -21159,7 +21159,7 @@
                 "dfnName": "<relative-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3383
+                    "line": 3428
                 },
                 "value": "<combinator>? <complex-selector>"
             },
@@ -21169,7 +21169,7 @@
                 "dfnName": "<compound-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3385
+                    "line": 3430
                 },
                 "value": "[ <type-selector>? <subclass-selector>*\n[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
             },
@@ -21179,7 +21179,7 @@
                 "dfnName": "<simple-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3388
+                    "line": 3433
                 },
                 "value": "<type-selector> | <subclass-selector>"
             },
@@ -21189,7 +21189,7 @@
                 "dfnName": "<combinator>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3391
+                    "line": 3436
                 },
                 "value": "'>' | '+' | '~' | [ '|' '|' ]"
             },
@@ -21199,7 +21199,7 @@
                 "dfnName": "<type-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3393
+                    "line": 3438
                 },
                 "value": "<wq-name> | <ns-prefix>? '*'"
             },
@@ -21209,7 +21209,7 @@
                 "dfnName": "<ns-prefix>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3395
+                    "line": 3440
                 },
                 "attrs": {
                     "noexport": true
@@ -21222,7 +21222,7 @@
                 "dfnName": "<wq-name>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3397
+                    "line": 3442
                 },
                 "attrs": {
                     "noexport": true
@@ -21235,7 +21235,7 @@
                 "dfnName": "<subclass-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3399
+                    "line": 3444
                 },
                 "attrs": {
                     "noexport": true
@@ -21248,7 +21248,7 @@
                 "dfnName": "<id-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3402
+                    "line": 3447
                 },
                 "value": "<hash-token>"
             },
@@ -21258,7 +21258,7 @@
                 "dfnName": "<class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3404
+                    "line": 3449
                 },
                 "value": "'.' <ident-token>"
             },
@@ -21268,7 +21268,7 @@
                 "dfnName": "<attribute-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3406
+                    "line": 3451
                 },
                 "value": "'[' <wq-name> ']' |\n'[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
             },
@@ -21278,7 +21278,7 @@
                 "dfnName": "<attr-matcher>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3409
+                    "line": 3454
                 },
                 "attrs": {
                     "noexport": true
@@ -21291,7 +21291,7 @@
                 "dfnName": "<attr-modifier>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3411
+                    "line": 3456
                 },
                 "attrs": {
                     "noexport": true
@@ -21304,7 +21304,7 @@
                 "dfnName": "<pseudo-class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3413
+                    "line": 3458
                 },
                 "value": "':' <ident-token> |\n':' <function-token> <any-value> ')'"
             },
@@ -21314,7 +21314,7 @@
                 "dfnName": "<pseudo-element-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3416
+                    "line": 3461
                 },
                 "value": "':' <pseudo-class-selector>"
             },
