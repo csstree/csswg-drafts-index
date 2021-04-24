@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-23T01:11:30.047Z",
-    "elapsedTime": 451,
+    "createdAt": "2021-04-24T01:11:11.845Z",
+    "elapsedTime": 339,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "95d3a2d5fbf071aa6e7353eeec93e7dd42690757",
-            "commitShort": "95d3a2d5fb",
+            "commit": "4de3893251b71ada6f57d6825be45e10d8187dcf",
+            "commitShort": "4de3893251",
             "commitDate": null,
             "branch": "main"
         },
@@ -2625,7 +2625,7 @@
                     "ed": "https://drafts.csswg.org/css-text-3/",
                     "tr": "https://www.w3.org/TR/css-text-3/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/CR-css-text-3-20201222/"
+                        "https://www.w3.org/TR/2021/CRD-css-text-3-20210422/"
                     ],
                     "testSuite": "http://test.csswg.org/suites/css3-text/nightly-unstable/",
                     "!testCoverageAnalysis": "<a href=\"https://drafts.csswg.org/css-text-3/test-coverage\">https://drafts.csswg.org/css-text-3/test-coverage</a>",
@@ -12966,7 +12966,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 482
+                    "line": 533
                 },
                 "props": {
                     "name": "text-transform",
@@ -12984,7 +12984,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 903
+                    "line": 962
                 },
                 "props": {
                     "name": "white-space",
@@ -13002,7 +13002,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2587
+                    "line": 2673
                 },
                 "props": {
                     "name": "tab-size",
@@ -13020,7 +13020,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3190
+                    "line": 3316
                 },
                 "props": {
                     "name": "word-break",
@@ -13038,7 +13038,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3607
+                    "line": 3744
                 },
                 "props": {
                     "name": "line-break",
@@ -13056,7 +13056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4087
+                    "line": 4232
                 },
                 "props": {
                     "name": "hyphens",
@@ -13074,7 +13074,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4276
+                    "line": 4427
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -13092,7 +13092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4276
+                    "line": 4427
                 },
                 "props": {
                     "name": "word-wrap",
@@ -13110,7 +13110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4471
+                    "line": 4634
                 },
                 "props": {
                     "name": "text-align",
@@ -13127,7 +13127,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4741
+                    "line": 4906
                 },
                 "props": {
                     "name": "text-align-all",
@@ -13145,7 +13145,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4770
+                    "line": 4937
                 },
                 "props": {
                     "name": "text-align-last",
@@ -13163,7 +13163,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4822
+                    "line": 5002
                 },
                 "props": {
                     "name": "text-justify",
@@ -13172,7 +13172,7 @@
                     "appliesTo": "text",
                     "inherited": "yes",
                     "canonicalOrder": "n/a",
-                    "computedValue": "specified keyword",
+                    "computedValue": "specified keyword (except for the distribute legacy value)",
                     "animationType": "discrete"
                 },
                 "name": "text-justify"
@@ -13181,7 +13181,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5241
+                    "line": 5458
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13200,7 +13200,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5411
+                    "line": 5638
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13218,7 +13218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5977
+                    "line": 6217
                 },
                 "props": {
                     "name": "text-indent",
@@ -13237,7 +13237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6312
+                    "line": 6571
                 },
                 "props": {
                     "name": "hanging-punctuation",
