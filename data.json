@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-04-29T01:08:57.129Z",
-    "elapsedTime": 402,
+    "createdAt": "2021-04-30T01:08:30.461Z",
+    "elapsedTime": 356,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "bf117c52a7762d9f0f1c5853e2270efd6a5c2662",
-            "commitShort": "bf117c52a7",
+            "commit": "0c0177cac404502bbd36739db2a5f082c2185942",
+            "commitShort": "0c0177cac4",
             "commitDate": null,
             "branch": "main"
         },
@@ -2590,7 +2590,7 @@
                     "repository": "w3c/csswg-drafts",
                     "warning": "not ready",
                     "editor": [
-                        "Francois Remy, Invited Expert, w3cid 53348",
+                        "François Remy, Invited Expert, w3cid 53348",
                         "Greg Whitworth, Microsoft, w3cid 69511"
                     ],
                     "formerEditor": [
@@ -6515,7 +6515,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 753
+                    "line": 764
                 },
                 "props": {
                     "name": "display-or-not",
@@ -11355,7 +11355,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1339
+                    "line": 1351
                 },
                 "props": {
                     "name": "ruby-position",
@@ -11372,7 +11372,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1440
+                    "line": 1452
                 },
                 "props": {
                     "name": "ruby-merge",
@@ -11389,7 +11389,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1567
+                    "line": 1579
                 },
                 "props": {
                     "name": "ruby-align",
@@ -11406,7 +11406,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1772
+                    "line": 1784
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11423,7 +11423,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1876
+                    "line": 1888
                 },
                 "props": {
                     "name": "ruby-overhang",
@@ -11440,7 +11440,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ruby-1",
-                    "line": 1967
+                    "line": 1979
                 },
                 "props": {
                     "name": "ruby-span",
@@ -12786,7 +12786,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-tables-3",
-                    "line": 776
+                    "line": 778
                 },
                 "props": {
                     "name": "table-layout",
@@ -12803,7 +12803,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-tables-3",
-                    "line": 807
+                    "line": 809
                 },
                 "props": {
                     "name": "border-collapse",
@@ -12820,7 +12820,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-tables-3",
-                    "line": 828
+                    "line": 830
                 },
                 "props": {
                     "name": "border-spacing",
@@ -12837,7 +12837,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-tables-3",
-                    "line": 850
+                    "line": 852
                 },
                 "props": {
                     "name": "caption-side",
@@ -12854,7 +12854,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-tables-3",
-                    "line": 2601
+                    "line": 2603
                 },
                 "props": {
                     "name": "empty-cells",
@@ -13002,7 +13002,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2673
+                    "line": 2674
                 },
                 "props": {
                     "name": "tab-size",
@@ -13020,7 +13020,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3316
+                    "line": 3317
                 },
                 "props": {
                     "name": "word-break",
@@ -13038,7 +13038,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3744
+                    "line": 3745
                 },
                 "props": {
                     "name": "line-break",
@@ -13056,7 +13056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4232
+                    "line": 4233
                 },
                 "props": {
                     "name": "hyphens",
@@ -13074,7 +13074,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4427
+                    "line": 4428
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -13092,7 +13092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4427
+                    "line": 4428
                 },
                 "props": {
                     "name": "word-wrap",
@@ -13110,7 +13110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4634
+                    "line": 4636
                 },
                 "props": {
                     "name": "text-align",
@@ -13127,7 +13127,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4906
+                    "line": 4908
                 },
                 "props": {
                     "name": "text-align-all",
@@ -13145,7 +13145,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4937
+                    "line": 4939
                 },
                 "props": {
                     "name": "text-align-last",
@@ -13163,7 +13163,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5002
+                    "line": 5004
                 },
                 "props": {
                     "name": "text-justify",
@@ -13181,7 +13181,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5458
+                    "line": 5460
                 },
                 "props": {
                     "name": "word-spacing",
@@ -13200,7 +13200,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5638
+                    "line": 5640
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -13218,7 +13218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6217
+                    "line": 6219
                 },
                 "props": {
                     "name": "text-indent",
@@ -13237,7 +13237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6571
+                    "line": 6573
                 },
                 "props": {
                     "name": "hanging-punctuation",
