@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-05T01:04:43.508Z",
-    "elapsedTime": 426,
+    "createdAt": "2021-05-06T01:03:18.746Z",
+    "elapsedTime": 381,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f493c94443fa9274e726a8192bcfb1f9d78d26c2",
-            "commitShort": "f493c94443",
+            "commit": "116267db5a8962a459e8446594a951e630d60bee",
+            "commitShort": "116267db5a",
             "commitDate": null,
             "branch": "main"
         },
@@ -18156,7 +18156,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 518
+                    "line": 550
                 },
                 "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large]]? )"
             },
@@ -18166,7 +18166,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 669
+                    "line": 701
                 },
                 "value": "color-adjust( <color> [ <color-adjuster> && [ in <color-space> ]? ]? )"
             },
@@ -18176,7 +18176,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 673
+                    "line": 705
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
             },
@@ -18186,7 +18186,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 677
+                    "line": 709
                 },
                 "value": "red | green | blue"
             },
@@ -18196,7 +18196,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 678
+                    "line": 710
                 },
                 "value": "<hue-adjuster> | saturation | lightness"
             },
@@ -18206,7 +18206,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 679
+                    "line": 711
                 },
                 "value": "<hue-adjuster> |  whiteness | blackness"
             },
@@ -18216,7 +18216,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 680
+                    "line": 712
                 },
                 "value": "x | y | z"
             },
@@ -18226,7 +18226,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 681
+                    "line": 713
                 },
                 "value": "lightness | a | b"
             },
@@ -18236,7 +18236,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 682
+                    "line": 714
                 },
                 "value": "lightness | chroma | <hue-adjuster>"
             },
@@ -18246,7 +18246,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 683
+                    "line": 715
                 },
                 "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
             },
@@ -18256,7 +18256,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 847
+                    "line": 879
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
@@ -18266,7 +18266,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 876
+                    "line": 908
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18276,7 +18276,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 905
+                    "line": 937
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18286,7 +18286,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 925
+                    "line": 957
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18296,7 +18296,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 964
+                    "line": 996
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -22273,7 +22273,7 @@
                     "spec": "web-animations-2",
                     "line": 2087
                 },
-                "content": "partial dictionary ComputedEffectTiming : EffectTiming {\n    double startTime;\n};"
+                "content": "partial dictionary ComputedEffectTiming {\n    double startTime;\n};"
             },
             {
                 "type": "idl",
