@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-06T01:03:18.746Z",
-    "elapsedTime": 381,
+    "createdAt": "2021-05-07T01:06:53.640Z",
+    "elapsedTime": 405,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "116267db5a8962a459e8446594a951e630d60bee",
-            "commitShort": "116267db5a",
+            "commit": "42f8870d6acb85d48cb28680ed0be2275a54670a",
+            "commitShort": "42f8870d6a",
             "commitDate": null,
             "branch": "main"
         },
@@ -22257,7 +22257,7 @@
                     "spec": "web-animations-2",
                     "line": 1933
                 },
-                "content": "[Exposed=Window]\npartial interface AnimationEffect {\n    // Timing hierarchy\n    readonly attribute GroupEffect?     parent;\n    readonly attribute AnimationEffect? previousSibling;\n    readonly attribute AnimationEffect? nextSibling;\n    void before (AnimationEffect... effects);\n    void after (AnimationEffect... effects);\n    void replace (AnimationEffect... effects);\n    void remove ();\n};"
+                "content": "[Exposed=Window]\npartial interface AnimationEffect {\n    // Timing hierarchy\n    readonly attribute GroupEffect?     parent;\n    readonly attribute AnimationEffect? previousSibling;\n    readonly attribute AnimationEffect? nextSibling;\n    undefined before (AnimationEffect... effects);\n    undefined after (AnimationEffect... effects);\n    undefined replace (AnimationEffect... effects);\n    undefined remove ();\n};"
             },
             {
                 "type": "idl",
@@ -22289,7 +22289,7 @@
                     "spec": "web-animations-2",
                     "line": 2148
                 },
-                "content": "[Exposed=Window]\ninterface GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing);\n  readonly attribute AnimationNodeList  children;\n  readonly attribute AnimationEffect?   firstChild;\n  readonly attribute AnimationEffect?   lastChild;\n  GroupEffect clone ();\n  void prepend (AnimationEffect... effects);\n  void append (AnimationEffect... effects);\n};"
+                "content": "[Exposed=Window]\ninterface GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  readonly attribute AnimationNodeList  children;\n  readonly attribute AnimationEffect?   firstChild;\n  readonly attribute AnimationEffect?   lastChild;\n  GroupEffect clone ();\n  undefined prepend (AnimationEffect... effects);\n  undefined append (AnimationEffect... effects);\n};"
             },
             {
                 "type": "idl",
@@ -22305,7 +22305,7 @@
                     "spec": "web-animations-2",
                     "line": 2398
                 },
-                "content": "[Exposed=Window]\ninterface SequenceEffect : GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing);\n  SequenceEffect clone ();\n};"
+                "content": "[Exposed=Window]\ninterface SequenceEffect : GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  SequenceEffect clone ();\n};"
             },
             {
                 "type": "idl",
@@ -22337,7 +22337,7 @@
                     "spec": "web-animations-2",
                     "line": 2545
                 },
-                "content": "callback EffectCallback = void (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
+                "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             },
             {
                 "type": "idl",
