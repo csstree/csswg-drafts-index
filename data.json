@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-11T01:08:06.689Z",
-    "elapsedTime": 333,
+    "createdAt": "2021-05-12T01:09:53.026Z",
+    "elapsedTime": 453,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "44710964df002d0858ece4ebc6cc76acfd4dbb7a",
-            "commitShort": "44710964df",
+            "commit": "2c776e02971fa8601ba4315208d1a1b6e9eb384b",
+            "commitShort": "2c776e0297",
             "commitDate": null,
             "branch": "main"
         },
@@ -5884,7 +5884,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3728
+                    "line": 3751
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5898,7 +5898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4258
+                    "line": 4281
                 },
                 "props": {
                     "name": "opacity",
@@ -18116,7 +18116,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4104
+                    "line": 4127
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18126,7 +18126,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4105
+                    "line": 4128
                 },
                 "value": "<number> | <percentage>"
             },
