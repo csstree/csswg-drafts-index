@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-12T01:09:53.026Z",
-    "elapsedTime": 453,
+    "createdAt": "2021-05-13T01:14:54.289Z",
+    "elapsedTime": 404,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2c776e02971fa8601ba4315208d1a1b6e9eb384b",
-            "commitShort": "2c776e0297",
+            "commit": "56cd618284bfdb440c7242c17cf8556725105e0a",
+            "commitShort": "56cd618284",
             "commitDate": null,
             "branch": "main"
         },
@@ -748,8 +748,7 @@
                     ],
                     "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
                     "testSuite": "https://test.csswg.org/harness/results/css-contain-1_dev/",
-                    "wptPathPrefix": "css/css-contain/",
-                    "atRisk": "[=style containment=] and the ''contain: style'' value"
+                    "wptPathPrefix": "css/css-contain/"
                 }
             },
             {
@@ -5866,7 +5865,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 287
+                    "line": 283
                 },
                 "props": {
                     "name": "color",
@@ -5884,7 +5883,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3751
+                    "line": 3726
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5898,7 +5897,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4281
+                    "line": 4256
                 },
                 "props": {
                     "name": "opacity",
@@ -6041,7 +6040,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 101
+                    "line": 100
                 },
                 "props": {
                     "name": "contain",
@@ -6058,7 +6057,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1059
+                    "line": 1054
                 },
                 "props": {
                     "name": "content-visibility",
@@ -18036,7 +18035,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 398
+                    "line": 394
                 },
                 "value": "<number> | <angle>"
             },
@@ -18046,7 +18045,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1104
+                    "line": 1096
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -18056,7 +18055,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1106
+                    "line": 1098
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18066,7 +18065,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1877
+                    "line": 1869
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18076,7 +18075,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2451
+                    "line": 2443
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18086,7 +18085,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2889
+                    "line": 2881
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18096,7 +18095,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2941
+                    "line": 2933
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18106,7 +18105,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3135
+                    "line": 3127
                 },
                 "value": "color( [<ident> | <dashed-ident>] [ <number-percentage>+ ] [ / <alpha-value> ]? )"
             },
@@ -18116,7 +18115,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4127
+                    "line": 4102
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18126,7 +18125,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4128
+                    "line": 4103
                 },
                 "value": "<number> | <percentage>"
             },
