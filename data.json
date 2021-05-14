@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-13T01:14:54.289Z",
+    "createdAt": "2021-05-14T01:16:08.800Z",
     "elapsedTime": 404,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "56cd618284bfdb440c7242c17cf8556725105e0a",
-            "commitShort": "56cd618284",
+            "commit": "29a198d657494c855d79e0a3c7a3817d3ae42c11",
+            "commitShort": "29a198d657",
             "commitDate": null,
             "branch": "main"
         },
@@ -5915,7 +5915,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 118
+                    "line": 129
                 },
                 "props": {
                     "name": "color-scheme",
@@ -5932,7 +5932,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 410
+                    "line": 477
                 },
                 "props": {
                     "name": "forced-color-adjust",
@@ -5948,7 +5948,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 483
+                    "line": 560
                 },
                 "props": {
                     "name": "color-adjust",
@@ -6181,7 +6181,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 224
+                    "line": 225
                 },
                 "props": {
                     "name": "system",
@@ -6195,7 +6195,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 738
+                    "line": 740
                 },
                 "props": {
                     "name": "negative",
@@ -6209,7 +6209,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 782
+                    "line": 784
                 },
                 "props": {
                     "name": "prefix",
@@ -6223,7 +6223,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 810
+                    "line": 812
                 },
                 "props": {
                     "name": "suffix",
@@ -6237,7 +6237,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 838
+                    "line": 840
                 },
                 "props": {
                     "name": "range",
@@ -6251,7 +6251,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 911
+                    "line": 913
                 },
                 "props": {
                     "name": "pad",
@@ -6265,7 +6265,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 979
+                    "line": 981
                 },
                 "props": {
                     "name": "fallback",
@@ -6279,7 +6279,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1022
+                    "line": 1024
                 },
                 "props": {
                     "name": "symbols",
@@ -6293,7 +6293,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1029
+                    "line": 1031
                 },
                 "props": {
                     "name": "additive-symbols",
@@ -6307,7 +6307,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1106
+                    "line": 1108
                 },
                 "props": {
                     "name": "speak-as",
@@ -18145,7 +18145,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 124
+                    "line": 128
                 },
                 "value": "color-mix( in <color-space> , [ <color> && <percentage [0,100]>? ]#{2})"
             },
@@ -18155,7 +18155,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 550
+                    "line": 554
                 },
                 "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large]]? )"
             },
@@ -18165,7 +18165,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 701
+                    "line": 706
                 },
                 "value": "color-adjust( <color> [ <color-adjuster> && [ in <color-space> ]? ]? )"
             },
@@ -18175,7 +18175,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 705
+                    "line": 710
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
             },
@@ -18185,7 +18185,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 709
+                    "line": 714
                 },
                 "value": "red | green | blue"
             },
@@ -18195,7 +18195,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 710
+                    "line": 715
                 },
                 "value": "<hue-adjuster> | saturation | lightness"
             },
@@ -18205,7 +18205,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 711
+                    "line": 716
                 },
                 "value": "<hue-adjuster> |  whiteness | blackness"
             },
@@ -18215,7 +18215,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 712
+                    "line": 717
                 },
                 "value": "x | y | z"
             },
@@ -18225,7 +18225,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 713
+                    "line": 718
                 },
                 "value": "lightness | a | b"
             },
@@ -18235,7 +18235,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 714
+                    "line": 719
                 },
                 "value": "lightness | chroma | <hue-adjuster>"
             },
@@ -18245,7 +18245,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 715
+                    "line": 720
                 },
                 "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
             },
@@ -18255,7 +18255,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 879
+                    "line": 884
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
@@ -18265,7 +18265,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 908
+                    "line": 913
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18275,7 +18275,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 937
+                    "line": 942
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18285,7 +18285,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 957
+                    "line": 962
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18295,7 +18295,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 996
+                    "line": 1001
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18541,7 +18541,7 @@
                 "dfnName": "<symbol>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1036
+                    "line": 1038
                 },
                 "value": "<string> | <image> | <custom-ident>"
             },
@@ -18551,7 +18551,7 @@
                 "dfnName": "symbols()",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1205
+                    "line": 1211
                 },
                 "value": "symbols( <symbols-type>? [ <string> | <image> ]+ );"
             },
@@ -18561,7 +18561,7 @@
                 "dfnName": "<symbols-type>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1206
+                    "line": 1212
                 },
                 "value": "cyclic | numeric | alphabetic | symbolic | fixed;"
             },
@@ -18571,7 +18571,7 @@
                 "dfnName": "<counter-style>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1283
+                    "line": 1289
                 },
                 "attrs": {
                     "type": true
@@ -21462,7 +21462,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2511
+                    "line": 2519
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short COUNTER_STYLE_RULE = 11;\n};"
             },
@@ -21470,7 +21470,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2523
+                    "line": 2531
                 },
                 "content": "[Exposed=Window]\ninterface CSSCounterStyleRule : CSSRule {\n  attribute CSSOMString name;\n  attribute CSSOMString system;\n  attribute CSSOMString symbols;\n  attribute CSSOMString additiveSymbols;\n  attribute CSSOMString negative;\n  attribute CSSOMString prefix;\n  attribute CSSOMString suffix;\n  attribute CSSOMString range;\n  attribute CSSOMString pad;\n  attribute CSSOMString speakAs;\n  attribute CSSOMString fallback;\n};"
             },
