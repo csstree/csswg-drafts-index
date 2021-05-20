@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-19T01:12:50.851Z",
-    "elapsedTime": 380,
+    "createdAt": "2021-05-20T01:10:47.128Z",
+    "elapsedTime": 403,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2e1ca9cb8127763923b922ec2ed5300384b694db",
-            "commitShort": "2e1ca9cb81",
+            "commit": "d6d085219569e7fa4a9088017ba1a115dcc49574",
+            "commitShort": "d6d0852195",
             "commitDate": null,
             "branch": "main"
         },
@@ -10155,7 +10155,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 411
+                    "line": 412
                 },
                 "props": {
                     "name": "column-width",
@@ -10173,7 +10173,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 504
+                    "line": 505
                 },
                 "props": {
                     "name": "column-count",
@@ -10191,7 +10191,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 565
+                    "line": 566
                 },
                 "props": {
                     "name": "columns",
@@ -10203,7 +10203,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 790
+                    "line": 791
                 },
                 "props": {
                     "name": "column-rule-color",
@@ -10221,7 +10221,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 820
+                    "line": 821
                 },
                 "props": {
                     "name": "column-rule-style",
@@ -10239,7 +10239,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 845
+                    "line": 846
                 },
                 "props": {
                     "name": "column-rule-width",
@@ -10257,7 +10257,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 870
+                    "line": 871
                 },
                 "props": {
                     "name": "column-rule",
@@ -10269,7 +10269,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 956
+                    "line": 957
                 },
                 "props": {
                     "name": "column-span",
@@ -10287,7 +10287,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1239
+                    "line": 1240
                 },
                 "props": {
                     "name": "column-fill",
