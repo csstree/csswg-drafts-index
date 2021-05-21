@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-20T01:10:47.128Z",
-    "elapsedTime": 403,
+    "createdAt": "2021-05-21T01:14:34.538Z",
+    "elapsedTime": 297,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d6d085219569e7fa4a9088017ba1a115dcc49574",
-            "commitShort": "d6d0852195",
+            "commit": "4f22b5c58df8804b4ea115277f819ea630aaf2ba",
+            "commitShort": "4f22b5c58d",
             "commitDate": null,
             "branch": "main"
         },
@@ -578,12 +578,12 @@
                     "shortname": "css-color-adjust",
                     "level": "1",
                     "status": "ED",
-                    "workStatus": "exploring",
+                    "workStatus": "refining",
                     "group": "CSSWG",
                     "tr": "https://www.w3.org/TR/css-color-adjust-1/",
                     "ed": "https://drafts.csswg.org/css-color-adjust-1/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-color-adjust-1-20200402/"
+                        "https://www.w3.org/TR/2021/WD-css-color-adjust-1-20210520/"
                     ],
                     "editor": [
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
@@ -2476,7 +2476,7 @@
                     "shortname": "css-sizing",
                     "level": "4",
                     "status": "ED",
-                    "workStatus": "Exploring",
+                    "workStatus": "Revising",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-sizing-4/",
                     "tr": "https://www.w3.org/TR/css-sizing-4/",
@@ -2484,12 +2484,12 @@
                         "CSSWG GitHub https://github.com/w3c/csswg-drafts/issues"
                     ],
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-sizing-4-20201020/"
+                        "https://www.w3.org/TR/2021/WD-css-sizing-4-20210520/"
                     ],
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
-                        "Jen Simmons, Apple, http://jensimmons.com/"
+                        "Jen Simmons, Apple, http://jensimmons.com/, w3cid 52801"
                     ],
                     "abstract": "This module extends the CSS sizing properties with keywords that represent content-based \"intrinsic\" sizes and context-based \"extrinsic\" sizes, allowing CSS to more easily describe boxes that fit their content or fit into a particular layout context. This is a delta spec over CSS Sizing Level 3.",
                     "ignoredTerms": [
@@ -4310,7 +4310,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1347
+                    "line": 1351
                 },
                 "props": {
                     "name": "border-top-color",
@@ -4328,7 +4328,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1347
+                    "line": 1351
                 },
                 "props": {
                     "name": "border-right-color",
@@ -4346,7 +4346,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1347
+                    "line": 1351
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -4364,7 +4364,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1347
+                    "line": 1351
                 },
                 "props": {
                     "name": "border-left-color",
@@ -4382,7 +4382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1381
                 },
                 "props": {
                     "name": "border-color",
@@ -4400,7 +4400,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1427
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-top-style",
@@ -4418,7 +4418,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1427
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-right-style",
@@ -4436,7 +4436,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1427
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -4454,7 +4454,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1427
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-left-style",
@@ -4472,7 +4472,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1457
+                    "line": 1461
                 },
                 "props": {
                     "name": "border-style",
@@ -4490,7 +4490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1590
+                    "line": 1594
                 },
                 "props": {
                     "name": "border-top-width",
@@ -4508,7 +4508,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1590
+                    "line": 1594
                 },
                 "props": {
                     "name": "border-right-width",
@@ -4526,7 +4526,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1590
+                    "line": 1594
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -4544,7 +4544,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1590
+                    "line": 1594
                 },
                 "props": {
                     "name": "border-left-width",
@@ -4562,7 +4562,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1618
+                    "line": 1622
                 },
                 "props": {
                     "name": "border-width",
@@ -4580,7 +4580,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1679
+                    "line": 1683
                 },
                 "props": {
                     "name": "border-top",
@@ -4598,7 +4598,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1679
+                    "line": 1683
                 },
                 "props": {
                     "name": "border-right",
@@ -4616,7 +4616,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1679
+                    "line": 1683
                 },
                 "props": {
                     "name": "border-bottom",
@@ -4634,7 +4634,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1679
+                    "line": 1683
                 },
                 "props": {
                     "name": "border-left",
@@ -4652,7 +4652,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1715
+                    "line": 1719
                 },
                 "props": {
                     "name": "border",
@@ -4670,7 +4670,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1808
+                    "line": 1812
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -4688,7 +4688,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1808
+                    "line": 1812
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -4706,7 +4706,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1808
+                    "line": 1812
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -4724,7 +4724,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1808
+                    "line": 1812
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -4742,7 +4742,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1840
+                    "line": 1844
                 },
                 "props": {
                     "name": "border-radius",
@@ -4760,7 +4760,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2220
+                    "line": 2224
                 },
                 "props": {
                     "name": "border-image-source",
@@ -4778,7 +4778,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2257
+                    "line": 2261
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -4796,7 +4796,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2345
+                    "line": 2349
                 },
                 "props": {
                     "name": "border-image-width",
@@ -4814,7 +4814,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2430
+                    "line": 2434
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -4832,7 +4832,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2493
+                    "line": 2497
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -4850,7 +4850,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2627
+                    "line": 2631
                 },
                 "props": {
                     "name": "border-image",
@@ -4868,7 +4868,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2685
+                    "line": 2689
                 },
                 "props": {
                     "name": "box-shadow",
@@ -5899,7 +5899,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4271
+                    "line": 4304
                 },
                 "props": {
                     "name": "opacity",
@@ -5917,13 +5917,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 129
+                    "line": 134
                 },
                 "props": {
                     "name": "color-scheme",
-                    "value": "normal | [ light | dark | <custom-ident> ]+",
+                    "value": "normal | [ light | dark | <custom-ident> ]+ && only?",
                     "initial": "normal",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "computedValue": "the keyword normal, or an ordered list of specified color scheme keywords",
                     "animationType": "discrete"
@@ -5934,13 +5934,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 477
+                    "line": 560
                 },
                 "props": {
                     "name": "forced-color-adjust",
                     "value": "auto | none",
                     "initial": "auto",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "animationType": "not animatable"
                 },
@@ -5950,10 +5950,10 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 560
+                    "line": 644
                 },
                 "props": {
-                    "name": "color-adjust",
+                    "name": "print-color-adjust",
                     "value": "economy | exact",
                     "initial": "economy",
                     "appliesTo": "all elements",
@@ -5961,6 +5961,18 @@
                     "inherited": "yes",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
+                },
+                "name": "print-color-adjust"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-color-adjust-1",
+                    "line": 693
+                },
+                "props": {
+                    "name": "color-adjust",
+                    "value": "<'print-color-adjust'>"
                 },
                 "name": "color-adjust"
             },
@@ -6059,7 +6071,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1054
+                    "line": 1113
                 },
                 "props": {
                     "name": "content-visibility",
@@ -10155,7 +10167,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 412
+                    "line": 415
                 },
                 "props": {
                     "name": "column-width",
@@ -10173,7 +10185,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 505
+                    "line": 508
                 },
                 "props": {
                     "name": "column-count",
@@ -10191,7 +10203,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 566
+                    "line": 569
                 },
                 "props": {
                     "name": "columns",
@@ -10203,7 +10215,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 791
+                    "line": 794
                 },
                 "props": {
                     "name": "column-rule-color",
@@ -10221,7 +10233,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 821
+                    "line": 824
                 },
                 "props": {
                     "name": "column-rule-style",
@@ -10239,7 +10251,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 846
+                    "line": 849
                 },
                 "props": {
                     "name": "column-rule-width",
@@ -10257,7 +10269,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 871
+                    "line": 874
                 },
                 "props": {
                     "name": "column-rule",
@@ -10269,7 +10281,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 957
+                    "line": 960
                 },
                 "props": {
                     "name": "column-span",
@@ -10287,7 +10299,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1240
+                    "line": 1245
                 },
                 "props": {
                     "name": "column-fill",
@@ -10437,7 +10449,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 582
+                    "line": 586
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -10455,7 +10467,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 582
+                    "line": 586
                 },
                 "props": {
                     "name": "overflow-block",
@@ -10473,7 +10485,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 603
+                    "line": 607
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10491,7 +10503,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 884
+                    "line": 888
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -10509,7 +10521,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 997
+                    "line": 1001
                 },
                 "props": {
                     "name": "line-clamp",
@@ -10523,7 +10535,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1119
+                    "line": 1123
                 },
                 "props": {
                     "name": "max-lines",
@@ -10541,7 +10553,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1217
+                    "line": 1221
                 },
                 "props": {
                     "name": "continue",
@@ -11956,7 +11968,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 879
+                    "line": 881
                 },
                 "props": {
                     "name": "shape-outside",
@@ -11973,7 +11985,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 955
+                    "line": 957
                 },
                 "props": {
                     "name": "shape-image-threshold",
@@ -11990,7 +12002,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 1014
+                    "line": 1016
                 },
                 "props": {
                     "name": "shape-margin",
@@ -14931,7 +14943,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 2337
+                    "line": 2341
                 },
                 "props": {
                     "name": "text-combine-upright",
@@ -15044,7 +15056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 2539
+                    "line": 2543
                 },
                 "props": {
                     "name": "text-combine-upright",
@@ -17907,7 +17919,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1506
+                    "line": 1510
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -17917,7 +17929,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1648
+                    "line": 1652
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -17927,7 +17939,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2728
+                    "line": 2732
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -18117,7 +18129,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4117
+                    "line": 4150
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18127,7 +18139,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4118
+                    "line": 4151
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18149,7 +18161,17 @@
                     "spec": "css-color-5",
                     "line": 128
                 },
-                "value": "color-mix( in <color-space> , [ <color> && <percentage [0,100]>? ]#{2})"
+                "value": "color-mix( in <color-space> , [ <color> && <percentage [0,100]>? ]#{2} <hue-adjuster>?)"
+            },
+            {
+                "type": "prod",
+                "name": "hue-adjuster",
+                "dfnName": "<hue-adjuster>",
+                "source": {
+                    "spec": "css-color-5",
+                    "line": 129
+                },
+                "value": "shorter | longer | increasing | decreasing | specified"
             },
             {
                 "type": "prod",
@@ -18157,7 +18179,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 554
+                    "line": 566
                 },
                 "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large]]? )"
             },
@@ -18167,9 +18189,9 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 706
+                    "line": 718
                 },
-                "value": "color-adjust( <color> [ <color-adjuster> && [ in <color-space> ]? ]? )"
+                "value": "color-adjust( <color> <color-adjuster> && [ in <color-space> ]?  )"
             },
             {
                 "type": "prod",
@@ -18177,9 +18199,9 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 710
+                    "line": 722
                 },
-                "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>?"
+                "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>"
             },
             {
                 "type": "prod",
@@ -18187,7 +18209,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 714
+                    "line": 726
                 },
                 "value": "red | green | blue"
             },
@@ -18197,9 +18219,9 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 715
+                    "line": 727
                 },
-                "value": "<hue-adjuster> | saturation | lightness"
+                "value": "hue | saturation | lightness"
             },
             {
                 "type": "prod",
@@ -18207,9 +18229,9 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 716
+                    "line": 728
                 },
-                "value": "<hue-adjuster> |  whiteness | blackness"
+                "value": "hue |  whiteness | blackness"
             },
             {
                 "type": "prod",
@@ -18217,7 +18239,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 717
+                    "line": 729
                 },
                 "value": "x | y | z"
             },
@@ -18227,7 +18249,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 718
+                    "line": 730
                 },
                 "value": "lightness | a | b"
             },
@@ -18237,19 +18259,9 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 719
+                    "line": 731
                 },
-                "value": "lightness | chroma | <hue-adjuster>"
-            },
-            {
-                "type": "prod",
-                "name": "hue-adjuster",
-                "dfnName": "<hue-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 720
-                },
-                "value": "hue [shorter | longer | increasing | decreasing | specified ]?"
+                "value": "lightness | chroma | hue"
             },
             {
                 "type": "prod",
@@ -18257,7 +18269,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 884
+                    "line": 891
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
@@ -18267,7 +18279,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 913
+                    "line": 920
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18277,7 +18289,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 942
+                    "line": 949
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18287,7 +18299,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 962
+                    "line": 969
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18297,9 +18309,19 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1001
+                    "line": 1008
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
+            },
+            {
+                "type": "prod",
+                "name": "color()",
+                "dfnName": "color()",
+                "source": {
+                    "spec": "css-color-5",
+                    "line": 1060
+                },
+                "value": "color( [from <color>]? <colorspace-params> [ / <alpha-value> ]? )"
             },
             {
                 "type": "prod",
@@ -20075,7 +20097,7 @@
                 "dfnName": "<<shape-radius>>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 488
+                    "line": 490
                 },
                 "value": "<length-percentage> | closest-side | farthest-side"
             },
@@ -20085,7 +20107,7 @@
                 "dfnName": "<<shape-box>>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 751
+                    "line": 753
                 },
                 "value": "<box> | margin-box"
             },
