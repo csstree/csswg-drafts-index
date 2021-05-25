@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-24T01:21:20.366Z",
-    "elapsedTime": 329,
+    "createdAt": "2021-05-25T01:17:28.724Z",
+    "elapsedTime": 375,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4f22b5c58df8804b4ea115277f819ea630aaf2ba",
-            "commitShort": "4f22b5c58d",
+            "commit": "e6dd3c2b3ae7e953bdbedd90e9cad8e9f27e5a21",
+            "commitShort": "e6dd3c2b3a",
             "commitDate": null,
             "branch": "main"
         },
@@ -5885,7 +5885,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3741
+                    "line": 3743
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5899,7 +5899,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4304
+                    "line": 4306
                 },
                 "props": {
                     "name": "opacity",
@@ -18119,7 +18119,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3127
+                    "line": 3129
                 },
                 "value": "color( [<ident> | <dashed-ident>] [ <number-percentage>+ ] [ / <alpha-value> ]? )"
             },
@@ -18129,7 +18129,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4150
+                    "line": 4152
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18139,7 +18139,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4151
+                    "line": 4153
                 },
                 "value": "<number> | <percentage>"
             },
