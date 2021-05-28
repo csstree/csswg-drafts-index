@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-27T01:48:06.528Z",
-    "elapsedTime": 482,
+    "createdAt": "2021-05-28T01:57:03.547Z",
+    "elapsedTime": 436,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "45b0b891e81ff308b4ce482ac1e3621382608f0a",
-            "commitShort": "45b0b891e8",
+            "commit": "dd1c3c46e64fce78f3106469863b46bd946e649a",
+            "commitShort": "dd1c3c46e6",
             "commitDate": null,
             "branch": "main"
         },
@@ -18047,6 +18047,16 @@
             },
             {
                 "type": "prod",
+                "name": "layer-name",
+                "dfnName": "<<layer-name>>",
+                "source": {
+                    "spec": "css-cascade-5",
+                    "line": 1310
+                },
+                "value": "<ident> [ '.' <ident> ]*"
+            },
+            {
+                "type": "prod",
                 "name": "hue",
                 "dfnName": "<hue>",
                 "source": {
@@ -18331,7 +18341,7 @@
                 "dfnName": "<supports-condition>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 273
+                    "line": 270
                 },
                 "value": "not <supports-in-parens>\n| <supports-in-parens> [ and <supports-in-parens> ]*\n| <supports-in-parens> [ or <supports-in-parens> ]*"
             },
@@ -18341,7 +18351,7 @@
                 "dfnName": "<supports-in-parens>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 276
+                    "line": 273
                 },
                 "value": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
             },
@@ -18351,7 +18361,7 @@
                 "dfnName": "<supports-feature>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 277
+                    "line": 274
                 },
                 "value": "<supports-decl>"
             },
@@ -18361,7 +18371,7 @@
                 "dfnName": "<supports-decl>",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 278
+                    "line": 275
                 },
                 "value": "( <declaration> )"
             },
@@ -21448,7 +21458,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 511
+                    "line": 505
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short SUPPORTS_RULE = 12;\n    \n};"
             },
@@ -21456,7 +21466,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 571
+                    "line": 565
                 },
                 "content": "[Exposed=Window]\ninterface CSSMediaRule : CSSConditionRule {\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
@@ -21464,7 +21474,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 597
+                    "line": 591
                 },
                 "content": "[Exposed=Window]\ninterface CSSSupportsRule : CSSConditionRule {\n};"
             },
@@ -21472,7 +21482,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 628
+                    "line": 622
                 },
                 "content": "[Exposed=Window]\ninterface CSSDocumentRule : CSSConditionRule {\n};"
             },
@@ -21480,7 +21490,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 641
+                    "line": 635
                 },
                 "content": "partial namespace CSS {\n  boolean supports(CSSOMString property, CSSOMString value);\n  boolean supports(CSSOMString conditionText);\n};"
             },
