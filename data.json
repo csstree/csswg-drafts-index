@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-05-31T02:39:40.946Z",
-    "elapsedTime": 418,
+    "createdAt": "2021-06-01T03:08:01.010Z",
+    "elapsedTime": 364,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "603d43b1fe4aaf2e4e6dbd4018fda74d088e300f",
-            "commitShort": "603d43b1fe",
+            "commit": "44ca42316093a4c32567e6b659e94d33de2615d2",
+            "commitShort": "44ca423160",
             "commitDate": null,
             "branch": "main"
         },
@@ -616,7 +616,7 @@
                     "ed": "https://drafts.csswg.org/css-color-hdr/",
                     "workStatus": "exploring",
                     "editor": [
-                        "Chris Lilley, W3C, chris@w3.org, w3cid 1438"
+                        "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "abstract": "This module explores additions to CSS Color 4 to enable High Dynamic Range (HDR)."
                 }
@@ -5984,7 +5984,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 567
+                    "line": 584
                 },
                 "props": {
                     "name": "foo",
@@ -6003,7 +6003,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 643
+                    "line": 660
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -6015,7 +6015,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 650
+                    "line": 667
                 },
                 "props": {
                     "name": "foo",
@@ -6027,7 +6027,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 657
+                    "line": 674
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -21452,7 +21452,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 624
+                    "line": 641
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
