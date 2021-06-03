@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-02T03:06:20.663Z",
-    "elapsedTime": 385,
+    "createdAt": "2021-06-03T02:41:23.843Z",
+    "elapsedTime": 390,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a815bf7d92dc946cac6c0116b84cb95e5af6fd69",
-            "commitShort": "a815bf7d92",
+            "commit": "6ae4b989d9810a1a8e6962578f3a82565d4e1d8b",
+            "commitShort": "6ae4b989d9",
             "commitDate": null,
             "branch": "main"
         },
@@ -20633,7 +20633,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 748
+                    "line": 749
                 },
                 "attrs": {
                     "id": "url-value"
@@ -20646,7 +20646,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 2498
+                    "line": 2490
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -20656,7 +20656,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3797
+                    "line": 3789
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -20666,7 +20666,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3798
+                    "line": 3790
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -20676,7 +20676,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3799
+                    "line": 3791
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -20686,7 +20686,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3801
+                    "line": 3793
                 },
                 "value": "e | pi | infinity | -infinity | NaN"
             },
