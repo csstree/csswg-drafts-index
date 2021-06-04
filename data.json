@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-03T02:41:23.843Z",
-    "elapsedTime": 390,
+    "createdAt": "2021-06-04T02:03:35.362Z",
+    "elapsedTime": 429,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6ae4b989d9810a1a8e6962578f3a82565d4e1d8b",
-            "commitShort": "6ae4b989d9",
+            "commit": "d338826d84bff9d48459000a1d95e7804ba7eacc",
+            "commitShort": "d338826d84",
             "commitDate": null,
             "branch": "main"
         },
@@ -6199,7 +6199,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 225
+                    "line": 227
                 },
                 "props": {
                     "name": "system",
@@ -6213,7 +6213,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 748
+                    "line": 757
                 },
                 "props": {
                     "name": "negative",
@@ -6227,7 +6227,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 792
+                    "line": 801
                 },
                 "props": {
                     "name": "prefix",
@@ -6241,7 +6241,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 820
+                    "line": 829
                 },
                 "props": {
                     "name": "suffix",
@@ -6255,7 +6255,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 848
+                    "line": 857
                 },
                 "props": {
                     "name": "range",
@@ -6269,7 +6269,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 921
+                    "line": 930
                 },
                 "props": {
                     "name": "pad",
@@ -6283,7 +6283,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 989
+                    "line": 998
                 },
                 "props": {
                     "name": "fallback",
@@ -6297,7 +6297,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1032
+                    "line": 1041
                 },
                 "props": {
                     "name": "symbols",
@@ -6311,7 +6311,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1039
+                    "line": 1048
                 },
                 "props": {
                     "name": "additive-symbols",
@@ -6325,7 +6325,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1116
+                    "line": 1125
                 },
                 "props": {
                     "name": "speak-as",
@@ -17529,7 +17529,7 @@
                 },
                 "props": {
                     "name": "prefers-contrast",
-                    "value": "no-preference | less | more",
+                    "value": "no-preference | less | more | custom",
                     "for": "@media",
                     "type": "discrete"
                 },
@@ -17539,7 +17539,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2724
+                    "line": 2753
                 },
                 "props": {
                     "name": "forced-colors",
@@ -17553,7 +17553,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2789
+                    "line": 2808
                 },
                 "props": {
                     "name": "prefers-color-scheme",
@@ -17567,7 +17567,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2858
+                    "line": 2877
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -17581,7 +17581,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3040
+                    "line": 3059
                 },
                 "props": {
                     "name": "device-width",
@@ -17595,7 +17595,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3069
+                    "line": 3088
                 },
                 "props": {
                     "name": "device-height",
@@ -17609,7 +17609,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3094
+                    "line": 3113
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -18579,7 +18579,7 @@
                 "dfnName": "<symbol>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1046
+                    "line": 1055
                 },
                 "value": "<string> | <image> | <custom-ident>"
             },
@@ -18589,7 +18589,7 @@
                 "dfnName": "symbols()",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1219
+                    "line": 1229
                 },
                 "value": "symbols( <symbols-type>? [ <string> | <image> ]+ );"
             },
@@ -18599,7 +18599,7 @@
                 "dfnName": "<symbols-type>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1220
+                    "line": 1230
                 },
                 "value": "cyclic | numeric | alphabetic | symbolic | fixed;"
             },
@@ -18609,7 +18609,7 @@
                 "dfnName": "<counter-style>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1297
+                    "line": 1307
                 },
                 "attrs": {
                     "type": true
@@ -21500,7 +21500,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2527
+                    "line": 2533
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short COUNTER_STYLE_RULE = 11;\n};"
             },
@@ -21508,7 +21508,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2539
+                    "line": 2545
                 },
                 "content": "[Exposed=Window]\ninterface CSSCounterStyleRule : CSSRule {\n  attribute CSSOMString name;\n  attribute CSSOMString system;\n  attribute CSSOMString symbols;\n  attribute CSSOMString additiveSymbols;\n  attribute CSSOMString negative;\n  attribute CSSOMString prefix;\n  attribute CSSOMString suffix;\n  attribute CSSOMString range;\n  attribute CSSOMString pad;\n  attribute CSSOMString speakAs;\n  attribute CSSOMString fallback;\n};"
             },
