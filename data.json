@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-04T02:03:35.362Z",
-    "elapsedTime": 429,
+    "createdAt": "2021-06-05T01:48:05.602Z",
+    "elapsedTime": 400,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d338826d84bff9d48459000a1d95e7804ba7eacc",
-            "commitShort": "d338826d84",
+            "commit": "3e7f25720b31986bb19b3ca42604a806a96f0035",
+            "commitShort": "3e7f25720b",
             "commitDate": null,
             "branch": "main"
         },
@@ -10579,8 +10579,9 @@
                 },
                 "props": {
                     "name": "scrollbar-gutter",
-                    "value": "auto | [ stable | always ] && both? && force?",
+                    "value": "auto | stable && mirror?",
                     "initial": "auto",
+                    "appliesTo": "[=scroll containers=]",
                     "inherited": "no",
                     "computedValue": "specified keyword(s)",
                     "animationType": "discrete"
@@ -10591,7 +10592,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 404
+                    "line": 384
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10609,7 +10610,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 819
+                    "line": 799
                 },
                 "props": {
                     "name": "continue",
@@ -10627,7 +10628,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1378
+                    "line": 1358
                 },
                 "props": {
                     "name": "max-lines",
@@ -10641,6 +10642,19 @@
                     "animationType": "by computed value type"
                 },
                 "name": "max-lines"
+            },
+            {
+                "type": "prop-partial",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 1473
+                },
+                "props": {
+                    "name": "scrollbar-gutter",
+                    "newValues": "auto | [ [ stable | always ] && mirror? && force? ] || match-parent",
+                    "appliesTo": "all elements"
+                },
+                "name": "scrollbar-gutter"
             },
             {
                 "type": "prop",
