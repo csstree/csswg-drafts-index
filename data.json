@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-05T01:48:05.602Z",
-    "elapsedTime": 400,
+    "createdAt": "2021-06-06T01:41:26.617Z",
+    "elapsedTime": 442,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3e7f25720b31986bb19b3ca42604a806a96f0035",
-            "commitShort": "3e7f25720b",
+            "commit": "c996f0ec285ae83d2fbe81ce36230a82736fab66",
+            "commitShort": "c996f0ec28",
             "commitDate": null,
             "branch": "main"
         },
@@ -512,14 +512,13 @@
                 "id": "css-color-4",
                 "props": {
                     "title": "CSS Color Module Level 4",
-                    "status": "WD",
-                    "prepareForTr": "yes",
-                    "date": "2021-06-01",
+                    "status": "ED",
+                    "prepareForTr": "no",
                     "workStatus": "Refining",
                     "ed": "https://drafts.csswg.org/css-color/",
                     "tr": "https://www.w3.org/TR/css-color-4/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-color-4-20201112/"
+                        "https://www.w3.org/TR/2021/WD-css-color-4-20210601/"
                     ],
                     "shortname": "css-color",
                     "group": "csswg",
@@ -553,14 +552,13 @@
                     "title": "CSS Color Module Level 5",
                     "shortname": "css-color",
                     "level": "5",
-                    "status": "WD",
-                    "prepareForTr": "yes",
-                    "date": "2021-06-01",
+                    "status": "ED",
+                    "prepareForTr": "no",
                     "group": "csswg",
                     "tr": "https://www.w3.org/TR/css-color-5/",
                     "ed": "https://drafts.csswg.org/css-color-5/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2020/WD-css-color-5-20200303/"
+                        "https://www.w3.org/TR/2021/WD-css-color-5-20210601/"
                     ],
                     "workStatus": "exploring",
                     "!deltaSpec": "yes",
@@ -5871,7 +5869,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 285
+                    "line": 284
                 },
                 "props": {
                     "name": "color",
@@ -5889,7 +5887,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3759
+                    "line": 3758
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -5903,7 +5901,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4323
+                    "line": 4322
                 },
                 "props": {
                     "name": "opacity",
@@ -18077,7 +18075,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 396
+                    "line": 395
                 },
                 "value": "<number> | <angle>"
             },
@@ -18087,7 +18085,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1098
+                    "line": 1097
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? )"
             },
@@ -18097,7 +18095,7 @@
                 "dfnName": "<alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1100
+                    "line": 1099
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18107,7 +18105,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1871
+                    "line": 1870
                 },
                 "value": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18117,7 +18115,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2445
+                    "line": 2444
                 },
                 "value": "hwb( <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18127,7 +18125,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2892
+                    "line": 2891
                 },
                 "value": "lab( <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18137,7 +18135,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2944
+                    "line": 2943
                 },
                 "value": "lch( <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18147,7 +18145,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3140
+                    "line": 3139
                 },
                 "value": "color( [<ident> | <dashed-ident>] [ <number-percentage>+ ] [ / <alpha-value> ]? )"
             },
@@ -18157,7 +18155,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4169
+                    "line": 4168
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? , <color>? )"
             },
@@ -18167,7 +18165,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4170
+                    "line": 4169
                 },
                 "value": "<number> | <percentage>"
             },
@@ -18177,7 +18175,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 97
+                    "line": 96
                 },
                 "value": "srgb | hsl | hwb | xyz | lab | lch"
             },
@@ -18187,7 +18185,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 130
+                    "line": 129
                 },
                 "value": "color-mix( in <color-space> , [ <color> && <percentage [0,100]>? ]#{2} <hue-adjuster>?)"
             },
@@ -18197,7 +18195,7 @@
                 "dfnName": "<hue-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 131
+                    "line": 130
                 },
                 "value": "shorter | longer | increasing | decreasing | specified"
             },
@@ -18207,7 +18205,7 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 568
+                    "line": 567
                 },
                 "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large | AAA | AAA-large]]? )"
             },
@@ -18217,7 +18215,7 @@
                 "dfnName": "color-adjust()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 722
+                    "line": 721
                 },
                 "value": "color-adjust( <color> <color-adjuster> && [ in <color-space> ]?  )"
             },
@@ -18227,7 +18225,7 @@
                 "dfnName": "<color-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 726
+                    "line": 725
                 },
                 "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>"
             },
@@ -18237,7 +18235,7 @@
                 "dfnName": "<srgb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 730
+                    "line": 729
                 },
                 "value": "red | green | blue"
             },
@@ -18247,7 +18245,7 @@
                 "dfnName": "<hsl-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 731
+                    "line": 730
                 },
                 "value": "hue | saturation | lightness"
             },
@@ -18257,7 +18255,7 @@
                 "dfnName": "<hwb-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 732
+                    "line": 731
                 },
                 "value": "hue |  whiteness | blackness"
             },
@@ -18267,7 +18265,7 @@
                 "dfnName": "<xyz-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 733
+                    "line": 732
                 },
                 "value": "x | y | z"
             },
@@ -18277,7 +18275,7 @@
                 "dfnName": "<lab-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 734
+                    "line": 733
                 },
                 "value": "lightness | a | b"
             },
@@ -18287,7 +18285,7 @@
                 "dfnName": "<lch-adjuster>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 735
+                    "line": 734
                 },
                 "value": "lightness | chroma | hue"
             },
@@ -18297,7 +18295,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 895
+                    "line": 894
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
@@ -18307,7 +18305,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 924
+                    "line": 923
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18317,7 +18315,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 953
+                    "line": 952
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18327,7 +18325,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 973
+                    "line": 972
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18337,7 +18335,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1012
+                    "line": 1011
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18347,7 +18345,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1064
+                    "line": 1063
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / <alpha-value> ]? )"
             },
