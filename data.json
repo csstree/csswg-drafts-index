@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-07T01:41:57.045Z",
-    "elapsedTime": 451,
+    "createdAt": "2021-06-08T01:37:50.004Z",
+    "elapsedTime": 335,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "c996f0ec285ae83d2fbe81ce36230a82736fab66",
-            "commitShort": "c996f0ec28",
+            "commit": "22a5e0e435a74e6b1ef7db2d2b72e6d405460d1a",
+            "commitShort": "22a5e0e435",
             "commitDate": null,
             "branch": "main"
         },
@@ -10435,7 +10435,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 508
+                    "line": 523
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -10451,7 +10451,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 586
+                    "line": 601
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -10469,7 +10469,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 586
+                    "line": 601
                 },
                 "props": {
                     "name": "overflow-block",
@@ -10487,7 +10487,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 607
+                    "line": 622
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10505,7 +10505,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 888
+                    "line": 903
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -10523,7 +10523,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1001
+                    "line": 1016
                 },
                 "props": {
                     "name": "line-clamp",
@@ -10537,7 +10537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1123
+                    "line": 1138
                 },
                 "props": {
                     "name": "max-lines",
@@ -10555,7 +10555,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1221
+                    "line": 1236
                 },
                 "props": {
                     "name": "continue",
@@ -12474,7 +12474,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 714
+                    "line": 723
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -19009,7 +19009,7 @@
                 "attrs": {
                     "id": "color-font-technology-values"
                 },
-                "value": "[COLR | SVG | sbix | CBDT ]"
+                "value": "[COLRv0 | COLRv1 | SVG | sbix | CBDT ]"
             },
             {
                 "type": "prod",
