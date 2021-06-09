@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-08T01:37:50.004Z",
-    "elapsedTime": 335,
+    "createdAt": "2021-06-09T01:13:08.421Z",
+    "elapsedTime": 391,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "22a5e0e435a74e6b1ef7db2d2b72e6d405460d1a",
-            "commitShort": "22a5e0e435",
+            "commit": "787534dc7b8c73b56375b72cb0882aaeb96a75f0",
+            "commitShort": "787534dc7b",
             "commitDate": null,
             "branch": "main"
         },
@@ -476,12 +476,13 @@
                     "shortname": "css-cascade",
                     "level": "5",
                     "status": "ED",
-                    "workStatus": "Exploring",
+                    "workStatus": "Refining",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-cascade/",
                     "tr": "https://www.w3.org/TR/css-cascade-5/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2021/WD-css-cascade-5-20210317/",
+                        "https://www.w3.org/TR/2021/WD-css-cascade-5-20210608/",
+                        "https://www.w3.org/TR/2021/WD-css-cascade-5-20210319/",
                         "https://www.w3.org/TR/2021/WD-css-cascade-5-20210119/"
                     ],
                     "editor": [
@@ -5823,7 +5824,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 416
+                    "line": 417
                 },
                 "props": {
                     "name": "all",
@@ -18065,7 +18066,7 @@
                 "dfnName": "<<layer-name>>",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 1310
+                    "line": 1311
                 },
                 "value": "<ident> [ '.' <ident> ]*"
             },
