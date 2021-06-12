@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-11T01:04:28.130Z",
-    "elapsedTime": 334,
+    "createdAt": "2021-06-12T00:58:58.014Z",
+    "elapsedTime": 401,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "891e275a3beb6d7b45b0fab4ab749e661169b683",
-            "commitShort": "891e275a3b",
+            "commit": "be5187940c87dbc287d847917d8504b576e28671",
+            "commitShort": "be5187940c",
             "commitDate": null,
             "branch": "main"
         },
@@ -6082,7 +6082,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 72
+                    "line": 76
                 },
                 "props": {
                     "name": "contain",
@@ -6094,7 +6094,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 133
+                    "line": 166
                 },
                 "props": {
                     "name": "container-type",
@@ -6111,7 +6111,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 234
+                    "line": 266
                 },
                 "props": {
                     "name": "container-name",
@@ -6128,7 +6128,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 299
+                    "line": 344
                 },
                 "props": {
                     "name": "container",
@@ -6140,7 +6140,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 360
+                    "line": 444
                 },
                 "props": {
                     "name": "width",
@@ -6154,7 +6154,21 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 379
+                    "line": 459
+                },
+                "props": {
+                    "name": "height",
+                    "for": "@container",
+                    "value": "<length>",
+                    "type": "range"
+                },
+                "name": "height"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "css-contain-3",
+                    "line": 474
                 },
                 "props": {
                     "name": "inline-size",
@@ -6163,6 +6177,48 @@
                     "type": "range"
                 },
                 "name": "inline-size"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "css-contain-3",
+                    "line": 493
+                },
+                "props": {
+                    "name": "block-size",
+                    "for": "@container",
+                    "value": "<length>",
+                    "type": "range"
+                },
+                "name": "block-size"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "css-contain-3",
+                    "line": 512
+                },
+                "props": {
+                    "name": "aspect-ratio",
+                    "for": "@container",
+                    "value": "<ratio>",
+                    "type": "range"
+                },
+                "name": "aspect-ratio"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "css-contain-3",
+                    "line": 527
+                },
+                "props": {
+                    "name": "orientation",
+                    "for": "@container",
+                    "value": "portrait | landscape",
+                    "type": "discrete"
+                },
+                "name": "orientation"
             },
             {
                 "type": "prop",
