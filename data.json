@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-12T00:58:58.014Z",
-    "elapsedTime": 401,
+    "createdAt": "2021-06-13T01:05:12.230Z",
+    "elapsedTime": 442,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "be5187940c87dbc287d847917d8504b576e28671",
-            "commitShort": "be5187940c",
+            "commit": "e8e14b8b6b313843ffc52d1a59a765d7a51a53b9",
+            "commitShort": "e8e14b8b6b",
             "commitDate": null,
             "branch": "main"
         },
@@ -20008,7 +20008,7 @@
                 "dfnName": "@nest",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 369
+                    "line": 393
                 },
                 "value": "@nest <selector> { <declaration-list> }"
             },
@@ -21791,7 +21791,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 680
+                    "line": 704
                 },
                 "content": "partial interface CSSStyleRule {\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
             },
@@ -21799,7 +21799,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 705
+                    "line": 729
                 },
                 "content": "[Exposed=Window]\ninterface CSSNestingRule : CSSRule {\n    attribute CSSOMString selectorText;\n    [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
             },
