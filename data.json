@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-14T01:01:29.600Z",
-    "elapsedTime": 447,
+    "createdAt": "2021-06-15T01:06:45.405Z",
+    "elapsedTime": 413,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e8e14b8b6b313843ffc52d1a59a765d7a51a53b9",
-            "commitShort": "e8e14b8b6b",
+            "commit": "427c650da9cde3b93c1fdf877a6c8a474d880e0f",
+            "commitShort": "427c650da9",
             "commitDate": null,
             "branch": "main"
         },
@@ -6082,7 +6082,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 76
+                    "line": 77
                 },
                 "props": {
                     "name": "contain",
@@ -6094,7 +6094,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 166
+                    "line": 167
                 },
                 "props": {
                     "name": "container-type",
@@ -6102,7 +6102,7 @@
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "all elements",
-                    "computedValue": "the keyword none or one or more of size, inline-size, style, state",
+                    "computedValue": "the keyword none or one or more of size, inline-size, block-size, style, state",
                     "animationType": "not animatable"
                 },
                 "name": "container-type"
@@ -6111,7 +6111,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 266
+                    "line": 267
                 },
                 "props": {
                     "name": "container-name",
@@ -6140,7 +6140,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 444
+                    "line": 450
                 },
                 "props": {
                     "name": "width",
@@ -6154,7 +6154,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 459
+                    "line": 465
                 },
                 "props": {
                     "name": "height",
@@ -6168,7 +6168,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 474
+                    "line": 480
                 },
                 "props": {
                     "name": "inline-size",
@@ -6182,7 +6182,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 493
+                    "line": 499
                 },
                 "props": {
                     "name": "block-size",
@@ -6196,7 +6196,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 512
+                    "line": 518
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6210,7 +6210,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 527
+                    "line": 533
                 },
                 "props": {
                     "name": "orientation",
@@ -8098,7 +8098,7 @@
                 },
                 "props": {
                     "name": "superscript-position-override",
-                    "value": "auto | from-font | <percentage>",
+                    "value": "normal | from-font | <percentage>",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8112,7 +8112,7 @@
                 },
                 "props": {
                     "name": "subscript-position-override",
-                    "value": "auto | from-font | <percentage>",
+                    "value": "normal | from-font | <percentage>",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8126,7 +8126,7 @@
                 },
                 "props": {
                     "name": "superscript-size-override",
-                    "value": "auto | from-font | <percentage [0,∞]>",
+                    "value": "normal | from-font | <percentage [0,∞]>",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8140,7 +8140,7 @@
                 },
                 "props": {
                     "name": "subscript-size-override",
-                    "value": "auto | from-font | <percentage [0,∞]>",
+                    "value": "normal | from-font | <percentage [0,∞]>",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -15000,7 +15000,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 222
+                    "line": 238
                 },
                 "props": {
                     "name": "direction",
@@ -15019,7 +15019,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 273
+                    "line": 289
                 },
                 "props": {
                     "name": "unicode-bidi",
@@ -15037,7 +15037,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 785
+                    "line": 801
                 },
                 "props": {
                     "name": "writing-mode",
@@ -15056,7 +15056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 1203
+                    "line": 1219
                 },
                 "props": {
                     "name": "text-orientation",
@@ -15075,7 +15075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 1409
+                    "line": 1422
                 },
                 "props": {
                     "name": "glyph-orientation-vertical",
@@ -15094,13 +15094,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-3",
-                    "line": 2341
+                    "line": 2354
                 },
                 "props": {
                     "name": "text-combine-upright",
                     "value": "none | all",
                     "initial": "none",
-                    "appliesTo": "[=inline elements=] and text",
+                    "appliesTo": "[=inline boxes=] and text",
                     "inherited": "yes",
                     "percentages": "n/a",
                     "computedValue": "specified keyword",
@@ -15113,7 +15113,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 225
+                    "line": 241
                 },
                 "props": {
                     "name": "direction",
@@ -15132,7 +15132,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 276
+                    "line": 292
                 },
                 "props": {
                     "name": "unicode-bidi",
@@ -15150,7 +15150,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 857
+                    "line": 873
                 },
                 "props": {
                     "name": "writing-mode",
@@ -15169,7 +15169,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 1281
+                    "line": 1297
                 },
                 "props": {
                     "name": "text-orientation",
@@ -15188,7 +15188,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 1486
+                    "line": 1499
                 },
                 "props": {
                     "name": "glyph-orientation-vertical",
@@ -15207,7 +15207,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-writing-modes-4",
-                    "line": 2543
+                    "line": 2556
                 },
                 "props": {
                     "name": "text-combine-upright",
