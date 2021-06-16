@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-15T01:06:45.405Z",
-    "elapsedTime": 413,
+    "createdAt": "2021-06-16T01:03:19.268Z",
+    "elapsedTime": 346,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "427c650da9cde3b93c1fdf877a6c8a474d880e0f",
-            "commitShort": "427c650da9",
+            "commit": "c78e58b5ccd893de6811d7b083f57809c102a102",
+            "commitShort": "c78e58b5cc",
             "commitDate": null,
             "branch": "main"
         },
@@ -3718,7 +3718,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 888
+                    "line": 889
                 },
                 "props": {
                     "name": "align-content",
@@ -3736,7 +3736,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 899
+                    "line": 900
                 },
                 "props": {
                     "name": "justify-content",
@@ -3754,7 +3754,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1066
+                    "line": 1067
                 },
                 "props": {
                     "name": "place-content",
@@ -3772,7 +3772,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1252
+                    "line": 1290
                 },
                 "props": {
                     "name": "justify-self",
@@ -3790,7 +3790,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1475
+                    "line": 1513
                 },
                 "props": {
                     "name": "align-self",
@@ -3808,7 +3808,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1662
+                    "line": 1700
                 },
                 "props": {
                     "name": "place-self",
@@ -3826,7 +3826,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1824
+                    "line": 1862
                 },
                 "props": {
                     "name": "justify-items",
@@ -3844,7 +3844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1861
+                    "line": 1899
                 },
                 "props": {
                     "name": "align-items",
@@ -3862,7 +3862,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1881
+                    "line": 1919
                 },
                 "props": {
                     "name": "place-items",
@@ -3880,7 +3880,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1929
+                    "line": 1967
                 },
                 "props": {
                     "name": "row-gap",
@@ -3898,7 +3898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1929
+                    "line": 1967
                 },
                 "props": {
                     "name": "column-gap",
@@ -3916,7 +3916,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2018
+                    "line": 2056
                 },
                 "props": {
                     "name": "gap",
@@ -6182,7 +6182,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 499
+                    "line": 496
                 },
                 "props": {
                     "name": "block-size",
@@ -6196,7 +6196,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 518
+                    "line": 512
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6210,7 +6210,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 533
+                    "line": 527
                 },
                 "props": {
                     "name": "orientation",
@@ -17830,7 +17830,7 @@
                 "dfnName": "<self-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 371
+                    "line": 372
                 },
                 "value": "center | start | end | self-start | self-end |\nflex-start | flex-end"
             },
@@ -17840,7 +17840,7 @@
                 "dfnName": "<content-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 380
+                    "line": 381
                 },
                 "value": "center | start | end | flex-start | flex-end"
             },
@@ -17850,7 +17850,7 @@
                 "dfnName": "<baseline-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 598
+                    "line": 599
                 },
                 "value": "[ first | last ]? && baseline"
             },
@@ -17860,7 +17860,7 @@
                 "dfnName": "<content-distribution>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 754
+                    "line": 755
                 },
                 "value": "space-between | space-around | space-evenly | stretch"
             },
@@ -17870,7 +17870,7 @@
                 "dfnName": "<overflow-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 832
+                    "line": 833
                 },
                 "value": "unsafe | safe"
             },
@@ -19968,7 +19968,7 @@
                 "dfnName": "<<counter>>",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1333
+                    "line": 1355
                 },
                 "value": "<counter()> | <counters()>"
             },
@@ -19978,7 +19978,7 @@
                 "dfnName": "counter()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1334
+                    "line": 1356
                 },
                 "value": "counter( <counter-name>, <counter-style>? )"
             },
@@ -19988,7 +19988,7 @@
                 "dfnName": "counters()",
                 "source": {
                     "spec": "css-lists-3",
-                    "line": 1335
+                    "line": 1357
                 },
                 "value": "counters( <counter-name>, <string>, <counter-style>? )"
             },
