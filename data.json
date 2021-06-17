@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-16T01:03:19.268Z",
-    "elapsedTime": 346,
+    "createdAt": "2021-06-17T01:01:27.166Z",
+    "elapsedTime": 337,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "c78e58b5ccd893de6811d7b083f57809c102a102",
-            "commitShort": "c78e58b5cc",
+            "commit": "da98b8f1082fb50162fd118ef76488c90f509d38",
+            "commitShort": "da98b8f108",
             "commitDate": null,
             "branch": "main"
         },
@@ -586,6 +586,7 @@
                     "tr": "https://www.w3.org/TR/css-color-adjust-1/",
                     "ed": "https://drafts.csswg.org/css-color-adjust-1/",
                     "previousVersion": [
+                        "https://www.w3.org/TR/2021/WD-css-color-adjust-1-20210616/",
                         "https://www.w3.org/TR/2021/WD-css-color-adjust-1-20210520/"
                     ],
                     "editor": [
@@ -3718,7 +3719,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 889
+                    "line": 896
                 },
                 "props": {
                     "name": "align-content",
@@ -3736,7 +3737,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 900
+                    "line": 907
                 },
                 "props": {
                     "name": "justify-content",
@@ -3754,7 +3755,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1067
+                    "line": 1074
                 },
                 "props": {
                     "name": "place-content",
@@ -3772,7 +3773,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1290
+                    "line": 1297
                 },
                 "props": {
                     "name": "justify-self",
@@ -3790,7 +3791,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1513
+                    "line": 1520
                 },
                 "props": {
                     "name": "align-self",
@@ -3808,7 +3809,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1700
+                    "line": 1707
                 },
                 "props": {
                     "name": "place-self",
@@ -3826,7 +3827,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1862
+                    "line": 1869
                 },
                 "props": {
                     "name": "justify-items",
@@ -3844,7 +3845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1899
+                    "line": 1906
                 },
                 "props": {
                     "name": "align-items",
@@ -3862,7 +3863,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1919
+                    "line": 1926
                 },
                 "props": {
                     "name": "place-items",
@@ -3880,7 +3881,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1967
+                    "line": 1974
                 },
                 "props": {
                     "name": "row-gap",
@@ -3898,7 +3899,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1967
+                    "line": 1974
                 },
                 "props": {
                     "name": "column-gap",
@@ -3916,7 +3917,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2056
+                    "line": 2063
                 },
                 "props": {
                     "name": "gap",
@@ -5912,7 +5913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 134
+                    "line": 135
                 },
                 "props": {
                     "name": "color-scheme",
@@ -5929,11 +5930,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 560
+                    "line": 561
                 },
                 "props": {
                     "name": "forced-color-adjust",
-                    "value": "auto | none",
+                    "value": "auto | none | preserve-parent-color",
                     "initial": "auto",
                     "appliesTo": "all elements and text",
                     "inherited": "yes",
@@ -5945,7 +5946,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 650
+                    "line": 668
                 },
                 "props": {
                     "name": "print-color-adjust",
@@ -5963,7 +5964,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 704
+                    "line": 722
                 },
                 "props": {
                     "name": "color-adjust",
@@ -14647,7 +14648,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 236
+                    "line": 249
                 },
                 "props": {
                     "name": "outline",
@@ -14662,7 +14663,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 247
+                    "line": 260
                 },
                 "props": {
                     "name": "outline-width",
@@ -14680,7 +14681,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 261
+                    "line": 274
                 },
                 "props": {
                     "name": "outline-style",
@@ -14698,7 +14699,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 275
+                    "line": 288
                 },
                 "props": {
                     "name": "outline-color",
@@ -14716,7 +14717,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 403
+                    "line": 416
                 },
                 "props": {
                     "name": "outline-offset",
@@ -14734,7 +14735,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 459
+                    "line": 472
                 },
                 "props": {
                     "name": "resize",
@@ -14752,7 +14753,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 589
+                    "line": 602
                 },
                 "props": {
                     "name": "cursor",
@@ -14770,7 +14771,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 956
+                    "line": 969
                 },
                 "props": {
                     "name": "caret-color",
@@ -14788,7 +14789,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1009
+                    "line": 1022
                 },
                 "props": {
                     "name": "caret-animation",
@@ -14806,7 +14807,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1141
+                    "line": 1154
                 },
                 "props": {
                     "name": "caret-shape",
@@ -14824,7 +14825,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1305
+                    "line": 1318
                 },
                 "props": {
                     "name": "caret",
@@ -14840,7 +14841,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1371
+                    "line": 1384
                 },
                 "props": {
                     "name": "nav-up",
@@ -14858,7 +14859,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1371
+                    "line": 1384
                 },
                 "props": {
                     "name": "nav-right",
@@ -14876,7 +14877,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1371
+                    "line": 1384
                 },
                 "props": {
                     "name": "nav-down",
@@ -14894,7 +14895,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1371
+                    "line": 1384
                 },
                 "props": {
                     "name": "nav-left",
@@ -14912,7 +14913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1539
+                    "line": 1552
                 },
                 "props": {
                     "name": "user-select",
@@ -14929,7 +14930,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1787
+                    "line": 1800
                 },
                 "props": {
                     "name": "accent-color",
@@ -14948,7 +14949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1914
+                    "line": 1927
                 },
                 "props": {
                     "name": "appearance",
@@ -14960,6 +14961,25 @@
                     "animationType": "discrete"
                 },
                 "name": "appearance"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-ui-4",
+                    "line": 2218
+                },
+                "props": {
+                    "name": "input-security",
+                    "value": "auto | none",
+                    "initial": "auto",
+                    "appliesTo": "[=sensitive text inputs=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "as specified",
+                    "canonicalOrder": "per grammar",
+                    "animationType": "by computed value type"
+                },
+                "name": "input-security"
             },
             {
                 "type": "prop",
@@ -17860,7 +17880,7 @@
                 "dfnName": "<content-distribution>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 755
+                    "line": 762
                 },
                 "value": "space-between | space-around | space-evenly | stretch"
             },
@@ -17870,7 +17890,7 @@
                 "dfnName": "<overflow-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 833
+                    "line": 840
                 },
                 "value": "unsafe | safe"
             },
@@ -21895,7 +21915,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 865
+                    "line": 912
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheet {\n  readonly attribute CSSOMString type;\n  readonly attribute USVString? href;\n  readonly attribute (Element or ProcessingInstruction)? ownerNode;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  readonly attribute DOMString? title;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  attribute boolean disabled;\n};"
             },
@@ -21903,15 +21923,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 903
+                    "line": 950
                 },
-                "content": "[Exposed=Window]\ninterface CSSStyleSheet : StyleSheet {\n  readonly attribute CSSRule? ownerRule;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
+                "content": "[Exposed=Window]\ninterface CSSStyleSheet : StyleSheet {\n  constructor(optional CSSStyleSheetInit options = {});\n  readonly attribute CSSRule? ownerRule;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n  Promise&lt;CSSStyleSheet> replace(USVString text);\n  undefined replaceSync(USVString text);\n};\ndictionary CSSStyleSheetInit {\n  DOMString baseURL = null;\n  (MediaList or DOMString) media = \"\";\n  boolean disabled = false;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 952
+                    "line": 1044
                 },
                 "content": "partial interface CSSStyleSheet {\n  [SameObject] readonly attribute CSSRuleList rules;\n  long addRule(optional DOMString selector = \"undefined\", optional DOMString style = \"undefined\", optional unsigned long index);\n  undefined removeRule(optional unsigned long index = 0);\n};"
             },
@@ -21919,7 +21939,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1163
+                    "line": 1255
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheetList {\n  getter CSSStyleSheet? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -21927,7 +21947,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1183
+                    "line": 1275
                 },
                 "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n};"
             },
@@ -21935,7 +21955,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1241
+                    "line": 1333
                 },
                 "content": "interface mixin LinkStyle {\n  readonly attribute CSSStyleSheet? sheet;\n};"
             },
@@ -21943,7 +21963,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1287
+                    "line": 1379
                 },
                 "content": "ProcessingInstruction includes LinkStyle;"
             },
@@ -21951,7 +21971,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1719
+                    "line": 1811
                 },
                 "content": "[Exposed=Window]\ninterface CSSRuleList {\n  getter CSSRule? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -21959,7 +21979,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1743
+                    "line": 1835
                 },
                 "content": "[Exposed=Window]\ninterface CSSRule {\n  attribute CSSOMString cssText;\n  readonly attribute CSSRule? parentRule;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  // the following attribute and constants are historical\n  readonly attribute unsigned short type;\n  const unsigned short STYLE_RULE = 1;\n  const unsigned short CHARSET_RULE = 2;\n  const unsigned short IMPORT_RULE = 3;\n  const unsigned short MEDIA_RULE = 4;\n  const unsigned short FONT_FACE_RULE = 5;\n  const unsigned short PAGE_RULE = 6;\n  const unsigned short MARGIN_RULE = 9;\n  const unsigned short NAMESPACE_RULE = 10;\n};"
             },
@@ -21967,7 +21987,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1828
+                    "line": 1920
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21975,7 +21995,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1867
+                    "line": 1959
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet styleSheet;\n};"
             },
@@ -21983,7 +22003,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1894
+                    "line": 1986
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -21991,7 +22011,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1928
+                    "line": 2020
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21999,7 +22019,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1964
+                    "line": 2056
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -22007,7 +22027,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1993
+                    "line": 2085
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -22015,7 +22035,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2185
+                    "line": 2277
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -22023,7 +22043,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2808
+                    "line": 2900
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -22031,7 +22051,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2820
+                    "line": 2912
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -22039,7 +22059,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2826
+                    "line": 2918
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -22047,7 +22067,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2832
+                    "line": 2924
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -22055,7 +22075,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2839
+                    "line": 2931
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -22063,7 +22083,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2909
+                    "line": 3001
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
