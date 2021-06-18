@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-17T01:01:27.166Z",
-    "elapsedTime": 337,
+    "createdAt": "2021-06-18T01:05:06.345Z",
+    "elapsedTime": 507,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "da98b8f1082fb50162fd118ef76488c90f509d38",
-            "commitShort": "da98b8f108",
+            "commit": "76c5c7f250082a49732e51ee5124458454bec8ec",
+            "commitShort": "76c5c7f250",
             "commitDate": null,
             "branch": "main"
         },
@@ -6083,7 +6083,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 77
+                    "line": 78
                 },
                 "props": {
                     "name": "contain",
@@ -6095,7 +6095,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 167
+                    "line": 168
                 },
                 "props": {
                     "name": "container-type",
@@ -6141,7 +6141,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 450
+                    "line": 462
                 },
                 "props": {
                     "name": "width",
@@ -6155,7 +6155,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 465
+                    "line": 476
                 },
                 "props": {
                     "name": "height",
@@ -6169,7 +6169,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 480
+                    "line": 490
                 },
                 "props": {
                     "name": "inline-size",
@@ -6183,7 +6183,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 496
+                    "line": 506
                 },
                 "props": {
                     "name": "block-size",
@@ -6197,7 +6197,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 512
+                    "line": 522
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6211,7 +6211,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 527
+                    "line": 537
                 },
                 "props": {
                     "name": "orientation",
@@ -8022,10 +8022,28 @@
                 "name": "font-variant-emoji"
             },
             {
+                "type": "prop",
+                "source": {
+                    "spec": "css-fonts-5",
+                    "line": 96
+                },
+                "props": {
+                    "name": "font-size-adjust",
+                    "value": "none | [ ex | cap | ch | ic ]? [ from-font | <number> ]",
+                    "initial": "none",
+                    "appliesTo": "all elements and text",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "the keyword none, or a pair of a metric keyword and a <number>",
+                    "animationType": "discrete if the keywords differ, otherwise by computed value type"
+                },
+                "name": "font-size-adjust"
+            },
+            {
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 122
+                    "line": 344
                 },
                 "props": {
                     "name": "font-size",
@@ -8039,7 +8057,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 148
+                    "line": 370
                 },
                 "props": {
                     "name": "size-adjust",
@@ -8053,11 +8071,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 185
+                    "line": 407
                 },
                 "props": {
                     "name": "ascent-override",
-                    "value": "normal | <percentage [0,∞]>",
+                    "value": "[ normal | <percentage [0,∞]> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8067,11 +8085,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 192
+                    "line": 414
                 },
                 "props": {
                     "name": "descent-override",
-                    "value": "normal | <percentage [0,∞]>",
+                    "value": "[ normal | <percentage [0,∞]> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8081,11 +8099,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 199
+                    "line": 421
                 },
                 "props": {
                     "name": "line-gap-override",
-                    "value": "normal | <percentage [0,∞]>",
+                    "value": "[ normal | <percentage [0,∞]> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8095,11 +8113,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 291
+                    "line": 520
                 },
                 "props": {
                     "name": "superscript-position-override",
-                    "value": "normal | from-font | <percentage>",
+                    "value": "[ normal | from-font | <percentage> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8109,11 +8127,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 298
+                    "line": 527
                 },
                 "props": {
                     "name": "subscript-position-override",
-                    "value": "normal | from-font | <percentage>",
+                    "value": "[ normal | from-font | <percentage> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8123,11 +8141,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 305
+                    "line": 534
                 },
                 "props": {
                     "name": "superscript-size-override",
-                    "value": "normal | from-font | <percentage [0,∞]>",
+                    "value": "[ normal | from-font | <percentage [0,∞]> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
@@ -8137,11 +8155,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 312
+                    "line": 541
                 },
                 "props": {
                     "name": "subscript-size-override",
-                    "value": "normal | from-font | <percentage [0,∞]>",
+                    "value": "[ normal | from-font | <percentage [0,∞]> ]{1,2}",
                     "for": "@font-face",
                     "initial": "normal"
                 },
