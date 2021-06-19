@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-18T01:05:06.345Z",
-    "elapsedTime": 507,
+    "createdAt": "2021-06-19T01:03:18.940Z",
+    "elapsedTime": 340,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "76c5c7f250082a49732e51ee5124458454bec8ec",
-            "commitShort": "76c5c7f250",
+            "commit": "c287c1a9f0821540829150c90e32198760804f1d",
+            "commitShort": "c287c1a9f0",
             "commitDate": null,
             "branch": "main"
         },
@@ -2507,10 +2507,10 @@
                     "tr": "https://www.w3.org/TR/css-speech-1/",
                     "editor": [
                         "Léonie Watson, Tetralogical, lwatson@tetralogical.com",
-                        "Daniel Weck, DAISY Consortium, dweck@daisy.org",
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
+                        "Daniel Weck, DAISY Consortium, dweck@daisy.org",
                         "Claudio Santambrogio, Opera Software",
                         "Dave Ragett, W3C / Canon, dsr@w3.org"
                     ],
@@ -6141,7 +6141,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 462
+                    "line": 493
                 },
                 "props": {
                     "name": "width",
@@ -6155,7 +6155,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 476
+                    "line": 507
                 },
                 "props": {
                     "name": "height",
@@ -6169,7 +6169,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 490
+                    "line": 521
                 },
                 "props": {
                     "name": "inline-size",
@@ -6183,7 +6183,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 506
+                    "line": 537
                 },
                 "props": {
                     "name": "block-size",
@@ -6197,7 +6197,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 522
+                    "line": 553
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6211,7 +6211,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 537
+                    "line": 568
                 },
                 "props": {
                     "name": "orientation",
@@ -10744,7 +10744,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 384
+                    "line": 391
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10762,7 +10762,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 799
+                    "line": 806
                 },
                 "props": {
                     "name": "continue",
@@ -10780,7 +10780,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1358
+                    "line": 1365
                 },
                 "props": {
                     "name": "max-lines",
@@ -10799,7 +10799,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1473
+                    "line": 1480
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -12548,7 +12548,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
-                    "value": "none | <length> | auto && <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12566,7 +12566,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
-                    "value": "none | <length> | auto && <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12584,7 +12584,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
-                    "value": "none | <length> | auto && <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12602,7 +12602,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
-                    "value": "none | <length> | auto && <length>",
+                    "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "elements with [=size containment=]",
@@ -12620,7 +12620,7 @@
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
-                    "value": "[ none | <length> | auto && <length> ]{1,2}"
+                    "value": "[ none | <length> | auto <length> ]{1,2}"
                 },
                 "name": "contain-intrinsic-size"
             },
@@ -20818,7 +20818,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 749
+                    "line": 747
                 },
                 "attrs": {
                     "id": "url-value"
@@ -20831,7 +20831,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 2490
+                    "line": 2657
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -20841,7 +20841,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3789
+                    "line": 3956
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -20851,7 +20851,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3790
+                    "line": 3957
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -20861,7 +20861,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3791
+                    "line": 3958
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -20871,7 +20871,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3793
+                    "line": 3960
                 },
                 "value": "e | pi | infinity | -infinity | NaN"
             },
