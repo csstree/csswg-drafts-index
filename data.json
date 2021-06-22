@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-21T01:08:02.147Z",
-    "elapsedTime": 445,
+    "createdAt": "2021-06-22T01:00:21.510Z",
+    "elapsedTime": 362,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "994941a2a91c9e1d9468b1d970478f20b1c42fca",
-            "commitShort": "994941a2a9",
+            "commit": "2ef88b2efc191174cad1563e1c7012e90b9ba644",
+            "commitShort": "2ef88b2efc",
             "commitDate": null,
             "branch": "main"
         },
@@ -772,7 +772,7 @@
                         "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241",
                         "Miriam E. Suzanne, Invited Expert, http://miriamsuzanne.com/contact, w3cid 117151"
                     ],
-                    "abstract": "This CSS module describes the 'contain' property, which indicates that the element's subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
+                    "abstract": "This CSS module describes the 'contain' property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
                     "testSuite": "https://test.csswg.org/harness/results/css-contain-1_dev/"
                 }
             },
@@ -6141,7 +6141,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 493
+                    "line": 497
                 },
                 "props": {
                     "name": "width",
@@ -6155,7 +6155,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 507
+                    "line": 511
                 },
                 "props": {
                     "name": "height",
@@ -6169,7 +6169,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 521
+                    "line": 525
                 },
                 "props": {
                     "name": "inline-size",
@@ -6183,7 +6183,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 537
+                    "line": 541
                 },
                 "props": {
                     "name": "block-size",
@@ -6197,7 +6197,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 553
+                    "line": 557
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6211,7 +6211,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 568
+                    "line": 572
                 },
                 "props": {
                     "name": "orientation",
