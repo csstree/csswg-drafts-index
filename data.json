@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-06-25T01:08:41.103Z",
-    "elapsedTime": 384,
+    "createdAt": "2021-06-26T01:01:02.251Z",
+    "elapsedTime": 454,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "eb0195732ea8576fc3858aed773ef0cbd57f8b7f",
-            "commitShort": "eb0195732e",
+            "commit": "9d693a6b2f69b1a34ee39bbb8918ac1ec7137468",
+            "commitShort": "9d693a6b2f",
             "commitDate": null,
             "branch": "main"
         },
@@ -1176,14 +1176,18 @@
                     "shortname": "css-fonts",
                     "level": "5",
                     "status": "ED",
+                    "prepareForTr": "no",
                     "workStatus": "exploring",
                     "group": "CSSWG",
                     "ed": "https://drafts.csswg.org/css-fonts-5/",
                     "tr": "https://www.w3.org/TR/css-fonts-5/",
+                    "previousVersion": [
+                        "https://www.w3.org/TR/2021/WD-css-fonts-5-20210629/"
+                    ],
                     "!deltaSpec": "yes",
                     "editor": [
                         "Myles C. Maxfield, Apple Inc., mmaxfield@apple.com, w3cid 77180",
-                        "Chris Lilley, W3C, http://svgees.us, w3cid 1438"
+                        "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "abstract": "This specification defines modifications to the existing <a href=\"https://drafts.csswg.org/css-fonts-4/\">CSS Fonts 4</a> specification along with additional features.",
                     "repository": "w3c/csswg-drafts",
@@ -8026,7 +8030,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 96
+                    "line": 102
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -8044,7 +8048,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 350
+                    "line": 356
                 },
                 "props": {
                     "name": "font-size",
@@ -8058,7 +8062,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 376
+                    "line": 382
                 },
                 "props": {
                     "name": "size-adjust",
@@ -8072,7 +8076,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 413
+                    "line": 419
                 },
                 "props": {
                     "name": "ascent-override",
@@ -8086,7 +8090,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 420
+                    "line": 426
                 },
                 "props": {
                     "name": "descent-override",
@@ -8100,7 +8104,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 427
+                    "line": 433
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -8114,7 +8118,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 526
+                    "line": 532
                 },
                 "props": {
                     "name": "superscript-position-override",
@@ -8128,7 +8132,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 533
+                    "line": 539
                 },
                 "props": {
                     "name": "subscript-position-override",
@@ -8142,7 +8146,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 540
+                    "line": 546
                 },
                 "props": {
                     "name": "superscript-size-override",
@@ -8156,7 +8160,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 547
+                    "line": 553
                 },
                 "props": {
                     "name": "subscript-size-override",
