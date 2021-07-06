@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-07-05T01:02:00.860Z",
-    "elapsedTime": 371,
+    "createdAt": "2021-07-06T01:06:42.839Z",
+    "elapsedTime": 383,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "001c34559213c360b016adb6e92a010e6f84f765",
-            "commitShort": "001c345592",
+            "commit": "bf463bdaa433a63744e0b3809daeadfdbf2b0234",
+            "commitShort": "bf463bdaa4",
             "commitDate": null,
             "branch": "main"
         },
@@ -18369,89 +18369,9 @@
                 "dfnName": "color-contrast()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 577
+                    "line": 580
                 },
                 "value": "color-contrast( <color> vs <color>#{2,}  [ to [<number> | AA | AA-large | AAA | AAA-large]]? )"
-            },
-            {
-                "type": "prod",
-                "name": "color-adjust()",
-                "dfnName": "color-adjust()",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 731
-                },
-                "value": "color-adjust( <color> <color-adjuster> && [ in <color-space> ]?  )"
-            },
-            {
-                "type": "prod",
-                "name": "color-adjuster",
-                "dfnName": "<color-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 735
-                },
-                "value": "[ [\n      <srgb-adjuster> | <hsl-adjuster> | <hwb-adjuster>\n    | <xyz-adjuster> | <lab-adjuster> | <lch-adjuster>\n] | alpha ] <percentage>"
-            },
-            {
-                "type": "prod",
-                "name": "srgb-adjuster",
-                "dfnName": "<srgb-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 739
-                },
-                "value": "red | green | blue"
-            },
-            {
-                "type": "prod",
-                "name": "hsl-adjuster",
-                "dfnName": "<hsl-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 740
-                },
-                "value": "hue | saturation | lightness"
-            },
-            {
-                "type": "prod",
-                "name": "hwb-adjuster",
-                "dfnName": "<hwb-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 741
-                },
-                "value": "hue |  whiteness | blackness"
-            },
-            {
-                "type": "prod",
-                "name": "xyz-adjuster",
-                "dfnName": "<xyz-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 742
-                },
-                "value": "x | y | z"
-            },
-            {
-                "type": "prod",
-                "name": "lab-adjuster",
-                "dfnName": "<lab-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 743
-                },
-                "value": "lightness | a | b"
-            },
-            {
-                "type": "prod",
-                "name": "lch-adjuster",
-                "dfnName": "<lch-adjuster>",
-                "source": {
-                    "spec": "css-color-5",
-                    "line": 744
-                },
-                "value": "lightness | chroma | hue"
             },
             {
                 "type": "prod",
@@ -18459,7 +18379,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 904
+                    "line": 817
                 },
                 "value": "rgb( <percentage>{3} [ / <alpha-value> ]? ) |\nrgb( <number>{3} [ / <alpha-value> ]? ) |\nrgb( [ from <color> ]? [ <number> | <percentage> ]{3} [ / <alpha-value> ]? )"
             },
@@ -18469,7 +18389,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 933
+                    "line": 846
                 },
                 "value": "hsl([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18479,7 +18399,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 962
+                    "line": 875
                 },
                 "value": "hwb([from <color>]? <hue> <percentage> <percentage> [ / <alpha-value> ]? )"
             },
@@ -18489,7 +18409,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 982
+                    "line": 895
                 },
                 "value": "lab([from <color>]? <percentage> <number> <number> [ / <alpha-value> ]? )"
             },
@@ -18499,7 +18419,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1021
+                    "line": 934
                 },
                 "value": "lch([from <color>]? <percentage> <number> <hue> [ / <alpha-value> ]? )"
             },
@@ -18509,7 +18429,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1073
+                    "line": 1019
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / <alpha-value> ]? )"
             },
