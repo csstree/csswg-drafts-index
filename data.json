@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-07-09T01:04:26.315Z",
-    "elapsedTime": 365,
+    "createdAt": "2021-07-10T01:02:27.046Z",
+    "elapsedTime": 368,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "858415ce004df58c741dea0e18d3fb0bd1acc109",
-            "commitShort": "858415ce00",
+            "commit": "b0cbb6660e3807580a840583887f6df7f8eda898",
+            "commitShort": "b0cbb6660e",
             "commitDate": null,
             "branch": "main"
         },
@@ -2334,7 +2334,8 @@
                     "repository": "https://github.com/w3c/csswg-drafts/tree/master/css-scrollbars-1 css-scrollbars",
                     "editor": [
                         "Tantek Çelik, Mozilla https://www.mozilla.org/, http://tantek.com/contact, w3cid 1464",
-                        "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885"
+                        "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
+                        "Florian Rivoal, Invited Expert, https://florian.rivoal.net/, w3cid 43241"
                     ],
                     "abstract": "CSS Scrollbars standardizes the ability to style scrollbar controls, such as their color,\nintroduced in 2000 by Windows IE 5.5.\nThis is useful when building web applications which use color schemes very different from\nthe appearance of default platform scrollbars.",
                     "linkDefaults": [
@@ -12106,7 +12107,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 80
+                    "line": 81
                 },
                 "props": {
                     "name": "scrollbar-color",
@@ -12115,7 +12116,7 @@
                     "inherited": "yes",
                     "computedValue": "specified keyword or two computed colors",
                     "animationType": "by computed value",
-                    "appliesTo": "boxes to which 'overflow' applies",
+                    "appliesTo": "[=scroll containers=]",
                     "percentages": "n/a"
                 },
                 "name": "scrollbar-color"
@@ -12124,16 +12125,16 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 177
+                    "line": 178
                 },
                 "props": {
                     "name": "scrollbar-width",
                     "value": "auto | thin | none",
                     "initial": "auto",
                     "inherited": "no",
-                    "computedValue": "specified keyword or absolute length",
+                    "computedValue": "specified keyword",
                     "animationType": "by computed value",
-                    "appliesTo": "boxes to which 'overflow' applies",
+                    "appliesTo": "[=scroll containers=]",
                     "percentages": "n/a"
                 },
                 "name": "scrollbar-width"
