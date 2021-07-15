@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-07-14T01:00:17.422Z",
-    "elapsedTime": 333,
+    "createdAt": "2021-07-15T01:04:57.183Z",
+    "elapsedTime": 350,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b0c5ad6ee83e32c5f396b8e69d26b9b931ec1172",
-            "commitShort": "b0c5ad6ee8",
+            "commit": "a06d6136c51c13d5b6ff8a1385bc88242376c6d3",
+            "commitShort": "a06d6136c5",
             "commitDate": null,
             "branch": "main"
         },
@@ -2337,7 +2337,7 @@
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net/, w3cid 43241"
                     ],
-                    "abstract": "CSS Scrollbars standardizes the ability to style scrollbar controls, such as their color,\nintroduced in 2000 by Windows IE 5.5.\nThis is useful when building web applications which use color schemes very different from\nthe appearance of default platform scrollbars.",
+                    "abstract": "This CSS module defines properties\nto influence the visual styling of scrollbars,\nintroducing controls for their color, width, and impact on layout.",
                     "linkDefaults": [
                         "css-color-3 (property) color"
                     ]
@@ -7326,7 +7326,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 85
+                    "line": 96
                 },
                 "props": {
                     "name": "font-family",
@@ -7344,7 +7344,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 532
+                    "line": 543
                 },
                 "props": {
                     "name": "font-weight",
@@ -7362,7 +7362,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 688
+                    "line": 699
                 },
                 "props": {
                     "name": "font-stretch",
@@ -7380,7 +7380,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 766
+                    "line": 777
                 },
                 "props": {
                     "name": "font-style",
@@ -7398,7 +7398,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 893
+                    "line": 904
                 },
                 "props": {
                     "name": "font-size",
@@ -7416,7 +7416,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1082
+                    "line": 1093
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -7434,7 +7434,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1276
+                    "line": 1287
                 },
                 "props": {
                     "name": "font",
@@ -7452,7 +7452,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1511
+                    "line": 1522
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -7471,7 +7471,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1540
+                    "line": 1551
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -7490,7 +7490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1569
+                    "line": 1580
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -7508,7 +7508,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1597
+                    "line": 1608
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -7526,7 +7526,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1950
+                    "line": 1961
                 },
                 "props": {
                     "name": "font-family",
@@ -7540,7 +7540,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1985
+                    "line": 1996
                 },
                 "props": {
                     "name": "src",
@@ -7554,7 +7554,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2378
+                    "line": 2396
                 },
                 "props": {
                     "name": "font-style",
@@ -7568,7 +7568,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2385
+                    "line": 2403
                 },
                 "props": {
                     "name": "font-weight",
@@ -7582,7 +7582,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2392
+                    "line": 2410
                 },
                 "props": {
                     "name": "font-stretch",
@@ -7596,7 +7596,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2510
+                    "line": 2528
                 },
                 "props": {
                     "name": "unicode-range",
@@ -7610,7 +7610,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2738
+                    "line": 2756
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -7624,7 +7624,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2745
+                    "line": 2763
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7638,7 +7638,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2782
+                    "line": 2800
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -7652,7 +7652,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2936
+                    "line": 2954
                 },
                 "props": {
                     "name": "font-display",
@@ -7666,7 +7666,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3122
+                    "line": 3140
                 },
                 "props": {
                     "name": "font-display",
@@ -7680,7 +7680,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3142
+                    "line": 3160
                 },
                 "props": {
                     "name": "font-language-override",
@@ -7694,7 +7694,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3165
+                    "line": 3183
                 },
                 "props": {
                     "name": "ascent-override",
@@ -7708,7 +7708,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3172
+                    "line": 3190
                 },
                 "props": {
                     "name": "descent-override",
@@ -7722,7 +7722,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3179
+                    "line": 3197
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -7736,7 +7736,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4020
+                    "line": 4038
                 },
                 "props": {
                     "name": "font-kerning",
@@ -7754,7 +7754,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4103
+                    "line": 4121
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -7772,7 +7772,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4220
+                    "line": 4238
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -7790,7 +7790,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4435
+                    "line": 4453
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -7808,7 +7808,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4603
+                    "line": 4621
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -7826,7 +7826,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4747
+                    "line": 4765
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -7844,7 +7844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5225
+                    "line": 5243
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -7862,7 +7862,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5343
+                    "line": 5361
                 },
                 "props": {
                     "name": "font-variant",
@@ -7880,7 +7880,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5389
+                    "line": 5407
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -7898,7 +7898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5572
+                    "line": 5590
                 },
                 "props": {
                     "name": "font-language-override",
@@ -7916,7 +7916,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5918
+                    "line": 5936
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -7934,7 +7934,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6014
+                    "line": 6032
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7952,7 +7952,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6153
+                    "line": 6171
                 },
                 "props": {
                     "name": "font-palette",
@@ -7970,7 +7970,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6362
+                    "line": 6380
                 },
                 "props": {
                     "name": "font-family",
@@ -7984,7 +7984,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6381
+                    "line": 6399
                 },
                 "props": {
                     "name": "base-palette",
@@ -7998,7 +7998,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6443
+                    "line": 6461
                 },
                 "props": {
                     "name": "override-color",
@@ -8012,7 +8012,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6507
+                    "line": 6525
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -10736,7 +10736,7 @@
                 },
                 "props": {
                     "name": "scrollbar-gutter",
-                    "value": "auto | stable && mirror?",
+                    "value": "auto | stable && both-edges?",
                     "initial": "auto",
                     "appliesTo": "[=scroll containers=]",
                     "inherited": "no",
@@ -10808,7 +10808,7 @@
                 },
                 "props": {
                     "name": "scrollbar-gutter",
-                    "newValues": "auto | [ [ stable | always ] && mirror? && force? ] || match-parent",
+                    "newValues": "auto | [ [ stable | always ] && both-edges? && force? ] || match-parent",
                     "appliesTo": "all elements"
                 },
                 "name": "scrollbar-gutter"
@@ -12111,7 +12111,7 @@
                 },
                 "props": {
                     "name": "scrollbar-color",
-                    "value": "auto | dark | light | <color>{2}",
+                    "value": "auto | <color>{2}",
                     "initial": "auto",
                     "inherited": "yes",
                     "computedValue": "specified keyword or two computed colors",
@@ -12125,7 +12125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 178
+                    "line": 166
                 },
                 "props": {
                     "name": "scrollbar-width",
@@ -17393,7 +17393,35 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1271
+                    "line": 1258
+                },
+                "props": {
+                    "name": "horizontal-viewport-segments",
+                    "value": "<integer>",
+                    "for": "@media",
+                    "type": "range"
+                },
+                "name": "horizontal-viewport-segments"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "mediaqueries-5",
+                    "line": 1277
+                },
+                "props": {
+                    "name": "vertical-viewport-segments",
+                    "value": "<integer>",
+                    "for": "@media",
+                    "type": "range"
+                },
+                "name": "vertical-viewport-segments"
+            },
+            {
+                "type": "media-query",
+                "source": {
+                    "spec": "mediaqueries-5",
+                    "line": 1311
                 },
                 "props": {
                     "name": "resolution",
@@ -17407,7 +17435,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1336
+                    "line": 1376
                 },
                 "props": {
                     "name": "scan",
@@ -17421,7 +17449,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1379
+                    "line": 1419
                 },
                 "props": {
                     "name": "grid",
@@ -17435,7 +17463,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1415
+                    "line": 1455
                 },
                 "props": {
                     "name": "update",
@@ -17449,7 +17477,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1463
+                    "line": 1503
                 },
                 "props": {
                     "name": "environment-blending",
@@ -17463,7 +17491,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1528
+                    "line": 1568
                 },
                 "props": {
                     "name": "color",
@@ -17477,7 +17505,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1576
+                    "line": 1616
                 },
                 "props": {
                     "name": "color-index",
@@ -17491,7 +17519,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1610
+                    "line": 1650
                 },
                 "props": {
                     "name": "monochrome",
@@ -17505,7 +17533,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1648
+                    "line": 1688
                 },
                 "props": {
                     "name": "color-gamut",
@@ -17519,7 +17547,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1745
+                    "line": 1785
                 },
                 "props": {
                     "name": "dynamic-range",
@@ -17533,7 +17561,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1804
+                    "line": 1844
                 },
                 "props": {
                     "name": "inverted-colors",
@@ -17547,7 +17575,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1945
+                    "line": 1985
                 },
                 "props": {
                     "name": "pointer",
@@ -17561,7 +17589,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2012
+                    "line": 2052
                 },
                 "props": {
                     "name": "hover",
@@ -17575,7 +17603,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2078
+                    "line": 2118
                 },
                 "props": {
                     "name": "any-pointer",
@@ -17589,7 +17617,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2085
+                    "line": 2125
                 },
                 "props": {
                     "name": "any-hover",
@@ -17603,7 +17631,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2206
+                    "line": 2246
                 },
                 "props": {
                     "name": "video-color-gamut",
@@ -17617,7 +17645,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2224
+                    "line": 2264
                 },
                 "props": {
                     "name": "video-dynamic-range",
@@ -17631,7 +17659,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2249
+                    "line": 2289
                 },
                 "props": {
                     "name": "video-width",
@@ -17645,7 +17673,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2278
+                    "line": 2318
                 },
                 "props": {
                     "name": "video-height",
@@ -17659,7 +17687,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2305
+                    "line": 2345
                 },
                 "props": {
                     "name": "video-resolution",
@@ -17673,7 +17701,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2334
+                    "line": 2374
                 },
                 "props": {
                     "name": "scripting",
@@ -17687,7 +17715,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2578
+                    "line": 2618
                 },
                 "props": {
                     "name": "prefers-reduced-motion",
@@ -17701,7 +17729,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2608
+                    "line": 2648
                 },
                 "props": {
                     "name": "prefers-reduced-transparency",
@@ -17715,7 +17743,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2639
+                    "line": 2679
                 },
                 "props": {
                     "name": "prefers-contrast",
@@ -17729,7 +17757,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2753
+                    "line": 2793
                 },
                 "props": {
                     "name": "forced-colors",
@@ -17743,7 +17771,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2808
+                    "line": 2848
                 },
                 "props": {
                     "name": "prefers-color-scheme",
@@ -17757,7 +17785,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2877
+                    "line": 2917
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -17771,7 +17799,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3059
+                    "line": 3099
                 },
                 "props": {
                     "name": "device-width",
@@ -17785,7 +17813,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3088
+                    "line": 3128
                 },
                 "props": {
                     "name": "device-height",
@@ -17799,7 +17827,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3113
+                    "line": 3153
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -19049,7 +19077,7 @@
                 "dfnName": "<font-weight-absolute>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 548
+                    "line": 559
                 },
                 "attrs": {
                     "id": "font-weight-absolute-values"
@@ -19062,7 +19090,7 @@
                 "dfnName": "<font-format>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2024
+                    "line": 2035
                 },
                 "attrs": {
                     "id": "font-format-values"
@@ -19071,37 +19099,11 @@
             },
             {
                 "type": "prod",
-                "name": "font-technology",
-                "dfnName": "<font-technology>",
-                "source": {
-                    "spec": "css-fonts-4",
-                    "line": 2026
-                },
-                "attrs": {
-                    "id": "font-technology-values"
-                },
-                "value": "[features | variations | color(<color-font-technology>) | palettes]"
-            },
-            {
-                "type": "prod",
-                "name": "color-font-technology",
-                "dfnName": "<color-font-technology>",
-                "source": {
-                    "spec": "css-fonts-4",
-                    "line": 2028
-                },
-                "attrs": {
-                    "id": "color-font-technology-values"
-                },
-                "value": "[COLRv0 | COLRv1 | SVG | sbix | CBDT ]"
-            },
-            {
-                "type": "prod",
                 "name": "common-lig-values",
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4119
+                    "line": 4137
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -19114,7 +19116,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4121
+                    "line": 4139
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -19127,7 +19129,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4123
+                    "line": 4141
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -19140,7 +19142,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4125
+                    "line": 4143
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -19153,7 +19155,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4626
+                    "line": 4644
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -19166,7 +19168,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4628
+                    "line": 4646
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -19179,7 +19181,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4630
+                    "line": 4648
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -19192,7 +19194,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4765
+                    "line": 4783
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -19205,7 +19207,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5240
+                    "line": 5258
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -19218,7 +19220,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5242
+                    "line": 5260
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -19231,7 +19233,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5456
+                    "line": 5474
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -20742,7 +20744,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 2657
+                    "line": 2658
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -20752,7 +20754,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3956
+                    "line": 3957
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -20762,7 +20764,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3957
+                    "line": 3958
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -20772,7 +20774,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3958
+                    "line": 3959
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -20782,7 +20784,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3960
+                    "line": 3961
                 },
                 "value": "e | pi | infinity | -infinity | NaN"
             },
@@ -21192,7 +21194,7 @@
                 "dfnName": "@custom-media",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2435
+                    "line": 2475
                 },
                 "value": "@custom-media <extension-name> [ <media-query-list> | true | false ] ;"
             },
@@ -21660,7 +21662,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6684
+                    "line": 6702
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21668,7 +21670,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6700
+                    "line": 6718
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -21676,7 +21678,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6706
+                    "line": 6724
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -21684,7 +21686,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6763
+                    "line": 6781
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_PALETTE_VALUES_RULE = 15;\n};\n[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  maplike&lt;unsigned long, CSSOMString>;\n  attribute CSSOMString fontFamily;\n  attribute CSSOMString basePalette;\n};"
             },
@@ -22116,7 +22118,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2527
+                    "line": 2567
                 },
                 "content": "[Exposed=Window]\ninterface CSSCustomMediaRule : CSSRule {\n    attribute CSSOMString name;\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
