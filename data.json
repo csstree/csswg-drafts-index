@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-07-15T01:04:57.183Z",
-    "elapsedTime": 350,
+    "createdAt": "2021-07-16T01:05:00.597Z",
+    "elapsedTime": 341,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a06d6136c51c13d5b6ff8a1385bc88242376c6d3",
-            "commitShort": "a06d6136c5",
+            "commit": "2bbee668486c3dfd5f110e5b9a7dac9e4193b4ed",
+            "commitShort": "2bbee66848",
             "commitDate": null,
             "branch": "main"
         },
@@ -682,7 +682,7 @@
                     "shortname": "css-conditional-values",
                     "level": "1",
                     "status": "UD",
-                    "ed": "https://drafts.csswg.org/css-color-5/",
+                    "ed": "https://drafts.csswg.org/css-conditional-values-1/",
                     "group": "csswg",
                     "workStatus": "exploring",
                     "editor": [
@@ -6736,7 +6736,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 530
+                    "line": 535
                 },
                 "props": {
                     "name": "display",
@@ -6748,7 +6748,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1081
+                    "line": 1085
                 },
                 "props": {
                     "name": "flex-direction",
@@ -6765,7 +6765,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1151
+                    "line": 1155
                 },
                 "props": {
                     "name": "flex-wrap",
@@ -6782,7 +6782,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1206
+                    "line": 1210
                 },
                 "props": {
                     "name": "flex-flow",
@@ -6794,7 +6794,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1282
+                    "line": 1286
                 },
                 "props": {
                     "name": "order",
@@ -6811,7 +6811,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1586
+                    "line": 1590
                 },
                 "props": {
                     "name": "flex",
@@ -6827,7 +6827,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1811
+                    "line": 1815
                 },
                 "props": {
                     "name": "flex-grow",
@@ -6844,7 +6844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1833
+                    "line": 1837
                 },
                 "props": {
                     "name": "flex-shrink",
@@ -6861,7 +6861,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 1855
+                    "line": 1859
                 },
                 "props": {
                     "name": "flex-basis",
@@ -6879,7 +6879,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2028
+                    "line": 2032
                 },
                 "props": {
                     "name": "justify-content",
@@ -6896,7 +6896,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2119
+                    "line": 2123
                 },
                 "props": {
                     "name": "align-items",
@@ -6913,7 +6913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2129
+                    "line": 2133
                 },
                 "props": {
                     "name": "align-self",
@@ -6930,7 +6930,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-flexbox-1",
-                    "line": 2259
+                    "line": 2263
                 },
                 "props": {
                     "name": "align-content",
@@ -10594,7 +10594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 523
+                    "line": 529
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -10602,7 +10602,8 @@
                     "initial": "0px",
                     "inherited": "no",
                     "appliesTo": "all elements",
-                    "computedValue": "the computed <length> and a <visual-box> keyword"
+                    "computedValue": "the computed <length> and a <visual-box> keyword",
+                    "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
                 },
                 "name": "overflow-clip-margin"
             },
@@ -10610,7 +10611,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 601
+                    "line": 608
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -10628,7 +10629,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 601
+                    "line": 608
                 },
                 "props": {
                     "name": "overflow-block",
@@ -10646,7 +10647,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 622
+                    "line": 629
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10664,7 +10665,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 903
+                    "line": 910
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -10682,7 +10683,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1016
+                    "line": 1023
                 },
                 "props": {
                     "name": "line-clamp",
@@ -10696,7 +10697,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1138
+                    "line": 1145
                 },
                 "props": {
                     "name": "max-lines",
@@ -10714,7 +10715,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 1236
+                    "line": 1243
                 },
                 "props": {
                     "name": "continue",
@@ -12195,7 +12196,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 495
+                    "line": 497
                 },
                 "props": {
                     "name": "shape-inside",
@@ -12212,7 +12213,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 620
+                    "line": 622
                 },
                 "props": {
                     "name": "shape-padding",
@@ -12248,7 +12249,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 366
+                    "line": 365
                 },
                 "props": {
                     "name": "width",
@@ -12266,7 +12267,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 366
+                    "line": 365
                 },
                 "props": {
                     "name": "height",
@@ -12284,7 +12285,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 385
+                    "line": 384
                 },
                 "props": {
                     "name": "min-width",
@@ -12302,7 +12303,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 385
+                    "line": 384
                 },
                 "props": {
                     "name": "min-height",
@@ -12320,7 +12321,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 407
+                    "line": 406
                 },
                 "props": {
                     "name": "max-width",
@@ -12338,7 +12339,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 407
+                    "line": 406
                 },
                 "props": {
                     "name": "max-height",
@@ -12356,7 +12357,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 591
+                    "line": 590
                 },
                 "props": {
                     "name": "box-sizing",
@@ -12374,7 +12375,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 775
+                    "line": 774
                 },
                 "props": {
                     "name": "column-width",
@@ -18715,7 +18716,7 @@
                     "spec": "css-counter-styles-3",
                     "line": 1229
                 },
-                "value": "symbols( <symbols-type>? [ <string> | <image> ]+ );"
+                "value": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
             },
             {
                 "type": "prod",
@@ -18725,7 +18726,7 @@
                     "spec": "css-counter-styles-3",
                     "line": 1230
                 },
-                "value": "cyclic | numeric | alphabetic | symbolic | fixed;"
+                "value": "cyclic | numeric | alphabetic | symbolic | fixed"
             },
             {
                 "type": "prod",
@@ -18738,7 +18739,7 @@
                 "attrs": {
                     "type": true
                 },
-                "value": "<counter-style-name> | <symbols()>;"
+                "value": "<counter-style-name> | <symbols()>"
             },
             {
                 "type": "prod",
@@ -20229,9 +20230,9 @@
                 "dfnName": "shape()",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 143
+                    "line": 145
                 },
-                "value": "shape( <fill-rule>? from <coordinate-pair>, <shape-command>#)"
+                "value": "shape( <'fill-rule'>? from <coordinate-pair>, <shape-command>#)"
             },
             {
                 "type": "prod",
@@ -20239,7 +20240,7 @@
                 "dfnName": "<<coordinate-pair>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 178
+                    "line": 180
                 },
                 "value": "<length-percentage>{2}"
             },
@@ -20249,7 +20250,7 @@
                 "dfnName": "<<by-to>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 185
+                    "line": 187
                 },
                 "value": ""
             },
@@ -20259,7 +20260,7 @@
                 "dfnName": "<<move-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 197
+                    "line": 199
                 },
                 "value": ""
             },
@@ -20269,7 +20270,7 @@
                 "dfnName": "<<line-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 209
+                    "line": 211
                 },
                 "value": ""
             },
@@ -20279,7 +20280,7 @@
                 "dfnName": "<<hv-line-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 217
+                    "line": 219
                 },
                 "value": "["
             },
@@ -20289,7 +20290,7 @@
                 "dfnName": "<<curve-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 228
+                    "line": 230
                 },
                 "value": ""
             },
@@ -20299,7 +20300,7 @@
                 "dfnName": "<<smooth-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 239
+                    "line": 241
                 },
                 "value": ""
             },
@@ -20309,7 +20310,7 @@
                 "dfnName": "<<arc-command>>",
                 "source": {
                     "spec": "css-shapes-2",
-                    "line": 259
+                    "line": 261
                 },
                 "value": ""
             },
@@ -20744,7 +20745,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 2658
+                    "line": 2710
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -20754,7 +20755,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3957
+                    "line": 4009
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -20764,7 +20765,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3958
+                    "line": 4010
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -20774,7 +20775,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3959
+                    "line": 4011
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -20784,7 +20785,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3961
+                    "line": 4013
                 },
                 "value": "e | pi | infinity | -infinity | NaN"
             },
