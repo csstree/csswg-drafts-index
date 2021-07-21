@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2021-07-20T01:09:31.010Z",
-    "elapsedTime": 380,
+    "createdAt": "2021-07-21T01:05:51.138Z",
+    "elapsedTime": 344,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2bbee668486c3dfd5f110e5b9a7dac9e4193b4ed",
-            "commitShort": "2bbee66848",
+            "commit": "cd4104d9446db1defd9d3c57cfabca3fbd1f39f9",
+            "commitShort": "cd4104d944",
             "commitDate": null,
             "branch": "main"
         },
@@ -560,12 +560,12 @@
                     "tr": "https://www.w3.org/TR/css-color-5/",
                     "ed": "https://drafts.csswg.org/css-color-5/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2021/WD-css-color-5-20210601/"
+                        "https://www.w3.org/TR/2021/WD-css-color-5-20210722/"
                     ],
                     "workStatus": "exploring",
                     "!deltaSpec": "yes",
                     "editor": [
-                        "Chris Lilley, W3C, chris@w3.org, w3cid 1438",
+                        "Chris Lilley, W3C, https://svgees.us/, w3cid 1438",
                         "Una Kravets, Google, https://una.im, w3cid 115525",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258",
                         "Adam Argyle, Google, https://nerdy.dev, w3cid 112669"
@@ -3278,7 +3278,9 @@
                         "https://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/"
                     ],
                     "group": "CSSWG",
-                    "status": "ED",
+                    "status": "WD",
+                    "prepareForTr": "yes",
+                    "date": "2021-07-22",
                     "workStatus": "Exploring",
                     "shortname": "cssom",
                     "level": "1",
@@ -3293,6 +3295,7 @@
                     ],
                     "!legacyIssuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?product=CSS&amp;component=CSSOM&amp;resolution=---\">Bugzilla</a>",
                     "abstract": "CSSOM defines APIs (including generic parsing and serialization rules) for Media Queries, Selectors, and of course CSS itself.",
+                    "repository": "w3c/csswg-drafts",
                     "ignoredTerms": [
                         "EmptyString",
                         "group of selectors",
@@ -18258,7 +18261,7 @@
                 "dfnName": "<<layer-name>>",
                 "source": {
                     "spec": "css-cascade-5",
-                    "line": 1348
+                    "line": 1349
                 },
                 "value": "<ident> [ '.' <ident> ]*"
             },
@@ -21839,7 +21842,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 503
+                    "line": 508
                 },
                 "content": "[Exposed=Window]\ninterface MediaList {\n  stringifier attribute [LegacyNullToEmptyString] CSSOMString mediaText;\n  readonly attribute unsigned long length;\n  getter CSSOMString? item(unsigned long index);\n  undefined appendMedium(CSSOMString medium);\n  undefined deleteMedium(CSSOMString medium);\n};"
             },
@@ -21847,7 +21850,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 914
+                    "line": 919
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheet {\n  readonly attribute CSSOMString type;\n  readonly attribute USVString? href;\n  readonly attribute (Element or ProcessingInstruction)? ownerNode;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  readonly attribute DOMString? title;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  attribute boolean disabled;\n};"
             },
@@ -21855,7 +21858,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 952
+                    "line": 957
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleSheet : StyleSheet {\n  constructor(optional CSSStyleSheetInit options = {});\n  readonly attribute CSSRule? ownerRule;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n  Promise&lt;CSSStyleSheet> replace(USVString text);\n  undefined replaceSync(USVString text);\n};\ndictionary CSSStyleSheetInit {\n  DOMString baseURL = null;\n  (MediaList or DOMString) media = \"\";\n  boolean disabled = false;\n};"
             },
@@ -21863,7 +21866,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1049
+                    "line": 1054
                 },
                 "content": "partial interface CSSStyleSheet {\n  [SameObject] readonly attribute CSSRuleList rules;\n  long addRule(optional DOMString selector = \"undefined\", optional DOMString style = \"undefined\", optional unsigned long index);\n  undefined removeRule(optional unsigned long index = 0);\n};"
             },
@@ -21871,7 +21874,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1260
+                    "line": 1270
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheetList {\n  getter CSSStyleSheet? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -21879,15 +21882,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1280
+                    "line": 1290
                 },
-                "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n};"
+                "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n  attribute ObservableArray&lt;CSSStyleSheet> adoptedStyleSheets;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1338
+                    "line": 1357
                 },
                 "content": "interface mixin LinkStyle {\n  readonly attribute CSSStyleSheet? sheet;\n};"
             },
@@ -21895,7 +21898,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1384
+                    "line": 1403
                 },
                 "content": "ProcessingInstruction includes LinkStyle;"
             },
@@ -21903,7 +21906,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1816
+                    "line": 1838
                 },
                 "content": "[Exposed=Window]\ninterface CSSRuleList {\n  getter CSSRule? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -21911,7 +21914,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1840
+                    "line": 1862
                 },
                 "content": "[Exposed=Window]\ninterface CSSRule {\n  attribute CSSOMString cssText;\n  readonly attribute CSSRule? parentRule;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  // the following attribute and constants are historical\n  readonly attribute unsigned short type;\n  const unsigned short STYLE_RULE = 1;\n  const unsigned short CHARSET_RULE = 2;\n  const unsigned short IMPORT_RULE = 3;\n  const unsigned short MEDIA_RULE = 4;\n  const unsigned short FONT_FACE_RULE = 5;\n  const unsigned short PAGE_RULE = 6;\n  const unsigned short MARGIN_RULE = 9;\n  const unsigned short NAMESPACE_RULE = 10;\n};"
             },
@@ -21919,7 +21922,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1925
+                    "line": 1947
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21927,7 +21930,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1964
+                    "line": 1986
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet styleSheet;\n};"
             },
@@ -21935,7 +21938,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1991
+                    "line": 2013
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -21943,7 +21946,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2025
+                    "line": 2047
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21951,7 +21954,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2061
+                    "line": 2083
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21959,7 +21962,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2090
+                    "line": 2112
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -21967,7 +21970,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2282
+                    "line": 2304
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -21975,7 +21978,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2905
+                    "line": 2927
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -21983,7 +21986,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2917
+                    "line": 2939
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -21991,7 +21994,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2923
+                    "line": 2945
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -21999,7 +22002,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2929
+                    "line": 2951
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -22007,7 +22010,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2936
+                    "line": 2958
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -22015,7 +22018,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3006
+                    "line": 3028
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
