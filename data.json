@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-01T23:45:15.099Z",
-    "elapsedTime": 394,
+    "createdAt": "2023-02-02T00:53:56.890Z",
+    "elapsedTime": 354,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "611c4cb52f99b6e1c42ee9a10632133d94d4a398",
-            "commitShort": "611c4cb52f",
+            "commit": "4936e1c76307bef2467ca76a600cce14b120ba47",
+            "commitShort": "4936e1c763",
             "commitDate": null,
             "branch": "main"
         },
@@ -11072,7 +11072,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 765
+                    "line": 771
                 },
                 "props": {
                     "name": "continue",
@@ -11090,7 +11090,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1326
+                    "line": 1332
                 },
                 "props": {
                     "name": "max-lines",
@@ -11108,7 +11108,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1440
+                    "line": 1446
                 },
                 "props": {
                     "name": "scrollbar-gutter",
