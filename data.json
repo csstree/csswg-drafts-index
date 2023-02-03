@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-02T00:53:56.890Z",
-    "elapsedTime": 354,
+    "createdAt": "2023-02-03T00:56:00.557Z",
+    "elapsedTime": 427,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4936e1c76307bef2467ca76a600cce14b120ba47",
-            "commitShort": "4936e1c763",
+            "commit": "6704a9dc9a127d6f4783b6b9c56e1ac07fb06b80",
+            "commitShort": "6704a9dc9a",
             "commitDate": null,
             "branch": "main"
         },
@@ -10778,102 +10778,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1250
-                },
-                "props": {
-                    "name": "block-ellipsis",
-                    "value": "none | auto | <string>",
-                    "initial": "none",
-                    "appliesTo": "[=block containers=]",
-                    "inherited": "yes",
-                    "percentages": "N/A",
-                    "computedValue": "specified value",
-                    "animationType": "discrete"
-                },
-                "name": "block-ellipsis"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1363
-                },
-                "props": {
-                    "name": "line-clamp",
-                    "value": "none | <integer> <'block-ellipsis'>?",
-                    "initial": "none",
-                    "percentages": "N/A"
-                },
-                "name": "line-clamp"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1453
-                },
-                "props": {
-                    "name": "-webkit-line-clamp",
-                    "value": "none | <integer>",
-                    "initial": "none",
-                    "percentages": "N/A"
-                },
-                "name": "-webkit-line-clamp"
-            },
-            {
-                "type": "prop-partial",
-                "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1460
-                },
-                "props": {
-                    "name": "continue",
-                    "newValues": "-webkit-discard"
-                },
-                "name": "continue"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1499
-                },
-                "props": {
-                    "name": "max-lines",
-                    "value": "none | <integer [1,∞]>",
-                    "initial": "none",
-                    "appliesTo": "block containers which are also [=fragmentation containers=] that capture [=region breaks=]",
-                    "inherited": "no",
-                    "percentages": "N/A",
-                    "computedValue": "the keyword none or an integer",
-                    "animationType": "by computed value type"
-                },
-                "name": "max-lines"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-overflow-3",
-                    "line": 1597
-                },
-                "props": {
-                    "name": "continue",
-                    "value": "auto | discard",
-                    "initial": "auto",
-                    "appliesTo": "[=block containers=] and [=multicol containers=]",
-                    "inherited": "no",
-                    "percentages": "N/A",
-                    "computedValue": "specified keyword",
-                    "animationType": "discrete"
-                },
-                "name": "continue"
-            },
-            {
-                "type": "prop",
-                "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-top",
@@ -10890,7 +10796,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-right",
@@ -10907,7 +10813,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-bottom",
@@ -10924,7 +10830,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-left",
@@ -10941,7 +10847,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-block-start",
@@ -10958,7 +10864,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline-start",
@@ -10975,7 +10881,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-block-end",
@@ -10992,7 +10898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 216
+                    "line": 217
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline-end",
@@ -11009,7 +10915,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 226
+                    "line": 227
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -11024,7 +10930,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 226
+                    "line": 227
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline",
@@ -11039,7 +10945,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 226
+                    "line": 227
                 },
                 "props": {
                     "name": "overflow-clip-margin-block",
@@ -11054,7 +10960,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 287
+                    "line": 288
                 },
                 "props": {
                     "name": "text-overflow",
@@ -11072,11 +10978,105 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 771
+                    "line": 697
+                },
+                "props": {
+                    "name": "block-ellipsis",
+                    "value": "none | auto | <string>",
+                    "initial": "none",
+                    "appliesTo": "[=block containers=]",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "specified value",
+                    "animationType": "discrete"
+                },
+                "name": "block-ellipsis"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 810
+                },
+                "props": {
+                    "name": "line-clamp",
+                    "value": "none | <integer> <'block-ellipsis'>?",
+                    "initial": "none",
+                    "percentages": "N/A"
+                },
+                "name": "line-clamp"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 900
+                },
+                "props": {
+                    "name": "-webkit-line-clamp",
+                    "value": "none | <integer>",
+                    "initial": "none",
+                    "percentages": "N/A"
+                },
+                "name": "-webkit-line-clamp"
+            },
+            {
+                "type": "prop-partial",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 907
                 },
                 "props": {
                     "name": "continue",
-                    "value": "auto | overflow | paginate | fragments | discard",
+                    "newValues": "-webkit-discard"
+                },
+                "name": "continue"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 946
+                },
+                "props": {
+                    "name": "max-lines",
+                    "value": "none | <integer [1,∞]>",
+                    "initial": "none",
+                    "appliesTo": "block containers which are also [=fragmentation containers=] that capture [=region breaks=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "the keyword none or an integer",
+                    "animationType": "by computed value type"
+                },
+                "name": "max-lines"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 1044
+                },
+                "props": {
+                    "name": "continue",
+                    "value": "auto | discard",
+                    "initial": "auto",
+                    "appliesTo": "[=block containers=] and [=multicol containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "continue"
+            },
+            {
+                "type": "prop-partial",
+                "source": {
+                    "spec": "css-overflow-4",
+                    "line": 1244
+                },
+                "props": {
+                    "name": "continue",
+                    "newValues": "overflow | paginate | fragments",
                     "initial": "auto",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], and grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
@@ -11087,28 +11087,10 @@
                 "name": "continue"
             },
             {
-                "type": "prop",
-                "source": {
-                    "spec": "css-overflow-4",
-                    "line": 1332
-                },
-                "props": {
-                    "name": "max-lines",
-                    "value": "none | <integer>",
-                    "initial": "none",
-                    "appliesTo": "fragment boxes",
-                    "inherited": "no",
-                    "percentages": "N/A",
-                    "computedValue": "the keyword none or an integer",
-                    "animationType": "by computed value type"
-                },
-                "name": "max-lines"
-            },
-            {
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1446
+                    "line": 1854
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -19590,7 +19572,7 @@
                 "attrs": {
                     "export": true
                 },
-                "value": "<rectangular-color-space> | <polar-color-space> | < custom-color-space>"
+                "value": "<rectangular-color-space> | <polar-color-space> | <custom-color-space>"
             },
             {
                 "type": "prod",
@@ -19655,7 +19637,7 @@
                 "attrs": {
                     "export id": "color-interpolation-method"
                 },
-                "value": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | < custom-color-space> ]"
+                "value": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
             },
             {
                 "type": "prod",
