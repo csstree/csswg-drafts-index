@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-03T00:56:00.557Z",
-    "elapsedTime": 427,
+    "createdAt": "2023-02-04T00:51:44.243Z",
+    "elapsedTime": 555,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6704a9dc9a127d6f4783b6b9c56e1ac07fb06b80",
-            "commitShort": "6704a9dc9a",
+            "commit": "27a5bfa135e3606c8adb7e096a53fb613b80744a",
+            "commitShort": "27a5bfa135",
             "commitDate": null,
             "branch": "main"
         },
@@ -4332,7 +4332,7 @@
                 },
                 "props": {
                     "name": "anchor-scroll",
-                    "value": "none | <dashed-ident>",
+                    "value": "none | default | <anchor-element>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "[=absolutely-positioned=] elements",
@@ -4344,7 +4344,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 503
+                    "line": 498
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4360,7 +4360,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 647
+                    "line": 642
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4376,7 +4376,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 766
+                    "line": 761
                 },
                 "props": {
                     "name": "position-fallback",
@@ -23130,7 +23130,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7690
+                    "line": 7687
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -23138,7 +23138,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7696
+                    "line": 7693
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -23146,7 +23146,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7753
+                    "line": 7750
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  readonly attribute CSSOMString name;\n  readonly attribute CSSOMString fontFamily;\n  readonly attribute CSSOMString basePalette;\n  readonly attribute CSSOMString overrideColors;\n};"
             },
