@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-06T00:51:33.306Z",
-    "elapsedTime": 337,
+    "createdAt": "2023-02-07T00:53:59.745Z",
+    "elapsedTime": 420,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "27a5bfa135e3606c8adb7e096a53fb613b80744a",
-            "commitShort": "27a5bfa135",
+            "commit": "e6ca22a05f0450627ed81e2803ed66e45ca7ea83",
+            "commitShort": "e6ca22a05f",
             "commitDate": null,
             "branch": "main"
         },
@@ -18632,23 +18632,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 746
-                },
-                "props": {
-                    "name": "animation-delay",
-                    "value": "[ <'animation-delay-start'> <'animation-delay-end'>? | <timeline-range-name> ]#"
-                },
-                "name": "animation-delay"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "scroll-animations-1",
-                    "line": 746
+                    "line": 761
                 },
                 "props": {
                     "name": "animation-range",
-                    "value": "[ <'animation-delay-start'> <'animation-delay-end'>? | <timeline-range-name> ]#"
+                    "value": "[ <'animation-range-start'> <'animation-range-end'>? | <timeline-range-name> ]#"
                 },
                 "name": "animation-range"
             },
@@ -18656,37 +18644,37 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 761
+                    "line": 775
                 },
                 "props": {
-                    "name": "animation-delay-start",
-                    "value": "[ <time> | <timeline-range-name> <percentage> ]#",
-                    "initial": "0s",
+                    "name": "animation-range-start",
+                    "value": "[ normal | <timeline-range-name> <percentage> ]#",
+                    "initial": "normal",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "relative to the specified [=named timeline range=]",
-                    "computedValue": "list, each item either a duration or a timeline range and progress percentage",
+                    "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
                     "animatable": "no"
                 },
-                "name": "animation-delay-start"
+                "name": "animation-range-start"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 787
+                    "line": 804
                 },
                 "props": {
-                    "name": "animation-delay-end",
-                    "value": "[ <time> | <timeline-range-name> <percentage> ]#",
-                    "initial": "0s",
+                    "name": "animation-range-end",
+                    "value": "[ normal | <timeline-range-name> <percentage> ]#",
+                    "initial": "normal",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "relative to the specified [=named timeline range=]",
-                    "computedValue": "list, each item either a duration or a timeline range and progress percentage",
+                    "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
                     "animatable": "no"
                 },
-                "name": "animation-delay-end"
+                "name": "animation-range-end"
             }
         ],
         "prods": [
@@ -23674,7 +23662,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 811
+                    "line": 840
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
