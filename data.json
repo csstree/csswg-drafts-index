@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-07T00:53:59.745Z",
-    "elapsedTime": 420,
+    "createdAt": "2023-02-08T00:54:18.481Z",
+    "elapsedTime": 349,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e6ca22a05f0450627ed81e2803ed66e45ca7ea83",
-            "commitShort": "e6ca22a05f",
+            "commit": "fd50f90d2f983d6e164e0974a8b5fe0034f92e85",
+            "commitShort": "fd50f90d2f",
             "commitDate": null,
             "branch": "main"
         },
@@ -4328,7 +4328,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 418
+                    "line": 443
                 },
                 "props": {
                     "name": "anchor-scroll",
@@ -4344,7 +4344,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 498
+                    "line": 523
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4360,7 +4360,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 642
+                    "line": 667
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4376,7 +4376,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 761
+                    "line": 786
                 },
                 "props": {
                     "name": "position-fallback",
@@ -6335,7 +6335,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1702
+                    "line": 1707
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -18746,7 +18746,7 @@
                     "spec": "css-anchor-1",
                     "line": 98
                 },
-                "value": "auto | top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
+                "value": "auto | auto-same\n| top | left | right | bottom\n   | start | end | self-start | self-end\n   | <percentage> | center"
             },
             {
                 "type": "prod",
@@ -18754,7 +18754,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 370
+                    "line": 395
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -19328,7 +19328,7 @@
                 "attrs": {
                     "export": true
                 },
-                "value": "srgb | srgb-linear | lab | oklab | xyz | xyz-d50 | xyz-d65"
+                "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
             },
             {
                 "type": "prod",
@@ -19535,7 +19535,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2200
+                    "line": 2205
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )"
             },
@@ -19545,7 +19545,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2201
+                    "line": 2206
                 },
                 "value": "<number> | <percentage>"
             },
@@ -19555,7 +19555,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2377
+                    "line": 2382
                 },
                 "attrs": {
                     "export": true
@@ -19568,7 +19568,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2378
+                    "line": 2383
                 },
                 "attrs": {
                     "export": true
@@ -19581,7 +19581,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2379
+                    "line": 2384
                 },
                 "attrs": {
                     "export": true
@@ -19594,7 +19594,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2380
+                    "line": 2385
                 },
                 "attrs": {
                     "export": true
@@ -19607,7 +19607,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2381
+                    "line": 2386
                 },
                 "attrs": {
                     "export": true
@@ -19620,7 +19620,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2382
+                    "line": 2387
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -22990,7 +22990,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2738
+                    "line": 2743
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -23670,7 +23670,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4078
+                    "line": 4071
                 },
                 "content": "[Exposed=Window]\ninterface AnimationTimeline {\n    readonly attribute double? currentTime;\n};"
             },
@@ -23678,7 +23678,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4101
+                    "line": 4094
                 },
                 "content": "dictionary DocumentTimelineOptions {\n  DOMHighResTimeStamp originTime = 0;\n};\n[Exposed=Window]\ninterface DocumentTimeline : AnimationTimeline {\n  constructor(optional DocumentTimelineOptions options = {});\n};"
             },
@@ -23686,7 +23686,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4149
+                    "line": 4142
                 },
                 "content": "[Exposed=Window]\ninterface Animation : EventTarget {\n    constructor(optional AnimationEffect? effect = null,\n                optional AnimationTimeline? timeline);\n             attribute DOMString                id;\n             attribute AnimationEffect?         effect;\n             attribute AnimationTimeline?       timeline;\n             attribute double?                  startTime;\n             attribute double?                  currentTime;\n             attribute double                   playbackRate;\n    readonly attribute AnimationPlayState       playState;\n    readonly attribute AnimationReplaceState    replaceState;\n    readonly attribute boolean                  pending;\n    readonly attribute Promise&lt;Animation&gt;       ready;\n    readonly attribute Promise&lt;Animation&gt;       finished;\n             attribute EventHandler             onfinish;\n             attribute EventHandler             oncancel;\n             attribute EventHandler             onremove;\n    undefined cancel();\n    undefined finish();\n    undefined play();\n    undefined pause();\n    undefined updatePlaybackRate(double playbackRate);\n    undefined reverse();\n    undefined persist();\n    [CEReactions]\n    undefined commitStyles();\n};"
             },
@@ -23694,7 +23694,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4434
+                    "line": 4427
                 },
                 "content": "enum AnimationPlayState { \"idle\", \"running\", \"paused\", \"finished\" };"
             },
@@ -23702,7 +23702,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4449
+                    "line": 4442
                 },
                 "content": "enum AnimationReplaceState { \"active\", \"removed\", \"persisted\" };"
             },
@@ -23710,7 +23710,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4466
+                    "line": 4459
                 },
                 "content": "[Exposed=Window]\ninterface AnimationEffect {\n    EffectTiming         getTiming();\n    ComputedEffectTiming getComputedTiming();\n    undefined            updateTiming(optional OptionalEffectTiming timing = {});\n};"
             },
@@ -23718,7 +23718,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4565
+                    "line": 4558
                 },
                 "content": "dictionary EffectTiming {\n    double                             delay = 0;\n    double                             endDelay = 0;\n    FillMode                           fill = \"auto\";\n    double                             iterationStart = 0.0;\n    unrestricted double                iterations = 1.0;\n    (unrestricted double or DOMString) duration = \"auto\";\n    PlaybackDirection                  direction = \"normal\";\n    DOMString                          easing = \"linear\";\n};\ndictionary OptionalEffectTiming {\n    double                             delay;\n    double                             endDelay;\n    FillMode                           fill;\n    double                             iterationStart;\n    unrestricted double                iterations;\n    (unrestricted double or DOMString) duration;\n    PlaybackDirection                  direction;\n    DOMString                          easing;\n};"
             },
@@ -23726,7 +23726,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4703
+                    "line": 4696
                 },
                 "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
             },
@@ -23734,7 +23734,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4726
+                    "line": 4719
                 },
                 "content": "enum PlaybackDirection { \"normal\", \"reverse\", \"alternate\", \"alternate-reverse\" };"
             },
@@ -23742,7 +23742,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4792
+                    "line": 4787
                 },
                 "content": "dictionary ComputedEffectTiming : EffectTiming {\n    unrestricted double  endTime;\n    unrestricted double  activeDuration;\n    double?              localTime;\n    double?              progress;\n    unrestricted double? currentIteration;\n};"
             },
@@ -23750,7 +23750,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 4843
+                    "line": 4838
                 },
                 "content": "[Exposed=Window]\ninterface KeyframeEffect : AnimationEffect {\n    constructor(Element? target,\n                object? keyframes,\n                optional (unrestricted double or KeyframeEffectOptions) options = {});\n    constructor(KeyframeEffect source);\n    attribute Element?           target;\n    attribute CSSOMString?       pseudoElement;\n    attribute CompositeOperation composite;\n    sequence&lt;object&gt; getKeyframes();\n    undefined        setKeyframes(object? keyframes);\n};"
             },
@@ -23758,7 +23758,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5110
+                    "line": 5105
                 },
                 "content": "dictionary BaseComputedKeyframe {\n     double?                  offset = null;\n     double                   computedOffset;\n     DOMString                easing = \"linear\";\n     CompositeOperationOrAuto composite = \"auto\";\n};"
             },
@@ -23766,7 +23766,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5485
+                    "line": 5480
                 },
                 "content": "dictionary BasePropertyIndexedKeyframe {\n    (double? or sequence&lt;double?&gt;)                         offset = [];\n    (DOMString or sequence&lt;DOMString&gt;)                     easing = [];\n    (CompositeOperationOrAuto or sequence&lt;CompositeOperationOrAuto&gt;) composite = [];\n};"
             },
@@ -23774,7 +23774,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5496
+                    "line": 5491
                 },
                 "content": "dictionary BaseKeyframe {\n    double?                  offset = null;\n    DOMString                easing = \"linear\";\n    CompositeOperationOrAuto composite = \"auto\";\n};"
             },
@@ -23782,7 +23782,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5811
+                    "line": 5806
                 },
                 "content": "dictionary KeyframeEffectOptions : EffectTiming {\n    CompositeOperation composite = \"replace\";\n    CSSOMString?       pseudoElement = null;\n};"
             },
@@ -23790,7 +23790,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5841
+                    "line": 5836
                 },
                 "content": "enum CompositeOperation { \"replace\", \"add\", \"accumulate\" };"
             },
@@ -23798,7 +23798,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5872
+                    "line": 5867
                 },
                 "content": "enum CompositeOperationOrAuto { \"replace\", \"add\", \"accumulate\", \"auto\" };"
             },
@@ -23806,7 +23806,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 5886
+                    "line": 5881
                 },
                 "content": "interface mixin Animatable {\n    Animation           animate(object? keyframes,\n                                optional (unrestricted double or KeyframeAnimationOptions) options = {});\n    sequence&lt;Animation&gt; getAnimations(optional GetAnimationsOptions options = {});\n};\ndictionary KeyframeAnimationOptions : KeyframeEffectOptions {\n    DOMString id = \"\";\n    AnimationTimeline? timeline;\n};\ndictionary GetAnimationsOptions {\n    boolean subtree = false;\n};"
             },
@@ -23814,7 +23814,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 6023
+                    "line": 6018
                 },
                 "content": "partial interface Document {\n    readonly attribute DocumentTimeline timeline;\n};"
             },
@@ -23822,7 +23822,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 6043
+                    "line": 6038
                 },
                 "content": "partial interface mixin DocumentOrShadowRoot {\n    sequence&lt;Animation&gt; getAnimations();\n};"
             },
@@ -23830,7 +23830,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 6074
+                    "line": 6069
                 },
                 "content": "Element includes Animatable;"
             },
@@ -23838,7 +23838,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-1",
-                    "line": 6090
+                    "line": 6085
                 },
                 "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit eventInitDict = {});\n    readonly attribute double? currentTime;\n    readonly attribute double? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    double? currentTime = null;\n    double? timelineTime = null;\n};"
             },
@@ -23846,7 +23846,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2178
+                    "line": 2165
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? duration;\n    Animation play (optional AnimationEffect? effect = null);\n};"
             },
@@ -23854,7 +23854,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2245
+                    "line": 2232
                 },
                 "content": "[Exposed=Window]\npartial interface Animation {\n    attribute CSSNumberish?       startTime;\n    attribute CSSNumberish?       currentTime;\n};"
             },
@@ -23862,7 +23862,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2282
+                    "line": 2271
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationEffect {\n    // Timing hierarchy\n    readonly attribute GroupEffect?     parent;\n    readonly attribute AnimationEffect? previousSibling;\n    readonly attribute AnimationEffect? nextSibling;\n    undefined before (AnimationEffect... effects);\n    undefined after (AnimationEffect... effects);\n    undefined replace (AnimationEffect... effects);\n    undefined remove ();\n};"
             },
@@ -23870,7 +23870,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2390
+                    "line": 2379
                 },
                 "content": "partial dictionary EffectTiming {\n    double delay;\n    double endDelay;\n    double playbackRate = 1.0;\n    (unrestricted double or CSSNumericValue or DOMString) duration = \"auto\";\n};\npartial dictionary OptionalEffectTiming {\n    double playbackRate;\n};"
             },
@@ -23878,7 +23878,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2498
+                    "line": 2486
                 },
                 "content": "partial dictionary ComputedEffectTiming {\n    CSSNumberish         startTime;\n    CSSNumberish         endTime;\n    CSSNumberish         activeDuration;\n    CSSNumberish?        localTime;\n};"
             },
@@ -23886,7 +23886,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2558
+                    "line": 2546
                 },
                 "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
             },
@@ -23894,7 +23894,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2576
+                    "line": 2564
                 },
                 "content": "[Exposed=Window]\ninterface GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  readonly attribute AnimationNodeList  children;\n  readonly attribute AnimationEffect?   firstChild;\n  readonly attribute AnimationEffect?   lastChild;\n  GroupEffect clone ();\n  undefined prepend (AnimationEffect... effects);\n  undefined append (AnimationEffect... effects);\n};"
             },
@@ -23902,7 +23902,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2797
+                    "line": 2785
                 },
                 "content": "[Exposed=Window]\ninterface AnimationNodeList {\n    readonly attribute unsigned long length;\n    getter AnimationEffect? item (unsigned long index);\n};"
             },
@@ -23910,7 +23910,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2826
+                    "line": 2814
                 },
                 "content": "[Exposed=Window]\ninterface SequenceEffect : GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  SequenceEffect clone ();\n};"
             },
@@ -23918,7 +23918,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2859
+                    "line": 2847
                 },
                 "content": "partial interface KeyframeEffect {\n    attribute IterationCompositeOperation    iterationComposite;\n};"
             },
@@ -23926,7 +23926,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2932
+                    "line": 2920
                 },
                 "content": "partial dictionary KeyframeEffectOptions {\n    IterationCompositeOperation iterationComposite = \"replace\";\n};"
             },
@@ -23934,7 +23934,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2950
+                    "line": 2938
                 },
                 "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
             },
@@ -23942,7 +23942,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2972
+                    "line": 2960
                 },
                 "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             },
@@ -23950,7 +23950,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3033
+                    "line": 3021
                 },
                 "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit\n    eventInitDict = {});\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    CSSNumberish? currentTime = null;\n    CSSNumberish? timelineTime = null;\n};"
             },
