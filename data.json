@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-08T00:54:18.481Z",
-    "elapsedTime": 349,
+    "createdAt": "2023-02-09T00:53:35.853Z",
+    "elapsedTime": 416,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fd50f90d2f983d6e164e0974a8b5fe0034f92e85",
-            "commitShort": "fd50f90d2f",
+            "commit": "88c8d4cf2a2d26859bb6b49f04dfef67102e5f0d",
+            "commitShort": "88c8d4cf2a",
             "commitDate": null,
             "branch": "main"
         },
@@ -168,6 +168,33 @@
                     "statusText": "<!-- This document is a work in progress,\naimed at representing the state of CSS as of 2022.\nIt should become a Working Group Note when completed. -->",
                     "replaceTheAboveWithThisWhenPublishingToTr": "This document represents the state of CSS as of 2022.",
                     "theCssWorkingGroupDoesNotExpectAnyFurtherChangesToThisDocument": "new snapshots will be published at\n<a href=\"https://www.w3.org/TR/CSS/\">https://www.w3.org/TR/CSS/</a> as CSS advances.",
+                    "boilerplate": "index no"
+                }
+            },
+            {
+                "file": "css-2023/Overview.bs",
+                "id": "css-2023",
+                "props": {
+                    "title": "CSS Snapshot 2023",
+                    "shortname": "css-2023",
+                    "level": "none",
+                    "status": "NOTE-FPWD",
+                    "prepareForTr": "yes",
+                    "date": "2023-02-14",
+                    "group": "CSSWG",
+                    "workStatus": "revising",
+                    "url": "https://drafts.csswg.org/css-2023/",
+                    "tr": "https://www.w3.org/TR/css-2023/",
+                    "editor": [
+                        "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241",
+                        "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
+                    ],
+                    "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2023.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate.",
+                    "statusText": "<!-- This document is a work in progress,\naimed at representing the state of CSS as of 2023.\nIt should become a Working Group Note when completed.",
+                    "replaceTheAboveWithThisWhenPublishingToTr": "-->\nThis document represents the state of CSS as of 2023.",
+                    "<!--TheCssWorkingGroupDoesNotExpectAnyFurtherChangesToThisDocument": "new snapshots will be published at\n<a href=\"https://www.w3.org/TR/CSS/\">https://www.w3.org/TR/CSS/</a> as CSS advances. -->",
                     "boilerplate": "index no"
                 }
             },
@@ -4328,7 +4355,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 443
+                    "line": 441
                 },
                 "props": {
                     "name": "anchor-scroll",
@@ -4344,7 +4371,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 523
+                    "line": 521
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4360,7 +4387,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 667
+                    "line": 665
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4376,7 +4403,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 786
+                    "line": 784
                 },
                 "props": {
                     "name": "position-fallback",
@@ -18734,7 +18761,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 97
+                    "line": 95
                 },
                 "value": "<dashed-ident> | implicit | popover"
             },
@@ -18744,7 +18771,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 98
+                    "line": 96
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n   | start | end | self-start | self-end\n   | <percentage> | center"
             },
@@ -18754,7 +18781,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-1",
-                    "line": 395
+                    "line": 393
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
