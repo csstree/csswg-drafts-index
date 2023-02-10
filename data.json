@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-09T00:53:35.853Z",
-    "elapsedTime": 416,
+    "createdAt": "2023-02-10T00:56:54.327Z",
+    "elapsedTime": 358,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "88c8d4cf2a2d26859bb6b49f04dfef67102e5f0d",
-            "commitShort": "88c8d4cf2a",
+            "commit": "3a966e4243d49f354b4344498fd789457c80a7ad",
+            "commitShort": "3a966e4243",
             "commitDate": null,
             "branch": "main"
         },
@@ -4620,7 +4620,7 @@
                     "percentages": "N/A",
                     "computedValue": "list, each item either a case-sensitive [=css identifier=] or\nthe keywords none,\nauto.",
                     "canonicalOrder": "per grammar",
-                    "animatable": "no"
+                    "animationType": "not animatable"
                 },
                 "name": "animation-timeline"
             },
@@ -15167,7 +15167,6 @@
                     "value": "<single-transition>#",
                     "appliesTo": "all elements",
                     "inherited": "no",
-                    "animatable": "no",
                     "percentages": "N/A",
                     "animationType": "not animatable"
                 },
@@ -21998,7 +21997,7 @@
                 "dfnName": "<single-transition>",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 396
+                    "line": 395
                 },
                 "attrs": {
                     "type id": "single-transition"
@@ -23289,7 +23288,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 1100
+                    "line": 1099
                 },
                 "content": "[Exposed=Window]\ninterface TransitionEvent : Event {\n  constructor(CSSOMString type, optional TransitionEventInit transitionEventInitDict = {});\n  readonly attribute CSSOMString propertyName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary TransitionEventInit : EventInit {\n  CSSOMString propertyName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
             },
@@ -23297,7 +23296,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 1255
+                    "line": 1254
                 },
                 "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler ontransitionrun;\n  attribute EventHandler ontransitionstart;\n  attribute EventHandler ontransitionend;\n  attribute EventHandler ontransitioncancel;\n};"
             },
