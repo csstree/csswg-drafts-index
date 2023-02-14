@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-13T00:56:08.127Z",
-    "elapsedTime": 453,
+    "createdAt": "2023-02-14T00:55:48.089Z",
+    "elapsedTime": 347,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "73bef9e92f4609685579a626e9e3d2d520cd225a",
-            "commitShort": "73bef9e92f",
+            "commit": "614b76c39c3efda83916972346115611b505157d",
+            "commitShort": "614b76c39c",
             "commitDate": null,
             "branch": "main"
         },
@@ -393,7 +393,6 @@
                         "internal table elements",
                         "block layout"
                     ],
-                    "atRisk": "applicability of 'margin', 'padding' and their longhands to [=ruby base containers=] and [=ruby annotation containers=]",
                     "issueTracking": [
                         "CSSWG GitHub https://github.com/w3c/csswg-drafts/issues"
                     ]
@@ -2922,7 +2921,7 @@
                     "title": "CSS Text Module Level 3",
                     "shortname": "css-text",
                     "level": "3",
-                    "status": "ED",
+                    "status": "WD",
                     "workStatus": "Testing",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-text-3/",
@@ -5690,13 +5689,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 296
+                    "line": 295
                 },
                 "props": {
                     "name": "margin-top",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -5708,13 +5707,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 296
+                    "line": 295
                 },
                 "props": {
                     "name": "margin-right",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -5726,13 +5725,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 296
+                    "line": 295
                 },
                 "props": {
                     "name": "margin-bottom",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -5744,13 +5743,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 296
+                    "line": 295
                 },
                 "props": {
                     "name": "margin-left",
                     "value": "<length-percentage> | auto",
                     "initial": "0",
-                    "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
@@ -5762,13 +5761,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 316
+                    "line": 318
                 },
                 "props": {
                     "name": "margin",
                     "value": "<'margin-top'>{1,4}",
                     "initial": "0",
-                    "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "see individual properties",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "see individual properties",
@@ -5780,13 +5779,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 388
+                    "line": 390
                 },
                 "props": {
                     "name": "padding-top",
                     "value": "<length-percentage [0,∞]>",
                     "initial": "0",
-                    "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
@@ -5798,13 +5797,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 388
+                    "line": 390
                 },
                 "props": {
                     "name": "padding-right",
                     "value": "<length-percentage [0,∞]>",
                     "initial": "0",
-                    "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
@@ -5816,13 +5815,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 388
+                    "line": 390
                 },
                 "props": {
                     "name": "padding-bottom",
                     "value": "<length-percentage [0,∞]>",
                     "initial": "0",
-                    "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
@@ -5834,13 +5833,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 388
+                    "line": 390
                 },
                 "props": {
                     "name": "padding-left",
                     "value": "<length-percentage [0,∞]>",
                     "initial": "0",
-                    "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
@@ -5852,13 +5851,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 407
+                    "line": 412
                 },
                 "props": {
                     "name": "padding",
                     "value": "<'padding-top'>{1,4}",
                     "initial": "0",
-                    "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
+                    "appliesTo": "see individual properties",
                     "inherited": "no",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "see individual properties",
@@ -10461,7 +10460,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "specified value",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "column-count"
             },
@@ -19029,7 +19028,7 @@
                 "dfnName": "<<visual-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 267
+                    "line": 266
                 },
                 "value": "content-box | padding-box | border-box"
             },
@@ -19039,7 +19038,7 @@
                 "dfnName": "<<layout-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 268
+                    "line": 267
                 },
                 "value": "content-box | padding-box | border-box | margin-box"
             },
@@ -19049,7 +19048,7 @@
                 "dfnName": "<<paint-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 269
+                    "line": 268
                 },
                 "value": "content-box | padding-box | border-box | fill-box | stroke-box"
             },
@@ -19059,7 +19058,7 @@
                 "dfnName": "<<coord-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 270
+                    "line": 269
                 },
                 "value": "content-box | padding-box | border-box | fill-box | stroke-box | view-box"
             },
