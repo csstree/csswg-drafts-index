@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-15T00:55:31.601Z",
-    "elapsedTime": 511,
+    "createdAt": "2023-02-16T00:55:22.934Z",
+    "elapsedTime": 428,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "41ccdee81175f9d5e1c272c70a38e329df2c2cec",
-            "commitShort": "41ccdee811",
+            "commit": "83910c800e652a9b76b2411dfff6379de3ab956c",
+            "commitShort": "83910c800e",
             "commitDate": null,
             "branch": "main"
         },
@@ -223,16 +223,16 @@
                 }
             },
             {
-                "file": "css-anchor-1/Overview.bs",
-                "id": "css-anchor-1",
+                "file": "css-anchor-position-1/Overview.bs",
+                "id": "css-anchor-position-1",
                 "props": {
                     "title": "CSS Anchor Positioning",
-                    "shortname": "css-anchor",
+                    "shortname": "css-anchor-position",
                     "level": "1",
                     "status": "ED",
                     "group": "csswg",
                     "workStatus": "exploring",
-                    "ed": "https://drafts.csswg.org/css-anchor-1/",
+                    "ed": "https://drafts.csswg.org/css-anchor-position-1/",
                     "editor": [
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
                         "Jhey Tompkins, Google, https://twitter.com/jh3yy, w3cid 137616",
@@ -4349,7 +4349,7 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 449
                 },
                 "props": {
@@ -4365,7 +4365,7 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 530
                 },
                 "props": {
@@ -4381,7 +4381,7 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 668
                 },
                 "props": {
@@ -4397,7 +4397,7 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 789
                 },
                 "props": {
@@ -18754,7 +18754,7 @@
                 "name": "anchor-element",
                 "dfnName": "<<anchor-element>>",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 95
                 },
                 "value": "<dashed-ident> | implicit"
@@ -18764,7 +18764,7 @@
                 "name": "anchor-side",
                 "dfnName": "<<anchor-side>>",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 96
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n   | start | end | self-start | self-end\n   | <percentage> | center"
@@ -18774,7 +18774,7 @@
                 "name": "anchor-size",
                 "dfnName": "<<anchor-size>>",
                 "source": {
-                    "spec": "css-anchor-1",
+                    "spec": "css-anchor-position-1",
                     "line": 401
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
@@ -23069,7 +23069,7 @@
                     "spec": "css-contain-2",
                     "line": 1876
                 },
-                "content": "[Exposed=Window]\ninterface ContentVisibilityAutoStateChangedEvent : Event {\n  constructor(DOMString type, optional ContentVisibilityAutoStateChangedEventInit eventInitDict = {});\n  readonly attribute boolean skipped;\n};\ndictionary ContentVisibilityAutoStateChangedEventInit : EventInit {\n  boolean skipped = false;\n};"
+                "content": "[Exposed=Window]\ninterface ContentVisibilityAutoStateChangeEvent : Event {\n  constructor(DOMString type, optional ContentVisibilityAutoStateChangeEventInit eventInitDict = {});\n  readonly attribute boolean skipped;\n};\ndictionary ContentVisibilityAutoStateChangeEventInit : EventInit {\n  boolean skipped = false;\n};"
             },
             {
                 "type": "idl",
