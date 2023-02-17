@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-16T00:55:22.934Z",
-    "elapsedTime": 428,
+    "createdAt": "2023-02-17T00:58:15.577Z",
+    "elapsedTime": 491,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "83910c800e652a9b76b2411dfff6379de3ab956c",
-            "commitShort": "83910c800e",
+            "commit": "727b9694e039015c2cd489bf08d5e5633991c2a1",
+            "commitShort": "727b9694e0",
             "commitDate": null,
             "branch": "main"
         },
@@ -701,8 +701,8 @@
                     "prepareForTr": "no",
                     "warning": "Not Ready",
                     "group": "csswg",
-                    "tr": "https://www.w3.org/TR/css-color-5/",
-                    "ed": "https://drafts.csswg.org/css-color-5/",
+                    "tr": "https://www.w3.org/TR/css-color-6/",
+                    "ed": "https://drafts.csswg.org/css-color-6/",
                     "workStatus": "exploring",
                     "!deltaSpec": "yes",
                     "editor": [
@@ -711,7 +711,7 @@
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258",
                         "Adam Argyle, Google, https://nerdy.dev, w3cid 112669"
                     ],
-                    "abstract": "This module extends CSS Color [[css-color-5]] to add contrast calculation.",
+                    "abstract": "This module extends CSS Color [[css-color-5]] to add automatic selection of contrasting colors.",
                     "repository": "w3c/csswg-drafts",
                     "inlineGithubIssues": "false"
                 }
@@ -4079,11 +4079,14 @@
                 "id": "web-animations-2",
                 "props": {
                     "title": "Web Animations Level 2",
-                    "status": "UD",
+                    "status": "FPWD",
+                    "prepareForTr": "yes",
+                    "date": "2023-02-21",
                     "warning": "not ready",
                     "workStatus": "Exploring",
                     "shortname": "web-animations",
                     "ed": "https://drafts.csswg.org/web-animations-2/",
+                    "tr": "https://www.w3.org/TR/web-animations-2/",
                     "versionHistory": "https://github.com/w3c/csswg-drafts/commits/master/web-animations-1",
                     "level": "2",
                     "group": "csswg",
@@ -6357,7 +6360,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1707
+                    "line": 1717
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -19456,7 +19459,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1175
+                    "line": 1177
                 },
                 "value": "oklab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19466,7 +19469,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1197
+                    "line": 1201
                 },
                 "value": "lch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19476,7 +19479,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1327
+                    "line": 1334
                 },
                 "value": "oklch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19486,7 +19489,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1396
+                    "line": 1406
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -19496,7 +19499,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1397
+                    "line": 1407
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -19506,7 +19509,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1398
+                    "line": 1408
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]#"
             },
@@ -19516,7 +19519,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1399
+                    "line": 1409
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -19526,7 +19529,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1400
+                    "line": 1410
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -19536,7 +19539,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1401
+                    "line": 1411
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -19546,7 +19549,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1402
+                    "line": 1412
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -19556,7 +19559,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2205
+                    "line": 2215
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )"
             },
@@ -19566,7 +19569,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2206
+                    "line": 2216
                 },
                 "value": "<number> | <percentage>"
             },
@@ -19576,7 +19579,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2382
+                    "line": 2392
                 },
                 "attrs": {
                     "export": true
@@ -19589,7 +19592,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2383
+                    "line": 2393
                 },
                 "attrs": {
                     "export": true
@@ -19602,7 +19605,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2384
+                    "line": 2394
                 },
                 "attrs": {
                     "export": true
@@ -19615,7 +19618,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2385
+                    "line": 2395
                 },
                 "attrs": {
                     "export": true
@@ -19628,7 +19631,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2386
+                    "line": 2396
                 },
                 "attrs": {
                     "export": true
@@ -19641,7 +19644,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2387
+                    "line": 2397
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -23011,7 +23014,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2743
+                    "line": 2753
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -23219,7 +23222,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 1161
+                    "line": 1165
                 },
                 "content": "partial interface CSSStyleRule {\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
             },
@@ -23867,7 +23870,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2178
+                    "line": 2185
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? duration;\n    Animation play (optional AnimationEffect? effect = null);\n};"
             },
@@ -23875,7 +23878,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2245
+                    "line": 2252
                 },
                 "content": "[Exposed=Window]\npartial interface Animation {\n    attribute CSSNumberish?       startTime;\n    attribute CSSNumberish?       currentTime;\n};"
             },
@@ -23883,7 +23886,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2284
+                    "line": 2291
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationEffect {\n    // Timing hierarchy\n    readonly attribute GroupEffect?     parent;\n    readonly attribute AnimationEffect? previousSibling;\n    readonly attribute AnimationEffect? nextSibling;\n    undefined before (AnimationEffect... effects);\n    undefined after (AnimationEffect... effects);\n    undefined replace (AnimationEffect... effects);\n    undefined remove ();\n};"
             },
@@ -23891,7 +23894,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2392
+                    "line": 2399
                 },
                 "content": "partial dictionary EffectTiming {\n    double delay;\n    double endDelay;\n    double playbackRate = 1.0;\n    (unrestricted double or CSSNumericValue or DOMString) duration = \"auto\";\n};\npartial dictionary OptionalEffectTiming {\n    double playbackRate;\n};"
             },
@@ -23899,7 +23902,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2499
+                    "line": 2506
                 },
                 "content": "partial dictionary ComputedEffectTiming {\n    CSSNumberish         startTime;\n    CSSNumberish         endTime;\n    CSSNumberish         activeDuration;\n    CSSNumberish?        localTime;\n};"
             },
@@ -23907,7 +23910,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2559
+                    "line": 2566
                 },
                 "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
             },
@@ -23915,7 +23918,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2577
+                    "line": 2584
                 },
                 "content": "[Exposed=Window]\ninterface GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  readonly attribute AnimationNodeList  children;\n  readonly attribute AnimationEffect?   firstChild;\n  readonly attribute AnimationEffect?   lastChild;\n  GroupEffect clone ();\n  undefined prepend (AnimationEffect... effects);\n  undefined append (AnimationEffect... effects);\n};"
             },
@@ -23923,7 +23926,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2798
+                    "line": 2805
                 },
                 "content": "[Exposed=Window]\ninterface AnimationNodeList {\n    readonly attribute unsigned long length;\n    getter AnimationEffect? item (unsigned long index);\n};"
             },
@@ -23931,7 +23934,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2827
+                    "line": 2834
                 },
                 "content": "[Exposed=Window]\ninterface SequenceEffect : GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  SequenceEffect clone ();\n};"
             },
@@ -23939,7 +23942,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2860
+                    "line": 2867
                 },
                 "content": "partial interface KeyframeEffect {\n    attribute IterationCompositeOperation    iterationComposite;\n};"
             },
@@ -23947,7 +23950,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2933
+                    "line": 2940
                 },
                 "content": "partial dictionary KeyframeEffectOptions {\n    IterationCompositeOperation iterationComposite = \"replace\";\n};"
             },
@@ -23955,7 +23958,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2951
+                    "line": 2958
                 },
                 "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
             },
@@ -23963,7 +23966,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2975
+                    "line": 2982
                 },
                 "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             },
@@ -23971,7 +23974,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3038
+                    "line": 3045
                 },
                 "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit\n    eventInitDict = {});\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    CSSNumberish? currentTime = null;\n    CSSNumberish? timelineTime = null;\n};"
             },
