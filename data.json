@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-17T00:58:15.577Z",
-    "elapsedTime": 491,
+    "createdAt": "2023-02-18T00:54:51.103Z",
+    "elapsedTime": 396,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "727b9694e039015c2cd489bf08d5e5633991c2a1",
-            "commitShort": "727b9694e0",
+            "commit": "72189dc312a07095c6bdcd7f4af2e816b4aeb5f6",
+            "commitShort": "72189dc312",
             "commitDate": null,
             "branch": "main"
         },
@@ -5543,7 +5543,151 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 248
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-top-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-top-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-right-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-right-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-bottom-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-bottom-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-left-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-left-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-block-start-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-block-start-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-block-end-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-block-end-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-inline-start-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-inline-start-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 255
+                },
+                "props": {
+                    "name": "border-inline-end-radius",
+                    "value": "<length-percentage [0,∞]>{1,2} [ / <length-percentage [0,∞]>{1,2} ]?",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "see individual properties",
+                    "animatable": "see individual properties"
+                },
+                "name": "border-inline-end-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 292
                 },
                 "props": {
                     "name": "border-radius",
@@ -5559,7 +5703,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 262
+                    "line": 306
                 },
                 "props": {
                     "name": "corner-shape",
@@ -5575,7 +5719,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 325
+                    "line": 369
                 },
                 "props": {
                     "name": "corners",
@@ -5587,7 +5731,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 366
+                    "line": 410
                 },
                 "props": {
                     "name": "border-limit",
@@ -5604,7 +5748,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 423
+                    "line": 467
                 },
                 "props": {
                     "name": "border-clip",
@@ -5621,7 +5765,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 423
+                    "line": 467
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5638,7 +5782,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 423
+                    "line": 467
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -5655,7 +5799,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 423
+                    "line": 467
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -5672,7 +5816,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 423
+                    "line": 467
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -19140,13 +19284,23 @@
             },
             {
                 "type": "prod",
-                "name": "selector-scope",
-                "dfnName": "<<selector-scope>>",
+                "name": "scope-start",
+                "dfnName": "<<scope-start>>",
                 "source": {
                     "spec": "css-cascade-6",
-                    "line": 543
+                    "line": 364
                 },
-                "value": "( <scope-start> [/ <scope-end>]? )"
+                "value": "<forgiving-selector-list>"
+            },
+            {
+                "type": "prod",
+                "name": "scope-end",
+                "dfnName": "<<scope-end>>",
+                "source": {
+                    "spec": "css-cascade-6",
+                    "line": 365
+                },
+                "value": "<forgiving-selector-list>"
             },
             {
                 "type": "prod",
