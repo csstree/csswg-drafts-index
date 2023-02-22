@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-21T00:57:03.070Z",
-    "elapsedTime": 388,
+    "createdAt": "2023-02-22T00:53:04.586Z",
+    "elapsedTime": 449,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8ba10985db0305eb66270b542e542331af2b1d19",
-            "commitShort": "8ba10985db",
+            "commit": "b5659ad01a3d5ba1bf41699ee0a625c52de8dae2",
+            "commitShort": "b5659ad01a",
             "commitDate": null,
             "branch": "main"
         },
@@ -248,6 +248,7 @@
                     "title": "CSS Animations Level 1",
                     "status": "ED",
                     "workStatus": "Refining",
+                    "prepareForTr": "no",
                     "shortname": "css-animations",
                     "level": "1",
                     "group": "csswg",
@@ -261,7 +262,7 @@
                     ],
                     "editor": [
                         "Dean Jackson, Apple Inc., dino@apple.com, w3cid 42080",
-                        "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
+                        "L. David Baron, Google https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
                         "Brian Birtles, Invited Expert, brian@birchill.co.jp, w3cid 43194"
                     ],
@@ -270,7 +271,7 @@
                         "Chris Marrin, Apple Inc.",
                         "Sylvain Galineau, Adobe, galineau@adobe.com"
                     ],
-                    "!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a>",
+                    "!issuesList": "https://github.com/w3c/csswg-drafts/labels/css-animations-1\n<!-- <a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a> -->",
                     "abstract": "This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior.",
                     "linkDefaults": [
                         "css-values-3 (type) <time>",
@@ -4417,7 +4418,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 473
+                    "line": 476
                 },
                 "props": {
                     "name": "animation-name",
@@ -4436,7 +4437,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 505
+                    "line": 508
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4455,7 +4456,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 562
+                    "line": 565
                 },
                 "props": {
                     "name": "animation-timing-function",
@@ -4474,7 +4475,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 595
+                    "line": 598
                 },
                 "props": {
                     "name": "animation-iteration-count",
@@ -4493,7 +4494,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 637
+                    "line": 640
                 },
                 "props": {
                     "name": "animation-direction",
@@ -4512,7 +4513,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 683
+                    "line": 686
                 },
                 "props": {
                     "name": "animation-play-state",
@@ -4531,7 +4532,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 722
+                    "line": 725
                 },
                 "props": {
                     "name": "animation-delay",
@@ -4550,7 +4551,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 765
+                    "line": 768
                 },
                 "props": {
                     "name": "animation-fill-mode",
@@ -4569,7 +4570,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 815
+                    "line": 818
                 },
                 "props": {
                     "name": "animation",
@@ -14430,7 +14431,7 @@
                 },
                 "props": {
                     "name": "text-justify",
-                    "value": "auto | none | inter-word | inter-character",
+                    "value": "[ auto | none | inter-word | inter-character ] || no-compress",
                     "initial": "auto",
                     "appliesTo": "text",
                     "inherited": "yes",
@@ -14444,7 +14445,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7200
+                    "line": 7215
                 },
                 "props": {
                     "name": "text-group-align",
@@ -14462,7 +14463,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7301
+                    "line": 7323
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14481,7 +14482,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7490
+                    "line": 7512
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -14500,7 +14501,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7925
+                    "line": 7947
                 },
                 "props": {
                     "name": "line-padding",
@@ -14518,13 +14519,49 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7981
+                    "line": 8003
+                },
+                "props": {
+                    "name": "text-autospace",
+                    "value": "normal | <autospace>",
+                    "initial": "normal",
+                    "appliesTo": "text",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword(s)",
+                    "animationType": "discrete"
+                },
+                "name": "text-autospace"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-text-4",
+                    "line": 8107
+                },
+                "props": {
+                    "name": "text-spacing-trim",
+                    "value": "<spacing-trim> | auto",
+                    "initial": "space-first",
+                    "appliesTo": "text",
+                    "inherited": "yes",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword(s)",
+                    "animationType": "discrete"
+                },
+                "name": "text-spacing-trim"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-text-4",
+                    "line": 8503
                 },
                 "props": {
                     "name": "text-spacing",
-                    "value": "normal | none | auto | no-compress ||\n[ trim-start | space-start | space-first ] ||\n[ trim-end | space-end | allow-end ] ||\n[ trim-adjacent | space-adjacent ] ||\nideograph-alpha || ideograph-numeric || punctuation",
-                    "initial": "normal",
-                    "appliesTo": "block containers",
+                    "value": "normal | none | auto | <autospace> || <spacing-trim>",
+                    "initial": "see individual properties",
+                    "appliesTo": "text",
                     "inherited": "yes",
                     "percentages": "N/A",
                     "computedValue": "specified keyword(s)",
@@ -14536,7 +14573,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8635
+                    "line": 8706
                 },
                 "props": {
                     "name": "text-indent",
@@ -14555,7 +14592,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8989
+                    "line": 9060
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -18914,7 +18951,7 @@
                     "spec": "css-anchor-position-1",
                     "line": 96
                 },
-                "value": "auto | auto-same\n| top | left | right | bottom\n   | start | end | self-start | self-end\n   | <percentage> | center"
+                "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
             {
                 "type": "prod",
@@ -18932,7 +18969,7 @@
                 "dfnName": "<keyframes-name>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 223
+                    "line": 226
                 },
                 "value": "<custom-ident> | <string>"
             },
@@ -18942,7 +18979,7 @@
                 "dfnName": "<keyframe-block>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 225
+                    "line": 228
                 },
                 "value": "<keyframe-selector># { <declaration-list> }"
             },
@@ -18952,7 +18989,7 @@
                 "dfnName": "<keyframe-selector>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 227
+                    "line": 230
                 },
                 "value": "from | to | <percentage [0,100]>"
             },
@@ -18962,7 +18999,7 @@
                 "dfnName": "<single-animation-iteration-count>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 607
+                    "line": 610
                 },
                 "value": "infinite | <number [0,∞]>"
             },
@@ -18972,7 +19009,7 @@
                 "dfnName": "<single-animation-direction>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 649
+                    "line": 652
                 },
                 "value": "normal | reverse | alternate | alternate-reverse"
             },
@@ -18982,7 +19019,7 @@
                 "dfnName": "<single-animation-play-state>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 695
+                    "line": 698
                 },
                 "value": "running | paused"
             },
@@ -18992,7 +19029,7 @@
                 "dfnName": "<single-animation-fill-mode>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 777
+                    "line": 780
                 },
                 "value": "none | forwards | backwards | both"
             },
@@ -19002,7 +19039,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 827
+                    "line": 830
                 },
                 "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
             },
@@ -20626,7 +20663,7 @@
                     "spec": "css-egg-1",
                     "line": 447
                 },
-                "value": "double-rainbow(\n     <position> [, [ <extent> | <length-percentage [0,∞]>]]?\n)"
+                "value": "double-rainbow(\n     <position> , [ <extent> | <length-percentage [0,∞]> ]?\n)"
             },
             {
                 "type": "prod",
@@ -22022,6 +22059,26 @@
             },
             {
                 "type": "prod",
+                "name": "autospace",
+                "dfnName": "<<autospace>>",
+                "source": {
+                    "spec": "css-text-4",
+                    "line": 8023
+                },
+                "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
+            },
+            {
+                "type": "prod",
+                "name": "spacing-trim",
+                "dfnName": "<<spacing-trim>>",
+                "source": {
+                    "spec": "css-text-4",
+                    "line": 8127
+                },
+                "value": "space-all |  trim-auto | [ allow-end || space-first ]"
+            },
+            {
+                "type": "prod",
                 "name": "transform-list",
                 "dfnName": "<transform-list>",
                 "source": {
@@ -23252,7 +23309,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 880
+                    "line": 883
                 },
                 "content": "[Exposed=Window]\ninterface AnimationEvent : Event {\n  constructor(CSSOMString type, optional AnimationEventInit animationEventInitDict = {});\n  readonly attribute CSSOMString animationName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary AnimationEventInit : EventInit {\n  CSSOMString animationName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
             },
@@ -23260,7 +23317,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1047
+                    "line": 1050
                 },
                 "content": "partial interface CSSRule {\n      const unsigned short KEYFRAMES_RULE = 7;\n      const unsigned short KEYFRAME_RULE = 8;\n};"
             },
@@ -23268,7 +23325,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1062
+                    "line": 1065
                 },
                 "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\nattribute CSSOMString keyText;\n[SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -23276,7 +23333,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1115
+                    "line": 1118
                 },
                 "content": "[Exposed=Window]\ninterface CSSKeyframesRule : CSSRule {\n           attribute CSSOMString name;\n  readonly attribute CSSRuleList cssRules;\n  readonly attribute unsigned long length;\n  getter CSSKeyframeRule (unsigned long index);\n  undefined        appendRule(CSSOMString rule);\n  undefined        deleteRule(CSSOMString select);\n  CSSKeyframeRule? findRule(CSSOMString select);\n};"
             },
@@ -23284,7 +23341,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1317
+                    "line": 1320
                 },
                 "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler onanimationstart;\n  attribute EventHandler onanimationiteration;\n  attribute EventHandler onanimationend;\n  attribute EventHandler onanimationcancel;\n};"
             },
