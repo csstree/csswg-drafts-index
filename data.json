@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-22T00:53:04.586Z",
-    "elapsedTime": 449,
+    "createdAt": "2023-02-23T00:53:37.586Z",
+    "elapsedTime": 520,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b5659ad01a3d5ba1bf41699ee0a625c52de8dae2",
-            "commitShort": "b5659ad01a",
+            "commit": "e978a9cec205b71be685c764ed1e3a59a692b556",
+            "commitShort": "e978a9cec2",
             "commitDate": null,
             "branch": "main"
         },
@@ -262,7 +262,7 @@
                     ],
                     "editor": [
                         "Dean Jackson, Apple Inc., dino@apple.com, w3cid 42080",
-                        "L. David Baron, Google https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
+                        "L. David Baron, Google https://www.google.com/, https://dbaron.org/, w3cid 15393",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
                         "Brian Birtles, Invited Expert, brian@birchill.co.jp, w3cid 43194"
                     ],
@@ -302,8 +302,8 @@
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-animations-2/",
                     "editor": [
-                        "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
-                        "Brian Birtles, Mozilla https://www.mozilla.org/, bbirtles@mozilla.com, w3cid 43194"
+                        "L. David Baron, Google https://www.google.com/, https://dbaron.org/, w3cid 15393",
+                        "Brian Birtles, Invited Expert, brian@birchill.co.jp, w3cid 43194"
                     ],
                     "!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a>",
                     "abstract": "This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior.",
@@ -14537,7 +14537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8107
+                    "line": 8110
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -14555,7 +14555,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8503
+                    "line": 8506
                 },
                 "props": {
                     "name": "text-spacing",
@@ -14573,7 +14573,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8706
+                    "line": 8709
                 },
                 "props": {
                     "name": "text-indent",
@@ -14592,7 +14592,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9060
+                    "line": 9063
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -22073,7 +22073,7 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8127
+                    "line": 8130
                 },
                 "value": "space-all |  trim-auto | [ allow-end || space-first ]"
             },
