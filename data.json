@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-02-27T00:55:19.554Z",
-    "elapsedTime": 360,
+    "createdAt": "2023-02-28T00:55:20.096Z",
+    "elapsedTime": 383,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ed63409e5dfb17803e9d7a1afb95ba20bac108d4",
-            "commitShort": "ed63409e5d",
+            "commit": "e17f72401e90cce2a3203e204bc839cba745deb0",
+            "commitShort": "e17f72401e",
             "commitDate": null,
             "branch": "main"
         },
@@ -246,9 +246,10 @@
                 "id": "css-animations-1",
                 "props": {
                     "title": "CSS Animations Level 1",
-                    "status": "ED",
+                    "status": "WD",
                     "workStatus": "Refining",
-                    "prepareForTr": "no",
+                    "prepareForTr": "yes",
+                    "date": "2023-03-02",
                     "shortname": "css-animations",
                     "level": "1",
                     "group": "csswg",
@@ -295,17 +296,21 @@
                 "id": "css-animations-2",
                 "props": {
                     "title": "CSS Animations Level 2",
-                    "status": "ED",
+                    "status": "FPWD",
+                    "prepareForTr": "yes",
+                    "date": "2023-03-02",
                     "workStatus": "Exploring",
-                    "shortname": "css-animations-2",
+                    "shortname": "css-animations",
                     "level": "2",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-animations-2/",
+                    "tr": "https://www.w3.org/TR/css-animations-2/",
                     "editor": [
                         "L. David Baron, Google https://www.google.com/, https://dbaron.org/, w3cid 15393",
                         "Brian Birtles, Invited Expert, brian@birchill.co.jp, w3cid 43194"
                     ],
-                    "!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a>",
+                    "!issuesList": "https://github.com/w3c/csswg-drafts/labels/css-animations-2",
+                    "<!--!issuesList": "<a href=\"https://www.w3.org/Bugs/Public/buglist.cgi?component=Animations&list_id=36653&product=CSS&query_format=advanced&resolution=---\">In Bugzilla</a> -->",
                     "abstract": "This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior.",
                     "ignoredVars": [
                         "auto-rewind"
@@ -4418,7 +4423,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 476
+                    "line": 477
                 },
                 "props": {
                     "name": "animation-name",
@@ -4437,7 +4442,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 508
+                    "line": 509
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4456,7 +4461,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 565
+                    "line": 566
                 },
                 "props": {
                     "name": "animation-timing-function",
@@ -4475,7 +4480,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 598
+                    "line": 599
                 },
                 "props": {
                     "name": "animation-iteration-count",
@@ -4494,7 +4499,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 640
+                    "line": 641
                 },
                 "props": {
                     "name": "animation-direction",
@@ -4513,7 +4518,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 686
+                    "line": 687
                 },
                 "props": {
                     "name": "animation-play-state",
@@ -4532,7 +4537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 725
+                    "line": 726
                 },
                 "props": {
                     "name": "animation-delay",
@@ -4551,7 +4556,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 768
+                    "line": 769
                 },
                 "props": {
                     "name": "animation-fill-mode",
@@ -4570,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 818
+                    "line": 819
                 },
                 "props": {
                     "name": "animation",
@@ -4589,7 +4594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 430
+                    "line": 434
                 },
                 "props": {
                     "name": "animation-composition",
@@ -4608,7 +4613,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 524
+                    "line": 528
                 },
                 "props": {
                     "name": "animation-timeline",
@@ -4627,7 +4632,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 178
+                    "line": 166
                 },
                 "props": {
                     "name": "background-color",
@@ -4645,7 +4650,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 203
+                    "line": 191
                 },
                 "props": {
                     "name": "background-image",
@@ -4663,7 +4668,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 274
+                    "line": 262
                 },
                 "props": {
                     "name": "background-repeat",
@@ -4681,7 +4686,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 413
+                    "line": 401
                 },
                 "props": {
                     "name": "background-attachment",
@@ -4699,7 +4704,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 504
+                    "line": 492
                 },
                 "props": {
                     "name": "background-position",
@@ -4717,7 +4722,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 675
+                    "line": 663
                 },
                 "props": {
                     "name": "background-clip",
@@ -4735,7 +4740,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 727
+                    "line": 715
                 },
                 "props": {
                     "name": "background-origin",
@@ -4753,7 +4758,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 776
+                    "line": 764
                 },
                 "props": {
                     "name": "background-size",
@@ -4771,7 +4776,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 975
+                    "line": 963
                 },
                 "props": {
                     "name": "background",
@@ -4789,7 +4794,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1205
+                    "line": 1193
                 },
                 "props": {
                     "name": "border-top-color",
@@ -4807,7 +4812,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1205
+                    "line": 1193
                 },
                 "props": {
                     "name": "border-right-color",
@@ -4825,7 +4830,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1205
+                    "line": 1193
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -4843,7 +4848,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1205
+                    "line": 1193
                 },
                 "props": {
                     "name": "border-left-color",
@@ -4861,7 +4866,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1216
+                    "line": 1204
                 },
                 "props": {
                     "name": "border-color",
@@ -4871,7 +4876,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-color"
             },
@@ -4879,7 +4884,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1250
+                    "line": 1238
                 },
                 "props": {
                     "name": "border-top-style",
@@ -4897,7 +4902,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1250
+                    "line": 1238
                 },
                 "props": {
                     "name": "border-right-style",
@@ -4915,7 +4920,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1250
+                    "line": 1238
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -4933,7 +4938,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1250
+                    "line": 1238
                 },
                 "props": {
                     "name": "border-left-style",
@@ -4951,7 +4956,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1261
+                    "line": 1249
                 },
                 "props": {
                     "name": "border-style",
@@ -4969,7 +4974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1366
                 },
                 "props": {
                     "name": "border-top-width",
@@ -4978,8 +4983,8 @@
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; zero if the border style is none or hidden",
-                    "animatable": "by computed value"
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
                 },
                 "name": "border-top-width"
             },
@@ -4987,7 +4992,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1366
                 },
                 "props": {
                     "name": "border-right-width",
@@ -4996,8 +5001,8 @@
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; zero if the border style is none or hidden",
-                    "animatable": "by computed value"
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
                 },
                 "name": "border-right-width"
             },
@@ -5005,7 +5010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1366
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5014,8 +5019,8 @@
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; zero if the border style is none or hidden",
-                    "animatable": "by computed value"
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
                 },
                 "name": "border-bottom-width"
             },
@@ -5023,7 +5028,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1366
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5032,8 +5037,8 @@
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; zero if the border style is none or hidden",
-                    "animatable": "by computed value"
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
                 },
                 "name": "border-left-width"
             },
@@ -5041,7 +5046,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1389
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-width",
@@ -5051,7 +5056,7 @@
                     "inherited": "no",
                     "percentages": "see individual properties",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-width"
             },
@@ -5059,7 +5064,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1419
                 },
                 "props": {
                     "name": "border-top",
@@ -5069,7 +5074,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-top"
             },
@@ -5077,7 +5082,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1419
                 },
                 "props": {
                     "name": "border-right",
@@ -5087,7 +5092,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-right"
             },
@@ -5095,7 +5100,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1419
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5105,7 +5110,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-bottom"
             },
@@ -5113,7 +5118,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1419
                 },
                 "props": {
                     "name": "border-left",
@@ -5123,7 +5128,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-left"
             },
@@ -5131,7 +5136,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1446
+                    "line": 1434
                 },
                 "props": {
                     "name": "border",
@@ -5141,7 +5146,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border"
             },
@@ -5149,7 +5154,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1509
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5159,7 +5164,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "border-top-left-radius"
             },
@@ -5167,7 +5172,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1509
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5177,7 +5182,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "border-top-right-radius"
             },
@@ -5185,7 +5190,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1509
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5195,7 +5200,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "border-bottom-right-radius"
             },
@@ -5203,7 +5208,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1509
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5213,7 +5218,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "border-bottom-left-radius"
             },
@@ -5221,7 +5226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1532
+                    "line": 1520
                 },
                 "props": {
                     "name": "border-radius",
@@ -5231,7 +5236,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-radius"
             },
@@ -5239,7 +5244,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1895
+                    "line": 1883
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5257,7 +5262,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1915
+                    "line": 1903
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5275,7 +5280,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1986
+                    "line": 1974
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5293,7 +5298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2058
+                    "line": 2046
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5311,7 +5316,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2104
+                    "line": 2092
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5329,7 +5334,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2221
+                    "line": 2209
                 },
                 "props": {
                     "name": "border-image",
@@ -5339,7 +5344,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "See individual properties",
-                    "animatable": "See individual properties"
+                    "animationType": "See individual properties"
                 },
                 "name": "border-image"
             },
@@ -5347,7 +5352,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2259
+                    "line": 2247
                 },
                 "props": {
                     "name": "box-shadow",
@@ -10670,7 +10675,7 @@
                     "appliesTo": "multicol containers",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; none or hidden",
+                    "computedValue": "absolute length, [=snapped as a border width=]; none or hidden",
                     "animationType": "by computed value type"
                 },
                 "name": "column-rule-width"
@@ -10905,7 +10910,7 @@
                     "appliesTo": "[=scroll containers=]",
                     "inherited": "no",
                     "computedValue": "specified value",
-                    "animatable": "no",
+                    "animatationType": "not animatable",
                     "canonicalOrder": "per grammar"
                 },
                 "name": "scroll-behavior"
@@ -11973,7 +11978,7 @@
                     "initial": "auto",
                     "inherited": "no",
                     "computedValue": "computed lengths for <basic-shape>, the absolute URI for <uri>, otherwise as specified",
-                    "animatable": "as defined for <basic-shape>, otherwise discrete"
+                    "animationType": "as defined for <basic-shape>, otherwise discrete"
                 },
                 "name": "shape-inside"
             },
@@ -12847,7 +12852,7 @@
                     "inherited": "no",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
-                    "animatable": "by computed value, recursing into fit-content()"
+                    "animationType": "by computed value, recursing into fit-content()"
                 },
                 "name": "min-width"
             },
@@ -12865,7 +12870,7 @@
                     "inherited": "no",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
-                    "animatable": "by computed value, recursing into fit-content()"
+                    "animationType": "by computed value, recursing into fit-content()"
                 },
                 "name": "min-height"
             },
@@ -12883,7 +12888,7 @@
                     "inherited": "no",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
-                    "animatable": "by computed value, recursing into fit-content()"
+                    "animationType": "by computed value, recursing into fit-content()"
                 },
                 "name": "max-width"
             },
@@ -12901,7 +12906,7 @@
                     "inherited": "no",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
-                    "animatable": "by computed value, recursing into fit-content()"
+                    "animationType": "by computed value, recursing into fit-content()"
                 },
                 "name": "max-height"
             },
@@ -15397,7 +15402,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; none.",
+                    "computedValue": "absolute length, [=snapped as a border width=]; none.",
                     "animationType": "by computed value"
                 },
                 "name": "outline-width"
@@ -15556,7 +15561,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "absolute length; none.",
+                    "computedValue": "absolute length, [=snapped as a border width=]; none.",
                     "animationType": "by computed value"
                 },
                 "name": "outline-width"
@@ -18859,7 +18864,7 @@
                     "inherited": "no",
                     "percentages": "relative to the specified [=named timeline range=]",
                     "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
-                    "animatable": "no"
+                    "animationType": "not animatable"
                 },
                 "name": "animation-range-start"
             },
@@ -18877,7 +18882,7 @@
                     "inherited": "no",
                     "percentages": "relative to the specified [=named timeline range=]",
                     "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
-                    "animatable": "no"
+                    "animationType": "not animatable"
                 },
                 "name": "animation-range-end"
             }
@@ -18969,7 +18974,7 @@
                 "dfnName": "<keyframes-name>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 226
+                    "line": 227
                 },
                 "value": "<custom-ident> | <string>"
             },
@@ -18979,7 +18984,7 @@
                 "dfnName": "<keyframe-block>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 228
+                    "line": 229
                 },
                 "value": "<keyframe-selector># { <declaration-list> }"
             },
@@ -18989,7 +18994,7 @@
                 "dfnName": "<keyframe-selector>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 230
+                    "line": 231
                 },
                 "value": "from | to | <percentage [0,100]>"
             },
@@ -18999,7 +19004,7 @@
                 "dfnName": "<single-animation-iteration-count>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 610
+                    "line": 611
                 },
                 "value": "infinite | <number [0,∞]>"
             },
@@ -19009,7 +19014,7 @@
                 "dfnName": "<single-animation-direction>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 652
+                    "line": 653
                 },
                 "value": "normal | reverse | alternate | alternate-reverse"
             },
@@ -19019,7 +19024,7 @@
                 "dfnName": "<single-animation-play-state>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 698
+                    "line": 699
                 },
                 "value": "running | paused"
             },
@@ -19029,7 +19034,7 @@
                 "dfnName": "<single-animation-fill-mode>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 780
+                    "line": 781
                 },
                 "value": "none | forwards | backwards | both"
             },
@@ -19039,7 +19044,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 830
+                    "line": 831
                 },
                 "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
             },
@@ -19049,7 +19054,7 @@
                 "dfnName": "<single-animation-composition>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 442
+                    "line": 446
                 },
                 "value": "replace | add | accumulate"
             },
@@ -19059,7 +19064,7 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 539
+                    "line": 543
                 },
                 "value": "auto | none | <custom-ident> | <scroll()> | <view()>"
             },
@@ -19069,7 +19074,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 589
+                    "line": 593
                 },
                 "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -19079,7 +19084,7 @@
                 "dfnName": "<<bg-image>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 219
+                    "line": 207
                 },
                 "value": "<image> | none"
             },
@@ -19089,7 +19094,7 @@
                 "dfnName": "<<repeat-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 288
+                    "line": 276
                 },
                 "value": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
             },
@@ -19099,7 +19104,7 @@
                 "dfnName": "<<attachment>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 430
+                    "line": 418
                 },
                 "value": "scroll | fixed | local"
             },
@@ -19109,7 +19114,7 @@
                 "dfnName": "<<bg-position>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 523
+                    "line": 511
                 },
                 "value": "[ left | center | right | top | bottom | <length-percentage> ]\n|\n  [ left | center | right | <length-percentage> ]\n  [ top | center | bottom | <length-percentage> ]\n|\n  [ center | [ left | right ] <length-percentage>? ] &&\n  [ center | [ top | bottom ] <length-percentage>? ]"
             },
@@ -19119,7 +19124,7 @@
                 "dfnName": "<<box>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 690
+                    "line": 678
                 },
                 "value": "border-box | padding-box | content-box"
             },
@@ -19129,7 +19134,7 @@
                 "dfnName": "<<bg-size>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 791
+                    "line": 779
                 },
                 "value": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
             },
@@ -19139,7 +19144,7 @@
                 "dfnName": "<<bg-layer>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 988
+                    "line": 976
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
             },
@@ -19149,7 +19154,7 @@
                 "dfnName": "<<final-bg-layer>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 990
+                    "line": 978
                 },
                 "value": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
             },
@@ -19159,7 +19164,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1294
+                    "line": 1282
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -19169,7 +19174,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1403
+                    "line": 1391
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -19179,7 +19184,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2286
+                    "line": 2274
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -22445,7 +22450,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3917
+                    "line": 3941
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22455,7 +22460,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3918
+                    "line": 3942
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -22465,7 +22470,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3919
+                    "line": 3943
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -22475,7 +22480,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3921
+                    "line": 3945
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -23309,7 +23314,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 883
+                    "line": 884
                 },
                 "content": "[Exposed=Window]\ninterface AnimationEvent : Event {\n  constructor(CSSOMString type, optional AnimationEventInit animationEventInitDict = {});\n  readonly attribute CSSOMString animationName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary AnimationEventInit : EventInit {\n  CSSOMString animationName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
             },
@@ -23317,7 +23322,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1050
+                    "line": 1051
                 },
                 "content": "partial interface CSSRule {\n      const unsigned short KEYFRAMES_RULE = 7;\n      const unsigned short KEYFRAME_RULE = 8;\n};"
             },
@@ -23325,7 +23330,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1065
+                    "line": 1066
                 },
                 "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\nattribute CSSOMString keyText;\n[SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -23333,7 +23338,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1118
+                    "line": 1119
                 },
                 "content": "[Exposed=Window]\ninterface CSSKeyframesRule : CSSRule {\n           attribute CSSOMString name;\n  readonly attribute CSSRuleList cssRules;\n  readonly attribute unsigned long length;\n  getter CSSKeyframeRule (unsigned long index);\n  undefined        appendRule(CSSOMString rule);\n  undefined        deleteRule(CSSOMString select);\n  CSSKeyframeRule? findRule(CSSOMString select);\n};"
             },
@@ -23341,7 +23346,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1320
+                    "line": 1321
                 },
                 "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler onanimationstart;\n  attribute EventHandler onanimationiteration;\n  attribute EventHandler onanimationend;\n  attribute EventHandler onanimationcancel;\n};"
             },
@@ -23349,7 +23354,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 752
+                    "line": 756
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
