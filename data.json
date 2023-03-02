@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-01T01:00:44.249Z",
-    "elapsedTime": 405,
+    "createdAt": "2023-03-02T00:59:32.017Z",
+    "elapsedTime": 480,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "39848ee6d118e8ccd5cdf1116d068de2180e7c47",
-            "commitShort": "39848ee6d1",
+            "commit": "5f7361a4d5803c3f4c34a46adb29bd538883418f",
+            "commitShort": "5f7361a4d5",
             "commitDate": null,
             "branch": "main"
         },
@@ -7725,7 +7725,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2684
+                    "line": 2685
                 },
                 "props": {
                     "name": "font-style",
@@ -7739,7 +7739,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2691
+                    "line": 2692
                 },
                 "props": {
                     "name": "font-weight",
@@ -7753,7 +7753,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2698
+                    "line": 2699
                 },
                 "props": {
                     "name": "font-stretch",
@@ -7767,7 +7767,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2867
+                    "line": 2868
                 },
                 "props": {
                     "name": "unicode-range",
@@ -7781,7 +7781,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3101
+                    "line": 3102
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -7795,7 +7795,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3113
+                    "line": 3114
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -7809,7 +7809,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3161
+                    "line": 3162
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -7823,7 +7823,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3329
+                    "line": 3330
                 },
                 "props": {
                     "name": "font-display",
@@ -7837,7 +7837,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3522
+                    "line": 3523
                 },
                 "props": {
                     "name": "font-display",
@@ -7851,7 +7851,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3542
+                    "line": 3543
                 },
                 "props": {
                     "name": "font-language-override",
@@ -7865,7 +7865,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3567
+                    "line": 3568
                 },
                 "props": {
                     "name": "ascent-override",
@@ -7879,7 +7879,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3579
+                    "line": 3580
                 },
                 "props": {
                     "name": "descent-override",
@@ -7893,7 +7893,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3591
+                    "line": 3592
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -7907,7 +7907,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4474
+                    "line": 4475
                 },
                 "props": {
                     "name": "font-kerning",
@@ -7925,7 +7925,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4569
+                    "line": 4570
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -7943,7 +7943,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4705
+                    "line": 4706
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -7961,7 +7961,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4930
+                    "line": 4931
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -7979,7 +7979,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5111
+                    "line": 5112
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -7997,7 +7997,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5270
+                    "line": 5271
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -8015,7 +8015,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5787
+                    "line": 5788
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -8033,7 +8033,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5921
+                    "line": 5922
                 },
                 "props": {
                     "name": "font-variant",
@@ -8051,7 +8051,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5987
+                    "line": 5988
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -8069,7 +8069,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6230
+                    "line": 6231
                 },
                 "props": {
                     "name": "font-language-override",
@@ -8087,7 +8087,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6569
+                    "line": 6570
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -8105,7 +8105,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6671
+                    "line": 6672
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -8123,7 +8123,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6854
+                    "line": 6855
                 },
                 "props": {
                     "name": "font-palette",
@@ -8141,7 +8141,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7182
+                    "line": 7183
                 },
                 "props": {
                     "name": "font-family",
@@ -8155,7 +8155,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7202
+                    "line": 7203
                 },
                 "props": {
                     "name": "base-palette",
@@ -8169,7 +8169,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7283
+                    "line": 7284
                 },
                 "props": {
                     "name": "override-colors",
@@ -8183,7 +8183,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7337
+                    "line": 7338
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -8219,7 +8219,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 422
+                    "line": 423
                 },
                 "props": {
                     "name": "font-size",
@@ -8233,7 +8233,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 448
+                    "line": 449
                 },
                 "props": {
                     "name": "size-adjust",
@@ -8247,7 +8247,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 485
+                    "line": 486
                 },
                 "props": {
                     "name": "ascent-override",
@@ -8261,7 +8261,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 492
+                    "line": 493
                 },
                 "props": {
                     "name": "descent-override",
@@ -8275,7 +8275,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 499
+                    "line": 500
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -8289,7 +8289,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 598
+                    "line": 599
                 },
                 "props": {
                     "name": "superscript-position-override",
@@ -8303,7 +8303,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 605
+                    "line": 606
                 },
                 "props": {
                     "name": "subscript-position-override",
@@ -8317,7 +8317,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 612
+                    "line": 613
                 },
                 "props": {
                     "name": "superscript-size-override",
@@ -8331,7 +8331,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-5",
-                    "line": 619
+                    "line": 620
                 },
                 "props": {
                     "name": "subscript-size-override",
@@ -10756,7 +10756,8 @@
                     "name": "spatial-navigation-contain",
                     "value": "auto | contain",
                     "initial": "auto",
-                    "inherited": "no"
+                    "inherited": "no",
+                    "animationType": "discrete"
                 },
                 "name": "spatial-navigation-contain"
             },
@@ -10764,14 +10765,15 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1448
+                    "line": 1449
                 },
                 "props": {
                     "name": "spatial-navigation-action",
                     "value": "auto | focus | scroll",
                     "initial": "auto",
                     "appliesTo": "scroll containers",
-                    "inherited": "no"
+                    "inherited": "no",
+                    "animationType": "discrete"
                 },
                 "name": "spatial-navigation-action"
             },
@@ -10779,14 +10781,15 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-nav-1",
-                    "line": 1562
+                    "line": 1564
                 },
                 "props": {
                     "name": "spatial-navigation-function",
                     "value": "normal | grid",
                     "initial": "normal",
                     "appliesTo": "spatial navigation containers",
-                    "inherited": "no"
+                    "inherited": "no",
+                    "animationType": "discrete"
                 },
                 "name": "spatial-navigation-function"
             },
@@ -11175,7 +11178,7 @@
                 },
                 "props": {
                     "name": "line-clamp",
-                    "value": "none | <integer> <'block-ellipsis'>?",
+                    "value": "none | <integer [1,∞]> <'block-ellipsis'>?",
                     "initial": "none",
                     "percentages": "N/A"
                 },
@@ -11189,7 +11192,7 @@
                 },
                 "props": {
                     "name": "-webkit-line-clamp",
-                    "value": "none | <integer>",
+                    "value": "none | <integer [1,∞]>",
                     "initial": "none",
                     "percentages": "N/A"
                 },
@@ -14059,7 +14062,7 @@
                 },
                 "props": {
                     "name": "white-space",
-                    "value": "normal | pre | nowrap | pre-wrap | break-spaces | pre-line",
+                    "value": "normal | pre | nowrap | pre-wrap | pre-line | <'white-space-collapse'> || <'text-wrap'> || <'text-space-trim'>",
                     "initial": "normal",
                     "appliesTo": "text",
                     "inherited": "yes",
@@ -14073,11 +14076,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2519
+                    "line": 2353
                 },
                 "props": {
-                    "name": "text-space-collapse",
-                    "value": "collapse | discard | preserve | preserve-breaks | preserve-spaces",
+                    "name": "white-space-collapse",
+                    "value": "collapse | discard | preserve | preserve-breaks | preserve-spaces | break-spaces",
                     "initial": "collapse",
                     "appliesTo": "text",
                     "inherited": "yes",
@@ -14085,13 +14088,13 @@
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
                 },
-                "name": "text-space-collapse"
+                "name": "white-space-collapse"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2588
+                    "line": 2575
                 },
                 "props": {
                     "name": "text-space-trim",
@@ -14109,7 +14112,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 3626
+                    "line": 3621
                 },
                 "props": {
                     "name": "tab-size",
@@ -14127,7 +14130,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4267
+                    "line": 4262
                 },
                 "props": {
                     "name": "word-break",
@@ -14145,7 +14148,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4695
+                    "line": 4690
                 },
                 "props": {
                     "name": "line-break",
@@ -14163,7 +14166,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5234
+                    "line": 5229
                 },
                 "props": {
                     "name": "hyphens",
@@ -14181,7 +14184,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5426
+                    "line": 5421
                 },
                 "props": {
                     "name": "hyphenate-character",
@@ -14199,7 +14202,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5482
+                    "line": 5477
                 },
                 "props": {
                     "name": "hyphenate-limit-zone",
@@ -14217,7 +14220,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5503
+                    "line": 5498
                 },
                 "props": {
                     "name": "hyphenate-limit-chars",
@@ -14235,7 +14238,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5552
+                    "line": 5547
                 },
                 "props": {
                     "name": "hyphenate-limit-lines",
@@ -14253,7 +14256,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5572
+                    "line": 5567
                 },
                 "props": {
                     "name": "hyphenate-limit-last",
@@ -14271,7 +14274,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5654
+                    "line": 5649
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14289,7 +14292,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5654
+                    "line": 5649
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14307,7 +14310,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5826
+                    "line": 5821
                 },
                 "props": {
                     "name": "text-wrap",
@@ -14325,7 +14328,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5954
+                    "line": 5949
                 },
                 "props": {
                     "name": "wrap-before",
@@ -14343,7 +14346,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5954
+                    "line": 5949
                 },
                 "props": {
                     "name": "wrap-after",
@@ -14361,7 +14364,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6018
+                    "line": 6013
                 },
                 "props": {
                     "name": "wrap-inside",
@@ -14379,7 +14382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6181
+                    "line": 6176
                 },
                 "props": {
                     "name": "text-align",
@@ -14396,7 +14399,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6661
+                    "line": 6656
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14414,7 +14417,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6692
+                    "line": 6687
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14432,7 +14435,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6757
+                    "line": 6752
                 },
                 "props": {
                     "name": "text-justify",
@@ -14450,7 +14453,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7215
+                    "line": 7210
                 },
                 "props": {
                     "name": "text-group-align",
@@ -14468,7 +14471,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7323
+                    "line": 7318
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14487,7 +14490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7512
+                    "line": 7507
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -14506,7 +14509,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7947
+                    "line": 7942
                 },
                 "props": {
                     "name": "line-padding",
@@ -14524,7 +14527,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8003
+                    "line": 7998
                 },
                 "props": {
                     "name": "text-autospace",
@@ -14542,7 +14545,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8110
+                    "line": 8105
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -14560,7 +14563,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8506
+                    "line": 8501
                 },
                 "props": {
                     "name": "text-spacing",
@@ -14578,7 +14581,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8709
+                    "line": 8704
                 },
                 "props": {
                     "name": "text-indent",
@@ -14597,7 +14600,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9063
+                    "line": 9058
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -18777,7 +18780,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 545
+                    "line": 565
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -18794,7 +18797,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 560
+                    "line": 580
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -18811,7 +18814,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 575
+                    "line": 595
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -18829,7 +18832,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 608
+                    "line": 628
                 },
                 "props": {
                     "name": "view-timeline",
@@ -18842,7 +18845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 761
+                    "line": 781
                 },
                 "props": {
                     "name": "animation-range",
@@ -18854,7 +18857,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 775
+                    "line": 795
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -18872,7 +18875,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 804
+                    "line": 824
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -20735,7 +20738,7 @@
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4605
+                    "line": 4606
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -20748,7 +20751,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4607
+                    "line": 4608
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -20761,7 +20764,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4609
+                    "line": 4610
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -20774,7 +20777,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4611
+                    "line": 4612
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -20787,7 +20790,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5149
+                    "line": 5150
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -20800,7 +20803,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5151
+                    "line": 5152
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -20813,7 +20816,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5153
+                    "line": 5154
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -20826,7 +20829,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5314
+                    "line": 5315
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -20839,7 +20842,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5818
+                    "line": 5819
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -20852,7 +20855,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5820
+                    "line": 5821
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -20865,7 +20868,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6101
+                    "line": 6102
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -22058,7 +22061,7 @@
                 "dfnName": "<<autospace>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8023
+                    "line": 8018
                 },
                 "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
             },
@@ -22068,7 +22071,7 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8130
+                    "line": 8125
                 },
                 "value": "space-all |  trim-auto | [ allow-end || space-first ]"
             },
@@ -23480,7 +23483,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7681
+                    "line": 7686
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -23488,7 +23491,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7694
+                    "line": 7699
                 },
                 "content": "partial interface CSSRule {\n  const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -23496,7 +23499,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7700
+                    "line": 7705
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n  attribute CSSOMString fontFamily;\n  readonly attribute CSSFontFeatureValuesMap annotation;\n  readonly attribute CSSFontFeatureValuesMap ornaments;\n  readonly attribute CSSFontFeatureValuesMap stylistic;\n  readonly attribute CSSFontFeatureValuesMap swash;\n  readonly attribute CSSFontFeatureValuesMap characterVariant;\n  readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n  maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n  undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -23504,7 +23507,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7757
+                    "line": 7762
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n  readonly attribute CSSOMString name;\n  readonly attribute CSSOMString fontFamily;\n  readonly attribute CSSOMString basePalette;\n  readonly attribute CSSOMString overrideColors;\n};"
             },
@@ -24024,7 +24027,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 443
+                    "line": 463
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24032,7 +24035,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 840
+                    "line": 860
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
