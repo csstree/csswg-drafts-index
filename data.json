@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-03T02:45:42.624Z",
-    "elapsedTime": 347,
+    "createdAt": "2023-03-04T00:53:43.351Z",
+    "elapsedTime": 449,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "869bd5232a9d4e23e6f567cd4b1800625b70bdfc",
-            "commitShort": "869bd5232a",
+            "commit": "69f4ac71c0ae0ae70e363c775c1f84e87d3935ff",
+            "commitShort": "69f4ac71c0",
             "commitDate": null,
             "branch": "main"
         },
@@ -4800,6 +4800,7 @@
                     "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "N/A",
                     "computedValue": "computed color",
                     "animationType": "by computed value"
@@ -4818,6 +4819,7 @@
                     "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "N/A",
                     "computedValue": "computed color",
                     "animationType": "by computed value"
@@ -4836,6 +4838,7 @@
                     "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "N/A",
                     "computedValue": "computed color",
                     "animationType": "by computed value"
@@ -4854,6 +4857,7 @@
                     "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "N/A",
                     "computedValue": "computed color",
                     "animationType": "by computed value"
@@ -4864,7 +4868,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1204
+                    "line": 1205
                 },
                 "props": {
                     "name": "border-color",
@@ -4882,7 +4886,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1238
+                    "line": 1239
                 },
                 "props": {
                     "name": "border-top-style",
@@ -4890,6 +4894,7 @@
                     "initial": "none",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -4900,7 +4905,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1238
+                    "line": 1239
                 },
                 "props": {
                     "name": "border-right-style",
@@ -4908,6 +4913,7 @@
                     "initial": "none",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -4918,7 +4924,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1238
+                    "line": 1239
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -4926,6 +4932,7 @@
                     "initial": "none",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -4936,7 +4943,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1238
+                    "line": 1239
                 },
                 "props": {
                     "name": "border-left-style",
@@ -4944,6 +4951,7 @@
                     "initial": "none",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -4954,7 +4962,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1249
+                    "line": 1251
                 },
                 "props": {
                     "name": "border-style",
@@ -4972,7 +4980,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1366
+                    "line": 1368
                 },
                 "props": {
                     "name": "border-top-width",
@@ -4980,6 +4988,7 @@
                     "initial": "medium",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "N/A",
                     "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
                     "animationType": "by computed value"
@@ -4990,7 +4999,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1366
+                    "line": 1368
                 },
                 "props": {
                     "name": "border-right-width",
@@ -4998,6 +5007,7 @@
                     "initial": "medium",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "N/A",
                     "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
                     "animationType": "by computed value"
@@ -5008,7 +5018,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1366
+                    "line": 1368
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5016,6 +5026,7 @@
                     "initial": "medium",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "N/A",
                     "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
                     "animationType": "by computed value"
@@ -5026,7 +5037,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1366
+                    "line": 1368
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5034,6 +5045,7 @@
                     "initial": "medium",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "N/A",
                     "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
                     "animationType": "by computed value"
@@ -5044,7 +5056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1380
                 },
                 "props": {
                     "name": "border-width",
@@ -5062,7 +5074,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1419
+                    "line": 1422
                 },
                 "props": {
                     "name": "border-top",
@@ -5080,7 +5092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1419
+                    "line": 1422
                 },
                 "props": {
                     "name": "border-right",
@@ -5098,7 +5110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1419
+                    "line": 1422
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5116,7 +5128,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1419
+                    "line": 1422
                 },
                 "props": {
                     "name": "border-left",
@@ -5134,7 +5146,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1434
+                    "line": 1437
                 },
                 "props": {
                     "name": "border",
@@ -5152,7 +5164,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1509
+                    "line": 1512
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5160,6 +5172,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animationType": "by computed value"
@@ -5170,7 +5183,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1509
+                    "line": 1512
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5178,6 +5191,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animationType": "by computed value"
@@ -5188,7 +5202,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1509
+                    "line": 1512
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5196,6 +5210,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animationType": "by computed value"
@@ -5206,7 +5221,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1509
+                    "line": 1512
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5214,6 +5229,7 @@
                     "initial": "0",
                     "appliesTo": "all elements (but see prose)",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "pair of computed <length-percentage> values",
                     "animationType": "by computed value"
@@ -5224,7 +5240,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1520
+                    "line": 1524
                 },
                 "props": {
                     "name": "border-radius",
@@ -5242,7 +5258,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1884
+                    "line": 1888
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5260,7 +5276,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1904
+                    "line": 1908
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5278,7 +5294,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1975
+                    "line": 1979
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5296,7 +5312,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2047
+                    "line": 2051
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5314,7 +5330,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2093
+                    "line": 2097
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5332,7 +5348,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2210
+                    "line": 2214
                 },
                 "props": {
                     "name": "border-image",
@@ -5350,7 +5366,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2248
+                    "line": 2252
                 },
                 "props": {
                     "name": "box-shadow",
@@ -5387,6 +5403,7 @@
                     "value": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
                     "initial": "0%",
                     "inherited": "no",
+                    "logicalPropertyGroup": "background-position",
                     "percentages": "refer to width of background positioning area minus width of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword",
                     "animationType": "repeatable list"
@@ -5397,13 +5414,14 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 103
+                    "line": 104
                 },
                 "props": {
                     "name": "background-position-y",
                     "value": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
                     "initial": "0%",
                     "inherited": "no",
+                    "logicalPropertyGroup": "background-position",
                     "percentages": "refer to height of background positioning area minus height of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword",
                     "animationType": "repeatable list"
@@ -5414,13 +5432,14 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 116
+                    "line": 118
                 },
                 "props": {
                     "name": "background-position-inline",
                     "value": "[ center | [ start | end ]? <length-percentage>? ]#",
                     "initial": "0%",
                     "inherited": "no",
+                    "logicalPropertyGroup": "background-position",
                     "percentages": "refer to inline-size of background positioning area minus inline-size of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword",
                     "animationType": "repeatable list"
@@ -5431,13 +5450,14 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 129
+                    "line": 132
                 },
                 "props": {
                     "name": "background-position-block",
                     "value": "[ center | [ start | end ]? <length-percentage>? ]#",
                     "initial": "0%",
                     "inherited": "no",
+                    "logicalPropertyGroup": "background-position",
                     "percentages": "refer to size of background positioning area minus size of background image",
                     "computedValue": "A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword",
                     "animationType": "repeatable list"
@@ -5448,7 +5468,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 145
+                    "line": 149
                 },
                 "props": {
                     "name": "background-clip",
@@ -5463,7 +5483,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 188
+                    "line": 192
                 },
                 "props": {
                     "name": "border-top-color",
@@ -5471,6 +5491,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
@@ -5481,7 +5502,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 188
+                    "line": 192
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5489,6 +5510,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
@@ -5499,7 +5521,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 188
+                    "line": 192
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5507,6 +5529,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
@@ -5517,7 +5540,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 188
+                    "line": 192
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5525,6 +5548,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
@@ -5535,7 +5559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 199
+                    "line": 204
                 },
                 "props": {
                     "name": "border-color",
@@ -5547,7 +5571,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-top-radius",
@@ -5565,7 +5589,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-right-radius",
@@ -5583,7 +5607,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-bottom-radius",
@@ -5601,7 +5625,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-left-radius",
@@ -5619,7 +5643,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-block-start-radius",
@@ -5637,7 +5661,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-block-end-radius",
@@ -5655,7 +5679,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-inline-start-radius",
@@ -5673,7 +5697,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 255
+                    "line": 260
                 },
                 "props": {
                     "name": "border-inline-end-radius",
@@ -5691,7 +5715,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 292
+                    "line": 297
                 },
                 "props": {
                     "name": "border-radius",
@@ -5707,7 +5731,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 306
+                    "line": 311
                 },
                 "props": {
                     "name": "corner-shape",
@@ -5723,7 +5747,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 369
+                    "line": 374
                 },
                 "props": {
                     "name": "corners",
@@ -5735,7 +5759,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 410
+                    "line": 415
                 },
                 "props": {
                     "name": "border-limit",
@@ -5752,7 +5776,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 472
                 },
                 "props": {
                     "name": "border-clip",
@@ -5769,7 +5793,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 472
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5786,7 +5810,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 472
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -5803,7 +5827,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 472
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -5820,7 +5844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 472
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -5845,6 +5869,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5863,6 +5888,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5881,6 +5907,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5899,6 +5926,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5909,7 +5937,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 322
+                    "line": 323
                 },
                 "props": {
                     "name": "margin",
@@ -5927,7 +5955,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 394
+                    "line": 395
                 },
                 "props": {
                     "name": "padding-top",
@@ -5935,6 +5963,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5945,7 +5974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 394
+                    "line": 395
                 },
                 "props": {
                     "name": "padding-right",
@@ -5953,6 +5982,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5963,7 +5993,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 394
+                    "line": 395
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -5971,6 +6001,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5981,7 +6012,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 394
+                    "line": 395
                 },
                 "props": {
                     "name": "padding-left",
@@ -5989,6 +6020,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -5999,7 +6031,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 416
+                    "line": 418
                 },
                 "props": {
                     "name": "padding",
@@ -6025,6 +6057,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6043,6 +6076,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6061,6 +6095,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6079,6 +6114,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except internal table elements, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6089,7 +6125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 306
+                    "line": 307
                 },
                 "props": {
                     "name": "margin",
@@ -6107,7 +6143,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 356
+                    "line": 357
                 },
                 "props": {
                     "name": "margin-trim",
@@ -6125,7 +6161,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 513
+                    "line": 514
                 },
                 "props": {
                     "name": "padding-top",
@@ -6133,6 +6169,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6143,7 +6180,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 513
+                    "line": 514
                 },
                 "props": {
                     "name": "padding-right",
@@ -6151,6 +6188,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6161,7 +6199,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 513
+                    "line": 514
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -6169,6 +6207,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6179,7 +6218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 513
+                    "line": 514
                 },
                 "props": {
                     "name": "padding-left",
@@ -6187,6 +6226,7 @@
                     "initial": "0",
                     "appliesTo": "all elements except: internal table elements other than table cells, [=ruby base containers=], and [=ruby annotation containers=]",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "refer to logical width of containing block",
                     "computedValue": "a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -6197,7 +6237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 532
+                    "line": 534
                 },
                 "props": {
                     "name": "padding",
@@ -7161,7 +7201,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "computedValue": "a pair of keywords representing the [=inner display type|inner=] and [=outer display type|outer=] display types plus optional list-item flag, or a <display-internal> or <display-box> keyword; see prose in a variety of specs for computation rules",
-                    "animationType": "not animatable"
+                    "animationType": "see [[#display-animation]]"
                 },
                 "name": "display"
             },
@@ -7169,7 +7209,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 874
+                    "line": 891
                 },
                 "props": {
                     "name": "display-or-not",
@@ -7186,7 +7226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1014
+                    "line": 1031
                 },
                 "props": {
                     "name": "order",
@@ -7200,7 +7240,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1149
+                    "line": 1166
                 },
                 "props": {
                     "name": "reading-order",
@@ -7217,7 +7257,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1192
+                    "line": 1209
                 },
                 "props": {
                     "name": "layout-order",
@@ -7234,7 +7274,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1314
+                    "line": 1331
                 },
                 "props": {
                     "name": "visibility",
@@ -9691,6 +9731,7 @@
                     "initial": "auto",
                     "appliesTo": "Same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'height', 'width'",
                     "animationType": "by computed value type"
@@ -9709,6 +9750,7 @@
                     "initial": "auto",
                     "appliesTo": "Same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'height', 'width'",
                     "animationType": "by computed value type"
@@ -9719,7 +9761,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 429
+                    "line": 430
                 },
                 "props": {
                     "name": "min-block-size",
@@ -9727,6 +9769,7 @@
                     "initial": "0",
                     "appliesTo": "same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "min-size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'min-height', 'min-width'",
                     "animationType": "by computed value type"
@@ -9737,7 +9780,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 429
+                    "line": 430
                 },
                 "props": {
                     "name": "min-inline-size",
@@ -9745,6 +9788,7 @@
                     "initial": "0",
                     "appliesTo": "same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "min-size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'min-height', 'min-width'",
                     "animationType": "by computed value type"
@@ -9755,7 +9799,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 444
+                    "line": 446
                 },
                 "props": {
                     "name": "max-block-size",
@@ -9763,6 +9807,7 @@
                     "initial": "none",
                     "appliesTo": "same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "max-size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'max-height', 'max-width'",
                     "animationType": "by computed value type"
@@ -9773,7 +9818,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 444
+                    "line": 446
                 },
                 "props": {
                     "name": "max-inline-size",
@@ -9781,6 +9826,7 @@
                     "initial": "none",
                     "appliesTo": "same as 'height' and 'width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "max-size",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as 'max-height', 'max-width'",
                     "animationType": "by computed value type"
@@ -9791,7 +9837,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 463
+                    "line": 466
                 },
                 "props": {
                     "name": "margin-block-start",
@@ -9799,6 +9845,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'margin-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'margin-*' properties",
                     "animationType": "by computed value type"
@@ -9809,7 +9856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 463
+                    "line": 466
                 },
                 "props": {
                     "name": "margin-block-end",
@@ -9817,6 +9864,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'margin-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'margin-*' properties",
                     "animationType": "by computed value type"
@@ -9827,7 +9875,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 463
+                    "line": 466
                 },
                 "props": {
                     "name": "margin-inline-start",
@@ -9835,6 +9883,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'margin-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'margin-*' properties",
                     "animationType": "by computed value type"
@@ -9845,7 +9894,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 463
+                    "line": 466
                 },
                 "props": {
                     "name": "margin-inline-end",
@@ -9853,6 +9902,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'margin-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "margin",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'margin-*' properties",
                     "animationType": "by computed value type"
@@ -9863,7 +9913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 477
+                    "line": 481
                 },
                 "props": {
                     "name": "margin-block",
@@ -9875,7 +9925,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 477
+                    "line": 481
                 },
                 "props": {
                     "name": "margin-inline",
@@ -9887,7 +9937,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 500
+                    "line": 504
                 },
                 "props": {
                     "name": "inset-block-start",
@@ -9895,6 +9945,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'top'/'right'/'bottom'/'left' properties",
                     "animationType": "by computed value type"
@@ -9905,7 +9956,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 500
+                    "line": 504
                 },
                 "props": {
                     "name": "inset-block-end",
@@ -9913,6 +9964,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'top'/'right'/'bottom'/'left' properties",
                     "animationType": "by computed value type"
@@ -9923,7 +9975,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 500
+                    "line": 504
                 },
                 "props": {
                     "name": "inset-inline-start",
@@ -9931,6 +9983,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'top'/'right'/'bottom'/'left' properties",
                     "animationType": "by computed value type"
@@ -9941,7 +9994,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 500
+                    "line": 504
                 },
                 "props": {
                     "name": "inset-inline-end",
@@ -9949,6 +10002,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'top'/'right'/'bottom'/'left' properties",
                     "animationType": "by computed value type"
@@ -9959,7 +10013,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 515
+                    "line": 520
                 },
                 "props": {
                     "name": "inset-block",
@@ -9971,7 +10025,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 515
+                    "line": 520
                 },
                 "props": {
                     "name": "inset-inline",
@@ -9983,7 +10037,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 529
+                    "line": 534
                 },
                 "props": {
                     "name": "inset",
@@ -9995,7 +10049,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 542
+                    "line": 547
                 },
                 "props": {
                     "name": "padding-block-start",
@@ -10003,6 +10057,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'padding-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'padding-*' properties",
                     "animationType": "by computed value type"
@@ -10013,7 +10068,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 542
+                    "line": 547
                 },
                 "props": {
                     "name": "padding-block-end",
@@ -10021,6 +10076,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'padding-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'padding-*' properties",
                     "animationType": "by computed value type"
@@ -10031,7 +10087,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 542
+                    "line": 547
                 },
                 "props": {
                     "name": "padding-inline-start",
@@ -10039,6 +10095,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'padding-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'padding-*' properties",
                     "animationType": "by computed value type"
@@ -10049,7 +10106,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 542
+                    "line": 547
                 },
                 "props": {
                     "name": "padding-inline-end",
@@ -10057,6 +10114,7 @@
                     "initial": "0",
                     "appliesTo": "Same as 'padding-top'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "padding",
                     "percentages": "As for the corresponding physical property",
                     "computedValue": "Same as corresponding 'padding-*' properties",
                     "animationType": "by computed value type"
@@ -10067,7 +10125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 557
+                    "line": 563
                 },
                 "props": {
                     "name": "padding-block",
@@ -10079,7 +10137,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 557
+                    "line": 563
                 },
                 "props": {
                     "name": "padding-inline",
@@ -10091,7 +10149,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 578
+                    "line": 584
                 },
                 "props": {
                     "name": "border-block-start-width",
@@ -10099,6 +10157,7 @@
                     "initial": "medium",
                     "appliesTo": "Same as 'border-top-width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-width' properties",
                     "animationType": "by computed value type"
@@ -10109,7 +10168,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 578
+                    "line": 584
                 },
                 "props": {
                     "name": "border-block-end-width",
@@ -10117,6 +10176,7 @@
                     "initial": "medium",
                     "appliesTo": "Same as 'border-top-width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-width' properties",
                     "animationType": "by computed value type"
@@ -10127,7 +10187,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 578
+                    "line": 584
                 },
                 "props": {
                     "name": "border-inline-start-width",
@@ -10135,6 +10195,7 @@
                     "initial": "medium",
                     "appliesTo": "Same as 'border-top-width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-width' properties",
                     "animationType": "by computed value type"
@@ -10145,7 +10206,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 578
+                    "line": 584
                 },
                 "props": {
                     "name": "border-inline-end-width",
@@ -10153,6 +10214,7 @@
                     "initial": "medium",
                     "appliesTo": "Same as 'border-top-width'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-width' properties",
                     "animationType": "by computed value type"
@@ -10163,7 +10225,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 593
+                    "line": 600
                 },
                 "props": {
                     "name": "border-block-width",
@@ -10175,7 +10237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 593
+                    "line": 600
                 },
                 "props": {
                     "name": "border-inline-width",
@@ -10187,7 +10249,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 612
+                    "line": 619
                 },
                 "props": {
                     "name": "border-block-start-style",
@@ -10195,6 +10257,7 @@
                     "initial": "none",
                     "appliesTo": "Same as 'border-top-style'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-style' properties",
                     "animationType": "discrete"
@@ -10205,7 +10268,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 612
+                    "line": 619
                 },
                 "props": {
                     "name": "border-block-end-style",
@@ -10213,6 +10276,7 @@
                     "initial": "none",
                     "appliesTo": "Same as 'border-top-style'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-style' properties",
                     "animationType": "discrete"
@@ -10223,7 +10287,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 612
+                    "line": 619
                 },
                 "props": {
                     "name": "border-inline-start-style",
@@ -10231,6 +10295,7 @@
                     "initial": "none",
                     "appliesTo": "Same as 'border-top-style'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-style' properties",
                     "animationType": "discrete"
@@ -10241,7 +10306,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 612
+                    "line": 619
                 },
                 "props": {
                     "name": "border-inline-end-style",
@@ -10249,6 +10314,7 @@
                     "initial": "none",
                     "appliesTo": "Same as 'border-top-style'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-style' properties",
                     "animationType": "discrete"
@@ -10259,7 +10325,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 627
+                    "line": 635
                 },
                 "props": {
                     "name": "border-block-style",
@@ -10271,7 +10337,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 627
+                    "line": 635
                 },
                 "props": {
                     "name": "border-inline-style",
@@ -10283,7 +10349,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 645
+                    "line": 653
                 },
                 "props": {
                     "name": "border-block-start-color",
@@ -10291,6 +10357,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "Same as 'border-top-color'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-color' properties",
                     "animationType": "by computed value type"
@@ -10301,7 +10368,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 645
+                    "line": 653
                 },
                 "props": {
                     "name": "border-block-end-color",
@@ -10309,6 +10376,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "Same as 'border-top-color'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-color' properties",
                     "animationType": "by computed value type"
@@ -10319,7 +10387,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 645
+                    "line": 653
                 },
                 "props": {
                     "name": "border-inline-start-color",
@@ -10327,6 +10395,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "Same as 'border-top-color'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-color' properties",
                     "animationType": "by computed value type"
@@ -10337,7 +10406,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 645
+                    "line": 653
                 },
                 "props": {
                     "name": "border-inline-end-color",
@@ -10345,6 +10414,7 @@
                     "initial": "currentcolor",
                     "appliesTo": "Same as 'border-top-color'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
                     "percentages": "n/a",
                     "computedValue": "Same as corresponding 'border-*-color' properties",
                     "animationType": "by computed value type"
@@ -10355,7 +10425,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 660
+                    "line": 669
                 },
                 "props": {
                     "name": "border-block-color",
@@ -10367,7 +10437,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 660
+                    "line": 669
                 },
                 "props": {
                     "name": "border-inline-color",
@@ -10379,7 +10449,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 678
+                    "line": 687
                 },
                 "props": {
                     "name": "border-block-start",
@@ -10391,7 +10461,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 678
+                    "line": 687
                 },
                 "props": {
                     "name": "border-block-end",
@@ -10403,7 +10473,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 678
+                    "line": 687
                 },
                 "props": {
                     "name": "border-inline-start",
@@ -10415,7 +10485,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 678
+                    "line": 687
                 },
                 "props": {
                     "name": "border-inline-end",
@@ -10427,7 +10497,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 687
+                    "line": 696
                 },
                 "props": {
                     "name": "border-block",
@@ -10439,7 +10509,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 687
+                    "line": 696
                 },
                 "props": {
                     "name": "border-inline",
@@ -10451,7 +10521,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 706
+                    "line": 715
                 },
                 "props": {
                     "name": "border-start-start-radius",
@@ -10459,6 +10529,7 @@
                     "initial": "Same as 'border-top-left-radius'",
                     "appliesTo": "Same as 'border-top-left-radius'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Same as 'border-top-left-radius'",
                     "computedValue": "Same as corresponding physical 'border-*-radius' properties",
                     "animationType": "by computed value type"
@@ -10469,7 +10540,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 706
+                    "line": 715
                 },
                 "props": {
                     "name": "border-start-end-radius",
@@ -10477,6 +10548,7 @@
                     "initial": "Same as 'border-top-left-radius'",
                     "appliesTo": "Same as 'border-top-left-radius'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Same as 'border-top-left-radius'",
                     "computedValue": "Same as corresponding physical 'border-*-radius' properties",
                     "animationType": "by computed value type"
@@ -10487,7 +10559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 706
+                    "line": 715
                 },
                 "props": {
                     "name": "border-end-start-radius",
@@ -10495,6 +10567,7 @@
                     "initial": "Same as 'border-top-left-radius'",
                     "appliesTo": "Same as 'border-top-left-radius'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Same as 'border-top-left-radius'",
                     "computedValue": "Same as corresponding physical 'border-*-radius' properties",
                     "animationType": "by computed value type"
@@ -10505,7 +10578,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-logical-1",
-                    "line": 706
+                    "line": 715
                 },
                 "props": {
                     "name": "border-end-end-radius",
@@ -10513,6 +10586,7 @@
                     "initial": "Same as 'border-top-left-radius'",
                     "appliesTo": "Same as 'border-top-left-radius'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
                     "percentages": "Same as 'border-top-left-radius'",
                     "computedValue": "Same as corresponding physical 'border-*-radius' properties",
                     "animationType": "by computed value type"
@@ -10803,6 +10877,7 @@
                     "initial": "visible",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
                     "computedValue": "usually specified value, but see text",
                     "animationType": "discrete"
@@ -10821,6 +10896,7 @@
                     "initial": "visible",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
                     "computedValue": "usually specified value, but see text",
                     "animationType": "discrete"
@@ -10839,6 +10915,7 @@
                     "initial": "visible",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
                     "computedValue": "usually specified value, but see text",
                     "animationType": "discrete"
@@ -10857,6 +10934,7 @@
                     "initial": "visible",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
                     "computedValue": "usually specified value, but see text",
                     "animationType": "discrete"
@@ -10867,7 +10945,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 455
+                    "line": 456
                 },
                 "props": {
                     "name": "overflow",
@@ -10885,7 +10963,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 604
+                    "line": 605
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -10902,7 +10980,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 688
+                    "line": 689
                 },
                 "props": {
                     "name": "scroll-behavior",
@@ -10920,7 +10998,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 812
+                    "line": 813
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -10937,7 +11015,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 973
+                    "line": 974
                 },
                 "props": {
                     "name": "text-overflow",
@@ -10962,6 +11040,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -10979,6 +11058,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -10996,6 +11076,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11013,6 +11094,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11030,6 +11112,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11047,6 +11130,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11064,6 +11148,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11081,6 +11166,7 @@
                     "value": "<visual-box> || <length [0,∞]>",
                     "initial": "0px",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overflow-clip-margin",
                     "appliesTo": "boxes to which 'overflow' applies",
                     "computedValue": "the computed <length> and a <visual-box> keyword",
                     "animationType": "per computed value if the <visual-box> values match; otherwise discrete"
@@ -11091,7 +11177,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 227
+                    "line": 228
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -11106,7 +11192,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 227
+                    "line": 228
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline",
@@ -11121,7 +11207,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 227
+                    "line": 228
                 },
                 "props": {
                     "name": "overflow-clip-margin-block",
@@ -11136,7 +11222,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 288
+                    "line": 289
                 },
                 "props": {
                     "name": "text-overflow",
@@ -11154,7 +11240,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 697
+                    "line": 698
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -11172,7 +11258,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 810
+                    "line": 811
                 },
                 "props": {
                     "name": "line-clamp",
@@ -11186,7 +11272,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 900
+                    "line": 901
                 },
                 "props": {
                     "name": "-webkit-line-clamp",
@@ -11200,7 +11286,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 907
+                    "line": 908
                 },
                 "props": {
                     "name": "continue",
@@ -11212,7 +11298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 946
+                    "line": 947
                 },
                 "props": {
                     "name": "max-lines",
@@ -11230,7 +11316,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1044
+                    "line": 1045
                 },
                 "props": {
                     "name": "continue",
@@ -11248,7 +11334,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1244
+                    "line": 1245
                 },
                 "props": {
                     "name": "continue",
@@ -11266,7 +11352,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1854
+                    "line": 1855
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -11306,6 +11392,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll container elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overscroll-behavior",
                     "percentages": "N/A",
                     "media": "visual",
                     "computedValue": "as specified",
@@ -11326,6 +11413,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll container elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overscroll-behavior",
                     "percentages": "N/A",
                     "media": "visual",
                     "computedValue": "as specified",
@@ -11338,7 +11426,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overscroll-1",
-                    "line": 274
+                    "line": 275
                 },
                 "props": {
                     "name": "overscroll-behavior-inline",
@@ -11346,6 +11434,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll container elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overscroll-behavior",
                     "percentages": "N/A",
                     "media": "visual",
                     "computedValue": "as specified",
@@ -11358,7 +11447,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overscroll-1",
-                    "line": 274
+                    "line": 275
                 },
                 "props": {
                     "name": "overscroll-behavior-block",
@@ -11366,6 +11455,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll container elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "overscroll-behavior",
                     "percentages": "N/A",
                     "media": "visual",
                     "computedValue": "as specified",
@@ -11572,6 +11662,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11590,6 +11681,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11608,6 +11700,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11626,6 +11719,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11644,6 +11738,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11662,6 +11757,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11680,6 +11776,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11698,6 +11795,7 @@
                     "initial": "auto",
                     "appliesTo": "positioned elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "inset",
                     "percentages": "refer to size of containing block; see prose",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -11708,7 +11806,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-3",
-                    "line": 539
+                    "line": 540
                 },
                 "props": {
                     "name": "inset-block",
@@ -11726,7 +11824,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-3",
-                    "line": 539
+                    "line": 540
                 },
                 "props": {
                     "name": "inset-inline",
@@ -11744,7 +11842,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-3",
-                    "line": 559
+                    "line": 560
                 },
                 "props": {
                     "name": "inset",
@@ -11838,7 +11936,6 @@
                     "initial": "none",
                     "appliesTo": "block-level boxes",
                     "inherited": "no",
-                    "animatable": "???",
                     "percentages": "N/A",
                     "computedValue": "specified keyword or absolute length",
                     "animationType": "by computed value type"
@@ -11849,7 +11946,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-rhythm-1",
-                    "line": 209
+                    "line": 208
                 },
                 "props": {
                     "name": "block-step-insert",
@@ -11857,7 +11954,6 @@
                     "initial": "margin",
                     "appliesTo": "block-level boxes",
                     "inherited": "no",
-                    "animatable": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -11868,7 +11964,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-rhythm-1",
-                    "line": 243
+                    "line": 241
                 },
                 "props": {
                     "name": "block-step-align",
@@ -11876,7 +11972,6 @@
                     "initial": "auto",
                     "appliesTo": "block-level boxes",
                     "inherited": "no",
-                    "animatable": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -11887,7 +11982,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-rhythm-1",
-                    "line": 294
+                    "line": 291
                 },
                 "props": {
                     "name": "block-step-round",
@@ -11895,7 +11990,6 @@
                     "initial": "up",
                     "appliesTo": "block-level boxes",
                     "inherited": "no",
-                    "animatable": "no",
                     "percentages": "N/A",
                     "computedValue": "specified keyword",
                     "animationType": "discrete"
@@ -11906,7 +12000,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-rhythm-1",
-                    "line": 337
+                    "line": 333
                 },
                 "props": {
                     "name": "block-step",
@@ -11921,7 +12015,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-rhythm-1",
-                    "line": 360
+                    "line": 356
                 },
                 "props": {
                     "name": "line-height-step",
@@ -11929,7 +12023,6 @@
                     "initial": "0px",
                     "appliesTo": "block containers",
                     "inherited": "yes",
-                    "animatable": "no",
                     "percentages": "N/A",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12222,6 +12315,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12240,6 +12334,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12258,6 +12353,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12276,6 +12372,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12286,7 +12383,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1129
+                    "line": 1130
                 },
                 "props": {
                     "name": "scroll-padding-inline-start",
@@ -12294,6 +12391,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12304,7 +12402,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1129
+                    "line": 1130
                 },
                 "props": {
                     "name": "scroll-padding-block-start",
@@ -12312,6 +12410,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12322,7 +12421,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1129
+                    "line": 1130
                 },
                 "props": {
                     "name": "scroll-padding-inline-end",
@@ -12330,6 +12429,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12340,7 +12440,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1129
+                    "line": 1130
                 },
                 "props": {
                     "name": "scroll-padding-block-end",
@@ -12348,6 +12448,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-padding",
                     "percentages": "relative to the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12358,7 +12459,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1145
+                    "line": 1147
                 },
                 "props": {
                     "name": "scroll-padding-block",
@@ -12375,7 +12476,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1145
+                    "line": 1147
                 },
                 "props": {
                     "name": "scroll-padding-inline",
@@ -12392,7 +12493,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1166
+                    "line": 1168
                 },
                 "props": {
                     "name": "scroll-margin-top",
@@ -12400,6 +12501,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12410,7 +12512,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1166
+                    "line": 1168
                 },
                 "props": {
                     "name": "scroll-margin-right",
@@ -12418,6 +12520,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12428,7 +12531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1166
+                    "line": 1168
                 },
                 "props": {
                     "name": "scroll-margin-bottom",
@@ -12436,6 +12539,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12446,7 +12550,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1166
+                    "line": 1168
                 },
                 "props": {
                     "name": "scroll-margin-left",
@@ -12454,6 +12558,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12464,7 +12569,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1184
+                    "line": 1187
                 },
                 "props": {
                     "name": "scroll-margin-block-start",
@@ -12472,6 +12577,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12482,7 +12588,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1184
+                    "line": 1187
                 },
                 "props": {
                     "name": "scroll-margin-inline-start",
@@ -12490,6 +12596,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12500,7 +12607,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1184
+                    "line": 1187
                 },
                 "props": {
                     "name": "scroll-margin-block-end",
@@ -12508,6 +12615,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12518,7 +12626,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1184
+                    "line": 1187
                 },
                 "props": {
                     "name": "scroll-margin-inline-end",
@@ -12526,6 +12634,7 @@
                     "initial": "0",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-margin",
                     "percentages": "n/a",
                     "computedValue": "absolute length",
                     "animationType": "by computed value type"
@@ -12536,7 +12645,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1199
+                    "line": 1203
                 },
                 "props": {
                     "name": "scroll-margin-block",
@@ -12553,7 +12662,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1199
+                    "line": 1203
                 },
                 "props": {
                     "name": "scroll-margin-inline",
@@ -12740,7 +12849,7 @@
                 },
                 "props": {
                     "name": "shape-margin",
-                    "value": "<length-percentage>",
+                    "value": "<length-percentage [0,∞]>",
                     "initial": "0",
                     "appliesTo": "floats",
                     "inherited": "no",
@@ -12815,6 +12924,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements except non-replaced inlines",
                     "inherited": "no",
+                    "logicalPropertyGroup": "size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value type, recursing into fit-content()"
@@ -12833,6 +12943,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements except non-replaced inlines",
                     "inherited": "no",
+                    "logicalPropertyGroup": "size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value type, recursing into fit-content()"
@@ -12843,7 +12954,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 388
+                    "line": 389
                 },
                 "props": {
                     "name": "min-width",
@@ -12851,6 +12962,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "min-size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value, recursing into fit-content()"
@@ -12861,7 +12973,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 388
+                    "line": 389
                 },
                 "props": {
                     "name": "min-height",
@@ -12869,6 +12981,7 @@
                     "initial": "auto",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "min-size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value, recursing into fit-content()"
@@ -12879,7 +12992,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 410
+                    "line": 412
                 },
                 "props": {
                     "name": "max-width",
@@ -12887,6 +13000,7 @@
                     "initial": "none",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "max-size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value, recursing into fit-content()"
@@ -12897,7 +13011,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 410
+                    "line": 412
                 },
                 "props": {
                     "name": "max-height",
@@ -12905,6 +13019,7 @@
                     "initial": "none",
                     "appliesTo": "all elements that accept 'width' or 'height'",
                     "inherited": "no",
+                    "logicalPropertyGroup": "max-size",
                     "percentages": "relative to width/height of containing block",
                     "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value, recursing into fit-content()"
@@ -12915,7 +13030,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 594
+                    "line": 597
                 },
                 "props": {
                     "name": "box-sizing",
@@ -12933,7 +13048,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-3",
-                    "line": 778
+                    "line": 781
                 },
                 "props": {
                     "name": "column-width",
@@ -13115,6 +13230,7 @@
                     "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
+                    "logicalPropertyGroup": "contain-intrinsic-size",
                     "appliesTo": "elements with [=size containment=]",
                     "computedValue": "as specified, with <length> values computed",
                     "percentages": "n/a",
@@ -13133,6 +13249,7 @@
                     "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
+                    "logicalPropertyGroup": "contain-intrinsic-size",
                     "appliesTo": "elements with [=size containment=]",
                     "computedValue": "as specified, with <length> values computed",
                     "percentages": "n/a",
@@ -13151,6 +13268,7 @@
                     "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
+                    "logicalPropertyGroup": "contain-intrinsic-size",
                     "appliesTo": "elements with [=size containment=]",
                     "computedValue": "as specified, with <length> values computed",
                     "percentages": "n/a",
@@ -13169,6 +13287,7 @@
                     "value": "none | <length> | auto <length>",
                     "initial": "none",
                     "inherited": "no",
+                    "logicalPropertyGroup": "contain-intrinsic-size",
                     "appliesTo": "elements with [=size containment=]",
                     "computedValue": "as specified, with <length> values computed",
                     "percentages": "n/a",
@@ -13180,7 +13299,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 596
+                    "line": 597
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
@@ -13192,7 +13311,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 749
+                    "line": 750
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -13282,7 +13401,7 @@
                 },
                 "props": {
                     "name": "pause-before",
-                    "value": "<time> | none | x-weak | weak | medium | strong | x-strong",
+                    "value": "<time [0s,∞]> | none | x-weak | weak | medium | strong | x-strong",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -13299,7 +13418,7 @@
                 },
                 "props": {
                     "name": "pause-after",
-                    "value": "<time> | none | x-weak | weak | medium | strong | x-strong",
+                    "value": "<time [0s,∞]> | none | x-weak | weak | medium | strong | x-strong",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -13333,7 +13452,7 @@
                 },
                 "props": {
                     "name": "rest-before",
-                    "value": "<time> | none | x-weak | weak | medium | strong | x-strong",
+                    "value": "<time [0s,∞]> | none | x-weak | weak | medium | strong | x-strong",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -13350,7 +13469,7 @@
                 },
                 "props": {
                     "name": "rest-after",
-                    "value": "<time> | none | x-weak | weak | medium | strong | x-strong",
+                    "value": "<time [0s,∞]> | none | x-weak | weak | medium | strong | x-strong",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -13452,7 +13571,7 @@
                 },
                 "props": {
                     "name": "voice-rate",
-                    "value": "[normal | x-slow | slow | medium | fast | x-fast] || <percentage>",
+                    "value": "[normal | x-slow | slow | medium | fast | x-fast] || <percentage [0,∞]>",
                     "initial": "normal",
                     "appliesTo": "all elements",
                     "inherited": "yes",
@@ -13520,7 +13639,7 @@
                 },
                 "props": {
                     "name": "voice-duration",
-                    "value": "auto | <time>",
+                    "value": "auto | <time [0s,∞]>",
                     "initial": "auto",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -14529,7 +14648,7 @@
                 },
                 "props": {
                     "name": "text-autospace",
-                    "value": "normal | <autospace>",
+                    "value": "normal | <autospace> | auto",
                     "initial": "normal",
                     "appliesTo": "text",
                     "inherited": "yes",
@@ -14543,7 +14662,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8105
+                    "line": 8112
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -14561,7 +14680,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8501
+                    "line": 8508
                 },
                 "props": {
                     "name": "text-spacing",
@@ -14579,7 +14698,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8704
+                    "line": 8711
                 },
                 "props": {
                     "name": "text-indent",
@@ -14598,7 +14717,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9058
+                    "line": 9065
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -19165,7 +19284,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1282
+                    "line": 1284
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -19175,7 +19294,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1391
+                    "line": 1394
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -19185,7 +19304,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2275
+                    "line": 2279
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -19205,7 +19324,7 @@
                 "dfnName": "<bg-clip>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 158
+                    "line": 162
                 },
                 "value": "<box> | border | text"
             },
@@ -20067,6 +20186,16 @@
                     "line": 80
                 },
                 "value": "font-format( <font-format> )"
+            },
+            {
+                "type": "prod",
+                "name": "font-format",
+                "dfnName": "<font-format>",
+                "source": {
+                    "spec": "css-conditional-5",
+                    "line": 81
+                },
+                "value": "[ collection | embedded-opentype | opentype\n| svg | truetype | woff | woff2 ]"
             },
             {
                 "type": "prod",
@@ -20969,7 +21098,7 @@
                     "spec": "css-grid-1",
                     "line": 1512
                 },
-                "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
+                "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
             },
             {
                 "type": "prod",
@@ -20989,7 +21118,7 @@
                     "spec": "css-grid-1",
                     "line": 1514
                 },
-                "value": "<length-percentage> | <flex> | min-content | max-content | auto"
+                "value": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
             },
             {
                 "type": "prod",
@@ -20999,7 +21128,7 @@
                     "spec": "css-grid-1",
                     "line": 1515
                 },
-                "value": "<length-percentage> | min-content | max-content | auto"
+                "value": "<length-percentage [0,∞]> | min-content | max-content | auto"
             },
             {
                 "type": "prod",
@@ -21009,7 +21138,7 @@
                     "spec": "css-grid-1",
                     "line": 1516
                 },
-                "value": "<length-percentage>"
+                "value": "<length-percentage [0,∞]>"
             },
             {
                 "type": "prod",
@@ -21112,7 +21241,7 @@
                     "spec": "css-grid-2",
                     "line": 1596
                 },
-                "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
+                "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
             },
             {
                 "type": "prod",
@@ -21132,7 +21261,7 @@
                     "spec": "css-grid-2",
                     "line": 1598
                 },
-                "value": "<length-percentage> | <flex> | min-content | max-content | auto"
+                "value": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
             },
             {
                 "type": "prod",
@@ -21142,7 +21271,7 @@
                     "spec": "css-grid-2",
                     "line": 1599
                 },
-                "value": "<length-percentage> | min-content | max-content | auto"
+                "value": "<length-percentage [0,∞]> | min-content | max-content | auto"
             },
             {
                 "type": "prod",
@@ -21152,7 +21281,7 @@
                     "spec": "css-grid-2",
                     "line": 1600
                 },
-                "value": "<length-percentage>"
+                "value": "<length-percentage [0,∞]>"
             },
             {
                 "type": "prod",
@@ -22049,7 +22178,7 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8125
+                    "line": 8132
                 },
                 "value": "space-all |  trim-auto | [ allow-end || space-first ]"
             },
@@ -23629,7 +23758,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 409
+                    "line": 430
                 },
                 "content": "[Exposed=Window]\ninterface CSSTransition : Animation {\n  readonly attribute CSSOMString transitionProperty;\n};"
             },
