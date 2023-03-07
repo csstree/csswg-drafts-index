@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-06T00:55:51.556Z",
-    "elapsedTime": 367,
+    "createdAt": "2023-03-07T01:03:11.299Z",
+    "elapsedTime": 454,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4af564887313007716ea407054b88a5ca73a0935",
-            "commitShort": "4af5648873",
+            "commit": "273be6e79eb051b8cce8b4f9a40c3d8b26b0d3f4",
+            "commitShort": "273be6e79e",
             "commitDate": null,
             "branch": "main"
         },
@@ -18848,7 +18848,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 289
+                    "line": 293
                 },
                 "props": {
                     "name": "scroll-timeline-name",
@@ -18865,7 +18865,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 305
+                    "line": 309
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -18882,7 +18882,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 323
+                    "line": 327
                 },
                 "props": {
                     "name": "scroll-timeline",
@@ -18897,7 +18897,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 565
+                    "line": 578
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -18914,7 +18914,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 580
+                    "line": 593
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -18931,7 +18931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 595
+                    "line": 608
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -18949,7 +18949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 628
+                    "line": 641
                 },
                 "props": {
                     "name": "view-timeline",
@@ -18962,7 +18962,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 781
+                    "line": 794
                 },
                 "props": {
                     "name": "animation-range",
@@ -18974,7 +18974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 795
+                    "line": 810
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -18992,7 +18992,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 824
+                    "line": 839
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -23050,7 +23050,7 @@
                 "dfnName": "<<axis>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 146
+                    "line": 150
                 },
                 "attrs": {
                     "noexport": true
@@ -23063,7 +23063,7 @@
                 "dfnName": "<<scroller>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 147
+                    "line": 151
                 },
                 "attrs": {
                     "noexport": true
@@ -24126,7 +24126,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 188
+                    "line": 192
                 },
                 "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
@@ -24134,7 +24134,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 463
+                    "line": 476
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24142,7 +24142,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 860
+                    "line": 875
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
