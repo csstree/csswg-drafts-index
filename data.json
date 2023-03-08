@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-07T01:03:11.299Z",
-    "elapsedTime": 454,
+    "createdAt": "2023-03-08T00:58:26.975Z",
+    "elapsedTime": 478,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "273be6e79eb051b8cce8b4f9a40c3d8b26b0d3f4",
-            "commitShort": "273be6e79e",
+            "commit": "041590fac1c437cf69c13955e4d95ac31912f57b",
+            "commitShort": "041590fac1",
             "commitDate": null,
             "branch": "main"
         },
@@ -3478,7 +3478,7 @@
                     "level": "1",
                     "status": "WD",
                     "group": "csswg",
-                    "date": "2022-11-24",
+                    "date": "2023-03-07",
                     "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
@@ -18848,7 +18848,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 293
+                    "line": 297
                 },
                 "props": {
                     "name": "scroll-timeline-name",
@@ -18865,7 +18865,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 309
+                    "line": 313
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -18882,7 +18882,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 327
+                    "line": 331
                 },
                 "props": {
                     "name": "scroll-timeline",
@@ -18897,7 +18897,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 578
+                    "line": 587
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -18914,7 +18914,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 593
+                    "line": 602
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -18931,7 +18931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 608
+                    "line": 617
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -18949,7 +18949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 641
+                    "line": 650
                 },
                 "props": {
                     "name": "view-timeline",
@@ -18962,7 +18962,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 794
+                    "line": 803
                 },
                 "props": {
                     "name": "animation-range",
@@ -18974,7 +18974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 810
+                    "line": 819
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -18992,7 +18992,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 839
+                    "line": 848
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -22546,11 +22546,41 @@
             },
             {
                 "type": "prod",
+                "name": "crossorigin-modifier",
+                "dfnName": "<<crossorigin-modifier>>",
+                "source": {
+                    "spec": "css-values-4",
+                    "line": 1122
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
+                "name": "integrity-modifier",
+                "dfnName": "<<integrity-modifier>>",
+                "source": {
+                    "spec": "css-values-4",
+                    "line": 1129
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
+                "name": "referrerpolicy-modifier",
+                "dfnName": "<<referrerpolicy-modifier>>",
+                "source": {
+                    "spec": "css-values-4",
+                    "line": 1133
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
                 "name": "calc-sum",
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3941
+                    "line": 3974
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22560,7 +22590,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3942
+                    "line": 3975
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -22570,7 +22600,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3943
+                    "line": 3976
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -22580,7 +22610,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3945
+                    "line": 3978
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -23050,7 +23080,7 @@
                 "dfnName": "<<axis>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 150
+                    "line": 149
                 },
                 "attrs": {
                     "noexport": true
@@ -23063,7 +23093,7 @@
                 "dfnName": "<<scroller>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 151
+                    "line": 150
                 },
                 "attrs": {
                     "noexport": true
@@ -23766,7 +23796,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 885
+                    "line": 886
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -23774,7 +23804,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 935
+                    "line": 936
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -24126,7 +24156,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 192
+                    "line": 196
                 },
                 "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
@@ -24134,7 +24164,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 476
+                    "line": 485
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24142,7 +24172,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 875
+                    "line": 884
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
