@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-08T00:58:26.975Z",
-    "elapsedTime": 478,
+    "createdAt": "2023-03-09T00:58:25.081Z",
+    "elapsedTime": 379,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "041590fac1c437cf69c13955e4d95ac31912f57b",
-            "commitShort": "041590fac1",
+            "commit": "d0fba52809ff4530ccfa37f2f577c2581484d0a2",
+            "commitShort": "d0fba52809",
             "commitDate": null,
             "branch": "main"
         },
@@ -19261,22 +19261,22 @@
             {
                 "type": "prod",
                 "name": "bg-layer",
-                "dfnName": "<<bg-layer>>",
+                "dfnName": "<bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 976
+                    "line": 977
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
             },
             {
                 "type": "prod",
                 "name": "final-bg-layer",
-                "dfnName": "<<final-bg-layer>>",
+                "dfnName": "<final-bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
                     "line": 978
                 },
-                "value": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
+                "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box> || <'background-color'>"
             },
             {
                 "type": "prod",
