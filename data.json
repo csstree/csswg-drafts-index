@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-10T00:57:08.679Z",
-    "elapsedTime": 352,
+    "createdAt": "2023-03-11T00:49:13.078Z",
+    "elapsedTime": 468,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d0fba52809ff4530ccfa37f2f577c2581484d0a2",
-            "commitShort": "d0fba52809",
+            "commit": "b60ccdbb69342ab885d039b02564683cc8ad610d",
+            "commitShort": "b60ccdbb69",
             "commitDate": null,
             "branch": "main"
         },
@@ -5856,6 +5856,114 @@
                     "animationType": "by computed value"
                 },
                 "name": "border-clip-left"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 746
+                },
+                "props": {
+                    "name": "box-shadow-color",
+                    "value": "<color>#",
+                    "initial": "currentcolor",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a computed color",
+                    "animatable": "by computed value"
+                },
+                "name": "box-shadow-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 767
+                },
+                "props": {
+                    "name": "box-shadow-offset",
+                    "value": "none | <length>{2}#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "either 'none' or a list,\neach item a pair of offsets (horizontal and vertical) from the element‘s box",
+                    "animatable": "by computed value"
+                },
+                "name": "box-shadow-offset"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 803
+                },
+                "props": {
+                    "name": "box-shadow-blur",
+                    "value": "<length [0,∞]>#",
+                    "initial": "0",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a <length>",
+                    "animatable": "by computed value"
+                },
+                "name": "box-shadow-blur"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 829
+                },
+                "props": {
+                    "name": "box-shadow-spread",
+                    "value": "<length>#",
+                    "initial": "0",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item a <length>",
+                    "animatable": "by computed value"
+                },
+                "name": "box-shadow-spread"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 857
+                },
+                "props": {
+                    "name": "box-shadow-position",
+                    "value": "[ outset | inset ]#",
+                    "initial": "outset",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "list, each item one of the keywords",
+                    "animatable": "by computed value"
+                },
+                "name": "box-shadow-position"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 891
+                },
+                "props": {
+                    "name": "box-shadow",
+                    "value": "<spread-shadow>#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color and optionally also a inset keyword",
+                    "animatable": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the shorter list is otherwise compatible with the longer one"
+                },
+                "name": "box-shadow"
             },
             {
                 "type": "prop",
@@ -18848,7 +18956,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 297
+                    "line": 306
                 },
                 "props": {
                     "name": "scroll-timeline-name",
@@ -18865,7 +18973,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 313
+                    "line": 322
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -18882,7 +18990,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 331
+                    "line": 340
                 },
                 "props": {
                     "name": "scroll-timeline",
@@ -18897,7 +19005,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 587
+                    "line": 599
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -18914,7 +19022,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 602
+                    "line": 614
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -18931,7 +19039,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 617
+                    "line": 629
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -18949,7 +19057,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 650
+                    "line": 662
                 },
                 "props": {
                     "name": "view-timeline",
@@ -18962,7 +19070,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 803
+                    "line": 815
                 },
                 "props": {
                     "name": "animation-range",
@@ -18974,7 +19082,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 819
+                    "line": 831
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -18992,7 +19100,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 848
+                    "line": 860
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19327,6 +19435,16 @@
                     "line": 162
                 },
                 "value": "<box> | border | text"
+            },
+            {
+                "type": "prod",
+                "name": "spread-shadow",
+                "dfnName": "<<spread-shadow>>",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 918
+                },
+                "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
             {
                 "type": "prod",
@@ -23098,7 +23216,7 @@
                 "attrs": {
                     "noexport": true
                 },
-                "value": "root | nearest"
+                "value": "root | nearest | self"
             },
             {
                 "type": "prod",
@@ -24156,7 +24274,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 196
+                    "line": 202
                 },
                 "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
@@ -24164,7 +24282,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 485
+                    "line": 494
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24172,7 +24290,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 884
+                    "line": 896
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
