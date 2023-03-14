@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-13T00:53:30.327Z",
-    "elapsedTime": 388,
+    "createdAt": "2023-03-14T00:46:27.971Z",
+    "elapsedTime": 352,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "43b12e47663cff4cead0d187086dcf9ea8f33626",
-            "commitShort": "43b12e4766",
+            "commit": "6560d6a783d41a72a847507acaf4ab5224804da2",
+            "commitShort": "6560d6a783",
             "commitDate": null,
             "branch": "main"
         },
@@ -3131,6 +3131,7 @@
                         "Bugzilla bugs for this level https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;product=CSS&amp;component=Transitions&amp;resolution=---&amp;status_whiteboard=defer%20to%20level%202&amp;status_whiteboard_type=notregexp",
                         "Bugzilla bugs for all levels https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;product=CSS&amp;component=Transitions&amp;resolution=---"
                     ],
+                    "testSuite": "https://wpt.fyi/results/css/css-transitions",
                     "abstract": "CSS Transitions allows property changes in CSS values to occur smoothly over a specified duration.",
                     "statusText": "<strong>This document</strong> is expected to be relatively close to last call.  While some issues raised have yet to be addressed, new features are extremely unlikely to be considered for this level.",
                     "ignoredVars": [
@@ -3837,8 +3838,7 @@
                         "https://drafts.csswg.org/mediaqueries/",
                         "http://drafts.csswg.org/mediaqueries/",
                         "http://www.w3.org/TR/mediaqueries-4/"
-                    ],
-                    "atRisk": "The '@media/update' media feature"
+                    ]
                 }
             },
             {
@@ -15519,7 +15519,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 241
+                    "line": 242
                 },
                 "props": {
                     "name": "transition-property",
@@ -15537,7 +15537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 316
+                    "line": 317
                 },
                 "props": {
                     "name": "transition-duration",
@@ -15555,7 +15555,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 347
+                    "line": 348
                 },
                 "props": {
                     "name": "transition-timing-function",
@@ -15573,7 +15573,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 368
+                    "line": 369
                 },
                 "props": {
                     "name": "transition-delay",
@@ -15591,7 +15591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 385
+                    "line": 386
                 },
                 "props": {
                     "name": "transition",
@@ -16174,7 +16174,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 464
+                    "line": 468
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -18163,7 +18163,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1084
+                    "line": 1083
                 },
                 "props": {
                     "name": "width",
@@ -18177,7 +18177,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1128
+                    "line": 1127
                 },
                 "props": {
                     "name": "height",
@@ -18191,7 +18191,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1146
+                    "line": 1145
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -18205,7 +18205,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1160
+                    "line": 1159
                 },
                 "props": {
                     "name": "orientation",
@@ -18219,7 +18219,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1199
+                    "line": 1198
                 },
                 "props": {
                     "name": "resolution",
@@ -18233,7 +18233,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1264
+                    "line": 1263
                 },
                 "props": {
                     "name": "scan",
@@ -18247,7 +18247,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1307
+                    "line": 1306
                 },
                 "props": {
                     "name": "grid",
@@ -18261,7 +18261,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1347
+                    "line": 1346
                 },
                 "props": {
                     "name": "update",
@@ -18275,7 +18275,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1395
+                    "line": 1394
                 },
                 "props": {
                     "name": "overflow-block",
@@ -18289,7 +18289,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1445
+                    "line": 1444
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -18303,7 +18303,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1488
+                    "line": 1487
                 },
                 "props": {
                     "name": "color",
@@ -18317,7 +18317,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1537
+                    "line": 1536
                 },
                 "props": {
                     "name": "color-index",
@@ -18331,7 +18331,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1571
+                    "line": 1570
                 },
                 "props": {
                     "name": "monochrome",
@@ -18345,7 +18345,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1609
+                    "line": 1608
                 },
                 "props": {
                     "name": "color-gamut",
@@ -18359,7 +18359,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1779
+                    "line": 1778
                 },
                 "props": {
                     "name": "pointer",
@@ -18373,7 +18373,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1846
+                    "line": 1845
                 },
                 "props": {
                     "name": "hover",
@@ -18387,7 +18387,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1912
+                    "line": 1911
                 },
                 "props": {
                     "name": "any-pointer",
@@ -18401,7 +18401,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1919
+                    "line": 1918
                 },
                 "props": {
                     "name": "any-hover",
@@ -18415,7 +18415,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 2090
+                    "line": 2089
                 },
                 "props": {
                     "name": "device-width",
@@ -18429,7 +18429,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 2119
+                    "line": 2118
                 },
                 "props": {
                     "name": "device-height",
@@ -18443,7 +18443,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 2144
+                    "line": 2143
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -19089,7 +19089,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 880
+                    "line": 884
                 },
                 "props": {
                     "name": "animation-range",
@@ -19101,7 +19101,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 898
+                    "line": 902
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19119,7 +19119,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 937
+                    "line": 941
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19293,7 +19293,7 @@
                     "spec": "css-animations-1",
                     "line": 831
                 },
-                "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+                "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
             },
             {
                 "type": "prod",
@@ -19323,7 +19323,7 @@
                     "spec": "css-animations-2",
                     "line": 641
                 },
-                "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
+                "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
             {
                 "type": "prod",
@@ -22575,7 +22575,7 @@
                 "dfnName": "<single-transition-property>",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 253
+                    "line": 254
                 },
                 "attrs": {
                     "type id": "single-transition-property"
@@ -22588,7 +22588,7 @@
                 "dfnName": "<single-transition>",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 395
+                    "line": 396
                 },
                 "attrs": {
                     "type id": "single-transition"
@@ -22797,7 +22797,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 549
+                    "line": 557
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -22817,7 +22817,7 @@
                 "dfnName": "<media-query>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 849
+                    "line": 848
                 },
                 "value": "<media-condition>\n| [ not | only ]? <media-type> [ and <media-condition-without-or> ]?"
             },
@@ -22827,7 +22827,7 @@
                 "dfnName": "<media-type>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 851
+                    "line": 850
                 },
                 "value": "<ident>"
             },
@@ -22837,7 +22837,7 @@
                 "dfnName": "<media-condition>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 853
+                    "line": 852
                 },
                 "value": "<media-not> | <media-in-parens> [ <media-and>* | <media-or>* ]"
             },
@@ -22847,7 +22847,7 @@
                 "dfnName": "<media-condition-without-or>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 854
+                    "line": 853
                 },
                 "value": "<media-not> | <media-in-parens> <media-and>*"
             },
@@ -22857,7 +22857,7 @@
                 "dfnName": "<media-not>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 855
+                    "line": 854
                 },
                 "value": "not <media-in-parens>"
             },
@@ -22867,7 +22867,7 @@
                 "dfnName": "<media-and>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 856
+                    "line": 855
                 },
                 "value": "and <media-in-parens>"
             },
@@ -22877,7 +22877,7 @@
                 "dfnName": "<media-or>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 857
+                    "line": 856
                 },
                 "value": "or <media-in-parens>"
             },
@@ -22887,7 +22887,7 @@
                 "dfnName": "<media-in-parens>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 858
+                    "line": 857
                 },
                 "value": "( <media-condition> ) | ( <media-feature> ) | <general-enclosed>"
             },
@@ -22897,7 +22897,7 @@
                 "dfnName": "<media-feature>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 860
+                    "line": 859
                 },
                 "value": "[ <mf-plain> | <mf-boolean> | <mf-range> ]"
             },
@@ -22907,7 +22907,7 @@
                 "dfnName": "<mf-plain>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 861
+                    "line": 860
                 },
                 "value": "<mf-name> : <mf-value>"
             },
@@ -22917,7 +22917,7 @@
                 "dfnName": "<mf-boolean>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 862
+                    "line": 861
                 },
                 "value": "<mf-name>"
             },
@@ -22927,7 +22927,7 @@
                 "dfnName": "<mf-range>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 863
+                    "line": 862
                 },
                 "value": "<mf-name> <mf-comparison> <mf-value>\n| <mf-value> <mf-comparison> <mf-name>\n| <mf-value> <mf-lt> <mf-name> <mf-lt> <mf-value>\n| <mf-value> <mf-gt> <mf-name> <mf-gt> <mf-value>"
             },
@@ -22937,7 +22937,7 @@
                 "dfnName": "<mf-name>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 867
+                    "line": 866
                 },
                 "value": "<ident>"
             },
@@ -22947,7 +22947,7 @@
                 "dfnName": "<mf-value>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 868
+                    "line": 867
                 },
                 "value": "<number> | <dimension> | <ident> | <ratio>"
             },
@@ -22957,7 +22957,7 @@
                 "dfnName": "<mf-lt>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 869
+                    "line": 868
                 },
                 "value": "'<' '='?"
             },
@@ -22967,7 +22967,7 @@
                 "dfnName": "<mf-gt>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 870
+                    "line": 869
                 },
                 "value": "'>' '='?"
             },
@@ -22977,7 +22977,7 @@
                 "dfnName": "<mf-eq>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 871
+                    "line": 870
                 },
                 "value": "'='"
             },
@@ -22987,7 +22987,7 @@
                 "dfnName": "<mf-comparison>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 872
+                    "line": 871
                 },
                 "value": "<mf-lt> | <mf-gt> | <mf-eq>"
             },
@@ -22997,7 +22997,7 @@
                 "dfnName": "<general-enclosed>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 874
+                    "line": 873
                 },
                 "value": "[ <function-token> <any-value>? ) ] | [ ( <any-value>? ) ]"
             },
@@ -23007,7 +23007,7 @@
                 "dfnName": "<mq-boolean>",
                 "source": {
                     "spec": "mediaqueries-4",
-                    "line": 1315
+                    "line": 1314
                 },
                 "value": "<integer [0,1]>"
             },
@@ -23909,7 +23909,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 1099
+                    "line": 1100
                 },
                 "content": "[Exposed=Window]\ninterface TransitionEvent : Event {\n  constructor(CSSOMString type, optional TransitionEventInit transitionEventInitDict = {});\n  readonly attribute CSSOMString propertyName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary TransitionEventInit : EventInit {\n  CSSOMString propertyName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
             },
@@ -23917,7 +23917,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-1",
-                    "line": 1254
+                    "line": 1255
                 },
                 "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler ontransitionrun;\n  attribute EventHandler ontransitionstart;\n  attribute EventHandler ontransitionend;\n  attribute EventHandler ontransitioncancel;\n};"
             },
@@ -23933,7 +23933,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 886
+                    "line": 894
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -23941,7 +23941,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 936
+                    "line": 944
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -24309,7 +24309,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 979
+                    "line": 983
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
