@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-17T00:53:59.288Z",
-    "elapsedTime": 391,
+    "createdAt": "2023-03-18T00:52:54.042Z",
+    "elapsedTime": 449,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d971aaf5f1519170bf703f80bfde7f61505e7a92",
-            "commitShort": "d971aaf5f1",
+            "commit": "f4f64373828cd183901a7961af0955f501b48638",
+            "commitShort": "f4f6437382",
             "commitDate": null,
             "branch": "main"
         },
@@ -4676,7 +4676,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "computed <image>",
+                    "computedValue": "list, each item either an <image> or the keyword none",
                     "animationType": "discrete"
                 },
                 "name": "background-image"
@@ -10996,13 +10996,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 429
+                    "line": 425
                 },
                 "props": {
                     "name": "overflow-x",
                     "value": "visible | hidden | clip | scroll | auto",
                     "initial": "visible",
-                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
+                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
@@ -11015,13 +11015,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 429
+                    "line": 425
                 },
                 "props": {
                     "name": "overflow-y",
                     "value": "visible | hidden | clip | scroll | auto",
                     "initial": "visible",
-                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
+                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
@@ -11034,13 +11034,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 429
+                    "line": 425
                 },
                 "props": {
                     "name": "overflow-block",
                     "value": "visible | hidden | clip | scroll | auto",
                     "initial": "visible",
-                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
+                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
@@ -11053,13 +11053,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 429
+                    "line": 425
                 },
                 "props": {
                     "name": "overflow-inline",
                     "value": "visible | hidden | clip | scroll | auto",
                     "initial": "visible",
-                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]], and [=replaced=] elements",
+                    "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
                     "logicalPropertyGroup": "overflow",
                     "percentages": "N/A",
@@ -11072,11 +11072,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 456
+                    "line": 452
                 },
                 "props": {
                     "name": "overflow",
-                    "value": "[ visible | hidden | clip | scroll | auto ]{1,2}",
+                    "value": "<'overflow-block'>{1,2}",
                     "initial": "visible",
                     "appliesTo": "block containers [[!CSS2]], flex containers [[!CSS3-FLEXBOX]], and grid containers [[!CSS3-GRID-LAYOUT]]",
                     "inherited": "no",
@@ -11090,7 +11090,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 605
+                    "line": 608
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -11107,7 +11107,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 689
+                    "line": 692
                 },
                 "props": {
                     "name": "scroll-behavior",
@@ -11125,7 +11125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 813
+                    "line": 816
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -11142,7 +11142,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 974
+                    "line": 977
                 },
                 "props": {
                     "name": "text-overflow",
