@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-20T00:55:20.219Z",
-    "elapsedTime": 357,
+    "createdAt": "2023-03-21T00:49:51.157Z",
+    "elapsedTime": 381,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f4f64373828cd183901a7961af0955f501b48638",
-            "commitShort": "f4f6437382",
+            "commit": "7fd39c7e890d84a03868a5c684c3781506e420c3",
+            "commitShort": "7fd39c7e89",
             "commitDate": null,
             "branch": "main"
         },
@@ -23637,7 +23637,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2779
+                    "line": 2794
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
