@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-21T00:49:51.157Z",
-    "elapsedTime": 381,
+    "createdAt": "2023-03-22T00:49:56.782Z",
+    "elapsedTime": 495,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7fd39c7e890d84a03868a5c684c3781506e420c3",
-            "commitShort": "7fd39c7e89",
+            "commit": "988386f1d6b2198d7ac0d00456a04965cd5baad0",
+            "commitShort": "988386f1d6",
             "commitDate": null,
             "branch": "main"
         },
@@ -610,10 +610,13 @@
                     "level": "6",
                     "status": "ED",
                     "prepareForTr": "no",
-                    "workStatus": "Exploring",
+                    "workStatus": "Revising",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-cascade-6/",
                     "tr": "https://www.w3.org/TR/css-cascade-6/",
+                    "previousVersion": [
+                        "https://www.w3.org/TR/2021/WD-css-cascade-6-20211221/"
+                    ],
                     "editor": [
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Miriam E. Suzanne, Invited Expert, http://miriamsuzanne.com/contact, w3cid 117151",
@@ -2140,7 +2143,7 @@
                         "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241"
                     ],
-                    "abstract": "This module contains the features of CSS relating to scrollable overflow handling in visual media.\nThis level is focused on completing a precise specification for the existing overflow features,\nincluding the 'overflow' property and its longhands;\n'line-clamp', its longhands, and its legacy pre-standard syntax;\nand the 'text-overflow' property.",
+                    "abstract": "This module contains the features of CSS relating to scrollable overflow handling in visual media.\nThis level is focused on completing a precise specification for the existing overflow features,\nincluding the 'overflow' property and its longhands;\nand the 'text-overflow' property.",
                     "aFewAdditionalFeaturesIntroducedInSupportOf[[css-contain-1]]And[[css-contain-2]]AreAlsoDefined": "",
                     "''overflow": "clip'' and the 'overflow-clip-margin' property.\nclip' and 'overflow-clip-margin' are rather new,\nand lack implementation experience.\n'text-overflow' is stable,\nis unchanged form its earlier definition in [[CSS-UI-3]].\nWhile not yet fully validated by implementation experience,\nthe design of 'line-clamp' and its longhands is considered roughly complete.\nEarlier versions of this specification included experimental new ideas\nfor handling overflow by creating new boxes using fragmentation.\nThese ideas are not abandoned; they are merely <a href=\"https://drafts.csswg.org/css-overflow-4/\">deferred until Level 4</a>.\nWork will resume on fragmented overflow once this level stabilizes completed.",
                     "ignoredVars": [
@@ -2162,23 +2165,18 @@
                 "props": {
                     "title": "CSS Overflow Module Level 4",
                     "status": "ED",
-                    "workStatus": "Exploring",
+                    "workStatus": "Revising",
                     "ed": "https://drafts.csswg.org/css-overflow-4/",
                     "shortname": "css-overflow",
                     "group": "csswg",
                     "level": "4",
                     "tr": "https://www.w3.org/TR/css-overflow-4/",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/css-overflow-3/"
-                    ],
                     "editor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
-                        "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241"
+                        "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241",
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
-                    "abstract": "This module contains the features of CSS relating to new mechanisms of overflow handling in visual media (e.g., screen or paper).  In interactive media, it describes features that allow the overflow from a fixed size container to be handled by pagination (displaying one page at a time).  It also describes features, applying to all visual media, that allow the contents of an element to be spread across multiple fragments, allowing the contents to flow across multiple regions or to have different styles for different fragments.",
-                    "ignoredTerms": [
-                        "scroll"
-                    ]
+                    "abstract": "This module contains the features of CSS relating to scrollable overflow handling in visual media.\nIt builds on the <a href=\"https://www.w3.org/TR/css-overflow-3/\">CSS Overflow Module Level 3</a>,\ndefining\n'line-clamp', its longhands, and its legacy pre-standard syntax;\nadding a 'block-ellipsis' property;\nand expanding 'overflow-clip-margin' with longhands.\nAn appendix also contains a more experimental exploration\nof <a href=\"#fragmentation\">redirecting overflow by fragmentation</a>."
                 }
             },
             {
@@ -10996,7 +10994,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 425
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-x",
@@ -11015,7 +11013,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 425
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-y",
@@ -11034,7 +11032,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 425
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-block",
@@ -11053,7 +11051,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 425
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -11072,7 +11070,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 452
+                    "line": 451
                 },
                 "props": {
                     "name": "overflow",
@@ -11090,7 +11088,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 608
+                    "line": 607
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -11107,7 +11105,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 692
+                    "line": 691
                 },
                 "props": {
                     "name": "scroll-behavior",
@@ -11125,7 +11123,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 816
+                    "line": 815
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -11142,7 +11140,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 977
+                    "line": 976
                 },
                 "props": {
                     "name": "text-overflow",
@@ -11160,7 +11158,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-top",
@@ -11178,7 +11176,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-right",
@@ -11196,7 +11194,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-bottom",
@@ -11214,7 +11212,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-left",
@@ -11232,7 +11230,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-block-start",
@@ -11250,7 +11248,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline-start",
@@ -11268,7 +11266,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-block-end",
@@ -11286,7 +11284,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 217
+                    "line": 223
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline-end",
@@ -11304,7 +11302,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 228
+                    "line": 234
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -11319,7 +11317,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 228
+                    "line": 234
                 },
                 "props": {
                     "name": "overflow-clip-margin-inline",
@@ -11334,7 +11332,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 228
+                    "line": 234
                 },
                 "props": {
                     "name": "overflow-clip-margin-block",
@@ -11349,7 +11347,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 289
+                    "line": 295
                 },
                 "props": {
                     "name": "text-overflow",
@@ -11367,7 +11365,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 698
+                    "line": 704
                 },
                 "props": {
                     "name": "block-ellipsis",
@@ -11385,7 +11383,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 811
+                    "line": 817
                 },
                 "props": {
                     "name": "line-clamp",
@@ -11399,7 +11397,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 901
+                    "line": 907
                 },
                 "props": {
                     "name": "-webkit-line-clamp",
@@ -11413,7 +11411,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 908
+                    "line": 914
                 },
                 "props": {
                     "name": "continue",
@@ -11425,7 +11423,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 947
+                    "line": 953
                 },
                 "props": {
                     "name": "max-lines",
@@ -11443,7 +11441,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1045
+                    "line": 1051
                 },
                 "props": {
                     "name": "continue",
@@ -11461,7 +11459,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1245
+                    "line": 1253
                 },
                 "props": {
                     "name": "continue",
@@ -11479,7 +11477,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1855
+                    "line": 1863
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -14320,7 +14318,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2353
+                    "line": 2356
                 },
                 "props": {
                     "name": "white-space-collapse",
@@ -14338,7 +14336,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2575
+                    "line": 2578
                 },
                 "props": {
                     "name": "white-space-trim",
@@ -14356,7 +14354,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 3687
+                    "line": 3690
                 },
                 "props": {
                     "name": "tab-size",
@@ -14374,7 +14372,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4328
+                    "line": 4331
                 },
                 "props": {
                     "name": "word-break",
@@ -14392,7 +14390,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4756
+                    "line": 4759
                 },
                 "props": {
                     "name": "line-break",
@@ -14410,7 +14408,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5295
+                    "line": 5298
                 },
                 "props": {
                     "name": "hyphens",
@@ -14428,7 +14426,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5487
+                    "line": 5490
                 },
                 "props": {
                     "name": "hyphenate-character",
@@ -14446,7 +14444,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5543
+                    "line": 5546
                 },
                 "props": {
                     "name": "hyphenate-limit-zone",
@@ -14464,7 +14462,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5564
+                    "line": 5567
                 },
                 "props": {
                     "name": "hyphenate-limit-chars",
@@ -14482,7 +14480,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5613
+                    "line": 5616
                 },
                 "props": {
                     "name": "hyphenate-limit-lines",
@@ -14500,7 +14498,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5633
+                    "line": 5636
                 },
                 "props": {
                     "name": "hyphenate-limit-last",
@@ -14518,7 +14516,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5715
+                    "line": 5718
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14536,7 +14534,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5715
+                    "line": 5718
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14554,7 +14552,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5887
+                    "line": 5890
                 },
                 "props": {
                     "name": "text-wrap",
@@ -14572,7 +14570,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6015
+                    "line": 6018
                 },
                 "props": {
                     "name": "wrap-before",
@@ -14590,7 +14588,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6015
+                    "line": 6018
                 },
                 "props": {
                     "name": "wrap-after",
@@ -14608,7 +14606,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6079
+                    "line": 6082
                 },
                 "props": {
                     "name": "wrap-inside",
@@ -14626,7 +14624,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6242
+                    "line": 6245
                 },
                 "props": {
                     "name": "text-align",
@@ -14643,7 +14641,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6722
+                    "line": 6725
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14661,7 +14659,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6753
+                    "line": 6756
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14679,7 +14677,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6818
+                    "line": 6821
                 },
                 "props": {
                     "name": "text-justify",
@@ -14697,7 +14695,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7276
+                    "line": 7279
                 },
                 "props": {
                     "name": "text-group-align",
@@ -14715,7 +14713,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7384
+                    "line": 7387
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14734,7 +14732,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7573
+                    "line": 7576
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -14753,7 +14751,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8008
+                    "line": 8011
                 },
                 "props": {
                     "name": "line-padding",
@@ -14771,7 +14769,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8064
+                    "line": 8067
                 },
                 "props": {
                     "name": "text-autospace",
@@ -14789,7 +14787,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8178
+                    "line": 8181
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -14807,7 +14805,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8574
+                    "line": 8577
                 },
                 "props": {
                     "name": "text-spacing",
@@ -14825,7 +14823,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8777
+                    "line": 8780
                 },
                 "props": {
                     "name": "text-indent",
@@ -14844,7 +14842,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9131
+                    "line": 9134
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -22305,7 +22303,7 @@
                 "dfnName": "<<autospace>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8084
+                    "line": 8087
                 },
                 "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
             },
@@ -22315,7 +22313,7 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8198
+                    "line": 8201
                 },
                 "value": "space-all |  trim-auto | [ allow-end || space-first ]"
             },
