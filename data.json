@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-24T00:51:38.958Z",
-    "elapsedTime": 485,
+    "createdAt": "2023-03-25T00:49:01.838Z",
+    "elapsedTime": 372,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b2938b7d037a28d7cd1fff66f9016435dc49debc",
-            "commitShort": "b2938b7d03",
+            "commit": "70cd35cf40df68f7167f30747ec7750636288b2e",
+            "commitShort": "70cd35cf40",
             "commitDate": null,
             "branch": "main"
         },
@@ -2311,6 +2311,24 @@
                     "linkDefaults": [
                         "css-transforms-1 (property) transform"
                     ]
+                }
+            },
+            {
+                "file": "css-position-4/Overview.bs",
+                "id": "css-position-4",
+                "props": {
+                    "title": "CSS Positioned Layout Module Level 4",
+                    "status": "ED",
+                    "workStatus": "Exploring",
+                    "shortname": "css-position",
+                    "level": "4",
+                    "group": "csswg",
+                    "ed": "https://drafts.csswg.org/css-position-4/",
+                    "editor": [
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
+                    ],
+                    "abstract": "This module contains defines coordinate-based positioning and offsetting schemes of <a href=\"https://www.w3.org/TR/CSS/\">CSS</a>: [=relative positioning=], [=sticky positioning=], [=absolute positioning=], and [=fixed positioning=].\nIt also defines the painting/rendering model of CSS."
                 }
             },
             {
