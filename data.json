@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-03-27T00:49:26.130Z",
-    "elapsedTime": 371,
+    "createdAt": "2023-03-28T00:53:01.875Z",
+    "elapsedTime": 400,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "70cd35cf40df68f7167f30747ec7750636288b2e",
-            "commitShort": "70cd35cf40",
+            "commit": "c72a07836fdcb1133a983d4889346c612dc0e900",
+            "commitShort": "c72a07836f",
             "commitDate": null,
             "branch": "main"
         },
@@ -1044,7 +1044,10 @@
                 "id": "css-display-3",
                 "props": {
                     "title": "CSS Display Module Level 3",
-                    "status": "ED",
+                    "status": "CR",
+                    "prepareForTr": "yes",
+                    "date": "2023-03-30",
+                    "deadline": "2023-05-30",
                     "statusText": "A <a href=\"http://test.csswg.org/harness/results/css-display-3_dev/grouped/\">preliminary implementation report</a> is available. Further tests will be added during the CR period.",
                     "workStatus": "Testing",
                     "ed": "https://drafts.csswg.org/css-display/",
@@ -7265,7 +7268,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 234
+                    "line": 237
                 },
                 "props": {
                     "name": "display",
@@ -7282,7 +7285,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 887
+                    "line": 890
                 },
                 "props": {
                     "name": "display-or-not",
@@ -7299,7 +7302,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 968
+                    "line": 971
                 },
                 "props": {
                     "name": "order",
@@ -7316,7 +7319,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 1161
+                    "line": 1164
                 },
                 "props": {
                     "name": "visibility",
@@ -19040,7 +19043,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 634
+                    "line": 633
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -19057,7 +19060,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 649
+                    "line": 648
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19074,12 +19077,12 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 664
+                    "line": 663
                 },
                 "props": {
                     "name": "view-timeline-inset",
                     "value": "[ [ auto | <length-percentage> ]{1,2} ]#",
-                    "initial": "0",
+                    "initial": "auto",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "relative to the corresponding dimension of the relevant scrollport",
@@ -19092,7 +19095,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 697
+                    "line": 696
                 },
                 "props": {
                     "name": "view-timeline",
@@ -19105,7 +19108,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 919
+                    "line": 926
                 },
                 "props": {
                     "name": "animation-range",
@@ -19117,7 +19120,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 937
+                    "line": 944
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19135,7 +19138,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 976
+                    "line": 983
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -20655,7 +20658,7 @@
                 "dfnName": "<display-outside>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 276
+                    "line": 279
                 },
                 "value": "block | inline | run-in"
             },
@@ -20665,7 +20668,7 @@
                 "dfnName": "<display-inside>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 277
+                    "line": 280
                 },
                 "value": "flow | flow-root | table | flex | grid | ruby"
             },
@@ -20675,7 +20678,7 @@
                 "dfnName": "<display-listitem>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 278
+                    "line": 281
                 },
                 "value": "<display-outside>? && [ flow | flow-root ]? && list-item"
             },
@@ -20685,7 +20688,7 @@
                 "dfnName": "<display-internal>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 279
+                    "line": 282
                 },
                 "value": "table-row-group | table-header-group |\ntable-footer-group | table-row | table-cell |\ntable-column-group | table-column | table-caption |\nruby-base | ruby-text | ruby-base-container |\nruby-text-container"
             },
@@ -20695,7 +20698,7 @@
                 "dfnName": "<display-box>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 284
+                    "line": 287
                 },
                 "value": "contents | none"
             },
@@ -20705,7 +20708,7 @@
                 "dfnName": "<display-legacy>",
                 "source": {
                     "spec": "css-display-3",
-                    "line": 285
+                    "line": 288
                 },
                 "value": "inline-block | inline-table | inline-flex | inline-grid"
             },
@@ -24325,7 +24328,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1018
+                    "line": 1025
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
