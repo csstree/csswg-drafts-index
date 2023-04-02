@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-01T00:51:05.669Z",
-    "elapsedTime": 362,
+    "createdAt": "2023-04-02T00:52:33.838Z",
+    "elapsedTime": 370,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3ce7c5b5dd306af6402ba36c23a0b04530e91ccf",
-            "commitShort": "3ce7c5b5dd",
+            "commit": "3e49cacfe3456638b6051c720d283be00fda5d35",
+            "commitShort": "3e49cacfe3",
             "commitDate": null,
             "branch": "main"
         },
@@ -9410,7 +9410,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 619
+                    "line": 621
                 },
                 "props": {
                     "name": "dominant-baseline",
@@ -9428,7 +9428,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 702
+                    "line": 704
                 },
                 "props": {
                     "name": "vertical-align",
@@ -9445,7 +9445,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 739
+                    "line": 741
                 },
                 "props": {
                     "name": "baseline-source",
@@ -9463,7 +9463,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 773
+                    "line": 778
                 },
                 "props": {
                     "name": "alignment-baseline",
@@ -9481,7 +9481,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 856
+                    "line": 861
                 },
                 "props": {
                     "name": "baseline-shift",
@@ -9499,7 +9499,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 960
+                    "line": 965
                 },
                 "props": {
                     "name": "line-height",
@@ -9517,10 +9517,10 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 1045
+                    "line": 1050
                 },
                 "props": {
-                    "name": "text-edge",
+                    "name": "text-box-edge",
                     "value": "leading | [ text | cap | ex | ideographic | ideographic-ink ] [ text | alphabetic | ideographic | ideographic-ink ]?",
                     "initial": "leading",
                     "appliesTo": "[=inline boxes=]",
@@ -9529,31 +9529,31 @@
                     "computedValue": "the specified keyword",
                     "animationType": "discrete"
                 },
-                "name": "text-edge"
+                "name": "text-box-edge"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 1326
+                    "line": 1331
                 },
                 "props": {
-                    "name": "leading-trim",
-                    "value": "normal | start | end | both",
-                    "initial": "normal",
+                    "name": "text-box-trim",
+                    "value": "none | start | end | both",
+                    "initial": "none",
                     "appliesTo": "block containers and [=inline boxes=]",
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "the specified keyword",
                     "animationType": "discrete"
                 },
-                "name": "leading-trim"
+                "name": "text-box-trim"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 1419
+                    "line": 1424
                 },
                 "props": {
                     "name": "inline-sizing",
@@ -9571,7 +9571,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 1631
+                    "line": 1636
                 },
                 "props": {
                     "name": "initial-letter",
@@ -9589,7 +9589,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-inline-3",
-                    "line": 2298
+                    "line": 2303
                 },
                 "props": {
                     "name": "initial-letter-wrap",
