@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-03T00:48:19.914Z",
-    "elapsedTime": 495,
+    "createdAt": "2023-04-04T00:48:42.973Z",
+    "elapsedTime": 477,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3e49cacfe3456638b6051c720d283be00fda5d35",
-            "commitShort": "3e49cacfe3",
+            "commit": "f724b3179af4d33c8b25c022cabeb6b99ccd9930",
+            "commitShort": "f724b3179a",
             "commitDate": null,
             "branch": "main"
         },
@@ -1322,7 +1322,9 @@
                     "shortname": "css-font-loading",
                     "level": "3",
                     "group": "csswg",
-                    "status": "ED",
+                    "status": "WD",
+                    "date": "2023-04-06",
+                    "prepareForTr": "yes",
                     "workStatus": "Exploring",
                     "ed": "https://drafts.csswg.org/css-font-loading/",
                     "tr": "https://www.w3.org/TR/css-font-loading/",
@@ -1337,7 +1339,7 @@
                     ],
                     "abstract": "This CSS module describes events and interfaces used for dynamically loading font resources.",
                     "linkDefaults": [
-                        "css-fonts-3 (descriptor) src",
+                        "css-fonts-4 (descriptor) src",
                         "dom (interface) Event"
                     ],
                     "ignoredTerms": [
@@ -12006,7 +12008,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-4",
-                    "line": 535
+                    "line": 520
                 },
                 "props": {
                     "name": "overlay",
@@ -19123,7 +19125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 929
+                    "line": 946
                 },
                 "props": {
                     "name": "animation-range",
@@ -19135,7 +19137,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 977
+                    "line": 1003
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19153,7 +19155,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1018
+                    "line": 1047
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19355,7 +19357,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 641
+                    "line": 645
                 },
                 "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23655,7 +23657,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 804
+                    "line": 808
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
@@ -23759,7 +23761,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 80
+                    "line": 82
                 },
                 "content": "typedef (ArrayBuffer or ArrayBufferView) BinaryData;\ndictionary FontFaceDescriptors {\n    CSSOMString style = \"normal\";\n    CSSOMString weight = \"normal\";\n    CSSOMString stretch = \"normal\";\n    CSSOMString unicodeRange = \"U+0-10FFFF\";\n    CSSOMString variant = \"normal\";\n    CSSOMString featureSettings = \"normal\";\n    CSSOMString variationSettings = \"normal\";\n    CSSOMString display = \"auto\";\n    CSSOMString ascentOverride = \"normal\";\n    CSSOMString descentOverride = \"normal\";\n    CSSOMString lineGapOverride = \"normal\";\n};\nenum FontFaceLoadStatus { \"unloaded\", \"loading\", \"loaded\", \"error\" };\n[Exposed=(Window,Worker)]\ninterface FontFace {\n    constructor(CSSOMString family, (CSSOMString or BinaryData) source,\n                optional FontFaceDescriptors descriptors = {});\n    attribute CSSOMString family;\n    attribute CSSOMString style;\n    attribute CSSOMString weight;\n    attribute CSSOMString stretch;\n    attribute CSSOMString unicodeRange;\n    attribute CSSOMString variant;\n    attribute CSSOMString featureSettings;\n    attribute CSSOMString variationSettings;\n    attribute CSSOMString display;\n    attribute CSSOMString ascentOverride;\n    attribute CSSOMString descentOverride;\n    attribute CSSOMString lineGapOverride;\n    readonly attribute FontFaceLoadStatus status;\n    Promise<FontFace> load();\n    readonly attribute Promise<FontFace> loaded;\n};"
             },
@@ -23767,7 +23769,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 435
+                    "line": 437
                 },
                 "content": "[Exposed=(Window,Worker)]\ninterface FontFaceFeatures {\n    /* The CSSWG is still discussing what goes in here */\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceVariationAxis {\n    readonly attribute DOMString name;\n    readonly attribute DOMString axisTag;\n    readonly attribute double minimumValue;\n    readonly attribute double maximumValue;\n    readonly attribute double defaultValue;\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceVariations {\n    readonly setlike<FontFaceVariationAxis>;\n};\n[Exposed=(Window,Worker)]\ninterface FontFacePalette {\n    iterable<DOMString>;\n    readonly attribute unsigned long length;\n    getter DOMString (unsigned long index);\n    readonly attribute boolean usableWithLightBackground;\n    readonly attribute boolean usableWithDarkBackground;\n};\n[Exposed=(Window,Worker)]\ninterface FontFacePalettes {\n    iterable<FontFacePalette>;\n    readonly attribute unsigned long length;\n    getter FontFacePalette (unsigned long index);\n};\npartial interface FontFace {\n    readonly attribute FontFaceFeatures features;\n    readonly attribute FontFaceVariations variations;\n    readonly attribute FontFacePalettes palettes;\n};"
             },
@@ -23775,7 +23777,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 496
+                    "line": 498
                 },
                 "content": "dictionary FontFaceSetLoadEventInit : EventInit {\n    sequence<FontFace> fontfaces = [];\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceSetLoadEvent : Event {\n    constructor(CSSOMString type, optional FontFaceSetLoadEventInit eventInitDict = {});\n    [SameObject] readonly attribute FrozenArray<FontFace> fontfaces;\n};\nenum FontFaceSetLoadStatus { \"loading\", \"loaded\" };\n[Exposed=(Window,Worker)]\ninterface FontFaceSet : EventTarget {\n    constructor(sequence<FontFace> initialFaces);\n    setlike<FontFace>;\n    FontFaceSet add(FontFace font);\n    boolean delete(FontFace font);\n    undefined clear();\n    // events for when loading state changes\n    attribute EventHandler onloading;\n    attribute EventHandler onloadingdone;\n    attribute EventHandler onloadingerror;\n    // check and start loads if appropriate\n    // and fulfill promise when all loads complete\n    Promise<sequence<FontFace>> load(CSSOMString font, optional CSSOMString text = \" \");\n    // return whether all fonts in the fontlist are loaded\n    // (does not initiate load if not available)\n    boolean check(CSSOMString font, optional CSSOMString text = \" \");\n    // async notification that font loading and layout operations are done\n    readonly attribute Promise<FontFaceSet> ready;\n    // loading state, \"loading\" while one or more fonts loading, \"loaded\" otherwise\n    readonly attribute FontFaceSetLoadStatus status;\n};"
             },
@@ -23783,7 +23785,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 1047
+                    "line": 1049
                 },
                 "content": "interface mixin FontFaceSource {\n    readonly attribute FontFaceSet fonts;\n};\nDocument includes FontFaceSource;\nWorkerGlobalScope includes FontFaceSource;"
             },
@@ -24343,7 +24345,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1062
+                    "line": 1094
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
@@ -24607,7 +24609,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2945
+                    "line": 2966
                 },
                 "content": "partial dictionary KeyframeEffectOptions {\n    IterationCompositeOperation iterationComposite = \"replace\";\n};"
             },
@@ -24615,7 +24617,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2963
+                    "line": 2984
                 },
                 "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
             },
@@ -24623,7 +24625,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2987
+                    "line": 3008
                 },
                 "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             },
@@ -24631,7 +24633,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3050
+                    "line": 3073
+                },
+                "content": "dictionary TimelineRangeOffset {\n  CSSOMString? rangeName;\n  CSSNumericValue offset;\n};\npartial dictionary KeyframeAnimationOptions : KeyframeEffectOptions {\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeStart = \"normal\";\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeEnd = \"normal\";\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "web-animations-2",
+                    "line": 3122
                 },
                 "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit\n    eventInitDict = {});\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    CSSNumberish? currentTime = null;\n    CSSNumberish? timelineTime = null;\n};"
             },
