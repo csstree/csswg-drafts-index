@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-04T00:48:42.973Z",
-    "elapsedTime": 477,
+    "createdAt": "2023-04-05T00:40:37.513Z",
+    "elapsedTime": 360,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f724b3179af4d33c8b25c022cabeb6b99ccd9930",
-            "commitShort": "f724b3179a",
+            "commit": "accb214b68d1507e1027765a728a7ac532645607",
+            "commitShort": "accb214b68",
             "commitDate": null,
             "branch": "main"
         },
@@ -278,8 +278,7 @@
                         "css-values-3 (type) <time>",
                         "cssom-1 (interface) cssstyledeclaration",
                         "dom-core-ls (interface) event",
-                        "webidl (type) SyntaxError",
-                        "css-position-3 (property) left"
+                        "webidl (type) SyntaxError"
                     ],
                     "ignoredTerms": [
                         "domstring",
@@ -4442,7 +4441,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 477
+                    "line": 467
                 },
                 "props": {
                     "name": "animation-name",
@@ -4461,7 +4460,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 509
+                    "line": 499
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4480,7 +4479,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 566
+                    "line": 555
                 },
                 "props": {
                     "name": "animation-timing-function",
@@ -4499,7 +4498,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 599
+                    "line": 588
                 },
                 "props": {
                     "name": "animation-iteration-count",
@@ -4518,7 +4517,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 641
+                    "line": 630
                 },
                 "props": {
                     "name": "animation-direction",
@@ -4537,7 +4536,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 687
+                    "line": 676
                 },
                 "props": {
                     "name": "animation-play-state",
@@ -4556,7 +4555,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 726
+                    "line": 715
                 },
                 "props": {
                     "name": "animation-delay",
@@ -4575,7 +4574,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 769
+                    "line": 758
                 },
                 "props": {
                     "name": "animation-fill-mode",
@@ -4594,7 +4593,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 819
+                    "line": 808
                 },
                 "props": {
                     "name": "animation",
@@ -4613,7 +4612,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 378
+                    "line": 397
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4632,7 +4631,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 482
+                    "line": 501
                 },
                 "props": {
                     "name": "animation-composition",
@@ -4651,7 +4650,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 576
+                    "line": 595
                 },
                 "props": {
                     "name": "animation-timeline",
@@ -19011,7 +19010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 324
+                    "line": 331
                 },
                 "props": {
                     "name": "scroll-timeline-name",
@@ -19028,7 +19027,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 340
+                    "line": 347
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -19045,7 +19044,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 358
+                    "line": 365
                 },
                 "props": {
                     "name": "scroll-timeline",
@@ -19060,7 +19059,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 637
+                    "line": 661
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -19077,7 +19076,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 652
+                    "line": 676
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19094,7 +19093,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 667
+                    "line": 691
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -19112,7 +19111,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 700
+                    "line": 724
                 },
                 "props": {
                     "name": "view-timeline",
@@ -19125,7 +19124,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 946
+                    "line": 970
                 },
                 "props": {
                     "name": "animation-range",
@@ -19137,7 +19136,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1003
+                    "line": 1027
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19155,7 +19154,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1047
+                    "line": 1071
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19257,7 +19256,7 @@
                 "dfnName": "<keyframes-name>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 227
+                    "line": 211
                 },
                 "value": "<custom-ident> | <string>"
             },
@@ -19267,7 +19266,7 @@
                 "dfnName": "<keyframe-block>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 229
+                    "line": 213
                 },
                 "value": "<keyframe-selector># { <declaration-list> }"
             },
@@ -19277,7 +19276,7 @@
                 "dfnName": "<keyframe-selector>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 231
+                    "line": 215
                 },
                 "value": "from | to | <percentage [0,100]>"
             },
@@ -19287,7 +19286,7 @@
                 "dfnName": "<single-animation-iteration-count>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 611
+                    "line": 600
                 },
                 "value": "infinite | <number [0,∞]>"
             },
@@ -19297,7 +19296,7 @@
                 "dfnName": "<single-animation-direction>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 653
+                    "line": 642
                 },
                 "value": "normal | reverse | alternate | alternate-reverse"
             },
@@ -19307,7 +19306,7 @@
                 "dfnName": "<single-animation-play-state>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 699
+                    "line": 688
                 },
                 "value": "running | paused"
             },
@@ -19317,7 +19316,7 @@
                 "dfnName": "<single-animation-fill-mode>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 781
+                    "line": 770
                 },
                 "value": "none | forwards | backwards | both"
             },
@@ -19327,7 +19326,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 831
+                    "line": 820
                 },
                 "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
             },
@@ -19337,7 +19336,7 @@
                 "dfnName": "<single-animation-composition>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 494
+                    "line": 513
                 },
                 "value": "replace | add | accumulate"
             },
@@ -19347,7 +19346,7 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 591
+                    "line": 610
                 },
                 "value": "auto | none | <custom-ident> | <scroll()> | <view()>"
             },
@@ -19357,7 +19356,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 645
+                    "line": 664
                 },
                 "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23253,7 +23252,7 @@
                 "dfnName": "<<axis>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 167
+                    "line": 171
                 },
                 "attrs": {
                     "noexport": true
@@ -23266,7 +23265,7 @@
                 "dfnName": "<<scroller>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 168
+                    "line": 172
                 },
                 "attrs": {
                     "noexport": true
@@ -23617,7 +23616,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 884
+                    "line": 873
                 },
                 "content": "[Exposed=Window]\ninterface AnimationEvent : Event {\n  constructor(CSSOMString type, optional AnimationEventInit animationEventInitDict = {});\n  readonly attribute CSSOMString animationName;\n  readonly attribute double elapsedTime;\n  readonly attribute CSSOMString pseudoElement;\n};\ndictionary AnimationEventInit : EventInit {\n  CSSOMString animationName = \"\";\n  double elapsedTime = 0.0;\n  CSSOMString pseudoElement = \"\";\n};"
             },
@@ -23625,7 +23624,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1051
+                    "line": 1036
                 },
                 "content": "partial interface CSSRule {\n      const unsigned short KEYFRAMES_RULE = 7;\n      const unsigned short KEYFRAME_RULE = 8;\n};"
             },
@@ -23633,15 +23632,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1066
+                    "line": 1051
                 },
-                "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\nattribute CSSOMString keyText;\n[SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\n  attribute CSSOMString keyText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1119
+                    "line": 1102
                 },
                 "content": "[Exposed=Window]\ninterface CSSKeyframesRule : CSSRule {\n           attribute CSSOMString name;\n  readonly attribute CSSRuleList cssRules;\n  readonly attribute unsigned long length;\n  getter CSSKeyframeRule (unsigned long index);\n  undefined        appendRule(CSSOMString rule);\n  undefined        deleteRule(CSSOMString select);\n  CSSKeyframeRule? findRule(CSSOMString select);\n};"
             },
@@ -23649,7 +23648,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-1",
-                    "line": 1321
+                    "line": 1313
                 },
                 "content": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler onanimationstart;\n  attribute EventHandler onanimationiteration;\n  attribute EventHandler onanimationend;\n  attribute EventHandler onanimationcancel;\n};"
             },
@@ -23657,7 +23656,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 808
+                    "line": 827
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
@@ -24329,7 +24328,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 220
+                    "line": 227
                 },
                 "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
@@ -24337,15 +24336,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 533
+                    "line": 544
                 },
-                "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
+                "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1094
+                    "line": 1118
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
@@ -24635,7 +24634,7 @@
                     "spec": "web-animations-2",
                     "line": 3073
                 },
-                "content": "dictionary TimelineRangeOffset {\n  CSSOMString? rangeName;\n  CSSNumericValue offset;\n};\npartial dictionary KeyframeAnimationOptions : KeyframeEffectOptions {\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeStart = \"normal\";\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeEnd = \"normal\";\n};"
+                "content": "dictionary TimelineRangeOffset {\n  CSSOMString? rangeName;\n  CSSNumericValue offset;\n};\npartial dictionary KeyframeAnimationOptions {\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeStart = \"normal\";\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeEnd = \"normal\";\n};"
             },
             {
                 "type": "idl",
