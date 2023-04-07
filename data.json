@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-06T00:46:04.610Z",
-    "elapsedTime": 376,
+    "createdAt": "2023-04-07T00:44:22.671Z",
+    "elapsedTime": 471,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f5dffeb2d0601468a3dacc963d1b38f2c3b7e737",
-            "commitShort": "f5dffeb2d0",
+            "commit": "70a91bd71f61df4aaa6ff644445647e2967dbf81",
+            "commitShort": "70a91bd71f",
             "commitDate": null,
             "branch": "main"
         },
@@ -3332,23 +3332,9 @@
                     "implementationReport": "https://drafts.csswg.org/css-values-3/implementation-report.html",
                     "ed": "https://drafts.csswg.org/css-values-3/",
                     "tr": "https://www.w3.org/TR/css-values-3/",
-                    "<!--PreviousVersion": "https://www.w3.org/TR/2019/CR-css-values-3-20190606/",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/2019/CR-css-values-3-20190131/",
-                        "https://www.w3.org/TR/2016/CR-css-values-3-20160929/",
-                        "https://www.w3.org/TR/2015/CR-css-values-3-20150611/",
-                        "https://www.w3.org/TR/2013/CR-css3-values-20130730/",
-                        "https://www.w3.org/TR/2013/CR-css3-values-20130404/",
-                        "https://www.w3.org/TR/2012/CR-css3-values-20120828/",
-                        "https://www.w3.org/TR/2012/WD-css3-values-20120308/",
-                        "https://www.w3.org/TR/2011/WD-css3-values-20110906/",
-                        "https://www.w3.org/TR/2006/WD-css3-values-20060919",
-                        "https://www.w3.org/TR/2005/WD-css3-values-20050726",
-                        "https://www.w3.org/TR/2001/WD-css3-values-20010713/ -->"
-                    ],
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "fantasai, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
                         "Håkon Wium Lie, Opera Software, howcome@opera.com"
@@ -3379,16 +3365,9 @@
                     "workStatus": "Refining",
                     "ed": "https://drafts.csswg.org/css-values-4/",
                     "tr": "https://www.w3.org/TR/css-values-4/",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/2021/WD-css-values-4-20210930/",
-                        "https://www.w3.org/TR/2021/WD-css-values-4-20210715/",
-                        "https://www.w3.org/TR/2020/WD-css-values-4-20201111/",
-                        "https://www.w3.org/TR/2019/WD-css-values-4-20190131/",
-                        "https://www.w3.org/TR/2018/WD-css-values-4-20181010/"
-                    ],
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "fantasai, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This CSS module describes the common values and units that CSS properties accept and the syntax used for describing them in CSS property definitions.",
                     "ignoredTerms": [
@@ -3414,12 +3393,12 @@
                     "shortname": "css-values",
                     "level": "5",
                     "status": "ED",
-                    "workStatus": "Refining",
+                    "workStatus": "Exploring",
                     "ed": "https://drafts.csswg.org/css-values-5/",
                     "tr": "https://www.w3.org/TR/css-values-5/",
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "fantasai, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This CSS module describes the common values and units that CSS properties accept and the syntax used for describing them in CSS property definitions.",
                     "ignoredTerms": [
@@ -5425,7 +5404,7 @@
                 },
                 "props": {
                     "name": "background-position",
-                    "value": "<position>#"
+                    "value": "<bg-position>#"
                 },
                 "name": "background-position"
             },
@@ -15373,7 +15352,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 372
+                    "line": 378
                 },
                 "props": {
                     "name": "transform",
@@ -15391,7 +15370,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 413
+                    "line": 419
                 },
                 "props": {
                     "name": "transform-origin",
@@ -15409,7 +15388,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 460
+                    "line": 466
                 },
                 "props": {
                     "name": "transform-box",
@@ -19470,8 +19449,8 @@
             },
             {
                 "type": "prod",
-                "name": "position",
-                "dfnName": "<position>",
+                "name": "bg-position",
+                "dfnName": "<bg-position>",
                 "source": {
                     "spec": "css-backgrounds-4",
                     "line": 49
@@ -22358,7 +22337,7 @@
                 "dfnName": "<transform-list>",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 385
+                    "line": 391
                 },
                 "value": "<transform-function>+"
             },
@@ -22368,7 +22347,7 @@
                 "dfnName": "matrix()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 909
+                    "line": 915
                 },
                 "value": "matrix( <number>#{6} )"
             },
@@ -22378,7 +22357,7 @@
                 "dfnName": "translate()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 912
+                    "line": 918
                 },
                 "value": "translate( <length-percentage> , <length-percentage>? )"
             },
@@ -22388,7 +22367,7 @@
                 "dfnName": "translateX()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 915
+                    "line": 921
                 },
                 "value": "translateX( <length-percentage> )"
             },
@@ -22398,7 +22377,7 @@
                 "dfnName": "translateY()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 918
+                    "line": 924
                 },
                 "value": "translateY( <length-percentage> )"
             },
@@ -22408,7 +22387,7 @@
                 "dfnName": "scale()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 921
+                    "line": 927
                 },
                 "value": "scale( <number> , <number>? )"
             },
@@ -22418,7 +22397,7 @@
                 "dfnName": "scaleX()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 924
+                    "line": 930
                 },
                 "value": "scaleX( <number> )"
             },
@@ -22428,7 +22407,7 @@
                 "dfnName": "scaleY()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 927
+                    "line": 933
                 },
                 "value": "scaleY( <number> )"
             },
@@ -22438,7 +22417,7 @@
                 "dfnName": "rotate()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 930
+                    "line": 936
                 },
                 "value": "rotate( [ <angle> | <zero> ] )"
             },
@@ -22448,7 +22427,7 @@
                 "dfnName": "skew()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 933
+                    "line": 939
                 },
                 "value": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
             },
@@ -22458,7 +22437,7 @@
                 "dfnName": "skewX()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 938
+                    "line": 944
                 },
                 "value": "skewX( [ <angle> | <zero> ] )"
             },
@@ -22468,7 +22447,7 @@
                 "dfnName": "skewY()",
                 "source": {
                     "spec": "css-transforms-1",
-                    "line": 941
+                    "line": 947
                 },
                 "value": "skewY( [ <angle> | <zero> ] )"
             },
@@ -22634,7 +22613,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 540
+                    "line": 528
                 },
                 "attrs": {
                     "id": "url-value"
@@ -22647,7 +22626,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1906
+                    "line": 1894
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22657,7 +22636,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1907
+                    "line": 1895
                 },
                 "value": "<calc-value> [ '*' <calc-value> | '/' <calc-number-value> ]*"
             },
@@ -22667,7 +22646,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1908
+                    "line": 1896
                 },
                 "value": "<number> | <dimension> | <percentage> | ( <calc-sum> )"
             },
@@ -22677,7 +22656,7 @@
                 "dfnName": "<calc-number-sum>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1909
+                    "line": 1897
                 },
                 "value": "<calc-number-product> [ [ '+' | '-' ] <calc-number-product> ]*"
             },
@@ -22687,7 +22666,7 @@
                 "dfnName": "<calc-number-product>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1910
+                    "line": 1898
                 },
                 "value": "<calc-number-value> [ '*' <calc-number-value> | '/' <calc-number-value> ]*"
             },
@@ -22697,7 +22676,7 @@
                 "dfnName": "<calc-number-value>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1911
+                    "line": 1899
                 },
                 "value": "<number> | ( <calc-number-sum> )"
             },
@@ -22707,7 +22686,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 852
+                    "line": 911
                 },
                 "attrs": {
                     "id": "url-value"
@@ -22716,41 +22695,11 @@
             },
             {
                 "type": "prod",
-                "name": "crossorigin-modifier",
-                "dfnName": "<<crossorigin-modifier>>",
-                "source": {
-                    "spec": "css-values-4",
-                    "line": 1124
-                },
-                "value": ""
-            },
-            {
-                "type": "prod",
-                "name": "integrity-modifier",
-                "dfnName": "<<integrity-modifier>>",
-                "source": {
-                    "spec": "css-values-4",
-                    "line": 1131
-                },
-                "value": ""
-            },
-            {
-                "type": "prod",
-                "name": "referrerpolicy-modifier",
-                "dfnName": "<<referrerpolicy-modifier>>",
-                "source": {
-                    "spec": "css-values-4",
-                    "line": 1135
-                },
-                "value": ""
-            },
-            {
-                "type": "prod",
                 "name": "calc-sum",
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3976
+                    "line": 4036
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22760,7 +22709,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3977
+                    "line": 4037
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -22770,7 +22719,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3978
+                    "line": 4038
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -22780,9 +22729,39 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 3980
+                    "line": 4040
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
+            },
+            {
+                "type": "prod",
+                "name": "crossorigin-modifier",
+                "dfnName": "<<crossorigin-modifier>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 78
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
+                "name": "integrity-modifier",
+                "dfnName": "<<integrity-modifier>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 87
+                },
+                "value": ""
+            },
+            {
+                "type": "prod",
+                "name": "referrerpolicy-modifier",
+                "dfnName": "<<referrerpolicy-modifier>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 93
+                },
+                "value": ""
             },
             {
                 "type": "prod",
@@ -22790,7 +22769,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 210
+                    "line": 268
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -22800,7 +22779,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 470
+                    "line": 528
                 },
                 "value": "<dashed-ident> || per-element"
             },
