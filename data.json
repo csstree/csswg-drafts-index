@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-08T00:45:36.036Z",
-    "elapsedTime": 345,
+    "createdAt": "2023-04-09T00:50:30.460Z",
+    "elapsedTime": 374,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "70a91bd71f61df4aaa6ff644445647e2967dbf81",
-            "commitShort": "70a91bd71f",
+            "commit": "404246a6b434e6f847cecd785834c0d9d6d119df",
+            "commitShort": "404246a6b4",
             "commitDate": null,
             "branch": "main"
         },
@@ -5780,7 +5780,7 @@
                 "props": {
                     "name": "border-limit",
                     "value": "all | [ sides | corners ] <length-percentage [0,∞]>?\n| [ top | right | bottom | left ] <length-percentage [0,∞]>",
-                    "initial": "round",
+                    "initial": "all",
                     "appliesTo": "all elements, except table element when 'border-collapse' is collapse",
                     "inherited": "no",
                     "percentages": "relative to border-box",
@@ -5792,7 +5792,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 469
                 },
                 "props": {
                     "name": "border-clip",
@@ -5809,7 +5809,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 469
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5826,7 +5826,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 469
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -5843,7 +5843,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 469
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -5860,7 +5860,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 467
+                    "line": 469
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -5877,7 +5877,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 741
+                    "line": 743
                 },
                 "props": {
                     "name": "box-shadow-color",
@@ -5895,7 +5895,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 762
+                    "line": 764
                 },
                 "props": {
                     "name": "box-shadow-offset",
@@ -5913,7 +5913,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 798
+                    "line": 800
                 },
                 "props": {
                     "name": "box-shadow-blur",
@@ -5931,7 +5931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 824
+                    "line": 826
                 },
                 "props": {
                     "name": "box-shadow-spread",
@@ -5949,7 +5949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 852
+                    "line": 854
                 },
                 "props": {
                     "name": "box-shadow-position",
@@ -5967,7 +5967,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 886
+                    "line": 888
                 },
                 "props": {
                     "name": "box-shadow",
@@ -19473,7 +19473,7 @@
                 "dfnName": "<<spread-shadow>>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 913
+                    "line": 915
                 },
                 "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
