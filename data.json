@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-19T00:50:47.904Z",
-    "elapsedTime": 379,
+    "createdAt": "2023-04-20T00:48:37.448Z",
+    "elapsedTime": 402,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "da4695a9bea08463d1ec9b6d100bb84945d7f460",
-            "commitShort": "da4695a9be",
+            "commit": "fe0b1efddd4a4caed3c209158a65d96e713657ff",
+            "commitShort": "fe0b1efddd",
             "commitDate": null,
             "branch": "main"
         },
@@ -3476,7 +3476,7 @@
                     "level": "1",
                     "status": "WD",
                     "group": "csswg",
-                    "date": "2023-03-07",
+                    "date": "2023-04-18",
                     "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
@@ -6914,7 +6914,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 802
+                    "line": 803
                 },
                 "props": {
                     "name": "width",
@@ -6928,7 +6928,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 816
+                    "line": 817
                 },
                 "props": {
                     "name": "height",
@@ -6942,7 +6942,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 830
+                    "line": 831
                 },
                 "props": {
                     "name": "inline-size",
@@ -6956,7 +6956,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 846
+                    "line": 847
                 },
                 "props": {
                     "name": "block-size",
@@ -6970,7 +6970,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 862
+                    "line": 863
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -6984,7 +6984,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 877
+                    "line": 878
                 },
                 "props": {
                     "name": "orientation",
@@ -16186,7 +16186,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 468
+                    "line": 469
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -20511,6 +20511,16 @@
             },
             {
                 "type": "prod",
+                "name": "style-feature",
+                "dfnName": "<<style-feature>>",
+                "source": {
+                    "spec": "css-contain-3",
+                    "line": 605
+                },
+                "value": "<ident> : <declaration-value> | <ident>"
+            },
+            {
+                "type": "prod",
                 "name": "quote",
                 "dfnName": "<<quote>>",
                 "source": {
@@ -22809,7 +22819,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 557
+                    "line": 583
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -23705,7 +23715,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 1006
+                    "line": 1012
                 },
                 "content": "[Exposed=Window]\ninterface CSSContainerRule : CSSConditionRule {\n    readonly attribute CSSOMString containerName;\n    readonly attribute CSSOMString containerQuery;\n};"
             },
@@ -23937,7 +23947,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 894
+                    "line": 918
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -23945,7 +23955,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 944
+                    "line": 968
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
