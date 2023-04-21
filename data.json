@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-20T00:48:37.448Z",
-    "elapsedTime": 402,
+    "createdAt": "2023-04-21T00:48:12.186Z",
+    "elapsedTime": 510,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fe0b1efddd4a4caed3c209158a65d96e713657ff",
-            "commitShort": "fe0b1efddd",
+            "commit": "d35cf94e17bdfe6f52c5fcb23d22a7634974d7ad",
+            "commitShort": "d35cf94e17",
             "commitDate": null,
             "branch": "main"
         },
@@ -4589,7 +4589,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 395
+                    "line": 406
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4608,7 +4608,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 499
+                    "line": 510
                 },
                 "props": {
                     "name": "animation-composition",
@@ -4627,7 +4627,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 593
+                    "line": 604
                 },
                 "props": {
                     "name": "animation-timeline",
@@ -6997,6 +6997,22 @@
             {
                 "type": "prop",
                 "source": {
+                    "spec": "css-contain-3",
+                    "line": 1069
+                },
+                "props": {
+                    "name": "content-visibility",
+                    "value": "visible | auto | hidden",
+                    "initial": "visible",
+                    "inherited": "no",
+                    "appliesTo": "elements for which [=size containment=] can apply",
+                    "animationType": "see [[#content-visibility-animation]]"
+                },
+                "name": "content-visibility"
+            },
+            {
+                "type": "prop",
+                "source": {
                     "spec": "css-content-3",
                     "line": 100
                 },
@@ -7333,7 +7349,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 896
+                    "line": 891
                 },
                 "props": {
                     "name": "display-or-not",
@@ -7350,7 +7366,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1036
+                    "line": 1031
                 },
                 "props": {
                     "name": "order",
@@ -7364,7 +7380,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1171
+                    "line": 1166
                 },
                 "props": {
                     "name": "reading-order",
@@ -7381,7 +7397,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1214
+                    "line": 1209
                 },
                 "props": {
                     "name": "layout-order",
@@ -7398,7 +7414,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1336
+                    "line": 1331
                 },
                 "props": {
                     "name": "visibility",
@@ -19036,7 +19052,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 661
+                    "line": 663
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -19053,7 +19069,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 676
+                    "line": 678
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19070,7 +19086,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 691
+                    "line": 693
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -19088,7 +19104,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 724
+                    "line": 726
                 },
                 "props": {
                     "name": "view-timeline",
@@ -19101,7 +19117,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 970
+                    "line": 972
                 },
                 "props": {
                     "name": "animation-range",
@@ -19113,7 +19129,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1027
+                    "line": 1029
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19131,7 +19147,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1071
+                    "line": 1073
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19313,7 +19329,7 @@
                 "dfnName": "<single-animation-composition>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 511
+                    "line": 522
                 },
                 "value": "replace | add | accumulate"
             },
@@ -19323,7 +19339,7 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 608
+                    "line": 619
                 },
                 "value": "auto | none | <custom-ident> | <scroll()> | <view()>"
             },
@@ -19333,7 +19349,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 662
+                    "line": 673
                 },
                 "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23643,7 +23659,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 825
+                    "line": 836
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
@@ -24315,7 +24331,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 544
+                    "line": 546
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24323,7 +24339,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1118
+                    "line": 1120
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
