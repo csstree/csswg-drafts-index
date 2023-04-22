@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-21T00:48:12.186Z",
-    "elapsedTime": 510,
+    "createdAt": "2023-04-22T00:50:59.134Z",
+    "elapsedTime": 438,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d35cf94e17bdfe6f52c5fcb23d22a7634974d7ad",
-            "commitShort": "d35cf94e17",
+            "commit": "872d337003fcb038c2b97f708d930d363491bb14",
+            "commitShort": "872d337003",
             "commitDate": null,
             "branch": "main"
         },
@@ -4589,7 +4589,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 406
+                    "line": 407
                 },
                 "props": {
                     "name": "animation-duration",
@@ -4608,7 +4608,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 510
+                    "line": 511
                 },
                 "props": {
                     "name": "animation-composition",
@@ -4627,7 +4627,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 604
+                    "line": 605
                 },
                 "props": {
                     "name": "animation-timeline",
@@ -12648,7 +12648,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1168
+                    "line": 1170
                 },
                 "props": {
                     "name": "scroll-margin-top",
@@ -12667,7 +12667,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1168
+                    "line": 1170
                 },
                 "props": {
                     "name": "scroll-margin-right",
@@ -12686,7 +12686,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1168
+                    "line": 1170
                 },
                 "props": {
                     "name": "scroll-margin-bottom",
@@ -12705,7 +12705,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1168
+                    "line": 1170
                 },
                 "props": {
                     "name": "scroll-margin-left",
@@ -12724,7 +12724,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1187
+                    "line": 1189
                 },
                 "props": {
                     "name": "scroll-margin-block-start",
@@ -12743,7 +12743,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1187
+                    "line": 1189
                 },
                 "props": {
                     "name": "scroll-margin-inline-start",
@@ -12762,7 +12762,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1187
+                    "line": 1189
                 },
                 "props": {
                     "name": "scroll-margin-block-end",
@@ -12781,7 +12781,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1187
+                    "line": 1189
                 },
                 "props": {
                     "name": "scroll-margin-inline-end",
@@ -12800,7 +12800,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1203
+                    "line": 1205
                 },
                 "props": {
                     "name": "scroll-margin-block",
@@ -12817,7 +12817,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-1",
-                    "line": 1203
+                    "line": 1205
                 },
                 "props": {
                     "name": "scroll-margin-inline",
@@ -19003,13 +19003,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 331
+                    "line": 347
                 },
                 "props": {
                     "name": "scroll-timeline-name",
                     "value": "none | <custom-ident>#",
                     "initial": "none",
-                    "appliesTo": "[=scroll containers=]",
+                    "appliesTo": "all elements",
                     "inherited": "no",
                     "computedValue": "the keyword none or a list of <custom-ident>s",
                     "animationType": "not animatable"
@@ -19020,13 +19020,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 347
+                    "line": 366
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
                     "value": "[ block | inline | vertical | horizontal ]#",
                     "initial": "block",
-                    "appliesTo": "[=scroll containers=]",
+                    "appliesTo": "all elements",
                     "inherited": "no",
                     "computedValue": "a list of the keywords specified",
                     "animationType": "not animatable"
@@ -19037,12 +19037,29 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 365
+                    "line": 389
+                },
+                "props": {
+                    "name": "scroll-timeline-attachment",
+                    "value": "[ local | defer | ancestor ]#",
+                    "initial": "local",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "computedValue": "a list of the keywords specified",
+                    "animationType": "not animatable"
+                },
+                "name": "scroll-timeline-attachment"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "scroll-animations-1",
+                    "line": 446
                 },
                 "props": {
                     "name": "scroll-timeline",
-                    "value": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
-                    "appliesTo": "[=scroll containers=]",
+                    "value": "[ <'scroll-timeline-name'> [ <'scroll-timeline-axis'> || <'scroll-timeline-attachment'> ]? ]#",
+                    "appliesTo": "all elements",
                     "inherited": "no",
                     "animationType": "not animatable"
                 },
@@ -19052,7 +19069,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 663
+                    "line": 754
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -19069,7 +19086,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 678
+                    "line": 773
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19086,7 +19103,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 693
+                    "line": 793
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -19104,11 +19121,28 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 726
+                    "line": 829
+                },
+                "props": {
+                    "name": "view-timeline-attachment",
+                    "value": "[ local | defer | ancestor ]#",
+                    "initial": "local",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "computedValue": "a list of the keywords specified",
+                    "animationType": "not animatable"
+                },
+                "name": "view-timeline-attachment"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "scroll-animations-1",
+                    "line": 884
                 },
                 "props": {
                     "name": "view-timeline",
-                    "value": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
+                    "value": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-attachment'> ]? ]#",
                     "appliesTo": "all elements"
                 },
                 "name": "view-timeline"
@@ -19117,7 +19151,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 972
+                    "line": 1182
                 },
                 "props": {
                     "name": "animation-range",
@@ -19129,7 +19163,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1029
+                    "line": 1239
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19147,7 +19181,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1073
+                    "line": 1283
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19329,7 +19363,7 @@
                 "dfnName": "<single-animation-composition>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 522
+                    "line": 523
                 },
                 "value": "replace | add | accumulate"
             },
@@ -19339,7 +19373,7 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 619
+                    "line": 620
                 },
                 "value": "auto | none | <custom-ident> | <scroll()> | <view()>"
             },
@@ -19349,7 +19383,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 673
+                    "line": 674
                 },
                 "value": "<time [0s,∞]> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23659,7 +23693,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 836
+                    "line": 837
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
@@ -24331,7 +24365,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 546
+                    "line": 627
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24339,7 +24373,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1120
+                    "line": 1330
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional CSSOMString rangeName);\n};"
             },
