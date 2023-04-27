@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-26T00:49:41.958Z",
-    "elapsedTime": 408,
+    "createdAt": "2023-04-27T00:52:17.993Z",
+    "elapsedTime": 391,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ba53095e9c3a480bc515318fb3e922042cee9ec6",
-            "commitShort": "ba53095e9c",
+            "commit": "b6a233efb437bb3a40549ac6200d42775e48d411",
+            "commitShort": "b6a233efb4",
             "commitDate": null,
             "branch": "main"
         },
@@ -24104,13 +24104,13 @@
                     "spec": "cssom-1",
                     "line": 2042
                 },
-                "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet styleSheet;\n  readonly attribute CSSOMString? layerName;\n};"
+                "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet? styleSheet;\n  readonly attribute CSSOMString? layerName;\n  readonly attribute CSSOMString? supportsText;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2074
+                    "line": 2078
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -24118,7 +24118,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2108
+                    "line": 2112
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24126,7 +24126,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2144
+                    "line": 2148
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24134,7 +24134,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2173
+                    "line": 2177
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -24142,7 +24142,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2365
+                    "line": 2369
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -24150,7 +24150,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2988
+                    "line": 2992
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24158,7 +24158,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3000
+                    "line": 3004
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -24166,7 +24166,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3006
+                    "line": 3010
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -24174,7 +24174,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3012
+                    "line": 3016
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -24182,7 +24182,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3019
+                    "line": 3023
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -24190,7 +24190,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3090
+                    "line": 3094
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
