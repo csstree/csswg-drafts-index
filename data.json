@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-27T00:52:17.993Z",
-    "elapsedTime": 391,
+    "createdAt": "2023-04-28T00:51:13.554Z",
+    "elapsedTime": 505,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b6a233efb437bb3a40549ac6200d42775e48d411",
-            "commitShort": "b6a233efb4",
+            "commit": "5e9a938fb282e092d9a57a1d5fec90cffef3048c",
+            "commitShort": "5e9a938fb2",
             "commitDate": null,
             "branch": "main"
         },
@@ -9281,7 +9281,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1426
+                    "line": 1432
                 },
                 "props": {
                     "name": "object-fit",
@@ -9299,7 +9299,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1523
+                    "line": 1529
                 },
                 "props": {
                     "name": "object-position",
@@ -9318,7 +9318,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1567
+                    "line": 1573
                 },
                 "props": {
                     "name": "image-orientation",
@@ -9335,7 +9335,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1696
+                    "line": 1702
                 },
                 "props": {
                     "name": "image-rendering",
@@ -9352,7 +9352,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2037
+                    "line": 2041
                 },
                 "props": {
                     "name": "object-fit",
@@ -9370,7 +9370,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2158
+                    "line": 2162
                 },
                 "props": {
                     "name": "image-resolution",
@@ -21578,6 +21578,16 @@
             },
             {
                 "type": "prod",
+                "name": "linear-gradient-syntax",
+                "dfnName": "<linear-gradient-syntax>",
+                "source": {
+                    "spec": "css-images-3",
+                    "line": 336
+                },
+                "value": "[ <angle> | to <side-or-corner> ]? , <color-stop-list>"
+            },
+            {
+                "type": "prod",
                 "name": "side-or-corner",
                 "dfnName": "<side-or-corner>",
                 "source": {
@@ -21588,11 +21598,21 @@
             },
             {
                 "type": "prod",
+                "name": "radial-gradient-syntax",
+                "dfnName": "<radial-gradient-syntax>",
+                "source": {
+                    "spec": "css-images-3",
+                    "line": 511
+                },
+                "value": "<rg-ending-shape> || <rg-size> ]? [ at <position> ]? ,\n<color-stop-list>"
+            },
+            {
+                "type": "prod",
                 "name": "rg-size",
                 "dfnName": "<rg-size>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 514
+                    "line": 515
                 },
                 "value": "<rg-extent-keyword> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
             },
@@ -21602,7 +21622,7 @@
                 "dfnName": "<rg-extent-keyword>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 516
+                    "line": 517
                 },
                 "value": "closest-corner | closest-side | farthest-corner | farthest-side"
             },
@@ -21612,9 +21632,29 @@
                 "dfnName": "<rg-ending-shape>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 518
+                    "line": 519
                 },
                 "value": "circle | ellipse"
+            },
+            {
+                "type": "prod",
+                "name": "repeating-linear-gradient()",
+                "dfnName": "<repeating-linear-gradient()>",
+                "source": {
+                    "spec": "css-images-3",
+                    "line": 775
+                },
+                "value": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
+            },
+            {
+                "type": "prod",
+                "name": "repeating-radial-gradient()",
+                "dfnName": "<repeating-radial-gradient()>",
+                "source": {
+                    "spec": "css-images-3",
+                    "line": 776
+                },
+                "value": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
             },
             {
                 "type": "prod",
@@ -21622,7 +21662,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 894
+                    "line": 900
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -21632,7 +21672,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 896
+                    "line": 902
                 },
                 "value": "<color> && <length-percentage>?"
             },
@@ -21642,7 +21682,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 897
+                    "line": 903
                 },
                 "value": "<length-percentage>"
             },
@@ -21741,13 +21781,13 @@
             },
             {
                 "type": "prod",
-                "name": "linear-gradient()",
-                "dfnName": "linear-gradient()",
+                "name": "linear-gradient-syntax",
+                "dfnName": "<linear-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
                     "line": 1200
                 },
-                "value": "linear-gradient(\n    [ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? ,\n    <color-stop-list>\n)"
+                "value": "[ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? ,\n<color-stop-list>"
             },
             {
                 "type": "prod",
@@ -21755,19 +21795,19 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1204
+                    "line": 1203
                 },
                 "value": "[left | right] || [top | bottom]"
             },
             {
                 "type": "prod",
-                "name": "radial-gradient()",
-                "dfnName": "radial-gradient()",
+                "name": "radial-gradient-syntax",
+                "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1346
+                    "line": 1345
                 },
-                "value": "radial-gradient(\n  [ [ [ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n  <color-stop-list>\n)"
+                "value": "[ [ [ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
             },
             {
                 "type": "prod",
@@ -21775,9 +21815,49 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1425
+                    "line": 1423
                 },
-                "value": "conic-gradient(\n    [ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n    <angular-color-stop-list>\n)"
+                "value": "conic-gradient( [ <conic-gradient-syntax> ] )"
+            },
+            {
+                "type": "prod",
+                "name": "conic-gradient-syntax",
+                "dfnName": "<conic-gradient-syntax>",
+                "source": {
+                    "spec": "css-images-4",
+                    "line": 1424
+                },
+                "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
+            },
+            {
+                "type": "prod",
+                "name": "repeating-conic-gradient()",
+                "dfnName": "<repeating-conic-gradient()>",
+                "source": {
+                    "spec": "css-images-4",
+                    "line": 1585
+                },
+                "value": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )"
+            },
+            {
+                "type": "prod",
+                "name": "repeating-linear-gradient()",
+                "dfnName": "<repeating-linear-gradient()>",
+                "source": {
+                    "spec": "css-images-4",
+                    "line": 1586
+                },
+                "value": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
+            },
+            {
+                "type": "prod",
+                "name": "repeating-radial-gradient()",
+                "dfnName": "<repeating-radial-gradient()>",
+                "source": {
+                    "spec": "css-images-4",
+                    "line": 1587
+                },
+                "value": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
             },
             {
                 "type": "prod",
@@ -21785,7 +21865,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1669
+                    "line": 1673
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -21795,7 +21875,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1671
+                    "line": 1675
                 },
                 "value": "<color> && <color-stop-length>?"
             },
@@ -21805,7 +21885,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1672
+                    "line": 1676
                 },
                 "value": "<length-percentage>"
             },
@@ -21815,7 +21895,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1673
+                    "line": 1677
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -21825,7 +21905,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1675
+                    "line": 1679
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -21835,7 +21915,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1677
+                    "line": 1681
                 },
                 "value": "<color> && <color-stop-angle>?"
             },
@@ -21845,7 +21925,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1678
+                    "line": 1682
                 },
                 "value": "<angle-percentage>"
             },
@@ -21855,7 +21935,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1679
+                    "line": 1683
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -21865,7 +21945,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1681
+                    "line": 1685
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
