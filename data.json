@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-04-28T00:51:13.554Z",
-    "elapsedTime": 505,
+    "createdAt": "2023-04-29T00:47:50.841Z",
+    "elapsedTime": 482,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "5e9a938fb282e092d9a57a1d5fec90cffef3048c",
-            "commitShort": "5e9a938fb2",
+            "commit": "0be97839b71a2086044a59b0f2b041b5b6d1e24f",
+            "commitShort": "0be97839b7",
             "commitDate": null,
             "branch": "main"
         },
@@ -12001,7 +12001,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-4",
-                    "line": 580
+                    "line": 591
                 },
                 "props": {
                     "name": "overlay",
@@ -21604,7 +21604,7 @@
                     "spec": "css-images-3",
                     "line": 511
                 },
-                "value": "<rg-ending-shape> || <rg-size> ]? [ at <position> ]? ,\n<color-stop-list>"
+                "value": "[ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? ,\n<color-stop-list>"
             },
             {
                 "type": "prod",
