@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-04T00:49:19.921Z",
-    "elapsedTime": 498,
+    "createdAt": "2023-05-05T00:44:54.109Z",
+    "elapsedTime": 375,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4eaa7c2cdecad27fc8e144ec1738f7c70408ef4a",
-            "commitShort": "4eaa7c2cde",
+            "commit": "91a7f097df3e674fce50e903f8689123cbf7323f",
+            "commitShort": "91a7f097df",
             "commitDate": null,
             "branch": "main"
         },
@@ -4387,7 +4387,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 668
+                    "line": 651
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4403,7 +4403,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 789
+                    "line": 772
                 },
                 "props": {
                     "name": "position-fallback",
@@ -6861,7 +6861,7 @@
                 },
                 "props": {
                     "name": "contain",
-                    "newValues": "layout || style || paint || [ size | inline-size ]"
+                    "value": "none | strict | content | [ [size | inline-size] || layout || style || paint ]"
                 },
                 "name": "contain"
             },
@@ -6877,7 +6877,7 @@
                     "initial": "normal",
                     "inherited": "no",
                     "appliesTo": "all elements",
-                    "computedValue": "the keyword normal or one or more of size, inline-size",
+                    "computedValue": "specified keyword",
                     "animationType": "not animatable"
                 },
                 "name": "container-type"
