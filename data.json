@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-05T00:44:54.109Z",
-    "elapsedTime": 375,
+    "createdAt": "2023-05-06T00:45:30.005Z",
+    "elapsedTime": 487,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "91a7f097df3e674fce50e903f8689123cbf7323f",
-            "commitShort": "91a7f097df",
+            "commit": "8523f13a005f7213c39200e24944f8549e9e5227",
+            "commitShort": "8523f13a00",
             "commitDate": null,
             "branch": "main"
         },
@@ -19152,7 +19152,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1186
+                    "line": 1194
                 },
                 "props": {
                     "name": "animation-range",
@@ -19164,7 +19164,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1243
+                    "line": 1251
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19182,7 +19182,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1287
+                    "line": 1295
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -21628,26 +21628,6 @@
             },
             {
                 "type": "prod",
-                "name": "repeating-linear-gradient()",
-                "dfnName": "<repeating-linear-gradient()>",
-                "source": {
-                    "spec": "css-images-3",
-                    "line": 775
-                },
-                "value": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
-            },
-            {
-                "type": "prod",
-                "name": "repeating-radial-gradient()",
-                "dfnName": "<repeating-radial-gradient()>",
-                "source": {
-                    "spec": "css-images-3",
-                    "line": 776
-                },
-                "value": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
-            },
-            {
-                "type": "prod",
                 "name": "color-stop-list",
                 "dfnName": "<color-stop-list>",
                 "source": {
@@ -21818,36 +21798,6 @@
                     "line": 1424
                 },
                 "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
-            },
-            {
-                "type": "prod",
-                "name": "repeating-conic-gradient()",
-                "dfnName": "<repeating-conic-gradient()>",
-                "source": {
-                    "spec": "css-images-4",
-                    "line": 1585
-                },
-                "value": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )"
-            },
-            {
-                "type": "prod",
-                "name": "repeating-linear-gradient()",
-                "dfnName": "<repeating-linear-gradient()>",
-                "source": {
-                    "spec": "css-images-4",
-                    "line": 1586
-                },
-                "value": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
-            },
-            {
-                "type": "prod",
-                "name": "repeating-radial-gradient()",
-                "dfnName": "<repeating-radial-gradient()>",
-                "source": {
-                    "spec": "css-images-4",
-                    "line": 1587
-                },
-                "value": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
             },
             {
                 "type": "prod",
@@ -23804,7 +23754,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 827
+                    "line": 823
                 },
                 "content": "[Exposed=Window]\ninterface CSSSupportsRule : CSSConditionRule {\n};"
             },
@@ -23812,7 +23762,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 865
+                    "line": 861
                 },
                 "content": "[Exposed=Window]\ninterface CSSDocumentRule : CSSConditionRule {\n};"
             },
@@ -23820,7 +23770,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-conditional-3",
-                    "line": 878
+                    "line": 874
                 },
                 "content": "partial namespace CSS {\n  boolean supports(CSSOMString property, CSSOMString value);\n  boolean supports(CSSOMString conditionText);\n};"
             },
@@ -24444,7 +24394,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1334
+                    "line": 1342
                 },
                 "content": "dictionary AnimationTimeOptions {\n  DOMString? range;\n};\n[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional AnimationTimeOptions options = {});\n};"
             },
