@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-08T00:47:22.358Z",
-    "elapsedTime": 446,
+    "createdAt": "2023-05-09T00:50:47.721Z",
+    "elapsedTime": 386,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "c5dff3bbba5ace33cecba3b8bc57d1c64c8392c4",
-            "commitShort": "c5dff3bbba",
+            "commit": "6ab5888d05ef3f445e26a1ca81081a7b912016ed",
+            "commitShort": "6ab5888d05",
             "commitDate": null,
             "branch": "main"
         },
@@ -22345,7 +22345,7 @@
                 "dfnName": "<an+b>",
                 "source": {
                     "spec": "css-syntax-3",
-                    "line": 2988
+                    "line": 2997
                 },
                 "attrs": {
                     "id": "anb-production"
