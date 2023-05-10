@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-09T00:50:47.721Z",
-    "elapsedTime": 386,
+    "createdAt": "2023-05-10T00:49:10.137Z",
+    "elapsedTime": 562,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6ab5888d05ef3f445e26a1ca81081a7b912016ed",
-            "commitShort": "6ab5888d05",
+            "commit": "abb519605aa38243f8d89bfb9ae7a0530adf5c85",
+            "commitShort": "abb519605a",
             "commitDate": null,
             "branch": "main"
         },
@@ -12851,7 +12851,7 @@
                 },
                 "props": {
                     "name": "scroll-start-target",
-                    "value": "[ none | auto ]"
+                    "value": "[ none | auto ]{1,2}"
                 },
                 "name": "scroll-start-target"
             },
@@ -12926,6 +12926,78 @@
                     "animationType": "by computed value type"
                 },
                 "name": "scroll-start-block"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-scroll-snap-2",
+                    "line": 340
+                },
+                "props": {
+                    "name": "scroll-start-target-block",
+                    "value": "auto | none",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "either of the keywords \"none\" or \"auto\"",
+                    "animationType": "not animatable"
+                },
+                "name": "scroll-start-target-block"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-scroll-snap-2",
+                    "line": 340
+                },
+                "props": {
+                    "name": "scroll-start-target-inline",
+                    "value": "auto | none",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "either of the keywords \"none\" or \"auto\"",
+                    "animationType": "not animatable"
+                },
+                "name": "scroll-start-target-inline"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-scroll-snap-2",
+                    "line": 356
+                },
+                "props": {
+                    "name": "scroll-start-target-x",
+                    "value": "none | auto",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "either of the keywords \"none\" or \"auto\"",
+                    "animationType": "not animatable"
+                },
+                "name": "scroll-start-target-x"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-scroll-snap-2",
+                    "line": 356
+                },
+                "props": {
+                    "name": "scroll-start-target-y",
+                    "value": "none | auto",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "either of the keywords \"none\" or \"auto\"",
+                    "animationType": "not animatable"
+                },
+                "name": "scroll-start-target-y"
             },
             {
                 "type": "prop",
