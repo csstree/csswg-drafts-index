@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-12T00:49:08.326Z",
-    "elapsedTime": 419,
+    "createdAt": "2023-05-13T00:46:32.037Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "14a0f8c9e67bedd0fc65b691739f866ee36dd7bf",
-            "commitShort": "14a0f8c9e6",
+            "commit": "ea43cbf4474e7d16364064f70abe9c6b83bb248b",
+            "commitShort": "ea43cbf447",
             "commitDate": null,
             "branch": "main"
         },
@@ -2232,10 +2232,20 @@
                 }
             },
             {
-                "file": "css-page-4/Overview.src.html",
+                "file": "css-page-4/Overview.bs",
                 "id": "css-page-4",
                 "props": {
-                    "title": "Proposals for the future of CSS Paged Media"
+                    "title": "Proposals for the future of CSS Paged Media",
+                    "shortname": "css-page",
+                    "level": "4",
+                    "group": "csswg",
+                    "status": "UD",
+                    "workStatus": "exploring",
+                    "ed": "https://drafts.csswg.org/css-page-4/",
+                    "editor": [
+                        "Daniel Glazman, Disruptive Innovations"
+                    ],
+                    "abstract": "A list of issues with the current CSS page model, and possibly directions to explore for fixing it."
                 }
             },
             {
@@ -2616,8 +2626,7 @@
                     "group": "csswg",
                     "shortname": "css-scroll-snap",
                     "level": "2",
-                    "status": "UD",
-                    "warning": "Not Ready",
+                    "status": "ED",
                     "implementationReport": "https://wpt.fyi/results/css/css-scroll-snap",
                     "workStatus": "Testing",
                     "ed": "https://drafts.csswg.org/css-scroll-snap-2/",
@@ -12835,7 +12844,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 132
+                    "line": 131
                 },
                 "props": {
                     "name": "scroll-start",
@@ -12847,7 +12856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 197
+                    "line": 196
                 },
                 "props": {
                     "name": "scroll-start-target",
@@ -12859,7 +12868,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 309
+                    "line": 308
                 },
                 "props": {
                     "name": "scroll-start-x",
@@ -12877,7 +12886,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 309
+                    "line": 308
                 },
                 "props": {
                     "name": "scroll-start-y",
@@ -12895,7 +12904,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 325
+                    "line": 324
                 },
                 "props": {
                     "name": "scroll-start-inline",
@@ -12913,7 +12922,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 325
+                    "line": 324
                 },
                 "props": {
                     "name": "scroll-start-block",
@@ -12931,7 +12940,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 340
+                    "line": 339
                 },
                 "props": {
                     "name": "scroll-start-target-block",
@@ -12949,7 +12958,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 340
+                    "line": 339
                 },
                 "props": {
                     "name": "scroll-start-target-inline",
@@ -12967,7 +12976,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 356
+                    "line": 355
                 },
                 "props": {
                     "name": "scroll-start-target-x",
@@ -12985,7 +12994,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 356
+                    "line": 355
                 },
                 "props": {
                     "name": "scroll-start-target-y",
@@ -22417,7 +22426,7 @@
                 "dfnName": "<an+b>",
                 "source": {
                     "spec": "css-syntax-3",
-                    "line": 3062
+                    "line": 3081
                 },
                 "attrs": {
                     "id": "anb-production"
@@ -24002,7 +24011,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 1165
+                    "line": 1166
                 },
                 "content": "partial interface CSSStyleRule {\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
             },
@@ -24130,7 +24139,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1086
+                    "line": 1084
                 },
                 "content": "partial interface CSSStyleSheet {\n  [SameObject] readonly attribute CSSRuleList rules;\n  long addRule(optional DOMString selector = \"undefined\", optional DOMString style = \"undefined\", optional unsigned long index);\n  undefined removeRule(optional unsigned long index = 0);\n};"
             },
@@ -24138,7 +24147,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1302
+                    "line": 1300
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheetList {\n  getter CSSStyleSheet? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -24146,7 +24155,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1322
+                    "line": 1320
                 },
                 "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n  attribute ObservableArray&lt;CSSStyleSheet> adoptedStyleSheets;\n};"
             },
@@ -24154,7 +24163,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1398
+                    "line": 1396
                 },
                 "content": "interface mixin LinkStyle {\n  readonly attribute CSSStyleSheet? sheet;\n};"
             },
@@ -24162,7 +24171,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1444
+                    "line": 1442
                 },
                 "content": "ProcessingInstruction includes LinkStyle;"
             },
@@ -24170,7 +24179,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1891
+                    "line": 1889
                 },
                 "content": "[Exposed=Window]\ninterface CSSRuleList {\n  getter CSSRule? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -24178,7 +24187,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1915
+                    "line": 1913
                 },
                 "content": "[Exposed=Window]\ninterface CSSRule {\n  attribute CSSOMString cssText;\n  readonly attribute CSSRule? parentRule;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  // the following attribute and constants are historical\n  readonly attribute unsigned short type;\n  const unsigned short STYLE_RULE = 1;\n  const unsigned short CHARSET_RULE = 2;\n  const unsigned short IMPORT_RULE = 3;\n  const unsigned short MEDIA_RULE = 4;\n  const unsigned short FONT_FACE_RULE = 5;\n  const unsigned short PAGE_RULE = 6;\n  const unsigned short MARGIN_RULE = 9;\n  const unsigned short NAMESPACE_RULE = 10;\n};"
             },
@@ -24186,7 +24195,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2003
+                    "line": 2001
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24194,7 +24203,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2042
+                    "line": 2040
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet? styleSheet;\n  readonly attribute CSSOMString? layerName;\n  readonly attribute CSSOMString? supportsText;\n};"
             },
@@ -24202,7 +24211,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2078
+                    "line": 2076
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -24210,7 +24219,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2112
+                    "line": 2110
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24218,7 +24227,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2148
+                    "line": 2146
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24226,7 +24235,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2177
+                    "line": 2175
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -24234,7 +24243,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2369
+                    "line": 2367
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -24242,7 +24251,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2992
+                    "line": 2990
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24250,7 +24259,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3004
+                    "line": 3002
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -24258,7 +24267,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3010
+                    "line": 3008
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -24266,7 +24275,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3016
+                    "line": 3014
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -24274,7 +24283,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3023
+                    "line": 3021
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -24282,7 +24291,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3094
+                    "line": 3092
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
