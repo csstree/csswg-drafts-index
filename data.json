@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-16T00:50:20.529Z",
-    "elapsedTime": 459,
+    "createdAt": "2023-05-17T00:53:07.220Z",
+    "elapsedTime": 447,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7d8f178fe0e6f8bf49603a694fd53781364890c2",
-            "commitShort": "7d8f178fe0",
+            "commit": "f66b127d285c487df8fc0dccebd8ecf08500fe1c",
+            "commitShort": "f66b127d28",
             "commitDate": null,
             "branch": "main"
         },
@@ -4369,7 +4369,7 @@
                 "props": {
                     "name": "anchor-scroll",
                     "value": "none | default | <anchor-element>",
-                    "initial": "none",
+                    "initial": "default",
                     "inherited": "no",
                     "appliesTo": "[=absolutely-positioned=] elements",
                     "animationType": "discrete"
@@ -4380,7 +4380,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 530
+                    "line": 535
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4396,7 +4396,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 651
+                    "line": 656
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4412,7 +4412,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 772
+                    "line": 777
                 },
                 "props": {
                     "name": "position-fallback",
@@ -12010,7 +12010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-4",
-                    "line": 591
+                    "line": 592
                 },
                 "props": {
                     "name": "overlay",
