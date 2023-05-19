@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-18T00:49:14.395Z",
-    "elapsedTime": 391,
+    "createdAt": "2023-05-19T00:50:48.654Z",
+    "elapsedTime": 411,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f66b127d285c487df8fc0dccebd8ecf08500fe1c",
-            "commitShort": "f66b127d28",
+            "commit": "254d34b1b580231c7470ec2b1126858df9f83191",
+            "commitShort": "254d34b1b5",
             "commitDate": null,
             "branch": "main"
         },
@@ -12010,7 +12010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-position-4",
-                    "line": 592
+                    "line": 585
                 },
                 "props": {
                     "name": "overlay",
@@ -23859,7 +23859,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1876
+                    "line": 1879
                 },
                 "content": "[Exposed=Window]\ninterface ContentVisibilityAutoStateChangeEvent : Event {\n  constructor(DOMString type, optional ContentVisibilityAutoStateChangeEventInit eventInitDict = {});\n  readonly attribute boolean skipped;\n};\ndictionary ContentVisibilityAutoStateChangeEventInit : EventInit {\n  boolean skipped = false;\n};"
             },
@@ -24099,7 +24099,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 918
+                    "line": 921
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24107,7 +24107,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 968
+                    "line": 971
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
