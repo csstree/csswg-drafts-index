@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-23T00:50:37.433Z",
-    "elapsedTime": 458,
+    "createdAt": "2023-05-24T00:51:43.304Z",
+    "elapsedTime": 518,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0dc868d6e06bff9da9053b57ca359550060c6c7e",
-            "commitShort": "0dc868d6e0",
+            "commit": "ce31d97566aa7c6667ea5a89d2c8ac6b8b9d8d44",
+            "commitShort": "ce31d97566",
             "commitDate": null,
             "branch": "main"
         },
@@ -3910,7 +3910,7 @@
                     "title": "Scroll-driven Animations",
                     "group": "CSSWG\nCSSWG",
                     "status": "ED",
-                    "workStatus": "exploring",
+                    "workStatus": "revising",
                     "shortname": "scroll-animations",
                     "level": "1",
                     "tr": "https://www.w3.org/TR/scroll-animations-1/",
