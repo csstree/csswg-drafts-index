@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-25T00:50:10.365Z",
-    "elapsedTime": 382,
+    "createdAt": "2023-05-26T00:49:57.848Z",
+    "elapsedTime": 438,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ce31d97566aa7c6667ea5a89d2c8ac6b8b9d8d44",
-            "commitShort": "ce31d97566",
+            "commit": "7d4d5b02b71b81bd79cdfdf2a3f6cc919b52e286",
+            "commitShort": "7d4d5b02b7",
             "commitDate": null,
             "branch": "main"
         },
@@ -3485,7 +3485,7 @@
                     "level": "1",
                     "status": "WD",
                     "group": "csswg",
-                    "date": "2023-04-18",
+                    "date": "2023-05-19",
                     "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
@@ -7131,7 +7131,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 230
+                    "line": 232
                 },
                 "props": {
                     "name": "system",
@@ -7145,13 +7145,13 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 760
+                    "line": 762
                 },
                 "props": {
                     "name": "negative",
                     "for": "@counter-style",
                     "value": "<symbol> <symbol>?",
-                    "initial": "\"\\2D\" (\"-\" hyphen-minus)"
+                    "initial": "\"-\""
                 },
                 "name": "negative"
             },
@@ -7159,13 +7159,13 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 804
+                    "line": 806
                 },
                 "props": {
                     "name": "prefix",
                     "for": "@counter-style",
                     "value": "<symbol>",
-                    "initial": "\"\" (the empty string)"
+                    "initial": "\"\""
                 },
                 "name": "prefix"
             },
@@ -7173,13 +7173,13 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 832
+                    "line": 834
                 },
                 "props": {
                     "name": "suffix",
                     "for": "@counter-style",
                     "value": "<symbol>",
-                    "initial": "\"\\2E\\20\" (\".\" full stop followed by a space)"
+                    "initial": "\". \""
                 },
                 "name": "suffix"
             },
@@ -7187,7 +7187,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 860
+                    "line": 862
                 },
                 "props": {
                     "name": "range",
@@ -7201,7 +7201,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 933
+                    "line": 935
                 },
                 "props": {
                     "name": "pad",
@@ -7215,7 +7215,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1001
+                    "line": 1003
                 },
                 "props": {
                     "name": "fallback",
@@ -7229,7 +7229,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1044
+                    "line": 1046
                 },
                 "props": {
                     "name": "symbols",
@@ -7243,7 +7243,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1051
+                    "line": 1053
                 },
                 "props": {
                     "name": "additive-symbols",
@@ -7257,7 +7257,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1128
+                    "line": 1130
                 },
                 "props": {
                     "name": "speak-as",
@@ -20739,7 +20739,7 @@
                 "dfnName": "<symbol>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1058
+                    "line": 1060
                 },
                 "value": "<string> | <image> | <custom-ident>"
             },
@@ -20749,7 +20749,7 @@
                 "dfnName": "symbols()",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1232
+                    "line": 1234
                 },
                 "value": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
             },
@@ -20759,7 +20759,7 @@
                 "dfnName": "<symbols-type>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1233
+                    "line": 1235
                 },
                 "value": "cyclic | numeric | alphabetic | symbolic | fixed"
             },
@@ -20769,7 +20769,7 @@
                 "dfnName": "<counter-style>",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 1310
+                    "line": 1312
                 },
                 "attrs": {
                     "type": true
@@ -23874,7 +23874,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2536
+                    "line": 2542
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short COUNTER_STYLE_RULE = 11;\n};"
             },
@@ -23882,7 +23882,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-counter-styles-3",
-                    "line": 2548
+                    "line": 2554
                 },
                 "content": "[Exposed=Window]\ninterface CSSCounterStyleRule : CSSRule {\n  attribute CSSOMString name;\n  attribute CSSOMString system;\n  attribute CSSOMString symbols;\n  attribute CSSOMString additiveSymbols;\n  attribute CSSOMString negative;\n  attribute CSSOMString prefix;\n  attribute CSSOMString suffix;\n  attribute CSSOMString range;\n  attribute CSSOMString pad;\n  attribute CSSOMString speakAs;\n  attribute CSSOMString fallback;\n};"
             },
