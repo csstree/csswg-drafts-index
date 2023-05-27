@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-05-26T00:49:57.848Z",
-    "elapsedTime": 438,
+    "createdAt": "2023-05-27T00:52:30.678Z",
+    "elapsedTime": 383,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7d4d5b02b71b81bd79cdfdf2a3f6cc919b52e286",
-            "commitShort": "7d4d5b02b7",
+            "commit": "31e1cde9fda95ffd5ff23ea4693ffd945a0dfa40",
+            "commitShort": "31e1cde9fd",
             "commitDate": null,
             "branch": "main"
         },
@@ -2649,9 +2649,7 @@
                     "group": "csswg",
                     "shortname": "css-scrollbars",
                     "level": "1",
-                    "status": "CR",
-                    "date": "2021-12-07",
-                    "deadline": "2022-02-07",
+                    "status": "ED",
                     "prepareForTr": "yes",
                     "workStatus": "Revising",
                     "implementationReport": "https://wpt.fyi/results/css/css-scrollbars?label=experimental&label=master&aligned",
@@ -13011,7 +13009,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 94
+                    "line": 92
                 },
                 "props": {
                     "name": "scrollbar-color",
@@ -13029,7 +13027,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 185
+                    "line": 183
                 },
                 "props": {
                     "name": "scrollbar-width",
@@ -13037,7 +13035,7 @@
                     "initial": "auto",
                     "inherited": "no",
                     "computedValue": "specified keyword",
-                    "animationType": "by computed value",
+                    "animationType": "discrete",
                     "appliesTo": "[=scroll containers=]",
                     "percentages": "n/a"
                 },
