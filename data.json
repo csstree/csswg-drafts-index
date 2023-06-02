@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-01T01:07:26.351Z",
-    "elapsedTime": 426,
+    "createdAt": "2023-06-02T00:57:26.758Z",
+    "elapsedTime": 401,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "085903da4ea8bfa4303a2c06c40d31cc7c4dc359",
-            "commitShort": "085903da4e",
+            "commit": "035074172d7ed8e503e30748fd5aaff8aba31ac8",
+            "commitShort": "035074172d",
             "commitDate": null,
             "branch": "main"
         },
@@ -3483,7 +3483,7 @@
                     "level": "1",
                     "status": "WD",
                     "group": "csswg",
-                    "date": "2023-05-29",
+                    "date": "2023-05-30",
                     "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
@@ -6679,7 +6679,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1779
+                    "line": 1754
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -12873,6 +12873,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start",
                     "percentages": "relative to the corresponding axis of the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12891,6 +12892,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start",
                     "percentages": "relative to the corresponding axis of the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12901,7 +12903,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 324
+                    "line": 325
                 },
                 "props": {
                     "name": "scroll-start-inline",
@@ -12909,6 +12911,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start",
                     "percentages": "relative to the corresponding axis of the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12919,7 +12922,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 324
+                    "line": 325
                 },
                 "props": {
                     "name": "scroll-start-block",
@@ -12927,6 +12930,7 @@
                     "initial": "auto",
                     "appliesTo": "scroll containers",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start",
                     "percentages": "relative to the corresponding axis of the scroll container’s scrollport",
                     "computedValue": "the keyword auto or a computed <length-percentage> value",
                     "animationType": "by computed value type"
@@ -12937,7 +12941,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 339
+                    "line": 341
                 },
                 "props": {
                     "name": "scroll-start-target-block",
@@ -12945,6 +12949,7 @@
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start-target",
                     "percentages": "n/a",
                     "computedValue": "either of the keywords \"none\" or \"auto\"",
                     "animationType": "not animatable"
@@ -12955,7 +12960,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 339
+                    "line": 341
                 },
                 "props": {
                     "name": "scroll-start-target-inline",
@@ -12963,6 +12968,7 @@
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start-target",
                     "percentages": "n/a",
                     "computedValue": "either of the keywords \"none\" or \"auto\"",
                     "animationType": "not animatable"
@@ -12973,7 +12979,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 355
+                    "line": 358
                 },
                 "props": {
                     "name": "scroll-start-target-x",
@@ -12981,6 +12987,7 @@
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start-target",
                     "percentages": "n/a",
                     "computedValue": "either of the keywords \"none\" or \"auto\"",
                     "animationType": "not animatable"
@@ -12991,7 +12998,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 355
+                    "line": 358
                 },
                 "props": {
                     "name": "scroll-start-target-y",
@@ -12999,6 +13006,7 @@
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
+                    "logicalPropertyGroup": "scroll-start-target",
                     "percentages": "n/a",
                     "computedValue": "either of the keywords \"none\" or \"auto\"",
                     "animationType": "not animatable"
@@ -19103,7 +19111,7 @@
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
-                    "value": "[ block | inline | vertical | horizontal ]#",
+                    "value": "[ block | inline | x | y ]#",
                     "initial": "block",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -19169,7 +19177,7 @@
                 },
                 "props": {
                     "name": "view-timeline-axis",
-                    "value": "[ block | inline | vertical | horizontal ]#",
+                    "value": "[ block | inline | x | y ]#",
                     "initial": "block",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -19828,7 +19836,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1984
+                    "line": 1985
                 },
                 "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]"
             },
@@ -19838,7 +19846,7 @@
                 "dfnName": "hsla()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1985
+                    "line": 1986
                 },
                 "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
             },
@@ -19848,7 +19856,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1986
+                    "line": 1987
                 },
                 "value": "hsl( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -19858,7 +19866,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1991
+                    "line": 1992
                 },
                 "value": "hsla( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -19868,7 +19876,7 @@
                 "dfnName": "<<legacy-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1996
+                    "line": 1997
                 },
                 "value": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -19878,7 +19886,7 @@
                 "dfnName": "<<legacy-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1997
+                    "line": 1998
                 },
                 "value": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -19888,9 +19896,9 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2519
+                    "line": 2520
                 },
-                "value": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
+                "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
             {
                 "type": "prod",
@@ -19898,7 +19906,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3087
+                    "line": 3105
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19908,7 +19916,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3160
+                    "line": 3180
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19918,7 +19926,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3250
+                    "line": 3272
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19928,7 +19936,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3323
+                    "line": 3346
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -19938,7 +19946,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3489
+                    "line": 3513
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -19948,7 +19956,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3497
+                    "line": 3521
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -19958,7 +19966,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3498
+                    "line": 3522
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -19968,7 +19976,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3499
+                    "line": 3523
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -19978,7 +19986,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3500
+                    "line": 3524
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -19988,7 +19996,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3501
+                    "line": 3525
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -19998,7 +20006,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3502
+                    "line": 3526
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20008,7 +20016,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4416
+                    "line": 4442
                 },
                 "attrs": {
                     "export": true
@@ -20021,7 +20029,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4417
+                    "line": 4443
                 },
                 "attrs": {
                     "export": true
@@ -20034,7 +20042,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4418
+                    "line": 4444
                 },
                 "attrs": {
                     "export": true
@@ -20047,7 +20055,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4419
+                    "line": 4445
                 },
                 "attrs": {
                     "export": true
@@ -20060,7 +20068,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4420
+                    "line": 4446
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -20193,7 +20201,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1468
+                    "line": 1476
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20203,7 +20211,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1469
+                    "line": 1477
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20213,7 +20221,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1470
+                    "line": 1478
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]#"
             },
@@ -20223,7 +20231,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1471
+                    "line": 1479
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20233,7 +20241,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1472
+                    "line": 1480
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20243,7 +20251,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1473
+                    "line": 1481
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -20253,7 +20261,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1474
+                    "line": 1482
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20263,7 +20271,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2277
+                    "line": 2252
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )"
             },
@@ -20273,7 +20281,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2278
+                    "line": 2253
                 },
                 "value": "<number> | <percentage>"
             },
@@ -20283,7 +20291,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2454
+                    "line": 2429
                 },
                 "attrs": {
                     "export": true
@@ -20296,7 +20304,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2455
+                    "line": 2430
                 },
                 "attrs": {
                     "export": true
@@ -20309,7 +20317,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2456
+                    "line": 2431
                 },
                 "attrs": {
                     "export": true
@@ -20322,7 +20330,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2457
+                    "line": 2432
                 },
                 "attrs": {
                     "export": true
@@ -20335,7 +20343,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2458
+                    "line": 2433
                 },
                 "attrs": {
                     "export": true
@@ -20348,7 +20356,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2459
+                    "line": 2434
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -23393,7 +23401,7 @@
                 "attrs": {
                     "noexport": true
                 },
-                "value": "block | inline | vertical | horizontal"
+                "value": "block | inline | x | y"
             },
             {
                 "type": "prod",
@@ -23800,7 +23808,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2853
+                    "line": 2828
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -24096,7 +24104,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 921
+                    "line": 917
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24104,7 +24112,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 971
+                    "line": 967
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -24458,7 +24466,7 @@
                     "spec": "scroll-animations-1",
                     "line": 231
                 },
-                "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"horizontal\",\n  \"vertical\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
+                "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"x\",\n  \"y\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
             {
                 "type": "idl",
