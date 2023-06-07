@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-06T00:58:22.643Z",
-    "elapsedTime": 448,
+    "createdAt": "2023-06-07T00:59:07.128Z",
+    "elapsedTime": 436,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "bf33c6b55589b4e74062a593b52d85e5afe53d65",
-            "commitShort": "bf33c6b555",
+            "commit": "5b54c6ab844bae9c66eb64a11c4c0658545ba456",
+            "commitShort": "5b54c6ab84",
             "commitDate": null,
             "branch": "main"
         },
@@ -4361,23 +4361,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 449
-                },
-                "props": {
-                    "name": "anchor-scroll",
-                    "value": "none | default | <anchor-element>",
-                    "initial": "default",
-                    "inherited": "no",
-                    "appliesTo": "[=absolutely-positioned=] elements",
-                    "animationType": "discrete"
-                },
-                "name": "anchor-scroll"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-anchor-position-1",
-                    "line": 535
+                    "line": 116
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4393,7 +4377,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 656
+                    "line": 274
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4409,7 +4393,23 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 777
+                    "line": 639
+                },
+                "props": {
+                    "name": "anchor-scroll",
+                    "value": "none | default | <anchor-element>",
+                    "initial": "default",
+                    "inherited": "no",
+                    "appliesTo": "[=absolutely-positioned=] elements",
+                    "animationType": "discrete"
+                },
+                "name": "anchor-scroll"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 843
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4420,6 +4420,22 @@
                     "animationType": "discrete"
                 },
                 "name": "position-fallback"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1119
+                },
+                "props": {
+                    "name": "position-fallback-bounds",
+                    "value": "normal | <dashed-ident>",
+                    "initial": "normal",
+                    "appliesTo": "[=absolutely positioned=] elements",
+                    "inherited": "no",
+                    "animationType": "discrete"
+                },
+                "name": "position-fallback-bounds"
             },
             {
                 "type": "prop",
@@ -4643,7 +4659,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "list, each item either a case-sensitive [=css identifier=] or\nthe keywords none,\nauto.",
+                    "computedValue": "list, each item either\nthe keyword none,\nthe keyword auto,\na case-sensitive [=css identifier=],\na computed scroll() function,\nor\na computed view() function",
                     "canonicalOrder": "per grammar",
                     "animationType": "not animatable"
                 },
@@ -19090,15 +19106,15 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 351
+                    "line": 337
                 },
                 "props": {
                     "name": "scroll-timeline-name",
-                    "value": "none | <custom-ident>#",
+                    "value": "none | <dashed-ident>#",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
-                    "computedValue": "the keyword none or a list of <custom-ident>s",
+                    "computedValue": "the keyword none or a list of [=CSS identifiers=]",
                     "animationType": "not animatable"
                 },
                 "name": "scroll-timeline-name"
@@ -19107,7 +19123,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 370
+                    "line": 352
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -19124,28 +19140,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 393
-                },
-                "props": {
-                    "name": "scroll-timeline-attachment",
-                    "value": "[ local | defer | ancestor ]#",
-                    "initial": "local",
-                    "appliesTo": "all elements",
-                    "inherited": "no",
-                    "computedValue": "a list of the keywords specified",
-                    "animationType": "not animatable"
-                },
-                "name": "scroll-timeline-attachment"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "scroll-animations-1",
-                    "line": 450
+                    "line": 372
                 },
                 "props": {
                     "name": "scroll-timeline",
-                    "value": "[ <'scroll-timeline-name'> [ <'scroll-timeline-axis'> || <'scroll-timeline-attachment'> ]? ]#",
+                    "value": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "animationType": "not animatable"
@@ -19156,15 +19155,15 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 758
+                    "line": 672
                 },
                 "props": {
                     "name": "view-timeline-name",
-                    "value": "none | <custom-ident>#",
+                    "value": "none | <dashed-ident>#",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
-                    "computedValue": "the keyword none or a list of <custom-ident>s",
+                    "computedValue": "the keyword none or a list of [=CSS identifiers=]",
                     "animationType": "not animatable"
                 },
                 "name": "view-timeline-name"
@@ -19173,7 +19172,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 777
+                    "line": 687
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19190,7 +19189,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 797
+                    "line": 704
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -19208,28 +19207,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 833
-                },
-                "props": {
-                    "name": "view-timeline-attachment",
-                    "value": "[ local | defer | ancestor ]#",
-                    "initial": "local",
-                    "appliesTo": "all elements",
-                    "inherited": "no",
-                    "computedValue": "a list of the keywords specified",
-                    "animationType": "not animatable"
-                },
-                "name": "view-timeline-attachment"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "scroll-animations-1",
-                    "line": 888
+                    "line": 737
                 },
                 "props": {
                     "name": "view-timeline",
-                    "value": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-attachment'> ]? ]#",
+                    "value": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
                     "appliesTo": "all elements"
                 },
                 "name": "view-timeline"
@@ -19238,7 +19220,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1198
+                    "line": 1040
                 },
                 "props": {
                     "name": "animation-range",
@@ -19250,7 +19232,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1255
+                    "line": 1097
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19268,7 +19250,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1299
+                    "line": 1141
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19281,6 +19263,23 @@
                     "animationType": "not animatable"
                 },
                 "name": "animation-range-end"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "scroll-animations-1",
+                    "line": 1254
+                },
+                "props": {
+                    "name": "timeline-scope",
+                    "value": "none | <dashed-ident>#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "computedValue": "the keyword none or a list of [=CSS identifiers=]",
+                    "animationType": "not animatable"
+                },
+                "name": "timeline-scope"
             }
         ],
         "prods": [
@@ -19340,7 +19339,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 95
+                    "line": 355
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -19350,7 +19349,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 96
+                    "line": 356
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -19360,7 +19359,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 401
+                    "line": 756
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -19460,9 +19459,9 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 628
+                    "line": 632
                 },
-                "value": "auto | none | <custom-ident> | <scroll()> | <view()>"
+                "value": "auto | none | <dashed-ident> | <scroll()> | <view()>"
             },
             {
                 "type": "prod",
@@ -19470,7 +19469,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 682
+                    "line": 686
                 },
                 "value": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23806,7 +23805,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 845
+                    "line": 849
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
@@ -24478,7 +24477,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 631
+                    "line": 553
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24486,7 +24485,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1346
+                    "line": 1188
                 },
                 "content": "dictionary AnimationTimeOptions {\n  DOMString? range;\n};\n[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional AnimationTimeOptions options = {});\n};"
             },
