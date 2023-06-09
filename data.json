@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-08T00:57:20.561Z",
-    "elapsedTime": 482,
+    "createdAt": "2023-06-09T00:58:43.083Z",
+    "elapsedTime": 402,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "04df2dd6d9e205c2a39f3f229c165f69c0a682be",
-            "commitShort": "04df2dd6d9",
+            "commit": "f8a3cfd47945e38db69469788c8b85196d34e0de",
+            "commitShort": "f8a3cfd479",
             "commitDate": null,
             "branch": "main"
         },
@@ -19110,7 +19110,7 @@
                 },
                 "props": {
                     "name": "scroll-timeline-name",
-                    "value": "none | <dashed-ident>#",
+                    "value": "[ none | <dashed-ident> ]#",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -19159,7 +19159,7 @@
                 },
                 "props": {
                     "name": "view-timeline-name",
-                    "value": "none | <dashed-ident>#",
+                    "value": "[ none | <dashed-ident> ]#",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -19268,7 +19268,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1254
+                    "line": 1193
                 },
                 "props": {
                     "name": "timeline-scope",
@@ -24205,7 +24205,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2001
+                    "line": 1999
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24213,7 +24213,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2040
+                    "line": 2038
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet? styleSheet;\n  readonly attribute CSSOMString? layerName;\n  readonly attribute CSSOMString? supportsText;\n};"
             },
@@ -24221,7 +24221,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2076
+                    "line": 2074
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -24229,7 +24229,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2110
+                    "line": 2108
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24237,7 +24237,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2146
+                    "line": 2144
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24245,7 +24245,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2175
+                    "line": 2173
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -24253,7 +24253,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2367
+                    "line": 2365
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -24261,7 +24261,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2990
+                    "line": 2988
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -24269,7 +24269,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3002
+                    "line": 3000
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -24277,7 +24277,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3008
+                    "line": 3006
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -24285,7 +24285,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3014
+                    "line": 3012
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -24293,7 +24293,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3021
+                    "line": 3019
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -24301,7 +24301,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3092
+                    "line": 3090
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
@@ -24480,14 +24480,6 @@
                     "line": 553
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
-            },
-            {
-                "type": "idl",
-                "source": {
-                    "spec": "scroll-animations-1",
-                    "line": 1188
-                },
-                "content": "dictionary AnimationTimeOptions {\n  DOMString? range;\n};\n[Exposed=Window]\npartial interface AnimationTimeline {\n  CSSNumericValue? getCurrentTime(optional AnimationTimeOptions options = {});\n};"
             },
             {
                 "type": "idl",
