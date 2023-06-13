@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-12T00:59:18.897Z",
-    "elapsedTime": 406,
+    "createdAt": "2023-06-13T00:56:33.398Z",
+    "elapsedTime": 375,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f8a3cfd47945e38db69469788c8b85196d34e0de",
-            "commitShort": "f8a3cfd479",
+            "commit": "6afcbc9627c8b809e63ae4b3a942925328391235",
+            "commitShort": "6afcbc9627",
             "commitDate": null,
             "branch": "main"
         },
@@ -4631,7 +4631,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 519
+                    "line": 518
                 },
                 "props": {
                     "name": "animation-composition",
@@ -4650,7 +4650,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 613
+                    "line": 612
                 },
                 "props": {
                     "name": "animation-timeline",
@@ -19449,7 +19449,7 @@
                 "dfnName": "<single-animation-composition>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 531
+                    "line": 530
                 },
                 "value": "replace | add | accumulate"
             },
@@ -19459,7 +19459,7 @@
                 "dfnName": "<single-animation-timeline>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 632
+                    "line": 631
                 },
                 "value": "auto | none | <dashed-ident> | <scroll()> | <view()>"
             },
@@ -19469,7 +19469,7 @@
                 "dfnName": "<single-animation>",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 686
+                    "line": 685
                 },
                 "value": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
             },
@@ -23805,7 +23805,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-animations-2",
-                    "line": 849
+                    "line": 848
                 },
                 "content": "[Exposed=Window]\ninterface CSSAnimation : Animation {\n  readonly attribute CSSOMString animationName;\n};"
             },
