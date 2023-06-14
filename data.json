@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-13T00:56:33.398Z",
-    "elapsedTime": 375,
+    "createdAt": "2023-06-14T00:54:44.455Z",
+    "elapsedTime": 422,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6afcbc9627c8b809e63ae4b3a942925328391235",
-            "commitShort": "6afcbc9627",
+            "commit": "32beecf6f17140e056dbfbd1a2b2a1a105929e87",
+            "commitShort": "32beecf6f1",
             "commitDate": null,
             "branch": "main"
         },
@@ -4409,7 +4409,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 843
+                    "line": 850
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4425,7 +4425,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1119
+                    "line": 1136
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -19359,7 +19359,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 756
+                    "line": 763
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -22436,7 +22436,7 @@
                 "dfnName": "<an+b>",
                 "source": {
                     "spec": "css-syntax-3",
-                    "line": 3180
+                    "line": 3182
                 },
                 "attrs": {
                     "id": "anb-production"
@@ -24117,7 +24117,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 927
+                    "line": 935
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
