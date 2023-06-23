@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-22T00:55:45.129Z",
-    "elapsedTime": 391,
+    "createdAt": "2023-06-23T01:00:47.947Z",
+    "elapsedTime": 400,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "81925c74172f9aa0c10a9fed26979cdfd74d89b2",
-            "commitShort": "81925c7417",
+            "commit": "3db2912b9491c8e6b93abd5bbf5e217b01594384",
+            "commitShort": "3db2912b94",
             "commitDate": null,
             "branch": "main"
         },
@@ -22872,7 +22872,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4038
+                    "line": 4044
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22882,7 +22882,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4039
+                    "line": 4045
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -22892,7 +22892,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4040
+                    "line": 4046
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -22902,7 +22902,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4042
+                    "line": 4048
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -24102,7 +24102,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 430
+                    "line": 282
+                },
+                "content": "[Exposed=Window]\ninterface CSSStartingStyleRule : CSSGroupingRule {\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-transitions-2",
+                    "line": 549
                 },
                 "content": "[Exposed=Window]\ninterface CSSTransition : Animation {\n  readonly attribute CSSOMString transitionProperty;\n};"
             },
