@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-06-27T01:01:18.906Z",
-    "elapsedTime": 386,
+    "createdAt": "2023-06-28T01:03:07.743Z",
+    "elapsedTime": 494,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3db2912b9491c8e6b93abd5bbf5e217b01594384",
-            "commitShort": "3db2912b94",
+            "commit": "624becda6d0dcc6b68744d9c85aee1be9adca5a6",
+            "commitShort": "624becda6d",
             "commitDate": null,
             "branch": "main"
         },
@@ -230,13 +230,17 @@
                     "shortname": "css-anchor-position",
                     "level": "1",
                     "status": "ED",
+                    "prepareForTr": "no",
                     "group": "csswg",
                     "workStatus": "exploring",
                     "ed": "https://drafts.csswg.org/css-anchor-position-1/",
+                    "tr": "https://www.w3.org/TR/css-anchor-position-1/",
                     "editor": [
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Jhey Tompkins, Google, https://twitter.com/jh3yy, w3cid 137616",
-                        "Ian Kilpatrick, Google"
+                        "Ian Kilpatrick, Google, w3cid 73001"
+                    ],
+                    "formerEditor": [
+                        "Jhey Tompkins, Google, https://twitter.com/jh3yy, w3cid 137616"
                     ],
                     "abstract": "This specification defines 'anchor positioning', where a positioned element can size and position itself relative to one or more \"anchor elements\" elsewhere on the page."
                 }
@@ -4362,7 +4366,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 116
+                    "line": 119
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4378,7 +4382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 274
+                    "line": 277
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4394,7 +4398,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 639
+                    "line": 642
                 },
                 "props": {
                     "name": "anchor-scroll",
@@ -4410,7 +4414,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 850
+                    "line": 853
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4426,7 +4430,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 971
+                    "line": 974
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -19340,7 +19344,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 355
+                    "line": 358
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -19350,7 +19354,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 356
+                    "line": 359
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -19360,7 +19364,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 763
+                    "line": 766
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
