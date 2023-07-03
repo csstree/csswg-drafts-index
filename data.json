@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-02T01:03:41.163Z",
-    "elapsedTime": 437,
+    "createdAt": "2023-07-03T01:02:05.915Z",
+    "elapsedTime": 503,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2d4092b9401a9a9599c9ea676ccccc440ae64044",
-            "commitShort": "2d4092b940",
+            "commit": "4b7bc9e4c08360954a5241b22db213cc66534c5f",
+            "commitShort": "4b7bc9e4c0",
             "commitDate": null,
             "branch": "main"
         },
@@ -5625,7 +5625,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-top-radius"
             },
@@ -5643,7 +5643,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-right-radius"
             },
@@ -5661,7 +5661,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-bottom-radius"
             },
@@ -5679,7 +5679,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-left-radius"
             },
@@ -5697,7 +5697,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-block-start-radius"
             },
@@ -5715,7 +5715,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-block-end-radius"
             },
@@ -5733,7 +5733,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-inline-start-radius"
             },
@@ -5751,7 +5751,7 @@
                     "inherited": "no",
                     "percentages": "Refer to corresponding dimension of the border box.",
                     "computedValue": "see individual properties",
-                    "animatable": "see individual properties"
+                    "animationType": "see individual properties"
                 },
                 "name": "border-inline-end-radius"
             },
@@ -5915,7 +5915,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "list, each item a computed color",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "box-shadow-color"
             },
@@ -5933,7 +5933,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "either 'none' or a list,\neach item a pair of offsets (horizontal and vertical) from the element‘s box",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "box-shadow-offset"
             },
@@ -5951,7 +5951,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "list, each item a <length>",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "box-shadow-blur"
             },
@@ -5969,7 +5969,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "list, each item a <length>",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "box-shadow-spread"
             },
@@ -5987,7 +5987,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "list, each item one of the keywords",
-                    "animatable": "by computed value"
+                    "animationType": "by computed value"
                 },
                 "name": "box-shadow-position"
             },
@@ -6005,7 +6005,7 @@
                     "inherited": "no",
                     "percentages": "N/A",
                     "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color and optionally also a inset keyword",
-                    "animatable": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the shorter list is otherwise compatible with the longer one"
+                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the shorter list is otherwise compatible with the longer one"
                 },
                 "name": "box-shadow"
             },
@@ -6787,7 +6787,7 @@
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified value",
-                    "animatable": "no",
+                    "animationType": "not animatable",
                     "canonicalOrder": "per grammar"
                 },
                 "name": "foo"
@@ -16430,7 +16430,7 @@
                     "inherited": "n/a",
                     "percentages": "n/a",
                     "computedValue": "n/a",
-                    "animatable": "n/a",
+                    "animationType": "n/a",
                     "canonicalOrder": "n/a"
                 },
                 "name": "glyph-orientation-vertical"
@@ -16543,7 +16543,7 @@
                     "inherited": "n/a",
                     "percentages": "n/a",
                     "computedValue": "n/a",
-                    "animatable": "n/a",
+                    "animationType": "n/a",
                     "canonicalOrder": "n/a"
                 },
                 "name": "glyph-orientation-vertical"
