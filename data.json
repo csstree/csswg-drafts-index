@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-07T01:03:18.538Z",
-    "elapsedTime": 394,
+    "createdAt": "2023-07-08T01:01:53.660Z",
+    "elapsedTime": 411,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "9cd3851f6e5869c2c753e2704a9402bc0ca10fe8",
-            "commitShort": "9cd3851f6e",
+            "commit": "a2d28d318523302a64ed173b0fae7b320d345453",
+            "commitShort": "a2d28d3185",
             "commitDate": null,
             "branch": "main"
         },
@@ -4398,23 +4398,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 648
-                },
-                "props": {
-                    "name": "anchor-scroll",
-                    "value": "none | default | <anchor-element>",
-                    "initial": "default",
-                    "inherited": "no",
-                    "appliesTo": "[=absolutely-positioned=] elements",
-                    "animationType": "discrete"
-                },
-                "name": "anchor-scroll"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-anchor-position-1",
-                    "line": 859
+                    "line": 827
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4430,7 +4414,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 980
+                    "line": 948
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -19364,7 +19348,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 772
+                    "line": 740
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
