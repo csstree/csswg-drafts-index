@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-11T00:56:04.318Z",
-    "elapsedTime": 428,
+    "createdAt": "2023-07-12T01:01:20.227Z",
+    "elapsedTime": 377,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a2d28d318523302a64ed173b0fae7b320d345453",
-            "commitShort": "a2d28d3185",
+            "commit": "2383a6279af1c89127dfb57faeacfdbbbf14d6b5",
+            "commitShort": "2383a6279a",
             "commitDate": null,
             "branch": "main"
         },
@@ -4414,7 +4414,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 948
+                    "line": 949
                 },
                 "props": {
                     "name": "position-fallback-bounds",
