@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-12T01:01:20.227Z",
-    "elapsedTime": 377,
+    "createdAt": "2023-07-13T01:02:19.523Z",
+    "elapsedTime": 397,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2383a6279af1c89127dfb57faeacfdbbbf14d6b5",
-            "commitShort": "2383a6279a",
+            "commit": "92628fefefe6c043387391975e5dd80c1b4dda36",
+            "commitShort": "92628fefef",
             "commitDate": null,
             "branch": "main"
         },
@@ -16294,7 +16294,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 491
+                    "line": 493
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -22950,7 +22950,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 626
+                    "line": 628
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -23990,7 +23990,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-nesting-1",
-                    "line": 1169
+                    "line": 1072
                 },
                 "content": "partial interface CSSStyleRule {\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
             },
@@ -24086,7 +24086,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 877
+                    "line": 882
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24094,7 +24094,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 935
+                    "line": 940
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
