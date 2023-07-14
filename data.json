@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-13T01:02:19.523Z",
-    "elapsedTime": 397,
+    "createdAt": "2023-07-14T01:02:48.645Z",
+    "elapsedTime": 404,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "92628fefefe6c043387391975e5dd80c1b4dda36",
-            "commitShort": "92628fefef",
+            "commit": "e695902bf04bad717b69b3d94efd057368704822",
+            "commitShort": "e695902bf0",
             "commitDate": null,
             "branch": "main"
         },
@@ -3497,6 +3497,30 @@
                         "Khushal Sagar, Google, w3cid 122787"
                     ],
                     "abstract": "This module defines the View Transition API, along with associated properties and pseudo-elements,\nwhich allows developers to create animated visual transitions representing changes in the document state.",
+                    "markupShorthands": "css yes, markdown yes"
+                }
+            },
+            {
+                "file": "css-view-transitions-2/Overview.bs",
+                "id": "css-view-transitions-2",
+                "props": {
+                    "title": "CSS View Transitions Module Level 2",
+                    "shortname": "css-view-transitions",
+                    "level": "2",
+                    "status": "ED",
+                    "group": "csswg",
+                    "date": "2023-05-30",
+                    "prepareForTr": "yes",
+                    "ed": "https://drafts.csswg.org/css-view-transitions-2/",
+                    "tr": "https://www.w3.org/TR/css-view-transitions-2/",
+                    "workStatus": "exploring",
+                    "editor": [
+                        "Noam Rosenthal, Google, w3cid 121539",
+                        "Khushal Sagar, Google, w3cid 122787",
+                        "Vladimir Levin, Google, w3cid 75295",
+                        "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199"
+                    ],
+                    "abstract": "This module defines how the View Transition API works with cross-document navigations.",
                     "markupShorthands": "css yes, markdown yes"
                 }
             },
@@ -16308,6 +16332,20 @@
                 "name": "view-transition-name"
             },
             {
+                "type": "descriptor",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 231
+                },
+                "props": {
+                    "name": "same-origin",
+                    "for": "@auto-view-transition",
+                    "value": "enabled | disabled",
+                    "initial": "disabled"
+                },
+                "name": "same-origin"
+            },
+            {
                 "type": "prop",
                 "source": {
                     "spec": "css-will-change-1",
@@ -23838,9 +23876,9 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-contain-2",
-                    "line": 1879
+                    "line": 1898
                 },
-                "content": "[Exposed=Window]\ninterface ContentVisibilityAutoStateChangeEvent : Event {\n  constructor(DOMString type, optional ContentVisibilityAutoStateChangeEventInit eventInitDict = {});\n  readonly attribute boolean skipped;\n};\ndictionary ContentVisibilityAutoStateChangeEventInit : EventInit {\n  boolean skipped = false;\n};"
+                "content": "[Exposed=Window]\ninterface ContentVisibilityAutoStateChangeEvent : Event {\n    constructor(DOMString type, optional ContentVisibilityAutoStateChangeEventInit eventInitDict = {});\n    readonly attribute boolean skipped;\n};\ndictionary ContentVisibilityAutoStateChangeEventInit : EventInit {\n    boolean skipped = false;\n};"
             },
             {
                 "type": "idl",
@@ -24097,6 +24135,14 @@
                     "line": 940
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 258
+                },
+                "content": "[Exposed=Window]\ninterface PageRevealEvent : Event {\n    readonly attribute ViewTransition? viewTransition;\n};"
             },
             {
                 "type": "idl",
