@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-14T01:02:48.645Z",
-    "elapsedTime": 404,
+    "createdAt": "2023-07-15T01:01:04.919Z",
+    "elapsedTime": 547,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e695902bf04bad717b69b3d94efd057368704822",
-            "commitShort": "e695902bf0",
+            "commit": "4810428e9632d6f320498b53dcc428f187fc2c06",
+            "commitShort": "4810428e96",
             "commitDate": null,
             "branch": "main"
         },
@@ -24027,14 +24027,6 @@
             {
                 "type": "idl",
                 "source": {
-                    "spec": "css-nesting-1",
-                    "line": 1072
-                },
-                "content": "partial interface CSSStyleRule {\n    [SameObject] readonly attribute CSSRuleList cssRules;\n    unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n    undefined deleteRule(unsigned long index);\n};"
-            },
-            {
-                "type": "idl",
-                "source": {
                     "spec": "css-pseudo-4",
                     "line": 1302
                 },
@@ -24230,7 +24222,7 @@
                     "spec": "cssom-1",
                     "line": 1999
                 },
-                "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSGroupingRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
             {
                 "type": "idl",
