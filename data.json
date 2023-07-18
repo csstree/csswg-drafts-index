@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-17T01:04:26.741Z",
-    "elapsedTime": 400,
+    "createdAt": "2023-07-18T01:17:35.189Z",
+    "elapsedTime": 388,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4810428e9632d6f320498b53dcc428f187fc2c06",
-            "commitShort": "4810428e96",
+            "commit": "0cadf5297d3fd3584ca8a74ac0a86d6f28ab4ca2",
+            "commitShort": "0cadf5297d",
             "commitDate": null,
             "branch": "main"
         },
@@ -8732,7 +8732,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2071
+                    "line": 2076
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -8750,7 +8750,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2228
+                    "line": 2233
                 },
                 "props": {
                     "name": "grid-template",
@@ -8764,7 +8764,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2372
+                    "line": 2377
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -8782,7 +8782,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2372
+                    "line": 2377
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -8800,7 +8800,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2445
+                    "line": 2450
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -8818,7 +8818,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2601
+                    "line": 2606
                 },
                 "props": {
                     "name": "grid",
@@ -8832,7 +8832,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2963
+                    "line": 2968
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -8850,7 +8850,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2963
+                    "line": 2968
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -8868,7 +8868,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2963
+                    "line": 2968
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -8886,7 +8886,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2963
+                    "line": 2968
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -8904,7 +8904,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3150
+                    "line": 3155
                 },
                 "props": {
                     "name": "grid-row",
@@ -8921,7 +8921,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3150
+                    "line": 3155
                 },
                 "props": {
                     "name": "grid-column",
@@ -8938,7 +8938,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3171
+                    "line": 3176
                 },
                 "props": {
                     "name": "grid-area",
@@ -21484,7 +21484,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2975
+                    "line": 2980
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
