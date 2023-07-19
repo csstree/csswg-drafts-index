@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-18T01:17:35.189Z",
-    "elapsedTime": 388,
+    "createdAt": "2023-07-19T01:53:39.316Z",
+    "elapsedTime": 408,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0cadf5297d3fd3584ca8a74ac0a86d6f28ab4ca2",
-            "commitShort": "0cadf5297d",
+            "commit": "fcebd4370380536057a5c7b5182932ae67a9b86f",
+            "commitShort": "fcebd43703",
             "commitDate": null,
             "branch": "main"
         },
@@ -4422,7 +4422,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 827
+                    "line": 828
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4438,7 +4438,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 949
+                    "line": 950
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -16335,7 +16335,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 231
+                    "line": 230
                 },
                 "props": {
                     "name": "same-origin",
@@ -19386,7 +19386,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 740
+                    "line": 741
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -24132,7 +24132,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 258
+                    "line": 255
                 },
                 "content": "[Exposed=Window]\ninterface PageRevealEvent : Event {\n    readonly attribute ViewTransition? viewTransition;\n};"
             },
