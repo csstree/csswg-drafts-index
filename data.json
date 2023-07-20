@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-07-19T01:53:39.316Z",
-    "elapsedTime": 408,
+    "createdAt": "2023-07-20T00:54:11.301Z",
+    "elapsedTime": 419,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fcebd4370380536057a5c7b5182932ae67a9b86f",
-            "commitShort": "fcebd43703",
+            "commit": "12a9fb402e5f7c68524170e43ef40ff17eb2712a",
+            "commitShort": "12a9fb402e",
             "commitDate": null,
             "branch": "main"
         },
@@ -350,13 +350,12 @@
                 "file": "css-backgrounds-4/Overview.bs",
                 "id": "css-backgrounds-4",
                 "props": {
-                    "title": "CSS Backgrounds and Borders Module Level 4",
+                    "title": "CSS Backgrounds Module Level 4",
                     "shortname": "css-backgrounds",
                     "level": "4",
                     "status": "ED",
                     "workStatus": "Exploring",
                     "group": "csswg",
-                    "tr": "https://www.w3.org/TR/css-backgrounds-4/",
                     "ed": "https://drafts.csswg.org/css-backgrounds-4/",
                     "editor": [
                         "Bert Bos, W3C, bert@w3.org, w3cid 3343",
@@ -364,7 +363,31 @@
                         "Lea Verou, Invited Expert, http://lea.verou.me/about/, w3cid 52258",
                         "Sebastian Zartner, Invited Expert, sebastianzartner@gmail.com, w3cid 64937"
                     ],
-                    "abstract": "This module contains the features of CSS relating to the borders and backgrounds of boxes on the page. It includes and extends the functionality of <a href=\"https://www.w3.org/TR/css3-background/\">CSS Backgrounds and Borders Level&nbsp;3</a>. [[CSS3BG]] The main extensions compared to level&nbsp;3 are shaping ('corner-shape') and clipping borders ('border-clip'), logical background positions ('background-position'), and the ''extend'' ability of 'background-repeat'.",
+                    "abstract": "This module contains the features of CSS relating to the backgrounds of boxes on the page.",
+                    "ignoredTerms": [
+                        "total width"
+                    ],
+                    "warning": "Not Ready"
+                }
+            },
+            {
+                "file": "css-borders-4/Overview.bs",
+                "id": "css-borders-4",
+                "props": {
+                    "title": "CSS Borders and Box Decorations Module Level 4",
+                    "shortname": "css-borders",
+                    "level": "4",
+                    "status": "ED",
+                    "workStatus": "Exploring",
+                    "group": "csswg",
+                    "ed": "https://drafts.csswg.org/css-borders-4/",
+                    "editor": [
+                        "Bert Bos, W3C, bert@w3.org, w3cid 3343",
+                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Lea Verou, Invited Expert, http://lea.verou.me/about/, w3cid 52258",
+                        "Sebastian Zartner, Invited Expert, sebastianzartner@gmail.com, w3cid 64937"
+                    ],
+                    "abstract": "This module contains the features of CSS relating to the borders and decorations of boxes on the page.",
                     "ignoredTerms": [
                         "total width"
                     ],
@@ -5436,7 +5459,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 41
+                    "line": 42
                 },
                 "props": {
                     "name": "background-position",
@@ -5448,7 +5471,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 90
+                    "line": 91
                 },
                 "props": {
                     "name": "background-position-x",
@@ -5466,7 +5489,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 104
+                    "line": 105
                 },
                 "props": {
                     "name": "background-position-y",
@@ -5484,7 +5507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 118
+                    "line": 119
                 },
                 "props": {
                     "name": "background-position-inline",
@@ -5502,7 +5525,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 132
+                    "line": 133
                 },
                 "props": {
                     "name": "background-position-block",
@@ -5520,7 +5543,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 149
+                    "line": 150
                 },
                 "props": {
                     "name": "background-clip",
@@ -5534,8 +5557,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 192
+                    "spec": "css-borders-4",
+                    "line": 41
                 },
                 "props": {
                     "name": "border-top-color",
@@ -5553,8 +5576,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 192
+                    "spec": "css-borders-4",
+                    "line": 41
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5572,8 +5595,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 192
+                    "spec": "css-borders-4",
+                    "line": 41
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5591,8 +5614,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 192
+                    "spec": "css-borders-4",
+                    "line": 41
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5610,8 +5633,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 204
+                    "spec": "css-borders-4",
+                    "line": 53
                 },
                 "props": {
                     "name": "border-color",
@@ -5622,8 +5645,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-top-radius",
@@ -5640,8 +5663,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-right-radius",
@@ -5658,8 +5681,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-bottom-radius",
@@ -5676,8 +5699,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-left-radius",
@@ -5694,8 +5717,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-block-start-radius",
@@ -5712,8 +5735,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-block-end-radius",
@@ -5730,8 +5753,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-inline-start-radius",
@@ -5748,8 +5771,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 260
+                    "spec": "css-borders-4",
+                    "line": 109
                 },
                 "props": {
                     "name": "border-inline-end-radius",
@@ -5766,8 +5789,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 292
+                    "spec": "css-borders-4",
+                    "line": 141
                 },
                 "props": {
                     "name": "border-radius",
@@ -5782,8 +5805,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 306
+                    "spec": "css-borders-4",
+                    "line": 155
                 },
                 "props": {
                     "name": "corner-shape",
@@ -5798,8 +5821,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 369
+                    "spec": "css-borders-4",
+                    "line": 218
                 },
                 "props": {
                     "name": "corners",
@@ -5810,8 +5833,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 410
+                    "spec": "css-borders-4",
+                    "line": 259
                 },
                 "props": {
                     "name": "border-limit",
@@ -5827,8 +5850,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 469
+                    "spec": "css-borders-4",
+                    "line": 318
                 },
                 "props": {
                     "name": "border-clip",
@@ -5844,8 +5867,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 469
+                    "spec": "css-borders-4",
+                    "line": 318
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5861,8 +5884,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 469
+                    "spec": "css-borders-4",
+                    "line": 318
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -5878,8 +5901,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 469
+                    "spec": "css-borders-4",
+                    "line": 318
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -5895,8 +5918,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 469
+                    "spec": "css-borders-4",
+                    "line": 318
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -5912,8 +5935,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 743
+                    "spec": "css-borders-4",
+                    "line": 592
                 },
                 "props": {
                     "name": "box-shadow-color",
@@ -5930,8 +5953,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 764
+                    "spec": "css-borders-4",
+                    "line": 613
                 },
                 "props": {
                     "name": "box-shadow-offset",
@@ -5948,8 +5971,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 800
+                    "spec": "css-borders-4",
+                    "line": 649
                 },
                 "props": {
                     "name": "box-shadow-blur",
@@ -5966,8 +5989,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 826
+                    "spec": "css-borders-4",
+                    "line": 675
                 },
                 "props": {
                     "name": "box-shadow-spread",
@@ -5984,8 +6007,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 854
+                    "spec": "css-borders-4",
+                    "line": 703
                 },
                 "props": {
                     "name": "box-shadow-position",
@@ -6002,8 +6025,8 @@
             {
                 "type": "prop",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 888
+                    "spec": "css-borders-4",
+                    "line": 737
                 },
                 "props": {
                     "name": "box-shadow",
@@ -16318,7 +16341,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 493
+                    "line": 510
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -19616,7 +19639,7 @@
                 "dfnName": "<bg-position>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 49
+                    "line": 50
                 },
                 "value": "[\n  [ left | center | right | top | bottom | start | end | <length-percentage> ]\n|\n  [ left | center | right | x-start | x-end | <length-percentage> ]\n  [ top | center | bottom | y-start | y-end | <length-percentage> ]\n|\n  [ center | [ left | right | x-start | x-end ] <length-percentage>? ] &&\n  [ center | [ top | bottom | y-start | y-end ] <length-percentage>? ]\n|\n  [ center | [ start | end ] <length-percentage>? ]\n  [ center | [ start | end ] <length-percentage>? ]    ]"
             },
@@ -19626,7 +19649,7 @@
                 "dfnName": "<bg-clip>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 162
+                    "line": 163
                 },
                 "value": "<box> | border | text"
             },
@@ -19635,8 +19658,8 @@
                 "name": "spread-shadow",
                 "dfnName": "<<spread-shadow>>",
                 "source": {
-                    "spec": "css-backgrounds-4",
-                    "line": 915
+                    "spec": "css-borders-4",
+                    "line": 764
                 },
                 "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
@@ -22988,7 +23011,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 628
+                    "line": 645
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24116,7 +24139,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 882
+                    "line": 900
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24124,7 +24147,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 940
+                    "line": 957
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
