@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-02T00:49:24.952Z",
-    "elapsedTime": 403,
+    "createdAt": "2023-08-03T00:49:23.320Z",
+    "elapsedTime": 384,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "bda90fda1e3eaee3cd65cc8601b7f7864f143bc1",
-            "commitShort": "bda90fda1e",
+            "commit": "8c953b46bcd2a412b3e9a7adc8227bb7dadddf17",
+            "commitShort": "8c953b46bc",
             "commitDate": null,
             "branch": "main"
         },
@@ -3507,10 +3507,8 @@
                     "title": "CSS View Transitions Module Level 1",
                     "shortname": "css-view-transitions",
                     "level": "1",
-                    "status": "WD",
+                    "status": "ED",
                     "group": "csswg",
-                    "date": "2023-05-30",
-                    "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
                     "workStatus": "exploring",
@@ -4445,7 +4443,55 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 828
+                    "line": 650
+                },
+                "props": {
+                    "name": "justify-self",
+                    "newValues": "anchor-center"
+                },
+                "name": "justify-self"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 650
+                },
+                "props": {
+                    "name": "align-self",
+                    "newValues": "anchor-center"
+                },
+                "name": "align-self"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 650
+                },
+                "props": {
+                    "name": "justify-items",
+                    "newValues": "anchor-center"
+                },
+                "name": "justify-items"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 650
+                },
+                "props": {
+                    "name": "align-items",
+                    "newValues": "anchor-center"
+                },
+                "name": "align-items"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 893
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4461,7 +4507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 950
+                    "line": 1015
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -5963,8 +6009,8 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "either 'none' or a list,\neach item a pair of offsets (horizontal and vertical) from the element‘s box",
-                    "animationType": "by computed value"
+                    "computedValue": "list, each item either 'none' or a pair of offsets\n(horizontal and vertical) from the element‘s box",
+                    "animationType": "by computed value,\ntreating none as ''0 0''\nwhen interpolated with non-'none' values."
                 },
                 "name": "box-shadow-offset"
             },
@@ -5972,7 +6018,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 654
+                    "line": 663
                 },
                 "props": {
                     "name": "box-shadow-blur",
@@ -5990,7 +6036,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 680
+                    "line": 689
                 },
                 "props": {
                     "name": "box-shadow-spread",
@@ -6008,7 +6054,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 708
+                    "line": 717
                 },
                 "props": {
                     "name": "box-shadow-position",
@@ -6026,7 +6072,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 742
+                    "line": 751
                 },
                 "props": {
                     "name": "box-shadow",
@@ -6035,8 +6081,8 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "either the keyword none or\na list, each item consisting of four absolute lengths\nplus a computed color and optionally also a inset keyword",
-                    "animationType": "by computed value,\ntreating none as a zero-item list\nand appending blank shadows (inset keyword as needed\nto match the longer list\nif the shorter list is otherwise compatible with the longer one"
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
                 },
                 "name": "box-shadow"
             },
@@ -16360,7 +16406,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 510
+                    "line": 508
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -19408,7 +19454,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 364
+                    "line": 368
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -19418,7 +19464,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 365
+                    "line": 369
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -19428,7 +19474,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 741
+                    "line": 806
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -19678,7 +19724,7 @@
                 "dfnName": "<<spread-shadow>>",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 769
+                    "line": 774
                 },
                 "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
@@ -23053,7 +23099,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 645
+                    "line": 643
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24181,7 +24227,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 900
+                    "line": 898
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24189,7 +24235,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 957
+                    "line": 955
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
