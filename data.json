@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-04T00:49:13.686Z",
-    "elapsedTime": 566,
+    "createdAt": "2023-08-05T00:48:36.327Z",
+    "elapsedTime": 532,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "33020a5526b44d8ebb2114fad60c18f765a87b6a",
-            "commitShort": "33020a5526",
+            "commit": "d0f874129add26daafdb38c9be030650191125f9",
+            "commitShort": "d0f874129a",
             "commitDate": null,
             "branch": "main"
         },
@@ -22003,7 +22003,7 @@
                     "spec": "css-images-4",
                     "line": 1675
                 },
-                "value": "<color> && <color-stop-length>?"
+                "value": "<color> <color-stop-length>?"
             },
             {
                 "type": "prod",
@@ -22043,7 +22043,7 @@
                     "spec": "css-images-4",
                     "line": 1681
                 },
-                "value": "<color> && <color-stop-angle>?"
+                "value": "<color> <color-stop-angle>?"
             },
             {
                 "type": "prod",
