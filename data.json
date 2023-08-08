@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-07T00:48:57.699Z",
-    "elapsedTime": 416,
+    "createdAt": "2023-08-08T00:47:44.519Z",
+    "elapsedTime": 508,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0f4f56c2c7c0b016462a428b8b6fd96832d7c5ac",
-            "commitShort": "0f4f56c2c7",
+            "commit": "11b6b73f6ce0b1f1ee8225d5b7232e35357562dc",
+            "commitShort": "11b6b73f6c",
             "commitDate": null,
             "branch": "main"
         },
@@ -2874,7 +2874,7 @@
                     "formerEditor": [
                         "Daniel Weck, DAISY Consortium, dweck@daisy.org",
                         "Claudio Santambrogio, Opera Software",
-                        "Dave Ragett, W3C / Canon, dsr@w3.org"
+                        "Dave Raggett, W3C / Canon, dsr@w3.org"
                     ],
                     "previousVersion": [
                         "https://www.w3.org/TR/2020/CR-css-speech-1-20200310/"
