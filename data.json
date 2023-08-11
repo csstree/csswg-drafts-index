@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-10T00:50:49.193Z",
-    "elapsedTime": 396,
+    "createdAt": "2023-08-11T00:39:33.616Z",
+    "elapsedTime": 532,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "11b6b73f6ce0b1f1ee8225d5b7232e35357562dc",
-            "commitShort": "11b6b73f6c",
+            "commit": "8927120021f02738afd896a000f27dbc193a874c",
+            "commitShort": "8927120021",
             "commitDate": null,
             "branch": "main"
         },
@@ -22976,7 +22976,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 912
+                    "line": 913
                 },
                 "attrs": {
                     "id": "url-value"
@@ -22989,7 +22989,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4045
+                    "line": 4046
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -22999,7 +22999,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4046
+                    "line": 4047
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -23009,7 +23009,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4047
+                    "line": 4048
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
             },
@@ -23019,7 +23019,7 @@
                 "dfnName": "<calc-constant>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4049
+                    "line": 4050
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
