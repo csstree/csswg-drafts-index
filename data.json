@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-15T00:40:07.224Z",
-    "elapsedTime": 633,
+    "createdAt": "2023-08-16T00:39:37.153Z",
+    "elapsedTime": 516,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "74316f614c4ca3536cd555b84084989c0da3c4e7",
-            "commitShort": "74316f614c",
+            "commit": "a318ee33f8ce896bf03e0c859c8858339fb11bfa",
+            "commitShort": "a318ee33f8",
             "commitDate": null,
             "branch": "main"
         },
@@ -2975,7 +2975,7 @@
                     "title": "CSS Text Module Level 3",
                     "shortname": "css-text",
                     "level": "3",
-                    "status": "WD",
+                    "status": "ED",
                     "workStatus": "Testing",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-text-3/",
@@ -15248,7 +15248,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 281
+                    "line": 277
                 },
                 "props": {
                     "name": "text-decoration-style",
@@ -15265,7 +15265,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 305
+                    "line": 301
                 },
                 "props": {
                     "name": "text-decoration-color",
@@ -15282,7 +15282,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 325
+                    "line": 321
                 },
                 "props": {
                     "name": "text-decoration-thickness",
@@ -15300,7 +15300,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 484
+                    "line": 480
                 },
                 "props": {
                     "name": "text-decoration",
@@ -15312,7 +15312,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 519
+                    "line": 515
                 },
                 "props": {
                     "name": "text-underline-position",
@@ -15329,7 +15329,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 659
+                    "line": 655
                 },
                 "props": {
                     "name": "text-underline-offset",
@@ -15347,7 +15347,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 850
+                    "line": 846
                 },
                 "props": {
                     "name": "text-decoration-trim",
@@ -15365,7 +15365,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 924
+                    "line": 920
                 },
                 "props": {
                     "name": "text-decoration-skip",
@@ -15383,7 +15383,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 966
+                    "line": 962
                 },
                 "props": {
                     "name": "text-decoration-skip-self",
@@ -15401,7 +15401,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1029
+                    "line": 1025
                 },
                 "props": {
                     "name": "text-decoration-skip-box",
@@ -15419,7 +15419,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1067
+                    "line": 1063
                 },
                 "props": {
                     "name": "text-decoration-skip-spaces",
@@ -15437,7 +15437,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1120
+                    "line": 1116
                 },
                 "props": {
                     "name": "text-decoration-skip-ink",
@@ -15455,7 +15455,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1301
+                    "line": 1297
                 },
                 "props": {
                     "name": "text-emphasis-style",
@@ -15472,7 +15472,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1418
+                    "line": 1414
                 },
                 "props": {
                     "name": "text-emphasis-color",
@@ -15489,7 +15489,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1438
+                    "line": 1434
                 },
                 "props": {
                     "name": "text-emphasis",
@@ -15501,7 +15501,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1456
+                    "line": 1452
                 },
                 "props": {
                     "name": "text-emphasis-position",
@@ -15518,7 +15518,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1575
+                    "line": 1571
                 },
                 "props": {
                     "name": "text-emphasis-skip",
@@ -15536,7 +15536,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-decor-4",
-                    "line": 1975
+                    "line": 1971
                 },
                 "props": {
                     "name": "text-shadow",
