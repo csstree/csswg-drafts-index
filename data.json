@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-17T00:39:11.629Z",
-    "elapsedTime": 400,
+    "createdAt": "2023-08-18T00:39:35.892Z",
+    "elapsedTime": 401,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3159a9f496b13d90a3b7bceca8e5068a51d20fcf",
-            "commitShort": "3159a9f496",
+            "commit": "3046e8d0fef9a2743784931a5c5734e5694a9886",
+            "commitShort": "3046e8d0fe",
             "commitDate": null,
             "branch": "main"
         },
@@ -15820,7 +15820,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 126
+                    "line": 125
                 },
                 "props": {
                     "name": "transition-behavior",
@@ -22880,7 +22880,7 @@
                 "dfnName": "<<transition-behavior-value>>",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 140
+                    "line": 139
                 },
                 "value": "normal | allow-discrete"
             },
@@ -22890,7 +22890,7 @@
                 "dfnName": "<single-transition>",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 152
+                    "line": 151
                 },
                 "attrs": {
                     "type id": "single-transition"
@@ -24211,7 +24211,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 314
+                    "line": 313
                 },
                 "content": "[Exposed=Window]\ninterface CSSStartingStyleRule : CSSGroupingRule {\n};"
             },
@@ -24219,7 +24219,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 581
+                    "line": 580
                 },
                 "content": "[Exposed=Window]\ninterface CSSTransition : Animation {\n  readonly attribute CSSOMString transitionProperty;\n};"
             },
