@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-18T00:39:35.892Z",
-    "elapsedTime": 401,
+    "createdAt": "2023-08-19T00:38:13.089Z",
+    "elapsedTime": 387,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3046e8d0fef9a2743784931a5c5734e5694a9886",
-            "commitShort": "3046e8d0fe",
+            "commit": "b29c3e9aed7bc302bb3a91d75004caf3814cf7a6",
+            "commitShort": "b29c3e9aed",
             "commitDate": null,
             "branch": "main"
         },
@@ -4145,10 +4145,10 @@
                     "shortname": "web-animations",
                     "ed": "https://drafts.csswg.org/web-animations-2/",
                     "tr": "https://www.w3.org/TR/web-animations-2/",
-                    "versionHistory": "https://github.com/w3c/csswg-drafts/commits/master/web-animations-2",
+                    "versionHistory": "https://github.com/w3c/csswg-drafts/commits/main/web-animations-2",
                     "level": "2",
                     "group": "csswg",
-                    "!participate": "<a href=\"https://github.com/w3c/csswg-drafts/tree/master/web-animations-2\">Fix the text through GitHub</a>\nJoin the &lsquo;waapi&rsquo; channel on the <a href=\"https://damp-lake-50659.herokuapp.com/\">Animation at Work</a> slack\nIRC: <a href=\"ircs://irc.w3.org:6667/webanimations\">#webanimations</a> on W3C's IRC",
+                    "!participate": "<a href=\"https://github.com/w3c/csswg-drafts/tree/main/web-animations-2\">Fix the text through GitHub</a>\nJoin the &lsquo;waapi&rsquo; channel on the <a href=\"https://damp-lake-50659.herokuapp.com/\">Animation at Work</a> slack\nIRC: <a href=\"ircs://irc.w3.org:6667/webanimations\">#webanimations</a> on W3C's IRC",
                     "repository": "w3c/csswg-drafts",
                     "!issueTracking": "<a href=\"https://github.com/w3c/csswg-drafts/labels/web-animations-2\">GitHub</a>",
                     "editor": [
@@ -14172,7 +14172,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 542
+                    "line": 546
                 },
                 "props": {
                     "name": "text-transform",
@@ -14190,7 +14190,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 975
+                    "line": 982
                 },
                 "props": {
                     "name": "white-space",
@@ -14208,7 +14208,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2824
+                    "line": 2851
                 },
                 "props": {
                     "name": "tab-size",
@@ -14226,7 +14226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3495
+                    "line": 3540
                 },
                 "props": {
                     "name": "word-break",
@@ -14244,7 +14244,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3927
+                    "line": 3971
                 },
                 "props": {
                     "name": "line-break",
@@ -14262,7 +14262,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4481
+                    "line": 4526
                 },
                 "props": {
                     "name": "hyphens",
@@ -14280,7 +14280,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4685
+                    "line": 4730
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14298,7 +14298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4685
+                    "line": 4730
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14316,7 +14316,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4894
+                    "line": 4939
                 },
                 "props": {
                     "name": "text-align",
@@ -14333,7 +14333,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5181
+                    "line": 5226
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14351,7 +14351,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5220
+                    "line": 5265
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14369,7 +14369,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5314
+                    "line": 5360
                 },
                 "props": {
                     "name": "text-justify",
@@ -14387,7 +14387,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5769
+                    "line": 5815
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14406,7 +14406,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5955
+                    "line": 6001
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -14424,7 +14424,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6538
+                    "line": 6584
                 },
                 "props": {
                     "name": "text-indent",
@@ -14443,7 +14443,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6927
+                    "line": 6980
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -19221,7 +19221,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 337
+                    "line": 352
                 },
                 "props": {
                     "name": "scroll-timeline-name",
@@ -19238,7 +19238,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 352
+                    "line": 367
                 },
                 "props": {
                     "name": "scroll-timeline-axis",
@@ -19255,7 +19255,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 372
+                    "line": 387
                 },
                 "props": {
                     "name": "scroll-timeline",
@@ -19270,7 +19270,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 672
+                    "line": 687
                 },
                 "props": {
                     "name": "view-timeline-name",
@@ -19287,7 +19287,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 687
+                    "line": 702
                 },
                 "props": {
                     "name": "view-timeline-axis",
@@ -19304,7 +19304,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 704
+                    "line": 719
                 },
                 "props": {
                     "name": "view-timeline-inset",
@@ -19322,11 +19322,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 737
+                    "line": 752
                 },
                 "props": {
                     "name": "view-timeline",
-                    "value": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
+                    "value": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-inset'> ]? ]#",
                     "appliesTo": "all elements"
                 },
                 "name": "view-timeline"
@@ -19335,7 +19335,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1040
+                    "line": 1052
                 },
                 "props": {
                     "name": "animation-range",
@@ -19347,7 +19347,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1097
+                    "line": 1109
                 },
                 "props": {
                     "name": "animation-range-start",
@@ -19365,7 +19365,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1141
+                    "line": 1153
                 },
                 "props": {
                     "name": "animation-range-end",
@@ -19383,7 +19383,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 1193
+                    "line": 1205
                 },
                 "props": {
                     "name": "timeline-scope",
@@ -23519,7 +23519,7 @@
                 "dfnName": "<<axis>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 171
+                    "line": 186
                 },
                 "attrs": {
                     "noexport": true
@@ -23532,7 +23532,7 @@
                 "dfnName": "<<scroller>>",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 172
+                    "line": 187
                 },
                 "attrs": {
                     "noexport": true
@@ -24595,7 +24595,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 231
+                    "line": 246
                 },
                 "content": "enum ScrollAxis {\n  \"block\",\n  \"inline\",\n  \"x\",\n  \"y\"\n};\ndictionary ScrollTimelineOptions {\n  Element? source;\n  ScrollAxis axis = \"block\";\n};\n[Exposed=Window]\ninterface ScrollTimeline : AnimationTimeline {\n  constructor(optional ScrollTimelineOptions options = {});\n  readonly attribute Element? source;\n  readonly attribute ScrollAxis axis;\n};"
             },
@@ -24603,7 +24603,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "scroll-animations-1",
-                    "line": 553
+                    "line": 568
                 },
                 "content": "dictionary ViewTimelineOptions {\n  Element subject;\n  ScrollAxis axis = \"block\";\n  (DOMString or sequence&lt;(CSSNumericValue or CSSKeywordValue)>) inset = \"auto\";\n};\n[Exposed=Window]\ninterface ViewTimeline : ScrollTimeline {\n  constructor(optional ViewTimelineOptions options = {});\n  readonly attribute Element subject;\n  readonly attribute CSSNumericValue startOffset;\n  readonly attribute CSSNumericValue endOffset;\n};"
             },
@@ -24779,7 +24779,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2188
+                    "line": 2192
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationTimeline {\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? duration;\n    Animation play (optional AnimationEffect? effect = null);\n};"
             },
@@ -24787,7 +24787,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2255
+                    "line": 2259
                 },
                 "content": "[Exposed=Window]\npartial interface Animation {\n    attribute CSSNumberish?       startTime;\n    attribute CSSNumberish?       currentTime;\n};"
             },
@@ -24795,7 +24795,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2294
+                    "line": 2298
                 },
                 "content": "[Exposed=Window]\npartial interface AnimationEffect {\n    // Timing hierarchy\n    readonly attribute GroupEffect?     parent;\n    readonly attribute AnimationEffect? previousSibling;\n    readonly attribute AnimationEffect? nextSibling;\n    undefined before (AnimationEffect... effects);\n    undefined after (AnimationEffect... effects);\n    undefined replace (AnimationEffect... effects);\n    undefined remove ();\n};"
             },
@@ -24803,7 +24803,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2402
+                    "line": 2406
                 },
                 "content": "partial dictionary EffectTiming {\n    double delay;\n    double endDelay;\n    double playbackRate = 1.0;\n    (unrestricted double or CSSNumericValue or DOMString) duration = \"auto\";\n};\npartial dictionary OptionalEffectTiming {\n    double playbackRate;\n};"
             },
@@ -24811,7 +24811,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2509
+                    "line": 2513
                 },
                 "content": "partial dictionary ComputedEffectTiming {\n    CSSNumberish         startTime;\n    CSSNumberish         endTime;\n    CSSNumberish         activeDuration;\n    CSSNumberish?        localTime;\n};"
             },
@@ -24819,7 +24819,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2569
+                    "line": 2573
                 },
                 "content": "enum FillMode { \"none\", \"forwards\", \"backwards\", \"both\", \"auto\" };"
             },
@@ -24827,7 +24827,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2587
+                    "line": 2591
                 },
                 "content": "[Exposed=Window]\ninterface GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  readonly attribute AnimationNodeList  children;\n  readonly attribute AnimationEffect?   firstChild;\n  readonly attribute AnimationEffect?   lastChild;\n  GroupEffect clone ();\n  undefined prepend (AnimationEffect... effects);\n  undefined append (AnimationEffect... effects);\n};"
             },
@@ -24835,7 +24835,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2808
+                    "line": 2812
                 },
                 "content": "[Exposed=Window]\ninterface AnimationNodeList {\n    readonly attribute unsigned long length;\n    getter AnimationEffect? item (unsigned long index);\n};"
             },
@@ -24843,7 +24843,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2837
+                    "line": 2841
                 },
                 "content": "[Exposed=Window]\ninterface SequenceEffect : GroupEffect {\n  constructor(sequence&lt;AnimationEffect>? children,\n              optional (unrestricted double or EffectTiming) timing = {});\n  SequenceEffect clone ();\n};"
             },
@@ -24851,7 +24851,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2870
+                    "line": 2874
                 },
                 "content": "partial interface KeyframeEffect {\n    attribute IterationCompositeOperation    iterationComposite;\n};"
             },
@@ -24859,7 +24859,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2966
+                    "line": 2970
                 },
                 "content": "partial dictionary KeyframeEffectOptions {\n    IterationCompositeOperation iterationComposite = \"replace\";\n};"
             },
@@ -24867,7 +24867,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 2984
+                    "line": 2988
                 },
                 "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
             },
@@ -24875,7 +24875,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3008
+                    "line": 3012
                 },
                 "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
             },
@@ -24883,7 +24883,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3073
+                    "line": 3077
                 },
                 "content": "dictionary TimelineRangeOffset {\n  CSSOMString? rangeName;\n  CSSNumericValue offset;\n};\npartial dictionary KeyframeAnimationOptions {\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeStart = \"normal\";\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeEnd = \"normal\";\n};"
             },
@@ -24891,7 +24891,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "web-animations-2",
-                    "line": 3122
+                    "line": 3126
                 },
                 "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit\n    eventInitDict = {});\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    CSSNumberish? currentTime = null;\n    CSSNumberish? timelineTime = null;\n};"
             },
