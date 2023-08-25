@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-24T00:39:58.084Z",
-    "elapsedTime": 485,
+    "createdAt": "2023-08-25T00:40:49.122Z",
+    "elapsedTime": 498,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4da3c11f4e7be9aff72711a576e8efc1edf2c75e",
-            "commitShort": "4da3c11f4e",
+            "commit": "75d6674851b19b10f3561868cc01105f194c740d",
+            "commitShort": "75d6674851",
             "commitDate": null,
             "branch": "main"
         },
@@ -3205,6 +3205,7 @@
                     "shortname": "css-transitions",
                     "level": "2",
                     "group": "csswg",
+                    "tr": "https://www.w3.org/TR/css-transitions-2/",
                     "ed": "https://drafts.csswg.org/css-transitions-2/",
                     "editor": [
                         "L. David Baron, Google https://www.google.com, https://dbaron.org/, w3cid 15393",
@@ -3506,7 +3507,10 @@
                     "title": "CSS View Transitions Module Level 1",
                     "shortname": "css-view-transitions",
                     "level": "1",
-                    "status": "ED",
+                    "status": "CR",
+                    "prepareForTr": "yes",
+                    "date": "2023-08-28",
+                    "deadline": "2023-11-28",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
@@ -3516,6 +3520,7 @@
                         "Jake Archibald, Google, w3cid 76394",
                         "Khushal Sagar, Google, w3cid 122787"
                     ],
+                    "implementationReport": "https://wpt.fyi/results/css/css-view-transitions",
                     "abstract": "This module defines the View Transition API, along with associated properties and pseudo-elements,\nwhich allows developers to create animated visual transitions representing changes in the document state.",
                     "markupShorthands": "css yes, markdown yes"
                 }
@@ -4414,7 +4419,7 @@
                 },
                 "props": {
                     "name": "anchor-name",
-                    "value": "none | <dashed-ident>",
+                    "value": "none | <dashed-ident>#",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "all elements that generate a [=principal box=]",
@@ -15819,7 +15824,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 125
+                    "line": 126
                 },
                 "props": {
                     "name": "transition-behavior",
@@ -16405,7 +16410,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 508
+                    "line": 512
                 },
                 "props": {
                     "name": "view-transition-name",
@@ -22879,7 +22884,7 @@
                 "dfnName": "<<transition-behavior-value>>",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 139
+                    "line": 140
                 },
                 "value": "normal | allow-discrete"
             },
@@ -22889,7 +22894,7 @@
                 "dfnName": "<single-transition>",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 151
+                    "line": 152
                 },
                 "attrs": {
                     "type id": "single-transition"
@@ -23098,7 +23103,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 643
+                    "line": 647
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24210,7 +24215,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 313
+                    "line": 314
                 },
                 "content": "[Exposed=Window]\ninterface CSSStartingStyleRule : CSSGroupingRule {\n};"
             },
@@ -24218,7 +24223,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-transitions-2",
-                    "line": 580
+                    "line": 581
                 },
                 "content": "[Exposed=Window]\ninterface CSSTransition : Animation {\n  readonly attribute CSSOMString transitionProperty;\n};"
             },
@@ -24226,7 +24231,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 898
+                    "line": 902
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24234,7 +24239,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 955
+                    "line": 959
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
