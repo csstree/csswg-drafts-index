@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-08-28T00:41:32.175Z",
-    "elapsedTime": 377,
+    "createdAt": "2023-08-29T00:40:54.970Z",
+    "elapsedTime": 397,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "293e8f82cd1f3f807d94d5b360234e0cfb61fd23",
-            "commitShort": "293e8f82cd",
+            "commit": "b548f1cf034afe51147d3b8f1631718c202fbf5b",
+            "commitShort": "b548f1cf03",
             "commitDate": null,
             "branch": "main"
         },
@@ -42,7 +42,7 @@
                     "tr": "https://www.w3.org/TR/CSS/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2015.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate."
@@ -62,7 +62,7 @@
                     "tr": "https://www.w3.org/TR/CSS/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2017.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate."
@@ -85,7 +85,7 @@
                     ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2018.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate.",
@@ -111,7 +111,7 @@
                     ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2020.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate.",
@@ -135,7 +135,7 @@
                     ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2021.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate.",
@@ -161,7 +161,7 @@
                     "tr": "https://www.w3.org/TR/css-2022/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
                     "abstract": "This document collects together into one definition all the specs that\ntogether form the current state of Cascading Style Sheets (CSS) as of 2022.\nThe primary audience is CSS implementers, not CSS authors, as this definition\nincludes modules by specification stability, not Web browser adoption rate.",
@@ -187,7 +187,7 @@
                     "tr": "https://www.w3.org/TR/css-2023/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
@@ -211,7 +211,7 @@
                     "ed": "https://drafts.csswg.org/css-align/",
                     "tr": "https://www.w3.org/TR/css-align-3/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "This module contains the features of <a href=\"https://www.w3.org/TR/CSS/\">CSS</a> relating to the alignment of boxes within their containers in the various CSS box layout models: block layout, table layout, flex layout, and grid layout. (The alignment of text and inline-level content is defined in [[CSS-TEXT-3]] and [[CSS-INLINE-3]].)",
@@ -337,7 +337,7 @@
                     ],
                     "editor": [
                         "Bert Bos, W3C, bert@w3.org, w3cid 3343",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Brad Kemper, Invited Expert, brad.kemper@gmail.com, w3cid 43245"
                     ],
                     "abstract": "This draft contains the features of CSS relating to borders and backgrounds. The main extensions compared to <a href=\"https://www.w3.org/TR/CSS2/\">level&nbsp;2</a> are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows.",
@@ -359,7 +359,7 @@
                     "ed": "https://drafts.csswg.org/css-backgrounds-4/",
                     "editor": [
                         "Bert Bos, W3C, bert@w3.org, w3cid 3343",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about/, w3cid 52258",
                         "Sebastian Zartner, Invited Expert, sebastianzartner@gmail.com, w3cid 64937"
                     ],
@@ -383,7 +383,7 @@
                     "ed": "https://drafts.csswg.org/css-borders-4/",
                     "editor": [
                         "Bert Bos, W3C, bert@w3.org, w3cid 3343",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about/, w3cid 52258",
                         "Sebastian Zartner, Invited Expert, sebastianzartner@gmail.com, w3cid 64937"
                     ],
@@ -415,7 +415,7 @@
                     ],
                     "abstract": "This specification describes the margin and padding properties, which create spacing in and around a CSS box.",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "ignoredTerms": [
                         "internal table elements",
@@ -444,7 +444,7 @@
                     "prepareForTr": "no",
                     "abstract": "This specification describes the margin and padding properties, which create spacing in and around a CSS box. It may later be extended to include borders (currently described in [[css-backgrounds-3]]).",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "ignoredTerms": [
                         "internal table elements",
@@ -469,7 +469,7 @@
                     ],
                     "editor": [
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module describes the fragmentation model that partitions a flow  into pages, columns, or regions.\nIt builds on the Page model module and introduces and defines the fragmentation model.\nIt adds functionality for pagination, breaking variable fragment size and orientation, widows and orphans.",
                     "ignoredTerms": [
@@ -495,7 +495,7 @@
                     "tr": "https://www.w3.org/TR/css-break-4/",
                     "editor": [
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module describes the fragmentation model that partitions a flow into pages, columns, or regions.\nIt builds on the Page model module and introduces and defines the fragmentation model.\nIt adds functionality for pagination, breaking variable fragment size and orientation, widows and orphans.",
                     "ignoredTerms": [
@@ -521,7 +521,7 @@
                     "ed": "https://drafts.csswg.org/css-cascade-3/",
                     "tr": "https://www.w3.org/TR/css-cascade-3/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "previousVersion": [
@@ -560,7 +560,7 @@
                     "tr": "https://www.w3.org/TR/css-cascade-4/",
                     "implementationReport": "https://wpt.fyi/results/css/css-cascade",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "previousVersion": [
@@ -609,7 +609,7 @@
                     ],
                     "implementationReport": "https://wpt.fyi/results/css/css-cascade",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Miriam E. Suzanne, Invited Expert, http://miriamsuzanne.com/contact, w3cid 117151",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
@@ -641,7 +641,7 @@
                         "https://www.w3.org/TR/2021/WD-css-cascade-6-20211221/"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Miriam E. Suzanne, Invited Expert, http://miriamsuzanne.com/contact, w3cid 117151",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
@@ -765,7 +765,7 @@
                     ],
                     "implementationReport": "https://wpt.fyi/results/css/css-color-adjust?label=experimental&label=master&aligned",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
                         "Rune Lillesveen, Google, futhark@google.com, w3cid 45291",
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199"
@@ -821,7 +821,7 @@
                     "testSuite": "http://test.csswg.org/suites/css-conditional-3_dev/nightly-unstable/",
                     "editor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "abstract": "This module contains the features of CSS for conditional processing of parts of\nstyle sheets, conditioned on capabilities of the processor or the\ndocument the style sheet is being applied to.  It includes and extends the\nfunctionality of CSS level&nbsp;2 [[!CSS21]], which builds on CSS level&nbsp;1\n[[CSS1]].  The main extensions compared to level&nbsp;2 are allowing nesting of\ncertain at-rules inside ''@media'', and the addition of the ''@supports'' rule for\nconditional processing.",
@@ -850,7 +850,7 @@
                     "implementationReport": "https://wpt.fyi/results/css/css-conditional",
                     "editor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "abstract": "This module contains the features of CSS\nfor conditional processing of parts of style sheets,\nbased on capabilities of the processor or the environment\nthe style sheet is being applied in.\nIt includes and extends the functionality of CSS Conditional 3 [[!css-conditional-3]],\nadding the ability to query support for particular selectors [[SELECTORS-4]]\nthrough the new ''selector()'' notation for [=supports queries=].",
@@ -876,7 +876,7 @@
                     "tr": "https://www.w3.org/TR/css-conditional-5/",
                     "editor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
                     "abstract": "This module contains the features of CSS\nfor conditional processing of parts of style sheets,\nbased on capabilities of the processor or the environment\nthe style sheet is being applied in.\nIt includes and extends the functionality of CSS Conditional 4 [[!css-conditional-4]],\nadding the generalized conditional rule ''@when''\nand the chained conditional rule ''@else'',\nas well as introducing font processing queries\nto the [=supports query=] syntax used in ''@supports'' rules.",
@@ -1095,7 +1095,7 @@
                     "implementationReport": "https://wpt.fyi/results/css/css-display?label=master&label=experimental&aligned",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module describes how the CSS formatting box tree is generated from the document element tree and defines the 'display' property that controls it.",
                     "ignoredTerms": [
@@ -1123,7 +1123,7 @@
                     "implementationReport": "https://wpt.fyi/results/css/css-display?label=master&label=experimental&aligned",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module describes how the CSS formatting box tree is generated from the document element tree and defines the 'display' property that controls it.",
                     "ignoredTerms": [
@@ -1314,7 +1314,7 @@
                     "abstract": "The specification describes a CSS box model optimized for user interface design. In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885"
                     ],
                     "formerEditor": [
@@ -1545,7 +1545,7 @@
                     ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
                         "Oriol Brufau, Igalia, obrufau@igalia.com, w3cid 108473"
                     ],
@@ -1609,7 +1609,7 @@
                     ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885"
                     ],
                     "abstract": "This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid. Level 2 expands Grid by adding “subgrid” capabilities for nested grids to participate in the sizing of their parent grids.",
@@ -1652,7 +1652,7 @@
                     "ed": "https://drafts.csswg.org/css-grid-3/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Mats Palmgren, Mozilla, mailto:mats@mozilla.com",
                         "Jen Simmons, Apple, http://jensimmons.com/"
                     ],
@@ -1700,7 +1700,7 @@
                     "workStatus": "Testing",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258"
                     ],
                     "abstract": "This module contains the features of CSS level 3 relating to the <<image>> type and some replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]].\nThe main extensions compared to CSS2.1 are the generalization of the <<url>> type to the <<image>> type,\nseveral additions to the <<image>> type, a generic sizing algorithm for images and other replaced content in CSS,\ndefinitions for interpolating several <<image>> types,\nand several properties controlling the interaction of replaced elements and CSS's layout models.",
@@ -1738,7 +1738,7 @@
                     "tr": "https://www.w3.org/TR/css-images-4/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258"
                     ],
                     "abstract": "This module contains the features of CSS level 4 relating to the <<image>> type and replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]] and in the previous level of this specification [[css-images-3]].\nThe main extensions compared to \"CSS Images Module Level 3\" [[css-images-3]] are several additions to the <<image>> type, such as the ''image()'' notation, the ''element()'' notation, and conic gradients.",
@@ -1785,7 +1785,7 @@
                     "tr": "https://www.w3.org/TR/css-images-5/",
                     "editor": [
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258"
                     ],
                     "abstract": "This module contains the features of CSS level 4 relating to the <<image>> type and replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]] and in the previous level of this specification [[css-images-4]].",
@@ -1811,7 +1811,7 @@
                     "!issuesList": "<a href=\"https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue+is%3Aopen+label%3Acss-inline-3\">CSS3 Line Layout issues in GitHub</a>",
                     "editor": [
                         "Dave Cramer, Hachette Livre, dauwhe@gmail.com, w3cid 65283",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
                         "Steve Zilles, Adobe, szilles@adobe.com, w3cid 3129"
@@ -1889,7 +1889,7 @@
                     "ed": "https://drafts.csswg.org/css-lists-3/",
                     "tr": "https://www.w3.org/TR/css-lists-3/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "formerEditor": [
@@ -1929,7 +1929,7 @@
                     ],
                     "editor": [
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module introduces logical properties and values that provide the author with the ability to control layout through logical, rather than physical, direction and dimension mappings. The module defines logical properties and values for the features defined in [[CSS2]]. These properties are writing-mode relative equivalents of their corresponding physical properties.",
                     "ignoredTerms": [
@@ -2085,7 +2085,7 @@
                     "tr": "https://www.w3.org/TR/css3-namespace/",
                     "testSuite": "http://test.csswg.org/suites/css3-namespace/20090210/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
                         "Anne van Kesteren, Opera Software ASA",
@@ -2168,7 +2168,7 @@
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241"
                     ],
                     "abstract": "This module contains the features of CSS relating to scrollable overflow handling in visual media.\nThis level is focused on completing a precise specification for the existing overflow features,\nincluding the 'overflow' property and its longhands;\nand the 'text-overflow' property.",
@@ -2202,7 +2202,7 @@
                     "editor": [
                         "L. David Baron, Mozilla https://www.mozilla.org/, https://dbaron.org/, w3cid 15393",
                         "Florian Rivoal, On behalf of Bloomberg, http://florian.rivoal.net/, w3cid 43241",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module contains the features of CSS relating to scrollable overflow handling in visual media.\nIt builds on the <a href=\"https://www.w3.org/TR/css-overflow-3/\">CSS Overflow Module Level 3</a>,\ndefining\n'line-clamp', its longhands, and its legacy pre-standard syntax;\nadding a 'block-ellipsis' property;\nand expanding 'overflow-clip-margin' with longhands.\nAn appendix also contains a more experimental exploration\nof <a href=\"#fragmentation\">redirecting overflow by fragmentation</a>."
                 }
@@ -2246,7 +2246,7 @@
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/13"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert&#44; formerly Mozilla, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple&#44; formerly Mozilla, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Simon Sapin, Mozilla&#44; formerly Kozea, http://exyr.org/about/, w3cid 58001"
                     ],
                     "ignoredTerms": [
@@ -2337,7 +2337,7 @@
                     "ed": "https://drafts.csswg.org/css-position-3/",
                     "tr": "https://www.w3.org/TR/css-position-3/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "formerEditor": [
@@ -2363,7 +2363,7 @@
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-position-4/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "abstract": "This module contains defines coordinate-based positioning and offsetting schemes of <a href=\"https://www.w3.org/TR/CSS/\">CSS</a>: [=relative positioning=], [=sticky positioning=], [=absolute positioning=], and [=fixed positioning=].\nIt also defines the painting/rendering model of CSS."
@@ -2421,7 +2421,7 @@
                     "!issuesList": "<a href=\"https://drafts.csswg.org/css-pseudo/#issues-index\">Tracked in Editor's Draft</a>",
                     "editor": [
                         "Daniel Glazman, Disruptive Innovations, w3cid 13329",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Alan Stearns, Adobe Systems Inc., stearns@adobe.com, w3cid 46659"
                     ],
                     "abstract": "This CSS module defines pseudo-elements, abstract elements that represent portions of the CSS render tree that can be selected and styled.",
@@ -2484,7 +2484,7 @@
                     "workStatus": "exploring",
                     "editor": [
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "ed": "https://drafts.csswg.org/css-rhythm/",
                     "tr": "https://www.w3.org/TR/css-rhythm-1/",
@@ -2542,7 +2542,7 @@
                         "https://www.w3.org/TR/2013/WD-css3-ruby-20130919/"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369",
                         "Xidorn Quan, Mozilla https://www.mozilla.org/, https://www.upsuper.org/, w3cid 73936",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net/, w3cid 43241"
@@ -2632,7 +2632,7 @@
                         "Matt Rakow, Microsoft, w3cid 62267",
                         "Jacob Rossi, Microsoft, w3cid 45616",
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This module contains features to control panning and scrolling behavior with “snap positions”.",
                     "ignoredTerms": [
@@ -2660,7 +2660,7 @@
                         "Matt Rakow, Microsoft, w3cid 62267",
                         "Jacob Rossi, Microsoft, w3cid 45616",
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Adam Argyle, Google, https://nerdy.dev, w3cid 112669"
                     ],
                     "abstract": "This module contains features to control panning and scrolling behavior with “snap positions”.",
@@ -2807,7 +2807,7 @@
                     ],
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "previousVersion": [
                         "https://www.w3.org/TR/2021/WD-css-sizing-3-20210317/",
@@ -2846,7 +2846,7 @@
                     ],
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Jen Simmons, Apple, http://jensimmons.com/, w3cid 52801"
                     ],
                     "abstract": "This module extends the CSS sizing properties with keywords that represent content-based \"intrinsic\" sizes and context-based \"extrinsic\" sizes, allowing CSS to more easily describe boxes that fit their content or fit into a particular layout context. This is a delta spec over CSS Sizing Level 3.",
@@ -2869,7 +2869,7 @@
                     "tr": "https://www.w3.org/TR/css-speech-1/",
                     "editor": [
                         "Léonie Watson, Tetralogical, lwatson@tetralogical.com, w3cid 44692",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
                         "Daniel Weck, DAISY Consortium, dweck@daisy.org",
@@ -2987,7 +2987,7 @@
                     "!testCoverageAnalysis": "<a href=\"https://drafts.csswg.org/css-text-3/test-coverage\">https://drafts.csswg.org/css-text-3/test-coverage</a>",
                     "implementationReport": "https://test.csswg.org/harness/results/css-text-3_dev/grouped/",
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Invited Expert, kojiishi@gluesoft.co.jp, w3cid 45369",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
                     ],
@@ -3015,7 +3015,7 @@
                         "https://www.w3.org/TR/2019/WD-css-text-4-20191113/"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Invited Expert, kojiishi@gluesoft.co.jp, w3cid 45369",
                         "Alan Stearns, Adobe Systems, stearns@adobe.com, w3cid 46659",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241"
@@ -3046,7 +3046,7 @@
                         "https://www.w3.org/TR/2012/WD-css-text-decor-3-20121113/"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369"
                     ],
                     "implementationReport": "https://wpt.fyi/results/css/css-text-decor",
@@ -3076,7 +3076,7 @@
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/10"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369"
                     ],
                     "abstract": "This module contains the features of CSS relating to text decoration, such as underlines, text shadows, and emphasis marks."
@@ -3367,7 +3367,7 @@
                     "tr": "https://www.w3.org/TR/css-values-3/",
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "formerEditor": [
                         "Håkon Wium Lie, Opera Software, howcome@opera.com"
@@ -3400,7 +3400,7 @@
                     "tr": "https://www.w3.org/TR/css-values-4/",
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This CSS module describes the common values and units that CSS properties accept and the syntax used for describing them in CSS property definitions.",
                     "ignoredTerms": [
@@ -3431,7 +3431,7 @@
                     "tr": "https://www.w3.org/TR/css-values-5/",
                     "editor": [
                         "Tab Atkins, Google, http://xanthir.com/contact/, w3cid 42199",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400"
                     ],
                     "abstract": "This CSS module describes the common values and units that CSS properties accept and the syntax used for describing them in CSS property definitions.",
                     "ignoredTerms": [
@@ -3632,7 +3632,7 @@
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/30"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369"
                     ],
                     "formerEditor": [
@@ -3682,7 +3682,7 @@
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/30"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Koji Ishii, Google, kojiishi@gmail.com, w3cid 45369"
                     ],
                     "formerEditor": [
@@ -3733,7 +3733,7 @@
                     ],
                     "formerEditor": [
                         "Editor: Bert Bos, W3C, mailto:bert@w3.org, w3cid 3343",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Ian Hickson, ian@hixie.ch",
                         "H&aring;kon Wium Lie, Opera Software, howcome@opera.com"
                     ],
@@ -3971,7 +3971,7 @@
                         "Botond Ballo, Mozilla, botond@mozilla.com, w3cid 94018",
                         "Antoine Quint, Apple, graouts@apple.com, w3cid 51377",
                         "Olga Gerchikov, Microsoft, gerchiko@microsoft.com, w3cid 121763",
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Robert Flack, Google, w3cid 98451"
                     ],
                     "formerEditor": [
@@ -4011,7 +4011,7 @@
                         "https://www.w3.org/TR/2011/WD-selectors4-20110929/"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact, w3cid 35400",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Tab Atkins Jr., Google, http://xanthir.com/contact/, w3cid 42199"
                     ],
                     "formerEditor": [
@@ -9317,7 +9317,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 80
+                    "line": 110
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -9326,8 +9326,8 @@
                     "appliesTo": "[=grid containers=]",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
-                    "computedValue": "the keyword none or the keyword masonry or a <a href=\"https://drafts.csswg.org/css-grid-2/#computed-track-list\">computed track list",
-                    "animationType": "see <a href=\"https://drafts.csswg.org/css-grid-2/#propdef-grid-template-columns\">CSS Grid"
+                    "computedValue": "the keyword none or the keyword masonry or a [[computed track list]]",
+                    "animationType": "see [[css-grid-2#propdef-grid-template-columns|CSS Grid Level 2]]"
                 },
                 "name": "grid-template-columns"
             },
@@ -9335,7 +9335,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 80
+                    "line": 110
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -9344,8 +9344,8 @@
                     "appliesTo": "[=grid containers=]",
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
-                    "computedValue": "the keyword none or the keyword masonry or a <a href=\"https://drafts.csswg.org/css-grid-2/#computed-track-list\">computed track list",
-                    "animationType": "see <a href=\"https://drafts.csswg.org/css-grid-2/#propdef-grid-template-columns\">CSS Grid"
+                    "computedValue": "the keyword none or the keyword masonry or a [[computed track list]]",
+                    "animationType": "see [[css-grid-2#propdef-grid-template-columns|CSS Grid Level 2]]"
                 },
                 "name": "grid-template-rows"
             },
@@ -9353,13 +9353,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 168
+                    "line": 298
                 },
                 "props": {
                     "name": "masonry-auto-flow",
                     "value": "[ pack | next ] || [definite-first | ordered ]",
                     "initial": "pack",
-                    "appliesTo": "[=grid containers=] with masonry layout",
+                    "appliesTo": "[=grid containers=] with [=masonry layout=]",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword(s)",
@@ -9371,13 +9371,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 361
+                    "line": 542
                 },
                 "props": {
                     "name": "align-tracks",
                     "value": "[normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>]#",
                     "initial": "normal",
-                    "appliesTo": "[=grid containers=] with masonry layout in their block axis",
+                    "appliesTo": "[=grid containers=] with [=masonry layout=] in their [=block axis=]",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword(s)",
@@ -9389,13 +9389,13 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 372
+                    "line": 553
                 },
                 "props": {
                     "name": "justify-tracks",
                     "value": "[normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
                     "initial": "normal",
-                    "appliesTo": "[=grid containers=] with masonry layout in their inline axis",
+                    "appliesTo": "[=grid containers=] with [=masonry layout=] in their [=inline axis=]",
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified keyword(s)",
