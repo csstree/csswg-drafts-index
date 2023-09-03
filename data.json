@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-09-02T00:39:19.234Z",
-    "elapsedTime": 393,
+    "createdAt": "2023-09-03T00:43:05.082Z",
+    "elapsedTime": 411,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8a4314b365cb2d9950cb2f92dda972d5f9003fa1",
-            "commitShort": "8a4314b365",
+            "commit": "60a1023aa8af342b5a6ecabbbf2579fa63547154",
+            "commitShort": "60a1023aa8",
             "commitDate": null,
             "branch": "main"
         },
@@ -14232,7 +14232,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 2854
+                    "line": 2857
                 },
                 "props": {
                     "name": "tab-size",
@@ -14250,7 +14250,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3543
+                    "line": 3565
                 },
                 "props": {
                     "name": "word-break",
@@ -14268,7 +14268,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 3974
+                    "line": 3985
                 },
                 "props": {
                     "name": "line-break",
@@ -14286,7 +14286,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4544
+                    "line": 4554
                 },
                 "props": {
                     "name": "hyphens",
@@ -14304,7 +14304,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4752
+                    "line": 4763
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14322,7 +14322,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4752
+                    "line": 4763
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14340,7 +14340,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 4961
+                    "line": 4972
                 },
                 "props": {
                     "name": "text-align",
@@ -14357,7 +14357,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5248
+                    "line": 5259
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14375,7 +14375,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5287
+                    "line": 5298
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14393,7 +14393,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5382
+                    "line": 5393
                 },
                 "props": {
                     "name": "text-justify",
@@ -14411,7 +14411,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 5837
+                    "line": 5848
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14430,7 +14430,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6023
+                    "line": 6034
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -14448,7 +14448,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 6606
+                    "line": 6617
                 },
                 "props": {
                     "name": "text-indent",
@@ -14467,7 +14467,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-3",
-                    "line": 7006
+                    "line": 7017
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -14485,7 +14485,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 557
+                    "line": 559
                 },
                 "props": {
                     "name": "text-transform",
@@ -14503,7 +14503,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 959
+                    "line": 969
                 },
                 "props": {
                     "name": "word-space-transform",
@@ -14521,7 +14521,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 1388
+                    "line": 1403
                 },
                 "props": {
                     "name": "white-space",
@@ -14539,7 +14539,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2009
+                    "line": 1824
                 },
                 "props": {
                     "name": "white-space-collapse",
@@ -14557,7 +14557,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 2231
+                    "line": 2779
                 },
                 "props": {
                     "name": "white-space-trim",
@@ -14575,7 +14575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 3343
+                    "line": 4043
                 },
                 "props": {
                     "name": "tab-size",
@@ -14593,7 +14593,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 3980
+                    "line": 4742
                 },
                 "props": {
                     "name": "word-break",
@@ -14611,7 +14611,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4694
+                    "line": 5461
                 },
                 "props": {
                     "name": "line-break",
@@ -14629,7 +14629,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5248
+                    "line": 6033
                 },
                 "props": {
                     "name": "hyphens",
@@ -14647,7 +14647,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5444
+                    "line": 6251
                 },
                 "props": {
                     "name": "hyphenate-character",
@@ -14665,7 +14665,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5500
+                    "line": 6330
                 },
                 "props": {
                     "name": "hyphenate-limit-zone",
@@ -14683,7 +14683,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5521
+                    "line": 6361
                 },
                 "props": {
                     "name": "hyphenate-limit-chars",
@@ -14701,7 +14701,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5570
+                    "line": 6423
                 },
                 "props": {
                     "name": "hyphenate-limit-lines",
@@ -14719,7 +14719,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5590
+                    "line": 6443
                 },
                 "props": {
                     "name": "hyphenate-limit-last",
@@ -14737,7 +14737,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5672
+                    "line": 6527
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14755,7 +14755,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5672
+                    "line": 6527
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14773,7 +14773,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5891
+                    "line": 6753
                 },
                 "props": {
                     "name": "text-wrap",
@@ -14791,7 +14791,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5934
+                    "line": 6811
                 },
                 "props": {
                     "name": "text-wrap-mode",
@@ -14809,7 +14809,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5976
+                    "line": 7956
                 },
                 "props": {
                     "name": "text-wrap-style",
@@ -14827,7 +14827,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6067
+                    "line": 8063
                 },
                 "props": {
                     "name": "wrap-before",
@@ -14845,7 +14845,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6067
+                    "line": 8063
                 },
                 "props": {
                     "name": "wrap-after",
@@ -14863,7 +14863,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6131
+                    "line": 8129
                 },
                 "props": {
                     "name": "wrap-inside",
@@ -14881,7 +14881,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6294
+                    "line": 8297
                 },
                 "props": {
                     "name": "text-align",
@@ -14898,7 +14898,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6770
+                    "line": 8787
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14916,7 +14916,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6801
+                    "line": 8826
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14934,11 +14934,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6866
+                    "line": 8923
                 },
                 "props": {
                     "name": "text-justify",
-                    "value": "[ auto | none | inter-word | inter-character ] || no-compress",
+                    "value": "[ auto | none | inter-word | inter-character | ruby ] || no-compress",
                     "initial": "auto",
                     "appliesTo": "text",
                     "inherited": "yes",
@@ -14952,7 +14952,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7324
+                    "line": 9392
                 },
                 "props": {
                     "name": "text-group-align",
@@ -14970,7 +14970,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7432
+                    "line": 9544
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14989,7 +14989,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7621
+                    "line": 9741
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -15008,7 +15008,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8056
+                    "line": 10186
                 },
                 "props": {
                     "name": "line-padding",
@@ -15026,7 +15026,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8112
+                    "line": 10244
                 },
                 "props": {
                     "name": "text-autospace",
@@ -15044,7 +15044,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8226
+                    "line": 10374
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -15062,7 +15062,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8622
+                    "line": 10782
                 },
                 "props": {
                     "name": "text-spacing",
@@ -15080,7 +15080,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8825
+                    "line": 10981
                 },
                 "props": {
                     "name": "text-indent",
@@ -15099,7 +15099,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9179
+                    "line": 11381
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -22626,7 +22626,7 @@
                 "dfnName": "<<autospace>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8132
+                    "line": 10271
                 },
                 "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
             },
@@ -22636,7 +22636,7 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8246
+                    "line": 10398
                 },
                 "value": "space-all |  trim-auto | [ allow-end || space-first ]"
             },
