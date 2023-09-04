@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-09-03T00:43:05.082Z",
-    "elapsedTime": 411,
+    "createdAt": "2023-09-04T00:41:39.713Z",
+    "elapsedTime": 482,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "60a1023aa8af342b5a6ecabbbf2579fa63547154",
-            "commitShort": "60a1023aa8",
+            "commit": "3a0df94104cb03429ab27c161bac6b4d9cc32263",
+            "commitShort": "3a0df94104",
             "commitDate": null,
             "branch": "main"
         },
@@ -2981,7 +2981,7 @@
                     "ed": "https://drafts.csswg.org/css-text-3/",
                     "tr": "https://www.w3.org/TR/css-text-3/",
                     "previousVersion": [
-                        "https://www.w3.org/TR/2021/CRD-css-text-3-20210422/"
+                        "https://www.w3.org/TR/2023/CRD-css-text-3-20230903/"
                     ],
                     "testSuite": "http://test.csswg.org/suites/css3-text/nightly-unstable/",
                     "!testCoverageAnalysis": "<a href=\"https://drafts.csswg.org/css-text-3/test-coverage\">https://drafts.csswg.org/css-text-3/test-coverage</a>",
@@ -3511,8 +3511,8 @@
                     "level": "1",
                     "status": "CR",
                     "prepareForTr": "yes",
-                    "date": "2023-08-28",
-                    "deadline": "2023-11-28",
+                    "date": "2023-09-05",
+                    "deadline": "2023-12-05",
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-view-transitions-1/",
                     "tr": "https://www.w3.org/TR/css-view-transitions-1/",
