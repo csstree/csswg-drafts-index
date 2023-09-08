@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-09-07T00:40:45.547Z",
-    "elapsedTime": 482,
+    "createdAt": "2023-09-08T00:40:56.200Z",
+    "elapsedTime": 443,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fc0b6c6e55e26a71b6f07bbf541fcdbc51aca873",
-            "commitShort": "fc0b6c6e55",
+            "commit": "c96a154ca920a21ba4221d0abf990d9b9601427a",
+            "commitShort": "c96a154ca9",
             "commitDate": null,
             "branch": "main"
         },
@@ -8671,11 +8671,11 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 252
+                    "line": 248
                 },
                 "props": {
                     "name": "position",
-                    "newValues": "running()"
+                    "newValues": "<running()>"
                 },
                 "name": "position"
             },
@@ -8683,7 +8683,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 343
+                    "line": 339
                 },
                 "props": {
                     "name": "running",
@@ -8701,11 +8701,11 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 366
+                    "line": 362
                 },
                 "props": {
                     "name": "content",
-                    "newValues": "element()"
+                    "newValues": "<element()>"
                 },
                 "name": "content"
             },
@@ -8713,7 +8713,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 452
+                    "line": 448
                 },
                 "props": {
                     "name": "float",
@@ -8725,7 +8725,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 463
+                    "line": 459
                 },
                 "props": {
                     "name": "footnote-display",
@@ -8743,7 +8743,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 590
+                    "line": 586
                 },
                 "props": {
                     "name": "footnote-policy",
@@ -9330,7 +9330,7 @@
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "the keyword none or the keyword masonry or a [[computed track list]]",
-                    "animationType": "see [[css-grid-2#propdef-grid-template-columns|CSS Grid Level 2]]"
+                    "animationType": "see [[css-grid-2#track-sizing|CSS Grid Level 2]]"
                 },
                 "name": "grid-template-columns"
             },
@@ -9348,7 +9348,7 @@
                     "inherited": "no",
                     "percentages": "refer to corresponding dimension of the content area",
                     "computedValue": "the keyword none or the keyword masonry or a [[computed track list]]",
-                    "animationType": "see [[css-grid-2#propdef-grid-template-columns|CSS Grid Level 2]]"
+                    "animationType": "see [[css-grid-2#track-sizing|CSS Grid Level 2]]"
                 },
                 "name": "grid-template-rows"
             },
@@ -21448,21 +21448,11 @@
             },
             {
                 "type": "prod",
-                "name": "string()",
-                "dfnName": "string()",
-                "source": {
-                    "spec": "css-gcpm-3",
-                    "line": 166
-                },
-                "value": "string( <custom-ident> , [ first | start | last | first-except ]? )"
-            },
-            {
-                "type": "prod",
                 "name": "running()",
                 "dfnName": "running()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 259
+                    "line": 255
                 },
                 "value": "running( <custom-ident> )"
             },
@@ -21472,19 +21462,19 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 372
+                    "line": 368
                 },
                 "value": "element( <custom-ident> , [ first | start | last | first-except ]? )"
             },
             {
                 "type": "prod",
-                "name": "nth()",
-                "dfnName": "nth()",
+                "name": ":nth()",
+                "dfnName": ":nth()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 701
+                    "line": 697
                 },
-                "value": "( An+B [of <custom-ident>]?)"
+                "value": ":nth( <an+b> [of <custom-ident>]? )"
             },
             {
                 "type": "prod",
