@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-09-20T00:41:28.756Z",
-    "elapsedTime": 355,
+    "createdAt": "2023-09-21T00:41:24.302Z",
+    "elapsedTime": 404,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "db9dbe8a0a60a03203a88fead5dec1ea51e421b8",
-            "commitShort": "db9dbe8a0a",
+            "commit": "721551821be528e7df9274477a065814378a259c",
+            "commitShort": "721551821b",
             "commitDate": null,
             "branch": "main"
         },
@@ -2239,15 +2239,19 @@
                     "group": "csswg",
                     "ed": "https://drafts.csswg.org/css-page-3/",
                     "tr": "https://www.w3.org/TR/css-page-3/",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/2013/WD-css3-page-20130314/"
-                    ],
                     "issueTracking": [
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/13"
                     ],
                     "editor": [
-                        "Elika J. Etemad / fantasai, Apple&#44; formerly Mozilla, http://fantasai.inkedblade.net/contact, w3cid 35400",
-                        "Simon Sapin, Mozilla&#44; formerly Kozea, http://exyr.org/about/, w3cid 58001"
+                        "Elika J. Etemad / fantasai, Apple&#44; formerly Mozilla, http://fantasai.inkedblade.net/contact, w3cid 35400"
+                    ],
+                    "formerEditor": [
+                        "Simon Sapin, Mozilla&#44; formerly Kozea, http://exyr.org/about/, w3cid 58001",
+                        "Melinda Grant, HP",
+                        "Håkon Wium Lie, Opera Software",
+                        "Jim Bigelow, Hewlett-Packard",
+                        "Jacob Refstrup, Hewlett-Packard",
+                        "Robert Stevahn, Hewlett-Packard"
                     ],
                     "ignoredTerms": [
                         "fit",
@@ -6784,7 +6788,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1778
+                    "line": 1816
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -8440,7 +8444,7 @@
                     "appliesTo": "all elements and text",
                     "inherited": "yes",
                     "percentages": "N/a",
-                    "computedValue": "specified keyword, identifier or <palette-mix()> function.\n<palette-mix> must be simplified to a single keyword or identifier if resulting palette is equivalent.",
+                    "computedValue": "specified keyword, identifier or <palette-mix()> function.\n<palette-mix()> must be simplified to a single keyword or identifier if resulting palette is equivalent.",
                     "animationType": "by computed value"
                 },
                 "name": "font-palette"
@@ -11738,7 +11742,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 1660
+                    "line": 1664
                 },
                 "props": {
                     "name": "size",
@@ -11753,7 +11757,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 1871
+                    "line": 1875
                 },
                 "props": {
                     "name": "page-orientation",
@@ -11768,7 +11772,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 1951
+                    "line": 1955
                 },
                 "props": {
                     "name": "marks",
@@ -11783,7 +11787,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 1997
+                    "line": 2001
                 },
                 "props": {
                     "name": "bleed",
@@ -11798,7 +11802,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 2087
+                    "line": 2091
                 },
                 "props": {
                     "name": "page",
@@ -20274,7 +20278,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1064
+                    "line": 1080
                 },
                 "value": "rgb( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20284,7 +20288,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1067
+                    "line": 1083
                 },
                 "value": "rgba( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20294,7 +20298,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1125
+                    "line": 1146
                 },
                 "value": "hsl([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20304,7 +20308,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1130
+                    "line": 1151
                 },
                 "value": "hsla([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20314,7 +20318,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1169
+                    "line": 1195
                 },
                 "value": "hwb([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20324,7 +20328,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1196
+                    "line": 1226
                 },
                 "value": "lab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20334,7 +20338,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1248
+                    "line": 1282
                 },
                 "value": "oklab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20344,7 +20348,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1275
+                    "line": 1313
                 },
                 "value": "lch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20354,7 +20358,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1411
+                    "line": 1449
                 },
                 "value": "oklch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20364,7 +20368,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1494
+                    "line": 1532
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20374,7 +20378,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1495
+                    "line": 1533
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20384,7 +20388,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1496
+                    "line": 1534
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]#"
             },
@@ -20394,7 +20398,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1497
+                    "line": 1535
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20404,7 +20408,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1498
+                    "line": 1536
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20414,7 +20418,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1499
+                    "line": 1537
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -20424,7 +20428,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1500
+                    "line": 1538
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20434,7 +20438,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2276
+                    "line": 2314
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )"
             },
@@ -20444,7 +20448,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2277
+                    "line": 2315
                 },
                 "value": "<number> | <percentage>"
             },
@@ -20454,7 +20458,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2453
+                    "line": 2491
                 },
                 "attrs": {
                     "export": true
@@ -20467,7 +20471,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2454
+                    "line": 2492
                 },
                 "attrs": {
                     "export": true
@@ -20480,7 +20484,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2455
+                    "line": 2493
                 },
                 "attrs": {
                     "export": true
@@ -20493,7 +20497,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2456
+                    "line": 2494
                 },
                 "attrs": {
                     "export": true
@@ -20506,7 +20510,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2457
+                    "line": 2495
                 },
                 "attrs": {
                     "export": true
@@ -20519,7 +20523,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2458
+                    "line": 2496
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -21425,16 +21429,6 @@
             },
             {
                 "type": "prod",
-                "name": "palette-mix()",
-                "dfnName": "palette-mix()",
-                "source": {
-                    "spec": "css-fonts-4",
-                    "line": 7068
-                },
-                "value": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
-            },
-            {
-                "type": "prod",
                 "name": "content-list",
                 "dfnName": "content-list",
                 "source": {
@@ -22194,7 +22188,7 @@
                 "dfnName": "<<page-selector-list>>",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 643
+                    "line": 647
                 },
                 "value": "<page-selector>#"
             },
@@ -22204,7 +22198,7 @@
                 "dfnName": "<<page-selector>>",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 644
+                    "line": 648
                 },
                 "value": "[ <ident-token>? <pseudo-page>* ]!"
             },
@@ -22214,7 +22208,7 @@
                 "dfnName": "<<pseudo-page>>",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 645
+                    "line": 649
                 },
                 "value": "':' [ left | right | first | blank ]"
             },
@@ -22224,7 +22218,7 @@
                 "dfnName": "@top-left-corner",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 648
+                    "line": 652
                 },
                 "value": "@top-left-corner { <declaration-list> };"
             },
@@ -22234,7 +22228,7 @@
                 "dfnName": "@top-left",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 649
+                    "line": 653
                 },
                 "value": "@top-left { <declaration-list> };"
             },
@@ -22244,7 +22238,7 @@
                 "dfnName": "@top-center",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 650
+                    "line": 654
                 },
                 "value": "@top-center { <declaration-list> };"
             },
@@ -22254,7 +22248,7 @@
                 "dfnName": "@top-right",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 651
+                    "line": 655
                 },
                 "value": "@top-right { <declaration-list> };"
             },
@@ -22264,7 +22258,7 @@
                 "dfnName": "@top-right-corner",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 652
+                    "line": 656
                 },
                 "value": "@top-right-corner { <declaration-list> };"
             },
@@ -22274,7 +22268,7 @@
                 "dfnName": "@bottom-left-corner",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 653
+                    "line": 657
                 },
                 "value": "@bottom-left-corner { <declaration-list> };"
             },
@@ -22284,7 +22278,7 @@
                 "dfnName": "@bottom-left",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 654
+                    "line": 658
                 },
                 "value": "@bottom-left { <declaration-list> };"
             },
@@ -22294,7 +22288,7 @@
                 "dfnName": "@bottom-center",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 655
+                    "line": 659
                 },
                 "value": "@bottom-center { <declaration-list> };"
             },
@@ -22304,7 +22298,7 @@
                 "dfnName": "@bottom-right",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 656
+                    "line": 660
                 },
                 "value": "@bottom-right { <declaration-list> };"
             },
@@ -22314,7 +22308,7 @@
                 "dfnName": "@bottom-right-corner",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 657
+                    "line": 661
                 },
                 "value": "@bottom-right-corner { <declaration-list> };"
             },
@@ -22324,7 +22318,7 @@
                 "dfnName": "@left-top",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 658
+                    "line": 662
                 },
                 "value": "@left-top { <declaration-list> };"
             },
@@ -22334,7 +22328,7 @@
                 "dfnName": "@left-middle",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 659
+                    "line": 663
                 },
                 "value": "@left-middle { <declaration-list> };"
             },
@@ -22344,7 +22338,7 @@
                 "dfnName": "@left-bottom",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 660
+                    "line": 664
                 },
                 "value": "@left-bottom { <declaration-list> };"
             },
@@ -22354,7 +22348,7 @@
                 "dfnName": "@right-top",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 661
+                    "line": 665
                 },
                 "value": "@right-top { <declaration-list> };"
             },
@@ -22364,7 +22358,7 @@
                 "dfnName": "@right-middle",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 662
+                    "line": 666
                 },
                 "value": "@right-middle { <declaration-list> };"
             },
@@ -22374,7 +22368,7 @@
                 "dfnName": "@right-bottom",
                 "source": {
                     "spec": "css-page-3",
-                    "line": 663
+                    "line": 667
                 },
                 "value": "@right-bottom { <declaration-list> };"
             },
@@ -23984,7 +23978,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2857
+                    "line": 2910
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
