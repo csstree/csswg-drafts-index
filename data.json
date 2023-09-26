@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-09-25T00:42:06.140Z",
-    "elapsedTime": 404,
+    "createdAt": "2023-09-26T00:42:12.227Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f9789421a20a5d6d565d6f29d54f13960197a63d",
-            "commitShort": "f9789421a2",
+            "commit": "bf6c9576f5b80227f51ab7f352f847bb70b8e08e",
+            "commitShort": "bf6c9576f5",
             "commitDate": null,
             "branch": "main"
         },
@@ -23177,7 +23177,7 @@
                 "dfnName": "<<crossorigin-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 78
+                    "line": 83
                 },
                 "value": ""
             },
@@ -23187,7 +23187,7 @@
                 "dfnName": "<<integrity-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 87
+                    "line": 92
                 },
                 "value": ""
             },
@@ -23197,7 +23197,7 @@
                 "dfnName": "<<referrerpolicy-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 93
+                    "line": 98
                 },
                 "value": ""
             },
@@ -23207,7 +23207,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 268
+                    "line": 275
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -23217,7 +23217,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 528
+                    "line": 535
                 },
                 "value": "<dashed-ident> || per-element"
             },
