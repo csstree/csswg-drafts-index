@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-02T00:42:59.037Z",
-    "elapsedTime": 469,
+    "createdAt": "2023-10-03T00:43:12.959Z",
+    "elapsedTime": 390,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3ef169eaf42f9ea57d2ad5693ad93b356638a33e",
-            "commitShort": "3ef169eaf4",
+            "commit": "7b084cf1b6655e9912cc366e1f57e834c33d7bd5",
+            "commitShort": "7b084cf1b6",
             "commitDate": null,
             "branch": "main"
         },
@@ -6816,7 +6816,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 557
+                    "line": 556
                 },
                 "props": {
                     "name": "forced-color-adjust",
@@ -6832,7 +6832,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 664
+                    "line": 663
                 },
                 "props": {
                     "name": "print-color-adjust",
@@ -6850,7 +6850,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-adjust-1",
-                    "line": 718
+                    "line": 717
                 },
                 "props": {
                     "name": "color-adjust",
@@ -8533,7 +8533,7 @@
                 "props": {
                     "name": "font-size",
                     "value": "auto | [<number>]{1,2}",
-                    "initial": "normal",
+                    "initial": "auto",
                     "for": "@font-face"
                 },
                 "name": "font-size"
@@ -14595,7 +14595,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 4157
+                    "line": 4158
                 },
                 "props": {
                     "name": "text-wrap-mode",
@@ -14613,7 +14613,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5313
+                    "line": 5314
                 },
                 "props": {
                     "name": "wrap-inside",
@@ -14631,7 +14631,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5403
+                    "line": 5404
                 },
                 "props": {
                     "name": "wrap-before",
@@ -14649,7 +14649,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5403
+                    "line": 5404
                 },
                 "props": {
                     "name": "wrap-after",
@@ -14667,7 +14667,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5474
+                    "line": 5475
                 },
                 "props": {
                     "name": "text-wrap-style",
@@ -14685,7 +14685,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 5604
+                    "line": 5610
                 },
                 "props": {
                     "name": "text-wrap",
@@ -14703,7 +14703,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6266
+                    "line": 6272
                 },
                 "props": {
                     "name": "word-break",
@@ -14721,7 +14721,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 6985
+                    "line": 6991
                 },
                 "props": {
                     "name": "line-break",
@@ -14739,7 +14739,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7564
+                    "line": 7570
                 },
                 "props": {
                     "name": "hyphens",
@@ -14757,7 +14757,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7781
+                    "line": 7787
                 },
                 "props": {
                     "name": "hyphenate-character",
@@ -14775,7 +14775,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7860
+                    "line": 7866
                 },
                 "props": {
                     "name": "hyphenate-limit-zone",
@@ -14793,7 +14793,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7891
+                    "line": 7897
                 },
                 "props": {
                     "name": "hyphenate-limit-chars",
@@ -14811,7 +14811,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7953
+                    "line": 7959
                 },
                 "props": {
                     "name": "hyphenate-limit-lines",
@@ -14829,7 +14829,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 7973
+                    "line": 7979
                 },
                 "props": {
                     "name": "hyphenate-limit-last",
@@ -14847,7 +14847,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8057
+                    "line": 8063
                 },
                 "props": {
                     "name": "overflow-wrap",
@@ -14865,7 +14865,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8057
+                    "line": 8063
                 },
                 "props": {
                     "name": "word-wrap",
@@ -14883,7 +14883,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8281
+                    "line": 8287
                 },
                 "props": {
                     "name": "text-align",
@@ -14900,7 +14900,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8771
+                    "line": 8777
                 },
                 "props": {
                     "name": "text-align-all",
@@ -14918,7 +14918,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8810
+                    "line": 8816
                 },
                 "props": {
                     "name": "text-align-last",
@@ -14936,7 +14936,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 8907
+                    "line": 8913
                 },
                 "props": {
                     "name": "text-justify",
@@ -14954,7 +14954,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9376
+                    "line": 9382
                 },
                 "props": {
                     "name": "text-group-align",
@@ -14972,7 +14972,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9528
+                    "line": 9534
                 },
                 "props": {
                     "name": "word-spacing",
@@ -14991,7 +14991,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 9725
+                    "line": 9731
                 },
                 "props": {
                     "name": "letter-spacing",
@@ -15010,7 +15010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10170
+                    "line": 10176
                 },
                 "props": {
                     "name": "line-padding",
@@ -15028,7 +15028,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10228
+                    "line": 10234
                 },
                 "props": {
                     "name": "text-autospace",
@@ -15046,7 +15046,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10358
+                    "line": 10395
                 },
                 "props": {
                     "name": "text-spacing-trim",
@@ -15064,7 +15064,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10766
+                    "line": 10861
                 },
                 "props": {
                     "name": "text-spacing",
@@ -15082,7 +15082,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10965
+                    "line": 11060
                 },
                 "props": {
                     "name": "text-indent",
@@ -15101,7 +15101,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 11365
+                    "line": 11460
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -20060,7 +20060,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2544
+                    "line": 2541
                 },
                 "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20070,7 +20070,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3164
+                    "line": 3161
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20080,7 +20080,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3238
+                    "line": 3235
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20090,7 +20090,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3331
+                    "line": 3328
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20100,7 +20100,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3406
+                    "line": 3403
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20110,7 +20110,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3574
+                    "line": 3571
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -20120,7 +20120,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3582
+                    "line": 3579
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20130,7 +20130,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3583
+                    "line": 3580
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20140,7 +20140,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3584
+                    "line": 3581
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20150,7 +20150,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3585
+                    "line": 3582
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20160,7 +20160,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3586
+                    "line": 3583
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -20170,7 +20170,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3587
+                    "line": 3584
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20180,7 +20180,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4503
+                    "line": 4498
                 },
                 "attrs": {
                     "export": true
@@ -20193,7 +20193,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4504
+                    "line": 4499
                 },
                 "attrs": {
                     "export": true
@@ -20206,7 +20206,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4505
+                    "line": 4500
                 },
                 "attrs": {
                     "export": true
@@ -20219,7 +20219,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4506
+                    "line": 4501
                 },
                 "attrs": {
                     "export": true
@@ -20232,7 +20232,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4507
+                    "line": 4502
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -22729,7 +22729,7 @@
                 "dfnName": "<<autospace>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10255
+                    "line": 10267
                 },
                 "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
             },
@@ -22739,9 +22739,9 @@
                 "dfnName": "<<spacing-trim>>",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10382
+                    "line": 10425
                 },
-                "value": "space-all |  trim-auto | [ allow-end || space-first ]"
+                "value": "space-all | trim-auto | [ allow-end || space-first ] | trim-all"
             },
             {
                 "type": "prod",
@@ -24166,13 +24166,13 @@
                     "spec": "css-font-loading-3",
                     "line": 82
                 },
-                "content": "typedef (ArrayBuffer or ArrayBufferView) BinaryData;\ndictionary FontFaceDescriptors {\n    CSSOMString style = \"normal\";\n    CSSOMString weight = \"normal\";\n    CSSOMString stretch = \"normal\";\n    CSSOMString unicodeRange = \"U+0-10FFFF\";\n    CSSOMString variant = \"normal\";\n    CSSOMString featureSettings = \"normal\";\n    CSSOMString variationSettings = \"normal\";\n    CSSOMString display = \"auto\";\n    CSSOMString ascentOverride = \"normal\";\n    CSSOMString descentOverride = \"normal\";\n    CSSOMString lineGapOverride = \"normal\";\n};\nenum FontFaceLoadStatus { \"unloaded\", \"loading\", \"loaded\", \"error\" };\n[Exposed=(Window,Worker)]\ninterface FontFace {\n    constructor(CSSOMString family, (CSSOMString or BinaryData) source,\n                optional FontFaceDescriptors descriptors = {});\n    attribute CSSOMString family;\n    attribute CSSOMString style;\n    attribute CSSOMString weight;\n    attribute CSSOMString stretch;\n    attribute CSSOMString unicodeRange;\n    attribute CSSOMString variant;\n    attribute CSSOMString featureSettings;\n    attribute CSSOMString variationSettings;\n    attribute CSSOMString display;\n    attribute CSSOMString ascentOverride;\n    attribute CSSOMString descentOverride;\n    attribute CSSOMString lineGapOverride;\n    readonly attribute FontFaceLoadStatus status;\n    Promise<FontFace> load();\n    readonly attribute Promise<FontFace> loaded;\n};"
+                "content": "typedef (ArrayBuffer or ArrayBufferView) BinaryData;\ndictionary FontFaceDescriptors {\n    CSSOMString style = \"normal\";\n    CSSOMString weight = \"normal\";\n    CSSOMString stretch = \"normal\";\n    CSSOMString unicodeRange = \"U+0-10FFFF\";\n    CSSOMString featureSettings = \"normal\";\n    CSSOMString variationSettings = \"normal\";\n    CSSOMString display = \"auto\";\n    CSSOMString ascentOverride = \"normal\";\n    CSSOMString descentOverride = \"normal\";\n    CSSOMString lineGapOverride = \"normal\";\n};\nenum FontFaceLoadStatus { \"unloaded\", \"loading\", \"loaded\", \"error\" };\n[Exposed=(Window,Worker)]\ninterface FontFace {\n    constructor(CSSOMString family, (CSSOMString or BinaryData) source,\n                optional FontFaceDescriptors descriptors = {});\n    attribute CSSOMString family;\n    attribute CSSOMString style;\n    attribute CSSOMString weight;\n    attribute CSSOMString stretch;\n    attribute CSSOMString unicodeRange;\n    attribute CSSOMString featureSettings;\n    attribute CSSOMString variationSettings;\n    attribute CSSOMString display;\n    attribute CSSOMString ascentOverride;\n    attribute CSSOMString descentOverride;\n    attribute CSSOMString lineGapOverride;\n    readonly attribute FontFaceLoadStatus status;\n    Promise<FontFace> load();\n    readonly attribute Promise<FontFace> loaded;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 437
+                    "line": 434
                 },
                 "content": "[Exposed=(Window,Worker)]\ninterface FontFaceFeatures {\n    /* The CSSWG is still discussing what goes in here */\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceVariationAxis {\n    readonly attribute DOMString name;\n    readonly attribute DOMString axisTag;\n    readonly attribute double minimumValue;\n    readonly attribute double maximumValue;\n    readonly attribute double defaultValue;\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceVariations {\n    readonly setlike<FontFaceVariationAxis>;\n};\n[Exposed=(Window,Worker)]\ninterface FontFacePalette {\n    iterable<DOMString>;\n    readonly attribute unsigned long length;\n    getter DOMString (unsigned long index);\n    readonly attribute boolean usableWithLightBackground;\n    readonly attribute boolean usableWithDarkBackground;\n};\n[Exposed=(Window,Worker)]\ninterface FontFacePalettes {\n    iterable<FontFacePalette>;\n    readonly attribute unsigned long length;\n    getter FontFacePalette (unsigned long index);\n};\npartial interface FontFace {\n    readonly attribute FontFaceFeatures features;\n    readonly attribute FontFaceVariations variations;\n    readonly attribute FontFacePalettes palettes;\n};"
             },
@@ -24180,7 +24180,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 498
+                    "line": 495
                 },
                 "content": "dictionary FontFaceSetLoadEventInit : EventInit {\n    sequence<FontFace> fontfaces = [];\n};\n[Exposed=(Window,Worker)]\ninterface FontFaceSetLoadEvent : Event {\n    constructor(CSSOMString type, optional FontFaceSetLoadEventInit eventInitDict = {});\n    [SameObject] readonly attribute FrozenArray<FontFace> fontfaces;\n};\nenum FontFaceSetLoadStatus { \"loading\", \"loaded\" };\n[Exposed=(Window,Worker)]\ninterface FontFaceSet : EventTarget {\n    constructor(sequence<FontFace> initialFaces);\n    setlike<FontFace>;\n    FontFaceSet add(FontFace font);\n    boolean delete(FontFace font);\n    undefined clear();\n    // events for when loading state changes\n    attribute EventHandler onloading;\n    attribute EventHandler onloadingdone;\n    attribute EventHandler onloadingerror;\n    // check and start loads if appropriate\n    // and fulfill promise when all loads complete\n    Promise<sequence<FontFace>> load(CSSOMString font, optional CSSOMString text = \" \");\n    // return whether all fonts in the fontlist are loaded\n    // (does not initiate load if not available)\n    boolean check(CSSOMString font, optional CSSOMString text = \" \");\n    // async notification that font loading and layout operations are done\n    readonly attribute Promise<FontFaceSet> ready;\n    // loading state, \"loading\" while one or more fonts loading, \"loaded\" otherwise\n    readonly attribute FontFaceSetLoadStatus status;\n};"
             },
@@ -24188,7 +24188,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-font-loading-3",
-                    "line": 1049
+                    "line": 1046
                 },
                 "content": "interface mixin FontFaceSource {\n    readonly attribute FontFaceSet fonts;\n};\nDocument includes FontFaceSource;\nWorkerGlobalScope includes FontFaceSource;"
             },
