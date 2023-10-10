@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-09T00:43:02.204Z",
-    "elapsedTime": 417,
+    "createdAt": "2023-10-10T00:42:25.372Z",
+    "elapsedTime": 425,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "5409a6dd035c925abca681ec6085c89de92f50aa",
-            "commitShort": "5409a6dd03",
+            "commit": "77e96017716572ffdc84da087fc10c9929a0d54e",
+            "commitShort": "77e9601771",
             "commitDate": null,
             "branch": "main"
         },
@@ -2143,7 +2143,8 @@
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
                         "Adam Argyle, Google, https://nerdy.dev, w3cid 112669"
                     ],
-                    "abstract": "This module introduces the ability to nest one style rule inside another, with the selector of the child rule relative to the selector of the parent rule.  This increases the modularity and maintainability of CSS stylesheets."
+                    "abstract": "This module introduces the ability to nest one style rule inside another, with the selector of the child rule relative to the selector of the parent rule.  This increases the modularity and maintainability of CSS stylesheets.",
+                    "defaultHighlight": "css"
                 }
             },
             {
@@ -22689,7 +22690,7 @@
                 "dfnName": "<an+b>",
                 "source": {
                     "spec": "css-syntax-3",
-                    "line": 3182
+                    "line": 3287
                 },
                 "attrs": {
                     "id": "anb-production"
