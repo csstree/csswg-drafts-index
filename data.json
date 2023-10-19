@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-18T00:42:53.831Z",
-    "elapsedTime": 475,
+    "createdAt": "2023-10-19T00:42:35.337Z",
+    "elapsedTime": 431,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "4a0f2e33b941b05268760f052fcd934218bbbd6b",
-            "commitShort": "4a0f2e33b9",
+            "commit": "fae07097a8acb0b796f6f2df3bc728477d694ed8",
+            "commitShort": "fae07097a8",
             "commitDate": null,
             "branch": "main"
         },
@@ -24406,7 +24406,7 @@
                     "spec": "css-view-transitions-1",
                     "line": 902
                 },
-                "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback? updateCallback = null);\n};\ncallback UpdateCallback = Promise<any> ();"
+                "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
             {
                 "type": "idl",
@@ -24430,13 +24430,13 @@
                     "spec": "css-view-transitions-2",
                     "line": 328
                 },
-                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? types = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition((UpdateCallback or StartViewTransitionOptions?) callbackOptionsOrNull);\n};"
+                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? types = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions);\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 358
+                    "line": 360
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -24444,7 +24444,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 368
+                    "line": 370
                 },
                 "content": "enum ViewTransitionTrigger { \"navigation\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    readonly attribute CSSOMString navigationConditionText;\n    attribute ViewTransitionTrigger trigger;\n};"
             },
