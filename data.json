@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-19T00:42:35.337Z",
-    "elapsedTime": 431,
+    "createdAt": "2023-10-20T00:42:47.191Z",
+    "elapsedTime": 539,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "fae07097a8acb0b796f6f2df3bc728477d694ed8",
-            "commitShort": "fae07097a8",
+            "commit": "95cf4b2c95433f3169452434988c4f8af46601a1",
+            "commitShort": "95cf4b2c95",
             "commitDate": null,
             "branch": "main"
         },
@@ -9376,7 +9376,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 298
+                    "line": 283
                 },
                 "props": {
                     "name": "masonry-auto-flow",
@@ -9394,7 +9394,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 542
+                    "line": 524
                 },
                 "props": {
                     "name": "align-tracks",
@@ -9412,7 +9412,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-3",
-                    "line": 553
+                    "line": 535
                 },
                 "props": {
                     "name": "justify-tracks",
