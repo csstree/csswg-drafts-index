@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-23T00:42:22.785Z",
-    "elapsedTime": 401,
+    "createdAt": "2023-10-24T00:42:05.292Z",
+    "elapsedTime": 431,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "349a54ac5936830655b54f85e5354d1a6cfc3429",
-            "commitShort": "349a54ac59",
+            "commit": "5da0b7eec74efc032c8c4d1d0727538b88b53075",
+            "commitShort": "5da0b7eec7",
             "commitDate": null,
             "branch": "main"
         },
@@ -23143,7 +23143,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 948
+                    "line": 867
                 },
                 "attrs": {
                     "id": "url-value"
@@ -23156,7 +23156,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4081
+                    "line": 4050
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -23166,7 +23166,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4082
+                    "line": 4051
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -23176,17 +23176,17 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4083
+                    "line": 4052
                 },
-                "value": "<number> | <dimension> | <percentage> |\n<calc-constant> | ( <calc-sum> )"
+                "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
             {
                 "type": "prod",
-                "name": "calc-constant",
-                "dfnName": "<calc-constant>",
+                "name": "calc-keyword",
+                "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4085
+                    "line": 4054
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -23222,11 +23222,61 @@
             },
             {
                 "type": "prod",
+                "name": "progress()",
+                "dfnName": "<<progress()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 153
+                },
+                "value": "progress(<calc-sum> from <calc-sum> to <calc-sum>)"
+            },
+            {
+                "type": "prod",
+                "name": "media-progress()",
+                "dfnName": "<<media-progress()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 185
+                },
+                "value": "media-progress(<media-feature> from <calc-sum> to <calc-sum>)"
+            },
+            {
+                "type": "prod",
+                "name": "container-progress()",
+                "dfnName": "<<container-progress()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 208
+                },
+                "value": "container-progress(<size-feature> [ of <container-name> ]? from <calc-sum> to <calc-sum>)"
+            },
+            {
+                "type": "prod",
+                "name": "calc-mix()",
+                "dfnName": "<<calc-mix()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 323
+                },
+                "value": "calc-mix( <progress>, <calc-sum>, <calc-sum> )"
+            },
+            {
+                "type": "prod",
+                "name": "mix()",
+                "dfnName": "<<mix()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 387
+                },
+                "value": "mix( <progress> ';' <declaration-value>? ';' <declaration-value>? ) |\nmix( <progress> && of <'animation-name'> )"
+            },
+            {
+                "type": "prod",
                 "name": "attr-type",
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 275
+                    "line": 637
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -23236,7 +23286,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 535
+                    "line": 897
                 },
                 "value": "<dashed-ident> || per-element"
             },
