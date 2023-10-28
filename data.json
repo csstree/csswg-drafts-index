@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-27T00:41:16.853Z",
-    "elapsedTime": 420,
+    "createdAt": "2023-10-28T00:40:32.720Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b74679e1cf07d8c91671c95aa79fddf866d46212",
-            "commitShort": "b74679e1cf",
+            "commit": "39b7386d5677b1a193466e664efde14f2f41b31f",
+            "commitShort": "39b7386d56",
             "commitDate": null,
             "branch": "main"
         },
@@ -16043,7 +16043,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 254
+                    "line": 272
                 },
                 "props": {
                     "name": "outline",
@@ -16058,7 +16058,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 338
+                    "line": 356
                 },
                 "props": {
                     "name": "outline-width",
@@ -16076,7 +16076,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 358
+                    "line": 376
                 },
                 "props": {
                     "name": "outline-style",
@@ -16094,7 +16094,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 397
+                    "line": 415
                 },
                 "props": {
                     "name": "outline-color",
@@ -16112,7 +16112,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 445
+                    "line": 463
                 },
                 "props": {
                     "name": "outline-offset",
@@ -16130,7 +16130,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 501
+                    "line": 519
                 },
                 "props": {
                     "name": "resize",
@@ -16148,7 +16148,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 641
+                    "line": 659
                 },
                 "props": {
                     "name": "cursor",
@@ -16166,7 +16166,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1044
+                    "line": 1062
                 },
                 "props": {
                     "name": "caret-color",
@@ -16184,7 +16184,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1099
+                    "line": 1117
                 },
                 "props": {
                     "name": "caret-animation",
@@ -16202,7 +16202,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1232
+                    "line": 1250
                 },
                 "props": {
                     "name": "caret-shape",
@@ -16220,7 +16220,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1398
+                    "line": 1416
                 },
                 "props": {
                     "name": "caret",
@@ -16236,7 +16236,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1466
+                    "line": 1484
                 },
                 "props": {
                     "name": "nav-up",
@@ -16254,7 +16254,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1466
+                    "line": 1484
                 },
                 "props": {
                     "name": "nav-right",
@@ -16272,7 +16272,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1466
+                    "line": 1484
                 },
                 "props": {
                     "name": "nav-down",
@@ -16290,7 +16290,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1466
+                    "line": 1484
                 },
                 "props": {
                     "name": "nav-left",
@@ -16308,7 +16308,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1639
+                    "line": 1657
                 },
                 "props": {
                     "name": "user-select",
@@ -16325,7 +16325,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1896
+                    "line": 1914
                 },
                 "props": {
                     "name": "pointer-events",
@@ -16344,7 +16344,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1956
+                    "line": 1974
                 },
                 "props": {
                     "name": "accent-color",
@@ -16363,7 +16363,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2084
+                    "line": 2102
                 },
                 "props": {
                     "name": "appearance",
@@ -16380,7 +16380,26 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2474
+                    "line": 2476
+                },
+                "props": {
+                    "name": "field-sizing",
+                    "value": "fixed | content",
+                    "initial": "fixed",
+                    "appliesTo": "[=elements with default preferred size=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "as specified",
+                    "canonicalOrder": "per grammar",
+                    "animationType": "discrete"
+                },
+                "name": "field-sizing"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-ui-4",
+                    "line": 2545
                 },
                 "props": {
                     "name": "input-security",
@@ -23121,7 +23140,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 867
+                    "line": 869
                 },
                 "attrs": {
                     "id": "url-value"
