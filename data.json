@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-10-30T00:42:21.635Z",
-    "elapsedTime": 418,
+    "createdAt": "2023-10-31T00:42:32.262Z",
+    "elapsedTime": 393,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "bd67da3503269c10f7af723ed39a0c5ceb4ba17d",
-            "commitShort": "bd67da3503",
+            "commit": "04f87ed018fad0403e8cffa7f8cb4bcd894c3f31",
+            "commitShort": "04f87ed018",
             "commitDate": null,
             "branch": "main"
         },
@@ -1539,25 +1539,6 @@
                     "ed": "https://drafts.csswg.org/css-grid/",
                     "tr": "https://www.w3.org/TR/css-grid-1/",
                     "implementationReport": "https://wpt.fyi/results/css/css-grid",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/2020/CRD-css-grid-1-20201021/",
-                        "https://www.w3.org/TR/2020/CR-css-grid-1-20200818/",
-                        "https://www.w3.org/TR/2017/CR-css-grid-1-20171214/",
-                        "https://www.w3.org/TR/2017/CR-css-grid-1-20170509/",
-                        "https://www.w3.org/TR/2017/CR-css-grid-1-20170209/",
-                        "https://www.w3.org/TR/2016/CR-css-grid-1-20160929/",
-                        "https://www.w3.org/TR/2016/WD-css-grid-1-20160519/",
-                        "https://www.w3.org/TR/2015/WD-css-grid-1-20150917/",
-                        "https://www.w3.org/TR/2015/WD-css-grid-1-20150806/",
-                        "https://www.w3.org/TR/2015/WD-css-grid-1-20150317/",
-                        "https://www.w3.org/TR/2014/WD-css-grid-1-20140513/",
-                        "https://www.w3.org/TR/2014/WD-css-grid-1-20140123/",
-                        "https://www.w3.org/TR/2013/WD-css3-grid-layout-20130910/",
-                        "https://www.w3.org/TR/2013/WD-css3-grid-layout-20130402/",
-                        "https://www.w3.org/TR/2012/WD-css3-grid-layout-20121106/",
-                        "https://www.w3.org/TR/2012/WD-css3-grid-layout-20120322/",
-                        "https://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/"
-                    ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199",
                         "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
@@ -1596,7 +1577,8 @@
                         "css-writing-modes-3 (dfn) start/end"
                     ],
                     "atRisk": "application of grid placement to absolutely-positioned boxes",
-                    "wptPathPrefix": "css/css-grid/"
+                    "wptPathPrefix": "css/css-grid/",
+                    "ignoreMdnFailure": "valdef-grid-template-columns-minmax\nsubgrids"
                 }
             },
             {
@@ -1615,13 +1597,6 @@
                         "CSSWG GitHub https://github.com/w3c/csswg-drafts/issues?q=is%3Aopen+is%3Aissue+label%3Acss-grid-2"
                     ],
                     "implementationReport": "https://wpt.fyi/results/css/css-grid/subgrid",
-                    "previousVersion": [
-                        "https://www.w3.org/TR/2020/CRD-css-grid-2-20201021/",
-                        "https://www.w3.org/TR/2020/CR-css-grid-2-20200818/",
-                        "https://www.w3.org/TR/2019/WD-css-grid-2-20191203/",
-                        "https://www.w3.org/TR/2018/WD-css-grid-2-20180804/",
-                        "https://www.w3.org/TR/2018/WD-css-grid-2-20180628/"
-                    ],
                     "editor": [
                         "Tab Atkins Jr., Google, http://www.xanthir.com/contact/, w3cid 42199",
                         "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
@@ -1651,7 +1626,8 @@
                         "css-position-3 (property) left",
                         "css-position-3 (property) position",
                         "css-writing-modes-3 (dfn) start/end"
-                    ]
+                    ],
+                    "ignoreMdnFailure": "valdef-grid-template-columns-minmax"
                 }
             },
             {
@@ -8798,7 +8774,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 856
+                    "line": 841
                 },
                 "props": {
                     "name": "display",
@@ -8810,7 +8786,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1462
+                    "line": 1447
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -8828,7 +8804,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1462
+                    "line": 1447
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -8846,7 +8822,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2076
+                    "line": 2061
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -8864,7 +8840,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2233
+                    "line": 2218
                 },
                 "props": {
                     "name": "grid-template",
@@ -8878,7 +8854,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2377
+                    "line": 2362
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -8888,7 +8864,7 @@
                     "inherited": "no",
                     "percentages": "see [[#track-sizing|Track Sizing]]",
                     "computedValue": "see [[#track-sizing|Track Sizing]]",
-                    "animationType": "by computed value type"
+                    "animationType": "if the list lengths match, by computed value type per item; discrete otherwise"
                 },
                 "name": "grid-auto-columns"
             },
@@ -8896,7 +8872,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2377
+                    "line": 2362
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -8906,7 +8882,7 @@
                     "inherited": "no",
                     "percentages": "see [[#track-sizing|Track Sizing]]",
                     "computedValue": "see [[#track-sizing|Track Sizing]]",
-                    "animationType": "by computed value type"
+                    "animationType": "if the list lengths match, by computed value type per item; discrete otherwise"
                 },
                 "name": "grid-auto-rows"
             },
@@ -8914,7 +8890,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2450
+                    "line": 2435
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -8932,7 +8908,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2606
+                    "line": 2591
                 },
                 "props": {
                     "name": "grid",
@@ -8946,7 +8922,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2968
+                    "line": 2953
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -8964,7 +8940,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2968
+                    "line": 2953
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -8982,7 +8958,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2968
+                    "line": 2953
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -9000,7 +8976,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2968
+                    "line": 2953
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -9018,7 +8994,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3155
+                    "line": 3140
                 },
                 "props": {
                     "name": "grid-row",
@@ -9035,7 +9011,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3155
+                    "line": 3140
                 },
                 "props": {
                     "name": "grid-column",
@@ -9052,7 +9028,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 3176
+                    "line": 3161
                 },
                 "props": {
                     "name": "grid-area",
@@ -9069,7 +9045,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 899
+                    "line": 895
                 },
                 "props": {
                     "name": "display",
@@ -9081,7 +9057,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1510
+                    "line": 1506
                 },
                 "props": {
                     "name": "grid-template-columns",
@@ -9099,7 +9075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1510
+                    "line": 1506
                 },
                 "props": {
                     "name": "grid-template-rows",
@@ -9117,7 +9093,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2226
+                    "line": 2222
                 },
                 "props": {
                     "name": "grid-template-areas",
@@ -9135,7 +9111,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2383
+                    "line": 2379
                 },
                 "props": {
                     "name": "grid-template",
@@ -9149,7 +9125,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2527
+                    "line": 2523
                 },
                 "props": {
                     "name": "grid-auto-columns",
@@ -9159,7 +9135,7 @@
                     "inherited": "no",
                     "percentages": "see [[#track-sizing|Track Sizing]]",
                     "computedValue": "see [[#track-sizing|Track Sizing]]",
-                    "animationType": "by computed value type"
+                    "animationType": "if the list lengths match, by computed value type per item; discrete otherwise"
                 },
                 "name": "grid-auto-columns"
             },
@@ -9167,7 +9143,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2527
+                    "line": 2523
                 },
                 "props": {
                     "name": "grid-auto-rows",
@@ -9177,7 +9153,7 @@
                     "inherited": "no",
                     "percentages": "see [[#track-sizing|Track Sizing]]",
                     "computedValue": "see [[#track-sizing|Track Sizing]]",
-                    "animationType": "by computed value type"
+                    "animationType": "if the list lengths match, by computed value type per item; discrete otherwise"
                 },
                 "name": "grid-auto-rows"
             },
@@ -9185,7 +9161,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2600
+                    "line": 2596
                 },
                 "props": {
                     "name": "grid-auto-flow",
@@ -9203,7 +9179,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 2756
+                    "line": 2752
                 },
                 "props": {
                     "name": "grid",
@@ -9217,7 +9193,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3107
+                    "line": 3103
                 },
                 "props": {
                     "name": "grid-row-start",
@@ -9235,7 +9211,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3107
+                    "line": 3103
                 },
                 "props": {
                     "name": "grid-column-start",
@@ -9253,7 +9229,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3107
+                    "line": 3103
                 },
                 "props": {
                     "name": "grid-row-end",
@@ -9271,7 +9247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3107
+                    "line": 3103
                 },
                 "props": {
                     "name": "grid-column-end",
@@ -9289,7 +9265,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3294
+                    "line": 3290
                 },
                 "props": {
                     "name": "grid-row",
@@ -9306,7 +9282,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3294
+                    "line": 3290
                 },
                 "props": {
                     "name": "grid-column",
@@ -9323,7 +9299,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3315
+                    "line": 3311
                 },
                 "props": {
                     "name": "grid-area",
@@ -15047,7 +15023,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10935
+                    "line": 10942
                 },
                 "props": {
                     "name": "text-spacing",
@@ -15065,7 +15041,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 11140
+                    "line": 11147
                 },
                 "props": {
                     "name": "text-indent",
@@ -15084,7 +15060,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 11540
+                    "line": 11547
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -21616,7 +21592,7 @@
                 "dfnName": "<track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1507
+                    "line": 1492
                 },
                 "value": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
             },
@@ -21626,7 +21602,7 @@
                 "dfnName": "<auto-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1508
+                    "line": 1493
                 },
                 "value": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
             },
@@ -21636,7 +21612,7 @@
                 "dfnName": "<explicit-track-list>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1510
+                    "line": 1495
                 },
                 "value": "[ <line-names>? <track-size> ]+ <line-names>?"
             },
@@ -21646,7 +21622,7 @@
                 "dfnName": "<track-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1512
+                    "line": 1497
                 },
                 "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
             },
@@ -21656,7 +21632,7 @@
                 "dfnName": "<fixed-size>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1513
+                    "line": 1498
                 },
                 "value": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
             },
@@ -21666,7 +21642,7 @@
                 "dfnName": "<track-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1514
+                    "line": 1499
                 },
                 "value": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
             },
@@ -21676,7 +21652,7 @@
                 "dfnName": "<inflexible-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1515
+                    "line": 1500
                 },
                 "value": "<length-percentage [0,∞]> | min-content | max-content | auto"
             },
@@ -21686,7 +21662,7 @@
                 "dfnName": "<fixed-breadth>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1516
+                    "line": 1501
                 },
                 "value": "<length-percentage [0,∞]>"
             },
@@ -21696,7 +21672,7 @@
                 "dfnName": "<line-names>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1517
+                    "line": 1502
                 },
                 "value": "'[' <custom-ident>* ']'"
             },
@@ -21706,7 +21682,7 @@
                 "dfnName": "<<track-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1768
+                    "line": 1753
                 },
                 "value": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
             },
@@ -21716,7 +21692,7 @@
                 "dfnName": "<<auto-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1769
+                    "line": 1754
                 },
                 "value": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -21726,7 +21702,7 @@
                 "dfnName": "<<fixed-repeat>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 1770
+                    "line": 1755
                 },
                 "value": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -21736,7 +21712,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-1",
-                    "line": 2980
+                    "line": 2965
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
@@ -21749,7 +21725,7 @@
                 "dfnName": "<track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1590
+                    "line": 1586
                 },
                 "value": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
             },
@@ -21759,7 +21735,7 @@
                 "dfnName": "<auto-track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1591
+                    "line": 1587
                 },
                 "value": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
             },
@@ -21769,7 +21745,7 @@
                 "dfnName": "<explicit-track-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1593
+                    "line": 1589
                 },
                 "value": "[ <line-names>? <track-size> ]+ <line-names>?"
             },
@@ -21779,7 +21755,7 @@
                 "dfnName": "<line-name-list>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1595
+                    "line": 1591
                 },
                 "value": "[ <line-names> | <name-repeat> ]+"
             },
@@ -21789,7 +21765,7 @@
                 "dfnName": "<track-size>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1596
+                    "line": 1592
                 },
                 "value": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
             },
@@ -21799,7 +21775,7 @@
                 "dfnName": "<fixed-size>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1597
+                    "line": 1593
                 },
                 "value": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
             },
@@ -21809,7 +21785,7 @@
                 "dfnName": "<track-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1598
+                    "line": 1594
                 },
                 "value": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
             },
@@ -21819,7 +21795,7 @@
                 "dfnName": "<inflexible-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1599
+                    "line": 1595
                 },
                 "value": "<length-percentage [0,∞]> | min-content | max-content | auto"
             },
@@ -21829,7 +21805,7 @@
                 "dfnName": "<fixed-breadth>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1600
+                    "line": 1596
                 },
                 "value": "<length-percentage [0,∞]>"
             },
@@ -21839,7 +21815,7 @@
                 "dfnName": "<line-names>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1601
+                    "line": 1597
                 },
                 "value": "'[' <custom-ident>* ']'"
             },
@@ -21849,7 +21825,7 @@
                 "dfnName": "<<track-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1852
+                    "line": 1848
                 },
                 "value": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
             },
@@ -21859,7 +21835,7 @@
                 "dfnName": "<<auto-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1853
+                    "line": 1849
                 },
                 "value": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -21869,7 +21845,7 @@
                 "dfnName": "<<fixed-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1854
+                    "line": 1850
                 },
                 "value": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
             },
@@ -21879,7 +21855,7 @@
                 "dfnName": "<<name-repeat>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 1855
+                    "line": 1851
                 },
                 "value": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+)"
             },
@@ -21889,7 +21865,7 @@
                 "dfnName": "<<grid-line>>",
                 "source": {
                     "spec": "css-grid-2",
-                    "line": 3119
+                    "line": 3115
                 },
                 "attrs": {
                     "for": "grid-row-start, grid-column-start, grid-row-end, grid-column-end"
