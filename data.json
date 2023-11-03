@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-02T00:42:42.106Z",
-    "elapsedTime": 408,
+    "createdAt": "2023-11-03T00:42:58.712Z",
+    "elapsedTime": 323,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "db07383afbe336f47c6d0483497ff54c93e38f50",
-            "commitShort": "db07383afb",
+            "commit": "8c619cffcf27dfea18b4ec6e2017974183a0c8ad",
+            "commitShort": "8c619cffcf",
             "commitDate": null,
             "branch": "main"
         },
@@ -20370,7 +20370,7 @@
                     "spec": "css-color-5",
                     "line": 1539
                 },
-                "value": "<dashed-ident> [ <number> | <percentage> | none ]#"
+                "value": "<dashed-ident> [ <number> | <percentage> | none ]+"
             },
             {
                 "type": "prod",
@@ -20420,7 +20420,7 @@
                     "spec": "css-color-5",
                     "line": 2319
                 },
-                "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )"
+                "value": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> | none ]? )"
             },
             {
                 "type": "prod",
@@ -20430,7 +20430,7 @@
                     "spec": "css-color-5",
                     "line": 2320
                 },
-                "value": "<number> | <percentage>"
+                "value": "<number> | <percentage> | none"
             },
             {
                 "type": "prod",
@@ -20438,7 +20438,7 @@
                 "dfnName": "light-dark()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2484
+                    "line": 2487
                 },
                 "attrs": {
                     "export": true
@@ -20451,7 +20451,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2518
+                    "line": 2521
                 },
                 "attrs": {
                     "export": true
@@ -20464,12 +20464,12 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2519
+                    "line": 2522
                 },
                 "attrs": {
                     "export": true
                 },
-                "value": "srgb | srgb-linear | lab | oklab | xyz | xyz-d50 | xyz-d65"
+                "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
             },
             {
                 "type": "prod",
@@ -20477,7 +20477,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2520
+                    "line": 2523
                 },
                 "attrs": {
                     "export": true
@@ -20490,7 +20490,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2521
+                    "line": 2524
                 },
                 "attrs": {
                     "export": true
@@ -20503,7 +20503,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2522
+                    "line": 2525
                 },
                 "attrs": {
                     "export": true
@@ -20516,7 +20516,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2523
+                    "line": 2526
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -24132,7 +24132,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2962
+                    "line": 2965
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
