@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-03T00:42:58.712Z",
-    "elapsedTime": 323,
+    "createdAt": "2023-11-04T00:41:41.019Z",
+    "elapsedTime": 410,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8c619cffcf27dfea18b4ec6e2017974183a0c8ad",
-            "commitShort": "8c619cffcf",
+            "commit": "d24a6cf3caa225af84bf811e52777d8ef4163ab0",
+            "commitShort": "d24a6cf3ca",
             "commitDate": null,
             "branch": "main"
         },
@@ -23170,7 +23170,7 @@
                 "dfnName": "<<crossorigin-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 83
+                    "line": 84
                 },
                 "value": ""
             },
@@ -23180,7 +23180,7 @@
                 "dfnName": "<<integrity-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 92
+                    "line": 93
                 },
                 "value": ""
             },
@@ -23190,7 +23190,7 @@
                 "dfnName": "<<referrerpolicy-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 98
+                    "line": 99
                 },
                 "value": ""
             },
@@ -23200,7 +23200,10 @@
                 "dfnName": "<<progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 153
+                    "line": 154
+                },
+                "attrs": {
+                    "id": "typedef-progress-fn"
                 },
                 "value": "progress(<calc-sum> from <calc-sum> to <calc-sum>)"
             },
@@ -23210,7 +23213,7 @@
                 "dfnName": "<<media-progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 185
+                    "line": 186
                 },
                 "value": "media-progress(<media-feature> from <calc-sum> to <calc-sum>)"
             },
@@ -23220,7 +23223,7 @@
                 "dfnName": "<<container-progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 208
+                    "line": 209
                 },
                 "value": "container-progress(<size-feature> [ of <container-name> ]? from <calc-sum> to <calc-sum>)"
             },
@@ -23230,9 +23233,19 @@
                 "dfnName": "<<calc-mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 323
+                    "line": 324
                 },
                 "value": "calc-mix( <progress>, <calc-sum>, <calc-sum> )"
+            },
+            {
+                "type": "prod",
+                "name": "transform-mix()",
+                "dfnName": "<<transform-mix()>>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 389
+                },
+                "value": "transform-mix( <progress>, <transform-list>, <transform-list> )"
             },
             {
                 "type": "prod",
@@ -23240,9 +23253,29 @@
                 "dfnName": "<<mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 387
+                    "line": 414
                 },
-                "value": "mix( <progress> ';' <declaration-value>? ';' <declaration-value>? ) |\nmix( <progress> && of <'animation-name'> )"
+                "value": "mix( <progress> ';' <whole-value> ';' <whole-value> ) |\nmix( <progress> && of <'animation-name'> )"
+            },
+            {
+                "type": "prod",
+                "name": "first-valid()",
+                "dfnName": "<first-valid()>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 552
+                },
+                "value": "first-valid( <declaration-value> [ ';' <declaration-value> ]* )"
+            },
+            {
+                "type": "prod",
+                "name": "attr-name",
+                "dfnName": "<attr-name>",
+                "source": {
+                    "spec": "css-values-5",
+                    "line": 717
+                },
+                "value": "[ <ident-token> '|' ]? <ident-token>"
             },
             {
                 "type": "prod",
@@ -23250,7 +23283,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 637
+                    "line": 719
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -23260,7 +23293,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 897
+                    "line": 985
                 },
                 "value": "<dashed-ident> || per-element"
             },
