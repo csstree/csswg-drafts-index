@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-08T00:42:38.744Z",
-    "elapsedTime": 386,
+    "createdAt": "2023-11-09T00:42:39.407Z",
+    "elapsedTime": 463,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "8282f4e68a53e53f29a2c625eefd2112b6a99a92",
-            "commitShort": "8282f4e68a",
+            "commit": "88037b3d17e1b27abd3544fc2181a4673fdefd59",
+            "commitShort": "88037b3d17",
             "commitDate": null,
             "branch": "main"
         },
@@ -23343,7 +23343,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 647
+                    "line": 649
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24481,7 +24481,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 902
+                    "line": 914
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24489,7 +24489,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 959
+                    "line": 971
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
