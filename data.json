@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-09T00:42:39.407Z",
-    "elapsedTime": 463,
+    "createdAt": "2023-11-10T00:42:52.816Z",
+    "elapsedTime": 324,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "88037b3d17e1b27abd3544fc2181a4673fdefd59",
-            "commitShort": "88037b3d17",
+            "commit": "ad03cffbf228e08d0295cc2ab9484e99b07751e3",
+            "commitShort": "ad03cffbf2",
             "commitDate": null,
             "branch": "main"
         },
@@ -4447,7 +4447,23 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 649
+                    "line": 361
+                },
+                "props": {
+                    "name": "inset-area",
+                    "value": "none | <inset-area-span> [ / <inset-area-span> ]?",
+                    "initial": "none",
+                    "inherited": "no",
+                    "appliesTo": "positioned elements with a [=default anchor element=]",
+                    "animationType": "TBD"
+                },
+                "name": "inset-area"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 856
                 },
                 "props": {
                     "name": "justify-self",
@@ -4459,7 +4475,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 649
+                    "line": 856
                 },
                 "props": {
                     "name": "align-self",
@@ -4471,7 +4487,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 649
+                    "line": 856
                 },
                 "props": {
                     "name": "justify-items",
@@ -4483,7 +4499,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 649
+                    "line": 856
                 },
                 "props": {
                     "name": "align-items",
@@ -4495,7 +4511,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 911
+                    "line": 1118
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4511,7 +4527,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1036
+                    "line": 1243
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -19487,11 +19503,21 @@
             },
             {
                 "type": "prod",
+                "name": "inset-area-span",
+                "dfnName": "<inset-area-span>",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 371
+                },
+                "value": "[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ start || end || center ] |\n[ self-start || self-end || center ] |\nall"
+            },
+            {
+                "type": "prod",
                 "name": "anchor-element",
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 368
+                    "line": 575
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -19501,7 +19527,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 369
+                    "line": 576
                 },
                 "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -19511,7 +19537,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 824
+                    "line": 1031
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
