@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-10T00:42:52.816Z",
-    "elapsedTime": 324,
+    "createdAt": "2023-11-11T00:42:17.822Z",
+    "elapsedTime": 520,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ad03cffbf228e08d0295cc2ab9484e99b07751e3",
-            "commitShort": "ad03cffbf2",
+            "commit": "798ba91a41295c5d8e084ba7e93c4073e720b4f3",
+            "commitShort": "798ba91a41",
             "commitDate": null,
             "branch": "main"
         },
@@ -19769,7 +19769,7 @@
                     "spec": "css-backgrounds-4",
                     "line": 163
                 },
-                "value": "<box> | border | text"
+                "value": "<visual-box> | border | text"
             },
             {
                 "type": "prod",
@@ -19799,7 +19799,7 @@
                     "spec": "css-box-3",
                     "line": 271
                 },
-                "value": "content-box | padding-box | border-box | margin-box"
+                "value": "<visual-box> | margin-box"
             },
             {
                 "type": "prod",
@@ -19809,7 +19809,7 @@
                     "spec": "css-box-3",
                     "line": 272
                 },
-                "value": "content-box | padding-box | border-box | fill-box | stroke-box"
+                "value": "<visual-box> | fill-box | stroke-box"
             },
             {
                 "type": "prod",
@@ -19819,7 +19819,7 @@
                     "spec": "css-box-3",
                     "line": 273
                 },
-                "value": "content-box | padding-box | border-box | fill-box | stroke-box | view-box"
+                "value": "<paint-box> | view-box"
             },
             {
                 "type": "prod",
@@ -19839,7 +19839,7 @@
                     "spec": "css-box-4",
                     "line": 256
                 },
-                "value": "content-box | padding-box | border-box | margin-box"
+                "value": "<visual-box> | margin-box"
             },
             {
                 "type": "prod",
@@ -19849,7 +19849,7 @@
                     "spec": "css-box-4",
                     "line": 257
                 },
-                "value": "content-box | padding-box | border-box | fill-box | stroke-box"
+                "value": "<visual-box> | fill-box | stroke-box"
             },
             {
                 "type": "prod",
@@ -19859,7 +19859,7 @@
                     "spec": "css-box-4",
                     "line": 258
                 },
-                "value": "content-box | padding-box | border-box | fill-box | stroke-box | view-box"
+                "value": "<paint-box> | view-box"
             },
             {
                 "type": "prod",
@@ -22610,7 +22610,7 @@
                     "spec": "css-shapes-1",
                     "line": 815
                 },
-                "value": "<box> | margin-box"
+                "value": "<visual-box> | margin-box"
             },
             {
                 "type": "prod",
