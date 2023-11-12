@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-11T00:42:17.822Z",
-    "elapsedTime": 520,
+    "createdAt": "2023-11-12T00:46:36.573Z",
+    "elapsedTime": 392,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "798ba91a41295c5d8e084ba7e93c4073e720b4f3",
-            "commitShort": "798ba91a41",
+            "commit": "7060d10f4f4fd7aa36efa1d716aa464678951cf3",
+            "commitShort": "7060d10f4f",
             "commitDate": null,
             "branch": "main"
         },
@@ -5619,6 +5619,24 @@
                     "animationType": "repeatable list"
                 },
                 "name": "background-clip"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-backgrounds-4",
+                    "line": 191
+                },
+                "props": {
+                    "name": "background-tbd",
+                    "value": "<bg-layer>#",
+                    "initial": "see individual properties",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "see individual properties",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "background-tbd"
             },
             {
                 "type": "prop",
