@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-12T00:46:36.573Z",
-    "elapsedTime": 392,
+    "createdAt": "2023-11-13T00:44:29.905Z",
+    "elapsedTime": 456,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7060d10f4f4fd7aa36efa1d716aa464678951cf3",
-            "commitShort": "7060d10f4f",
+            "commit": "5fa0b11a6214beb6aafeb5d911e830480784d540",
+            "commitShort": "5fa0b11a62",
             "commitDate": null,
             "branch": "main"
         },
@@ -5525,7 +5525,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 42
+                    "line": 43
                 },
                 "props": {
                     "name": "background-position",
@@ -5537,7 +5537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 91
+                    "line": 92
                 },
                 "props": {
                     "name": "background-position-x",
@@ -5555,7 +5555,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 105
+                    "line": 106
                 },
                 "props": {
                     "name": "background-position-y",
@@ -5573,7 +5573,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 119
+                    "line": 120
                 },
                 "props": {
                     "name": "background-position-inline",
@@ -5591,7 +5591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 133
+                    "line": 134
                 },
                 "props": {
                     "name": "background-position-block",
@@ -5609,7 +5609,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 150
+                    "line": 151
                 },
                 "props": {
                     "name": "background-clip",
@@ -5624,7 +5624,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 191
+                    "line": 192
                 },
                 "props": {
                     "name": "background-tbd",
@@ -5642,7 +5642,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 46
+                    "line": 47
                 },
                 "props": {
                     "name": "border-top-color",
@@ -5661,7 +5661,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 46
+                    "line": 47
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5680,7 +5680,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 46
+                    "line": 47
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5699,7 +5699,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 46
+                    "line": 47
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5718,7 +5718,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 58
+                    "line": 59
                 },
                 "props": {
                     "name": "border-color",
@@ -5730,7 +5730,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-top-radius",
@@ -5748,7 +5748,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-right-radius",
@@ -5766,7 +5766,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-bottom-radius",
@@ -5784,7 +5784,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-left-radius",
@@ -5802,7 +5802,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-block-start-radius",
@@ -5820,7 +5820,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-block-end-radius",
@@ -5838,7 +5838,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-inline-start-radius",
@@ -5856,7 +5856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 114
+                    "line": 112
                 },
                 "props": {
                     "name": "border-inline-end-radius",
@@ -5874,7 +5874,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 146
+                    "line": 144
                 },
                 "props": {
                     "name": "border-radius",
@@ -5890,7 +5890,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 160
+                    "line": 158
                 },
                 "props": {
                     "name": "corner-shape",
@@ -5906,7 +5906,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 223
+                    "line": 221
                 },
                 "props": {
                     "name": "corners",
@@ -5918,7 +5918,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 264
+                    "line": 262
                 },
                 "props": {
                     "name": "border-limit",
@@ -5935,7 +5935,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 323
+                    "line": 321
                 },
                 "props": {
                     "name": "border-clip",
@@ -5952,7 +5952,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 323
+                    "line": 321
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5969,7 +5969,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 323
+                    "line": 321
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -5986,7 +5986,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 323
+                    "line": 321
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -6003,7 +6003,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 323
+                    "line": 321
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -6020,7 +6020,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 597
+                    "line": 594
                 },
                 "props": {
                     "name": "box-shadow-color",
@@ -6038,7 +6038,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 618
+                    "line": 616
                 },
                 "props": {
                     "name": "box-shadow-offset",
@@ -6047,8 +6047,8 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "list, each item either 'none' or a pair of offsets\n(horizontal and vertical) from the element‘s box",
-                    "animationType": "by computed value,\ntreating none as ''0 0''\nwhen interpolated with non-'none' values."
+                    "computedValue": "list, each item either none or a pair of offsets\n(horizontal and vertical) from the element‘s box",
+                    "animationType": "by computed value,\ntreating none as none values."
                 },
                 "name": "box-shadow-offset"
             },
@@ -6056,7 +6056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 663
+                    "line": 662
                 },
                 "props": {
                     "name": "box-shadow-blur",
@@ -6092,7 +6092,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 717
+                    "line": 718
                 },
                 "props": {
                     "name": "box-shadow-position",
@@ -6110,7 +6110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 751
+                    "line": 753
                 },
                 "props": {
                     "name": "box-shadow",
@@ -19775,7 +19775,7 @@
                 "dfnName": "<bg-position>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 50
+                    "line": 51
                 },
                 "value": "[\n  [ left | center | right | top | bottom | start | end | <length-percentage> ]\n|\n  [ left | center | right | x-start | x-end | <length-percentage> ]\n  [ top | center | bottom | y-start | y-end | <length-percentage> ]\n|\n  [ center | [ left | right | x-start | x-end ] <length-percentage>? ] &&\n  [ center | [ top | bottom | y-start | y-end ] <length-percentage>? ]\n|\n  [ center | [ start | end ] <length-percentage>? ]\n  [ center | [ start | end ] <length-percentage>? ]    ]"
             },
@@ -19785,7 +19785,7 @@
                 "dfnName": "<bg-clip>",
                 "source": {
                     "spec": "css-backgrounds-4",
-                    "line": 163
+                    "line": 164
                 },
                 "value": "<visual-box> | border | text"
             },
@@ -19795,7 +19795,7 @@
                 "dfnName": "<<spread-shadow>>",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 774
+                    "line": 776
                 },
                 "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
