@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-14T00:43:07.476Z",
-    "elapsedTime": 394,
+    "createdAt": "2023-11-15T00:43:44.736Z",
+    "elapsedTime": 309,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "05984c06de316781dd3b1916341f8cd31954e8f5",
-            "commitShort": "05984c06de",
+            "commit": "681621fbe4ec95f0ab063227122d4bc9348dd7f6",
+            "commitShort": "681621fbe4",
             "commitDate": null,
             "branch": "main"
         },
@@ -19527,7 +19527,7 @@
                     "spec": "css-anchor-position-1",
                     "line": 371
                 },
-                "value": "[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ start || end || center ] |\n[ self-start || self-end || center ] |\nall"
+                "value": "[ start || end || center ] |\n[ self-start || self-end || center ] |\n[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ x-self-start || x-self-end || center ] |\n[ y-self-start || y-self-end || center ] |\nall"
             },
             {
                 "type": "prod",
