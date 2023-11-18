@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-17T00:44:25.430Z",
-    "elapsedTime": 335,
+    "createdAt": "2023-11-18T00:43:26.537Z",
+    "elapsedTime": 342,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "01bf8fc594daa2575a952d5f45ec1187f0479500",
-            "commitShort": "01bf8fc594",
+            "commit": "1213a4d71ecf7cac757475cae387c4a6ff59c5ae",
+            "commitShort": "1213a4d71e",
             "commitDate": null,
             "branch": "main"
         },
@@ -16499,8 +16499,8 @@
                 "props": {
                     "name": "type",
                     "for": "@view-transition",
-                    "value": "<custom-ident>*",
-                    "initial": "an empty list"
+                    "value": "none | <custom-ident>*",
+                    "initial": "none"
                 },
                 "name": "type"
             },
@@ -24543,7 +24543,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 971
+                    "line": 975
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
