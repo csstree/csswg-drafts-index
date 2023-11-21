@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-20T00:45:16.414Z",
-    "elapsedTime": 345,
+    "createdAt": "2023-11-21T00:45:29.521Z",
+    "elapsedTime": 328,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "35c34ef97c7810b6750d134ff289e84bf14f41dc",
-            "commitShort": "35c34ef97c",
+            "commit": "45a02236040ae8f00482e4971a3fbd2c692874fc",
+            "commitShort": "45a0223604",
             "commitDate": null,
             "branch": "main"
         },
@@ -11851,7 +11851,7 @@
                 },
                 "props": {
                     "name": "clear",
-                    "value": "inline-start | inline-end | block-start | block-end | left | right | top | bottom | none",
+                    "value": "inline-start | inline-end | block-start | block-end | left | right | top | bottom | both-inline | both-block | both | none",
                     "initial": "none",
                     "appliesTo": "block-level elements, floats, regions, pages",
                     "inherited": "no",
@@ -13244,11 +13244,12 @@
                 },
                 "props": {
                     "name": "shape-padding",
-                    "value": "<length>",
-                    "initial": "none",
+                    "value": "<length-percentage [0,∞]>",
+                    "initial": "0",
                     "appliesTo": "block-level elements",
                     "inherited": "no",
-                    "computedValue": "the absolute length",
+                    "percentages": "refer to the inline size of the containing block",
+                    "computedValue": "computed <length-percentage> value",
                     "animationType": "by computed value"
                 },
                 "name": "shape-padding"
@@ -13948,7 +13949,7 @@
                 },
                 "props": {
                     "name": "voice-pitch",
-                    "value": "<frequency> && absolute | [[x-low | low | medium | high | x-high] || [<frequency> | <semitones> | <percentage>]]",
+                    "value": "<frequency [0Hz,∞]> && absolute | [[x-low | low | medium | high | x-high] || [<frequency> | <semitones> | <percentage>]]",
                     "initial": "medium",
                     "appliesTo": "all elements",
                     "inherited": "yes",
@@ -13965,7 +13966,7 @@
                 },
                 "props": {
                     "name": "voice-range",
-                    "value": "<frequency> && absolute | [[x-low | low | medium | high | x-high] || [<frequency> | <semitones> | <percentage>]]",
+                    "value": "<frequency [0Hz,∞]> && absolute | [[x-low | low | medium | high | x-high] || [<frequency> | <semitones> | <percentage>]]",
                     "initial": "medium",
                     "appliesTo": "all elements",
                     "inherited": "yes",
@@ -19967,7 +19968,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1163
+                    "line": 1188
                 },
                 "value": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]"
             },
@@ -19977,7 +19978,7 @@
                 "dfnName": "rgba()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1164
+                    "line": 1189
                 },
                 "value": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]"
             },
@@ -19987,7 +19988,7 @@
                 "dfnName": "<<legacy-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1165
+                    "line": 1190
                 },
                 "value": "rgb( <percentage>#{3} , <alpha-value>? ) |\nrgb( <number>#{3} , <alpha-value>? )"
             },
@@ -19997,7 +19998,7 @@
                 "dfnName": "<<legacy-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1167
+                    "line": 1192
                 },
                 "value": "rgba( <percentage>#{3} , <alpha-value>? ) |\nrgba( <number>#{3} , <alpha-value>? )"
             },
@@ -20007,7 +20008,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1169
+                    "line": 1194
                 },
                 "value": "rgb( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20017,7 +20018,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1172
+                    "line": 1197
                 },
                 "value": "rgba( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20027,7 +20028,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2018
+                    "line": 2043
                 },
                 "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]"
             },
@@ -20037,7 +20038,7 @@
                 "dfnName": "hsla()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2019
+                    "line": 2044
                 },
                 "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
             },
@@ -20047,7 +20048,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2020
+                    "line": 2045
                 },
                 "value": "hsl( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20057,7 +20058,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2025
+                    "line": 2050
                 },
                 "value": "hsla( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20067,7 +20068,7 @@
                 "dfnName": "<<legacy-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2030
+                    "line": 2055
                 },
                 "value": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -20077,7 +20078,7 @@
                 "dfnName": "<<legacy-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2031
+                    "line": 2056
                 },
                 "value": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -20087,7 +20088,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2550
+                    "line": 2575
                 },
                 "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20097,7 +20098,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3170
+                    "line": 3195
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20107,7 +20108,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3244
+                    "line": 3269
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20117,7 +20118,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3337
+                    "line": 3362
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20127,7 +20128,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3412
+                    "line": 3437
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20137,7 +20138,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3580
+                    "line": 3605
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -20147,7 +20148,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3588
+                    "line": 3613
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20157,7 +20158,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3589
+                    "line": 3614
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20167,7 +20168,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3590
+                    "line": 3615
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20177,7 +20178,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3591
+                    "line": 3616
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20187,7 +20188,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3592
+                    "line": 3617
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -20197,7 +20198,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3593
+                    "line": 3618
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20207,7 +20208,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4507
+                    "line": 4532
                 },
                 "attrs": {
                     "export": true
@@ -20220,7 +20221,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4508
+                    "line": 4533
                 },
                 "attrs": {
                     "export": true
@@ -20233,7 +20234,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4509
+                    "line": 4534
                 },
                 "attrs": {
                     "export": true
@@ -20246,7 +20247,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4510
+                    "line": 4535
                 },
                 "attrs": {
                     "export": true
@@ -20259,7 +20260,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4511
+                    "line": 4536
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -22065,7 +22066,7 @@
                     "spec": "css-images-4",
                     "line": 191
                 },
-                "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]"
+                "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]?"
             },
             {
                 "type": "prod",
@@ -24447,7 +24448,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1302
+                    "line": 1341
                 },
                 "content": "[Exposed=Window]\ninterface CSSPseudoElement : EventTarget {\n    readonly attribute CSSOMString type;\n    readonly attribute Element element;\n    readonly attribute (Element or CSSPseudoElement) parent;\n    CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
@@ -24455,7 +24456,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-pseudo-4",
-                    "line": 1360
+                    "line": 1399
                 },
                 "content": "partial interface Element {\n  CSSPseudoElement? pseudo(CSSOMString type);\n};"
             },
