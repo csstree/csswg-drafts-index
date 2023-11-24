@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-23T00:44:04.437Z",
-    "elapsedTime": 289,
+    "createdAt": "2023-11-24T00:43:07.382Z",
+    "elapsedTime": 308,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b373bb8e96c12def5b8ca1021875c04e6b24f2ac",
-            "commitShort": "b373bb8e96",
+            "commit": "7b47e34149ad548e03b81fc2b86420d176e48789",
+            "commitShort": "7b47e34149",
             "commitDate": null,
             "branch": "main"
         },
@@ -16481,7 +16481,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 284
+                    "line": 286
                 },
                 "props": {
                     "name": "navigation",
@@ -16495,7 +16495,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 305
+                    "line": 307
                 },
                 "props": {
                     "name": "type",
@@ -23375,7 +23375,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 649
+                    "line": 654
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24513,7 +24513,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 914
+                    "line": 919
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -24521,7 +24521,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 975
+                    "line": 980
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -24529,7 +24529,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 321
+                    "line": 323
                 },
                 "content": "[Exposed=Window]\ninterface PageRevealEvent : Event {\n    readonly attribute ViewTransition? viewTransition;\n};"
             },
@@ -24537,7 +24537,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 336
+                    "line": 338
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions);\n};"
             },
@@ -24545,7 +24545,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 368
+                    "line": 370
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -24553,7 +24553,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 378
+                    "line": 380
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
