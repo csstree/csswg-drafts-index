@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-11-30T00:44:24.808Z",
-    "elapsedTime": 296,
+    "createdAt": "2023-12-01T00:50:21.585Z",
+    "elapsedTime": 318,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "10caa0f8d5b1c735709f9579230a13de0d510df0",
-            "commitShort": "10caa0f8d5",
+            "commit": "000f55d0b0b69b98cd3b29904991cb2fcb7bf12a",
+            "commitShort": "000f55d0b0",
             "commitDate": null,
             "branch": "main"
         },
@@ -23174,7 +23174,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4086
+                    "line": 4087
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -23184,7 +23184,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4087
+                    "line": 4088
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -23194,7 +23194,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4088
+                    "line": 4089
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -23204,7 +23204,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4090
+                    "line": 4091
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
