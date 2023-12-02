@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-01T00:50:21.585Z",
-    "elapsedTime": 318,
+    "createdAt": "2023-12-02T00:43:21.264Z",
+    "elapsedTime": 295,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "000f55d0b0b69b98cd3b29904991cb2fcb7bf12a",
-            "commitShort": "000f55d0b0",
+            "commit": "ad678e91abbcfa138a3c715045ba105b531322b5",
+            "commitShort": "ad678e91ab",
             "commitDate": null,
             "branch": "main"
         },
@@ -4430,7 +4430,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 283
+                    "line": 282
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4446,7 +4446,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 361
+                    "line": 360
                 },
                 "props": {
                     "name": "inset-area",
@@ -4462,7 +4462,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 856
+                    "line": 750
                 },
                 "props": {
                     "name": "justify-self",
@@ -4474,7 +4474,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 856
+                    "line": 750
                 },
                 "props": {
                     "name": "align-self",
@@ -4486,7 +4486,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 856
+                    "line": 750
                 },
                 "props": {
                     "name": "justify-items",
@@ -4498,7 +4498,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 856
+                    "line": 750
                 },
                 "props": {
                     "name": "align-items",
@@ -4510,7 +4510,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1118
+                    "line": 1012
                 },
                 "props": {
                     "name": "position-fallback",
@@ -4526,7 +4526,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1243
+                    "line": 1136
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -4918,7 +4918,7 @@
                 },
                 "props": {
                     "name": "background",
-                    "value": "[<bg-layer># ,]? <final-bg-layer>",
+                    "value": "<bg-layer>#? , <final-bg-layer>",
                     "initial": "see individual properties",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -19525,7 +19525,7 @@
                 "dfnName": "<inset-area-span>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 371
+                    "line": 370
                 },
                 "value": "[ start || end || center ] |\n[ self-start || self-end || center ] |\n[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ x-self-start || x-self-end || center ] |\n[ y-self-start || y-self-end || center ] |\nall"
             },
@@ -19535,7 +19535,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 575
+                    "line": 574
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -19545,9 +19545,9 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 576
+                    "line": 575
                 },
-                "value": "auto | auto-same\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
+                "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
             {
                 "type": "prod",
@@ -19555,7 +19555,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1031
+                    "line": 925
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -21146,7 +21146,7 @@
                 "attrs": {
                     "type": true
                 },
-                "value": "step-start | step-end |\nsteps(<integer>[,\n  <step-position>]?)"
+                "value": "step-start | step-end |\nsteps(<integer> ,\n  <step-position>?)"
             },
             {
                 "type": "prod",
@@ -21238,7 +21238,7 @@
                 "attrs": {
                     "type": true
                 },
-                "value": "step-start | step-end |\nsteps(<integer>[,\n  <step-position>]?)"
+                "value": "step-start | step-end |\nsteps(<integer> ,\n  <step-position>?)"
             },
             {
                 "type": "prod",
@@ -22578,7 +22578,7 @@
                     "spec": "css-shapes-1",
                     "line": 499
                 },
-                "value": "path( [<'fill-rule'>,]? <string> )"
+                "value": "path( <'fill-rule'>? , <string> )"
             },
             {
                 "type": "prod",
@@ -24541,7 +24541,7 @@
                     "spec": "css-view-transitions-2",
                     "line": 338
                 },
-                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions);\n};"
+                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
             {
                 "type": "idl",
