@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-10T00:49:41.488Z",
-    "elapsedTime": 287,
+    "createdAt": "2023-12-11T00:46:11.784Z",
+    "elapsedTime": 280,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "0aa959ba2b8ee214914bd2e6ff329af8af886e1b",
-            "commitShort": "0aa959ba2b",
+            "commit": "7b6254bdb4fdcd0cde038da84d7981f880f89e66",
+            "commitShort": "7b6254bdb4",
             "commitDate": null,
             "branch": "main"
         },
@@ -3182,7 +3182,7 @@
                 "file": "css-transitions-1/Overview.bs",
                 "id": "css-transitions-1",
                 "props": {
-                    "title": "CSS Transitions",
+                    "title": "CSS Transitions Level 1",
                     "status": "ED",
                     "workStatus": "Refining",
                     "shortname": "css-transitions",
