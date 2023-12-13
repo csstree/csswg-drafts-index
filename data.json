@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-12T00:45:54.303Z",
-    "elapsedTime": 297,
+    "createdAt": "2023-12-13T00:45:05.097Z",
+    "elapsedTime": 306,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "429947fa2aa93692525dfc566dd8bf3855cb3a56",
-            "commitShort": "429947fa2a",
+            "commit": "589220daf4a28528bbb0da5d94d9f792ae8853e2",
+            "commitShort": "589220daf4",
             "commitDate": null,
             "branch": "main"
         },
@@ -6921,7 +6921,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 584
+                    "line": 643
                 },
                 "props": {
                     "name": "foo",
@@ -6940,7 +6940,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 660
+                    "line": 719
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -6952,7 +6952,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 667
+                    "line": 726
                 },
                 "props": {
                     "name": "foo",
@@ -6964,7 +6964,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 674
+                    "line": 733
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -9505,7 +9505,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2043
+                    "line": 2064
                 },
                 "props": {
                     "name": "object-fit",
@@ -9523,7 +9523,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2164
+                    "line": 2185
                 },
                 "props": {
                     "name": "image-resolution",
@@ -24257,7 +24257,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 641
+                    "line": 700
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
