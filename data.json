@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-16T00:44:31.459Z",
-    "elapsedTime": 282,
+    "createdAt": "2023-12-17T00:49:29.018Z",
+    "elapsedTime": 290,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "e59065366beed4b72b37f060787904451462489a",
-            "commitShort": "e59065366b",
+            "commit": "95a35394f61588c5d68900be994049dcc24ae482",
+            "commitShort": "95a35394f6",
             "commitDate": null,
             "branch": "main"
         },
@@ -5678,10 +5678,10 @@
                     "name": "border-top-color",
                     "value": "<color> | <image-1D>",
                     "initial": "currentcolor",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
-                    "percentages": "n/a",
+                    "percentages": "N/A",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
                 },
@@ -5697,10 +5697,10 @@
                     "name": "border-right-color",
                     "value": "<color> | <image-1D>",
                     "initial": "currentcolor",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
-                    "percentages": "n/a",
+                    "percentages": "N/A",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
                 },
@@ -5716,10 +5716,10 @@
                     "name": "border-bottom-color",
                     "value": "<color> | <image-1D>",
                     "initial": "currentcolor",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
-                    "percentages": "n/a",
+                    "percentages": "N/A",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
                 },
@@ -5735,14 +5735,90 @@
                     "name": "border-left-color",
                     "value": "<color> | <image-1D>",
                     "initial": "currentcolor",
-                    "appliesTo": "all elements",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
-                    "percentages": "n/a",
+                    "percentages": "N/A",
                     "computedValue": "the computed color and/or a one-dimensional image function",
                     "animationType": "see prose"
                 },
                 "name": "border-left-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 47
+                },
+                "props": {
+                    "name": "border-block-start-color",
+                    "value": "<color> | <image-1D>",
+                    "initial": "currentcolor",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
+                    "percentages": "N/A",
+                    "computedValue": "the computed color and/or a one-dimensional image function",
+                    "animationType": "see prose"
+                },
+                "name": "border-block-start-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 47
+                },
+                "props": {
+                    "name": "border-block-end-color",
+                    "value": "<color> | <image-1D>",
+                    "initial": "currentcolor",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
+                    "percentages": "N/A",
+                    "computedValue": "the computed color and/or a one-dimensional image function",
+                    "animationType": "see prose"
+                },
+                "name": "border-block-end-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 47
+                },
+                "props": {
+                    "name": "border-inline-start-color",
+                    "value": "<color> | <image-1D>",
+                    "initial": "currentcolor",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
+                    "percentages": "N/A",
+                    "computedValue": "the computed color and/or a one-dimensional image function",
+                    "animationType": "see prose"
+                },
+                "name": "border-inline-start-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 47
+                },
+                "props": {
+                    "name": "border-inline-end-color",
+                    "value": "<color> | <image-1D>",
+                    "initial": "currentcolor",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-color",
+                    "percentages": "N/A",
+                    "computedValue": "the computed color and/or a one-dimensional image function",
+                    "animationType": "see prose"
+                },
+                "name": "border-inline-end-color"
             },
             {
                 "type": "prop",
@@ -5760,7 +5836,703 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 111
+                },
+                "props": {
+                    "name": "border-block-color",
+                    "value": "<'border-top-color'>{1,2}"
+                },
+                "name": "border-block-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 111
+                },
+                "props": {
+                    "name": "border-inline-color",
+                    "value": "<'border-top-color'>{1,2}"
+                },
+                "name": "border-inline-color"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-top-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-top-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-right-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-right-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-bottom-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-bottom-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-left-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-left-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-block-start-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-block-start-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-block-end-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-block-end-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-inline-start-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-inline-start-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 129
+                },
+                "props": {
+                    "name": "border-inline-end-style",
+                    "value": "<line-style>",
+                    "initial": "none",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-style",
+                    "percentages": "N/A",
+                    "computedValue": "specified keyword",
+                    "animationType": "discrete"
+                },
+                "name": "border-inline-end-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 153
+                },
+                "props": {
+                    "name": "border-block-style",
+                    "value": "<'border-top-style'>{1,2}"
+                },
+                "name": "border-block-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 153
+                },
+                "props": {
+                    "name": "border-inline-style",
+                    "value": "<'border-top-style'>{1,2}"
+                },
+                "name": "border-inline-style"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-top-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-top-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-right-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-right-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-bottom-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-bottom-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-left-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-left-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-block-start-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-block-start-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-block-end-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-block-end-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-inline-start-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-inline-start-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 171
+                },
+                "props": {
+                    "name": "border-inline-end-width",
+                    "value": "<line-width>",
+                    "initial": "medium",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-width",
+                    "percentages": "N/A",
+                    "computedValue": "absolute length, [=snapped as a border width=]; zero if the border style is none or hidden",
+                    "animationType": "by computed value"
+                },
+                "name": "border-inline-end-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 195
+                },
+                "props": {
+                    "name": "border-block-width",
+                    "value": "<'border-top-width'>{1,2}"
+                },
+                "name": "border-block-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 195
+                },
+                "props": {
+                    "name": "border-inline-width",
+                    "value": "<'border-top-width'>{1,2}"
+                },
+                "name": "border-inline-width"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-top",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-top"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-right",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-right"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-bottom",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-bottom"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-left",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-left"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-block-start",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-block-start"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-block-end",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-block-end"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-inline-start",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-inline-start"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 213
+                },
+                "props": {
+                    "name": "border-inline-end",
+                    "value": "<line-width> || <line-style> || <color>",
+                    "initial": "See individual properties",
+                    "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
+                    "inherited": "no",
+                    "percentages": "N/A",
+                    "computedValue": "see individual properties",
+                    "animationType": "see individual properties"
+                },
+                "name": "border-inline-end"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 236
+                },
+                "props": {
+                    "name": "border-block",
+                    "value": "<'border-block-start'>"
+                },
+                "name": "border-block"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 236
+                },
+                "props": {
+                    "name": "border-inline",
+                    "value": "<'border-block-start'>"
+                },
+                "name": "border-inline"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-top-left-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-top-left-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-top-right-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-top-right-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-bottom-right-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-bottom-right-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-bottom-left-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-bottom-left-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-start-start-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-start-start-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-start-end-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-start-end-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-end-start-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-end-start-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 257
+                },
+                "props": {
+                    "name": "border-end-end-radius",
+                    "value": "<length-percentage [0,∞]>{1,2}",
+                    "initial": "0",
+                    "appliesTo": "all elements (but see prose)",
+                    "inherited": "no",
+                    "logicalPropertyGroup": "border-radius",
+                    "percentages": "Refer to corresponding dimension of the border box.",
+                    "computedValue": "pair of computed <length-percentage> values",
+                    "animationType": "by computed value"
+                },
+                "name": "border-end-end-radius"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-borders-4",
+                    "line": 294
                 },
                 "props": {
                     "name": "border-top-radius",
@@ -5778,7 +6550,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-right-radius",
@@ -5796,7 +6568,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-bottom-radius",
@@ -5814,7 +6586,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-left-radius",
@@ -5832,7 +6604,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-block-start-radius",
@@ -5850,7 +6622,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-block-end-radius",
@@ -5868,7 +6640,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-inline-start-radius",
@@ -5886,7 +6658,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 112
+                    "line": 294
                 },
                 "props": {
                     "name": "border-inline-end-radius",
@@ -5904,7 +6676,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 144
+                    "line": 326
                 },
                 "props": {
                     "name": "border-radius",
@@ -5920,7 +6692,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 158
+                    "line": 340
                 },
                 "props": {
                     "name": "corner-shape",
@@ -5936,7 +6708,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 221
+                    "line": 403
                 },
                 "props": {
                     "name": "corners",
@@ -5948,7 +6720,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 262
+                    "line": 444
                 },
                 "props": {
                     "name": "border-limit",
@@ -5965,7 +6737,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 364
+                    "line": 546
                 },
                 "props": {
                     "name": "border-clip",
@@ -5982,7 +6754,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 364
+                    "line": 546
                 },
                 "props": {
                     "name": "border-clip-top",
@@ -5999,7 +6771,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 364
+                    "line": 546
                 },
                 "props": {
                     "name": "border-clip-right",
@@ -6016,7 +6788,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 364
+                    "line": 546
                 },
                 "props": {
                     "name": "border-clip-bottom",
@@ -6033,7 +6805,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 364
+                    "line": 546
                 },
                 "props": {
                     "name": "border-clip-left",
@@ -6050,7 +6822,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 580
+                    "line": 762
                 },
                 "props": {
                     "name": "box-shadow-color",
@@ -6068,7 +6840,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 602
+                    "line": 784
                 },
                 "props": {
                     "name": "box-shadow-offset",
@@ -6086,7 +6858,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 648
+                    "line": 830
                 },
                 "props": {
                     "name": "box-shadow-blur",
@@ -6104,7 +6876,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 675
+                    "line": 857
                 },
                 "props": {
                     "name": "box-shadow-spread",
@@ -6122,7 +6894,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 704
+                    "line": 886
                 },
                 "props": {
                     "name": "box-shadow-position",
@@ -6140,7 +6912,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 739
+                    "line": 921
                 },
                 "props": {
                     "name": "box-shadow",
@@ -19826,7 +20598,7 @@
                 "dfnName": "<<spread-shadow>>",
                 "source": {
                     "spec": "css-borders-4",
-                    "line": 762
+                    "line": 944
                 },
                 "value": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
             },
@@ -20121,7 +20893,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2590
+                    "line": 2594
                 },
                 "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20131,7 +20903,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3211
+                    "line": 3215
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20141,7 +20913,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3285
+                    "line": 3289
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20151,7 +20923,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3378
+                    "line": 3382
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20161,7 +20933,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3453
+                    "line": 3457
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20171,7 +20943,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3621
+                    "line": 3625
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -20181,7 +20953,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3629
+                    "line": 3633
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20191,7 +20963,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3630
+                    "line": 3634
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20201,7 +20973,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3631
+                    "line": 3635
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20211,7 +20983,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3632
+                    "line": 3636
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20221,7 +20993,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3633
+                    "line": 3637
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -20231,7 +21003,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3634
+                    "line": 3638
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -20241,7 +21013,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4548
+                    "line": 4552
                 },
                 "attrs": {
                     "export": true
@@ -20254,7 +21026,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4549
+                    "line": 4553
                 },
                 "attrs": {
                     "export": true
@@ -20267,7 +21039,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4550
+                    "line": 4554
                 },
                 "attrs": {
                     "export": true
@@ -20280,7 +21052,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4551
+                    "line": 4555
                 },
                 "attrs": {
                     "export": true
@@ -20293,7 +21065,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4552
+                    "line": 4556
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
