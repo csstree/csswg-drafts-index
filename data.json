@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-18T00:46:23.404Z",
-    "elapsedTime": 310,
+    "createdAt": "2023-12-19T00:45:17.421Z",
+    "elapsedTime": 270,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "95a35394f61588c5d68900be994049dcc24ae482",
-            "commitShort": "95a35394f6",
+            "commit": "9fdc163191f249e37c8aebdb3532c5ed3db6bed2",
+            "commitShort": "9fdc163191",
             "commitDate": null,
             "branch": "main"
         },
@@ -4968,7 +4968,7 @@
                 "props": {
                     "name": "border-top-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
+                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor-color\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
@@ -4987,7 +4987,7 @@
                 "props": {
                     "name": "border-right-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
+                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor-color\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
@@ -5006,7 +5006,7 @@
                 "props": {
                     "name": "border-bottom-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
+                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor-color\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
@@ -5025,7 +5025,7 @@
                 "props": {
                     "name": "border-left-color",
                     "value": "<color>",
-                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor\">currentColor",
+                    "initial": "<a href=\"https://www.w3.org/TR/css-color-4/#currentcolor-color\">currentColor",
                     "appliesTo": "all elements except [=ruby base containers=] and [=ruby annotation containers=]",
                     "inherited": "no",
                     "logicalPropertyGroup": "border-color",
@@ -10278,7 +10278,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2064
+                    "line": 2088
                 },
                 "props": {
                     "name": "object-fit",
@@ -10296,7 +10296,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2185
+                    "line": 2209
                 },
                 "props": {
                     "name": "image-resolution",
@@ -22788,22 +22788,22 @@
                     "spec": "css-images-3",
                     "line": 511
                 },
-                "value": "[ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? ,\n<color-stop-list>"
+                "value": "[ <radial-shape> || <radial-size> ]? [ at <position> ]? ,\n<color-stop-list>"
             },
             {
                 "type": "prod",
-                "name": "rg-size",
-                "dfnName": "<rg-size>",
+                "name": "radial-size",
+                "dfnName": "<radial-size>",
                 "source": {
                     "spec": "css-images-3",
                     "line": 515
                 },
-                "value": "<rg-extent-keyword> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
+                "value": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
             },
             {
                 "type": "prod",
-                "name": "rg-extent-keyword",
-                "dfnName": "<rg-extent-keyword>",
+                "name": "radial-extent",
+                "dfnName": "<radial-extent>",
                 "source": {
                     "spec": "css-images-3",
                     "line": 517
@@ -22812,8 +22812,8 @@
             },
             {
                 "type": "prod",
-                "name": "rg-ending-shape",
-                "dfnName": "<rg-ending-shape>",
+                "name": "radial-shape",
+                "dfnName": "<radial-shape>",
                 "source": {
                     "spec": "css-images-3",
                     "line": 519
@@ -22969,9 +22969,9 @@
                 "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1347
+                    "line": 1351
                 },
-                "value": "[ [ [ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
+                "value": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
             },
             {
                 "type": "prod",
@@ -22979,7 +22979,7 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1425
+                    "line": 1449
                 },
                 "value": "conic-gradient( [ <conic-gradient-syntax> ] )"
             },
@@ -22989,7 +22989,7 @@
                 "dfnName": "<conic-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1426
+                    "line": 1450
                 },
                 "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
             },
@@ -22999,7 +22999,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1675
+                    "line": 1699
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -23009,7 +23009,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1677
+                    "line": 1701
                 },
                 "value": "<color> <color-stop-length>?"
             },
@@ -23019,7 +23019,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1678
+                    "line": 1702
                 },
                 "value": "<length-percentage>"
             },
@@ -23029,7 +23029,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1679
+                    "line": 1703
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -23039,7 +23039,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1681
+                    "line": 1705
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -23049,7 +23049,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1683
+                    "line": 1707
                 },
                 "value": "<color> <color-stop-angle>?"
             },
@@ -23059,7 +23059,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1684
+                    "line": 1708
                 },
                 "value": "<angle-percentage>"
             },
@@ -23069,7 +23069,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1685
+                    "line": 1709
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -23079,7 +23079,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1687
+                    "line": 1711
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
@@ -23964,7 +23964,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 904
+                    "line": 908
                 },
                 "attrs": {
                     "id": "url-value"
@@ -23977,7 +23977,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4087
+                    "line": 4091
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -23987,7 +23987,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4088
+                    "line": 4092
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -23997,7 +23997,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4089
+                    "line": 4093
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -24007,7 +24007,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4091
+                    "line": 4095
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -25334,15 +25334,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 323
-                },
-                "content": "[Exposed=Window]\ninterface PageRevealEvent : Event {\n    readonly attribute ViewTransition? viewTransition;\n};"
-            },
-            {
-                "type": "idl",
-                "source": {
-                    "spec": "css-view-transitions-2",
-                    "line": 338
+                    "line": 321
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
@@ -25350,7 +25342,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 370
+                    "line": 353
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25358,7 +25350,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 380
+                    "line": 363
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
