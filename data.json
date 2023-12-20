@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-19T00:45:17.421Z",
-    "elapsedTime": 270,
+    "createdAt": "2023-12-20T00:37:13.315Z",
+    "elapsedTime": 266,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "9fdc163191f249e37c8aebdb3532c5ed3db6bed2",
-            "commitShort": "9fdc163191",
+            "commit": "b3f7bc659a0061adf58764b6053f52ceb178f1af",
+            "commitShort": "b3f7bc659a",
             "commitDate": null,
             "branch": "main"
         },
@@ -361,8 +361,10 @@
                         "https://www.w3.org/TR/2017/CR-css-backgrounds-3-20171017/",
                         "https://www.w3.org/TR/2014/CR-css3-background-20140909/"
                     ],
+                    "formerEditor": [
+                        "Bert Bos, W3C, bert@w3.org, w3cid 3343"
+                    ],
                     "editor": [
-                        "Bert Bos, W3C, bert@w3.org, w3cid 3343",
                         "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Brad Kemper, Invited Expert, brad.kemper@gmail.com, w3cid 43245"
                     ],
@@ -760,7 +762,7 @@
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258",
                         "Adam Argyle, Google, https://nerdy.dev, w3cid 112669"
                     ],
-                    "abstract": "This module extends CSS Color [[css-color-4]] to add color modification functions, custom color spaces (ICC profiles), and device-cmyk().",
+                    "abstract": "This module extends CSS Color [[css-color-4]] to add color modification functions, custom color spaces (ICC profiles), light-dark() and device-cmyk().",
                     "repository": "w3c/csswg-drafts",
                     "wptPathPrefix": "css/css-color/",
                     "wptDisplay": "open"
@@ -2768,10 +2770,7 @@
                         "Vincent Hardy"
                     ],
                     "implementationReport": "https://wpt.fyi/results/css/css-shapes",
-                    "abstract": "CSS Shapes describe geometric shapes for use in CSS. For Level 1, CSS Shapes can be applied to floats. A circle shape on a float will cause inline content to <a>wrap</a> around the circle shape instead of the float's bounding box.",
-                    "linkDefaults": [
-                        "css2 (property) margin"
-                    ]
+                    "abstract": "CSS Shapes describe geometric shapes for use in CSS. For Level 1, CSS Shapes can be applied to floats. A circle shape on a float will cause inline content to <a>wrap</a> around the circle shape instead of the float's bounding box."
                 }
             },
             {
@@ -10278,7 +10277,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2088
+                    "line": 2092
                 },
                 "props": {
                     "name": "object-fit",
@@ -10296,7 +10295,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2209
+                    "line": 2213
                 },
                 "props": {
                     "name": "image-resolution",
@@ -13973,7 +13972,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 943
+                    "line": 870
                 },
                 "props": {
                     "name": "shape-outside",
@@ -13990,7 +13989,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 1021
+                    "line": 948
                 },
                 "props": {
                     "name": "shape-image-threshold",
@@ -14007,7 +14006,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 1080
+                    "line": 1007
                 },
                 "props": {
                     "name": "shape-margin",
@@ -23315,23 +23314,13 @@
             },
             {
                 "type": "prod",
-                "name": "inset()",
-                "dfnName": "inset()",
+                "name": "basic-shape-rect",
+                "dfnName": "<basic-shape-rect>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 330
+                    "line": 343
                 },
-                "value": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "xywh()",
-                "dfnName": "xywh()",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 365
-                },
-                "value": "xywh( <length-percentage>{2} <length-percentage [0, ∞]>{2} [ round <'border-radius'> ]? )"
+                "value": "<inset()> | <rect()> | <xywh()>"
             },
             {
                 "type": "prod",
@@ -23339,69 +23328,9 @@
                 "dfnName": "rect()",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 385
+                    "line": 420
                 },
-                "value": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "circle()",
-                "dfnName": "circle()",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 426
-                },
-                "value": "circle( <shape-radius>? [ at <position> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "ellipse()",
-                "dfnName": "ellipse()",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 448
-                },
-                "value": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )"
-            },
-            {
-                "type": "prod",
-                "name": "polygon()",
-                "dfnName": "polygon()",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 473
-                },
-                "value": "polygon( <'fill-rule'>? , [<length-percentage> <length-percentage>]# )"
-            },
-            {
-                "type": "prod",
-                "name": "path()",
-                "dfnName": "path()",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 499
-                },
-                "value": "path( <'fill-rule'>? , <string> )"
-            },
-            {
-                "type": "prod",
-                "name": "shape-radius",
-                "dfnName": "<<shape-radius>>",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 538
-                },
-                "value": "<length-percentage [0,∞]> | closest-side | farthest-side"
-            },
-            {
-                "type": "prod",
-                "name": "basic-shape-rect",
-                "dfnName": "<basic-shape-rect>",
-                "source": {
-                    "spec": "css-shapes-1",
-                    "line": 571
-                },
-                "value": "<inset()> | <rect()> | <xywh()>"
+                "value": ""
             },
             {
                 "type": "prod",
@@ -23409,7 +23338,7 @@
                 "dfnName": "<<shape-box>>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 815
+                    "line": 742
                 },
                 "value": "<visual-box> | margin-box"
             },
