@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-20T00:37:13.315Z",
-    "elapsedTime": 266,
+    "createdAt": "2023-12-21T00:44:18.151Z",
+    "elapsedTime": 291,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b3f7bc659a0061adf58764b6053f52ceb178f1af",
-            "commitShort": "b3f7bc659a",
+            "commit": "6eb6f426c32e0d46572e24913be4f2e5d4b3702f",
+            "commitShort": "6eb6f426c3",
             "commitDate": null,
             "branch": "main"
         },
@@ -831,7 +831,7 @@
                     "title": "CSS Color HDR Module Level 1",
                     "shortname": "css-color-hdr",
                     "level": "1",
-                    "status": "UD",
+                    "status": "ED",
                     "group": "csswg",
                     "tr": "https://www.w3.org/TR/css-color-hdr/",
                     "ed": "https://drafts.csswg.org/css-color-hdr/",
