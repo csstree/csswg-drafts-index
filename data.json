@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2023-12-25T00:45:09.328Z",
-    "elapsedTime": 290,
+    "createdAt": "2023-12-26T00:43:19.077Z",
+    "elapsedTime": 282,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "5d806c11651ebab3a97815a29e1965f479d6c69e",
-            "commitShort": "5d806c1165",
+            "commit": "aaa2783ac85eb60b06b7f45f124f56643e6c0539",
+            "commitShort": "aaa2783ac8",
             "commitDate": null,
             "branch": "main"
         },
@@ -4800,7 +4800,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 166
+                    "line": 167
                 },
                 "props": {
                     "name": "background-color",
@@ -4818,7 +4818,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 191
+                    "line": 192
                 },
                 "props": {
                     "name": "background-image",
@@ -4836,7 +4836,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 262
+                    "line": 263
                 },
                 "props": {
                     "name": "background-repeat",
@@ -4854,7 +4854,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 401
+                    "line": 402
                 },
                 "props": {
                     "name": "background-attachment",
@@ -4872,7 +4872,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 492
+                    "line": 493
                 },
                 "props": {
                     "name": "background-position",
@@ -4890,7 +4890,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 675
+                    "line": 676
                 },
                 "props": {
                     "name": "background-clip",
@@ -4908,7 +4908,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 723
+                    "line": 724
                 },
                 "props": {
                     "name": "background-origin",
@@ -4926,7 +4926,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 772
+                    "line": 773
                 },
                 "props": {
                     "name": "background-size",
@@ -4944,7 +4944,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 971
+                    "line": 972
                 },
                 "props": {
                     "name": "background",
@@ -4962,7 +4962,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1201
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-top-color",
@@ -4981,7 +4981,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1201
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5000,7 +5000,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1201
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5019,7 +5019,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1201
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5038,7 +5038,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1213
+                    "line": 1214
                 },
                 "props": {
                     "name": "border-color",
@@ -5056,7 +5056,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1247
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-top-style",
@@ -5075,7 +5075,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1247
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-right-style",
@@ -5094,7 +5094,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1247
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -5113,7 +5113,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1247
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-left-style",
@@ -5132,7 +5132,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1259
+                    "line": 1260
                 },
                 "props": {
                     "name": "border-style",
@@ -5150,7 +5150,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1376
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-top-width",
@@ -5169,7 +5169,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1376
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-right-width",
@@ -5188,7 +5188,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1376
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5207,7 +5207,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1376
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5226,7 +5226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1388
+                    "line": 1389
                 },
                 "props": {
                     "name": "border-width",
@@ -5244,7 +5244,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1430
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-top",
@@ -5262,7 +5262,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1430
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-right",
@@ -5280,7 +5280,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1430
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5298,7 +5298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1430
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-left",
@@ -5316,7 +5316,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1445
+                    "line": 1446
                 },
                 "props": {
                     "name": "border",
@@ -5334,7 +5334,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1520
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5353,7 +5353,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1520
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5372,7 +5372,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1520
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5391,7 +5391,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1520
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5410,7 +5410,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1532
+                    "line": 1533
                 },
                 "props": {
                     "name": "border-radius",
@@ -5428,7 +5428,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1896
+                    "line": 1897
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5446,7 +5446,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1916
+                    "line": 1917
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5464,7 +5464,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1987
+                    "line": 1988
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5482,7 +5482,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2059
+                    "line": 2060
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5500,7 +5500,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2105
+                    "line": 2106
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5518,7 +5518,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2222
+                    "line": 2223
                 },
                 "props": {
                     "name": "border-image",
@@ -5536,7 +5536,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2260
+                    "line": 2261
                 },
                 "props": {
                     "name": "box-shadow",
@@ -20477,7 +20477,7 @@
                 "dfnName": "<<bg-image>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 207
+                    "line": 208
                 },
                 "value": "<image> | none"
             },
@@ -20487,7 +20487,7 @@
                 "dfnName": "<<repeat-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 276
+                    "line": 277
                 },
                 "value": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
             },
@@ -20497,7 +20497,7 @@
                 "dfnName": "<<attachment>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 418
+                    "line": 419
                 },
                 "value": "scroll | fixed | local"
             },
@@ -20507,7 +20507,7 @@
                 "dfnName": "<<bg-position>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 511
+                    "line": 512
                 },
                 "value": "[\n  [ left | center | right | top | bottom | <length-percentage> ]\n|\n  [ left | center | right | <length-percentage> ]\n  [ top | center | bottom | <length-percentage> ]\n|\n  [ center | [ left | right ] <length-percentage>? ] &&\n  [ center | [ top | bottom ] <length-percentage>? ]\n]"
             },
@@ -20517,7 +20517,7 @@
                 "dfnName": "<<bg-size>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 787
+                    "line": 788
                 },
                 "value": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
             },
@@ -20527,7 +20527,7 @@
                 "dfnName": "<bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 985
+                    "line": 986
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
             },
@@ -20537,7 +20537,7 @@
                 "dfnName": "<final-bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 986
+                    "line": 987
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
             },
@@ -20547,7 +20547,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1292
+                    "line": 1293
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -20557,7 +20557,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1402
+                    "line": 1403
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -20567,7 +20567,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2287
+                    "line": 2288
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
