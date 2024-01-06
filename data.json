@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-05T00:45:07.650Z",
-    "elapsedTime": 300,
+    "createdAt": "2024-01-06T00:44:18.784Z",
+    "elapsedTime": 278,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "5fbe3fa4d2edff28e077c439041d884f6d29786a",
-            "commitShort": "5fbe3fa4d2",
+            "commit": "0fdf7eb669a48408fd2d248851bf0c7202f940f1",
+            "commitShort": "0fdf7eb669",
             "commitDate": null,
             "branch": "main"
         },
@@ -7616,7 +7616,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1822
+                    "line": 1824
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -17269,7 +17269,7 @@
                 },
                 "props": {
                     "name": "view-transition-name",
-                    "value": "none | <custom-ident>",
+                    "value": "none | auto | <custom-ident>",
                     "initial": "none",
                     "inherited": "no",
                     "percentages": "n/a",
@@ -21267,7 +21267,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2320
+                    "line": 2322
                 },
                 "value": "<legacy-device-cmyk-syntax> | <modern-device-cmyk-syntax>"
             },
@@ -21277,7 +21277,7 @@
                 "dfnName": "<legacy-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2321
+                    "line": 2323
                 },
                 "value": "device-cmyk( <number>#{4} )"
             },
@@ -21287,7 +21287,7 @@
                 "dfnName": "<modern-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2322
+                    "line": 2324
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21297,7 +21297,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2323
+                    "line": 2325
                 },
                 "value": "<number> | <percentage> | none"
             },
@@ -21307,7 +21307,7 @@
                 "dfnName": "light-dark()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2491
+                    "line": 2493
                 },
                 "attrs": {
                     "export": true
@@ -21320,7 +21320,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2525
+                    "line": 2527
                 },
                 "attrs": {
                     "export": true
@@ -21333,7 +21333,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2526
+                    "line": 2528
                 },
                 "attrs": {
                     "export": true
@@ -21346,7 +21346,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2527
+                    "line": 2529
                 },
                 "attrs": {
                     "export": true
@@ -21359,7 +21359,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2528
+                    "line": 2530
                 },
                 "attrs": {
                     "export": true
@@ -21372,7 +21372,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2529
+                    "line": 2531
                 },
                 "attrs": {
                     "export": true
@@ -21385,7 +21385,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2530
+                    "line": 2532
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -24109,7 +24109,7 @@
                 "dfnName": "<pt-name-selector>",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 654
+                    "line": 657
                 },
                 "value": "'*' | <custom-ident>"
             },
@@ -24951,7 +24951,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2969
+                    "line": 3032
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -25247,7 +25247,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 919
+                    "line": 922
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -25255,7 +25255,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 980
+                    "line": 983
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
