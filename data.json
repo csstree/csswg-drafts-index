@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-09T00:45:59.355Z",
-    "elapsedTime": 317,
+    "createdAt": "2024-01-10T00:46:28.336Z",
+    "elapsedTime": 281,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a48ebb2b3e58b470a17f1979fcc8dbf55e303919",
-            "commitShort": "a48ebb2b3e",
+            "commit": "1a415a2daa3edfc0f902c2f80cde3cfcaae09563",
+            "commitShort": "1a415a2daa",
             "commitDate": null,
             "branch": "main"
         },
@@ -7858,7 +7858,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 803
+                    "line": 805
                 },
                 "props": {
                     "name": "width",
@@ -7872,7 +7872,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 817
+                    "line": 819
                 },
                 "props": {
                     "name": "height",
@@ -7886,7 +7886,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 831
+                    "line": 833
                 },
                 "props": {
                     "name": "inline-size",
@@ -7900,7 +7900,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 847
+                    "line": 849
                 },
                 "props": {
                     "name": "block-size",
@@ -7914,7 +7914,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 863
+                    "line": 865
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -7928,7 +7928,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 878
+                    "line": 880
                 },
                 "props": {
                     "name": "orientation",
@@ -7942,7 +7942,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 1066
+                    "line": 1068
                 },
                 "props": {
                     "name": "content-visibility",
@@ -9281,7 +9281,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7568
+                    "line": 7565
                 },
                 "props": {
                     "name": "font-family",
@@ -9295,7 +9295,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7588
+                    "line": 7585
                 },
                 "props": {
                     "name": "base-palette",
@@ -9309,7 +9309,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7669
+                    "line": 7666
                 },
                 "props": {
                     "name": "override-colors",
@@ -9323,7 +9323,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7738
+                    "line": 7735
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -25015,7 +25015,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-contain-3",
-                    "line": 1009
+                    "line": 1011
                 },
                 "content": "[Exposed=Window]\ninterface CSSContainerRule : CSSConditionRule {\n    readonly attribute CSSOMString containerName;\n    readonly attribute CSSOMString containerQuery;\n};"
             },
@@ -25071,7 +25071,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8100
+                    "line": 8097
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25079,7 +25079,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8113
+                    "line": 8110
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -25087,7 +25087,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8119
+                    "line": 8116
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n    attribute CSSOMString fontFamily;\n    readonly attribute CSSFontFeatureValuesMap annotation;\n    readonly attribute CSSFontFeatureValuesMap ornaments;\n    readonly attribute CSSFontFeatureValuesMap stylistic;\n    readonly attribute CSSFontFeatureValuesMap swash;\n    readonly attribute CSSFontFeatureValuesMap characterVariant;\n    readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n    maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n    undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -25095,7 +25095,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8176
+                    "line": 8173
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n    readonly attribute CSSOMString name;\n    readonly attribute CSSOMString fontFamily;\n    readonly attribute CSSOMString basePalette;\n    readonly attribute CSSOMString overrideColors;\n};"
             },
