@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-14T00:50:59.974Z",
-    "elapsedTime": 277,
+    "createdAt": "2024-01-15T00:48:40.550Z",
+    "elapsedTime": 272,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "aa08a5b681f2214ad56389e30e889e2285bdaa46",
-            "commitShort": "aa08a5b681",
+            "commit": "b2873bc3ef0dd02b0957a566d39575776d36b6aa",
+            "commitShort": "b2873bc3ef",
             "commitDate": null,
             "branch": "main"
         },
