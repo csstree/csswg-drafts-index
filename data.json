@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-15T00:48:40.550Z",
-    "elapsedTime": 272,
+    "createdAt": "2024-01-16T00:46:01.295Z",
+    "elapsedTime": 310,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b2873bc3ef0dd02b0957a566d39575776d36b6aa",
-            "commitShort": "b2873bc3ef",
+            "commit": "93b77a6ccc4ba0e80ffde33ab087364457bf683a",
+            "commitShort": "93b77a6ccc",
             "commitDate": null,
             "branch": "main"
         },
@@ -1792,7 +1792,9 @@
                         "P"
                     ],
                     "includeCanIUsePanels": "yes",
-                    "defaultHighlight": "css"
+                    "defaultHighlight": "css",
+                    "wptPathPrefix": "css/css-images/",
+                    "wptDisplay": "open"
                 }
             },
             {
@@ -10277,7 +10279,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2092
+                    "line": 2257
                 },
                 "props": {
                     "name": "object-fit",
@@ -10295,7 +10297,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2213
+                    "line": 2557
                 },
                 "props": {
                     "name": "image-resolution",
@@ -22855,7 +22857,7 @@
                 "dfnName": "<image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 71
+                    "line": 73
                 },
                 "value": "<url> | <image()> | <image-set()> | <cross-fade()> | <element()> | <gradient>"
             },
@@ -22865,7 +22867,7 @@
                 "dfnName": "<image-set-option>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 191
+                    "line": 193
                 },
                 "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]?"
             },
@@ -22875,7 +22877,7 @@
                 "dfnName": "image()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 343
+                    "line": 386
                 },
                 "value": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
             },
@@ -22885,7 +22887,7 @@
                 "dfnName": "<image-tags>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 344
+                    "line": 387
                 },
                 "value": "[ ltr | rtl ]"
             },
@@ -22895,7 +22897,7 @@
                 "dfnName": "<image-src>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 345
+                    "line": 388
                 },
                 "value": "[ <url> | <string> ]"
             },
@@ -22905,7 +22907,7 @@
                 "dfnName": "cross-fade()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 540
+                    "line": 591
                 },
                 "attrs": {
                     "caniuse": "css-cross-fade"
@@ -22918,7 +22920,7 @@
                 "dfnName": "<cf-image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 541
+                    "line": 592
                 },
                 "value": "<percentage [0,100]>? && [ <image> | <color> ]"
             },
@@ -22928,7 +22930,7 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 747
+                    "line": 807
                 },
                 "value": "element( <id-selector> )"
             },
@@ -22938,7 +22940,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1141
+                    "line": 1205
                 },
                 "value": "[\n<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()> |\n<conic-gradient()>  | <repeating-conic-gradient()> ]"
             },
@@ -22948,7 +22950,7 @@
                 "dfnName": "<linear-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1202
+                    "line": 1270
                 },
                 "value": "[ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? ,\n<color-stop-list>"
             },
@@ -22958,7 +22960,7 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1205
+                    "line": 1273
                 },
                 "value": "[left | right] || [top | bottom]"
             },
@@ -22968,7 +22970,7 @@
                 "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1351
+                    "line": 1440
                 },
                 "value": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
             },
@@ -22978,7 +22980,7 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1449
+                    "line": 1558
                 },
                 "value": "conic-gradient( [ <conic-gradient-syntax> ] )"
             },
@@ -22988,7 +22990,7 @@
                 "dfnName": "<conic-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1450
+                    "line": 1559
                 },
                 "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
             },
@@ -22998,7 +23000,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1699
+                    "line": 1834
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -23008,7 +23010,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1701
+                    "line": 1836
                 },
                 "value": "<color> <color-stop-length>?"
             },
@@ -23018,7 +23020,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1702
+                    "line": 1837
                 },
                 "value": "<length-percentage>"
             },
@@ -23028,7 +23030,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1703
+                    "line": 1838
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -23038,7 +23040,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1705
+                    "line": 1840
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -23048,7 +23050,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1707
+                    "line": 1842
                 },
                 "value": "<color> <color-stop-angle>?"
             },
@@ -23058,7 +23060,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1708
+                    "line": 1843
                 },
                 "value": "<angle-percentage>"
             },
@@ -23068,7 +23070,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1709
+                    "line": 1844
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -23078,7 +23080,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1711
+                    "line": 1846
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
@@ -25119,7 +25121,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1026
+                    "line": 1086
                 },
                 "content": "partial namespace CSS {\n    [SameObject] readonly attribute any elementSources;\n};"
             },
