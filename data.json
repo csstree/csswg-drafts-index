@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-17T00:46:16.451Z",
-    "elapsedTime": 293,
+    "createdAt": "2024-01-18T00:45:42.319Z",
+    "elapsedTime": 341,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "b2d754a6bf22c6d3d307ccf2a41d75948e793831",
-            "commitShort": "b2d754a6bf",
+            "commit": "47c424452e7ac0cdef59c2cf1897122298804800",
+            "commitShort": "47c424452e",
             "commitDate": null,
             "branch": "main"
         },
@@ -20040,7 +20040,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3093
+                    "line": 3088
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -20054,7 +20054,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3275
+                    "line": 3281
                 },
                 "props": {
                     "name": "device-width",
@@ -20068,7 +20068,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3304
+                    "line": 3310
                 },
                 "props": {
                     "name": "device-height",
@@ -20082,7 +20082,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3329
+                    "line": 3335
                 },
                 "props": {
                     "name": "device-aspect-ratio",
