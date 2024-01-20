@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-19T00:46:34.332Z",
-    "elapsedTime": 293,
+    "createdAt": "2024-01-20T00:45:45.376Z",
+    "elapsedTime": 332,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3b62cbf0a11f2811d744a186598fccf000d5b1fe",
-            "commitShort": "3b62cbf0a1",
+            "commit": "6ea2265e8c887e16b560c0ce6f3b9f269b921f12",
+            "commitShort": "6ea2265e8c",
             "commitDate": null,
             "branch": "main"
         },
@@ -3588,7 +3588,9 @@
                     "level": "1",
                     "shortname": "css-viewport",
                     "group": "CSSWG",
-                    "status": "ED",
+                    "status": "FPWD",
+                    "date": "2024-01-25",
+                    "prepareForTr": "yes",
                     "workStatus": "Exploring",
                     "tr": "http://www.w3.org/TR/css-viewport-1/",
                     "ed": "https://drafts.csswg.org/css-viewport/",
@@ -3597,10 +3599,10 @@
                     ],
                     "editor": [
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net, w3cid 43241",
-                        "Matt Rakow, Microsoft, w3cid 62267",
                         "Emilio Cobos Álvarez, Mozilla, emilio@mozilla.com, w3cid 106537"
                     ],
                     "formerEditor": [
+                        "Matt Rakow, Microsoft, w3cid 62267",
                         "Rune Lillesveen, Opera Software, rune@opera.com",
                         "Ryan Betts, Adobe Systems, rbetts@adobe.com",
                         "Øyvind Stenhaug, Opera Software, oyvinds@opera.com"
