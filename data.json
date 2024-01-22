@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-21T00:51:23.545Z",
-    "elapsedTime": 313,
+    "createdAt": "2024-01-22T00:49:12.623Z",
+    "elapsedTime": 281,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6ea2265e8c887e16b560c0ce6f3b9f269b921f12",
-            "commitShort": "6ea2265e8c",
+            "commit": "6d74dfd918302f277366e909773d705b85149882",
+            "commitShort": "6d74dfd918",
             "commitDate": null,
             "branch": "main"
         },
@@ -1514,7 +1514,8 @@
                     "ed": "https://drafts.csswg.org/css-gcpm/",
                     "tr": "https://www.w3.org/TR/css-gcpm-3/",
                     "editor": [
-                        "Mike Bremford, BFO, mike@bfo.com, w3cid 118053"
+                        "Mike Bremford, BFO, mike@bfo.com, w3cid 118053",
+                        "Rachel Andrew, Google, rachelandrew@google.com, w3cid 81117"
                     ],
                     "formerEditor": [
                         "Dave Cramer, Hachette Livre, dave.cramer@hbgusa.com, w3cid 65283",
@@ -9489,7 +9490,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 58
+                    "line": 59
                 },
                 "props": {
                     "name": "string-set",
@@ -9507,7 +9508,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 245
+                    "line": 246
                 },
                 "props": {
                     "name": "position",
@@ -9519,7 +9520,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 336
+                    "line": 337
                 },
                 "props": {
                     "name": "running",
@@ -9537,7 +9538,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 359
+                    "line": 360
                 },
                 "props": {
                     "name": "content",
@@ -9549,7 +9550,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 445
+                    "line": 446
                 },
                 "props": {
                     "name": "float",
@@ -9561,7 +9562,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 456
+                    "line": 457
                 },
                 "props": {
                     "name": "footnote-display",
@@ -9579,7 +9580,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 583
+                    "line": 584
                 },
                 "props": {
                     "name": "footnote-policy",
@@ -22400,7 +22401,7 @@
                 "dfnName": "<content-list>",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 77
+                    "line": 78
                 },
                 "attrs": {
                     "id": "content-list"
@@ -22413,7 +22414,7 @@
                 "dfnName": "content()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 97
+                    "line": 98
                 },
                 "value": "content([text | before | after | first-letter ])"
             },
@@ -22423,7 +22424,7 @@
                 "dfnName": "running()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 252
+                    "line": 253
                 },
                 "value": "running( <custom-ident> )"
             },
@@ -22433,7 +22434,7 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 365
+                    "line": 366
                 },
                 "value": "element( <custom-ident> , [ first | start | last | first-except ]? )"
             },
@@ -22443,7 +22444,7 @@
                 "dfnName": ":nth()",
                 "source": {
                     "spec": "css-gcpm-3",
-                    "line": 694
+                    "line": 695
                 },
                 "value": ":nth( <an+b> [of <custom-ident>]? )"
             },
