@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-23T00:48:09.892Z",
-    "elapsedTime": 277,
+    "createdAt": "2024-01-24T00:47:33.337Z",
+    "elapsedTime": 293,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "25a33efe96c5a655dbf9e3bc6b615579c249a9d6",
-            "commitShort": "25a33efe96",
+            "commit": "33f04149fe92d95e57684c88deb14240783b1ed3",
+            "commitShort": "33f04149fe",
             "commitDate": null,
             "branch": "main"
         },
@@ -7618,7 +7618,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1824
+                    "line": 1838
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -8621,7 +8621,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 119
+                    "line": 120
                 },
                 "props": {
                     "name": "font-family",
@@ -8639,7 +8639,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 761
+                    "line": 762
                 },
                 "props": {
                     "name": "font-weight",
@@ -8657,10 +8657,10 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 934
+                    "line": 935
                 },
                 "props": {
-                    "name": "font-stretch",
+                    "name": "font-width",
                     "value": "normal | <percentage [0,∞]> | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
                     "initial": "normal",
                     "appliesTo": "all elements and text",
@@ -8669,13 +8669,13 @@
                     "computedValue": "a percentage, see below",
                     "animationType": "by computed value type"
                 },
-                "name": "font-stretch"
+                "name": "font-width"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1039
+                    "line": 1107
                 },
                 "props": {
                     "name": "font-style",
@@ -8693,7 +8693,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1186
+                    "line": 1254
                 },
                 "props": {
                     "name": "font-size",
@@ -8711,7 +8711,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1397
+                    "line": 1465
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -8729,11 +8729,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1619
+                    "line": 1687
                 },
                 "props": {
                     "name": "font",
-                    "value": "[ [ <'font-style'> ||\n<font-variant-css2> ||\n<'font-weight'> ||\n<font-stretch-css3> ]? <'font-size'> [ / <'line-height'> ]?\n<'font-family'> ] |\n<system-family-name>",
+                    "value": "[ [ <'font-style'> ||\n<font-variant-css2> ||\n<'font-weight'> ||\n<font-width-css3> ]? <'font-size'> [ / <'line-height'> ]?\n<'font-family'> ] |\n<system-family-name>",
                     "initial": "see individual properties",
                     "appliesTo": "all elements and text",
                     "inherited": "yes",
@@ -8747,7 +8747,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1893
+                    "line": 1962
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -8766,7 +8766,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1931
+                    "line": 2000
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -8785,7 +8785,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1969
+                    "line": 2038
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -8803,7 +8803,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2006
+                    "line": 2075
                 },
                 "props": {
                     "name": "font-synthesis-position",
@@ -8821,7 +8821,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2040
+                    "line": 2109
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -8839,7 +8839,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2471
+                    "line": 2540
                 },
                 "props": {
                     "name": "font-family",
@@ -8853,7 +8853,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2505
+                    "line": 2574
                 },
                 "props": {
                     "name": "src",
@@ -8867,7 +8867,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2906
+                    "line": 2975
                 },
                 "props": {
                     "name": "font-style",
@@ -8881,7 +8881,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2913
+                    "line": 2982
                 },
                 "props": {
                     "name": "font-weight",
@@ -8895,21 +8895,21 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2920
+                    "line": 2989
                 },
                 "props": {
-                    "name": "font-stretch",
-                    "value": "auto | <'font-stretch'>{1,2}",
+                    "name": "font-width",
+                    "value": "auto | <'font-width'>{1,2}",
                     "for": "@font-face",
                     "initial": "auto"
                 },
-                "name": "font-stretch"
+                "name": "font-width"
             },
             {
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3089
+                    "line": 3167
                 },
                 "props": {
                     "name": "unicode-range",
@@ -8923,7 +8923,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3323
+                    "line": 3401
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -8937,7 +8937,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3337
+                    "line": 3415
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -8951,7 +8951,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3385
+                    "line": 3463
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -8965,7 +8965,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3553
+                    "line": 3631
                 },
                 "props": {
                     "name": "font-display",
@@ -8979,7 +8979,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3746
+                    "line": 3824
                 },
                 "props": {
                     "name": "font-display",
@@ -8993,7 +8993,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3766
+                    "line": 3844
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9007,7 +9007,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3791
+                    "line": 3869
                 },
                 "props": {
                     "name": "ascent-override",
@@ -9021,7 +9021,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3803
+                    "line": 3881
                 },
                 "props": {
                     "name": "descent-override",
@@ -9035,7 +9035,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3815
+                    "line": 3893
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -9049,7 +9049,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4735
+                    "line": 4813
                 },
                 "props": {
                     "name": "font-kerning",
@@ -9067,7 +9067,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4831
+                    "line": 4909
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -9085,7 +9085,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4968
+                    "line": 5046
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -9103,7 +9103,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5195
+                    "line": 5273
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -9121,7 +9121,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5376
+                    "line": 5454
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -9139,7 +9139,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5535
+                    "line": 5613
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -9157,7 +9157,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6085
+                    "line": 6163
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -9175,7 +9175,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6219
+                    "line": 6297
                 },
                 "props": {
                     "name": "font-variant",
@@ -9193,7 +9193,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6285
+                    "line": 6363
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -9211,7 +9211,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6531
+                    "line": 6609
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9229,7 +9229,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6870
+                    "line": 6948
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -9247,7 +9247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6972
+                    "line": 7050
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -9265,7 +9265,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7154
+                    "line": 7232
                 },
                 "props": {
                     "name": "font-palette",
@@ -9283,7 +9283,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7565
+                    "line": 7643
                 },
                 "props": {
                     "name": "font-family",
@@ -9297,7 +9297,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7585
+                    "line": 7663
                 },
                 "props": {
                     "name": "base-palette",
@@ -9311,11 +9311,11 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7666
+                    "line": 7744
                 },
                 "props": {
                     "name": "override-colors",
-                    "value": "[ <integer [0, ∞]> <absolute-color-base> ]#",
+                    "value": "[ <integer [0, ∞]> <color> ]#",
                     "for": "@font-palette-values",
                     "initial": "N/A"
                 },
@@ -9325,7 +9325,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7735
+                    "line": 7816
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -13974,7 +13974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 870
+                    "line": 869
                 },
                 "props": {
                     "name": "shape-outside",
@@ -13991,11 +13991,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 948
+                    "line": 947
                 },
                 "props": {
                     "name": "shape-image-threshold",
-                    "value": "<alpha-value>",
+                    "value": "<'opacity'>",
                     "initial": "0",
                     "appliesTo": "floats",
                     "inherited": "no",
@@ -14008,7 +14008,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 1007
+                    "line": 1006
                 },
                 "props": {
                     "name": "shape-margin",
@@ -20262,7 +20262,7 @@
                 },
                 "props": {
                     "name": "timeline-scope",
-                    "value": "none | <dashed-ident>#",
+                    "value": "none | all | <dashed-ident>#",
                     "initial": "none",
                     "appliesTo": "all elements",
                     "inherited": "no",
@@ -20721,27 +20721,21 @@
             },
             {
                 "type": "prod",
-                "name": "absolute-color-base",
-                "dfnName": "<absolute-color-base>",
+                "name": "color-base",
+                "dfnName": "<color-base>",
                 "source": {
                     "spec": "css-color-4",
                     "line": 920
                 },
-                "attrs": {
-                    "export": true
-                },
-                "value": "<hex-color> | <absolute-color-function> | <named-color> | transparent"
+                "value": "<hex-color> | <color-function> | <named-color> | transparent"
             },
             {
                 "type": "prod",
-                "name": "absolute-color-function",
-                "dfnName": "<absolute-color-function>",
+                "name": "color-function",
+                "dfnName": "<color-function>",
                 "source": {
                     "spec": "css-color-4",
                     "line": 921
-                },
-                "attrs": {
-                    "export": true
                 },
                 "value": "<rgb()> | <rgba()> |\n<hsl()> | <hsla()> | <hwb()> |\n<lab()> | <lch()> | <oklab()> | <oklch()> |\n<color()>"
             },
@@ -20751,7 +20745,7 @@
                 "dfnName": "\"><alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 988
+                    "line": 996
                 },
                 "attrs": {
                     "dfn-for": "\"<color"
@@ -20764,7 +20758,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1003
+                    "line": 1011
                 },
                 "value": "<number> | <angle>"
             },
@@ -20774,7 +20768,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1207
+                    "line": 1215
                 },
                 "value": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]"
             },
@@ -20784,7 +20778,7 @@
                 "dfnName": "rgba()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1208
+                    "line": 1216
                 },
                 "value": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]"
             },
@@ -20794,7 +20788,7 @@
                 "dfnName": "<<legacy-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1209
+                    "line": 1217
                 },
                 "value": "rgb( <percentage>#{3} , <alpha-value>? ) |\nrgb( <number>#{3} , <alpha-value>? )"
             },
@@ -20804,7 +20798,7 @@
                 "dfnName": "<<legacy-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1211
+                    "line": 1219
                 },
                 "value": "rgba( <percentage>#{3} , <alpha-value>? ) |\nrgba( <number>#{3} , <alpha-value>? )"
             },
@@ -20814,7 +20808,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1213
+                    "line": 1221
                 },
                 "value": "rgb( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20824,7 +20818,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1216
+                    "line": 1224
                 },
                 "value": "rgba( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20834,7 +20828,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2062
+                    "line": 2070
                 },
                 "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]"
             },
@@ -20844,7 +20838,7 @@
                 "dfnName": "hsla()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2063
+                    "line": 2071
                 },
                 "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
             },
@@ -20854,7 +20848,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2064
+                    "line": 2072
                 },
                 "value": "hsl( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20864,7 +20858,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2069
+                    "line": 2077
                 },
                 "value": "hsla( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20874,7 +20868,7 @@
                 "dfnName": "<<legacy-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2074
+                    "line": 2082
                 },
                 "value": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -20884,7 +20878,7 @@
                 "dfnName": "<<legacy-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2075
+                    "line": 2083
                 },
                 "value": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -20894,7 +20888,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2598
+                    "line": 2606
                 },
                 "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20904,7 +20898,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3219
+                    "line": 3227
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20914,7 +20908,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3293
+                    "line": 3301
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20924,7 +20918,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3386
+                    "line": 3394
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20934,7 +20928,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3461
+                    "line": 3469
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -20944,7 +20938,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3631
+                    "line": 3639
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -20954,7 +20948,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3639
+                    "line": 3647
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -20964,7 +20958,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3640
+                    "line": 3648
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -20974,7 +20968,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3641
+                    "line": 3649
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -20984,7 +20978,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3642
+                    "line": 3650
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -20994,7 +20988,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3643
+                    "line": 3651
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -21004,7 +20998,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3644
+                    "line": 3652
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -21014,7 +21008,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4558
+                    "line": 4566
                 },
                 "attrs": {
                     "export": true
@@ -21027,7 +21021,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4559
+                    "line": 4567
                 },
                 "attrs": {
                     "export": true
@@ -21040,7 +21034,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4560
+                    "line": 4568
                 },
                 "attrs": {
                     "export": true
@@ -21053,7 +21047,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4561
+                    "line": 4569
                 },
                 "attrs": {
                     "export": true
@@ -21066,7 +21060,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4562
+                    "line": 4570
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -21075,18 +21069,18 @@
             },
             {
                 "type": "prod",
-                "name": "absolute-color-base",
-                "dfnName": "<absolute-color-base>",
+                "name": "color-base",
+                "dfnName": "<color-base>",
                 "source": {
                     "spec": "css-color-5",
                     "line": 129
                 },
-                "value": "<hex-color> | <absolute-color-function> | <named-color> | transparent"
+                "value": "<hex-color> | <color-function> | <named-color> | <color-mix()> | transparent"
             },
             {
                 "type": "prod",
-                "name": "absolute-color-function",
-                "dfnName": "<absolute-color-function>",
+                "name": "color-function",
+                "dfnName": "<color-function>",
                 "source": {
                     "spec": "css-color-5",
                     "line": 130
@@ -21099,7 +21093,7 @@
                 "dfnName": "color-mix()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 160
+                    "line": 174
                 },
                 "value": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
             },
@@ -21109,7 +21103,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1086
+                    "line": 1100
                 },
                 "value": "rgb( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -21119,7 +21113,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1089
+                    "line": 1103
                 },
                 "value": "rgba( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -21129,7 +21123,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1152
+                    "line": 1166
                 },
                 "value": "hsl([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21139,7 +21133,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1157
+                    "line": 1171
                 },
                 "value": "hsla([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21149,7 +21143,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1201
+                    "line": 1215
                 },
                 "value": "hwb([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21159,7 +21153,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1232
+                    "line": 1246
                 },
                 "value": "lab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21169,7 +21163,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1288
+                    "line": 1302
                 },
                 "value": "oklab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21179,7 +21173,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1319
+                    "line": 1333
                 },
                 "value": "lch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21189,7 +21183,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1455
+                    "line": 1469
                 },
                 "value": "oklch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21199,7 +21193,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1538
+                    "line": 1552
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21209,7 +21203,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1539
+                    "line": 1553
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -21219,7 +21213,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1540
+                    "line": 1554
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]+"
             },
@@ -21229,7 +21223,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1541
+                    "line": 1555
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -21239,7 +21233,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1542
+                    "line": 1556
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -21249,7 +21243,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1543
+                    "line": 1557
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -21259,7 +21253,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1544
+                    "line": 1558
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -21269,7 +21263,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2322
+                    "line": 2336
                 },
                 "value": "<legacy-device-cmyk-syntax> | <modern-device-cmyk-syntax>"
             },
@@ -21279,7 +21273,7 @@
                 "dfnName": "<legacy-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2323
+                    "line": 2337
                 },
                 "value": "device-cmyk( <number>#{4} )"
             },
@@ -21289,7 +21283,7 @@
                 "dfnName": "<modern-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2324
+                    "line": 2338
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21299,7 +21293,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2325
+                    "line": 2339
                 },
                 "value": "<number> | <percentage> | none"
             },
@@ -21309,7 +21303,7 @@
                 "dfnName": "light-dark()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2493
+                    "line": 2507
                 },
                 "attrs": {
                     "export": true
@@ -21322,7 +21316,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2527
+                    "line": 2541
                 },
                 "attrs": {
                     "export": true
@@ -21335,7 +21329,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2528
+                    "line": 2542
                 },
                 "attrs": {
                     "export": true
@@ -21348,7 +21342,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2529
+                    "line": 2543
                 },
                 "attrs": {
                     "export": true
@@ -21361,7 +21355,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2530
+                    "line": 2544
                 },
                 "attrs": {
                     "export": true
@@ -21374,7 +21368,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2531
+                    "line": 2545
                 },
                 "attrs": {
                     "export": true
@@ -21387,7 +21381,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2532
+                    "line": 2546
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -22129,7 +22123,7 @@
                 "dfnName": "<font-weight-absolute>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 794
+                    "line": 795
                 },
                 "attrs": {
                     "id": "font-weight-absolute-values"
@@ -22142,7 +22136,7 @@
                 "dfnName": "<font-src>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2537
+                    "line": 2606
                 },
                 "value": "<url> [ format(<font-format>)]? [ tech( <font-tech>#)]? | local(<family-name>)"
             },
@@ -22152,7 +22146,7 @@
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4868
+                    "line": 4946
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -22165,7 +22159,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4870
+                    "line": 4948
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -22178,7 +22172,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4872
+                    "line": 4950
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -22191,7 +22185,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4874
+                    "line": 4952
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -22204,7 +22198,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5414
+                    "line": 5492
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -22217,7 +22211,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5416
+                    "line": 5494
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -22230,7 +22224,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5418
+                    "line": 5496
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -22243,7 +22237,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5580
+                    "line": 5658
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -22256,7 +22250,7 @@
                 "dfnName": "@stylistic",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5770
+                    "line": 5848
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22269,7 +22263,7 @@
                 "dfnName": "@historical-forms",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5771
+                    "line": 5849
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22282,7 +22276,7 @@
                 "dfnName": "@styleset",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5772
+                    "line": 5850
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22295,7 +22289,7 @@
                 "dfnName": "@character-variant",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5773
+                    "line": 5851
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22308,7 +22302,7 @@
                 "dfnName": "@swash",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5774
+                    "line": 5852
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22321,7 +22315,7 @@
                 "dfnName": "@ornaments",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5775
+                    "line": 5853
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22334,7 +22328,7 @@
                 "dfnName": "@annotation",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5776
+                    "line": 5854
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22347,7 +22341,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6116
+                    "line": 6194
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -22360,7 +22354,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6118
+                    "line": 6196
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -22373,7 +22367,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6400
+                    "line": 6478
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -22388,7 +22382,7 @@
                 "dfnName": "<opentype-tag>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6401
+                    "line": 6479
                 },
                 "value": "<string>"
             },
@@ -23320,7 +23314,7 @@
                 "dfnName": "<basic-shape-rect>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 343
+                    "line": 342
                 },
                 "value": "<inset()> | <rect()> | <xywh()>"
             },
@@ -23330,7 +23324,7 @@
                 "dfnName": "rect()",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 420
+                    "line": 419
                 },
                 "value": ""
             },
@@ -23340,7 +23334,7 @@
                 "dfnName": "<<shape-box>>",
                 "source": {
                     "spec": "css-shapes-1",
-                    "line": 742
+                    "line": 741
                 },
                 "value": "<visual-box> | margin-box"
             },
@@ -24953,7 +24947,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 3032
+                    "line": 3046
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -25073,7 +25067,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8097
+                    "line": 8178
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25081,7 +25075,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8110
+                    "line": 8191
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -25089,7 +25083,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8116
+                    "line": 8197
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n    attribute CSSOMString fontFamily;\n    readonly attribute CSSFontFeatureValuesMap annotation;\n    readonly attribute CSSFontFeatureValuesMap ornaments;\n    readonly attribute CSSFontFeatureValuesMap stylistic;\n    readonly attribute CSSFontFeatureValuesMap swash;\n    readonly attribute CSSFontFeatureValuesMap characterVariant;\n    readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n    maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n    undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -25097,7 +25091,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8173
+                    "line": 8254
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n    readonly attribute CSSOMString name;\n    readonly attribute CSSOMString fontFamily;\n    readonly attribute CSSOMString basePalette;\n    readonly attribute CSSOMString overrideColors;\n};"
             },
