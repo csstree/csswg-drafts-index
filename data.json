@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-24T00:47:33.337Z",
-    "elapsedTime": 293,
+    "createdAt": "2024-01-25T00:47:34.262Z",
+    "elapsedTime": 335,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "33f04149fe92d95e57684c88deb14240783b1ed3",
-            "commitShort": "33f04149fe",
+            "commit": "e62445cf3224bed660234ef4db41cdc5247494ac",
+            "commitShort": "e62445cf32",
             "commitDate": null,
             "branch": "main"
         },
@@ -2723,7 +2723,8 @@
                         "Rossen Atanassov, Microsoft, ratan@microsoft.com, w3cid 49885",
                         "Florian Rivoal, Invited Expert, https://florian.rivoal.net/, w3cid 43241"
                     ],
-                    "abstract": "This CSS module defines properties\nto influence the visual styling of scrollbars,\nintroducing controls for their color and width."
+                    "abstract": "This CSS module defines properties\nto influence the visual styling of scrollbars,\nintroducing controls for their color and width.",
+                    "wptPathPrefix": "css/css-scrollbars/"
                 }
             },
             {
@@ -3559,14 +3560,13 @@
                 "id": "css-view-transitions-2",
                 "props": {
                     "title": "CSS View Transitions Module Level 2",
-                    "shortname": "css-view-transitions",
+                    "shortname": "css-view-transitions-2",
                     "level": "2",
                     "status": "ED",
                     "group": "csswg",
                     "date": "2023-05-30",
                     "prepareForTr": "yes",
                     "ed": "https://drafts.csswg.org/css-view-transitions-2/",
-                    "tr": "https://www.w3.org/TR/css-view-transitions-2/",
                     "workStatus": "exploring",
                     "editor": [
                         "Noam Rosenthal, Google, w3cid 121539",
@@ -4802,7 +4802,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 167
+                    "line": 168
                 },
                 "props": {
                     "name": "background-color",
@@ -4820,7 +4820,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 192
+                    "line": 193
                 },
                 "props": {
                     "name": "background-image",
@@ -4838,7 +4838,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 263
+                    "line": 264
                 },
                 "props": {
                     "name": "background-repeat",
@@ -4856,7 +4856,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 402
+                    "line": 403
                 },
                 "props": {
                     "name": "background-attachment",
@@ -4874,7 +4874,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 493
+                    "line": 494
                 },
                 "props": {
                     "name": "background-position",
@@ -4892,7 +4892,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 676
+                    "line": 677
                 },
                 "props": {
                     "name": "background-clip",
@@ -4910,7 +4910,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 724
+                    "line": 725
                 },
                 "props": {
                     "name": "background-origin",
@@ -4928,7 +4928,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 773
+                    "line": 774
                 },
                 "props": {
                     "name": "background-size",
@@ -4946,7 +4946,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 972
+                    "line": 973
                 },
                 "props": {
                     "name": "background",
@@ -4964,7 +4964,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1203
                 },
                 "props": {
                     "name": "border-top-color",
@@ -4983,7 +4983,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1203
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5002,7 +5002,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1203
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5021,7 +5021,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1203
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5040,7 +5040,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1214
+                    "line": 1215
                 },
                 "props": {
                     "name": "border-color",
@@ -5058,7 +5058,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1249
                 },
                 "props": {
                     "name": "border-top-style",
@@ -5077,7 +5077,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1249
                 },
                 "props": {
                     "name": "border-right-style",
@@ -5096,7 +5096,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1249
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -5115,7 +5115,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1249
                 },
                 "props": {
                     "name": "border-left-style",
@@ -5134,7 +5134,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1260
+                    "line": 1261
                 },
                 "props": {
                     "name": "border-style",
@@ -5152,7 +5152,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1378
                 },
                 "props": {
                     "name": "border-top-width",
@@ -5171,7 +5171,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1378
                 },
                 "props": {
                     "name": "border-right-width",
@@ -5190,7 +5190,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1378
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5209,7 +5209,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1378
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5228,7 +5228,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1389
+                    "line": 1390
                 },
                 "props": {
                     "name": "border-width",
@@ -5246,7 +5246,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1432
                 },
                 "props": {
                     "name": "border-top",
@@ -5264,7 +5264,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1432
                 },
                 "props": {
                     "name": "border-right",
@@ -5282,7 +5282,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1432
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5300,7 +5300,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1432
                 },
                 "props": {
                     "name": "border-left",
@@ -5318,7 +5318,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1446
+                    "line": 1447
                 },
                 "props": {
                     "name": "border",
@@ -5336,7 +5336,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1522
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5355,7 +5355,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1522
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5374,7 +5374,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1522
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5393,7 +5393,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1522
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5412,7 +5412,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1533
+                    "line": 1534
                 },
                 "props": {
                     "name": "border-radius",
@@ -5430,7 +5430,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1897
+                    "line": 1898
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5448,7 +5448,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1917
+                    "line": 1918
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5466,7 +5466,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1988
+                    "line": 1989
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5484,7 +5484,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2060
+                    "line": 2061
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5502,7 +5502,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2106
+                    "line": 2108
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5520,7 +5520,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2223
+                    "line": 2225
                 },
                 "props": {
                     "name": "border-image",
@@ -5538,7 +5538,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2261
+                    "line": 2263
                 },
                 "props": {
                     "name": "box-shadow",
@@ -8621,7 +8621,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 120
+                    "line": 119
                 },
                 "props": {
                     "name": "font-family",
@@ -8639,7 +8639,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 762
+                    "line": 761
                 },
                 "props": {
                     "name": "font-weight",
@@ -8657,7 +8657,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 935
+                    "line": 934
                 },
                 "props": {
                     "name": "font-width",
@@ -8675,7 +8675,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1107
+                    "line": 1106
                 },
                 "props": {
                     "name": "font-style",
@@ -8693,7 +8693,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1254
+                    "line": 1255
                 },
                 "props": {
                     "name": "font-size",
@@ -8711,7 +8711,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1465
+                    "line": 1466
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -8729,7 +8729,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1687
+                    "line": 1688
                 },
                 "props": {
                     "name": "font",
@@ -8747,7 +8747,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1962
+                    "line": 1963
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -8766,7 +8766,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2000
+                    "line": 2001
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -8785,7 +8785,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2038
+                    "line": 2058
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -8803,7 +8803,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2075
+                    "line": 2095
                 },
                 "props": {
                     "name": "font-synthesis-position",
@@ -8821,7 +8821,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2109
+                    "line": 2129
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -8839,7 +8839,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2540
+                    "line": 2560
                 },
                 "props": {
                     "name": "font-family",
@@ -8853,7 +8853,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2574
+                    "line": 2594
                 },
                 "props": {
                     "name": "src",
@@ -8867,7 +8867,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2975
+                    "line": 2995
                 },
                 "props": {
                     "name": "font-style",
@@ -8881,7 +8881,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2982
+                    "line": 3002
                 },
                 "props": {
                     "name": "font-weight",
@@ -8895,7 +8895,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2989
+                    "line": 3009
                 },
                 "props": {
                     "name": "font-width",
@@ -8909,7 +8909,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3167
+                    "line": 3190
                 },
                 "props": {
                     "name": "unicode-range",
@@ -8923,7 +8923,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3401
+                    "line": 3424
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -8937,7 +8937,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3415
+                    "line": 3438
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -8951,7 +8951,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3463
+                    "line": 3486
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -8965,7 +8965,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3631
+                    "line": 3654
                 },
                 "props": {
                     "name": "font-display",
@@ -8979,7 +8979,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3824
+                    "line": 3847
                 },
                 "props": {
                     "name": "font-display",
@@ -8993,7 +8993,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3844
+                    "line": 3867
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9007,7 +9007,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3869
+                    "line": 3892
                 },
                 "props": {
                     "name": "ascent-override",
@@ -9021,7 +9021,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3881
+                    "line": 3904
                 },
                 "props": {
                     "name": "descent-override",
@@ -9035,7 +9035,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3893
+                    "line": 3916
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -9049,7 +9049,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4813
+                    "line": 4836
                 },
                 "props": {
                     "name": "font-kerning",
@@ -9067,7 +9067,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4909
+                    "line": 4932
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -9085,7 +9085,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5046
+                    "line": 5069
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -9103,7 +9103,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5273
+                    "line": 5296
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -9121,7 +9121,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5454
+                    "line": 5477
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -9139,7 +9139,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5613
+                    "line": 5636
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -9157,7 +9157,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6163
+                    "line": 6186
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -9175,7 +9175,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6297
+                    "line": 6320
                 },
                 "props": {
                     "name": "font-variant",
@@ -9193,7 +9193,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6363
+                    "line": 6386
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -9211,7 +9211,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6609
+                    "line": 6632
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9229,7 +9229,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6948
+                    "line": 6971
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -9247,7 +9247,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7050
+                    "line": 7073
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -9265,7 +9265,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7232
+                    "line": 7255
                 },
                 "props": {
                     "name": "font-palette",
@@ -9283,7 +9283,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7643
+                    "line": 7666
                 },
                 "props": {
                     "name": "font-family",
@@ -9297,7 +9297,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7663
+                    "line": 7686
                 },
                 "props": {
                     "name": "base-palette",
@@ -9311,7 +9311,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7744
+                    "line": 7767
                 },
                 "props": {
                     "name": "override-colors",
@@ -9325,7 +9325,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7816
+                    "line": 7839
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -13786,7 +13786,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 308
+                    "line": 410
                 },
                 "props": {
                     "name": "scroll-start-x",
@@ -13805,7 +13805,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 308
+                    "line": 410
                 },
                 "props": {
                     "name": "scroll-start-y",
@@ -13824,7 +13824,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 325
+                    "line": 427
                 },
                 "props": {
                     "name": "scroll-start-inline",
@@ -13843,7 +13843,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 325
+                    "line": 427
                 },
                 "props": {
                     "name": "scroll-start-block",
@@ -13862,7 +13862,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 341
+                    "line": 443
                 },
                 "props": {
                     "name": "scroll-start-target-block",
@@ -13881,7 +13881,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 341
+                    "line": 443
                 },
                 "props": {
                     "name": "scroll-start-target-inline",
@@ -13900,7 +13900,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 358
+                    "line": 460
                 },
                 "props": {
                     "name": "scroll-start-target-x",
@@ -13919,7 +13919,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 358
+                    "line": 460
                 },
                 "props": {
                     "name": "scroll-start-target-y",
@@ -13938,7 +13938,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 92
+                    "line": 141
                 },
                 "props": {
                     "name": "scrollbar-color",
@@ -13956,7 +13956,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 183
+                    "line": 292
                 },
                 "props": {
                     "name": "scrollbar-width",
@@ -17284,7 +17284,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 286
+                    "line": 279
                 },
                 "props": {
                     "name": "navigation",
@@ -17298,7 +17298,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 313
+                    "line": 306
                 },
                 "props": {
                     "name": "type",
@@ -20479,7 +20479,7 @@
                 "dfnName": "<<bg-image>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 208
+                    "line": 209
                 },
                 "value": "<image> | none"
             },
@@ -20489,7 +20489,7 @@
                 "dfnName": "<<repeat-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 277
+                    "line": 278
                 },
                 "value": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
             },
@@ -20499,7 +20499,7 @@
                 "dfnName": "<<attachment>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 419
+                    "line": 420
                 },
                 "value": "scroll | fixed | local"
             },
@@ -20509,7 +20509,7 @@
                 "dfnName": "<<bg-position>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 512
+                    "line": 513
                 },
                 "value": "[\n  [ left | center | right | top | bottom | <length-percentage> ]\n|\n  [ left | center | right | <length-percentage> ]\n  [ top | center | bottom | <length-percentage> ]\n|\n  [ center | [ left | right ] <length-percentage>? ] &&\n  [ center | [ top | bottom ] <length-percentage>? ]\n]"
             },
@@ -20519,7 +20519,7 @@
                 "dfnName": "<<bg-size>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 788
+                    "line": 789
                 },
                 "value": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
             },
@@ -20529,7 +20529,7 @@
                 "dfnName": "<bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 986
+                    "line": 987
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
             },
@@ -20539,7 +20539,7 @@
                 "dfnName": "<final-bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 987
+                    "line": 988
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
             },
@@ -20549,7 +20549,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1293
+                    "line": 1294
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -20559,7 +20559,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1403
+                    "line": 1404
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -20569,7 +20569,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2288
+                    "line": 2290
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -22123,7 +22123,7 @@
                 "dfnName": "<font-weight-absolute>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 795
+                    "line": 794
                 },
                 "attrs": {
                     "id": "font-weight-absolute-values"
@@ -22136,7 +22136,7 @@
                 "dfnName": "<font-src>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2606
+                    "line": 2626
                 },
                 "value": "<url> [ format(<font-format>)]? [ tech( <font-tech>#)]? | local(<family-name>)"
             },
@@ -22146,7 +22146,7 @@
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4946
+                    "line": 4969
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -22159,7 +22159,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4948
+                    "line": 4971
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -22172,7 +22172,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4950
+                    "line": 4973
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -22185,7 +22185,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4952
+                    "line": 4975
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -22198,7 +22198,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5492
+                    "line": 5515
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -22211,7 +22211,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5494
+                    "line": 5517
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -22224,7 +22224,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5496
+                    "line": 5519
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -22237,7 +22237,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5658
+                    "line": 5681
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -22250,7 +22250,7 @@
                 "dfnName": "@stylistic",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5848
+                    "line": 5871
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22263,7 +22263,7 @@
                 "dfnName": "@historical-forms",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5849
+                    "line": 5872
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22276,7 +22276,7 @@
                 "dfnName": "@styleset",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5850
+                    "line": 5873
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22289,7 +22289,7 @@
                 "dfnName": "@character-variant",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5851
+                    "line": 5874
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22302,7 +22302,7 @@
                 "dfnName": "@swash",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5852
+                    "line": 5875
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22315,7 +22315,7 @@
                 "dfnName": "@ornaments",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5853
+                    "line": 5876
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22328,7 +22328,7 @@
                 "dfnName": "@annotation",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5854
+                    "line": 5877
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22341,7 +22341,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6194
+                    "line": 6217
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -22354,7 +22354,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6196
+                    "line": 6219
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -22367,7 +22367,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6478
+                    "line": 6501
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -22382,7 +22382,7 @@
                 "dfnName": "<opentype-tag>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6479
+                    "line": 6502
                 },
                 "value": "<string>"
             },
@@ -24115,7 +24115,7 @@
                 "dfnName": "<vt-type-selector>",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 218
+                    "line": 211
                 },
                 "value": "'*' | <custom-ident>#"
             },
@@ -25067,7 +25067,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8178
+                    "line": 8205
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25075,7 +25075,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8191
+                    "line": 8218
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -25083,7 +25083,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8197
+                    "line": 8224
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n    attribute CSSOMString fontFamily;\n    readonly attribute CSSFontFeatureValuesMap annotation;\n    readonly attribute CSSFontFeatureValuesMap ornaments;\n    readonly attribute CSSFontFeatureValuesMap stylistic;\n    readonly attribute CSSFontFeatureValuesMap swash;\n    readonly attribute CSSFontFeatureValuesMap characterVariant;\n    readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n    maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n    undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -25091,7 +25091,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8254
+                    "line": 8281
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n    readonly attribute CSSOMString name;\n    readonly attribute CSSOMString fontFamily;\n    readonly attribute CSSOMString basePalette;\n    readonly attribute CSSOMString overrideColors;\n};"
             },
@@ -25202,6 +25202,14 @@
             {
                 "type": "idl",
                 "source": {
+                    "spec": "css-scroll-snap-2",
+                    "line": 289
+                },
+                "content": "[Exposed=Window]\ninterface SnapEvent : Event {\n    constructor(DOMString type, optional SnapEventInit eventInitDict = {});\n    readonly attribute EventTarget? target;\n    readonly attribute SnapTargetList snappedTargets;\n    readonly attribute SnapTargetList snapTargets;\n    readonly attribute boolean invokedProgrammatically;\n    readonly attribute boolean smoothlyScrolled;\n};\n[Exposed=Window]\ninterface SnapTargetList {\n    readonly attribute SnapTargetArray x;\n    readonly attribute SnapTargetArray y;\n};\n[Exposed=Window]\ninterface SnapTargetArray {\n    readonly attribute unsigned long length;\n    getter EventTarget? item (unsigned long index);\n};\ndictionary SnapEventInit : EventModifierInit {\n    sequence&lt;EventTarget> snappedTargetsX = [];\n    sequence&lt;EventTarget> snappedTargetsY = [];\n    sequence&lt;EventTarget> snapTargetsListX = [];\n    sequence&lt;EventTarget> snapTargetsListY = [];\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
                     "spec": "css-shadow-parts-1",
                     "line": 309
                 },
@@ -25259,7 +25267,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 327
+                    "line": 320
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
@@ -25267,7 +25275,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 359
+                    "line": 352
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25275,7 +25283,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 369
+                    "line": 362
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
@@ -25283,7 +25291,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 541
+                    "line": 544
                 },
                 "content": "[Exposed=Window]\ninterface MediaList {\n  stringifier attribute [LegacyNullToEmptyString] CSSOMString mediaText;\n  readonly attribute unsigned long length;\n  getter CSSOMString? item(unsigned long index);\n  undefined appendMedium(CSSOMString medium);\n  undefined deleteMedium(CSSOMString medium);\n};"
             },
@@ -25291,7 +25299,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 952
+                    "line": 955
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheet {\n  readonly attribute CSSOMString type;\n  readonly attribute USVString? href;\n  readonly attribute (Element or ProcessingInstruction)? ownerNode;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  readonly attribute DOMString? title;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  attribute boolean disabled;\n};"
             },
@@ -25299,7 +25307,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 990
+                    "line": 993
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleSheet : StyleSheet {\n  constructor(optional CSSStyleSheetInit options = {});\n  readonly attribute CSSRule? ownerRule;\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n  Promise&lt;CSSStyleSheet> replace(USVString text);\n  undefined replaceSync(USVString text);\n};\ndictionary CSSStyleSheetInit {\n  DOMString baseURL = null;\n  (MediaList or DOMString) media = \"\";\n  boolean disabled = false;\n};"
             },
@@ -25307,7 +25315,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1085
+                    "line": 1088
                 },
                 "content": "partial interface CSSStyleSheet {\n  [SameObject] readonly attribute CSSRuleList rules;\n  long addRule(optional DOMString selector = \"undefined\", optional DOMString style = \"undefined\", optional unsigned long index);\n  undefined removeRule(optional unsigned long index = 0);\n};"
             },
@@ -25315,7 +25323,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1301
+                    "line": 1309
                 },
                 "content": "[Exposed=Window]\ninterface StyleSheetList {\n  getter CSSStyleSheet? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -25323,7 +25331,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1321
+                    "line": 1329
                 },
                 "content": "partial interface mixin DocumentOrShadowRoot {\n  [SameObject] readonly attribute StyleSheetList styleSheets;\n  attribute ObservableArray&lt;CSSStyleSheet> adoptedStyleSheets;\n};"
             },
@@ -25331,7 +25339,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1397
+                    "line": 1405
                 },
                 "content": "interface mixin LinkStyle {\n  readonly attribute CSSStyleSheet? sheet;\n};"
             },
@@ -25339,7 +25347,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1443
+                    "line": 1451
                 },
                 "content": "ProcessingInstruction includes LinkStyle;"
             },
@@ -25347,7 +25355,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1890
+                    "line": 1889
                 },
                 "content": "[Exposed=Window]\ninterface CSSRuleList {\n  getter CSSRule? item(unsigned long index);\n  readonly attribute unsigned long length;\n};"
             },
@@ -25355,7 +25363,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 1914
+                    "line": 1913
                 },
                 "content": "[Exposed=Window]\ninterface CSSRule {\n  attribute CSSOMString cssText;\n  readonly attribute CSSRule? parentRule;\n  readonly attribute CSSStyleSheet? parentStyleSheet;\n  // the following attribute and constants are historical\n  readonly attribute unsigned short type;\n  const unsigned short STYLE_RULE = 1;\n  const unsigned short CHARSET_RULE = 2;\n  const unsigned short IMPORT_RULE = 3;\n  const unsigned short MEDIA_RULE = 4;\n  const unsigned short FONT_FACE_RULE = 5;\n  const unsigned short PAGE_RULE = 6;\n  const unsigned short MARGIN_RULE = 9;\n  const unsigned short NAMESPACE_RULE = 10;\n};"
             },
@@ -25363,7 +25371,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2000
+                    "line": 1999
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSGroupingRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25371,7 +25379,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2039
+                    "line": 2038
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet? styleSheet;\n  readonly attribute CSSOMString? layerName;\n  readonly attribute CSSOMString? supportsText;\n};"
             },
@@ -25379,7 +25387,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2075
+                    "line": 2074
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -25387,7 +25395,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2109
+                    "line": 2108
                 },
                 "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25395,7 +25403,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2145
+                    "line": 2144
                 },
                 "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25403,7 +25411,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2174
+                    "line": 2173
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -25411,7 +25419,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2366
+                    "line": 2365
                 },
                 "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
@@ -25419,7 +25427,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2989
+                    "line": 2988
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25427,7 +25435,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3001
+                    "line": 3000
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -25435,7 +25443,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3007
+                    "line": 3006
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -25443,7 +25451,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3013
+                    "line": 3012
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -25451,7 +25459,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3020
+                    "line": 3019
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -25459,7 +25467,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3091
+                    "line": 3090
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
@@ -25517,13 +25525,13 @@
                     "spec": "cssom-view-1",
                     "line": 1154
                 },
-                "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\ndictionary CheckVisibilityOptions {\n    boolean checkOpacity = false;\n    boolean checkVisibilityCSS = false;\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n};"
+                "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\ndictionary CheckVisibilityOptions {\n    boolean checkOpacity = false;\n    boolean checkVisibilityCSS = false;\n    boolean contentVisibilityAuto = false;\n    boolean opacityProperty = false;\n    boolean visibilityProperty = false;\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1518
+                    "line": 1535
                 },
                 "content": "partial interface HTMLElement {\n  readonly attribute Element? offsetParent;\n  readonly attribute long offsetTop;\n  readonly attribute long offsetLeft;\n  readonly attribute long offsetWidth;\n  readonly attribute long offsetHeight;\n};"
             },
@@ -25531,7 +25539,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1592
+                    "line": 1609
                 },
                 "content": "partial interface HTMLImageElement {\n  readonly attribute long x;\n  readonly attribute long y;\n};"
             },
@@ -25539,7 +25547,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1610
+                    "line": 1627
                 },
                 "content": "partial interface Range {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n};"
             },
@@ -25547,7 +25555,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1653
+                    "line": 1670
                 },
                 "content": "partial interface MouseEvent {\n  readonly attribute double screenX;\n  readonly attribute double screenY;\n  readonly attribute double pageX;\n  readonly attribute double pageY;\n  readonly attribute double clientX;\n  readonly attribute double clientY;\n  readonly attribute double x;\n  readonly attribute double y;\n  readonly attribute double offsetX;\n  readonly attribute double offsetY;\n};\npartial dictionary MouseEventInit {\n  double screenX = 0.0;\n  double screenY = 0.0;\n  double clientX = 0.0;\n  double clientY = 0.0;\n};"
             },
@@ -25555,7 +25563,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1722
+                    "line": 1739
                 },
                 "content": "enum CSSBoxType { \"margin\", \"border\", \"padding\", \"content\" };\ndictionary BoxQuadOptions {\n  CSSBoxType box = \"border\";\n  GeometryNode relativeTo; // XXX default document (i.e. viewport)\n};\ndictionary ConvertCoordinateOptions {\n  CSSBoxType fromBox = \"border\";\n  CSSBoxType toBox = \"border\";\n};\ninterface mixin GeometryUtils {\n  sequence&lt;DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};\nText includes GeometryUtils; // like Range\nElement includes GeometryUtils;\nCSSPseudoElement includes GeometryUtils;\nDocument includes GeometryUtils;\ntypedef (Text or Element or CSSPseudoElement or Document) GeometryNode;"
             },
@@ -25563,7 +25571,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1795
+                    "line": 1812
                 },
                 "content": "[Exposed=Window]\ninterface VisualViewport : EventTarget {\n  readonly attribute double offsetLeft;\n  readonly attribute double offsetTop;\n  readonly attribute double pageLeft;\n  readonly attribute double pageTop;\n  readonly attribute double width;\n  readonly attribute double height;\n  readonly attribute double scale;\n  attribute EventHandler onresize;\n  attribute EventHandler onscroll;\n  attribute EventHandler onscrollend;\n};"
             },
