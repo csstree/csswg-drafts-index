@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-26T00:43:17.377Z",
-    "elapsedTime": 326,
+    "createdAt": "2024-01-27T00:42:48.240Z",
+    "elapsedTime": 303,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "ac7c59486e681c18dd6d9d1eb6596b38a717fe68",
-            "commitShort": "ac7c59486e",
+            "commit": "ac1363b1c01314e90d8761be82df889eb41236c8",
+            "commitShort": "ac1363b1c0",
             "commitDate": null,
             "branch": "main"
         },
@@ -4478,7 +4478,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 360
+                    "line": 361
                 },
                 "props": {
                     "name": "inset-area",
@@ -4494,7 +4494,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 750
+                    "line": 760
                 },
                 "props": {
                     "name": "justify-self",
@@ -4506,7 +4506,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 750
+                    "line": 760
                 },
                 "props": {
                     "name": "align-self",
@@ -4518,7 +4518,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 750
+                    "line": 760
                 },
                 "props": {
                     "name": "justify-items",
@@ -4530,7 +4530,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 750
+                    "line": 760
                 },
                 "props": {
                     "name": "align-items",
@@ -4542,23 +4542,55 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1012
+                    "line": 1023
                 },
                 "props": {
-                    "name": "position-fallback",
-                    "value": "none | <dashed-ident>",
+                    "name": "position-try-options",
+                    "value": "none | [ <dashed-ident> | <try-tactic> ]#",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "[=absolutely-positioned=] elements",
                     "animationType": "discrete"
                 },
-                "name": "position-fallback"
+                "name": "position-try-options"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1136
+                    "line": 1112
+                },
+                "props": {
+                    "name": "position-try-order",
+                    "value": "normal | <try-size>",
+                    "initial": "normal",
+                    "appliesTo": "[=absolutely positioned elements=]",
+                    "inherited": "no",
+                    "animationType": "discrete"
+                },
+                "name": "position-try-order"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1148
+                },
+                "props": {
+                    "name": "position-try-final",
+                    "value": "[ always? && [ first | <try-size> ] ] | hide",
+                    "initial": "first",
+                    "appliesTo": "[=absolutely positioned elements=]",
+                    "inherited": "no",
+                    "animationType": "discrete"
+                },
+                "name": "position-try-final"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1277
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -20329,7 +20361,7 @@
                 "dfnName": "<inset-area-span>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 370
+                    "line": 371
                 },
                 "value": "[ start || end || center ] |\n[ self-start || self-end || center ] |\n[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ x-self-start || x-self-end || center ] |\n[ y-self-start || y-self-end || center ] |\nall"
             },
@@ -20339,7 +20371,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 574
+                    "line": 584
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20349,7 +20381,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 575
+                    "line": 585
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20359,9 +20391,35 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 925
+                    "line": 935
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
+            },
+            {
+                "type": "prod",
+                "name": "try-tactic",
+                "dfnName": "<<try-tactic>>",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1074
+                },
+                "attrs": {
+                    "type": true
+                },
+                "value": "flip-block || flip-inline || flip-start"
+            },
+            {
+                "type": "prod",
+                "name": "try-size",
+                "dfnName": "<<try-size>>",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1125
+                },
+                "attrs": {
+                    "type": true
+                },
+                "value": "most-width | most-height | most-block-size | most-inline-size"
             },
             {
                 "type": "prod",
