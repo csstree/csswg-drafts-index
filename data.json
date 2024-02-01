@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-01-31T00:42:55.454Z",
-    "elapsedTime": 291,
+    "createdAt": "2024-02-01T00:44:38.817Z",
+    "elapsedTime": 298,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f030b4ab184b1b76dcbc8aaca51fbeaf77a485da",
-            "commitShort": "f030b4ab18",
+            "commit": "258a87eb796541ce33a8b3b8ebd239dbc3640471",
+            "commitShort": "258a87eb79",
             "commitDate": null,
             "branch": "main"
         },
@@ -1428,8 +1428,9 @@
                     "title": "CSS Fonts Module Level 4",
                     "shortname": "css-fonts",
                     "level": "4",
-                    "status": "ED",
-                    "prepareForTr": "no",
+                    "status": "WD",
+                    "date": "2024-02-01",
+                    "prepareForTr": "yes",
                     "workStatus": "Revising",
                     "group": "CSSWG",
                     "ed": "https://drafts.csswg.org/css-fonts-4/",
@@ -3996,7 +3997,7 @@
                     "level": "1",
                     "tr": "https://www.w3.org/TR/scroll-animations-1/",
                     "ed": "https://drafts.csswg.org/scroll-animations-1/",
-                    "abstract": "Defines an API and markup for creating animations that are tied to\nthe scroll offset of a scroll container.",
+                    "abstract": "Defines CSS properties and an API for creating animations that are tied to\nthe scroll offset of a scroll container.",
                     "editor": [
                         "Brian Birtles, Invited Expert, brian@birchill.co.jp, w3cid 43194",
                         "Botond Ballo, Mozilla, botond@mozilla.com, w3cid 94018",
@@ -8653,7 +8654,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 119
+                    "line": 120
                 },
                 "props": {
                     "name": "font-family",
@@ -8671,7 +8672,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 761
+                    "line": 762
                 },
                 "props": {
                     "name": "font-weight",
@@ -8689,7 +8690,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 934
+                    "line": 935
                 },
                 "props": {
                     "name": "font-width",
@@ -8707,7 +8708,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1106
+                    "line": 1107
                 },
                 "props": {
                     "name": "font-style",
@@ -8725,7 +8726,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1255
+                    "line": 1256
                 },
                 "props": {
                     "name": "font-size",
@@ -8743,7 +8744,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1466
+                    "line": 1467
                 },
                 "props": {
                     "name": "font-size-adjust",
@@ -8761,7 +8762,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1688
+                    "line": 1689
                 },
                 "props": {
                     "name": "font",
@@ -8779,7 +8780,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 1988
+                    "line": 1989
                 },
                 "props": {
                     "name": "font-synthesis-weight",
@@ -8798,7 +8799,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2026
+                    "line": 2027
                 },
                 "props": {
                     "name": "font-synthesis-style",
@@ -8817,7 +8818,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2083
+                    "line": 2084
                 },
                 "props": {
                     "name": "font-synthesis-small-caps",
@@ -8835,7 +8836,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2120
+                    "line": 2121
                 },
                 "props": {
                     "name": "font-synthesis-position",
@@ -8853,7 +8854,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2154
+                    "line": 2155
                 },
                 "props": {
                     "name": "font-synthesis",
@@ -8871,7 +8872,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2585
+                    "line": 2586
                 },
                 "props": {
                     "name": "font-family",
@@ -8885,7 +8886,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2619
+                    "line": 2620
                 },
                 "props": {
                     "name": "src",
@@ -8899,7 +8900,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3020
+                    "line": 3021
                 },
                 "props": {
                     "name": "font-style",
@@ -8913,7 +8914,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3027
+                    "line": 3028
                 },
                 "props": {
                     "name": "font-weight",
@@ -8927,7 +8928,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3034
+                    "line": 3035
                 },
                 "props": {
                     "name": "font-width",
@@ -8941,7 +8942,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3215
+                    "line": 3216
                 },
                 "props": {
                     "name": "unicode-range",
@@ -8955,7 +8956,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3449
+                    "line": 3450
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -8969,7 +8970,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3463
+                    "line": 3464
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -8983,7 +8984,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3511
+                    "line": 3512
                 },
                 "props": {
                     "name": "font-named-instance",
@@ -8997,7 +8998,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3679
+                    "line": 3680
                 },
                 "props": {
                     "name": "font-display",
@@ -9011,7 +9012,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3872
+                    "line": 3873
                 },
                 "props": {
                     "name": "font-display",
@@ -9025,7 +9026,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3892
+                    "line": 3893
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9039,7 +9040,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3917
+                    "line": 3918
                 },
                 "props": {
                     "name": "ascent-override",
@@ -9053,7 +9054,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3929
+                    "line": 3930
                 },
                 "props": {
                     "name": "descent-override",
@@ -9067,7 +9068,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 3941
+                    "line": 3942
                 },
                 "props": {
                     "name": "line-gap-override",
@@ -9081,7 +9082,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4859
+                    "line": 4860
                 },
                 "props": {
                     "name": "font-kerning",
@@ -9099,7 +9100,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4955
+                    "line": 4956
                 },
                 "props": {
                     "name": "font-variant-ligatures",
@@ -9117,7 +9118,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5092
+                    "line": 5093
                 },
                 "props": {
                     "name": "font-variant-position",
@@ -9135,7 +9136,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5319
+                    "line": 5320
                 },
                 "props": {
                     "name": "font-variant-caps",
@@ -9153,7 +9154,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5500
+                    "line": 5502
                 },
                 "props": {
                     "name": "font-variant-numeric",
@@ -9171,7 +9172,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5659
+                    "line": 5665
                 },
                 "props": {
                     "name": "font-variant-alternates",
@@ -9189,7 +9190,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6209
+                    "line": 6213
                 },
                 "props": {
                     "name": "font-variant-east-asian",
@@ -9207,7 +9208,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6343
+                    "line": 6347
                 },
                 "props": {
                     "name": "font-variant",
@@ -9225,7 +9226,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6409
+                    "line": 6413
                 },
                 "props": {
                     "name": "font-feature-settings",
@@ -9243,7 +9244,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6655
+                    "line": 6659
                 },
                 "props": {
                     "name": "font-language-override",
@@ -9261,7 +9262,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6994
+                    "line": 6998
                 },
                 "props": {
                     "name": "font-optical-sizing",
@@ -9279,7 +9280,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7096
+                    "line": 7100
                 },
                 "props": {
                     "name": "font-variation-settings",
@@ -9297,7 +9298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7278
+                    "line": 7282
                 },
                 "props": {
                     "name": "font-palette",
@@ -9315,7 +9316,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7689
+                    "line": 7693
                 },
                 "props": {
                     "name": "font-family",
@@ -9329,7 +9330,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7709
+                    "line": 7713
                 },
                 "props": {
                     "name": "base-palette",
@@ -9343,7 +9344,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7790
+                    "line": 7794
                 },
                 "props": {
                     "name": "override-colors",
@@ -9357,7 +9358,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 7862
+                    "line": 7866
                 },
                 "props": {
                     "name": "font-variant-emoji",
@@ -17313,10 +17314,27 @@
                 "name": "view-transition-name"
             },
             {
+                "type": "prop",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 255
+                },
+                "props": {
+                    "name": "view-transition-class",
+                    "value": "none | <custom-ident>*",
+                    "initial": "none",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "as specified",
+                    "animationType": "discrete"
+                },
+                "name": "view-transition-class"
+            },
+            {
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 279
+                    "line": 391
                 },
                 "props": {
                     "name": "navigation",
@@ -17330,7 +17348,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 306
+                    "line": 418
                 },
                 "props": {
                     "name": "type",
@@ -17348,7 +17366,7 @@
                 },
                 "props": {
                     "name": "zoom",
-                    "value": "<number> || <percentage>",
+                    "value": "<number [0,∞]> || <percentage [0,∞]>",
                     "initial": "1",
                     "appliesTo": "all <length> property values of all elements",
                     "inherited": "no",
@@ -22200,7 +22218,7 @@
                 "dfnName": "<font-weight-absolute>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 794
+                    "line": 795
                 },
                 "attrs": {
                     "id": "font-weight-absolute-values"
@@ -22213,7 +22231,7 @@
                 "dfnName": "<font-src>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 2651
+                    "line": 2652
                 },
                 "value": "<url> [ format(<font-format>)]? [ tech( <font-tech>#)]? | local(<family-name>)"
             },
@@ -22223,7 +22241,7 @@
                 "dfnName": "<common-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4992
+                    "line": 4993
                 },
                 "attrs": {
                     "id": "common-lig-values"
@@ -22236,7 +22254,7 @@
                 "dfnName": "<discretionary-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4994
+                    "line": 4995
                 },
                 "attrs": {
                     "id": "discretionary-lig-values"
@@ -22249,7 +22267,7 @@
                 "dfnName": "<historical-lig-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4996
+                    "line": 4997
                 },
                 "attrs": {
                     "id": "historical-lig-values"
@@ -22262,7 +22280,7 @@
                 "dfnName": "<contextual-alt-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 4998
+                    "line": 4999
                 },
                 "attrs": {
                     "id": "contextual-alt-values"
@@ -22275,7 +22293,7 @@
                 "dfnName": "<numeric-figure-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5538
+                    "line": 5540
                 },
                 "attrs": {
                     "id": "numeric-figure-values"
@@ -22288,7 +22306,7 @@
                 "dfnName": "<numeric-spacing-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5540
+                    "line": 5542
                 },
                 "attrs": {
                     "id": "numeric-spacing-values"
@@ -22301,7 +22319,7 @@
                 "dfnName": "<numeric-fraction-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5542
+                    "line": 5544
                 },
                 "attrs": {
                     "id": "numeric-fraction-values"
@@ -22314,7 +22332,7 @@
                 "dfnName": "<feature-value-name>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5704
+                    "line": 5710
                 },
                 "attrs": {
                     "id": "feature-value-name-value"
@@ -22327,7 +22345,7 @@
                 "dfnName": "@stylistic",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5894
+                    "line": 5899
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22340,7 +22358,7 @@
                 "dfnName": "@historical-forms",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5895
+                    "line": 5900
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22353,7 +22371,7 @@
                 "dfnName": "@styleset",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5896
+                    "line": 5901
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22366,7 +22384,7 @@
                 "dfnName": "@character-variant",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5897
+                    "line": 5902
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22379,7 +22397,7 @@
                 "dfnName": "@swash",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5898
+                    "line": 5903
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22392,7 +22410,7 @@
                 "dfnName": "@ornaments",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5899
+                    "line": 5904
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22405,7 +22423,7 @@
                 "dfnName": "@annotation",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 5900
+                    "line": 5905
                 },
                 "attrs": {
                     "for": "@font-feature-values"
@@ -22418,7 +22436,7 @@
                 "dfnName": "<east-asian-variant-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6240
+                    "line": 6244
                 },
                 "attrs": {
                     "id": "east-asian-variant-values"
@@ -22431,7 +22449,7 @@
                 "dfnName": "<east-asian-width-values>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6242
+                    "line": 6246
                 },
                 "attrs": {
                     "id": "east-asian-width-values"
@@ -22444,7 +22462,7 @@
                 "dfnName": "<feature-tag-value>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6524
+                    "line": 6528
                 },
                 "attrs": {
                     "dfn-for": "font-feature-settings",
@@ -22459,7 +22477,7 @@
                 "dfnName": "<opentype-tag>",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 6525
+                    "line": 6529
                 },
                 "value": "<string>"
             },
@@ -24192,9 +24210,19 @@
                 "dfnName": "<vt-type-selector>",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 211
+                    "line": 295
                 },
                 "value": "'*' | <custom-ident>#"
+            },
+            {
+                "type": "prod",
+                "name": "pt-class-selector",
+                "dfnName": "<pt-class-selector>",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 356
+                },
+                "value": "('.' <custom-ident>)*"
             },
             {
                 "type": "prod",
@@ -25144,7 +25172,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8228
+                    "line": 8232
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25152,7 +25180,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8241
+                    "line": 8245
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -25160,7 +25188,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8247
+                    "line": 8251
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n    attribute CSSOMString fontFamily;\n    readonly attribute CSSFontFeatureValuesMap annotation;\n    readonly attribute CSSFontFeatureValuesMap ornaments;\n    readonly attribute CSSFontFeatureValuesMap stylistic;\n    readonly attribute CSSFontFeatureValuesMap swash;\n    readonly attribute CSSFontFeatureValuesMap characterVariant;\n    readonly attribute CSSFontFeatureValuesMap styleset;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n    maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n    undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -25168,7 +25196,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8304
+                    "line": 8308
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n    readonly attribute CSSOMString name;\n    readonly attribute CSSOMString fontFamily;\n    readonly attribute CSSOMString basePalette;\n    readonly attribute CSSOMString overrideColors;\n};"
             },
@@ -25344,7 +25372,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 320
+                    "line": 432
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
@@ -25352,7 +25380,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 352
+                    "line": 464
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25360,7 +25388,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 362
+                    "line": 474
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
