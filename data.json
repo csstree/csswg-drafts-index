@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-01T00:44:38.817Z",
-    "elapsedTime": 298,
+    "createdAt": "2024-02-02T00:42:58.407Z",
+    "elapsedTime": 317,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "258a87eb796541ce33a8b3b8ebd239dbc3640471",
-            "commitShort": "258a87eb79",
+            "commit": "99403a8635fae054845320ea5f1453977c84e231",
+            "commitShort": "99403a8635",
             "commitDate": null,
             "branch": "main"
         },
@@ -4543,7 +4543,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1013
+                    "line": 1015
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4559,7 +4559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1102
+                    "line": 1103
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4575,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1138
+                    "line": 1188
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4591,7 +4591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1288
+                    "line": 1338
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -20428,7 +20428,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 925
+                    "line": 927
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20438,7 +20438,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1064
+                    "line": 1065
                 },
                 "attrs": {
                     "type": true
@@ -20451,7 +20451,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1115
+                    "line": 1116
                 },
                 "attrs": {
                     "type": true
@@ -24222,7 +24222,7 @@
                     "spec": "css-view-transitions-2",
                     "line": 356
                 },
-                "value": "('.' <custom-ident>)*"
+                "value": "['.' <custom-ident>]*"
             },
             {
                 "type": "prod",
