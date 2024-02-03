@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-02T00:42:58.407Z",
-    "elapsedTime": 317,
+    "createdAt": "2024-02-03T00:42:16.293Z",
+    "elapsedTime": 399,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "99403a8635fae054845320ea5f1453977c84e231",
-            "commitShort": "99403a8635",
+            "commit": "c0440b3d153bdb68eee1ca93c8d447ee94b4cd67",
+            "commitShort": "c0440b3d15",
             "commitDate": null,
             "branch": "main"
         },
@@ -4231,7 +4231,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 903
+                    "line": 908
                 },
                 "props": {
                     "name": "align-content",
@@ -4249,7 +4249,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 914
+                    "line": 919
                 },
                 "props": {
                     "name": "justify-content",
@@ -4267,7 +4267,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1081
+                    "line": 1086
                 },
                 "props": {
                     "name": "place-content",
@@ -4285,7 +4285,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1284
+                    "line": 1289
                 },
                 "props": {
                     "name": "justify-self",
@@ -4303,7 +4303,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1510
+                    "line": 1515
                 },
                 "props": {
                     "name": "align-self",
@@ -4321,7 +4321,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1700
+                    "line": 1705
                 },
                 "props": {
                     "name": "place-self",
@@ -4339,7 +4339,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1862
+                    "line": 1867
                 },
                 "props": {
                     "name": "justify-items",
@@ -4357,7 +4357,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1899
+                    "line": 1904
                 },
                 "props": {
                     "name": "align-items",
@@ -4375,7 +4375,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1919
+                    "line": 1924
                 },
                 "props": {
                     "name": "place-items",
@@ -4393,7 +4393,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1967
+                    "line": 1972
                 },
                 "props": {
                     "name": "row-gap",
@@ -4411,7 +4411,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1967
+                    "line": 1972
                 },
                 "props": {
                     "name": "column-gap",
@@ -4429,7 +4429,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2056
+                    "line": 2061
                 },
                 "props": {
                     "name": "gap",
@@ -14259,7 +14259,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "width",
@@ -14271,7 +14271,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "height",
@@ -14283,7 +14283,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "inline-size",
@@ -14295,7 +14295,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "block-size",
@@ -14307,7 +14307,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "min-width",
@@ -14319,7 +14319,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "min-height",
@@ -14331,7 +14331,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "min-inline-size",
@@ -14343,7 +14343,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "min-block-size",
@@ -14355,7 +14355,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "max-width",
@@ -14367,7 +14367,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "max-height",
@@ -14379,7 +14379,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "max-inline-size",
@@ -14391,7 +14391,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 117
+                    "line": 119
                 },
                 "props": {
                     "name": "max-block-size",
@@ -14403,7 +14403,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 181
+                    "line": 184
                 },
                 "props": {
                     "name": "aspect-ratio",
@@ -14420,7 +14420,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 521
+                    "line": 525
                 },
                 "props": {
                     "name": "contain-intrinsic-width",
@@ -14439,7 +14439,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 521
+                    "line": 525
                 },
                 "props": {
                     "name": "contain-intrinsic-height",
@@ -14458,7 +14458,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 521
+                    "line": 525
                 },
                 "props": {
                     "name": "contain-intrinsic-block-size",
@@ -14477,7 +14477,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 521
+                    "line": 525
                 },
                 "props": {
                     "name": "contain-intrinsic-inline-size",
@@ -14496,7 +14496,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 591
+                    "line": 595
                 },
                 "props": {
                     "name": "contain-intrinsic-size",
@@ -14508,7 +14508,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-sizing-4",
-                    "line": 744
+                    "line": 749
                 },
                 "props": {
                     "name": "min-intrinsic-sizing",
@@ -20378,7 +20378,7 @@
                 "dfnName": "<content-distribution>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 769
+                    "line": 774
                 },
                 "value": "space-between | space-around | space-evenly | stretch"
             },
@@ -20388,7 +20388,7 @@
                 "dfnName": "<overflow-position>",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 847
+                    "line": 852
                 },
                 "value": "unsafe | safe"
             },
