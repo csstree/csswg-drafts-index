@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-05T00:44:33.667Z",
-    "elapsedTime": 334,
+    "createdAt": "2024-02-06T00:42:20.325Z",
+    "elapsedTime": 366,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "c0440b3d153bdb68eee1ca93c8d447ee94b4cd67",
-            "commitShort": "c0440b3d15",
+            "commit": "7875737d2178c85e8d51a47bec7d4da296b0e132",
+            "commitShort": "7875737d21",
             "commitDate": null,
             "branch": "main"
         },
@@ -4483,7 +4483,7 @@
                 },
                 "props": {
                     "name": "inset-area",
-                    "value": "none | <inset-area-span> [ / <inset-area-span> ]?",
+                    "value": "none | <inset-area>",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "positioned elements with a [=default anchor element=]",
@@ -4495,7 +4495,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 764
+                    "line": 752
                 },
                 "props": {
                     "name": "justify-self",
@@ -4507,7 +4507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 764
+                    "line": 752
                 },
                 "props": {
                     "name": "align-self",
@@ -4519,7 +4519,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 764
+                    "line": 752
                 },
                 "props": {
                     "name": "justify-items",
@@ -4531,7 +4531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 764
+                    "line": 752
                 },
                 "props": {
                     "name": "align-items",
@@ -4543,7 +4543,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1015
+                    "line": 1003
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4559,7 +4559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1103
+                    "line": 1091
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4575,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1188
+                    "line": 1174
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4591,7 +4591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1338
+                    "line": 1324
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -7997,7 +7997,7 @@
                 },
                 "props": {
                     "name": "content",
-                    "value": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
+                    "value": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> | <attr()> ]+ ]?",
                     "initial": "normal",
                     "appliesTo": "all elements, tree-abiding pseudo-elements, and page margin boxes",
                     "inherited": "no",
@@ -8011,16 +8011,16 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 392
+                    "line": 405
                 },
                 "props": {
                     "name": "quotes",
-                    "value": "auto | none | [ <string> <string> ]+",
+                    "value": "auto | none | match-parent | [ <string> <string> ]+",
                     "initial": "auto",
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "n/a",
-                    "computedValue": "the keyword none, the keyword auto, or a list, each item a pair of string values",
+                    "computedValue": "the keyword none, the keyword auto or match-parent, or a list, each item a pair of string values",
                     "animationType": "discrete"
                 },
                 "name": "quotes"
@@ -8029,7 +8029,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 962
+                    "line": 994
                 },
                 "props": {
                     "name": "string-set",
@@ -8047,7 +8047,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1213
+                    "line": 1245
                 },
                 "props": {
                     "name": "bookmark-level",
@@ -8065,7 +8065,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1247
+                    "line": 1279
                 },
                 "props": {
                     "name": "bookmark-label",
@@ -8083,7 +8083,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1292
+                    "line": 1324
                 },
                 "props": {
                     "name": "bookmark-state",
@@ -20394,13 +20394,13 @@
             },
             {
                 "type": "prod",
-                "name": "inset-area-span",
-                "dfnName": "<inset-area-span>",
+                "name": "inset-area",
+                "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 374
+                    "line": 383
                 },
-                "value": "[ start || end || center ] |\n[ self-start || self-end || center ] |\n[ top || bottom || center ] |\n[ left || right || center ] |\n[ x-start || x-end || center ] |\n[ y-start || y-end || center ] |\n[ x-self-start || x-self-end || center ] |\n[ y-self-start || y-self-end || center ] |\nall"
+                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    &&\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    &&\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end ]\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1, 2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1, 2}\n]"
             },
             {
                 "type": "prod",
@@ -20408,7 +20408,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 587
+                    "line": 575
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20418,7 +20418,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 588
+                    "line": 576
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20428,7 +20428,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 927
+                    "line": 915
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20438,7 +20438,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1065
+                    "line": 1053
                 },
                 "attrs": {
                     "type": true
@@ -20451,7 +20451,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1116
+                    "line": 1104
                 },
                 "attrs": {
                     "type": true
@@ -21752,7 +21752,7 @@
                 "dfnName": "<<quote>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 442
+                    "line": 472
                 },
                 "value": "open-quote | close-quote | no-open-quote | no-close-quote"
             },
@@ -21762,7 +21762,7 @@
                 "dfnName": "leader()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 626
+                    "line": 658
                 },
                 "value": "leader( <leader-type> )"
             },
@@ -21772,7 +21772,7 @@
                 "dfnName": "<<leader-type>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 627
+                    "line": 659
                 },
                 "value": "dotted | solid | space | <string>"
             },
@@ -21782,7 +21782,7 @@
                 "dfnName": "<<target>>",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 784
+                    "line": 816
                 },
                 "value": "<target-counter()> | <target-counters()> | <target-text()>"
             },
@@ -21792,7 +21792,7 @@
                 "dfnName": "target-counter()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 795
+                    "line": 827
                 },
                 "value": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )"
             },
@@ -21802,7 +21802,7 @@
                 "dfnName": "target-counters()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 877
+                    "line": 909
                 },
                 "value": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )"
             },
@@ -21812,7 +21812,7 @@
                 "dfnName": "target-text()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 897
+                    "line": 929
                 },
                 "attrs": {
                     "id": "target-text-function"
@@ -21825,7 +21825,7 @@
                 "dfnName": "string()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1018
+                    "line": 1050
                 },
                 "value": "string( <custom-ident> , [ first | start | last | first-except ]? )"
             },
@@ -21835,7 +21835,7 @@
                 "dfnName": "content()",
                 "source": {
                     "spec": "css-content-3",
-                    "line": 1117
+                    "line": 1149
                 },
                 "value": "content( [ text | before | after | first-letter | marker ]? )"
             },
