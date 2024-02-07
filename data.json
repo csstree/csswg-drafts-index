@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-06T00:42:20.325Z",
-    "elapsedTime": 366,
+    "createdAt": "2024-02-07T00:40:59.000Z",
+    "elapsedTime": 269,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7875737d2178c85e8d51a47bec7d4da296b0e132",
-            "commitShort": "7875737d21",
+            "commit": "96ddb6169e6dc5a367eade84cd0cddbc57d979bb",
+            "commitShort": "96ddb6169e",
             "commitDate": null,
             "branch": "main"
         },
@@ -4575,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1174
+                    "line": 1175
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4591,7 +4591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1324
+                    "line": 1327
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -20400,7 +20400,7 @@
                     "spec": "css-anchor-position-1",
                     "line": 383
                 },
-                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    &&\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    &&\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end ]\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1, 2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1, 2}\n]"
+                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    ||\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    ||\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1, 2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1, 2}\n]"
             },
             {
                 "type": "prod",
