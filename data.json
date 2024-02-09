@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-08T00:42:10.106Z",
-    "elapsedTime": 290,
+    "createdAt": "2024-02-09T00:41:48.716Z",
+    "elapsedTime": 306,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "3aa1f3918e609ddfa630a740e9eba4592ac6b51c",
-            "commitShort": "3aa1f3918e",
+            "commit": "5d1b999a6b53812524a71d1d619fa40799b19e84",
+            "commitShort": "5d1b999a6b",
             "commitDate": null,
             "branch": "main"
         },
@@ -4447,7 +4447,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 120
+                    "line": 121
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4463,7 +4463,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 285
+                    "line": 286
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4479,7 +4479,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 364
+                    "line": 365
                 },
                 "props": {
                     "name": "inset-area",
@@ -4495,7 +4495,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 752
+                    "line": 753
                 },
                 "props": {
                     "name": "justify-self",
@@ -4507,7 +4507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 752
+                    "line": 753
                 },
                 "props": {
                     "name": "align-self",
@@ -4519,7 +4519,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 752
+                    "line": 753
                 },
                 "props": {
                     "name": "justify-items",
@@ -4531,7 +4531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 752
+                    "line": 753
                 },
                 "props": {
                     "name": "align-items",
@@ -4543,11 +4543,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1003
+                    "line": 1004
                 },
                 "props": {
                     "name": "position-try-options",
-                    "value": "none | [ <dashed-ident> | <try-tactic> ]#",
+                    "value": "none | [ <dashed-ident> || <try-tactic> ]#",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "[=absolutely-positioned=] elements",
@@ -4559,7 +4559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1091
+                    "line": 1114
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4575,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1175
+                    "line": 1198
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4591,7 +4591,19 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1327
+                    "line": 1252
+                },
+                "props": {
+                    "name": "position-try",
+                    "value": "<'position-try-order'>? <'position-try-options'>"
+                },
+                "name": "position-try"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1373
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -4602,6 +4614,24 @@
                     "animationType": "discrete"
                 },
                 "name": "position-fallback-bounds"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 1604
+                },
+                "props": {
+                    "name": "position-animation",
+                    "value": "normal | magic",
+                    "initial": "normal",
+                    "percentages": "n/a",
+                    "inherited": "no",
+                    "computedValue": "normal, or an [=overriding position rectangle=] (see prose)",
+                    "animationType": "(see prose)",
+                    "appliesTo": "[=absolutely positioned elements=]"
+                },
+                "name": "position-animation"
             },
             {
                 "type": "prop",
@@ -13971,7 +14001,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 141
+                    "line": 120
                 },
                 "props": {
                     "name": "scrollbar-color",
@@ -13989,7 +14019,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scrollbars-1",
-                    "line": 292
+                    "line": 271
                 },
                 "props": {
                     "name": "scrollbar-width",
@@ -17032,11 +17062,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1134
+                    "line": 1133
                 },
                 "props": {
                     "name": "caret-animation",
-                    "value": "auto | blink | none | fade",
+                    "value": "auto | manual",
                     "initial": "auto",
                     "appliesTo": "elements that accept input",
                     "inherited": "yes",
@@ -17050,7 +17080,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1267
+                    "line": 1255
                 },
                 "props": {
                     "name": "caret-shape",
@@ -17068,11 +17098,11 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1433
+                    "line": 1420
                 },
                 "props": {
                     "name": "caret",
-                    "value": "<'caret-color'> || <'caret-shape'>",
+                    "value": "<'caret-color'> || <'caret-animation'> || <'caret-shape'>",
                     "initial": "auto",
                     "appliesTo": "elements that accept input",
                     "inherited": "yes",
@@ -17084,7 +17114,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1501
+                    "line": 1486
                 },
                 "props": {
                     "name": "nav-up",
@@ -17102,7 +17132,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1501
+                    "line": 1486
                 },
                 "props": {
                     "name": "nav-right",
@@ -17120,7 +17150,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1501
+                    "line": 1486
                 },
                 "props": {
                     "name": "nav-down",
@@ -17138,7 +17168,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1501
+                    "line": 1486
                 },
                 "props": {
                     "name": "nav-left",
@@ -17156,7 +17186,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1674
+                    "line": 1659
                 },
                 "props": {
                     "name": "user-select",
@@ -17173,7 +17203,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1931
+                    "line": 1916
                 },
                 "props": {
                     "name": "pointer-events",
@@ -17192,7 +17222,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 1991
+                    "line": 1976
                 },
                 "props": {
                     "name": "accent-color",
@@ -17211,7 +17241,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2119
+                    "line": 2104
                 },
                 "props": {
                     "name": "appearance",
@@ -17228,7 +17258,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2493
+                    "line": 2478
                 },
                 "props": {
                     "name": "field-sizing",
@@ -17247,7 +17277,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2562
+                    "line": 2547
                 },
                 "props": {
                     "name": "input-security",
@@ -19763,7 +19793,7 @@
                 },
                 "props": {
                     "name": "display-mode",
-                    "value": "fullscreen | standalone | minimal-ui | browser",
+                    "value": "fullscreen | standalone | minimal-ui | browser | picture-in-picture",
                     "for": "@media",
                     "type": "discrete"
                 },
@@ -19773,7 +19803,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1414
+                    "line": 1424
                 },
                 "props": {
                     "name": "resolution",
@@ -19787,7 +19817,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1479
+                    "line": 1489
                 },
                 "props": {
                     "name": "scan",
@@ -19801,7 +19831,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1522
+                    "line": 1532
                 },
                 "props": {
                     "name": "grid",
@@ -19815,7 +19845,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1558
+                    "line": 1568
                 },
                 "props": {
                     "name": "update",
@@ -19829,7 +19859,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1606
+                    "line": 1616
                 },
                 "props": {
                     "name": "environment-blending",
@@ -19843,7 +19873,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1671
+                    "line": 1681
                 },
                 "props": {
                     "name": "color",
@@ -19857,7 +19887,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1719
+                    "line": 1729
                 },
                 "props": {
                     "name": "color-index",
@@ -19871,7 +19901,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1753
+                    "line": 1763
                 },
                 "props": {
                     "name": "monochrome",
@@ -19885,7 +19915,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1791
+                    "line": 1801
                 },
                 "props": {
                     "name": "color-gamut",
@@ -19899,7 +19929,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1888
+                    "line": 1898
                 },
                 "props": {
                     "name": "dynamic-range",
@@ -19913,7 +19943,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 1958
+                    "line": 1968
                 },
                 "props": {
                     "name": "inverted-colors",
@@ -19927,7 +19957,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2099
+                    "line": 2109
                 },
                 "props": {
                     "name": "pointer",
@@ -19941,7 +19971,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2166
+                    "line": 2176
                 },
                 "props": {
                     "name": "hover",
@@ -19955,7 +19985,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2232
+                    "line": 2242
                 },
                 "props": {
                     "name": "any-pointer",
@@ -19969,7 +19999,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2239
+                    "line": 2249
                 },
                 "props": {
                     "name": "any-hover",
@@ -19983,7 +20013,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2327
+                    "line": 2337
                 },
                 "props": {
                     "name": "nav-controls",
@@ -19997,7 +20027,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2452
+                    "line": 2462
                 },
                 "props": {
                     "name": "video-color-gamut",
@@ -20011,7 +20041,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2470
+                    "line": 2480
                 },
                 "props": {
                     "name": "video-dynamic-range",
@@ -20025,7 +20055,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2499
+                    "line": 2509
                 },
                 "props": {
                     "name": "scripting",
@@ -20039,7 +20069,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2769
+                    "line": 2779
                 },
                 "props": {
                     "name": "prefers-reduced-motion",
@@ -20053,7 +20083,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2799
+                    "line": 2809
                 },
                 "props": {
                     "name": "prefers-reduced-transparency",
@@ -20067,7 +20097,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2830
+                    "line": 2840
                 },
                 "props": {
                     "name": "prefers-contrast",
@@ -20081,7 +20111,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2944
+                    "line": 2954
                 },
                 "props": {
                     "name": "forced-colors",
@@ -20095,7 +20125,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2999
+                    "line": 3009
                 },
                 "props": {
                     "name": "prefers-color-scheme",
@@ -20109,7 +20139,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3088
+                    "line": 3098
                 },
                 "props": {
                     "name": "prefers-reduced-data",
@@ -20123,7 +20153,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3281
+                    "line": 3291
                 },
                 "props": {
                     "name": "device-width",
@@ -20137,7 +20167,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3310
+                    "line": 3320
                 },
                 "props": {
                     "name": "device-height",
@@ -20151,7 +20181,7 @@
                 "type": "media-query",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 3335
+                    "line": 3345
                 },
                 "props": {
                     "name": "device-aspect-ratio",
@@ -20398,9 +20428,9 @@
                 "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 383
+                    "line": 384
                 },
-                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    ||\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    ||\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1, 2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1, 2}\n]"
+                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    ||\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    ||\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1,2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1,2}\n]"
             },
             {
                 "type": "prod",
@@ -20408,7 +20438,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 575
+                    "line": 576
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20418,7 +20448,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 576
+                    "line": 577
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20428,7 +20458,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 915
+                    "line": 916
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20438,7 +20468,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1053
+                    "line": 1054
                 },
                 "attrs": {
                     "type": true
@@ -20451,7 +20481,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1104
+                    "line": 1127
                 },
                 "attrs": {
                     "type": true
@@ -24630,7 +24660,7 @@
                 "dfnName": "@custom-media",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2600
+                    "line": 2610
                 },
                 "value": "@custom-media <extension-name> [ <media-query-list> | true | false ] ;"
             },
@@ -25356,7 +25386,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 919
+                    "line": 921
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -25364,7 +25394,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 980
+                    "line": 982
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -25684,7 +25714,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "mediaqueries-5",
-                    "line": 2718
+                    "line": 2728
                 },
                 "content": "[Exposed=Window]\ninterface CSSCustomMediaRule : CSSRule {\n    attribute CSSOMString name;\n    [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n};"
             },
