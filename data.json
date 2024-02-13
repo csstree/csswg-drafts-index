@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-12T00:43:13.293Z",
-    "elapsedTime": 348,
+    "createdAt": "2024-02-13T00:43:08.385Z",
+    "elapsedTime": 308,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a2e9a3ab877bf8fc0c1efcaf47416ee31e6d1fc5",
-            "commitShort": "a2e9a3ab87",
+            "commit": "5fc1aee29ba33fc5a9081cf65fad8574acbbb132",
+            "commitShort": "5fc1aee29b",
             "commitDate": null,
             "branch": "main"
         },
@@ -2027,6 +2027,7 @@
                     "implementationReport": "https://test.csswg.org/harness/results/css-multicol-1_dev/grouped/",
                     "workStatus": "Testing",
                     "wptPathPrefix": "/css/css-multicol/",
+                    "wptDisplay": "closed",
                     "ed": "https://drafts.csswg.org/css-multicol/",
                     "tr": "https://www.w3.org/TR/css-multicol-1/",
                     "previousVersion": [
@@ -7682,7 +7683,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1838
+                    "line": 1835
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -8376,13 +8377,16 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1031
+                    "line": 972
                 },
                 "props": {
                     "name": "order",
-                    "value": "[ <'layout-order'> <'reading-order'>? ] |\n[ [ reading || layout ] && <integer> ]",
+                    "value": "<integer>",
+                    "initial": "0",
                     "appliesTo": "[=flex items=] and [=grid items=]",
-                    "inherited": "no"
+                    "inherited": "no",
+                    "computedValue": "specified integer",
+                    "animationType": "by computed value type"
                 },
                 "name": "order"
             },
@@ -8390,41 +8394,24 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1166
+                    "line": 1160
                 },
                 "props": {
-                    "name": "reading-order",
-                    "value": "<integer>",
-                    "initial": "0",
-                    "appliesTo": "all elements",
+                    "name": "reading-order-items",
+                    "value": "normal | flex-visual | flex-flow | grid-rows | grid-columns | grid-order",
+                    "initial": "normal",
+                    "appliesTo": "flex and grid containers",
                     "inherited": "no",
-                    "computedValue": "specified integer",
-                    "animationType": "by computed value type"
+                    "computedValue": "as specified",
+                    "animationType": "not animatable"
                 },
-                "name": "reading-order"
+                "name": "reading-order-items"
             },
             {
                 "type": "prop",
                 "source": {
                     "spec": "css-display-4",
-                    "line": 1209
-                },
-                "props": {
-                    "name": "layout-order",
-                    "value": "<integer>",
-                    "initial": "0",
-                    "appliesTo": "[=flex items=] and [=grid items=]",
-                    "inherited": "no",
-                    "computedValue": "specified integer",
-                    "animationType": "by computed value type"
-                },
-                "name": "layout-order"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-display-4",
-                    "line": 1331
+                    "line": 1373
                 },
                 "props": {
                     "name": "visibility",
@@ -11786,7 +11773,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 434
+                    "line": 688
                 },
                 "props": {
                     "name": "column-width",
@@ -11804,7 +11791,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 527
+                    "line": 787
                 },
                 "props": {
                     "name": "column-count",
@@ -11822,7 +11809,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 588
+                    "line": 846
                 },
                 "props": {
                     "name": "columns",
@@ -11834,7 +11821,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 813
+                    "line": 1114
                 },
                 "props": {
                     "name": "column-rule-color",
@@ -11852,7 +11839,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 843
+                    "line": 1145
                 },
                 "props": {
                     "name": "column-rule-style",
@@ -11870,7 +11857,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 868
+                    "line": 1170
                 },
                 "props": {
                     "name": "column-rule-width",
@@ -11888,7 +11875,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 893
+                    "line": 1198
                 },
                 "props": {
                     "name": "column-rule",
@@ -11900,7 +11887,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 979
+                    "line": 1290
                 },
                 "props": {
                     "name": "column-span",
@@ -11918,7 +11905,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-multicol-1",
-                    "line": 1295
+                    "line": 1710
                 },
                 "props": {
                     "name": "column-fill",
@@ -21229,7 +21216,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1100
+                    "line": 1097
                 },
                 "value": "rgb( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -21239,7 +21226,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1103
+                    "line": 1100
                 },
                 "value": "rgba( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -21249,7 +21236,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1166
+                    "line": 1163
                 },
                 "value": "hsl([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21259,7 +21246,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1171
+                    "line": 1168
                 },
                 "value": "hsla([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21269,7 +21256,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1215
+                    "line": 1212
                 },
                 "value": "hwb([from <color>]?\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21279,7 +21266,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1246
+                    "line": 1243
                 },
                 "value": "lab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21289,7 +21276,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1302
+                    "line": 1299
                 },
                 "value": "oklab([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21299,7 +21286,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1333
+                    "line": 1330
                 },
                 "value": "lch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21309,7 +21296,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1469
+                    "line": 1466
                 },
                 "value": "oklch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21319,7 +21306,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1552
+                    "line": 1549
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21329,7 +21316,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1553
+                    "line": 1550
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -21339,7 +21326,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1554
+                    "line": 1551
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]+"
             },
@@ -21349,7 +21336,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1555
+                    "line": 1552
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -21359,7 +21346,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1556
+                    "line": 1553
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -21369,7 +21356,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1557
+                    "line": 1554
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -21379,7 +21366,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1558
+                    "line": 1555
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -21389,7 +21376,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2336
+                    "line": 2333
                 },
                 "value": "<legacy-device-cmyk-syntax> | <modern-device-cmyk-syntax>"
             },
@@ -21399,7 +21386,7 @@
                 "dfnName": "<legacy-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2337
+                    "line": 2334
                 },
                 "value": "device-cmyk( <number>#{4} )"
             },
@@ -21409,7 +21396,7 @@
                 "dfnName": "<modern-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2338
+                    "line": 2335
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21419,7 +21406,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2339
+                    "line": 2336
                 },
                 "value": "<number> | <percentage> | none"
             },
@@ -21429,7 +21416,7 @@
                 "dfnName": "light-dark()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2507
+                    "line": 2504
                 },
                 "attrs": {
                     "export": true
@@ -21442,7 +21429,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2541
+                    "line": 2539
                 },
                 "attrs": {
                     "export": true
@@ -21455,7 +21442,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2542
+                    "line": 2540
                 },
                 "attrs": {
                     "export": true
@@ -21468,7 +21455,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2543
+                    "line": 2541
                 },
                 "attrs": {
                     "export": true
@@ -21481,7 +21468,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2544
+                    "line": 2542
                 },
                 "attrs": {
                     "export": true
@@ -21494,7 +21481,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2545
+                    "line": 2543
                 },
                 "attrs": {
                     "export": true
@@ -21507,7 +21494,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2546
+                    "line": 2544
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -25106,7 +25093,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 3046
+                    "line": 3044
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
