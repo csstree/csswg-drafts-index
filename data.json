@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-13T00:43:08.385Z",
-    "elapsedTime": 308,
+    "createdAt": "2024-02-14T00:43:15.337Z",
+    "elapsedTime": 366,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "5fc1aee29ba33fc5a9081cf65fad8574acbbb132",
-            "commitShort": "5fc1aee29b",
+            "commit": "8271e96b28e89d0d92713978caadb035721a2ebe",
+            "commitShort": "8271e96b28",
             "commitDate": null,
             "branch": "main"
         },
@@ -17335,7 +17335,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 255
+                    "line": 261
                 },
                 "props": {
                     "name": "view-transition-class",
@@ -17352,7 +17352,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 391
+                    "line": 397
                 },
                 "props": {
                     "name": "navigation",
@@ -17366,7 +17366,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 418
+                    "line": 424
                 },
                 "props": {
                     "name": "type",
@@ -24251,7 +24251,7 @@
                 "dfnName": "<vt-type-selector>",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 295
+                    "line": 301
                 },
                 "value": "'*' | <custom-ident>#"
             },
@@ -24261,7 +24261,7 @@
                 "dfnName": "<pt-class-selector>",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 356
+                    "line": 362
                 },
                 "value": "['.' <custom-ident>]*"
             },
@@ -25413,7 +25413,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 432
+                    "line": 438
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
@@ -25421,7 +25421,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 464
+                    "line": 481
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25429,7 +25429,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 474
+                    "line": 491
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
