@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-16T00:41:55.694Z",
-    "elapsedTime": 341,
+    "createdAt": "2024-02-17T00:42:02.942Z",
+    "elapsedTime": 304,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2efbcdc13011cc220df489abc6c3e638fc22ed4f",
-            "commitShort": "2efbcdc130",
+            "commit": "883eb19243acc772e55eb6f65e7ba7563630a775",
+            "commitShort": "883eb19243",
             "commitDate": null,
             "branch": "main"
         },
@@ -839,7 +839,7 @@
                     "editor": [
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
-                    "abstract": "This module explores additions to CSS Color 4 to enable High Dynamic Range (HDR)."
+                    "abstract": "This module defines additions to CSS Color 4 to enable High Dynamic Range (HDR)."
                 }
             },
             {
@@ -7759,7 +7759,26 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 643
+                    "line": 175
+                },
+                "props": {
+                    "name": "dynamic-range-limit",
+                    "value": "standard | high | constrained-high",
+                    "initial": "high",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "specified value",
+                    "animationType": "by computed value type",
+                    "canonicalOrder": "per grammar"
+                },
+                "name": "dynamic-range-limit"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 766
                 },
                 "props": {
                     "name": "foo",
@@ -7778,7 +7797,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 719
+                    "line": 842
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -7790,7 +7809,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 726
+                    "line": 849
                 },
                 "props": {
                     "name": "foo",
@@ -7802,7 +7821,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 733
+                    "line": 856
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -15912,7 +15931,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 10993
+                    "line": 11001
                 },
                 "props": {
                     "name": "text-spacing",
@@ -15930,7 +15949,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 11194
+                    "line": 11202
                 },
                 "props": {
                     "name": "text-indent",
@@ -15949,7 +15968,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-text-4",
-                    "line": 11594
+                    "line": 11602
                 },
                 "props": {
                     "name": "hanging-punctuation",
@@ -21217,7 +21236,7 @@
                     "spec": "css-color-5",
                     "line": 1097
                 },
-                "value": "rgb( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
+                "value": "rgb( [ from <color> ]?\n[ <number> | <percentage> | none]{3}\n[ / [<alpha-value> | none] ]?  )"
             },
             {
                 "type": "prod",
@@ -21227,7 +21246,7 @@
                     "spec": "css-color-5",
                     "line": 1100
                 },
-                "value": "rgba( [ from <color> ]? \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
+                "value": "rgba( [ from <color> ]?\n[ <number> | <percentage> | none]{3}\n[ / [<alpha-value> | none] ]?  )"
             },
             {
                 "type": "prod",
@@ -21424,11 +21443,24 @@
             },
             {
                 "type": "prod",
+                "name": "contrast-color()",
+                "dfnName": "contrast-color()",
+                "source": {
+                    "spec": "css-color-5",
+                    "line": 2534
+                },
+                "attrs": {
+                    "export": true
+                },
+                "value": "contrast-color( <color> max? )"
+            },
+            {
+                "type": "prod",
                 "name": "color-space",
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2539
+                    "line": 2580
                 },
                 "attrs": {
                     "export": true
@@ -21441,7 +21473,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2540
+                    "line": 2581
                 },
                 "attrs": {
                     "export": true
@@ -21454,7 +21486,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2541
+                    "line": 2582
                 },
                 "attrs": {
                     "export": true
@@ -21467,7 +21499,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2542
+                    "line": 2583
                 },
                 "attrs": {
                     "export": true
@@ -21480,7 +21512,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2543
+                    "line": 2584
                 },
                 "attrs": {
                     "export": true
@@ -21493,7 +21525,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2544
+                    "line": 2585
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -25092,7 +25124,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 3044
+                    "line": 3085
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -25100,7 +25132,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 700
+                    "line": 823
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
