@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-17T00:42:02.942Z",
-    "elapsedTime": 304,
+    "createdAt": "2024-02-18T00:45:33.585Z",
+    "elapsedTime": 347,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "883eb19243acc772e55eb6f65e7ba7563630a775",
-            "commitShort": "883eb19243",
+            "commit": "a4b3a19a86104012dc6bc56f41c976898df0d0cf",
+            "commitShort": "a4b3a19a86",
             "commitDate": null,
             "branch": "main"
         },
@@ -7759,7 +7759,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 175
+                    "line": 188
                 },
                 "props": {
                     "name": "dynamic-range-limit",
@@ -7778,7 +7778,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 766
+                    "line": 870
                 },
                 "props": {
                     "name": "foo",
@@ -7797,7 +7797,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 842
+                    "line": 946
                 },
                 "props": {
                     "name": "shorthand-foo",
@@ -7809,7 +7809,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 849
+                    "line": 953
                 },
                 "props": {
                     "name": "foo",
@@ -7821,7 +7821,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 856
+                    "line": 960
                 },
                 "props": {
                     "name": "descriptor-foo",
@@ -21544,6 +21544,116 @@
             },
             {
                 "type": "prod",
+                "name": "dynamic-range-limit-mix()",
+                "dfnName": "dynamic-range-limit-mix()",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 242
+                },
+                "value": "dynamic-range-limit-mix( [ <ident> && <percentage [0,100]>? ]#{2})"
+            },
+            {
+                "type": "prod",
+                "name": "color()",
+                "dfnName": "color()",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 263
+                },
+                "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+            },
+            {
+                "type": "prod",
+                "name": "colorspace-params",
+                "dfnName": "<colorspace-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 264
+                },
+                "value": "[<custom-params> | <predefined-rgb-params> | \n<predefined-polar-params> | <predefined-rectangular-params> | <xyz-params>]"
+            },
+            {
+                "type": "prod",
+                "name": "custom-params",
+                "dfnName": "<custom-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 266
+                },
+                "value": "<dashed-ident> [ <number> | <percentage> | none ]+"
+            },
+            {
+                "type": "prod",
+                "name": "predefined-rgb-params",
+                "dfnName": "<predefined-rgb-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 267
+                },
+                "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
+            },
+            {
+                "type": "prod",
+                "name": "predefined-polar-params",
+                "dfnName": "<predefined-polar-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 268
+                },
+                "value": "jzczhz [ <number> | <percentage> | none ]{2} [ <hue> | none]"
+            },
+            {
+                "type": "prod",
+                "name": "predefined-rectangular-params",
+                "dfnName": "<predefined-rectangular-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 269
+                },
+                "value": "<predefined-rectangular> [ <number> | <percentage> | none ]{3}"
+            },
+            {
+                "type": "prod",
+                "name": "predefined-rgb",
+                "dfnName": "<predefined-rgb>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 270
+                },
+                "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | \nrec2100-pq | rec2100-hlg | rec2100-linear"
+            },
+            {
+                "type": "prod",
+                "name": "predefined-rectangular",
+                "dfnName": "<predefined-rectangular>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 272
+                },
+                "value": "jzazbz | ictcp"
+            },
+            {
+                "type": "prod",
+                "name": "xyz-params",
+                "dfnName": "<xyz-params>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 273
+                },
+                "value": "<xyz> [ <number> | <percentage> | none ]{3}"
+            },
+            {
+                "type": "prod",
+                "name": "xyz",
+                "dfnName": "<xyz>",
+                "source": {
+                    "spec": "css-color-hdr",
+                    "line": 274
+                },
+                "value": "xyz | xyz-d50 | xyz-d65"
+            },
+            {
+                "type": "prod",
                 "name": "supports-condition",
                 "dfnName": "<supports-condition>",
                 "source": {
@@ -25132,7 +25242,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-hdr",
-                    "line": 823
+                    "line": 927
                 },
                 "content": "/* Write WebIDL in a &lt;pre class=\"idl\"> as plain text. */\ninterface Foo {\n    readonly attribute CSSOMString bar;\n    boolean baz(FooDict Arg1, (CSSOMString or Foo) Arg2);\n};\ndictionary FooDict {\n    sequence&lt;Foo> foos;\n    boolean bar;\n    CSSOMString baz = \"qux\";\n};"
             },
