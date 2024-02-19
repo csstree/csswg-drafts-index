@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-18T00:45:33.585Z",
-    "elapsedTime": 347,
+    "createdAt": "2024-02-19T00:43:36.364Z",
+    "elapsedTime": 317,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "a4b3a19a86104012dc6bc56f41c976898df0d0cf",
-            "commitShort": "a4b3a19a86",
+            "commit": "a3cc2a67374581f45de2a6554950358dbfa43047",
+            "commitShort": "a3cc2a6737",
             "commitDate": null,
             "branch": "main"
         },
@@ -7769,7 +7769,7 @@
                     "inherited": "no",
                     "percentages": "n/a",
                     "computedValue": "specified value",
-                    "animationType": "by computed value type",
+                    "animationType": "by dynamic-range-limit-mix()",
                     "canonicalOrder": "per grammar"
                 },
                 "name": "dynamic-range-limit"
@@ -17370,7 +17370,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 396
+                    "line": 401
                 },
                 "props": {
                     "name": "navigation",
@@ -17384,7 +17384,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 423
+                    "line": 428
                 },
                 "props": {
                     "name": "type",
@@ -25554,7 +25554,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 437
+                    "line": 442
                 },
                 "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
@@ -25562,7 +25562,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 480
+                    "line": 485
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25570,7 +25570,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 490
+                    "line": 495
                 },
                 "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
             },
