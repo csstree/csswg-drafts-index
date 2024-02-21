@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-20T00:41:57.095Z",
-    "elapsedTime": 317,
+    "createdAt": "2024-02-21T00:42:54.675Z",
+    "elapsedTime": 299,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "13d4a2c101477e41300da0f57ad5b756af9964b8",
-            "commitShort": "13d4a2c101",
+            "commit": "415365102fedcc8efe51353df1a3390b7ea8fb17",
+            "commitShort": "415365102f",
             "commitDate": null,
             "branch": "main"
         },
@@ -14064,7 +14064,7 @@
                 },
                 "props": {
                     "name": "shape-image-threshold",
-                    "value": "<'opacity'>",
+                    "value": "<opacity-value>",
                     "initial": "0",
                     "appliesTo": "floats",
                     "inherited": "no",
