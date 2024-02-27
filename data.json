@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-26T00:43:32.021Z",
-    "elapsedTime": 302,
+    "createdAt": "2024-02-27T00:43:32.992Z",
+    "elapsedTime": 330,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "22946c7963d5fa6b0e5489b0983c5d63a2df8f50",
-            "commitShort": "22946c7963",
+            "commit": "0b3e5af4e83ec1b6728ee18c51ff7c98e05c8b83",
+            "commitShort": "0b3e5af4e8",
             "commitDate": null,
             "branch": "main"
         },
@@ -4464,7 +4464,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 286
+                    "line": 294
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4480,7 +4480,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 365
+                    "line": 367
                 },
                 "props": {
                     "name": "inset-area",
@@ -4496,7 +4496,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 753
+                    "line": 755
                 },
                 "props": {
                     "name": "justify-self",
@@ -4508,7 +4508,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 753
+                    "line": 755
                 },
                 "props": {
                     "name": "align-self",
@@ -4520,7 +4520,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 753
+                    "line": 755
                 },
                 "props": {
                     "name": "justify-items",
@@ -4532,7 +4532,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 753
+                    "line": 755
                 },
                 "props": {
                     "name": "align-items",
@@ -4544,7 +4544,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1004
+                    "line": 1006
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4560,7 +4560,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1114
+                    "line": 1116
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4576,7 +4576,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1198
+                    "line": 1200
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4592,7 +4592,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1252
+                    "line": 1254
                 },
                 "props": {
                     "name": "position-try",
@@ -4604,7 +4604,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1373
+                    "line": 1375
                 },
                 "props": {
                     "name": "position-fallback-bounds",
@@ -4620,7 +4620,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1604
+                    "line": 1606
                 },
                 "props": {
                     "name": "position-animation",
@@ -7646,7 +7646,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 532
+                    "line": 534
                 },
                 "props": {
                     "name": "color",
@@ -7664,7 +7664,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 607
+                    "line": 609
                 },
                 "props": {
                     "name": "opacity",
@@ -12399,7 +12399,7 @@
                 },
                 "props": {
                     "name": "line-clamp",
-                    "value": "none | <integer [1,∞]>? <'block-ellipsis'>?",
+                    "value": "none | <integer [1,∞]> || <'block-ellipsis'>",
                     "initial": "none",
                     "percentages": "N/A"
                 },
@@ -12409,7 +12409,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 908
+                    "line": 912
                 },
                 "props": {
                     "name": "-webkit-line-clamp",
@@ -12423,7 +12423,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 915
+                    "line": 919
                 },
                 "props": {
                     "name": "continue",
@@ -12435,7 +12435,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 954
+                    "line": 958
                 },
                 "props": {
                     "name": "max-lines",
@@ -12453,7 +12453,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1052
+                    "line": 1056
                 },
                 "props": {
                     "name": "continue",
@@ -12471,7 +12471,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1254
+                    "line": 1258
                 },
                 "props": {
                     "name": "continue",
@@ -12489,7 +12489,7 @@
                 "type": "prop-partial",
                 "source": {
                     "spec": "css-overflow-4",
-                    "line": 1863
+                    "line": 1867
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -17264,7 +17264,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2478
+                    "line": 2484
                 },
                 "props": {
                     "name": "field-sizing",
@@ -17283,7 +17283,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-ui-4",
-                    "line": 2547
+                    "line": 2553
                 },
                 "props": {
                     "name": "input-security",
@@ -20434,7 +20434,7 @@
                 "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 384
+                    "line": 386
                 },
                 "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    ||\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    ||\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1,2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1,2}\n]"
             },
@@ -20444,7 +20444,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 576
+                    "line": 578
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20454,7 +20454,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 577
+                    "line": 579
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20464,7 +20464,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 916
+                    "line": 918
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20474,7 +20474,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1054
+                    "line": 1056
                 },
                 "attrs": {
                     "type": true
@@ -20487,7 +20487,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1127
+                    "line": 1129
                 },
                 "attrs": {
                     "type": true
@@ -20856,7 +20856,7 @@
                 "dfnName": "<color-base>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 939
+                    "line": 941
                 },
                 "value": "<hex-color> | <color-function> | <named-color> | transparent"
             },
@@ -20866,7 +20866,7 @@
                 "dfnName": "<color-function>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 940
+                    "line": 942
                 },
                 "value": "<rgb()> | <rgba()> |\n<hsl()> | <hsla()> | <hwb()> |\n<lab()> | <lch()> | <oklab()> | <oklch()> |\n<color()>"
             },
@@ -20876,7 +20876,7 @@
                 "dfnName": "\"><alpha-value>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1017
+                    "line": 1019
                 },
                 "attrs": {
                     "dfn-for": "\"<color"
@@ -20889,7 +20889,7 @@
                 "dfnName": "<hue>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1034
+                    "line": 1036
                 },
                 "value": "<number> | <angle>"
             },
@@ -20899,7 +20899,7 @@
                 "dfnName": "rgb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1259
+                    "line": 1261
                 },
                 "value": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]"
             },
@@ -20909,7 +20909,7 @@
                 "dfnName": "rgba()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1260
+                    "line": 1262
                 },
                 "value": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]"
             },
@@ -20919,7 +20919,7 @@
                 "dfnName": "<<legacy-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1261
+                    "line": 1263
                 },
                 "value": "rgb( <percentage>#{3} , <alpha-value>? ) |\nrgb( <number>#{3} , <alpha-value>? )"
             },
@@ -20929,7 +20929,7 @@
                 "dfnName": "<<legacy-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1263
+                    "line": 1265
                 },
                 "value": "rgba( <percentage>#{3} , <alpha-value>? ) |\nrgba( <number>#{3} , <alpha-value>? )"
             },
@@ -20939,7 +20939,7 @@
                 "dfnName": "<<modern-rgb-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1265
+                    "line": 1267
                 },
                 "value": "rgb( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20949,7 +20949,7 @@
                 "dfnName": "<<modern-rgba-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 1268
+                    "line": 1270
                 },
                 "value": "rgba( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
             },
@@ -20959,7 +20959,7 @@
                 "dfnName": "hsl()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2114
+                    "line": 2116
                 },
                 "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]"
             },
@@ -20969,7 +20969,7 @@
                 "dfnName": "hsla()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2115
+                    "line": 2117
                 },
                 "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
             },
@@ -20979,7 +20979,7 @@
                 "dfnName": "<<modern-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2116
+                    "line": 2118
                 },
                 "value": "hsl( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20989,7 +20989,7 @@
                 "dfnName": "<<modern-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2121
+                    "line": 2123
                 },
                 "value": "hsla( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -20999,7 +20999,7 @@
                 "dfnName": "<<legacy-hsl-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2126
+                    "line": 2128
                 },
                 "value": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -21009,7 +21009,7 @@
                 "dfnName": "<<legacy-hsla-syntax>>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2127
+                    "line": 2129
                 },
                 "value": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
             },
@@ -21019,7 +21019,7 @@
                 "dfnName": "hwb()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 2659
+                    "line": 2661
                 },
                 "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
             },
@@ -21029,7 +21029,7 @@
                 "dfnName": "lab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3286
+                    "line": 3288
                 },
                 "value": "lab( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21039,7 +21039,7 @@
                 "dfnName": "lch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3360
+                    "line": 3362
                 },
                 "value": "lch( [<percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21049,7 +21049,7 @@
                 "dfnName": "oklab()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3452
+                    "line": 3454
                 },
                 "value": "oklab( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21059,7 +21059,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3527
+                    "line": 3529
                 },
                 "value": "oklch( [ <percentage> | <number> | none]\n[ <percentage> | <number> | none]\n[ <hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21069,7 +21069,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3697
+                    "line": 3699
                 },
                 "value": "color( [<ident> | <dashed-ident>] [<number-percentage> | none]+ [ / [<alpha-value> | none] ]? )"
             },
@@ -21079,7 +21079,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3705
+                    "line": 3707
                 },
                 "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21089,7 +21089,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3706
+                    "line": 3708
                 },
                 "value": "[ <predefined-rgb-params> | <xyz-params>]"
             },
@@ -21099,7 +21099,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3707
+                    "line": 3709
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -21109,7 +21109,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3708
+                    "line": 3710
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -21119,7 +21119,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3709
+                    "line": 3711
                 },
                 "value": "<xyz-space> [ <number> | <percentage> | none ]{3}"
             },
@@ -21129,7 +21129,7 @@
                 "dfnName": "<xyz-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 3710
+                    "line": 3712
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -21139,7 +21139,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4630
+                    "line": 4632
                 },
                 "attrs": {
                     "export": true
@@ -21152,7 +21152,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4631
+                    "line": 4633
                 },
                 "attrs": {
                     "export": true
@@ -21165,7 +21165,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4632
+                    "line": 4634
                 },
                 "attrs": {
                     "export": true
@@ -21178,7 +21178,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4633
+                    "line": 4635
                 },
                 "attrs": {
                     "export": true
@@ -21191,7 +21191,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-4",
-                    "line": 4634
+                    "line": 4636
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
