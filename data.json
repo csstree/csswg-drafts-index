@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-02-28T00:41:48.429Z",
-    "elapsedTime": 268,
+    "createdAt": "2024-02-29T00:42:09.420Z",
+    "elapsedTime": 292,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d1423900d3c59b7cc74b9665898139b1ef54ce6a",
-            "commitShort": "d1423900d3",
+            "commit": "d53dde42f2b00559c92053a4802cdc6448b8aeed",
+            "commitShort": "d53dde42f2",
             "commitDate": null,
             "branch": "main"
         },
@@ -4548,7 +4548,7 @@
                 },
                 "props": {
                     "name": "position-try-options",
-                    "value": "none | [ <dashed-ident> || <try-tactic> ]#",
+                    "value": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
                     "initial": "none",
                     "inherited": "no",
                     "appliesTo": "[=absolutely-positioned=] elements",
@@ -4560,7 +4560,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1116
+                    "line": 1122
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4576,7 +4576,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1200
+                    "line": 1206
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4592,7 +4592,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1254
+                    "line": 1260
                 },
                 "props": {
                     "name": "position-try",
@@ -4604,23 +4604,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1375
-                },
-                "props": {
-                    "name": "position-fallback-bounds",
-                    "value": "normal | <dashed-ident>",
-                    "initial": "normal",
-                    "appliesTo": "[=absolutely positioned=] elements",
-                    "inherited": "no",
-                    "animationType": "discrete"
-                },
-                "name": "position-fallback-bounds"
-            },
-            {
-                "type": "prop",
-                "source": {
-                    "spec": "css-anchor-position-1",
-                    "line": 1606
+                    "line": 1538
                 },
                 "props": {
                     "name": "position-animation",
@@ -20487,7 +20471,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1129
+                    "line": 1135
                 },
                 "attrs": {
                     "type": true
@@ -25572,7 +25556,7 @@
                     "spec": "css-view-transitions-2",
                     "line": 495
                 },
-                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList type;\n};"
+                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList typeList;\n};"
             },
             {
                 "type": "idl",
