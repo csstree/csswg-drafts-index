@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-04T00:43:20.597Z",
-    "elapsedTime": 288,
+    "createdAt": "2024-03-05T00:42:20.867Z",
+    "elapsedTime": 292,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "db89406096eee2afe27c3d440fc9aea768e7ff24",
-            "commitShort": "db89406096",
+            "commit": "3d35b668927d0bd533753a72a5854ab0d5b635c0",
+            "commitShort": "3d35b66892",
             "commitDate": null,
             "branch": "main"
         },
@@ -24139,7 +24139,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4210
+                    "line": 4214
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -24149,7 +24149,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4211
+                    "line": 4215
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -24159,7 +24159,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4212
+                    "line": 4216
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -24169,7 +24169,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4214
+                    "line": 4218
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -24242,7 +24242,7 @@
                 "dfnName": "<<calc-mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 378
+                    "line": 384
                 },
                 "value": "calc-mix( <progress>, <calc-sum>, <calc-sum> )"
             },
@@ -24252,7 +24252,7 @@
                 "dfnName": "<<transform-mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 449
+                    "line": 455
                 },
                 "value": "transform-mix( <progress>, <transform-list>, <transform-list> )"
             },
@@ -24262,7 +24262,7 @@
                 "dfnName": "<<mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 474
+                    "line": 480
                 },
                 "value": "mix( <progress> ';' <whole-value> ';' <whole-value> ) |\nmix( <progress> && of <'animation-name'> )"
             },
@@ -24272,7 +24272,7 @@
                 "dfnName": "<first-valid()>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 624
+                    "line": 630
                 },
                 "value": "first-valid( <declaration-value> [ ';' <declaration-value> ]* )"
             },
@@ -24282,7 +24282,7 @@
                 "dfnName": "<<toggle()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 673
+                    "line": 679
                 },
                 "value": "toggle( <whole-value> [ ';' <whole-value> ]+ )"
             },
@@ -24292,7 +24292,7 @@
                 "dfnName": "<attr-name>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 793
+                    "line": 799
                 },
                 "value": "[ <ident-token> '|' ]? <ident-token>"
             },
@@ -24302,7 +24302,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 795
+                    "line": 801
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -24312,7 +24312,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1062
+                    "line": 1068
                 },
                 "value": "<dashed-ident> || per-element"
             },
@@ -24322,7 +24322,7 @@
                 "dfnName": "<calc-size()>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1572
+                    "line": 1578
                 },
                 "attrs": {
                     "function lt": "calc-size()"
@@ -24335,7 +24335,7 @@
                 "dfnName": "<calc-size-basis>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1574
+                    "line": 1580
                 },
                 "value": "[ <intrinsic-size-keyword> | <calc-size()> | any | <calc-sum> ]"
             },
