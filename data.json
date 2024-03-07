@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-06T00:42:43.890Z",
-    "elapsedTime": 345,
+    "createdAt": "2024-03-07T00:34:52.325Z",
+    "elapsedTime": 346,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "cb88f4d9f79c7de0af740237b69da3925d68e198",
-            "commitShort": "cb88f4d9f7",
+            "commit": "f2506efc68a13e082007cff0c88c01796eaacf8c",
+            "commitShort": "f2506efc68",
             "commitDate": null,
             "branch": "main"
         },
@@ -4084,7 +4084,6 @@
                     ],
                     "ignoredVars": [
                         "identifier",
-                        "extended filtering",
                         "i"
                     ]
                 }
@@ -20419,7 +20418,7 @@
                     "spec": "css-anchor-position-1",
                     "line": 386
                 },
-                "value": "[\n    [ left | center | right | center-left | center-right\n    | x-start | x-end | center-x-start | center-x-end\n    | x-self-start | x-self-end | center-x-self-start | center-x-self-end\n    | all ]\n    ||\n    [ top | center | bottom | center-top | center-bottom\n    | y-start | y-end | center-y-start | center-y-end\n    | y-self-start | y-self-end | center-y-self-start | center-y-self-end\n    | all ]\n|\n    [ block-start | center | block-end | center-block-start | center-block-end\n    | self-block-start | self-block-end | center-self-block-start | center-self-block-end\n    | all ]\n    ||\n    [ inline-start | center | inline-end | center-inline-start | center-inline-end\n    | self-inline-start | self-inline-end | center-self-inline-start | center-self-inline-end\n    | all ]\n|\n    [ start | center | end | center-start | center-end | all ]{1,2}\n|\n    [ self-start | center | self-end | center-self-start | center-self-end | all ]{1,2}\n]"
+                "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end\n    | self-block-start | self-block-end | span-self-block-start | span-self-block-end\n    | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end\n    | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
             },
             {
                 "type": "prod",
@@ -24831,7 +24830,7 @@
                 "dfnName": "<selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3578
+                    "line": 3581
                 },
                 "value": "<complex-selector-list>"
             },
@@ -24841,7 +24840,7 @@
                 "dfnName": "<complex-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3580
+                    "line": 3583
                 },
                 "value": "<complex-selector>#"
             },
@@ -24851,7 +24850,7 @@
                 "dfnName": "<complex-real-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3581
+                    "line": 3584
                 },
                 "value": "<complex-real-selector>#"
             },
@@ -24861,7 +24860,7 @@
                 "dfnName": "<compound-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3583
+                    "line": 3586
                 },
                 "value": "<compound-selector>#"
             },
@@ -24871,7 +24870,7 @@
                 "dfnName": "<simple-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3585
+                    "line": 3588
                 },
                 "value": "<simple-selector>#"
             },
@@ -24881,7 +24880,7 @@
                 "dfnName": "<relative-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3587
+                    "line": 3590
                 },
                 "value": "<relative-selector>#"
             },
@@ -24891,7 +24890,7 @@
                 "dfnName": "<relative-real-selector-list>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3588
+                    "line": 3591
                 },
                 "value": "<relative-real-selector>#"
             },
@@ -24901,7 +24900,7 @@
                 "dfnName": "<complex-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3591
+                    "line": 3594
                 },
                 "value": "<complex-selector-unit> [ <combinator>? <complex-selector-unit> ]*"
             },
@@ -24911,7 +24910,7 @@
                 "dfnName": "<complex-selector-unit>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3592
+                    "line": 3595
                 },
                 "value": "[ <compound-selector>? <pseudo-compound-selector>* ]!"
             },
@@ -24921,7 +24920,7 @@
                 "dfnName": "<complex-real-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3593
+                    "line": 3596
                 },
                 "value": "<compound-selector> [ <combinator>? <compound-selector> ]*"
             },
@@ -24931,7 +24930,7 @@
                 "dfnName": "<relative-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3595
+                    "line": 3598
                 },
                 "value": "<combinator>? <complex-selector>"
             },
@@ -24941,7 +24940,7 @@
                 "dfnName": "<relative-real-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3596
+                    "line": 3599
                 },
                 "value": "<combinator>? <complex-real-selector>"
             },
@@ -24951,7 +24950,7 @@
                 "dfnName": "<compound-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3598
+                    "line": 3601
                 },
                 "value": "[ <type-selector>? <subclass-selector>* ]!"
             },
@@ -24961,7 +24960,7 @@
                 "dfnName": "<pseudo-compound-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3599
+                    "line": 3602
                 },
                 "value": "<pseudo-element-selector> <pseudo-class-selector>*"
             },
@@ -24971,7 +24970,7 @@
                 "dfnName": "<simple-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3601
+                    "line": 3604
                 },
                 "value": "<type-selector> | <subclass-selector>"
             },
@@ -24981,7 +24980,7 @@
                 "dfnName": "<combinator>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3604
+                    "line": 3607
                 },
                 "value": "'>' | '+' | '~' | [ '|' '|' ]"
             },
@@ -24991,7 +24990,7 @@
                 "dfnName": "<wq-name>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3606
+                    "line": 3609
                 },
                 "attrs": {
                     "noexport": true
@@ -25004,7 +25003,7 @@
                 "dfnName": "<ns-prefix>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3607
+                    "line": 3610
                 },
                 "attrs": {
                     "noexport": true
@@ -25017,7 +25016,7 @@
                 "dfnName": "<type-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3609
+                    "line": 3612
                 },
                 "value": "<wq-name> | <ns-prefix>? '*'"
             },
@@ -25027,7 +25026,7 @@
                 "dfnName": "<subclass-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3611
+                    "line": 3614
                 },
                 "attrs": {
                     "noexport": true
@@ -25040,7 +25039,7 @@
                 "dfnName": "<id-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3614
+                    "line": 3617
                 },
                 "value": "<hash-token>"
             },
@@ -25050,7 +25049,7 @@
                 "dfnName": "<class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3616
+                    "line": 3619
                 },
                 "value": "'.' <ident-token>"
             },
@@ -25060,7 +25059,7 @@
                 "dfnName": "<attribute-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3618
+                    "line": 3621
                 },
                 "value": "'[' <wq-name> ']' |\n'[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
             },
@@ -25070,7 +25069,7 @@
                 "dfnName": "<attr-matcher>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3620
+                    "line": 3623
                 },
                 "attrs": {
                     "noexport": true
@@ -25083,7 +25082,7 @@
                 "dfnName": "<attr-modifier>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3621
+                    "line": 3624
                 },
                 "attrs": {
                     "noexport": true
@@ -25096,7 +25095,7 @@
                 "dfnName": "<pseudo-class-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3623
+                    "line": 3626
                 },
                 "value": "':' <ident-token> |\n':' <function-token> <any-value> ')'"
             },
@@ -25106,7 +25105,7 @@
                 "dfnName": "<pseudo-element-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3626
+                    "line": 3629
                 },
                 "value": "':' <pseudo-class-selector> | <legacy-pseudo-element-selector>"
             },
@@ -25116,7 +25115,7 @@
                 "dfnName": "<legacy-pseudo-element-selector>",
                 "source": {
                     "spec": "selectors-4",
-                    "line": 3627
+                    "line": 3630
                 },
                 "value": "':' [before | after | first-line | first-letter]"
             },
