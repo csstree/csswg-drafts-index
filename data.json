@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-07T00:34:52.325Z",
-    "elapsedTime": 346,
+    "createdAt": "2024-03-08T00:42:26.286Z",
+    "elapsedTime": 270,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "f2506efc68a13e082007cff0c88c01796eaacf8c",
-            "commitShort": "f2506efc68",
+            "commit": "393a7fcdf641c5031fbd143a02f3d3fa9ff7ead8",
+            "commitShort": "393a7fcdf6",
             "commitDate": null,
             "branch": "main"
         },
@@ -4542,7 +4542,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1006
+                    "line": 998
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4558,7 +4558,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1122
+                    "line": 1114
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4574,7 +4574,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1206
+                    "line": 1198
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4590,7 +4590,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1260
+                    "line": 1252
                 },
                 "props": {
                     "name": "position-try",
@@ -4602,7 +4602,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1540
+                    "line": 1528
                 },
                 "props": {
                     "name": "position-animation",
@@ -4848,7 +4848,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 168
+                    "line": 167
                 },
                 "props": {
                     "name": "background-color",
@@ -4866,7 +4866,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 193
+                    "line": 192
                 },
                 "props": {
                     "name": "background-image",
@@ -4884,7 +4884,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 264
+                    "line": 263
                 },
                 "props": {
                     "name": "background-repeat",
@@ -4902,7 +4902,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 403
+                    "line": 402
                 },
                 "props": {
                     "name": "background-attachment",
@@ -4920,7 +4920,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 494
+                    "line": 493
                 },
                 "props": {
                     "name": "background-position",
@@ -4938,7 +4938,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 677
+                    "line": 676
                 },
                 "props": {
                     "name": "background-clip",
@@ -4956,7 +4956,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 725
+                    "line": 724
                 },
                 "props": {
                     "name": "background-origin",
@@ -4974,7 +4974,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 774
+                    "line": 773
                 },
                 "props": {
                     "name": "background-size",
@@ -4992,7 +4992,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 973
+                    "line": 972
                 },
                 "props": {
                     "name": "background",
@@ -5010,7 +5010,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1203
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-top-color",
@@ -5029,7 +5029,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1203
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5048,7 +5048,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1203
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5067,7 +5067,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1203
+                    "line": 1202
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5086,7 +5086,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1215
+                    "line": 1214
                 },
                 "props": {
                     "name": "border-color",
@@ -5104,7 +5104,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1249
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-top-style",
@@ -5123,7 +5123,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1249
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-right-style",
@@ -5142,7 +5142,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1249
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -5161,7 +5161,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1249
+                    "line": 1248
                 },
                 "props": {
                     "name": "border-left-style",
@@ -5180,7 +5180,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1261
+                    "line": 1260
                 },
                 "props": {
                     "name": "border-style",
@@ -5198,7 +5198,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-top-width",
@@ -5217,7 +5217,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-right-width",
@@ -5236,7 +5236,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5255,7 +5255,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1378
+                    "line": 1377
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5274,7 +5274,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1390
+                    "line": 1389
                 },
                 "props": {
                     "name": "border-width",
@@ -5292,7 +5292,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1432
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-top",
@@ -5310,7 +5310,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1432
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-right",
@@ -5328,7 +5328,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1432
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5346,7 +5346,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1432
+                    "line": 1431
                 },
                 "props": {
                     "name": "border-left",
@@ -5364,7 +5364,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1447
+                    "line": 1446
                 },
                 "props": {
                     "name": "border",
@@ -5382,7 +5382,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1522
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5401,7 +5401,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1522
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5420,7 +5420,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1522
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5439,7 +5439,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1522
+                    "line": 1521
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5458,7 +5458,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1534
+                    "line": 1533
                 },
                 "props": {
                     "name": "border-radius",
@@ -5476,7 +5476,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1898
+                    "line": 1897
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5494,7 +5494,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1918
+                    "line": 1917
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5512,7 +5512,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1989
+                    "line": 1988
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5530,7 +5530,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2061
+                    "line": 2060
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5548,7 +5548,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2108
+                    "line": 2106
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5566,7 +5566,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2225
+                    "line": 2223
                 },
                 "props": {
                     "name": "border-image",
@@ -5584,7 +5584,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2263
+                    "line": 2261
                 },
                 "props": {
                     "name": "box-shadow",
@@ -20446,7 +20446,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 918
+                    "line": 910
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20456,7 +20456,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1056
+                    "line": 1048
                 },
                 "attrs": {
                     "type": true
@@ -20469,7 +20469,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1135
+                    "line": 1127
                 },
                 "attrs": {
                     "type": true
@@ -20592,7 +20592,7 @@
                 "dfnName": "<<bg-image>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 209
+                    "line": 208
                 },
                 "value": "<image> | none"
             },
@@ -20602,7 +20602,7 @@
                 "dfnName": "<<repeat-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 278
+                    "line": 277
                 },
                 "value": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
             },
@@ -20612,7 +20612,7 @@
                 "dfnName": "<<attachment>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 420
+                    "line": 419
                 },
                 "value": "scroll | fixed | local"
             },
@@ -20622,7 +20622,7 @@
                 "dfnName": "<<bg-position>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 513
+                    "line": 512
                 },
                 "value": "[\n  [ left | center | right | top | bottom | <length-percentage> ]\n|\n  [ left | center | right | <length-percentage> ]\n  [ top | center | bottom | <length-percentage> ]\n|\n  [ center | [ left | right ] <length-percentage>? ] &&\n  [ center | [ top | bottom ] <length-percentage>? ]\n]"
             },
@@ -20632,7 +20632,7 @@
                 "dfnName": "<<bg-size>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 789
+                    "line": 788
                 },
                 "value": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
             },
@@ -20642,7 +20642,7 @@
                 "dfnName": "<bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 987
+                    "line": 986
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
             },
@@ -20652,7 +20652,7 @@
                 "dfnName": "<final-bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 988
+                    "line": 987
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
             },
@@ -20662,7 +20662,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1294
+                    "line": 1293
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -20672,7 +20672,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1404
+                    "line": 1403
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -20682,7 +20682,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2290
+                    "line": 2288
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -24138,7 +24138,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4214
+                    "line": 4233
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -24148,7 +24148,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4215
+                    "line": 4234
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -24158,7 +24158,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4216
+                    "line": 4235
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -24168,7 +24168,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4218
+                    "line": 4237
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
