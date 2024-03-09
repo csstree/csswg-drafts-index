@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-08T00:42:26.286Z",
-    "elapsedTime": 270,
+    "createdAt": "2024-03-09T00:41:22.603Z",
+    "elapsedTime": 339,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "393a7fcdf641c5031fbd143a02f3d3fa9ff7ead8",
-            "commitShort": "393a7fcdf6",
+            "commit": "d661b595fde40d53a1da41536523bbc2245b1ef3",
+            "commitShort": "d661b595fd",
             "commitDate": null,
             "branch": "main"
         },
@@ -1791,6 +1791,7 @@
                     ],
                     "includeCanIUsePanels": "yes",
                     "defaultHighlight": "css",
+                    "complainAbout": "missing-example-ids true",
                     "wptPathPrefix": "css/css-images/",
                     "wptDisplay": "open"
                 }
@@ -4462,7 +4463,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 294
+                    "line": 295
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4478,7 +4479,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 367
+                    "line": 368
                 },
                 "props": {
                     "name": "inset-area",
@@ -4494,7 +4495,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 755
+                    "line": 756
                 },
                 "props": {
                     "name": "justify-self",
@@ -4506,7 +4507,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 755
+                    "line": 756
                 },
                 "props": {
                     "name": "align-self",
@@ -4518,7 +4519,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 755
+                    "line": 756
                 },
                 "props": {
                     "name": "justify-items",
@@ -4530,7 +4531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 755
+                    "line": 756
                 },
                 "props": {
                     "name": "align-items",
@@ -4542,7 +4543,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 998
+                    "line": 1006
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4558,7 +4559,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1114
+                    "line": 1122
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4574,7 +4575,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1198
+                    "line": 1206
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4590,7 +4591,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1252
+                    "line": 1260
                 },
                 "props": {
                     "name": "position-try",
@@ -4602,7 +4603,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1528
+                    "line": 1496
                 },
                 "props": {
                     "name": "position-animation",
@@ -4848,7 +4849,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 167
+                    "line": 183
                 },
                 "props": {
                     "name": "background-color",
@@ -4866,7 +4867,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 192
+                    "line": 209
                 },
                 "props": {
                     "name": "background-image",
@@ -4884,7 +4885,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 263
+                    "line": 282
                 },
                 "props": {
                     "name": "background-repeat",
@@ -4902,7 +4903,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 402
+                    "line": 426
                 },
                 "props": {
                     "name": "background-attachment",
@@ -4920,7 +4921,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 493
+                    "line": 527
                 },
                 "props": {
                     "name": "background-position",
@@ -4938,7 +4939,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 676
+                    "line": 719
                 },
                 "props": {
                     "name": "background-clip",
@@ -4956,7 +4957,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 724
+                    "line": 767
                 },
                 "props": {
                     "name": "background-origin",
@@ -4974,7 +4975,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 773
+                    "line": 817
                 },
                 "props": {
                     "name": "background-size",
@@ -4992,7 +4993,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 972
+                    "line": 1028
                 },
                 "props": {
                     "name": "background",
@@ -5010,7 +5011,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1270
                 },
                 "props": {
                     "name": "border-top-color",
@@ -5029,7 +5030,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1270
                 },
                 "props": {
                     "name": "border-right-color",
@@ -5048,7 +5049,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1270
                 },
                 "props": {
                     "name": "border-bottom-color",
@@ -5067,7 +5068,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1202
+                    "line": 1270
                 },
                 "props": {
                     "name": "border-left-color",
@@ -5086,7 +5087,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1214
+                    "line": 1282
                 },
                 "props": {
                     "name": "border-color",
@@ -5104,7 +5105,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1315
                 },
                 "props": {
                     "name": "border-top-style",
@@ -5123,7 +5124,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1315
                 },
                 "props": {
                     "name": "border-right-style",
@@ -5142,7 +5143,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1315
                 },
                 "props": {
                     "name": "border-bottom-style",
@@ -5161,7 +5162,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1248
+                    "line": 1315
                 },
                 "props": {
                     "name": "border-left-style",
@@ -5180,7 +5181,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1260
+                    "line": 1327
                 },
                 "props": {
                     "name": "border-style",
@@ -5198,7 +5199,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1451
                 },
                 "props": {
                     "name": "border-top-width",
@@ -5217,7 +5218,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1451
                 },
                 "props": {
                     "name": "border-right-width",
@@ -5236,7 +5237,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1451
                 },
                 "props": {
                     "name": "border-bottom-width",
@@ -5255,7 +5256,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1377
+                    "line": 1451
                 },
                 "props": {
                     "name": "border-left-width",
@@ -5274,7 +5275,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1389
+                    "line": 1463
                 },
                 "props": {
                     "name": "border-width",
@@ -5292,7 +5293,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1508
                 },
                 "props": {
                     "name": "border-top",
@@ -5310,7 +5311,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1508
                 },
                 "props": {
                     "name": "border-right",
@@ -5328,7 +5329,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1508
                 },
                 "props": {
                     "name": "border-bottom",
@@ -5346,7 +5347,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1431
+                    "line": 1508
                 },
                 "props": {
                     "name": "border-left",
@@ -5364,7 +5365,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1446
+                    "line": 1524
                 },
                 "props": {
                     "name": "border",
@@ -5382,7 +5383,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1603
                 },
                 "props": {
                     "name": "border-top-left-radius",
@@ -5401,7 +5402,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1603
                 },
                 "props": {
                     "name": "border-top-right-radius",
@@ -5420,7 +5421,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1603
                 },
                 "props": {
                     "name": "border-bottom-right-radius",
@@ -5439,7 +5440,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1521
+                    "line": 1603
                 },
                 "props": {
                     "name": "border-bottom-left-radius",
@@ -5458,7 +5459,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1533
+                    "line": 1615
                 },
                 "props": {
                     "name": "border-radius",
@@ -5476,7 +5477,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1897
+                    "line": 2046
                 },
                 "props": {
                     "name": "border-image-source",
@@ -5494,7 +5495,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1917
+                    "line": 2070
                 },
                 "props": {
                     "name": "border-image-slice",
@@ -5512,7 +5513,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1988
+                    "line": 2150
                 },
                 "props": {
                     "name": "border-image-width",
@@ -5520,7 +5521,7 @@
                     "initial": "1",
                     "appliesTo": "All elements,\nexcept internal table elements when 'border-collapse' is collapse",
                     "inherited": "no",
-                    "percentages": "Relative to width/height of the border image area",
+                    "percentages": "Relative to width/height of the [=border image area=]",
                     "computedValue": "four values,\neach either a number,\nthe keyword auto,\nor a computed <length-percentage> value",
                     "animationType": "by computed value"
                 },
@@ -5530,7 +5531,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2060
+                    "line": 2231
                 },
                 "props": {
                     "name": "border-image-outset",
@@ -5548,7 +5549,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2106
+                    "line": 2281
                 },
                 "props": {
                     "name": "border-image-repeat",
@@ -5566,7 +5567,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2223
+                    "line": 2416
                 },
                 "props": {
                     "name": "border-image",
@@ -5584,7 +5585,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2261
+                    "line": 2459
                 },
                 "props": {
                     "name": "box-shadow",
@@ -7664,7 +7665,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1817
+                    "line": 1824
                 },
                 "props": {
                     "name": "rendering-intent",
@@ -10330,7 +10331,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2257
+                    "line": 2258
                 },
                 "props": {
                     "name": "object-fit",
@@ -10348,7 +10349,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2557
+                    "line": 2558
                 },
                 "props": {
                     "name": "image-resolution",
@@ -16184,7 +16185,7 @@
                     "appliesTo": "all elements",
                     "inherited": "no",
                     "percentages": "N/A",
-                    "computedValue": "specified keyword or absolute length",
+                    "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value"
                 },
                 "name": "text-decoration-thickness"
@@ -16231,7 +16232,7 @@
                     "appliesTo": "all elements",
                     "inherited": "yes",
                     "percentages": "N/A",
-                    "computedValue": "specified keyword or absolute length",
+                    "computedValue": "as specified, with <length-percentage> values computed",
                     "animationType": "by computed value"
                 },
                 "name": "text-underline-offset"
@@ -20416,7 +20417,7 @@
                 "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 386
+                    "line": 387
                 },
                 "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end\n    | self-block-start | self-block-end | span-self-block-start | span-self-block-end\n    | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end\n    | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
             },
@@ -20426,7 +20427,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 578
+                    "line": 579
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20436,7 +20437,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 579
+                    "line": 580
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20446,7 +20447,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 910
+                    "line": 911
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20456,7 +20457,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1048
+                    "line": 1056
                 },
                 "attrs": {
                     "type": true
@@ -20469,7 +20470,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1127
+                    "line": 1135
                 },
                 "attrs": {
                     "type": true
@@ -20592,7 +20593,7 @@
                 "dfnName": "<<bg-image>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 208
+                    "line": 226
                 },
                 "value": "<image> | none"
             },
@@ -20602,7 +20603,7 @@
                 "dfnName": "<<repeat-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 277
+                    "line": 299
                 },
                 "value": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
             },
@@ -20612,7 +20613,7 @@
                 "dfnName": "<<attachment>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 419
+                    "line": 445
                 },
                 "value": "scroll | fixed | local"
             },
@@ -20622,7 +20623,7 @@
                 "dfnName": "<<bg-position>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 512
+                    "line": 550
                 },
                 "value": "[\n  [ left | center | right | top | bottom | <length-percentage> ]\n|\n  [ left | center | right | <length-percentage> ]\n  [ top | center | bottom | <length-percentage> ]\n|\n  [ center | [ left | right ] <length-percentage>? ] &&\n  [ center | [ top | bottom ] <length-percentage>? ]\n]"
             },
@@ -20632,7 +20633,7 @@
                 "dfnName": "<<bg-size>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 788
+                    "line": 834
                 },
                 "value": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
             },
@@ -20642,7 +20643,7 @@
                 "dfnName": "<bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 986
+                    "line": 1061
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
             },
@@ -20652,7 +20653,7 @@
                 "dfnName": "<final-bg-layer>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 987
+                    "line": 1062
                 },
                 "value": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
             },
@@ -20662,7 +20663,7 @@
                 "dfnName": "<<line-style>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1293
+                    "line": 1360
                 },
                 "value": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
             },
@@ -20672,7 +20673,7 @@
                 "dfnName": "<<line-width>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 1403
+                    "line": 1478
                 },
                 "value": "<length [0,∞]> | thin | medium | thick"
             },
@@ -20682,7 +20683,7 @@
                 "dfnName": "<<shadow>>",
                 "source": {
                     "spec": "css-backgrounds-3",
-                    "line": 2288
+                    "line": 2487
                 },
                 "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
             },
@@ -21296,7 +21297,7 @@
                 "dfnName": "oklch()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1448
+                    "line": 1451
                 },
                 "value": "oklch([from <color>]?\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[<hue> | none]\n[ / [<alpha-value> | none] ]? )"
             },
@@ -21306,7 +21307,7 @@
                 "dfnName": "color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1531
+                    "line": 1538
                 },
                 "value": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21316,7 +21317,7 @@
                 "dfnName": "<colorspace-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1532
+                    "line": 1539
                 },
                 "value": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
             },
@@ -21326,7 +21327,7 @@
                 "dfnName": "<custom-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1533
+                    "line": 1540
                 },
                 "value": "<dashed-ident> [ <number> | <percentage> | none ]+"
             },
@@ -21336,7 +21337,7 @@
                 "dfnName": "<predefined-rgb-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1534
+                    "line": 1541
                 },
                 "value": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
             },
@@ -21346,7 +21347,7 @@
                 "dfnName": "<predefined-rgb>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1535
+                    "line": 1542
                 },
                 "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
             },
@@ -21356,7 +21357,7 @@
                 "dfnName": "<xyz-params>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1536
+                    "line": 1543
                 },
                 "value": "<xyz> [ <number> | <percentage> | none ]{3}"
             },
@@ -21366,7 +21367,7 @@
                 "dfnName": "<xyz>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 1537
+                    "line": 1544
                 },
                 "value": "xyz | xyz-d50 | xyz-d65"
             },
@@ -21376,7 +21377,7 @@
                 "dfnName": "device-cmyk()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2315
+                    "line": 2322
                 },
                 "value": "<legacy-device-cmyk-syntax> | <modern-device-cmyk-syntax>"
             },
@@ -21386,7 +21387,7 @@
                 "dfnName": "<legacy-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2316
+                    "line": 2323
                 },
                 "value": "device-cmyk( <number>#{4} )"
             },
@@ -21396,7 +21397,7 @@
                 "dfnName": "<modern-device-cmyk-syntax>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2317
+                    "line": 2324
                 },
                 "value": "device-cmyk( <cmyk-component>{4} [ / [ <alpha-value> | none ] ]? )"
             },
@@ -21406,7 +21407,7 @@
                 "dfnName": "<cmyk-component>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2318
+                    "line": 2325
                 },
                 "value": "<number> | <percentage> | none"
             },
@@ -21416,7 +21417,7 @@
                 "dfnName": "light-dark()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2486
+                    "line": 2493
                 },
                 "attrs": {
                     "export": true
@@ -21429,7 +21430,7 @@
                 "dfnName": "contrast-color()",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2516
+                    "line": 2523
                 },
                 "attrs": {
                     "export": true
@@ -21442,7 +21443,7 @@
                 "dfnName": "<color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2562
+                    "line": 2569
                 },
                 "attrs": {
                     "export": true
@@ -21455,7 +21456,7 @@
                 "dfnName": "<rectangular-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2563
+                    "line": 2570
                 },
                 "attrs": {
                     "export": true
@@ -21468,7 +21469,7 @@
                 "dfnName": "<polar-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2564
+                    "line": 2571
                 },
                 "attrs": {
                     "export": true
@@ -21481,7 +21482,7 @@
                 "dfnName": "<custom-color-space>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2565
+                    "line": 2572
                 },
                 "attrs": {
                     "export": true
@@ -21494,7 +21495,7 @@
                 "dfnName": "<hue-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2566
+                    "line": 2573
                 },
                 "attrs": {
                     "export": true
@@ -21507,7 +21508,7 @@
                 "dfnName": "<color-interpolation-method>",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 2567
+                    "line": 2574
                 },
                 "attrs": {
                     "export id": "color-interpolation-method"
@@ -23087,7 +23088,7 @@
                 "dfnName": "<image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 73
+                    "line": 74
                 },
                 "value": "<url> | <image()> | <image-set()> | <cross-fade()> | <element()> | <gradient>"
             },
@@ -23097,7 +23098,7 @@
                 "dfnName": "<image-set-option>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 193
+                    "line": 194
                 },
                 "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]?"
             },
@@ -23107,7 +23108,7 @@
                 "dfnName": "image()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 386
+                    "line": 387
                 },
                 "value": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
             },
@@ -23117,7 +23118,7 @@
                 "dfnName": "<image-tags>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 387
+                    "line": 388
                 },
                 "value": "[ ltr | rtl ]"
             },
@@ -23127,7 +23128,7 @@
                 "dfnName": "<image-src>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 388
+                    "line": 389
                 },
                 "value": "[ <url> | <string> ]"
             },
@@ -23137,7 +23138,7 @@
                 "dfnName": "cross-fade()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 591
+                    "line": 592
                 },
                 "attrs": {
                     "caniuse": "css-cross-fade"
@@ -23150,7 +23151,7 @@
                 "dfnName": "<cf-image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 592
+                    "line": 593
                 },
                 "value": "[ <image> | <color> ] && <percentage [0,100]>?"
             },
@@ -23160,7 +23161,7 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 807
+                    "line": 808
                 },
                 "value": "element( <id-selector> )"
             },
@@ -23170,7 +23171,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1205
+                    "line": 1206
                 },
                 "value": "[\n<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()> |\n<conic-gradient()>  | <repeating-conic-gradient()> ]"
             },
@@ -23180,7 +23181,7 @@
                 "dfnName": "<linear-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1270
+                    "line": 1271
                 },
                 "value": "[ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? ,\n<color-stop-list>"
             },
@@ -23190,7 +23191,7 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1273
+                    "line": 1274
                 },
                 "value": "[left | right] || [top | bottom]"
             },
@@ -23200,7 +23201,7 @@
                 "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1440
+                    "line": 1441
                 },
                 "value": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
             },
@@ -23210,7 +23211,7 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1558
+                    "line": 1559
                 },
                 "value": "conic-gradient( [ <conic-gradient-syntax> ] )"
             },
@@ -23220,7 +23221,7 @@
                 "dfnName": "<conic-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1559
+                    "line": 1560
                 },
                 "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
             },
@@ -23230,7 +23231,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1834
+                    "line": 1835
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -23240,7 +23241,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1836
+                    "line": 1837
                 },
                 "value": "<color> <color-stop-length>?"
             },
@@ -23250,7 +23251,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1837
+                    "line": 1838
                 },
                 "value": "<length-percentage>"
             },
@@ -23260,7 +23261,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1838
+                    "line": 1839
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -23270,7 +23271,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1840
+                    "line": 1841
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -23280,7 +23281,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1842
+                    "line": 1843
                 },
                 "value": "<color> <color-stop-angle>?"
             },
@@ -23290,7 +23291,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1843
+                    "line": 1844
                 },
                 "value": "<angle-percentage>"
             },
@@ -23300,7 +23301,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1844
+                    "line": 1845
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -23310,7 +23311,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1846
+                    "line": 1847
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
@@ -25216,7 +25217,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-color-5",
-                    "line": 3067
+                    "line": 3074
                 },
                 "content": "[Exposed=Window]\ninterface CSSColorProfileRule : CSSRule {\n    readonly attribute CSSOMString name ;\n    readonly attribute CSSOMString src ;\n    readonly attribute CSSOMString renderingIntent ;\n    readonly attribute CSSOMString components ;\n};"
             },
@@ -25384,7 +25385,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1086
+                    "line": 1087
                 },
                 "content": "partial namespace CSS {\n    [SameObject] readonly attribute any elementSources;\n};"
             },
