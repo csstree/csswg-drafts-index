@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-11T00:43:40.548Z",
-    "elapsedTime": 320,
+    "createdAt": "2024-03-12T00:42:05.571Z",
+    "elapsedTime": 356,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "d661b595fde40d53a1da41536523bbc2245b1ef3",
-            "commitShort": "d661b595fd",
+            "commit": "2bccebba8bd93ab18982b840c011f8d3f83df5b8",
+            "commitShort": "2bccebba8b",
             "commitDate": null,
             "branch": "main"
         },
@@ -263,6 +263,7 @@
                     "tr": "https://www.w3.org/TR/css-anchor-position-1/",
                     "editor": [
                         "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199",
+                        "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Ian Kilpatrick, Google, w3cid 73001"
                     ],
                     "formerEditor": [
@@ -4447,7 +4448,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 121
+                    "line": 119
                 },
                 "props": {
                     "name": "anchor-name",
@@ -4463,7 +4464,24 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 295
+                    "line": 195
+                },
+                "props": {
+                    "name": "anchor-scope",
+                    "value": "none | all | <dashed-ident>#",
+                    "initial": "none",
+                    "appliesTo": "all elements",
+                    "inherited": "no",
+                    "animationType": "discrete",
+                    "computedValue": "as specified"
+                },
+                "name": "anchor-scope"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-anchor-position-1",
+                    "line": 390
                 },
                 "props": {
                     "name": "anchor-default",
@@ -4479,7 +4497,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 368
+                    "line": 463
                 },
                 "props": {
                     "name": "inset-area",
@@ -4495,7 +4513,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 756
+                    "line": 849
                 },
                 "props": {
                     "name": "justify-self",
@@ -4507,7 +4525,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 756
+                    "line": 849
                 },
                 "props": {
                     "name": "align-self",
@@ -4519,7 +4537,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 756
+                    "line": 849
                 },
                 "props": {
                     "name": "justify-items",
@@ -4531,7 +4549,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 756
+                    "line": 849
                 },
                 "props": {
                     "name": "align-items",
@@ -4543,7 +4561,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1006
+                    "line": 1099
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4559,7 +4577,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1122
+                    "line": 1215
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4575,7 +4593,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1206
+                    "line": 1299
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4591,7 +4609,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1260
+                    "line": 1353
                 },
                 "props": {
                     "name": "position-try",
@@ -4603,7 +4621,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1496
+                    "line": 1589
                 },
                 "props": {
                     "name": "position-animation",
@@ -7278,7 +7296,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 514
+                    "line": 522
                 },
                 "props": {
                     "name": "padding-top",
@@ -7297,7 +7315,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 514
+                    "line": 522
                 },
                 "props": {
                     "name": "padding-right",
@@ -7316,7 +7334,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 514
+                    "line": 522
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -7335,7 +7353,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 514
+                    "line": 522
                 },
                 "props": {
                     "name": "padding-left",
@@ -7354,7 +7372,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 534
+                    "line": 542
                 },
                 "props": {
                     "name": "padding",
@@ -7576,7 +7594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-break-4",
-                    "line": 1059
+                    "line": 1076
                 },
                 "props": {
                     "name": "box-decoration-break",
@@ -20417,7 +20435,7 @@
                 "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 387
+                    "line": 482
                 },
                 "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end\n    | self-block-start | self-block-end | span-self-block-start | span-self-block-end\n    | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end\n    | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
             },
@@ -20427,7 +20445,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 579
+                    "line": 672
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20437,7 +20455,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 580
+                    "line": 673
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20447,7 +20465,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 911
+                    "line": 1004
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20457,7 +20475,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1056
+                    "line": 1149
                 },
                 "attrs": {
                     "type": true
@@ -20470,7 +20488,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1135
+                    "line": 1228
                 },
                 "attrs": {
                     "type": true
@@ -24139,7 +24157,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4233
+                    "line": 4245
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -24149,7 +24167,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4234
+                    "line": 4246
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -24159,7 +24177,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4235
+                    "line": 4247
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -24169,7 +24187,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4237
+                    "line": 4249
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -24179,7 +24197,7 @@
                 "dfnName": "<<crossorigin-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 85
+                    "line": 185
                 },
                 "value": ""
             },
@@ -24189,7 +24207,7 @@
                 "dfnName": "<<integrity-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 94
+                    "line": 194
                 },
                 "value": ""
             },
@@ -24199,7 +24217,7 @@
                 "dfnName": "<<referrerpolicy-modifier>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 100
+                    "line": 200
                 },
                 "value": ""
             },
@@ -24209,7 +24227,7 @@
                 "dfnName": "<<progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 169
+                    "line": 269
                 },
                 "attrs": {
                     "id": "typedef-progress-fn"
@@ -24222,7 +24240,7 @@
                 "dfnName": "<<media-progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 201
+                    "line": 301
                 },
                 "value": "media-progress(<media-feature> from <calc-sum> to <calc-sum>)"
             },
@@ -24232,7 +24250,7 @@
                 "dfnName": "<<container-progress()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 230
+                    "line": 330
                 },
                 "value": "container-progress(<size-feature> [ of <container-name> ]? from <calc-sum> to <calc-sum>)"
             },
@@ -24242,7 +24260,7 @@
                 "dfnName": "<<calc-mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 384
+                    "line": 484
                 },
                 "value": "calc-mix( <progress>, <calc-sum>, <calc-sum> )"
             },
@@ -24252,7 +24270,7 @@
                 "dfnName": "<<transform-mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 455
+                    "line": 555
                 },
                 "value": "transform-mix( <progress>, <transform-list>, <transform-list> )"
             },
@@ -24262,7 +24280,7 @@
                 "dfnName": "<<mix()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 480
+                    "line": 580
                 },
                 "value": "mix( <progress> ';' <whole-value> ';' <whole-value> ) |\nmix( <progress> && of <'animation-name'> )"
             },
@@ -24272,7 +24290,7 @@
                 "dfnName": "<first-valid()>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 630
+                    "line": 730
                 },
                 "value": "first-valid( <declaration-value> [ ';' <declaration-value> ]* )"
             },
@@ -24282,7 +24300,7 @@
                 "dfnName": "<<toggle()>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 679
+                    "line": 779
                 },
                 "value": "toggle( <whole-value> [ ';' <whole-value> ]+ )"
             },
@@ -24292,7 +24310,7 @@
                 "dfnName": "<attr-name>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 799
+                    "line": 899
                 },
                 "value": "[ <ident-token> '|' ]? <ident-token>"
             },
@@ -24302,7 +24320,7 @@
                 "dfnName": "<attr-type>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 801
+                    "line": 901
                 },
                 "value": "string | url | ident | color | number | percentage |\nlength | angle | time | frequency | flex | <dimension-unit>"
             },
@@ -24312,7 +24330,7 @@
                 "dfnName": "<<random-caching-options>>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1068
+                    "line": 1168
                 },
                 "value": "<dashed-ident> || per-element"
             },
@@ -24322,7 +24340,7 @@
                 "dfnName": "<calc-size()>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1578
+                    "line": 1678
                 },
                 "attrs": {
                     "function lt": "calc-size()"
@@ -24335,7 +24353,7 @@
                 "dfnName": "<calc-size-basis>",
                 "source": {
                     "spec": "css-values-5",
-                    "line": 1580
+                    "line": 1680
                 },
                 "value": "[ <intrinsic-size-keyword> | <calc-size()> | any | <calc-sum> ]"
             },
