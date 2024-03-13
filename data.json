@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-12T00:42:05.571Z",
-    "elapsedTime": 356,
+    "createdAt": "2024-03-13T00:43:18.599Z",
+    "elapsedTime": 320,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "2bccebba8bd93ab18982b840c011f8d3f83df5b8",
-            "commitShort": "2bccebba8b",
+            "commit": "1b9e2a048f76b5d01aeb9a7b86775b42deb205a2",
+            "commitShort": "1b9e2a048f",
             "commitDate": null,
             "branch": "main"
         },
@@ -15539,7 +15539,7 @@
                 },
                 "props": {
                     "name": "text-wrap-style",
-                    "value": "auto| balance | stable | pretty",
+                    "value": "auto | balance | stable | pretty",
                     "initial": "auto",
                     "appliesTo": "[=block containers=] hat establish an [=inline formatting context=]",
                     "inherited": "yes",
