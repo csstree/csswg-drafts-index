@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-13T00:43:18.599Z",
-    "elapsedTime": 320,
+    "createdAt": "2024-03-14T00:42:03.203Z",
+    "elapsedTime": 317,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "1b9e2a048f76b5d01aeb9a7b86775b42deb205a2",
-            "commitShort": "1b9e2a048f",
+            "commit": "c8a6dfc9532587be600dd34f9ac68775a26e0557",
+            "commitShort": "c8a6dfc953",
             "commitDate": null,
             "branch": "main"
         },
@@ -712,7 +712,7 @@
                     "ed": "https://drafts.csswg.org/css-color-4/",
                     "tr": "https://www.w3.org/TR/css-color-4/",
                     "previousVersion": [
-                        "hhttps://www.w3.org/TR/2024/CRD-css-color-4-20240213/"
+                        "https://www.w3.org/TR/2024/CRD-css-color-4-20240213/"
                     ],
                     "shortname": "css-color",
                     "group": "csswg",
