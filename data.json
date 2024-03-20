@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-19T00:42:30.939Z",
-    "elapsedTime": 341,
+    "createdAt": "2024-03-20T00:42:21.891Z",
+    "elapsedTime": 346,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "663b4b573afbed017f205559a45d851ab6200e44",
-            "commitShort": "663b4b573a",
+            "commit": "db6a92d9ca407de3bda920d3e68a2c54e05ad018",
+            "commitShort": "db6a92d9ca",
             "commitDate": null,
             "branch": "main"
         },
@@ -900,7 +900,7 @@
                         "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Chris Lilley, W3C, https://svgees.us/, w3cid 1438"
                     ],
-                    "abstract": "This module contains the features of CSS\nfor conditional processing of parts of style sheets,\nbased on capabilities of the processor or the environment\nthe style sheet is being applied in.\nIt includes and extends the functionality of CSS Conditional 3 [[!css-conditional-3]],\nadding the ability to query support for particular selectors [[SELECTORS-4]]\nthrough the new ''selector()'' notation for [=supports queries=].",
+                    "abstract": "This module contains the features of CSS\nfor conditional processing of parts of style sheets,\nbased on capabilities of the processor or the environment\nthe style sheet is being applied in.\nIt includes and extends the functionality of CSS Conditional 3 [[!css-conditional-3]],\nadding the ability to query support for particular selectors [[SELECTORS-4]]\nthrough the new\n<a href=\"#typedef-supports-selector-fn\">''selector()''</a> notation for [=supports queries=].",
                     "defaultHighlight": "css",
                     "wptPathPrefix": "css/css-conditional/",
                     "wptDisplay": "open"
@@ -1764,7 +1764,8 @@
                         "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
                         "Lea Verou, Invited Expert, http://lea.verou.me/about, w3cid 52258"
                     ],
-                    "abstract": "This module contains the features of CSS level 4 relating to the <<image>> type and replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]] and in the previous level of this specification [[css-images-3]].\nThe main extensions compared to \"CSS Images Module Level 3\" [[css-images-3]] are several additions to the <<image>> type, such as the ''image()'' notation, the ''element()'' notation, and conic gradients.",
+                    "abstract": "This module contains the features of CSS level 4 relating to the <<image>> type and replaced elements.\nIt includes and extends the functionality of CSS level 2 [[CSS2]] and in the previous level of this specification [[css-images-3]].\nThe main extensions compared to \"CSS Images Module Level 3\" [[css-images-3]] are several additions to the <<image>> type, such as the ''image()'' notation, the ''element()'' notation, and conic gradients.\nThis level is currently maintained as a diff spec over the level 3 module.",
+                    "!deltaSpec": "yes",
                     "issueTracking": [
                         "Tracker http://www.w3.org/Style/CSS/Tracker/products/27"
                     ],
@@ -4514,7 +4515,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 849
+                    "line": 850
                 },
                 "props": {
                     "name": "justify-self",
@@ -4526,7 +4527,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 849
+                    "line": 850
                 },
                 "props": {
                     "name": "align-self",
@@ -4538,7 +4539,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 849
+                    "line": 850
                 },
                 "props": {
                     "name": "justify-items",
@@ -4550,7 +4551,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 849
+                    "line": 850
                 },
                 "props": {
                     "name": "align-items",
@@ -4562,7 +4563,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1099
+                    "line": 1100
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4578,7 +4579,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1215
+                    "line": 1216
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4594,7 +4595,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1299
+                    "line": 1300
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4610,7 +4611,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1353
+                    "line": 1354
                 },
                 "props": {
                     "name": "position-try",
@@ -4622,7 +4623,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1589
+                    "line": 1590
                 },
                 "props": {
                     "name": "position-animation",
@@ -10279,7 +10280,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1432
+                    "line": 1431
                 },
                 "props": {
                     "name": "object-fit",
@@ -10297,7 +10298,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1529
+                    "line": 1528
                 },
                 "props": {
                     "name": "object-position",
@@ -10316,7 +10317,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1573
+                    "line": 1572
                 },
                 "props": {
                     "name": "image-orientation",
@@ -10333,7 +10334,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 1702
+                    "line": 1701
                 },
                 "props": {
                     "name": "image-rendering",
@@ -10350,7 +10351,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2258
+                    "line": 2260
                 },
                 "props": {
                     "name": "object-fit",
@@ -10368,7 +10369,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 2558
+                    "line": 2560
                 },
                 "props": {
                     "name": "image-resolution",
@@ -13857,7 +13858,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 410
+                    "line": 541
                 },
                 "props": {
                     "name": "scroll-start-x",
@@ -13876,7 +13877,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 410
+                    "line": 541
                 },
                 "props": {
                     "name": "scroll-start-y",
@@ -13895,7 +13896,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 427
+                    "line": 558
                 },
                 "props": {
                     "name": "scroll-start-inline",
@@ -13914,7 +13915,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 427
+                    "line": 558
                 },
                 "props": {
                     "name": "scroll-start-block",
@@ -13933,7 +13934,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 443
+                    "line": 574
                 },
                 "props": {
                     "name": "scroll-start-target-block",
@@ -13952,7 +13953,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 443
+                    "line": 574
                 },
                 "props": {
                     "name": "scroll-start-target-inline",
@@ -13971,7 +13972,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 460
+                    "line": 591
                 },
                 "props": {
                     "name": "scroll-start-target-x",
@@ -13990,7 +13991,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 460
+                    "line": 591
                 },
                 "props": {
                     "name": "scroll-start-target-y",
@@ -20438,7 +20439,7 @@
                     "spec": "css-anchor-position-1",
                     "line": 482
                 },
-                "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end\n    | self-block-start | self-block-end | span-self-block-start | span-self-block-end\n    | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end\n    | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
+                "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | span-all ]\n|\n    [ self-block-start | self-block-end | span-self-block-start | span-self-block-end | span-all ]\n    ||\n    [ self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
             },
             {
                 "type": "prod",
@@ -20446,7 +20447,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 672
+                    "line": 673
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20456,7 +20457,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 673
+                    "line": 674
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20466,7 +20467,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1004
+                    "line": 1005
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20476,7 +20477,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1149
+                    "line": 1150
                 },
                 "attrs": {
                     "type": true
@@ -20489,7 +20490,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1228
+                    "line": 1229
                 },
                 "attrs": {
                     "type": true
@@ -21700,7 +21701,7 @@
                 "dfnName": "<supports-feature>",
                 "source": {
                     "spec": "css-conditional-4",
-                    "line": 53
+                    "line": 54
                 },
                 "value": "<supports-selector-fn> | <supports-decl>"
             },
@@ -21710,7 +21711,7 @@
                 "dfnName": "<supports-selector-fn>",
                 "source": {
                     "spec": "css-conditional-4",
-                    "line": 54
+                    "line": 55
                 },
                 "value": "selector( <complex-selector> )"
             },
@@ -23007,7 +23008,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 268
+                    "line": 267
                 },
                 "value": "<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()>"
             },
@@ -23017,7 +23018,7 @@
                 "dfnName": "<linear-gradient-syntax>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 336
+                    "line": 335
                 },
                 "value": "[ <angle> | to <side-or-corner> ]? , <color-stop-list>"
             },
@@ -23027,7 +23028,7 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 338
+                    "line": 337
                 },
                 "value": "[left | right] || [top | bottom]"
             },
@@ -23037,7 +23038,7 @@
                 "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 511
+                    "line": 510
                 },
                 "value": "[ <radial-shape> || <radial-size> ]? [ at <position> ]? ,\n<color-stop-list>"
             },
@@ -23047,7 +23048,7 @@
                 "dfnName": "<radial-size>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 515
+                    "line": 514
                 },
                 "value": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
             },
@@ -23057,7 +23058,7 @@
                 "dfnName": "<radial-extent>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 517
+                    "line": 516
                 },
                 "value": "closest-corner | closest-side | farthest-corner | farthest-side"
             },
@@ -23067,7 +23068,7 @@
                 "dfnName": "<radial-shape>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 519
+                    "line": 518
                 },
                 "value": "circle | ellipse"
             },
@@ -23077,7 +23078,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 900
+                    "line": 899
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -23087,7 +23088,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 902
+                    "line": 901
                 },
                 "value": "<color> <length-percentage>?"
             },
@@ -23097,7 +23098,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-3",
-                    "line": 903
+                    "line": 902
                 },
                 "value": "<length-percentage>"
             },
@@ -23107,7 +23108,7 @@
                 "dfnName": "<image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 74
+                    "line": 76
                 },
                 "value": "<url> | <image()> | <image-set()> | <cross-fade()> | <element()> | <gradient>"
             },
@@ -23117,7 +23118,7 @@
                 "dfnName": "<image-set-option>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 194
+                    "line": 196
                 },
                 "value": "[ <image> | <string> ]\n[ <resolution> || type(<string>) ]?"
             },
@@ -23127,7 +23128,7 @@
                 "dfnName": "image()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 387
+                    "line": 389
                 },
                 "value": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
             },
@@ -23137,7 +23138,7 @@
                 "dfnName": "<image-tags>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 388
+                    "line": 390
                 },
                 "value": "[ ltr | rtl ]"
             },
@@ -23147,7 +23148,7 @@
                 "dfnName": "<image-src>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 389
+                    "line": 391
                 },
                 "value": "[ <url> | <string> ]"
             },
@@ -23157,7 +23158,7 @@
                 "dfnName": "cross-fade()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 592
+                    "line": 594
                 },
                 "attrs": {
                     "caniuse": "css-cross-fade"
@@ -23170,7 +23171,7 @@
                 "dfnName": "<cf-image>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 593
+                    "line": 595
                 },
                 "value": "[ <image> | <color> ] && <percentage [0,100]>?"
             },
@@ -23180,7 +23181,7 @@
                 "dfnName": "element()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 808
+                    "line": 810
                 },
                 "value": "element( <id-selector> )"
             },
@@ -23190,7 +23191,7 @@
                 "dfnName": "<gradient>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1206
+                    "line": 1208
                 },
                 "value": "[\n<linear-gradient()> | <repeating-linear-gradient()> |\n<radial-gradient()> | <repeating-radial-gradient()> |\n<conic-gradient()>  | <repeating-conic-gradient()> ]"
             },
@@ -23200,7 +23201,7 @@
                 "dfnName": "<linear-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1271
+                    "line": 1273
                 },
                 "value": "[ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? ,\n<color-stop-list>"
             },
@@ -23210,7 +23211,7 @@
                 "dfnName": "<side-or-corner>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1274
+                    "line": 1276
                 },
                 "value": "[left | right] || [top | bottom]"
             },
@@ -23220,7 +23221,7 @@
                 "dfnName": "<radial-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1441
+                    "line": 1443
                 },
                 "value": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method>]? ,\n<color-stop-list>"
             },
@@ -23230,7 +23231,7 @@
                 "dfnName": "conic-gradient()",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1559
+                    "line": 1561
                 },
                 "value": "conic-gradient( [ <conic-gradient-syntax> ] )"
             },
@@ -23240,7 +23241,7 @@
                 "dfnName": "<conic-gradient-syntax>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1560
+                    "line": 1562
                 },
                 "value": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? ,\n<angular-color-stop-list>"
             },
@@ -23250,7 +23251,7 @@
                 "dfnName": "<color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1835
+                    "line": 1837
                 },
                 "value": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
             },
@@ -23260,7 +23261,7 @@
                 "dfnName": "<linear-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1837
+                    "line": 1839
                 },
                 "value": "<color> <color-stop-length>?"
             },
@@ -23270,7 +23271,7 @@
                 "dfnName": "<linear-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1838
+                    "line": 1840
                 },
                 "value": "<length-percentage>"
             },
@@ -23280,7 +23281,7 @@
                 "dfnName": "<color-stop-length>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1839
+                    "line": 1841
                 },
                 "value": "<length-percentage>{1,2}"
             },
@@ -23290,7 +23291,7 @@
                 "dfnName": "<angular-color-stop-list>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1841
+                    "line": 1843
                 },
                 "value": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
             },
@@ -23300,7 +23301,7 @@
                 "dfnName": "<angular-color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1843
+                    "line": 1845
                 },
                 "value": "<color> <color-stop-angle>?"
             },
@@ -23310,7 +23311,7 @@
                 "dfnName": "<angular-color-hint>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1844
+                    "line": 1846
                 },
                 "value": "<angle-percentage>"
             },
@@ -23320,7 +23321,7 @@
                 "dfnName": "<color-stop-angle>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1845
+                    "line": 1847
                 },
                 "value": "<angle-percentage>{1,2}"
             },
@@ -23330,7 +23331,7 @@
                 "dfnName": "<color-stop>",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1847
+                    "line": 1849
                 },
                 "value": "<color-stop-length> | <color-stop-angle>"
             },
@@ -25394,7 +25395,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-images-4",
-                    "line": 1087
+                    "line": 1089
                 },
                 "content": "partial namespace CSS {\n    [SameObject] readonly attribute any elementSources;\n};"
             },
@@ -25482,9 +25483,9 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-scroll-snap-2",
-                    "line": 289
+                    "line": 484
                 },
-                "content": "[Exposed=Window]\ninterface SnapEvent : Event {\n    constructor(DOMString type, optional SnapEventInit eventInitDict = {});\n    readonly attribute EventTarget? target;\n    readonly attribute SnapTargetList snappedTargets;\n    readonly attribute SnapTargetList snapTargets;\n    readonly attribute boolean invokedProgrammatically;\n    readonly attribute boolean smoothlyScrolled;\n};\n[Exposed=Window]\ninterface SnapTargetList {\n    readonly attribute SnapTargetArray x;\n    readonly attribute SnapTargetArray y;\n};\n[Exposed=Window]\ninterface SnapTargetArray {\n    readonly attribute unsigned long length;\n    getter EventTarget? item (unsigned long index);\n};\ndictionary SnapEventInit : EventModifierInit {\n    sequence&lt;EventTarget> snappedTargetsX = [];\n    sequence&lt;EventTarget> snappedTargetsY = [];\n    sequence&lt;EventTarget> snapTargetsListX = [];\n    sequence&lt;EventTarget> snapTargetsListY = [];\n};"
+                "content": "dictionary SnapEventInit : EventInit {\n    Node? snapTargetBlock;\n    Node? snapTargetInline;\n};\n[Exposed=Window]\ninterface SnapEvent : Event {\n    constructor(DOMString type, optional SnapEventInit eventInitDict = {});\n    readonly attribute Node? snapTargetBlock;\n    readonly attribute Node? snapTargetInline;\n};"
             },
             {
                 "type": "idl",
