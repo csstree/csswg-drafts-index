@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-20T00:42:21.891Z",
-    "elapsedTime": 346,
+    "createdAt": "2024-03-21T00:44:14.266Z",
+    "elapsedTime": 306,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "db6a92d9ca407de3bda920d3e68a2c54e05ad018",
-            "commitShort": "db6a92d9ca",
+            "commit": "ea5821e860e90ee09b499677fcc7f0921662a498",
+            "commitShort": "ea5821e860",
             "commitDate": null,
             "branch": "main"
         },
@@ -25197,7 +25197,7 @@
                     "spec": "css-animations-1",
                     "line": 1051
                 },
-                "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\n  attribute CSSOMString keyText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSKeyframeRule : CSSRule {\n  attribute CSSOMString keyText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleProperties style;\n};"
             },
             {
                 "type": "idl",
@@ -25349,13 +25349,13 @@
                     "spec": "css-fonts-4",
                     "line": 8226
                 },
-                "content": "[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSFontFaceDescriptors : CSSStyleDeclaration {\n    attribute [LegacyNullToEmptyString] CSSOMString src;\n    attribute [LegacyNullToEmptyString] CSSOMString fontFamily;\n    attribute [LegacyNullToEmptyString] CSSOMString font-family;\n    attribute [LegacyNullToEmptyString] CSSOMString fontStyle;\n    attribute [LegacyNullToEmptyString] CSSOMString font-style;\n    attribute [LegacyNullToEmptyString] CSSOMString fontWeight;\n    attribute [LegacyNullToEmptyString] CSSOMString fontStretch;\n    attribute [LegacyNullToEmptyString] CSSOMString font-stretch;\n    attribute [LegacyNullToEmptyString] CSSOMString unicodeRange;\n    attribute [LegacyNullToEmptyString] CSSOMString unicode-range;\n    attribute [LegacyNullToEmptyString] CSSOMString fontFeatureSettings;\n    attribute [LegacyNullToEmptyString] CSSOMString font-feature-settings;\n    attribute [LegacyNullToEmptyString] CSSOMString fontVariationSettings;\n    attribute [LegacyNullToEmptyString] CSSOMString font-variation-settings;\n    attribute [LegacyNullToEmptyString] CSSOMString fontNamedInstance;\n    attribute [LegacyNullToEmptyString] CSSOMString font-named-instance;\n    attribute [LegacyNullToEmptyString] CSSOMString fontDisplay;\n    attribute [LegacyNullToEmptyString] CSSOMString font-display;\n    attribute [LegacyNullToEmptyString] CSSOMString fontLanguageOverride;\n    attribute [LegacyNullToEmptyString] CSSOMString font-language-override;\n    attribute [LegacyNullToEmptyString] CSSOMString ascentOverride;\n    attribute [LegacyNullToEmptyString] CSSOMString ascent-override;\n    attribute [LegacyNullToEmptyString] CSSOMString descentOverride;\n    attribute [LegacyNullToEmptyString] CSSOMString descent-override;\n    attribute [LegacyNullToEmptyString] CSSOMString lineGapOverride;\n    attribute [LegacyNullToEmptyString] CSSOMString line-gap-override;\n};\n[Exposed=Window]\ninterface CSSFontFaceRule : CSSRule {\n    readonly attribute CSSFontFaceDescriptors style;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8239
+                    "line": 8269
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short FONT_FEATURE_VALUES_RULE = 14;\n};"
             },
@@ -25363,7 +25363,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8245
+                    "line": 8275
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontFeatureValuesRule : CSSRule {\n    attribute CSSOMString fontFamily;\n    readonly attribute CSSFontFeatureValuesMap annotation;\n    readonly attribute CSSFontFeatureValuesMap ornaments;\n    readonly attribute CSSFontFeatureValuesMap stylistic;\n    readonly attribute CSSFontFeatureValuesMap swash;\n    readonly attribute CSSFontFeatureValuesMap characterVariant;\n    readonly attribute CSSFontFeatureValuesMap styleset;\n    readonly attribute CSSFontFeatureValuesMap historicalForms;\n};\n[Exposed=Window]\ninterface CSSFontFeatureValuesMap {\n    maplike&lt;CSSOMString, sequence&lt;unsigned long&gt;&gt;;\n    undefined set(CSSOMString featureValueName,\n           (unsigned long or sequence&lt;unsigned long&gt;) values);\n};"
             },
@@ -25371,7 +25371,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-fonts-4",
-                    "line": 8303
+                    "line": 8333
                 },
                 "content": "[Exposed=Window]\ninterface CSSFontPaletteValuesRule : CSSRule {\n    readonly attribute CSSOMString name;\n    readonly attribute CSSOMString fontFamily;\n    readonly attribute CSSOMString basePalette;\n    readonly attribute CSSOMString overrideColors;\n};"
             },
@@ -25531,7 +25531,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 921
+                    "line": 923
                 },
                 "content": "partial interface Document {\n    ViewTransition startViewTransition(optional UpdateCallback updateCallback);\n};\ncallback UpdateCallback = Promise<any> ();"
             },
@@ -25539,7 +25539,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-1",
-                    "line": 982
+                    "line": 984
                 },
                 "content": "[Exposed=Window]\ninterface ViewTransition {\n    readonly attribute Promise<undefined> updateCallbackDone;\n    readonly attribute Promise<undefined> ready;\n    readonly attribute Promise<undefined> finished;\n    undefined skipTransition();\n};"
             },
@@ -25661,13 +25661,13 @@
                     "spec": "cssom-1",
                     "line": 1999
                 },
-                "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSGroupingRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSStyleRule : CSSGroupingRule {\n  attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleProperties style;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2038
+                    "line": 2040
                 },
                 "content": "[Exposed=Window]\ninterface CSSImportRule : CSSRule {\n  readonly attribute USVString href;\n  [SameObject, PutForwards=mediaText] readonly attribute MediaList media;\n  [SameObject] readonly attribute CSSStyleSheet? styleSheet;\n  readonly attribute CSSOMString? layerName;\n  readonly attribute CSSOMString? supportsText;\n};"
             },
@@ -25675,7 +25675,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2074
+                    "line": 2076
                 },
                 "content": "[Exposed=Window]\ninterface CSSGroupingRule : CSSRule {\n  [SameObject] readonly attribute CSSRuleList cssRules;\n  unsigned long insertRule(CSSOMString rule, optional unsigned long index = 0);\n  undefined deleteRule(unsigned long index);\n};"
             },
@@ -25683,23 +25683,23 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2108
+                    "line": 2110
                 },
-                "content": "[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSPageDescriptors : CSSStyleDeclaration {\n  attribute [LegacyNullToEmptyString] CSSOMString margin;\n  attribute [LegacyNullToEmptyString] CSSOMString marginTop;\n  attribute [LegacyNullToEmptyString] CSSOMString marginRight;\n  attribute [LegacyNullToEmptyString] CSSOMString marginBottom;\n  attribute [LegacyNullToEmptyString] CSSOMString marginLeft;\n  attribute [LegacyNullToEmptyString] CSSOMString margin-top;\n  attribute [LegacyNullToEmptyString] CSSOMString margin-right;\n  attribute [LegacyNullToEmptyString] CSSOMString margin-bottom;\n  attribute [LegacyNullToEmptyString] CSSOMString margin-left;\n  attribute [LegacyNullToEmptyString] CSSOMString size;\n  attribute [LegacyNullToEmptyString] CSSOMString marks;\n  attribute [LegacyNullToEmptyString] CSSOMString bleed;\n};\n[Exposed=Window]\ninterface CSSPageRule : CSSGroupingRule {\n           attribute CSSOMString selectorText;\n  [SameObject, PutForwards=cssText] readonly attribute CSSPageDescriptors style;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2144
+                    "line": 2164
                 },
-                "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
+                "content": "[Exposed=Window]\ninterface CSSMarginRule : CSSRule {\n  readonly attribute CSSOMString name;\n  [SameObject, PutForwards=cssText] readonly attribute CSSMarginDescriptors style;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2173
+                    "line": 2195
                 },
                 "content": "[Exposed=Window]\ninterface CSSNamespaceRule : CSSRule {\n  readonly attribute CSSOMString namespaceURI;\n  readonly attribute CSSOMString prefix;\n};"
             },
@@ -25707,15 +25707,15 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2365
+                    "line": 2390
                 },
-                "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
+                "content": "[Exposed=Window]\ninterface CSSStyleDeclaration {\n  [CEReactions] attribute CSSOMString cssText;\n  readonly attribute unsigned long length;\n  getter CSSOMString item(unsigned long index);\n  CSSOMString getPropertyValue(CSSOMString property);\n  CSSOMString getPropertyPriority(CSSOMString property);\n  [CEReactions] undefined setProperty(CSSOMString property, [LegacyNullToEmptyString] CSSOMString value, optional [LegacyNullToEmptyString] CSSOMString priority = \"\");\n  [CEReactions] CSSOMString removeProperty(CSSOMString property);\n  readonly attribute CSSRule? parentRule;\n};\n[Exposed=Window]\ninterface CSSStyleProperties : CSSStyleDeclaration {\n  [CEReactions] attribute [LegacyNullToEmptyString] CSSOMString cssFloat;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2972
+                    "line": 3001
                 },
                 "content": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleDeclaration style;\n};"
             },
@@ -25723,7 +25723,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2984
+                    "line": 3013
                 },
                 "content": "HTMLElement includes ElementCSSInlineStyle;"
             },
@@ -25731,7 +25731,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2990
+                    "line": 3019
                 },
                 "content": "SVGElement includes ElementCSSInlineStyle;"
             },
@@ -25739,7 +25739,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 2996
+                    "line": 3025
                 },
                 "content": "MathMLElement includes ElementCSSInlineStyle;"
             },
@@ -25747,7 +25747,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3003
+                    "line": 3032
                 },
                 "content": "partial interface Window {\n  [NewObject] CSSStyleDeclaration getComputedStyle(Element elt, optional CSSOMString? pseudoElt);\n};"
             },
@@ -25755,7 +25755,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-1",
-                    "line": 3074
+                    "line": 3104
                 },
                 "content": "[Exposed=Window]\nnamespace CSS {\n  CSSOMString escape(CSSOMString ident);\n};"
             },
@@ -25813,13 +25813,13 @@
                     "spec": "cssom-view-1",
                     "line": 1154
                 },
-                "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\ndictionary CheckVisibilityOptions {\n    boolean checkOpacity = false;\n    boolean checkVisibilityCSS = false;\n    boolean contentVisibilityAuto = false;\n    boolean opacityProperty = false;\n    boolean visibilityProperty = false;\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n};"
+                "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\ndictionary CheckVisibilityOptions {\n    boolean checkOpacity = false;\n    boolean checkVisibilityCSS = false;\n    boolean contentVisibilityAuto = false;\n    boolean opacityProperty = false;\n    boolean visibilityProperty = false;\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n  readonly attribute double currentCSSZoom;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1535
+                    "line": 1538
                 },
                 "content": "partial interface HTMLElement {\n  readonly attribute Element? offsetParent;\n  readonly attribute long offsetTop;\n  readonly attribute long offsetLeft;\n  readonly attribute long offsetWidth;\n  readonly attribute long offsetHeight;\n};"
             },
@@ -25827,7 +25827,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1610
+                    "line": 1613
                 },
                 "content": "partial interface HTMLImageElement {\n  readonly attribute long x;\n  readonly attribute long y;\n};"
             },
@@ -25835,7 +25835,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1628
+                    "line": 1631
                 },
                 "content": "partial interface Range {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n};"
             },
@@ -25843,7 +25843,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1671
+                    "line": 1674
                 },
                 "content": "partial interface MouseEvent {\n  readonly attribute double screenX;\n  readonly attribute double screenY;\n  readonly attribute double pageX;\n  readonly attribute double pageY;\n  readonly attribute double clientX;\n  readonly attribute double clientY;\n  readonly attribute double x;\n  readonly attribute double y;\n  readonly attribute double offsetX;\n  readonly attribute double offsetY;\n};\npartial dictionary MouseEventInit {\n  double screenX = 0.0;\n  double screenY = 0.0;\n  double clientX = 0.0;\n  double clientY = 0.0;\n};"
             },
@@ -25851,7 +25851,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1740
+                    "line": 1743
                 },
                 "content": "enum CSSBoxType { \"margin\", \"border\", \"padding\", \"content\" };\ndictionary BoxQuadOptions {\n  CSSBoxType box = \"border\";\n  GeometryNode relativeTo; // XXX default document (i.e. viewport)\n};\ndictionary ConvertCoordinateOptions {\n  CSSBoxType fromBox = \"border\";\n  CSSBoxType toBox = \"border\";\n};\ninterface mixin GeometryUtils {\n  sequence&lt;DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};\nText includes GeometryUtils; // like Range\nElement includes GeometryUtils;\nCSSPseudoElement includes GeometryUtils;\nDocument includes GeometryUtils;\ntypedef (Text or Element or CSSPseudoElement or Document) GeometryNode;"
             },
@@ -25859,7 +25859,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "cssom-view-1",
-                    "line": 1813
+                    "line": 1816
                 },
                 "content": "[Exposed=Window]\ninterface VisualViewport : EventTarget {\n  readonly attribute double offsetLeft;\n  readonly attribute double offsetTop;\n  readonly attribute double pageLeft;\n  readonly attribute double pageTop;\n  readonly attribute double width;\n  readonly attribute double height;\n  readonly attribute double scale;\n  attribute EventHandler onresize;\n  attribute EventHandler onscroll;\n  attribute EventHandler onscrollend;\n};"
             },
