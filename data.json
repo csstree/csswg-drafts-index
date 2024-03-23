@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-22T00:42:31.260Z",
-    "elapsedTime": 324,
+    "createdAt": "2024-03-23T00:41:40.094Z",
+    "elapsedTime": 296,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "7b7b5cbb68b3636162ac1ab36d4e6827b3a28488",
-            "commitShort": "7b7b5cbb68",
+            "commit": "dbdd87d907d9e7b6334aa52b6b589f6ce3b28771",
+            "commitShort": "dbdd87d907",
             "commitDate": null,
             "branch": "main"
         },
@@ -3393,7 +3393,6 @@
                     "shortname": "css-values",
                     "level": "3",
                     "status": "ED",
-                    "prepareForTr": "no",
                     "deadline": "2022-02-22",
                     "workStatus": "Testing",
                     "implementationReport": "https://drafts.csswg.org/css-values-3/implementation-report.html",
@@ -3416,7 +3415,7 @@
                         "Cn+1",
                         "n"
                     ],
-                    "inlineGithubIssues": "yes",
+                    "inlineGithubIssues": "no",
                     "defaultHighlight": "css"
                 }
             },
@@ -6998,7 +6997,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 299
+                    "line": 307
                 },
                 "props": {
                     "name": "margin-top",
@@ -7017,7 +7016,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 299
+                    "line": 307
                 },
                 "props": {
                     "name": "margin-right",
@@ -7036,7 +7035,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 299
+                    "line": 307
                 },
                 "props": {
                     "name": "margin-bottom",
@@ -7055,7 +7054,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 299
+                    "line": 307
                 },
                 "props": {
                     "name": "margin-left",
@@ -7074,7 +7073,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 323
+                    "line": 331
                 },
                 "props": {
                     "name": "margin",
@@ -7092,7 +7091,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 395
+                    "line": 403
                 },
                 "props": {
                     "name": "padding-top",
@@ -7111,7 +7110,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 395
+                    "line": 403
                 },
                 "props": {
                     "name": "padding-right",
@@ -7130,7 +7129,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 395
+                    "line": 403
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -7149,7 +7148,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 395
+                    "line": 403
                 },
                 "props": {
                     "name": "padding-left",
@@ -7168,7 +7167,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 418
+                    "line": 426
                 },
                 "props": {
                     "name": "padding",
@@ -7186,7 +7185,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 286
+                    "line": 303
                 },
                 "props": {
                     "name": "margin-top",
@@ -7205,7 +7204,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 286
+                    "line": 303
                 },
                 "props": {
                     "name": "margin-right",
@@ -7224,7 +7223,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 286
+                    "line": 303
                 },
                 "props": {
                     "name": "margin-bottom",
@@ -7243,7 +7242,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 286
+                    "line": 303
                 },
                 "props": {
                     "name": "margin-left",
@@ -7262,7 +7261,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 307
+                    "line": 324
                 },
                 "props": {
                     "name": "margin",
@@ -7280,7 +7279,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 357
+                    "line": 374
                 },
                 "props": {
                     "name": "margin-trim",
@@ -7298,7 +7297,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 522
+                    "line": 539
                 },
                 "props": {
                     "name": "padding-top",
@@ -7317,7 +7316,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 522
+                    "line": 539
                 },
                 "props": {
                     "name": "padding-right",
@@ -7336,7 +7335,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 522
+                    "line": 539
                 },
                 "props": {
                     "name": "padding-bottom",
@@ -7355,7 +7354,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 522
+                    "line": 539
                 },
                 "props": {
                     "name": "padding-left",
@@ -7374,7 +7373,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 542
+                    "line": 559
                 },
                 "props": {
                     "name": "padding",
@@ -17353,27 +17352,10 @@
                 "name": "view-transition-name"
             },
             {
-                "type": "prop",
-                "source": {
-                    "spec": "css-view-transitions-2",
-                    "line": 260
-                },
-                "props": {
-                    "name": "view-transition-class",
-                    "value": "none | <custom-ident>+",
-                    "initial": "none",
-                    "inherited": "no",
-                    "percentages": "n/a",
-                    "computedValue": "as specified",
-                    "animationType": "discrete"
-                },
-                "name": "view-transition-class"
-            },
-            {
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 413
+                    "line": 377
                 },
                 "props": {
                     "name": "navigation",
@@ -17387,7 +17369,7 @@
                 "type": "descriptor",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 440
+                    "line": 530
                 },
                 "props": {
                     "name": "type",
@@ -17396,6 +17378,23 @@
                     "initial": "none"
                 },
                 "name": "type"
+            },
+            {
+                "type": "prop",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 596
+                },
+                "props": {
+                    "name": "view-transition-class",
+                    "value": "none | <custom-ident>+",
+                    "initial": "none",
+                    "inherited": "no",
+                    "percentages": "n/a",
+                    "computedValue": "as specified",
+                    "animationType": "discrete"
+                },
+                "name": "view-transition-class"
             },
             {
                 "type": "prop",
@@ -20743,7 +20742,7 @@
                 "dfnName": "<<visual-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 270
+                    "line": 278
                 },
                 "value": "content-box | padding-box | border-box"
             },
@@ -20753,7 +20752,7 @@
                 "dfnName": "<<layout-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 271
+                    "line": 279
                 },
                 "value": "<visual-box> | margin-box"
             },
@@ -20763,7 +20762,7 @@
                 "dfnName": "<<paint-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 272
+                    "line": 280
                 },
                 "value": "<visual-box> | fill-box | stroke-box"
             },
@@ -20773,7 +20772,7 @@
                 "dfnName": "<<coord-box>>",
                 "source": {
                     "spec": "css-box-3",
-                    "line": 273
+                    "line": 281
                 },
                 "value": "<paint-box> | view-box"
             },
@@ -20783,7 +20782,7 @@
                 "dfnName": "<<visual-box>>",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 255
+                    "line": 272
                 },
                 "value": "content-box | padding-box | border-box"
             },
@@ -20793,7 +20792,7 @@
                 "dfnName": "<<layout-box>>",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 256
+                    "line": 273
                 },
                 "value": "<visual-box> | margin-box"
             },
@@ -20803,7 +20802,7 @@
                 "dfnName": "<<paint-box>>",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 257
+                    "line": 274
                 },
                 "value": "<visual-box> | fill-box | stroke-box"
             },
@@ -20813,7 +20812,7 @@
                 "dfnName": "<<coord-box>>",
                 "source": {
                     "spec": "css-box-4",
-                    "line": 258
+                    "line": 275
                 },
                 "value": "<paint-box> | view-box"
             },
@@ -24073,7 +24072,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 528
+                    "line": 610
                 },
                 "attrs": {
                     "id": "url-value"
@@ -24086,7 +24085,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1894
+                    "line": 2022
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -24096,7 +24095,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1895
+                    "line": 2023
                 },
                 "value": "<calc-value> [ '*' <calc-value> | '/' <calc-number-value> ]*"
             },
@@ -24106,7 +24105,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1896
+                    "line": 2024
                 },
                 "value": "<number> | <dimension> | <percentage> | ( <calc-sum> )"
             },
@@ -24116,7 +24115,7 @@
                 "dfnName": "<calc-number-sum>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1897
+                    "line": 2025
                 },
                 "value": "<calc-number-product> [ [ '+' | '-' ] <calc-number-product> ]*"
             },
@@ -24126,7 +24125,7 @@
                 "dfnName": "<calc-number-product>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1898
+                    "line": 2026
                 },
                 "value": "<calc-number-value> [ '*' <calc-number-value> | '/' <calc-number-value> ]*"
             },
@@ -24136,7 +24135,7 @@
                 "dfnName": "<calc-number-value>",
                 "source": {
                     "spec": "css-values-3",
-                    "line": 1899
+                    "line": 2027
                 },
                 "value": "<number> | ( <calc-number-sum> )"
             },
@@ -24146,7 +24145,7 @@
                 "dfnName": "<url>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 912
+                    "line": 921
                 },
                 "attrs": {
                     "id": "url-value"
@@ -24159,7 +24158,7 @@
                 "dfnName": "<calc-sum>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4245
+                    "line": 4264
                 },
                 "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
             },
@@ -24169,7 +24168,7 @@
                 "dfnName": "<calc-product>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4246
+                    "line": 4265
                 },
                 "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
             },
@@ -24179,7 +24178,7 @@
                 "dfnName": "<calc-value>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4247
+                    "line": 4266
                 },
                 "value": "<number> | <dimension> | <percentage> |\n<calc-keyword> | ( <calc-sum> )"
             },
@@ -24189,7 +24188,7 @@
                 "dfnName": "<calc-keyword>",
                 "source": {
                     "spec": "css-values-4",
-                    "line": 4249
+                    "line": 4268
                 },
                 "value": "e | pi | infinity | -infinity | NaN\n<rounding-strategy> = nearest | up | down | to-zero"
             },
@@ -24395,7 +24394,7 @@
                 "dfnName": "<pt-class-selector>",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 373
+                    "line": 644
                 },
                 "value": "['.' <custom-ident>]*"
             },
@@ -25547,15 +25546,7 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 462
-                },
-                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? type = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
-            },
-            {
-                "type": "idl",
-                "source": {
-                    "spec": "css-view-transitions-2",
-                    "line": 505
+                    "line": 405
                 },
                 "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
             },
@@ -25563,17 +25554,25 @@
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 515
+                    "line": 413
                 },
-                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute DOMTokenList typeList;\n};"
+                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionTypeSet {\n    readonly setlike<CSSOMString>;\n};\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute CSSViewTransitionTypeSet types;\n};"
             },
             {
                 "type": "idl",
                 "source": {
                     "spec": "css-view-transitions-2",
-                    "line": 560
+                    "line": 513
                 },
-                "content": "partial interface ViewTransition {\n    readonly attribute DOMTokenList typeList;\n};"
+                "content": "interface ViewTransitionTypeSet {\n    setlike<DOMString>;\n};\n[Exposed=Window]\npartial interface ViewTransition {\n    attribute ViewTransitionTypeSet types;\n};"
+            },
+            {
+                "type": "idl",
+                "source": {
+                    "spec": "css-view-transitions-2",
+                    "line": 661
+                },
+                "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? types = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
             },
             {
                 "type": "idl",
