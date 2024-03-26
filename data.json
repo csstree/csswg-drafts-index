@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-25T00:44:15.960Z",
-    "elapsedTime": 322,
+    "createdAt": "2024-03-26T00:42:55.024Z",
+    "elapsedTime": 319,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "dbdd87d907d9e7b6334aa52b6b589f6ce3b28771",
-            "commitShort": "dbdd87d907",
+            "commit": "6e7ae335dc6215e65d7338779f4165de1814351d",
+            "commitShort": "6e7ae335dc",
             "commitDate": null,
             "branch": "main"
         },
@@ -4233,7 +4233,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 908
+                    "line": 909
                 },
                 "props": {
                     "name": "align-content",
@@ -4251,7 +4251,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 919
+                    "line": 920
                 },
                 "props": {
                     "name": "justify-content",
@@ -4269,7 +4269,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1086
+                    "line": 1090
                 },
                 "props": {
                     "name": "place-content",
@@ -4287,7 +4287,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1289
+                    "line": 1293
                 },
                 "props": {
                     "name": "justify-self",
@@ -4305,7 +4305,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1515
+                    "line": 1519
                 },
                 "props": {
                     "name": "align-self",
@@ -4323,7 +4323,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1705
+                    "line": 1709
                 },
                 "props": {
                     "name": "place-self",
@@ -4341,7 +4341,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1867
+                    "line": 1871
                 },
                 "props": {
                     "name": "justify-items",
@@ -4359,7 +4359,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1904
+                    "line": 1908
                 },
                 "props": {
                     "name": "align-items",
@@ -4377,7 +4377,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1924
+                    "line": 1928
                 },
                 "props": {
                     "name": "place-items",
@@ -4395,7 +4395,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1972
+                    "line": 1976
                 },
                 "props": {
                     "name": "row-gap",
@@ -4413,7 +4413,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 1972
+                    "line": 1976
                 },
                 "props": {
                     "name": "column-gap",
@@ -4431,7 +4431,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-align-3",
-                    "line": 2061
+                    "line": 2065
                 },
                 "props": {
                     "name": "gap",
@@ -4465,7 +4465,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 195
+                    "line": 205
                 },
                 "props": {
                     "name": "anchor-scope",
@@ -4482,7 +4482,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 390
+                    "line": 402
                 },
                 "props": {
                     "name": "position-anchor",
@@ -4498,7 +4498,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 463
+                    "line": 490
                 },
                 "props": {
                     "name": "inset-area",
@@ -4514,7 +4514,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 850
+                    "line": 877
                 },
                 "props": {
                     "name": "justify-self",
@@ -4526,7 +4526,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 850
+                    "line": 877
                 },
                 "props": {
                     "name": "align-self",
@@ -4538,7 +4538,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 850
+                    "line": 877
                 },
                 "props": {
                     "name": "justify-items",
@@ -4550,7 +4550,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 850
+                    "line": 877
                 },
                 "props": {
                     "name": "align-items",
@@ -4562,7 +4562,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1100
+                    "line": 1127
                 },
                 "props": {
                     "name": "position-try-options",
@@ -4578,7 +4578,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1216
+                    "line": 1243
                 },
                 "props": {
                     "name": "position-try-order",
@@ -4594,7 +4594,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1300
+                    "line": 1327
                 },
                 "props": {
                     "name": "position-try-final",
@@ -4610,7 +4610,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1354
+                    "line": 1381
                 },
                 "props": {
                     "name": "position-try",
@@ -4622,7 +4622,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1590
+                    "line": 1641
                 },
                 "props": {
                     "name": "position-animation",
@@ -12008,7 +12008,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 423
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-x",
@@ -12027,7 +12027,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 423
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-y",
@@ -12046,7 +12046,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 423
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-block",
@@ -12065,7 +12065,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 423
+                    "line": 424
                 },
                 "props": {
                     "name": "overflow-inline",
@@ -12084,7 +12084,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 450
+                    "line": 451
                 },
                 "props": {
                     "name": "overflow",
@@ -12102,7 +12102,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 606
+                    "line": 607
                 },
                 "props": {
                     "name": "overflow-clip-margin",
@@ -12119,7 +12119,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 690
+                    "line": 691
                 },
                 "props": {
                     "name": "scroll-behavior",
@@ -12137,7 +12137,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 814
+                    "line": 815
                 },
                 "props": {
                     "name": "scrollbar-gutter",
@@ -12154,7 +12154,7 @@
                 "type": "prop",
                 "source": {
                     "spec": "css-overflow-3",
-                    "line": 975
+                    "line": 976
                 },
                 "props": {
                     "name": "text-overflow",
@@ -17372,12 +17372,12 @@
                     "line": 530
                 },
                 "props": {
-                    "name": "type",
+                    "name": "types",
                     "for": "@view-transition",
                     "value": "none | <custom-ident>+",
                     "initial": "none"
                 },
-                "name": "type"
+                "name": "types"
             },
             {
                 "type": "prop",
@@ -20436,7 +20436,7 @@
                 "dfnName": "<inset-area>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 482
+                    "line": 509
                 },
                 "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | span-all ]\n|\n    [ self-block-start | self-block-end | span-self-block-start | span-self-block-end | span-all ]\n    ||\n    [ self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
             },
@@ -20446,7 +20446,7 @@
                 "dfnName": "<<anchor-element>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 673
+                    "line": 700
                 },
                 "value": "<dashed-ident> | implicit"
             },
@@ -20456,7 +20456,7 @@
                 "dfnName": "<<anchor-side>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 674
+                    "line": 701
                 },
                 "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
             },
@@ -20466,7 +20466,7 @@
                 "dfnName": "<<anchor-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1005
+                    "line": 1032
                 },
                 "value": "width | height | block | inline | self-block | self-inline"
             },
@@ -20476,7 +20476,7 @@
                 "dfnName": "<<try-tactic>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1150
+                    "line": 1177
                 },
                 "attrs": {
                     "type": true
@@ -20489,7 +20489,7 @@
                 "dfnName": "<<try-size>>",
                 "source": {
                     "spec": "css-anchor-position-1",
-                    "line": 1229
+                    "line": 1256
                 },
                 "attrs": {
                     "type": true
