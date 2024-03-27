@@ -1,12 +1,12 @@
 {
     "name": "CSSWG drafts index",
-    "createdAt": "2024-03-26T00:42:55.024Z",
-    "elapsedTime": 319,
+    "createdAt": "2024-03-27T00:42:51.646Z",
+    "elapsedTime": 321,
     "data": {
         "source": {
             "home": "https://github.com/w3c/csswg-drafts/",
-            "commit": "6e7ae335dc6215e65d7338779f4165de1814351d",
-            "commitShort": "6e7ae335dc",
+            "commit": "0817f0b431d3c16693ecac0c665dbabd921f8c8c",
+            "commitShort": "0817f0b431",
             "commitDate": null,
             "branch": "main"
         },
@@ -25556,7 +25556,7 @@
                     "spec": "css-view-transitions-2",
                     "line": 413
                 },
-                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionTypeSet {\n    readonly setlike<CSSOMString>;\n};\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    attribute ViewTransitionNavigation navigation;\n    attribute CSSViewTransitionTypeSet types;\n};"
+                "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionTypeSet {\n    readonly setlike<CSSOMString>;\n};\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    readonly attribute ViewTransitionNavigation navigation;\n    readonly attribute CSSViewTransitionTypeSet types;\n};"
             },
             {
                 "type": "idl",
