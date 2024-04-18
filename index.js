@@ -1,7 +1,8 @@
 const path = require('path');
 const fs = require('fs');
-const getRepoInfo = require('git-repo-info');
+const { createGitReader } = require('@discoveryjs/scan-git');
 const CSSWG_PATH = path.resolve('./csswg-drafts');
+const CSSWG_BRANCH = 'main';
 // const knownProperties = new Set(require('./real-web-css/scripts/usage/Declaration.json').valid);
 const ignoreDirs = new Set([
     'indexes',
@@ -360,7 +361,7 @@ function processBs(fn) {
     }
 }
 
-module.exports = function generateData() {
+module.exports = async function generateData() {
     fs.readdirSync(CSSWG_PATH).forEach(function(p) {
         const fpath = path.join(CSSWG_PATH, p);
 
@@ -387,19 +388,17 @@ module.exports = function generateData() {
         }
     });
 
-    const {
-        sha: commit,
-        abbreviatedSha: commitShort,
-        branch,
-        committerDate: commitDate
-    } = getRepoInfo(CSSWG_PATH);
+    const gitReader = await createGitReader(path.join(CSSWG_PATH, '.git'));
+    const commit = await gitReader.readCommit(CSSWG_BRANCH);
+
     return {
         source: {
             home: 'https://github.com/w3c/csswg-drafts/',
-            commit,
-            commitShort,
-            commitDate,
-            branch
+            commit: commit.oid,
+            commitShort: commit.oid.slice(0, 10),
+            commitDate: new Date(commit.author.timestamp * 1000).toISOString(),
+            checkDate: new Date().toISOString(),
+            branch: 'main'
         },
         specs,
         defs,

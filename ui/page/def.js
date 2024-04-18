@@ -15,7 +15,7 @@ const definitionConfig = {
 
 discovery.page.define('def', {
     view: 'context',
-    data: 'defs.pick(<id = #.id>)',
+    data: 'defs[=>id = #.id]',
     content: [
         {
             view: 'page-header',

@@ -13,11 +13,10 @@
     "build": "discovery-build -o .gh-pages --pretty-data --clean",
     "postinstall": "npm run sync"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@discoveryjs/discovery": "1.0.0-beta.60",
-    "@discoveryjs/cli": "2.0.0-beta.11",
-    "css-tree": "^1.1.2",
-    "git-repo-info": "^2.1.0"
+    "@discoveryjs/cli": "2.7.2",
+    "@discoveryjs/discovery": "1.0.0-beta.83",
+    "@discoveryjs/scan-git": "^0.1.3",
+    "css-tree": "^2.3.1"
   }
 }
