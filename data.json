@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "2a4e001ab43cea41bf92414823ba5c1f164c8f4a",
-        "commitShort": "2a4e001ab4",
-        "commitDate": "2024-04-17T08:28:16.000Z",
-        "checkDate": "2024-04-18T15:32:13.622Z",
+        "commit": "e5547b96f5de6fb5a68d050f42d562c448b99d0b",
+        "commitShort": "e5547b96f5",
+        "commitDate": "2024-04-18T19:49:03.000Z",
+        "checkDate": "2024-04-19T00:43:49.111Z",
         "branch": "main"
     },
     "specs": [
@@ -23716,7 +23716,7 @@
             "dfnName": "<an+b>",
             "source": {
                 "spec": "css-syntax-3",
-                "line": 3287
+                "line": 3333
             },
             "attrs": {
                 "id": "anb-production"
@@ -25455,6 +25455,14 @@
                 "line": 593
             },
             "content": "[Exposed=Window]\ninterface NavigationEvent : UIEvent {\n    constructor(DOMString type,\n                optional NavigationEventInit eventInitDict = {});\n    readonly attribute SpatialNavigationDirection dir;\n    readonly attribute EventTarget? relatedTarget;\n};\ndictionary NavigationEventInit : UIEventInit {\n    SpatialNavigationDirection dir;\n    EventTarget? relatedTarget = null;\n};"
+        },
+        {
+            "type": "idl",
+            "source": {
+                "spec": "css-nesting-1",
+                "line": 1362
+            },
+            "content": "[Exposed=Window]\ninterface CSSNestRule : CSSGroupingRule {\n    [SameObject, PutForwards=cssText] readonly attribute CSSStyleProperties style;\n};"
         },
         {
             "type": "idl",
