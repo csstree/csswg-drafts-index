@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "3e64a486cfcf776521cbd231797172304c1eafb6",
-        "commitShort": "3e64a486cf",
-        "commitDate": "2024-04-22T23:34:00.000Z",
-        "checkDate": "2024-04-23T00:44:11.386Z",
+        "commit": "a6db2ca649cbc62cfc421e17c12dcf3ac809326d",
+        "commitShort": "a6db2ca649",
+        "commitDate": "2024-04-23T19:41:10.000Z",
+        "checkDate": "2024-04-24T00:44:03.898Z",
         "branch": "main"
     },
     "specs": [
