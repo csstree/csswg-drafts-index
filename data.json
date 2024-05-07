@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "f0de23017382a3a5100164410e2b4b48a871076f",
-        "commitShort": "f0de230173",
-        "commitDate": "2024-05-03T14:45:37.000Z",
-        "checkDate": "2024-05-06T00:46:04.203Z",
+        "commit": "198b70cf0625fea62873ace43b77a4c4f90d4e03",
+        "commitShort": "198b70cf06",
+        "commitDate": "2024-05-06T19:16:34.000Z",
+        "checkDate": "2024-05-07T00:45:04.012Z",
         "branch": "main"
     },
     "specs": [
@@ -2022,8 +2022,10 @@
                 "group": "CSSWG",
                 "shortname": "css-multicol",
                 "level": "1",
-                "status": "ED",
-                "prepareForTr": "no",
+                "status": "CR",
+                "prepareForTr": "yes",
+                "date": "2024-05-09",
+                "deadline": "2024-07-09",
                 "implementationReport": "https://test.csswg.org/harness/results/css-multicol-1_dev/grouped/",
                 "workStatus": "Testing",
                 "wptPathPrefix": "/css/css-multicol/",
@@ -2057,7 +2059,7 @@
                 "abstract": "This specification describes multi-column layouts in CSS, a style sheet language for the web. Using functionality described in the specification, content can be flowed into multiple columns with a gap and a rule between them.",
                 "linkDefaults": [
                     "css-color (property) color",
-                    "css21 (property) max-height",
+                    "css-sizing-3 (property) max-height",
                     "css-backgrounds-3 (value) hidden"
                 ],
                 "includeCanIUsePanels": "yes"
@@ -3563,13 +3565,14 @@
             "id": "css-view-transitions-2",
             "props": {
                 "title": "CSS View Transitions Module Level 2",
-                "shortname": "css-view-transitions-2",
+                "shortname": "css-view-transitions",
                 "level": "2",
-                "status": "ED",
+                "status": "FPWD",
                 "group": "csswg",
-                "date": "2023-05-30",
+                "date": "2024-05-09",
                 "prepareForTr": "yes",
                 "ed": "https://drafts.csswg.org/css-view-transitions-2/",
+                "tr": "https://www.w3.org/TR/css-view-transitions-2/",
                 "workStatus": "exploring",
                 "editor": [
                     "Noam Rosenthal, Google, w3cid 121539",
@@ -11809,7 +11812,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 688
+                "line": 693
             },
             "props": {
                 "name": "column-width",
@@ -11827,7 +11830,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 787
+                "line": 792
             },
             "props": {
                 "name": "column-count",
@@ -11845,7 +11848,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 846
+                "line": 851
             },
             "props": {
                 "name": "columns",
@@ -11857,7 +11860,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1114
+                "line": 1118
             },
             "props": {
                 "name": "column-rule-color",
@@ -11875,7 +11878,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1145
+                "line": 1149
             },
             "props": {
                 "name": "column-rule-style",
@@ -11893,7 +11896,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1170
+                "line": 1174
             },
             "props": {
                 "name": "column-rule-width",
@@ -11911,7 +11914,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1198
+                "line": 1202
             },
             "props": {
                 "name": "column-rule",
@@ -11923,7 +11926,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1290
+                "line": 1294
             },
             "props": {
                 "name": "column-span",
@@ -11941,7 +11944,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-multicol-1",
-                "line": 1710
+                "line": 1714
             },
             "props": {
                 "name": "column-fill",
@@ -17371,7 +17374,7 @@
             "type": "descriptor",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 410
+                "line": 411
             },
             "props": {
                 "name": "navigation",
@@ -17385,7 +17388,7 @@
             "type": "descriptor",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 564
+                "line": 565
             },
             "props": {
                 "name": "types",
@@ -17399,7 +17402,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 630
+                "line": 631
             },
             "props": {
                 "name": "view-transition-class",
@@ -24410,7 +24413,7 @@
             "dfnName": "<pt-name-and-class-selector>",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 678
+                "line": 679
             },
             "value": "<pt-name-selector> <pt-class-selector>? | <pt-class-selector>"
         },
@@ -24420,7 +24423,7 @@
             "dfnName": "<pt-class-selector>",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 679
+                "line": 680
             },
             "value": "['.' <custom-ident>]+"
         },
@@ -25580,7 +25583,7 @@
             "type": "idl",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 438
+                "line": 439
             },
             "content": "partial interface CSSRule {\n    const unsigned short VIEW_TRANSITION_RULE = 15;\n};"
         },
@@ -25588,7 +25591,7 @@
             "type": "idl",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 446
+                "line": 447
             },
             "content": "enum ViewTransitionNavigation { \"auto\", \"none\" };\n[Exposed=Window]\ninterface CSSViewTransitionRule : CSSRule {\n    readonly attribute ViewTransitionNavigation navigation;\n    [SameObject] readonly attribute FrozenArray<CSSOMString> types;\n};"
         },
@@ -25596,7 +25599,7 @@
             "type": "idl",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 541
+                "line": 542
             },
             "content": "[Exposed=Window]\ninterface ViewTransitionTypeSet {\n    setlike<DOMString>;\n};\n[Exposed=Window]\npartial interface ViewTransition {\n    attribute ViewTransitionTypeSet types;\n};"
         },
@@ -25604,7 +25607,7 @@
             "type": "idl",
             "source": {
                 "spec": "css-view-transitions-2",
-                "line": 701
+                "line": 702
             },
             "content": "dictionary StartViewTransitionOptions {\n    UpdateCallback? update = null;\n    sequence<DOMString>? types = null;\n};\npartial interface Document {\n    ViewTransition startViewTransition(optional (UpdateCallback or StartViewTransitionOptions) callbackOptions = {});\n};"
         },
