@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "f62c43823f27926efeadfea7945487a6126a7bb8",
-        "commitShort": "f62c43823f",
-        "commitDate": "2024-05-09T20:29:47.000Z",
-        "checkDate": "2024-05-13T00:47:24.972Z",
+        "commit": "6c795c0cb5f62142fc9c64016af88df9a35d3c97",
+        "commitShort": "6c795c0cb5",
+        "commitDate": "2024-05-13T18:53:46.000Z",
+        "checkDate": "2024-05-14T00:45:57.403Z",
         "branch": "main"
     },
     "specs": [
@@ -5587,7 +5587,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-backgrounds-3",
-                "line": 2281
+                "line": 2282
             },
             "props": {
                 "name": "border-image-repeat",
@@ -5605,7 +5605,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-backgrounds-3",
-                "line": 2416
+                "line": 2417
             },
             "props": {
                 "name": "border-image",
@@ -5623,7 +5623,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-backgrounds-3",
-                "line": 2459
+                "line": 2460
             },
             "props": {
                 "name": "box-shadow",
@@ -20721,7 +20721,7 @@
             "dfnName": "<<shadow>>",
             "source": {
                 "spec": "css-backgrounds-3",
-                "line": 2487
+                "line": 2488
             },
             "value": "<color>? && [<length>{2} <length [0,∞]>? <length>?] && inset?"
         },
