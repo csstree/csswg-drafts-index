@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "6c795c0cb5f62142fc9c64016af88df9a35d3c97",
-        "commitShort": "6c795c0cb5",
-        "commitDate": "2024-05-13T18:53:46.000Z",
-        "checkDate": "2024-05-14T00:45:57.403Z",
+        "commit": "938e313901c66512dd4907604d66ca8604c7ad96",
+        "commitShort": "938e313901",
+        "commitDate": "2024-05-14T20:15:10.000Z",
+        "checkDate": "2024-05-15T00:45:53.707Z",
         "branch": "main"
     },
     "specs": [
@@ -13876,7 +13876,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 541
+                "line": 543
             },
             "props": {
                 "name": "scroll-start-x",
@@ -13895,7 +13895,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 541
+                "line": 543
             },
             "props": {
                 "name": "scroll-start-y",
@@ -13914,7 +13914,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 558
+                "line": 560
             },
             "props": {
                 "name": "scroll-start-inline",
@@ -13933,7 +13933,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 558
+                "line": 560
             },
             "props": {
                 "name": "scroll-start-block",
@@ -13952,7 +13952,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 574
+                "line": 576
             },
             "props": {
                 "name": "scroll-start-target-block",
@@ -13971,7 +13971,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 574
+                "line": 576
             },
             "props": {
                 "name": "scroll-start-target-inline",
@@ -13990,7 +13990,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 591
+                "line": 593
             },
             "props": {
                 "name": "scroll-start-target-x",
@@ -14009,7 +14009,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-scroll-snap-2",
-                "line": 591
+                "line": 593
             },
             "props": {
                 "name": "scroll-start-target-y",
@@ -25522,6 +25522,14 @@
                 "line": 484
             },
             "content": "dictionary SnapEventInit : EventInit {\n    Node? snapTargetBlock;\n    Node? snapTargetInline;\n};\n[Exposed=Window]\ninterface SnapEvent : Event {\n    constructor(DOMString type, optional SnapEventInit eventInitDict = {});\n    readonly attribute Node? snapTargetBlock;\n    readonly attribute Node? snapTargetInline;\n};"
+        },
+        {
+            "type": "idl",
+            "source": {
+                "spec": "css-scroll-snap-2",
+                "line": 643
+            },
+            "content": "partial interface mixin GlobalEventHandlers {\n    attribute EventHandler onsnapchanged;\n    attribute EventHandler onsnapchanging;\n};"
         },
         {
             "type": "idl",
