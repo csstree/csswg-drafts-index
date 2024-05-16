@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "938e313901c66512dd4907604d66ca8604c7ad96",
-        "commitShort": "938e313901",
-        "commitDate": "2024-05-14T20:15:10.000Z",
-        "checkDate": "2024-05-15T00:45:53.707Z",
+        "commit": "9448b555936096bd9c0e4846e54b6143cd49b1f1",
+        "commitShort": "9448b55593",
+        "commitDate": "2024-05-15T22:36:58.000Z",
+        "checkDate": "2024-05-16T00:46:00.540Z",
         "branch": "main"
     },
     "specs": [
@@ -3351,7 +3351,8 @@
                 "group": "csswg",
                 "workStatus": "Revising",
                 "editor": [
-                    "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241"
+                    "Florian Rivoal, On behalf of Bloomberg, https://florian.rivoal.net/, w3cid 43241",
+                    "Tab Atkins-Bittner, Google, http://xanthir.com/contact/, w3cid 42199"
                 ],
                 "abstract": "This specification describes user interface related\nproperties and values to style HTML and XML (including XHTML).\nIt includes and extends user interface related features\nfrom the properties and values of previous CSS levels.\nIt uses various properties and values\nto style basic user interface elements in a document.",
                 "atRisk": "Applicability of 'user-select' to ''::before'' and ''::after''",
@@ -4488,8 +4489,8 @@
             },
             "props": {
                 "name": "position-anchor",
-                "value": "<anchor-element>",
-                "initial": "implicit",
+                "value": "auto | <anchor-element>",
+                "initial": "auto",
                 "appliesTo": "[=absolutely positioned=] elements",
                 "inherited": "no",
                 "animationType": "discrete"
@@ -4500,7 +4501,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 496
+                "line": 500
             },
             "props": {
                 "name": "inset-area",
@@ -4516,7 +4517,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 883
+                "line": 891
             },
             "props": {
                 "name": "justify-self",
@@ -4528,7 +4529,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 883
+                "line": 891
             },
             "props": {
                 "name": "align-self",
@@ -4540,7 +4541,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 883
+                "line": 891
             },
             "props": {
                 "name": "justify-items",
@@ -4552,7 +4553,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 883
+                "line": 891
             },
             "props": {
                 "name": "align-items",
@@ -4564,7 +4565,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1073
+                "line": 1081
             },
             "props": {
                 "name": "position-visibility",
@@ -4581,7 +4582,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1330
+                "line": 1338
             },
             "props": {
                 "name": "position-try-options",
@@ -4597,7 +4598,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1546
+                "line": 1554
             },
             "props": {
                 "name": "position-try-order",
@@ -4613,7 +4614,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1630
+                "line": 1638
             },
             "props": {
                 "name": "position-try-final",
@@ -4629,7 +4630,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1684
+                "line": 1692
             },
             "props": {
                 "name": "position-try",
@@ -4641,7 +4642,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1965
+                "line": 1975
             },
             "props": {
                 "name": "position-animation",
@@ -15274,7 +15275,7 @@
                 "appliesTo": "block containers",
                 "inherited": "yes",
                 "canonicalOrder": "n/a",
-                "computedValue": "specified keyword",
+                "computedValue": "keyword as specified, except for match-parent which computes as defined above",
                 "animationType": "discrete"
             },
             "name": "text-align-last"
@@ -15815,7 +15816,7 @@
                 "appliesTo": "block containers",
                 "inherited": "yes",
                 "canonicalOrder": "n/a",
-                "computedValue": "specified keyword",
+                "computedValue": "keyword as specified, except for match-parent which computes as defined above",
                 "animationType": "discrete"
             },
             "name": "text-align-last"
@@ -16948,7 +16949,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 280
+                "line": 281
             },
             "props": {
                 "name": "outline",
@@ -16963,7 +16964,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 367
+                "line": 368
             },
             "props": {
                 "name": "outline-width",
@@ -16981,7 +16982,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 387
+                "line": 388
             },
             "props": {
                 "name": "outline-style",
@@ -16999,7 +17000,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 431
+                "line": 432
             },
             "props": {
                 "name": "outline-color",
@@ -17017,7 +17018,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 479
+                "line": 480
             },
             "props": {
                 "name": "outline-offset",
@@ -17035,7 +17036,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 535
+                "line": 536
             },
             "props": {
                 "name": "resize",
@@ -17053,7 +17054,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 675
+                "line": 676
             },
             "props": {
                 "name": "cursor",
@@ -17071,7 +17072,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1079
+                "line": 1080
             },
             "props": {
                 "name": "caret-color",
@@ -17089,7 +17090,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1133
+                "line": 1134
             },
             "props": {
                 "name": "caret-animation",
@@ -17107,7 +17108,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1255
+                "line": 1256
             },
             "props": {
                 "name": "caret-shape",
@@ -17125,7 +17126,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1420
+                "line": 1421
             },
             "props": {
                 "name": "caret",
@@ -17141,7 +17142,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1486
+                "line": 1487
             },
             "props": {
                 "name": "nav-up",
@@ -17159,7 +17160,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1486
+                "line": 1487
             },
             "props": {
                 "name": "nav-right",
@@ -17177,7 +17178,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1486
+                "line": 1487
             },
             "props": {
                 "name": "nav-down",
@@ -17195,7 +17196,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1486
+                "line": 1487
             },
             "props": {
                 "name": "nav-left",
@@ -17213,7 +17214,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1659
+                "line": 1660
             },
             "props": {
                 "name": "user-select",
@@ -17230,7 +17231,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1916
+                "line": 1917
             },
             "props": {
                 "name": "pointer-events",
@@ -17249,7 +17250,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 1976
+                "line": 1977
             },
             "props": {
                 "name": "accent-color",
@@ -17268,7 +17269,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 2104
+                "line": 2105
             },
             "props": {
                 "name": "appearance",
@@ -17285,7 +17286,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 2484
+                "line": 2485
             },
             "props": {
                 "name": "field-sizing",
@@ -17304,7 +17305,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-ui-4",
-                "line": 2553
+                "line": 2554
             },
             "props": {
                 "name": "input-security",
@@ -20455,7 +20456,7 @@
             "dfnName": "<inset-area>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 515
+                "line": 519
             },
             "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | span-all ]\n|\n    [ self-block-start | self-block-end | span-self-block-start | span-self-block-end | span-all ]\n    ||\n    [ self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
         },
@@ -20465,9 +20466,9 @@
             "dfnName": "<<anchor-element>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 708
+                "line": 717
             },
-            "value": "<dashed-ident> | implicit"
+            "value": "<dashed-ident>"
         },
         {
             "type": "prod",
@@ -20475,7 +20476,7 @@
             "dfnName": "<<anchor-side>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 709
+                "line": 718
             },
             "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
         },
@@ -20485,7 +20486,7 @@
             "dfnName": "<<anchor-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1233
+                "line": 1241
             },
             "value": "width | height | block | inline | self-block | self-inline"
         },
@@ -20495,7 +20496,7 @@
             "dfnName": "<<try-tactic>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1378
+                "line": 1386
             },
             "attrs": {
                 "type": true
@@ -20508,7 +20509,7 @@
             "dfnName": "<<try-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1559
+                "line": 1567
             },
             "attrs": {
                 "type": true
@@ -25847,7 +25848,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1123
+                "line": 1121
             },
             "content": "[Exposed=Window]\ninterface CaretPosition {\n  readonly attribute Node offsetNode;\n  readonly attribute unsigned long offset;\n  [NewObject] DOMRect? getClientRect();\n};"
         },
@@ -25855,7 +25856,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1157
+                "line": 1152
             },
             "content": "enum ScrollLogicalPosition { \"start\", \"center\", \"end\", \"nearest\" };\ndictionary ScrollIntoViewOptions : ScrollOptions {\n  ScrollLogicalPosition block = \"start\";\n  ScrollLogicalPosition inline = \"nearest\";\n};\ndictionary CheckVisibilityOptions {\n    boolean checkOpacity = false;\n    boolean checkVisibilityCSS = false;\n    boolean contentVisibilityAuto = false;\n    boolean opacityProperty = false;\n    boolean visibilityProperty = false;\n};\npartial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n  readonly attribute double currentCSSZoom;\n};"
         },
@@ -25863,7 +25864,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1541
+                "line": 1536
             },
             "content": "partial interface HTMLElement {\n  readonly attribute Element? offsetParent;\n  readonly attribute long offsetTop;\n  readonly attribute long offsetLeft;\n  readonly attribute long offsetWidth;\n  readonly attribute long offsetHeight;\n};"
         },
@@ -25871,7 +25872,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1616
+                "line": 1611
             },
             "content": "partial interface HTMLImageElement {\n  readonly attribute long x;\n  readonly attribute long y;\n};"
         },
@@ -25879,7 +25880,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1634
+                "line": 1629
             },
             "content": "partial interface Range {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n};"
         },
@@ -25887,7 +25888,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1677
+                "line": 1672
             },
             "content": "partial interface MouseEvent {\n  readonly attribute double screenX;\n  readonly attribute double screenY;\n  readonly attribute double pageX;\n  readonly attribute double pageY;\n  readonly attribute double clientX;\n  readonly attribute double clientY;\n  readonly attribute double x;\n  readonly attribute double y;\n  readonly attribute double offsetX;\n  readonly attribute double offsetY;\n};\npartial dictionary MouseEventInit {\n  double screenX = 0.0;\n  double screenY = 0.0;\n  double clientX = 0.0;\n  double clientY = 0.0;\n};"
         },
@@ -25895,7 +25896,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1746
+                "line": 1741
             },
             "content": "enum CSSBoxType { \"margin\", \"border\", \"padding\", \"content\" };\ndictionary BoxQuadOptions {\n  CSSBoxType box = \"border\";\n  GeometryNode relativeTo; // XXX default document (i.e. viewport)\n};\ndictionary ConvertCoordinateOptions {\n  CSSBoxType fromBox = \"border\";\n  CSSBoxType toBox = \"border\";\n};\ninterface mixin GeometryUtils {\n  sequence&lt;DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};\nText includes GeometryUtils; // like Range\nElement includes GeometryUtils;\nCSSPseudoElement includes GeometryUtils;\nDocument includes GeometryUtils;\ntypedef (Text or Element or CSSPseudoElement or Document) GeometryNode;"
         },
@@ -25903,7 +25904,7 @@
             "type": "idl",
             "source": {
                 "spec": "cssom-view-1",
-                "line": 1819
+                "line": 1814
             },
             "content": "[Exposed=Window]\ninterface VisualViewport : EventTarget {\n  readonly attribute double offsetLeft;\n  readonly attribute double offsetTop;\n  readonly attribute double pageLeft;\n  readonly attribute double pageTop;\n  readonly attribute double width;\n  readonly attribute double height;\n  readonly attribute double scale;\n  attribute EventHandler onresize;\n  attribute EventHandler onscroll;\n  attribute EventHandler onscrollend;\n};"
         },
@@ -26231,7 +26232,7 @@
             "type": "idl",
             "source": {
                 "spec": "web-animations-2",
-                "line": 3163
+                "line": 3166
             },
             "content": "partial dictionary KeyframeEffectOptions {\n    IterationCompositeOperation iterationComposite = \"replace\";\n};"
         },
@@ -26239,7 +26240,7 @@
             "type": "idl",
             "source": {
                 "spec": "web-animations-2",
-                "line": 3181
+                "line": 3184
             },
             "content": "enum IterationCompositeOperation { \"replace\", \"accumulate\" };"
         },
@@ -26247,7 +26248,7 @@
             "type": "idl",
             "source": {
                 "spec": "web-animations-2",
-                "line": 3205
+                "line": 3208
             },
             "content": "callback EffectCallback = undefined (double? progress,\n(Element or CSSPseudoElement) currentTarget,\nAnimation animation);"
         },
@@ -26255,7 +26256,7 @@
             "type": "idl",
             "source": {
                 "spec": "web-animations-2",
-                "line": 3270
+                "line": 3273
             },
             "content": "dictionary TimelineRangeOffset {\n  CSSOMString? rangeName;\n  CSSNumericValue offset;\n};\npartial dictionary KeyframeAnimationOptions {\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeStart = \"normal\";\n    (TimelineRangeOffset or CSSNumericValue or CSSKeywordValue or DOMString) rangeEnd = \"normal\";\n};"
         },
@@ -26263,7 +26264,7 @@
             "type": "idl",
             "source": {
                 "spec": "web-animations-2",
-                "line": 3319
+                "line": 3324
             },
             "content": "[Exposed=Window]\ninterface AnimationPlaybackEvent : Event {\n    constructor(DOMString type, optional AnimationPlaybackEventInit\n    eventInitDict = {});\n    readonly attribute CSSNumberish? currentTime;\n    readonly attribute CSSNumberish? timelineTime;\n};\ndictionary AnimationPlaybackEventInit : EventInit {\n    CSSNumberish? currentTime = null;\n    CSSNumberish? timelineTime = null;\n};"
         },
