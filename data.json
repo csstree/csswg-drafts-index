@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "3d3cf7a0daadb569a846ec959e0e694120469362",
-        "commitShort": "3d3cf7a0da",
-        "commitDate": "2024-05-17T07:35:23.000Z",
-        "checkDate": "2024-05-18T00:45:20.382Z",
+        "commit": "62e119dbe1b15c2ba1d67e760553bd86734cda94",
+        "commitShort": "62e119dbe1",
+        "commitDate": "2024-05-17T17:45:40.000Z",
+        "checkDate": "2024-05-19T00:50:44.859Z",
         "branch": "main"
     },
     "specs": [
@@ -20963,7 +20963,7 @@
                 "spec": "css-color-4",
                 "line": 1275
             },
-            "value": "rgb( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
+            "value": "rgb(\n[ <number> | <percentage> | none]{3}\n[ / [<alpha-value> | none] ]?  )"
         },
         {
             "type": "prod",
@@ -20973,7 +20973,7 @@
                 "spec": "css-color-4",
                 "line": 1278
             },
-            "value": "rgba( \n[ <number> | <percentage> | none]{3} \n[ / [<alpha-value> | none] ]?  )"
+            "value": "rgba(\n[ <number> | <percentage> | none]{3}\n[ / [<alpha-value> | none] ]?  )"
         },
         {
             "type": "prod",
@@ -21003,7 +21003,7 @@
                 "spec": "css-color-4",
                 "line": 2126
             },
-            "value": "hsl( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
+            "value": "hsl(\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
         },
         {
             "type": "prod",
@@ -21013,7 +21013,7 @@
                 "spec": "css-color-4",
                 "line": 2131
             },
-            "value": "hsla( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
+            "value": "hsla(\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
         },
         {
             "type": "prod",
@@ -21043,7 +21043,7 @@
                 "spec": "css-color-4",
                 "line": 2669
             },
-            "value": "hwb( \n[<hue> | none] \n[<percentage> | <number> | none] \n[<percentage> | <number> | none] \n[ / [<alpha-value> | none] ]? )"
+            "value": "hwb(\n[<hue> | none]\n[<percentage> | <number> | none]\n[<percentage> | <number> | none]\n[ / [<alpha-value> | none] ]? )"
         },
         {
             "type": "prod",
