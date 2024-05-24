@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "5e2c593fe7cc43e20904d1b212ea35db89621203",
-        "commitShort": "5e2c593fe7",
-        "commitDate": "2024-05-21T08:16:26.000Z",
-        "checkDate": "2024-05-23T00:46:15.994Z",
+        "commit": "a1e53bb40bb56840f1ea3c0facdeabbb7e4d4ea7",
+        "commitShort": "a1e53bb40b",
+        "commitDate": "2024-05-23T22:17:35.000Z",
+        "checkDate": "2024-05-24T00:46:33.080Z",
         "branch": "main"
     },
     "specs": [
@@ -4485,7 +4485,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 403
+                "line": 410
             },
             "props": {
                 "name": "position-anchor",
@@ -4501,7 +4501,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 500
+                "line": 507
             },
             "props": {
                 "name": "inset-area",
@@ -4517,7 +4517,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 891
+                "line": 898
             },
             "props": {
                 "name": "justify-self",
@@ -4529,7 +4529,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 891
+                "line": 898
             },
             "props": {
                 "name": "align-self",
@@ -4541,7 +4541,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 891
+                "line": 898
             },
             "props": {
                 "name": "justify-items",
@@ -4553,7 +4553,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 891
+                "line": 898
             },
             "props": {
                 "name": "align-items",
@@ -4565,7 +4565,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1081
+                "line": 1088
             },
             "props": {
                 "name": "position-visibility",
@@ -4582,7 +4582,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1338
+                "line": 1345
             },
             "props": {
                 "name": "position-try-options",
@@ -4598,7 +4598,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1554
+                "line": 1561
             },
             "props": {
                 "name": "position-try-order",
@@ -4614,7 +4614,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1638
+                "line": 1645
             },
             "props": {
                 "name": "position-try-final",
@@ -4630,7 +4630,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1692
+                "line": 1699
             },
             "props": {
                 "name": "position-try",
@@ -4642,7 +4642,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1975
+                "line": 1982
             },
             "props": {
                 "name": "position-animation",
@@ -20456,7 +20456,7 @@
             "dfnName": "<inset-area>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 519
+                "line": 526
             },
             "value": "[\n    [ left | center | right | span-left | span-right\n    | x-start | x-end | span-x-start | span-x-end\n    | x-self-start | x-self-end | span-x-self-start | span-x-self-end\n    | span-all ]\n    ||\n    [ top | center | bottom | span-top | span-bottom\n    | y-start | y-end | span-y-start | span-y-end\n    | y-self-start | y-self-end | span-y-self-start | span-y-self-end\n    | span-all ]\n|\n    [ block-start | center | block-end | span-block-start | span-block-end | span-all ]\n    ||\n    [ inline-start | center | inline-end | span-inline-start | span-inline-end\n    | span-all ]\n|\n    [ self-block-start | self-block-end | span-self-block-start | span-self-block-end | span-all ]\n    ||\n    [ self-inline-start | self-inline-end | span-self-inline-start | span-self-inline-end | span-all ]\n|\n    [ start | center | end | span-start | span-end | span-all ]{1,2}\n|\n    [ self-start | center | self-end | span-self-start | span-self-end | span-all ]{1,2}\n]"
         },
@@ -20466,7 +20466,7 @@
             "dfnName": "<<anchor-element>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 717
+                "line": 724
             },
             "value": "<dashed-ident>"
         },
@@ -20476,7 +20476,7 @@
             "dfnName": "<<anchor-side>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 718
+                "line": 725
             },
             "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
         },
@@ -20486,7 +20486,7 @@
             "dfnName": "<<anchor-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1241
+                "line": 1248
             },
             "value": "width | height | block | inline | self-block | self-inline"
         },
@@ -20496,7 +20496,7 @@
             "dfnName": "<<try-tactic>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1386
+                "line": 1393
             },
             "attrs": {
                 "type": true
@@ -20509,7 +20509,7 @@
             "dfnName": "<<try-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1567
+                "line": 1574
             },
             "attrs": {
                 "type": true
