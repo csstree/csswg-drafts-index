@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "6b3a79f1d308aa72c42071f83ceea494b163db7b",
-        "commitShort": "6b3a79f1d3",
-        "commitDate": "2024-05-27T11:57:00.000Z",
-        "checkDate": "2024-05-28T00:46:59.747Z",
+        "commit": "bc815b4fc42cb14574693b8eff07a729f3ab387d",
+        "commitShort": "bc815b4fc4",
+        "commitDate": "2024-05-28T23:39:58.000Z",
+        "checkDate": "2024-05-29T00:51:34.601Z",
         "branch": "main"
     },
     "specs": [
@@ -24376,7 +24376,7 @@
                 "spec": "css-values-5",
                 "line": 1720
             },
-            "value": "[ <intrinsic-size-keyword> | <calc-size()> | any | <calc-sum> ]"
+            "value": "[ <intrinsic-size-keyword> | percentage | <calc-size()> | any | <calc-sum> ]"
         },
         {
             "type": "prod",
