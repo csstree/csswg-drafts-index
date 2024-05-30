@@ -1,10 +1,10 @@
 {
     "source": {
         "home": "https://github.com/w3c/csswg-drafts/",
-        "commit": "bc815b4fc42cb14574693b8eff07a729f3ab387d",
-        "commitShort": "bc815b4fc4",
-        "commitDate": "2024-05-28T23:39:58.000Z",
-        "checkDate": "2024-05-29T00:51:34.601Z",
+        "commit": "e0a332989bffe66a13d5bb35cbcf038267d189e8",
+        "commitShort": "e0a332989b",
+        "commitDate": "2024-05-29T21:05:25.000Z",
+        "checkDate": "2024-05-30T00:47:05.748Z",
         "branch": "main"
     },
     "specs": [
@@ -3044,7 +3044,7 @@
                 "ed": "https://drafts.csswg.org/css-text-4/",
                 "tr": "https://www.w3.org/TR/css-text-4/",
                 "previousVersion": [
-                    "https://www.w3.org/TR/2024/WD-css-text-4-20240219/"
+                    "https://www.w3.org/TR/2024/WD-css-text-4-20240529/"
                 ],
                 "editor": [
                     "Elika J. Etemad / fantasai, Apple, http://fantasai.inkedblade.net/contact, w3cid 35400",
@@ -4236,7 +4236,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 909
+                "line": 945
             },
             "props": {
                 "name": "align-content",
@@ -4254,7 +4254,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 920
+                "line": 956
             },
             "props": {
                 "name": "justify-content",
@@ -4272,7 +4272,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1090
+                "line": 1126
             },
             "props": {
                 "name": "place-content",
@@ -4290,7 +4290,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1293
+                "line": 1329
             },
             "props": {
                 "name": "justify-self",
@@ -4308,7 +4308,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1519
+                "line": 1555
             },
             "props": {
                 "name": "align-self",
@@ -4326,7 +4326,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1709
+                "line": 1745
             },
             "props": {
                 "name": "place-self",
@@ -4344,7 +4344,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1871
+                "line": 1907
             },
             "props": {
                 "name": "justify-items",
@@ -4362,7 +4362,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1908
+                "line": 1944
             },
             "props": {
                 "name": "align-items",
@@ -4380,7 +4380,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1928
+                "line": 1964
             },
             "props": {
                 "name": "place-items",
@@ -4398,7 +4398,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1976
+                "line": 2012
             },
             "props": {
                 "name": "row-gap",
@@ -4416,7 +4416,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 1976
+                "line": 2012
             },
             "props": {
                 "name": "column-gap",
@@ -4434,7 +4434,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-align-3",
-                "line": 2065
+                "line": 2101
             },
             "props": {
                 "name": "gap",
@@ -4517,7 +4517,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 898
+                "line": 926
             },
             "props": {
                 "name": "justify-self",
@@ -4529,7 +4529,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 898
+                "line": 926
             },
             "props": {
                 "name": "align-self",
@@ -4541,7 +4541,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 898
+                "line": 926
             },
             "props": {
                 "name": "justify-items",
@@ -4553,7 +4553,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 898
+                "line": 926
             },
             "props": {
                 "name": "align-items",
@@ -4565,7 +4565,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1088
+                "line": 1118
             },
             "props": {
                 "name": "position-visibility",
@@ -4582,11 +4582,11 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1345
+                "line": 1381
             },
             "props": {
                 "name": "position-try-options",
-                "value": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
+                "value": "none | [ [<dashed-ident> || <try-tactic>] | <'inset-area'> ]#",
                 "initial": "none",
                 "inherited": "no",
                 "appliesTo": "[=absolutely-positioned=] elements",
@@ -4598,7 +4598,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1561
+                "line": 1597
             },
             "props": {
                 "name": "position-try-order",
@@ -4614,7 +4614,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1645
+                "line": 1681
             },
             "props": {
                 "name": "position-try-final",
@@ -4630,7 +4630,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1699
+                "line": 1735
             },
             "props": {
                 "name": "position-try",
@@ -4642,7 +4642,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1982
+                "line": 2018
             },
             "props": {
                 "name": "position-animation",
@@ -12813,7 +12813,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "top",
@@ -12832,7 +12832,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "right",
@@ -12851,7 +12851,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "bottom",
@@ -12870,7 +12870,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "left",
@@ -12889,7 +12889,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "inset-block-start",
@@ -12908,7 +12908,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "inset-inline-start",
@@ -12927,7 +12927,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "inset-block-end",
@@ -12946,7 +12946,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 419
+                "line": 444
             },
             "props": {
                 "name": "inset-inline-end",
@@ -12965,7 +12965,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 471
+                "line": 496
             },
             "props": {
                 "name": "inset-block",
@@ -12983,7 +12983,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 471
+                "line": 496
             },
             "props": {
                 "name": "inset-inline",
@@ -13001,7 +13001,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-position-3",
-                "line": 491
+                "line": 516
             },
             "props": {
                 "name": "inset",
@@ -15380,7 +15380,7 @@
             },
             "props": {
                 "name": "text-transform",
-                "value": "none | [capitalize | uppercase | lowercase ] || full-width || full-size-kana",
+                "value": "none | [capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
                 "initial": "none",
                 "appliesTo": "text",
                 "inherited": "yes",
@@ -15394,7 +15394,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 976
+                "line": 986
             },
             "props": {
                 "name": "word-space-transform",
@@ -15412,7 +15412,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 1410
+                "line": 1420
             },
             "props": {
                 "name": "white-space",
@@ -15430,7 +15430,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 1831
+                "line": 1841
             },
             "props": {
                 "name": "white-space-collapse",
@@ -15448,7 +15448,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 2786
+                "line": 2796
             },
             "props": {
                 "name": "white-space-trim",
@@ -15466,7 +15466,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 4051
+                "line": 4061
             },
             "props": {
                 "name": "tab-size",
@@ -15484,7 +15484,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 4166
+                "line": 4176
             },
             "props": {
                 "name": "text-wrap-mode",
@@ -15502,7 +15502,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 5331
+                "line": 5341
             },
             "props": {
                 "name": "wrap-inside",
@@ -15520,7 +15520,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 5421
+                "line": 5431
             },
             "props": {
                 "name": "wrap-before",
@@ -15538,7 +15538,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 5421
+                "line": 5431
             },
             "props": {
                 "name": "wrap-after",
@@ -15556,7 +15556,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 5492
+                "line": 5502
             },
             "props": {
                 "name": "text-wrap-style",
@@ -15574,7 +15574,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 5653
+                "line": 5667
             },
             "props": {
                 "name": "text-wrap",
@@ -15592,7 +15592,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 6326
+                "line": 6340
             },
             "props": {
                 "name": "word-break",
@@ -15610,7 +15610,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 7045
+                "line": 7059
             },
             "props": {
                 "name": "line-break",
@@ -15628,7 +15628,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 7686
+                "line": 7700
             },
             "props": {
                 "name": "hyphens",
@@ -15646,7 +15646,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 7904
+                "line": 7918
             },
             "props": {
                 "name": "hyphenate-character",
@@ -15664,7 +15664,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 7983
+                "line": 7997
             },
             "props": {
                 "name": "hyphenate-limit-zone",
@@ -15682,7 +15682,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8014
+                "line": 8028
             },
             "props": {
                 "name": "hyphenate-limit-chars",
@@ -15700,7 +15700,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8076
+                "line": 8090
             },
             "props": {
                 "name": "hyphenate-limit-lines",
@@ -15718,7 +15718,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8096
+                "line": 8110
             },
             "props": {
                 "name": "hyphenate-limit-last",
@@ -15736,7 +15736,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8180
+                "line": 8194
             },
             "props": {
                 "name": "overflow-wrap",
@@ -15754,7 +15754,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8180
+                "line": 8194
             },
             "props": {
                 "name": "word-wrap",
@@ -15772,7 +15772,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8405
+                "line": 8419
             },
             "props": {
                 "name": "text-align",
@@ -15789,7 +15789,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8902
+                "line": 8916
             },
             "props": {
                 "name": "text-align-all",
@@ -15807,7 +15807,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 8941
+                "line": 8955
             },
             "props": {
                 "name": "text-align-last",
@@ -15825,7 +15825,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 9039
+                "line": 9053
             },
             "props": {
                 "name": "text-justify",
@@ -15843,7 +15843,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 9509
+                "line": 9523
             },
             "props": {
                 "name": "text-group-align",
@@ -15861,7 +15861,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 9661
+                "line": 9675
             },
             "props": {
                 "name": "word-spacing",
@@ -15880,7 +15880,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 9859
+                "line": 9873
             },
             "props": {
                 "name": "letter-spacing",
@@ -15899,7 +15899,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 10308
+                "line": 10322
             },
             "props": {
                 "name": "line-padding",
@@ -15917,7 +15917,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 10366
+                "line": 10380
             },
             "props": {
                 "name": "text-autospace",
@@ -15935,7 +15935,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 10531
+                "line": 10545
             },
             "props": {
                 "name": "text-spacing-trim",
@@ -15953,7 +15953,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 11111
+                "line": 11130
             },
             "props": {
                 "name": "text-spacing",
@@ -15971,7 +15971,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 11312
+                "line": 11331
             },
             "props": {
                 "name": "text-indent",
@@ -15990,7 +15990,7 @@
             "type": "prop",
             "source": {
                 "spec": "css-text-4",
-                "line": 11712
+                "line": 11731
             },
             "props": {
                 "name": "hanging-punctuation",
@@ -20436,7 +20436,7 @@
             "dfnName": "<content-distribution>",
             "source": {
                 "spec": "css-align-3",
-                "line": 774
+                "line": 775
             },
             "value": "space-between | space-around | space-evenly | stretch"
         },
@@ -20446,7 +20446,7 @@
             "dfnName": "<overflow-position>",
             "source": {
                 "spec": "css-align-3",
-                "line": 852
+                "line": 854
             },
             "value": "unsafe | safe"
         },
@@ -20466,7 +20466,7 @@
             "dfnName": "<<anchor-element>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 724
+                "line": 752
             },
             "value": "<dashed-ident>"
         },
@@ -20476,7 +20476,7 @@
             "dfnName": "<<anchor-side>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 725
+                "line": 753
             },
             "value": "inside | outside\n| top | left | right | bottom\n| start | end | self-start | self-end\n| <percentage> | center"
         },
@@ -20486,7 +20486,7 @@
             "dfnName": "<<anchor-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1248
+                "line": 1278
             },
             "value": "width | height | block | inline | self-block | self-inline"
         },
@@ -20496,7 +20496,7 @@
             "dfnName": "<<try-tactic>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1393
+                "line": 1429
             },
             "attrs": {
                 "type": true
@@ -20509,7 +20509,7 @@
             "dfnName": "<<try-size>>",
             "source": {
                 "spec": "css-anchor-position-1",
-                "line": 1574
+                "line": 1610
             },
             "attrs": {
                 "type": true
@@ -23773,7 +23773,7 @@
             "dfnName": "<<autospace>>",
             "source": {
                 "spec": "css-text-4",
-                "line": 10399
+                "line": 10413
             },
             "value": "no-autospace |\n[ ideograph-alpha || ideograph-numeric || punctuation ]\n|| [ insert | replace ]"
         },
@@ -23783,7 +23783,7 @@
             "dfnName": "<<spacing-trim>>",
             "source": {
                 "spec": "css-text-4",
-                "line": 10561
+                "line": 10575
             },
             "value": "space-all | normal | space-first | trim-start | trim-both | trim-all"
         },
